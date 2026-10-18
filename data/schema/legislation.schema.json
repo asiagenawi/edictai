@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://statescope.org/schema/legislation.schema.json",
+  "title": "Legislation",
+  "description": "A bill or resolution in a state legislature or Congress. Stored at data/legislation/{jurisdiction}/{session}/{bill-slug}.yaml. Status is not stored: it is derived from the dated actions at build time.",
+  "type": "object",
+  "required": ["id", "jurisdiction", "session", "identifier", "title", "classification", "education_levels", "topics", "summary", "actions", "sources", "verification"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/record_id",
+      "description": "{jurisdiction}-{session}-{bill-slug}, e.g. 'us-tx-2025-hb-1481'. Must match the file path."
+    },
+    "jurisdiction": { "$ref": "common.schema.json#/$defs/jurisdiction_id" },
+    "session": { "type": "string", "description": "Session identifier listed under sessions in data/jurisdictions/{jurisdiction}.yaml.", "x-ref": "session" },
+    "identifier": { "type": "string", "description": "Official bill number as written by the legislature, e.g. 'HB 1481', 'H.R. 610'." },
+    "title": { "type": "string", "description": "Official or short title." },
+    "classification": { "type": "string", "x-vocab": "legislation_classifications" },
+    "education_levels": { "$ref": "common.schema.json#/$defs/education_levels" },
+    "topics": { "$ref": "common.schema.json#/$defs/topics" },
+    "summary": { "type": "string", "description": "Plain-language summary written for a general audience." },
+    "abstract": { "type": "string", "description": "Official digest or synopsis, verbatim, when one exists." },
+    "provisions": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/provision" }
+    },
+    "sponsors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "primary"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "classification": { "type": "string", "enum": ["person", "committee"], "default": "person", "description": "Whether the sponsor is a legislator or a committee. Omitted means person." },
+          "primary": { "type": "boolean" },
+          "party": { "type": "string" },
+          "chamber": { "type": "string", "enum": ["lower", "upper"] },
+          "openstates_person_id": { "type": "string" }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Chronological legislative history, at least the introduction. Each action must be one the legislature recorded, dated no later than the day it is entered. Failure at the end of a session is derived from the session's end_date, so it is not entered as an action.",
+      "items": {
+        "type": "object",
+        "required": ["date", "description", "classification"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "$ref": "common.schema.json#/$defs/date" },
+          "description": { "type": "string", "description": "Action text as recorded by the legislature." },
+          "actor": { "type": "string", "x-vocab": "action_actors" },
+          "classification": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "x-vocab": "action_classifications" }
+          }
+        }
+      }
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["note", "url"],
+        "additionalProperties": false,
+        "properties": {
+          "note": { "type": "string", "description": "e.g. 'Introduced', 'Engrossed', 'Enrolled', 'Chaptered'." },
+          "date": { "$ref": "common.schema.json#/$defs/date" },
+          "url": { "$ref": "common.schema.json#/$defs/url" },
+          "archived_url": { "$ref": "common.schema.json#/$defs/url" },
+          "media_type": { "type": "string" }
+        }
+      }
+    },
+    "session_law": { "type": "string", "description": "Chapter or public act number once enacted, e.g. 'Public Act 104-0001'." },
+    "related": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "IDs of related records (companion bills, guidance it produced, etc.).",
+      "items": { "$ref": "common.schema.json#/$defs/record_id", "x-ref": "any" }
+    },
+    "external_ids": { "$ref": "common.schema.json#/$defs/external_ids" },
+    "sources": { "$ref": "common.schema.json#/$defs/sources" },
+    "verification": { "$ref": "common.schema.json#/$defs/verification" }
+  }
+}

@@ -1,0 +1,13 @@
+id: us-la
+ocd_id: "ocd-division/country:us/state:la"
+name: Louisiana
+abbreviation: LA
+classification: state
+fips: "22"
+region: Southeast
+sessions:
+  - identifier: "2025"
+    name: 2025 Regular Session
+    classification: primary
+    start_date: "2025-04-14"
+    end_date: "2025-06-12"

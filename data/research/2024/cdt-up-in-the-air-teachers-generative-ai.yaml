@@ -1,0 +1,51 @@
+id: 2024-cdt-up-in-the-air-teachers-generative-ai
+title: 'Up in the Air: Educators Juggling the Potential of Generative AI with Detection, Discipline, and Distrust'
+authors:
+  - Maddy Dwyer
+  - Elizabeth Laird
+publisher: Center for Democracy & Technology
+published: '2024-03-27'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - academic-integrity
+  - assessment
+  - educator-training
+  - equity-access
+summary: The Center for Democracy & Technology surveyed a nationally representative sample of middle and high school teachers in late 2023 about generative AI use, school policies, training, AI detection tools, and discipline. Teachers reported more school policies and training than the prior year, alongside heavy reliance on AI content detectors and more students disciplined over AI use.
+key_findings:
+  - finding: Eighty-five percent of teachers said their school had a policy that permits or bans generative AI for schoolwork, and 71 percent of them said it was their school's first such policy.
+    citation:
+      source_url: https://cdt.org/wp-content/uploads/2024/03/2024-03-21-CDT-Civic-Tech-Generative-AI-Survey-Research-final.pdf
+      locator: p. 10
+      quote: Eighty five percent of teachers say that their school has a policy that either generally permits (subject to some conditions or limits) or bans the use of ChatGPT, or other generative AI tools, for schoolwork.
+  - finding: Sixty-eight percent of teachers reported regularly using an AI content detection tool, a 30-point increase from the prior school year.
+    citation:
+      source_url: https://cdt.org/wp-content/uploads/2024/03/2024-03-21-CDT-Civic-Tech-Generative-AI-Survey-Research-final.pdf
+      locator: p. 13
+      quote: Sixty eight percent of teachers report using an AI content detection tool regularly, a 30 percentage point increase since last school year.
+  - finding: The share of teachers reporting that students at their school got in trouble for using or being accused of using generative AI rose from 48 percent in 2022-23 to 64 percent in 2023-24.
+    citation:
+      source_url: https://cdt.org/wp-content/uploads/2024/03/2024-03-21-CDT-Civic-Tech-Generative-AI-Survey-Research-final.pdf
+      locator: Figure 3, p. 16
+      quote: Since last school year, student discipline as a result of generative AI use has increased 16 percentage points
+methods: Online survey of a nationally representative sample of 460 6th-12th grade public school teachers fielded November-December 2023 by Edge Research, with quotas and weighting to national demographics; compared with CDT's 2022-23 surveys.
+sources:
+  - url: https://cdt.org/insights/report-up-in-the-air-educators-juggling-the-potential-of-generative-ai-with-detection-discipline-and-distrust/
+    title: 'Report – Up in the Air: Educators Juggling the Potential of Generative AI with Detection, Discipline, and Distrust'
+    publisher: Center for Democracy & Technology
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20240328081305/https://cdt.org/insights/report-up-in-the-air-educators-juggling-the-potential-of-generative-ai-with-detection-discipline-and-distrust/
+  - url: https://cdt.org/wp-content/uploads/2024/03/2024-03-21-CDT-Civic-Tech-Generative-AI-Survey-Research-final.pdf
+    title: Up in the Air (full report PDF)
+    publisher: Center for Democracy & Technology
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20240327222820/https://cdt.org/wp-content/uploads/2024/03/2024-03-21-CDT-Civic-Tech-Generative-AI-Survey-Research-final.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The CDT site returned HTTP 403 to automated requests; the report page and PDF were read from Wayback Machine captures of the official URLs.

@@ -1,0 +1,11 @@
+id: us-tx-tamus
+name: Texas A&M University System
+abbreviation: TAMUS
+classification: university-system
+jurisdiction: us-tx
+education_levels:
+  - postsecondary
+url: https://www.tamus.edu/
+watch_urls:
+  - https://www.tamus.edu/ai/
+  - https://www.cyber.tamus.edu/policy/guidelines/ai/

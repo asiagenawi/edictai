@@ -1,0 +1,8 @@
+id: us-ca-uc
+name: University of California
+abbreviation: UC
+classification: university-system
+jurisdiction: us-ca
+education_levels:
+  - postsecondary
+url: https://www.universityofcalifornia.edu/

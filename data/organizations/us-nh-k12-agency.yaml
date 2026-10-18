@@ -1,0 +1,8 @@
+id: us-nh-k12-agency
+name: New Hampshire Department of Education
+abbreviation: NHED
+classification: k12-agency
+jurisdiction: us-nh
+education_levels:
+  - k12
+url: https://www.education.nh.gov/

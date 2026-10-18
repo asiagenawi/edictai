@@ -1,0 +1,47 @@
+id: us-nv-nde-stellar-ai-guidance
+jurisdiction: us-nv
+issuer: us-nv-k12-agency
+title: "Nevada's STELLAR Pathway to AI Teaching and Learning: Ethics, Principles, and Guidance"
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - student-privacy
+  - equity-access
+  - educator-training
+  - local-policy-requirement
+summary: >-
+  The Nevada Department of Education's AI guidance, shaped by town halls and stakeholder
+  meetings held by the Nevada AI Alliance in early 2024, to help local education agencies
+  develop AI policies and use AI responsibly in schools. It is organized around the STELLAR
+  ethical-use principles (Security, Transparency, Empowerment, Learning, Leadership,
+  Achievement, Responsible Use) and includes best practices for districts, administrators,
+  teachers, parents, and students.
+published: "2025-04-21"
+sources:
+  - url: https://webapp-strapi-paas-prod-nde-001.azurewebsites.net/uploads/nevadas_stellar_pathway_to_ai_teaching_and_learning_bfaf0ec049.pdf
+    title: "Nevada's STELLAR Pathway to AI Teaching and Learning: Ethics, Principles, and Guidance"
+    publisher: Nevada Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261012005252/https://webapp-strapi-paas-prod-nde-001.azurewebsites.net/uploads/nevadas_stellar_pathway_to_ai_teaching_and_learning_bfaf0ec049.pdf
+  - url: https://doe.nv.gov/news-media/2025-press-releases/nevada-department-of-education-announces-release-of-ai-ethics-document
+    title: Nevada Department of Education Announces Release of AI Ethics Document
+    publisher: Nevada Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260307123821/https://doe.nv.gov/news-media/2025-press-releases/nevada-department-of-education-announces-release-of-ai-ethics-document
+  - url: https://doe.nv.gov/offices/office-of-teaching-and-learning/nevada-digital-learning
+    title: Nevada Digital Learning
+    publisher: Nevada Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260716204544/https://doe.nv.gov/offices/office-of-teaching-and-learning/nevada-digital-learning
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-document-text
+  notes: Release date from the department's April 21, 2025 press release, which says the document was released that Monday.

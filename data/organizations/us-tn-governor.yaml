@@ -1,0 +1,8 @@
+id: us-tn-governor
+name: Office of the Governor of Tennessee
+classification: governor
+jurisdiction: us-tn
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.tn.gov/governor.html

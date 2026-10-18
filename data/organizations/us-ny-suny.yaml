@@ -1,0 +1,11 @@
+id: us-ny-suny
+name: State University of New York
+abbreviation: SUNY
+classification: university-system
+jurisdiction: us-ny
+education_levels:
+  - postsecondary
+url: https://www.suny.edu/
+watch_urls:
+  - https://www.suny.edu/sunypp/documents.cfm?doc_id=933
+  - https://www.suny.edu/impact/research/priorities/ai/

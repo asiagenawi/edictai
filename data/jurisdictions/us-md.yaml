@@ -1,0 +1,18 @@
+id: us-md
+ocd_id: "ocd-division/country:us/state:md"
+name: Maryland
+abbreviation: MD
+classification: state
+fips: "24"
+region: Northeast
+sessions:
+  - identifier: "2025"
+    name: 2025 Regular Session
+    classification: primary
+    start_date: "2025-01-08"
+    end_date: "2025-04-07"
+  - identifier: "2026"
+    name: 2026 Regular Session
+    classification: primary
+    start_date: "2026-01-14"
+    end_date: "2026-04-13"

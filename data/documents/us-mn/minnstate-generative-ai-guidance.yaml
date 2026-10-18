@@ -1,0 +1,27 @@
+id: us-mn-minnstate-generative-ai-guidance
+jurisdiction: us-mn
+issuer: us-mn-minnstate
+title: 'Generative Artificial Intelligence: A Guidance Document on Policy Intersections, Considerations and Recommendations'
+classification: guidance
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - academic-integrity
+  - procurement
+  - data-governance
+summary: Minnesota State System Office guidance explaining how existing board policies and system procedures, such as those on copyright and acceptable use of technology, apply to generative AI; it states that it introduces no new directives. It also covers procurement of AI services and handling of sensitive data, and version 1.2 was updated March 31, 2025.
+published: '2024-03-04'
+sources:
+  - url: https://www.minnstate.edu/system/asa/innovations/docs/minnesota-state-generative-ai-guidance.pdf
+    title: 'Generative Artificial Intelligence: A guidance document on Policy Intersections, Considerations and Recommendations'
+    publisher: Minnesota State
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260516171324/https://www.minnstate.edu/system/asa/innovations/docs/minnesota-state-generative-ai-guidance.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Published date is the document's original publication date; version 1.2 is dated March 31, 2025.

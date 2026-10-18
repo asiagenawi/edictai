@@ -1,0 +1,10 @@
+id: us-sd-higher-ed-agency
+name: South Dakota Board of Regents
+abbreviation: SDBOR
+classification: higher-ed-agency
+jurisdiction: us-sd
+education_levels:
+  - postsecondary
+url: https://www.sdbor.edu/
+watch_urls:
+  - https://sdbor.edu/ai-ready/

@@ -1,0 +1,10 @@
+id: us-or-k12-agency
+name: Oregon Department of Education
+abbreviation: ODE
+classification: k12-agency
+jurisdiction: us-or
+education_levels:
+  - k12
+url: https://www.oregon.gov/ode/
+watch_urls:
+  - https://www.oregon.gov/ode/educator-resources/teachingcontent/pages/generative-artificial-intelligence-(ai)-for-k-12-schools.aspx

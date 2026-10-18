@@ -1,0 +1,7 @@
+id: us-dc
+ocd_id: "ocd-division/country:us/district:dc"
+name: District of Columbia
+abbreviation: DC
+classification: district
+fips: "11"
+region: Northeast

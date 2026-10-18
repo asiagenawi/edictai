@@ -1,0 +1,49 @@
+id: 2026-dec-ai-in-higher-education-global-survey-2026
+title: Digital Education Council AI in Higher Education Global Survey 2026
+authors:
+  - Digital Education Council
+publisher: Digital Education Council
+published: '2026'
+classification: survey
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - ai-literacy
+  - educator-training
+  - academic-integrity
+summary: A global survey drawing on 45,398 responses from students and faculty in 35 countries on AI adoption, AI literacy, course integration, and attitudes toward AI in higher education. AI integration in courses was uneven and its learning value mixed, and respondents in the US and Canada were more cautious than other regions, with faculty there reporting declining intent to use AI in teaching.
+key_findings:
+  - finding: Only 15% of students said AI is integrated into many of their courses, and 43% said they had not experienced any AI integration.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/resource-library-items/ai-in-higher-education-global-survey-2026
+      locator: Key insight 02
+      quote: Only 15% of students say AI is integrated into many of their courses, while 43% say it appears in a few. Another 43% say they have not experienced any AI integration in their courses.
+  - finding: Faculty intent to use AI in teaching in the US and Canada fell from 76% in 2025 to 67% in 2026, the lowest of any region.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/resource-library-items/ai-in-higher-education-global-survey-2026
+      locator: Key insight 05
+      quote: Faculty intent to use AI has declined by 9 percentage points, from 76% in 2025 to 67% in 2026.
+  - finding: 60% of students worldwide, and 73% in the US and Canada, worried that classmates might misuse AI for unfair advantage.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/resource-library-items/ai-in-higher-education-global-survey-2026
+      locator: Key insight 07
+      quote: 60% of students globally worry that their classmates might misuse AI for unfair advantage, rising to 73% in US & Canada.
+  - finding: Only 29% of students believed their instructors were well equipped to guide them on AI use, falling to 17% in the US and Canada.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/resource-library-items/ai-in-higher-education-global-survey-2026
+      locator: Key insight 03
+      quote: Only 29% of students believe their instructors are well equipped to guide them on AI use. In the US & Canada, this number is considerably lower at 17%.
+methods: Survey of 27,284 students and 18,114 faculty (45,398 responses) across 35 countries, with regional breakdowns including US and Canada.
+sources:
+  - url: https://www.digitaleducationcouncil.com/resource-library-items/ai-in-higher-education-global-survey-2026
+    title: AI in Higher Education Global Survey 2026
+    publisher: Digital Education Council
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260925203437/https://www.digitaleducationcouncil.com/resource-library-items/ai-in-higher-education-global-survey-2026
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Findings taken from the key insights on the publisher's report page; the full report was not read. The page gives no release date, so only the year is recorded.

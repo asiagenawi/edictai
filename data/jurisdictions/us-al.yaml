@@ -1,0 +1,18 @@
+id: us-al
+ocd_id: "ocd-division/country:us/state:al"
+name: Alabama
+abbreviation: AL
+classification: state
+fips: "01"
+region: Southeast
+sessions:
+  - identifier: '2025'
+    name: 2025 Regular Session
+    classification: primary
+    start_date: '2025-02-04'
+    end_date: '2025-05-14'
+  - identifier: '2026'
+    name: 2026 Regular Session
+    classification: primary
+    start_date: '2026-01-13'
+    end_date: '2026-04-09'

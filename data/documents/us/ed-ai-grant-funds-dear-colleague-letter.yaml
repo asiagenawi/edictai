@@ -1,0 +1,65 @@
+id: us-ed-ai-grant-funds-dear-colleague-letter
+jurisdiction: us
+issuer: us-ed
+title: Guidance on the Use of Federal Grant Funds to Improve Education Outcomes Using Artificial Intelligence (AI)
+classification: guidance
+status: current
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - instructional-use
+  - funding
+  - student-privacy
+  - equity-access
+  - ai-literacy
+summary: >-
+  Dear Colleague Letter from Secretary of Education Linda McMahon to grantees
+  and prospective grantees stating that formula and discretionary grant funds
+  may be used for AI-based instructional materials, AI-enhanced high-impact
+  tutoring, and AI for college and career pathway exploration and advising,
+  when consistent with program requirements. It sets out principles for
+  responsible use: educator-led, ethical, accessible, transparent and
+  explainable, and data-protective, including compliance with FERPA.
+published: 2025-07-22
+provisions:
+  - type: restricts-student-data-use
+    description: States that AI systems supported with grant funds must comply with federal privacy laws, including FERPA.
+    citation:
+      source_url: https://www.ed.gov/media/document/opepd-ai-dear-colleague-letter-7222025-110427.pdf
+      locator: Principles for Responsible Use
+      quote: Systems must comply with federal privacy laws including the Family Educational Rights and Privacy Act.
+  - type: bias-or-equity-requirement
+    description: Calls for AI tools to be accessible to people who need digital accessibility accommodations, including children, educators, and family members with disabilities.
+    citation:
+      source_url: https://www.ed.gov/media/document/opepd-ai-dear-colleague-letter-7222025-110427.pdf
+      locator: Principles for Responsible Use
+      quote: including children, educators, providers, and family members with disabilities
+authorized_by: us-eo-14277
+related:
+  - us-ed-ai-supplemental-priority-proposed
+  - us-ed-ai-supplemental-priority-final
+sources:
+  - url: https://www.ed.gov/media/document/opepd-ai-dear-colleague-letter-7222025-110427.pdf
+    title: Dear Colleague Letter, Guidance on the Use of Federal Grant Funds to Improve Education Outcomes Using AI (July 22, 2025)
+    publisher: U.S. Department of Education
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260929143948/https://www.ed.gov/media/document/opepd-ai-dear-colleague-letter-7222025-110427.pdf
+  - url: https://www.ed.gov/about/news/press-release/us-department-of-education-issues-guidance-artificial-intelligence-use-schools-proposes-additional-supplemental-priority
+    title: U.S. Department of Education Issues Guidance on Artificial Intelligence Use in Schools, Proposes Additional Supplemental Priority
+    publisher: U.S. Department of Education
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260813035131/https://www.ed.gov/about/news/press-release/us-department-of-education-issues-guidance-artificial-intelligence-use-schools-proposes-additional-supplemental-priority
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Letter PDF and press release fetched from ed.gov (via browser; ed.gov
+    blocks scripted requests). Full title taken from the letter's RE line and
+    the Department's citation of it in FR Doc. 2026-07087. The press release
+    states the letter responds to Executive Order 14277. Text extraction of
+    the PDF was partial; summary relies on extracted principles and the
+    press release.

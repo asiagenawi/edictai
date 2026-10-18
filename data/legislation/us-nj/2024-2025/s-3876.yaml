@@ -1,0 +1,74 @@
+id: us-nj-2024-2025-s-3876
+jurisdiction: us-nj
+session: 2024-2025
+identifier: S 3876
+title: Requires school districts to provide instruction on artificial intelligence; requires Secretary of Higher Education to develop artificial intelligence model curricula.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - workforce
+summary: >-
+  Would require every New Jersey school district to teach about artificial intelligence in
+  grades K-12 as part of the state computer science and design thinking standards, with sample
+  activities from the Commissioner of Education. It would also require each public college to
+  offer AI certificate and degree programs and direct the Secretary of Higher Education to
+  develop model AI curricula.
+abstract: >-
+  Requires school districts to provide instruction on artificial intelligence; requires
+  Secretary of Higher Education to develop artificial intelligence model curricula.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Each school district must incorporate AI instruction in grades K-12, covering general AI concepts, foundational user skills, and responsible and ethical use.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2024/S4000/3876_I1.HTM
+      locator: Sec. 1(b)-(c)
+      quote: Each school district shall incorporate instruction on artificial intelligence in an appropriate place in the curriculum of students in grades kindergarten through 12
+  - type: ai-workforce-program
+    description: Each public institution of higher education must offer certificate and degree programs in AI, supported by state-developed model curricula.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2024/S4000/3876_I1.HTM
+      locator: Sec. 2(a)-(b)
+      quote: Each public institution of higher education shall offer certificate and degree programs in artificial intelligence.
+sponsors:
+  - name: Angela V. McKnight
+    primary: true
+    chamber: upper
+actions:
+  - date: "2024-11-18"
+    description: Introduced in the Senate, Referred to Senate Education Committee
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://pub.njleg.gov/Bills/2024/S4000/3876_I1.HTM
+    archived_url: https://web.archive.org/web/20261017222043/https://pub.njleg.gov/Bills/2024/S4000/3876_I1.HTM
+related:
+  - us-nj-2026-2027-s-2862
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2024/S3876
+    title: S3876 bill detail
+    publisher: New Jersey Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250325210411/https://www.njleg.state.nj.us/bill-search/2024/S3876
+  - url: https://pub.njleg.gov/Bills/2024/S4000/3876_I1.HTM
+    title: S3876 (Introduced)
+    publisher: New Jersey Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017222043/https://pub.njleg.gov/Bills/2024/S4000/3876_I1.HTM
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page-and-text
+  notes: Identical bill A 4936. Bill history and sponsor from the Legislature's bill-detail service. No Wayback snapshot found.

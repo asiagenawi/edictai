@@ -1,0 +1,8 @@
+id: us-ga-higher-ed-agency-2
+name: Technical College System of Georgia
+abbreviation: TCSG
+classification: higher-ed-agency
+jurisdiction: us-ga
+education_levels:
+  - postsecondary
+url: https://www.tcsg.edu/

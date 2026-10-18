@@ -1,0 +1,10 @@
+id: us-nv-higher-ed-agency
+name: Nevada System of Higher Education
+abbreviation: NSHE
+classification: higher-ed-agency
+jurisdiction: us-nv
+education_levels:
+  - postsecondary
+url: https://nshe.nevada.edu/
+watch_urls:
+  - https://nshe.nevada.edu/ai/

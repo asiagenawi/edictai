@@ -1,0 +1,10 @@
+id: us-in-ivytech
+name: Ivy Tech Community College
+abbreviation: Ivy Tech
+classification: university-system
+jurisdiction: us-in
+education_levels:
+  - postsecondary
+url: https://www.ivytech.edu/
+watch_urls:
+  - https://www.ivytech.edu/about-ivy-tech/college-operations/policies-rights/generative-ai-guidelines/

@@ -1,0 +1,8 @@
+id: us-tx-higher-ed-agency
+name: Texas Higher Education Coordinating Board
+abbreviation: THECB
+classification: higher-ed-agency
+jurisdiction: us-tx
+education_levels:
+  - postsecondary
+url: https://www.highered.texas.gov/

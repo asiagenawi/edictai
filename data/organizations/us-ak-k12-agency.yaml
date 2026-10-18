@@ -1,0 +1,10 @@
+id: us-ak-k12-agency
+name: Alaska Department of Education and Early Development
+abbreviation: DEED
+classification: k12-agency
+jurisdiction: us-ak
+education_levels:
+  - k12
+url: https://education.alaska.gov/
+watch_urls:
+  - https://education.alaska.gov/artificial-intelligence

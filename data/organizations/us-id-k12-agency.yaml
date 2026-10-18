@@ -1,0 +1,10 @@
+id: us-id-k12-agency
+name: Idaho State Department of Education
+abbreviation: SDE
+classification: k12-agency
+jurisdiction: us-id
+education_levels:
+  - k12
+url: https://www.sde.idaho.gov/
+watch_urls:
+  - https://www.sde.idaho.gov/about-us/departments/content-and-curriculum/artificial-intelligence/

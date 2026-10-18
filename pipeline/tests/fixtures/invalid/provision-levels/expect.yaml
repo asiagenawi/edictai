@@ -1,0 +1,3 @@
+rule: provision-levels
+pointer: /provisions/0/education_levels
+message: postsecondary not among

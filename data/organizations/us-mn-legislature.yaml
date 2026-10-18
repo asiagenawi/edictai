@@ -1,0 +1,8 @@
+id: us-mn-legislature
+name: Minnesota Legislature
+classification: legislature
+jurisdiction: us-mn
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.leg.mn.gov/

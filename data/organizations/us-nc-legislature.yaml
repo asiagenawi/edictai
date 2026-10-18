@@ -1,0 +1,8 @@
+id: us-nc-legislature
+name: North Carolina General Assembly
+classification: legislature
+jurisdiction: us-nc
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.ncleg.gov/

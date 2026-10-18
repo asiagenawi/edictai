@@ -1,0 +1,9 @@
+id: sacscoc
+name: Commission on Colleges and Universities
+classification: accreditor
+education_levels:
+  - postsecondary
+url: https://commissioncu.org/
+watch_urls:
+  - https://commissioncu.org/policies/artificial-intelligence-in-accreditation/
+  - https://commissioncu.org/policies/good-practices-in-the-use-of-generative-ai/

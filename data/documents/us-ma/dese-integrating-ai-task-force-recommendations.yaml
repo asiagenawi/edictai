@@ -1,0 +1,32 @@
+id: us-ma-dese-integrating-ai-task-force-recommendations
+jurisdiction: us-ma
+issuer: us-ma-k12-agency
+title: "Integrating Artificial Intelligence: Massachusetts AI Task Force Recommendations"
+classification: report
+status: current
+education_levels:
+  - k12
+topics:
+  - task-force
+  - educator-training
+  - equity-access
+  - local-policy-requirement
+summary: >-
+  Recommendations from an AI Task Force convened by the Massachusetts Department of Elementary and
+  Secondary Education with ISTE+ASCD in summer and fall 2024. Developed through an equity lens, it
+  recommends state actions in three areas: resource creation and curation, professional
+  development, and policy supports for districts.
+published: "2024-12"
+related:
+  - us-ma-dese-ai-guidance
+sources:
+  - url: https://www.doe.mass.edu/edtech/ai/integrating-artificial-intelligence.pdf
+    title: "Integrating Artificial Intelligence: Massachusetts AI Task Force Recommendations, December 2024"
+    publisher: Massachusetts Department of Elementary and Secondary Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260930080618/https://www.doe.mass.edu/edtech/ai/integrating-artificial-intelligence.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-pdf-text

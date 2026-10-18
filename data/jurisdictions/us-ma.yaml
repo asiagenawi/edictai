@@ -1,0 +1,7 @@
+id: us-ma
+ocd_id: "ocd-division/country:us/state:ma"
+name: Massachusetts
+abbreviation: MA
+classification: state
+fips: "25"
+region: Northeast

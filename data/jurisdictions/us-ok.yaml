@@ -1,0 +1,13 @@
+id: us-ok
+ocd_id: "ocd-division/country:us/state:ok"
+name: Oklahoma
+abbreviation: OK
+classification: state
+fips: "40"
+region: Southwest
+sessions:
+  - identifier: 2025-2026
+    name: 60th Legislature (2025-2026)
+    classification: primary
+    start_date: '2025-02-03'
+    end_date: '2026-05-29'

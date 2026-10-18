@@ -1,0 +1,7 @@
+id: us-nh
+ocd_id: "ocd-division/country:us/state:nh"
+name: New Hampshire
+abbreviation: NH
+classification: state
+fips: "33"
+region: Northeast

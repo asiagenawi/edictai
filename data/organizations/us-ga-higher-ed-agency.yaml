@@ -1,0 +1,10 @@
+id: us-ga-higher-ed-agency
+name: University System of Georgia
+abbreviation: USG
+classification: higher-ed-agency
+jurisdiction: us-ga
+education_levels:
+  - postsecondary
+url: https://www.usg.edu/
+watch_urls:
+  - https://www.usg.edu/academic-innovation/artificial-intelligence/

@@ -1,0 +1,52 @@
+id: us-wa-ospi-human-centered-ai-guidance
+jurisdiction: us-wa
+issuer: us-wa-k12-agency
+title: Human-Centered AI Guidance for K-12 Public Schools
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - academic-integrity
+  - student-privacy
+  - educator-training
+  - local-policy-requirement
+  - equity-access
+summary: >-
+  Guidance from the Office of Superintendent of Public Instruction on using AI in Washington
+  public schools under a "Human-AI-Human" approach, in which AI use starts with human inquiry
+  and ends with human reflection. It covers AI foundations, classroom implementation, ethics,
+  data privacy, academic integrity, and sample district policy language. First published
+  January 18, 2024; Version 3.0 was published July 1, 2024.
+published: "2024-01-18"
+updated: "2024-07-01"
+version: "3.0"
+sources:
+  - url: https://ospi.k12.wa.us/student-success/resources-subject-area/human-centered-artificial-intelligence-schools
+    title: Human-Centered Artificial Intelligence in Schools
+    publisher: Washington Office of Superintendent of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043154/https://ospi.k12.wa.us/student-success/resources-subject-area/human-centered-artificial-intelligence-schools
+  - url: https://ospi.k12.wa.us/sites/default/files/2024-08/comprehensive-ai-guidance.pdf
+    title: Human-Centered AI Guidance for K-12 Public Schools, Version 3.0
+    publisher: Washington Office of Superintendent of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260219050634/https://ospi.k12.wa.us/sites/default/files/2024-08/comprehensive-ai-guidance.pdf
+  - url: https://ospi.k12.wa.us/about-ospi/news-center/news-releases/superintendent-reykdal-introduces-guidance-integration-human-centered-ai-washingtons-public-schools
+    title: Superintendent Reykdal Introduces Guidance for Integration of Human-Centered AI in Washington's Public Schools
+    publisher: Washington Office of Superintendent of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250902073056/https://ospi.k12.wa.us/about-ospi/news-center/news-releases/superintendent-reykdal-introduces-guidance-integration-human-centered-ai-washingtons-public-schools
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Version 3.0 PDF states "Date of publication: July 1, 2024"; Version 1.0 was published
+    January 18, 2024 (news release). Legacy date and description matched. No Wayback
+    snapshot retrieved (archive offline at access time).

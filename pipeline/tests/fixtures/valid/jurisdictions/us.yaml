@@ -1,0 +1,10 @@
+id: us
+ocd_id: "ocd-division/country:us"
+name: United States
+abbreviation: US
+classification: country
+sessions:
+  - identifier: "119"
+    name: 119th Congress
+    start_date: 2025-01-03
+    end_date: 2027-01-03

@@ -1,0 +1,2 @@
+rule: schema
+message: "'colour' was unexpected"

@@ -1,0 +1,53 @@
+id: 2025-crpe-ai-early-adopter-districts-promises-challenges
+title: 'AI Early Adopter Districts: The Promises and Challenges of Using AI to Transform Education'
+authors:
+  - Bree Dusseault
+  - Maddy Sims
+  - Michael Berardino
+publisher: Center on Reinventing Public Education
+published: '2025-07'
+classification: report
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - educator-training
+  - student-privacy
+  - funding
+  - procurement
+summary: CRPE studied 27 "early adopter" school districts during the 2024-25 school year through focus groups, interviews, a survey, and roundtables to learn how they approached system-wide AI adoption. Most districts were still piloting AI in fragmented ways, mainly to save teachers time, and leaders cited data privacy, sustainable funding, limited capacity, and uneven state guidance as the main barriers.
+key_findings:
+  - finding: About 80% of the districts studied were classified as "Dabblers" or "Emerging Users," still in early, ad hoc stages of AI adoption.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/AI-Early-Adopters-Brief-Final.pdf
+      locator: p. 4
+      quote: About 80% of the districts we studied fell into the first two categories of Dabblers and Emerging Users
+  - finding: Data privacy and sustainable funding were each rated as considerable or extreme challenges by 35% of surveyed districts.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/AI-Early-Adopters-Brief-Final.pdf
+      locator: p. 12
+      quote: 'Two challenges stood out most prominently: data privacy and sustainable funding, each cited by more than a third (35%) of respondents as posing “considerable” or “extreme” difficulty.'
+  - finding: Among surveyed districts in states that had not yet issued AI guidance, 80% called the lack of state guidance an extremely difficult barrier.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/AI-Early-Adopters-Brief-Final.pdf
+      locator: p. 13
+      quote: 80% of surveyed districts that operate in states without guidance (at the time of this survey) reported the lack of state guidance as an “extremely difficult” barrier
+methods: Qualitative and survey study of 27 early adopter districts recruited from 51 identified districts; 22 focus groups and interviews with 45 leaders from 22 districts, survey responses from 17 districts, 10 follow-up group interviews in six districts, and three roundtables; not nationally representative.
+related:
+  - 2024-crpe-districts-and-ai-early-adopters-2024-25
+sources:
+  - url: https://crpe.org/ai-early-adopter-districts-the-promises-and-challenges-of-using-ai-to-transform-education/
+    title: 'AI Early Adopter Districts: The Promises and Challenges of Using AI to Transform Education'
+    publisher: Center on Reinventing Public Education
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://crpe.org/wp-content/uploads/AI-Early-Adopters-Brief-Final.pdf
+    title: 'AI Early Adopter Districts: The Promises and Challenges of Using AI to Transform Education (report PDF)'
+    publisher: Center on Reinventing Public Education
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The report PDF is dated July 2025; the landing page's datePublished metadata is 2025-08-06.

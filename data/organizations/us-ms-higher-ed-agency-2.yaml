@@ -1,0 +1,8 @@
+id: us-ms-higher-ed-agency-2
+name: Mississippi Community College Board
+abbreviation: MCCB
+classification: higher-ed-agency
+jurisdiction: us-ms
+education_levels:
+  - postsecondary
+url: https://www.mccb.edu/

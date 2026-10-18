@@ -1,0 +1,46 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+def _int_env(name, default):
+    try:
+        return int(os.getenv(name, default))
+    except (TypeError, ValueError):
+        return default
+
+
+# Built from data/ by `statescope build`; the API only ever reads it.
+DATABASE_PATH = os.getenv('STATESCOPE_DB') or os.path.join(API_DIR, '..', 'build', 'statescope.db')
+ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')
+CONGRESS_API_KEY = os.getenv('CONGRESS_API_KEY', '')
+
+# --- Ask -------------------------------------------------------------------
+
+# Model for the tool-use loop. Effort trades answer depth against latency.
+ASK_MODEL = os.getenv('ASK_MODEL', 'claude-sonnet-5-5')
+ASK_EFFORT = os.getenv('ASK_EFFORT', 'medium')
+# 'default' lets the API rerun a declined request on a substitute model;
+# 'off' disables that (required when pointing ASK_MODEL at a model without it).
+ASK_FALLBACKS = os.getenv('ASK_FALLBACKS', 'default')
+ASK_MAX_TOKENS = _int_env('ASK_MAX_TOKENS', 8000)
+# Tool calls Claude may make while answering one question.
+ASK_MAX_TOOL_CALLS = _int_env('ASK_MAX_TOOL_CALLS', 6)
+
+# Per-IP limit, per worker process.
+ASK_RATE_LIMIT_PER_MINUTE = _int_env('ASK_RATE_LIMIT_PER_MINUTE', 10)
+# Questions answered per UTC day across all workers on the host; 0 disables the cap.
+ASK_DAILY_BUDGET = _int_env('ASK_DAILY_BUDGET', 500)
+ASK_BUDGET_FILE = os.getenv('ASK_BUDGET_FILE') or os.path.join(API_DIR, '.ask-budget.sqlite')
+
+# Policies Claude mentions from general knowledge that the dataset lacks.
+# Each line holds only the claimed item; never the question or anything about the asker.
+ASK_LEADS_FILE = os.getenv('ASK_LEADS_FILE') or os.path.join(API_DIR, 'leads.jsonl')
+
+# Where a visitor can report a policy the dataset is missing.
+ASK_SUGGEST_URL = os.getenv(
+    'ASK_SUGGEST_URL', 'https://github.com/asiagenawi/statescope/issues/new'
+)

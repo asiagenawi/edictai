@@ -1,0 +1,8 @@
+id: us-az-governor
+name: Office of the Governor of Arizona
+classification: governor
+jurisdiction: us-az
+education_levels:
+  - k12
+  - postsecondary
+url: https://azgovernor.gov/

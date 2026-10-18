@@ -1,0 +1,75 @@
+id: us-ny-2025-2026-a-6874
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 6874-A
+title: Artificial Intelligence Literacy Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - funding
+  - equity-access
+  - educator-training
+  - workforce
+summary: >-
+  Would direct the Commissioner of Education to create a competitive grant program for AI
+  literacy, funding public schools, community colleges, colleges and universities, and
+  community organizations, with priority for high-need applicants. School grants could pay
+  for teacher training, AI labs, and grade-level AI literacy instruction.
+abstract: >-
+  Establishes the Artificial Intelligence Literacy Act which establishes an artificial
+  intelligence literacy in the digital equity competitive grant program.
+provisions:
+  - type: appropriates-funding
+    description: Creates an AI literacy digital equity competitive grant program administered by the Commissioner of Education, with set shares for schools, community colleges, higher education institutions, and community organizations.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06874&term=2025&Summary=Y&Actions=Y&Text=Y
+      locator: Education Law § 115(2)(a), (e)
+      quote: The commissioner shall establish an artificial intelligence literacy digital equity competitive grant program
+  - type: educator-pd-requirement
+    description: School grants may fund teacher training, certification, and professional development related to AI education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06874&term=2025&Summary=Y&Actions=Y&Text=Y
+      locator: Education Law § 115(2)(f)(i)-(ii)
+      quote: providing teachers training and certification to support artificial intelligence literacy efforts in schools
+sponsors:
+  - name: Emérita Torres
+    primary: true
+    chamber: lower
+actions:
+  - date: "2025-03-18"
+    description: referred to education
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-04-28"
+    description: amend (t) and recommit to education; print number 6874a
+    actor: lower
+    classification:
+      - amendment-passage
+      - referral-committee
+  - date: "2026-01-07"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+sources:
+  - url: https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06874&term=2025&Summary=Y&Actions=Y&Text=Y
+    title: A06874 Summary, Actions and Text
+    publisher: New York State Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017221513/https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06874&term=2025&Summary=Y&Actions=Y&Text=Y
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page-and-text
+  notes: Same as S 7691 in the Senate. No Wayback snapshot found.

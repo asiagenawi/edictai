@@ -1,0 +1,10 @@
+id: us-wv-k12-agency
+name: West Virginia Department of Education
+abbreviation: WVDE
+classification: k12-agency
+jurisdiction: us-wv
+education_levels:
+  - k12
+url: https://wvde.us/
+watch_urls:
+  - https://wvde.us/educator-staff-development/artificial-intelligence

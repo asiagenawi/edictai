@@ -1,0 +1,8 @@
+id: us-ar-governor
+name: Office of the Governor of Arkansas
+classification: governor
+jurisdiction: us-ar
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.arkansas.gov/

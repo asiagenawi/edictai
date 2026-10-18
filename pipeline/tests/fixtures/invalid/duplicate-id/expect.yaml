@@ -1,0 +1,2 @@
+rule: duplicate-id
+message: duplicate id 'us-tx-k12-agency'

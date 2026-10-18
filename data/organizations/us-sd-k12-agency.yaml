@@ -1,0 +1,8 @@
+id: us-sd-k12-agency
+name: South Dakota Department of Education
+abbreviation: DOE
+classification: k12-agency
+jurisdiction: us-sd
+education_levels:
+  - k12
+url: https://doe.sd.gov/

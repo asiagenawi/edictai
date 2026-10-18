@@ -1,0 +1,50 @@
+id: 2023-gpt-detectors-biased-against-non-native-english-writers
+title: GPT detectors are biased against non-native English writers
+authors:
+  - Weixin Liang
+  - Mert Yüksekgönül
+  - Yining Mao
+  - Eric Wu
+  - James Zou
+publisher: Patterns
+published: '2023-07'
+classification: peer-reviewed
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - academic-integrity
+  - equity-access
+summary: Stanford researchers ran seven widely used GPT detectors on 91 TOEFL essays by non-native English speakers and 88 US eighth-grade essays. The detectors classified the US student essays accurately but labeled more than half of the TOEFL essays as AI-generated, and simple prompting let AI-written text evade detection.
+key_findings:
+  - finding: Across seven detectors, the average false-positive rate on human-written TOEFL essays was 61.3%, while US eighth-grade essays were classified accurately.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10382961/
+      locator: Main text, GPT detectors exhibit bias against non-native English authors
+      quote: 'While the detectors accurately classified the US student essays, they incorrectly labeled more than half of the TOEFL essays as "AI-generated" (average false-positive rate: 61.3%).'
+  - finding: Using ChatGPT to enrich the vocabulary of the TOEFL essays cut the average false-positive rate from 61.3% to 11.6%, pointing to the detectors' reliance on text perplexity.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10382961/
+      locator: Main text
+      quote: This intervention significantly reduced misclassification, with the average false-positive rate dropping by 49.7% (from 61.3% to 11.6%).
+  - finding: Asking ChatGPT to rewrite its own college admission essays with more literary language reduced detection rates to near zero.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10382961/
+      locator: Bypassing GPT detectors through linguistic diversity enhancement in prompts
+      quote: 'upon prompting ChatGPT to self-edit its text with more literary language (prompt: "Elevate the provided text by employing literary language"), detection rates plummeted to near zero'
+methods: Evaluation of seven publicly available GPT detectors on 91 TOEFL essays from a Chinese forum and 88 US eighth-grade essays from the Hewlett Foundation ASAP dataset, plus ChatGPT-generated Common App essays and scientific abstracts before and after prompt-based rewriting.
+external_ids:
+  doi: 10.1016/j.patter.2023.100779
+  openalex_id: W4383815588
+sources:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10382961/
+    title: GPT detectors are biased against non-native English writers (PubMed Central full text)
+    publisher: National Library of Medicine
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260928022804/https://pmc.ncbi.nlm.nih.gov/articles/PMC10382961/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Full text read from the PubMed Central copy (collection date 2023 Jul 14); the article is a short Patterns opinion piece summarizing the authors' preprint results. DOI and publication month from OpenAlex.

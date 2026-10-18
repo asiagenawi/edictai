@@ -1,0 +1,54 @@
+id: 2024-rand-using-ai-tools-in-k12-classrooms
+title: Using Artificial Intelligence Tools in K–12 Classrooms
+authors:
+  - Melissa Kay Diliberti
+  - Heather L. Schwartz
+  - Sy Doan
+  - Anna Shapiro
+  - Lydia R. Rainey
+  - Robin J. Lake
+publisher: RAND Corporation
+published: '2024-04-17'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - educator-training
+  - equity-access
+summary: RAND surveyed nationally representative samples of K-12 teachers and school districts in fall 2023 and interviewed district leaders to describe how teachers were using AI tools and whether districts were providing AI policies, guidance, and training. About one in five teachers reported using AI for teaching, and most districts planned to train teachers on AI by the end of the 2023-24 school year.
+key_findings:
+  - finding: As of fall 2023, 18 percent of K-12 teachers reported using AI for teaching and another 15 percent had tried it at least once.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA956-21.html
+      locator: Key Takeaways
+      quote: As of fall 2023, 18 percent of K–12 teachers reported using AI for teaching and another 15 percent have tried AI at least once.
+  - finding: Teachers who used AI most often used it to adapt instructional content to students' levels and to generate materials.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA956-21.html
+      locator: Key Takeaways
+      quote: The most common ways that teachers used AI tools were to adapt instructional content to fit the level of their students and to generate materials.
+  - finding: Sixty percent of districts planned to have trained teachers on AI by the end of 2023-24; urban districts were the least likely to deliver such training.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA956-21.html
+      locator: Key Takeaways
+      quote: By the end of the 2023–2024 school year, 60 percent of districts plan to have trained teachers about AI use. Urban districts were the least likely to deliver such training.
+  - finding: District leaders said they were focusing more on increasing teachers' AI use than on writing student-use policies.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA956-21.html
+      locator: Key Takeaways
+      quote: In interviews, leaders described focusing more on increasing teachers' AI use and less on crafting student use policy, primarily because they saw the potential for AI to make teachers' jobs easier.
+methods: Nationally representative surveys of 1,020 teachers (RAND American Teacher Panel, fall 2023) and 231 districts (American School District Panel, fall 2023), plus interviews with 11 district leaders in December 2023 and January 2024.
+external_ids:
+  doi: 10.7249/RRA956-21
+sources:
+  - url: https://www.rand.org/pubs/research_reports/RRA956-21.html
+    title: Using Artificial Intelligence Tools in K–12 Classrooms
+    publisher: RAND Corporation
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261004214124/https://www.rand.org/pubs/research_reports/RRA956-21.html
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

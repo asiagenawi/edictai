@@ -1,0 +1,10 @@
+id: us-in-k12-agency
+name: Indiana Department of Education
+abbreviation: IDOE
+classification: k12-agency
+jurisdiction: us-in
+education_levels:
+  - k12
+url: https://www.in.gov/doe/
+watch_urls:
+  - https://www.in.gov/doe/educators/digital-learning/

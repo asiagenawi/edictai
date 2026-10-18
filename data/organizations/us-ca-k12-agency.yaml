@@ -1,0 +1,10 @@
+id: us-ca-k12-agency
+name: California Department of Education
+abbreviation: CDE
+classification: k12-agency
+jurisdiction: us-ca
+education_levels:
+  - k12
+url: https://www.cde.ca.gov/
+watch_urls:
+  - https://www.cde.ca.gov/ci/pl/aiincalifornia.asp

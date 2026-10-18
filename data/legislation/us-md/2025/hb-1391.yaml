@@ -1,0 +1,86 @@
+id: us-md-2025-hb-1391
+jurisdiction: us-md
+session: "2025"
+identifier: HB 1391
+title: Education - Artificial Intelligence - Guidelines and Professional Development
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - educator-training
+  - workforce
+summary: >-
+  As passed by the House, would have required the Maryland State Department of Education, with
+  stakeholders, to develop and periodically update guidance on artificial intelligence, promote
+  AI training and workforce development, and have career and technical education committees use
+  that guidance before incorporating AI into CTE activities. The introduced version also proposed
+  a list of approved AI tools and a K-12 AI task force, which were removed by amendment. The bill
+  passed the House but received no Senate action before the session ended.
+abstract: >-
+  Requiring the State Department of Education, in consultation with relevant stakeholders, to
+  develop and periodically update certain guidance on artificial intelligence; requiring the
+  Department to promote training and workforce development in artificial intelligence; requiring
+  the Career and Technical Education Committee and the CTE Skills Standards Advisory Committee to
+  use the Department's guidance and, if necessary, consult with the Department before
+  incorporating the use of artificial intelligence into certain CTE actions; etc.
+sponsors:
+  - name: Young
+    primary: true
+    chamber: lower
+  - name: Ebersole
+    primary: false
+    chamber: lower
+  - name: Fair
+    primary: false
+    chamber: lower
+  - name: Miller
+    primary: false
+    chamber: lower
+actions:
+  - date: "2025-02-07"
+    description: First Reading Ways and Means
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+      - referral-committee
+  - date: "2025-03-17"
+    description: Favorable with Amendments Report by Ways and Means; Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - committee-passage
+      - reading-2
+      - amendment-passage
+  - date: "2025-03-17"
+    description: Third Reading Passed (128-11)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-17"
+    description: Referred Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1391f.pdf
+    archived_url: https://web.archive.org/web/20250424072357/https://mgaleg.maryland.gov/2025RS/bills/hb/hb1391f.pdf
+    media_type: application/pdf
+  - note: Third Reader
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1391t.pdf
+    archived_url: https://web.archive.org/web/20260414114808/https://mgaleg.maryland.gov/2025RS/bills/hb/hb1391t.pdf
+    media_type: application/pdf
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1391?ys=2025RS
+    title: HB1391 2025 Regular Session
+    publisher: Maryland General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260422143352/https://www.mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1391?ys=2025RS
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page-and-text
+  notes: Cross-filed with SB 906 (2025). Bill page lists sponsors by surname only. The official history shows no action after Senate referral; failure is derived from the session end date.

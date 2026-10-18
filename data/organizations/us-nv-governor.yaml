@@ -1,0 +1,8 @@
+id: us-nv-governor
+name: Office of the Governor of Nevada
+classification: governor
+jurisdiction: us-nv
+education_levels:
+  - k12
+  - postsecondary
+url: https://gov.nv.gov/

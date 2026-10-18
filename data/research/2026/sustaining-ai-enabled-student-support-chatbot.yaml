@@ -1,0 +1,52 @@
+id: 2026-sustaining-ai-enabled-student-support-chatbot
+title: 'Sustaining AI-Enabled Student Support: A Four-Year Implementation and Impact Study'
+authors:
+  - Catherine Mata
+  - Emily Russell
+  - Lindsay C. Page
+publisher: Annenberg Institute at Brown University (EdWorkingPapers)
+published: 2026-07
+classification: report
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - research
+summary: Researchers studied California State University, Northridge's use of an AI-enabled text-messaging chatbot to support undergraduates, combining system observation, administrator discussions, and a randomized controlled trial following the 2018 and 2019 entering first-year cohorts over four years. Students stayed receptive to the messages, and effects were concentrated in completing time-sensitive administrative tasks, with no detectable effects on academic performance, persistence, or graduation.
+key_findings:
+  - finding: Effects were concentrated in improved completion of time-sensitive administrative tasks, with no detectable effects on academic performance or persistence.
+    citation:
+      source_url: https://edworkingpapers.com/ai26-1409
+      locator: Abstract
+      quote: Students remain receptive over time, and impacts are concentrated in improved completion of time-sensitive administrative tasks, with no detectable effects on academic performance or persistence.
+  - finding: There was no statistically significant difference in enrollment and persistence between treatment and control students, and no evidence of a difference in graduation rates.
+    citation:
+      source_url: https://edworkingpapers.com/sites/default/files/ai26-1409.pdf
+      locator: Results, enrollment and persistence (Table 4)
+      quote: We find no statistically significant difference in enrollment and persistence between students in the treatment and control groups
+  - finding: Centralized ownership of the tool and flexible communication were identified as critical for sustaining the program.
+    citation:
+      source_url: https://edworkingpapers.com/ai26-1409
+      locator: Abstract
+      quote: We find that centralized ownership and flexible communication are critical for sustainability.
+methods: Mixed-methods implementation study with a randomized controlled trial; entering first-year cohorts of 2018 and 2019 at California State University, Northridge (about 4,361 treatment and 4,347 control students; 8,708 observations), followed for eight semesters; intent-to-treat estimates.
+geography:
+  - us-ca
+external_ids:
+  doi: 10.26300/b0dp-sn77
+sources:
+  - url: https://edworkingpapers.com/ai26-1409
+    title: 'Sustaining AI-Enabled Student Support: A Four-Year Implementation and Impact Study (EdWorkingPaper 26-1409)'
+    publisher: Annenberg Institute at Brown University
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://edworkingpapers.com/sites/default/files/ai26-1409.pdf
+    title: 'Sustaining AI-Enabled Student Support: A Four-Year Implementation and Impact Study (full text PDF)'
+    publisher: Annenberg Institute at Brown University
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Working paper, not peer reviewed. Dated July 2026 on the EdWorkingPapers page.

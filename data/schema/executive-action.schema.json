@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://statescope.org/schema/executive-action.schema.json",
+  "title": "Executive action",
+  "description": "An executive order or directive from a governor or the President. Stored at data/executive-actions/{jurisdiction}/{slug}.yaml.",
+  "type": "object",
+  "required": ["id", "jurisdiction", "issuer", "title", "classification", "status", "signed", "education_levels", "topics", "summary", "sources", "verification"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/record_id", "description": "{jurisdiction}-{slug}, e.g. 'us-eo-14277'. Must match the file path." },
+    "jurisdiction": { "$ref": "common.schema.json#/$defs/jurisdiction_id" },
+    "issuer": { "type": "string", "description": "Organization ID, usually the governor's office.", "x-ref": "organization" },
+    "number": { "type": "string", "description": "Official order number, e.g. 'N-12-23', 'EO 14277'." },
+    "title": { "type": "string" },
+    "classification": { "type": "string", "x-vocab": "executive_action_classifications" },
+    "status": { "type": "string", "x-vocab": "executive_action_statuses" },
+    "signed": { "$ref": "common.schema.json#/$defs/date" },
+    "ended": { "$ref": "common.schema.json#/$defs/date", "description": "Date rescinded or expired." },
+    "expires": { "$ref": "common.schema.json#/$defs/date", "description": "Scheduled expiration date stated in the order, for orders with a fixed term." },
+    "education_levels": { "$ref": "common.schema.json#/$defs/education_levels" },
+    "topics": { "$ref": "common.schema.json#/$defs/topics" },
+    "summary": { "type": "string" },
+    "provisions": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/provision" }
+    },
+    "related": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "common.schema.json#/$defs/record_id", "x-ref": "any" }
+    },
+    "external_ids": { "$ref": "common.schema.json#/$defs/external_ids" },
+    "sources": { "$ref": "common.schema.json#/$defs/sources" },
+    "verification": { "$ref": "common.schema.json#/$defs/verification" }
+  }
+}

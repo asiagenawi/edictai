@@ -1,0 +1,8 @@
+id: us-ar-k12-agency
+name: Arkansas Department of Education
+abbreviation: ADE
+classification: k12-agency
+jurisdiction: us-ar
+education_levels:
+  - k12
+url: https://dese.ade.arkansas.gov/

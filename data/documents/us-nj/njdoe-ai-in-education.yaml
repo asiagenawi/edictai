@@ -1,0 +1,39 @@
+id: us-nj-njdoe-ai-in-education
+jurisdiction: us-nj
+issuer: us-nj-k12-agency
+title: Artificial Intelligence (AI)
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - academic-integrity
+  - educator-training
+summary: >-
+  A New Jersey Department of Education web page giving an overview of AI in K-12 schools and
+  general principles for ethical and effective classroom use, such as building AI literacy
+  before tool use, keeping humans in the loop, verifying AI output, and valuing student process
+  over products. It links to a curated list of AI learning and teaching resources and to the
+  department's AI Innovation in Education grant for districts.
+undated: true
+sources:
+  - url: https://www.nj.gov/education/innovation/ai/index.shtml
+    title: Artificial Intelligence (AI) - Office of Innovation
+    publisher: New Jersey Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260213034835/https://nj.gov/education/innovation/ai/index.shtml
+  - url: https://www.nj.gov/education/innovation/ai/airesources/
+    title: AI Resources
+    publisher: New Jersey Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261002185725/https://www.nj.gov/education/innovation/ai/airesources/
+verification:
+  status: unverified
+  notes: >-
+    Content checked against the live page on 2026-10-17. The page states no publication date,
+    so none is recorded; its last-modified metadata reads 08/18/2026, and a Wayback
+    capture shows the page existed by February 2026.

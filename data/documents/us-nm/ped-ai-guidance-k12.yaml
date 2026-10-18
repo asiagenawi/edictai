@@ -1,0 +1,41 @@
+id: us-nm-ped-ai-guidance-k12
+jurisdiction: us-nm
+issuer: us-nm-k12-agency
+title: AI Guidance for K-12 Education 1.0
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - instructional-use
+  - educator-training
+  - academic-integrity
+  - student-privacy
+  - local-policy-requirement
+  - equity-access
+summary: >-
+  The New Mexico Public Education Department's guidance, written with the Friday Institute at
+  North Carolina State University, to help districts develop their own approaches to using AI
+  in teaching and learning. It covers AI literacy by grade band (K-5, 6-8, 9-12), educator
+  professional development, academic integrity, data privacy, and local AI policy development,
+  and introduces the M.A.Z.E. approach to evaluating AI tools.
+published: "2025-05-01"
+sources:
+  - url: https://web.ped.nm.gov/wp-content/uploads/2025/05/NM-AI-Guidance-Signed-4-29-2025.pdf
+    title: AI Guidance for K-12 Education 1.0
+    publisher: New Mexico Public Education Department
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260824025145/https://web.ped.nm.gov/wp-content/uploads/2025/05/NM-AI-Guidance-Signed-4-29-2025.pdf
+  - url: https://web.ped.nm.gov/bureaus/curriculum-instruction/education-technology/
+    title: Education Technology (AI, LMS, Digital Equity)
+    publisher: New Mexico Public Education Department
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017222528/https://web.ped.nm.gov/bureaus/curriculum-instruction/education-technology/
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-document-text
+  notes: Version history lists May 1, 2025 original publication (version 2025.1). No Wayback snapshot found.

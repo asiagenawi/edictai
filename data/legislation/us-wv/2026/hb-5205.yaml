@@ -1,0 +1,144 @@
+id: us-wv-2026-hb-5205
+jurisdiction: us-wv
+session: "2026"
+identifier: HB 5205
+title: West Virginia Balance Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - curriculum-standards
+  - assessment
+  - safety-wellbeing
+  - student-privacy
+  - workforce
+summary: >-
+  Would have created the West Virginia Balance Act, requiring the State Board of Education to
+  publish model policies on balanced classroom technology use and on AI use, which county
+  boards would adopt or adapt before July 1, 2027, with the model policy applying by default
+  otherwise. The AI model policy would bar educators from using generative AI to independently
+  grade work or make high-stakes decisions about students. It would also add AI to computer
+  science standards and allow optional high school AI sandbox courses. Introduced and referred
+  to committee; no further action.
+abstract: >-
+  Requiring the State Board of Education to create model policies on the use of technology and
+  artifical intelligence in a public school classroom
+provisions:
+  - type: ai-in-standards
+    description: Requires the State Board to include AI standards in core computer science standards.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+      locator: §18-2-47
+      quote: >-
+        The State Board of Education shall include artificial intelligence standards in core
+        computer science standards
+  - type: issues-model-policy
+    description: Requires the State Board to publish and maintain a model AI use policy, which becomes the default for county boards that fail to adopt an approved policy.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+      locator: §18-5-58(b), (f)
+      quote: The state board shall publish and maintain a model artificial intelligence use policy
+  - type: requires-local-ai-policy
+    description: Requires each county board of education to produce and adopt an AI use policy based on the model policy and review it at least every two years.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+      locator: §18-5-58(c)-(d)
+      quote: >-
+        A county board of education shall produce and adopt an artificial intelligence use
+        policy based on the model policy.
+  - type: regulates-ai-assessment
+    description: The model policy must prohibit educators from using generative AI to independently grade student work or issue high-stakes determinations.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+      locator: §18-5-58(b)(6)
+      quote: >-
+        Prohibits educators from using generative artificial intelligence to independently
+        grade student work or issue high-stakes determinations
+  - type: academic-integrity-rules
+    description: The model policy must bar students from using generative AI to complete academic work unless an educator authorizes it for a specific instructional purpose.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+      locator: §18-5-58(b)(8)
+      quote: >-
+        Prohibits a student from using generative artificial intelligence to complete academic
+        work unless an educator authorizes the use for a specific instructional purpose
+  - type: ai-workforce-program
+    description: Allows county boards to offer optional AI sandbox courses in grades 9-12 through career and technical education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+      locator: §18-5-59(a)-(b)
+      quote: >-
+        A county board of education may offer an AI sandbox course to a student in grades 9
+        through 12
+sponsors:
+  - name: Stephens
+    primary: true
+    chamber: lower
+  - name: Campbell
+    primary: false
+    chamber: lower
+  - name: Pritt
+    primary: false
+    chamber: lower
+  - name: Bell
+    primary: false
+    chamber: lower
+actions:
+  - date: "2026-02-05"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-05"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-05"
+    description: To Education then Finance
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-05"
+    url: https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+    archived_url: https://web.archive.org/web/20260614134006/http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+    media_type: text/html
+sources:
+  - url: https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=5205&year=2026&sessiontype=RS&btype=bill
+    title: House Bill 5205 - Bill Status, 2026 Regular Session
+    publisher: West Virginia Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260221221316/https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5205&year=2026&sessiontype=RS&btype=bill
+  - url: https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+    title: House Bill 5205, Introduced Version
+    publisher: West Virginia Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260614134006/http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5205%20intr.htm&yr=2026&sesstype=RS&i=5205
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Legacy record cited LegiScan; replaced with official legislature pages. Legacy summary was
+    broadly accurate; corrected title (West Virginia Balance Act) and added that the bill also
+    covers general classroom technology/screen-time limits. The "harmful content" and funding
+    conditions in the legacy summary are in the text (§18-5-58(b)(12), §18-5-55(g)). Last action
+    2026-02-05; no Wayback snapshot retrieved (archive offline).

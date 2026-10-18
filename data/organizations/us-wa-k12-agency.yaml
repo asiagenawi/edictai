@@ -1,0 +1,10 @@
+id: us-wa-k12-agency
+name: Office of Superintendent of Public Instruction
+abbreviation: OSPI
+classification: k12-agency
+jurisdiction: us-wa
+education_levels:
+  - k12
+url: https://ospi.k12.wa.us/
+watch_urls:
+  - https://ospi.k12.wa.us/student-success/resources-subject-area/human-centered-artificial-intelligence-schools

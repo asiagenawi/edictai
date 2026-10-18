@@ -1,0 +1,88 @@
+# Provision types: what a policy actually does, at the level of a single clause.
+# These are the columns of the cross-state comparison grid. They are
+# descriptive, not evaluative -- a provision type records that a requirement
+# exists, never whether it is good policy.
+- code: requires-ai-literacy-instruction
+  name: Requires AI literacy instruction
+  topic: ai-literacy
+  education_levels: [k12, postsecondary]
+- code: ai-in-standards
+  name: Adds AI to content standards or frameworks
+  topic: curriculum-standards
+  education_levels: [k12]
+- code: ai-course-or-graduation-requirement
+  name: Creates an AI course or graduation requirement
+  topic: curriculum-standards
+  education_levels: [k12, postsecondary]
+- code: requires-local-ai-policy
+  name: Requires districts or institutions to adopt an AI policy
+  topic: local-policy-requirement
+  education_levels: [k12, postsecondary]
+- code: issues-model-policy
+  name: Directs an agency to issue guidance or a model policy
+  topic: local-policy-requirement
+  education_levels: [k12, postsecondary]
+- code: educator-pd-requirement
+  name: Requires or funds educator AI professional development
+  topic: educator-training
+  education_levels: [k12, postsecondary]
+- code: educator-prep-requirement
+  name: Adds AI to educator preparation or licensure
+  topic: educator-training
+  education_levels: [k12, postsecondary]
+- code: restricts-student-data-use
+  name: Restricts AI vendors' use of student data
+  topic: student-privacy
+  education_levels: [k12, postsecondary]
+- code: prohibits-ai-replacing-educators
+  name: Prohibits AI from replacing licensed educators
+  topic: instructional-use
+  education_levels: [k12, postsecondary]
+- code: limits-ai-instructional-use
+  name: Limits or bans AI tools in instruction
+  topic: instructional-use
+  education_levels: [k12, postsecondary]
+- code: academic-integrity-rules
+  name: Sets academic integrity rules for AI use
+  topic: academic-integrity
+  education_levels: [k12, postsecondary]
+- code: regulates-ai-assessment
+  name: Regulates AI in grading, testing, or proctoring
+  topic: assessment
+  education_levels: [k12, postsecondary]
+- code: procurement-standards
+  name: Sets procurement or vetting standards for AI tools
+  topic: procurement
+  education_levels: [k12, postsecondary]
+- code: addresses-deepfakes
+  name: Addresses deepfakes involving students or staff
+  topic: synthetic-media
+  education_levels: [k12, postsecondary]
+- code: chatbot-minor-protections
+  name: Protections for minors using AI chatbots
+  topic: safety-wellbeing
+  education_levels: [k12]
+- code: creates-task-force
+  name: Creates a task force, council, or study
+  topic: task-force
+  education_levels: [k12, postsecondary]
+- code: appropriates-funding
+  name: Appropriates funding, creates a grant program, or sets grant priorities
+  topic: funding
+  education_levels: [k12, postsecondary]
+- code: ai-workforce-program
+  name: Creates an AI workforce, pathway, or credential program
+  topic: workforce
+  education_levels: [k12, postsecondary]
+- code: ai-in-admissions
+  name: Regulates AI in admissions decisions
+  topic: admissions
+  education_levels: [postsecondary]
+- code: requires-disclosure
+  name: Requires disclosure of AI use to students or families
+  topic: instructional-use
+  education_levels: [k12, postsecondary]
+- code: bias-or-equity-requirement
+  name: Requires bias review or equitable access
+  topic: equity-access
+  education_levels: [k12, postsecondary]

@@ -1,0 +1,8 @@
+id: us-de-legislature
+name: Delaware General Assembly
+classification: legislature
+jurisdiction: us-de
+education_levels:
+  - k12
+  - postsecondary
+url: https://legis.delaware.gov/

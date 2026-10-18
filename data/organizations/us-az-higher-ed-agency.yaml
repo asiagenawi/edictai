@@ -1,0 +1,8 @@
+id: us-az-higher-ed-agency
+name: Arizona Board of Regents
+abbreviation: ABOR
+classification: higher-ed-agency
+jurisdiction: us-az
+education_levels:
+  - postsecondary
+url: https://www.azregents.edu/

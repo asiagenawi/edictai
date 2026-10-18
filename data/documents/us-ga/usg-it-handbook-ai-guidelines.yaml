@@ -1,0 +1,26 @@
+id: us-ga-usg-it-handbook-ai-guidelines
+jurisdiction: us-ga
+issuer: us-ga-higher-ed-agency
+title: 'Artificial Intelligence Guidelines: A USG IT Handbook Companion Guide'
+classification: guidance
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - procurement
+  - data-governance
+  - institutional-operations
+summary: Companion guide to the USG IT Handbook for USG organizations considering, procuring, implementing, and maintaining AI solutions. It addresses supplier and organizational responsibilities, data protection, training, bias, accuracy, and misuse.
+published: '2024-07-12'
+sources:
+  - url: https://pxl-usgedu.terminalfour.net/prod01/channel_4/media/usg/academic-innovation/documents/USG_ITHB_AI_Guide_(Final).pdf
+    title: 'Artificial Intelligence Guidelines: A USG IT Handbook Companion Guide (Version 1.1)'
+    publisher: University System of Georgia
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260924233524/https://pxl-usgedu.terminalfour.net/prod01/channel_4/media/usg/academic-innovation/documents/USG_ITHB_AI_Guide_(Final).pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Published date is the 'Initial release' date in the document's change record.

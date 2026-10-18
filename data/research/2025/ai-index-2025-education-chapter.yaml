@@ -1,0 +1,75 @@
+id: 2025-ai-index-2025-education-chapter
+title: The AI Index 2025 Annual Report (Chapter 7, Education)
+authors:
+  - Nestor Maslej
+  - Loredana Fattorini
+  - Raymond Perrault
+  - Yolanda Gil
+  - Vanessa Parli
+  - Njenga Kariuki
+  - Emily Capstick
+  - Anka Reuel
+  - Erik Brynjolfsson
+  - John Etchemendy
+  - Katrina Ligett
+  - Terah Lyons
+  - James Manyika
+  - Juan Carlos Niebles
+  - Yoav Shoham
+  - Russell Wald
+  - Toby Walsh
+  - Armin Hamrah
+  - Lapo Santarlasci
+  - Julia Betts Lotufo
+  - Alexandra Rome
+  - Andrew Shi
+  - Sukrut Oak
+publisher: Stanford Institute for Human-Centered Artificial Intelligence
+published: '2025-04'
+classification: report
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - educator-training
+  - curriculum-standards
+  - workforce
+summary: The education chapter of Stanford HAI's annual AI Index, prepared with the Kapor Foundation, the Computer Science Teachers Association, and the Public Interest Technology University Network, compiles data on K-12 computer science and AI education and on computing degrees. It reports that most U.S. computer science teachers think AI belongs in foundational CS education but fewer than half of high school CS teachers feel equipped to teach it.
+key_findings:
+  - finding: Although 81% of U.S. computer science teachers agreed that using and learning about AI should be part of foundational CS education, fewer than half of high school CS teachers felt equipped to teach AI.
+    citation:
+      source_url: https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf
+      locator: Chapter 7 Highlights, p. 368
+      quote: Despite 81% of CS teachers agreeing that using AI and learning about AI should be included in a foundational CS learning experience, less than half of high school CS teachers felt equipped to teach AI.
+  - finding: Access to and enrollment in high school CS courses in the U.S. rose slightly from the prior school year, with gaps by state, race and ethnicity, school size, geography, income, gender, and disability.
+    citation:
+      source_url: https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf
+      locator: Chapter 7 Highlights, p. 368
+      quote: Student participation varies by state, race/ethnicity, school size, geography, income, gender, and disability.
+  - finding: The number of U.S. graduates earning master's degrees in AI nearly doubled between 2022 and 2023.
+    citation:
+      source_url: https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf
+      locator: Chapter 7 Highlights, p. 368
+      quote: Graduates who earned their master’s degree in AI in the U.S. nearly doubled between 2022 and 2023.
+methods: Compilation of secondary data, including Code.org, CSTA, and ECEP Alliance K-12 computer science data, the 2024 Computer Science Teacher Landscape Survey, and NCES IPEDS degree completion data.
+external_ids:
+  doi: 10.48550/arXiv.2504.07139
+sources:
+  - url: https://hai.stanford.edu/ai-index/2025-ai-index-report
+    title: The 2025 AI Index Report
+    publisher: Stanford Institute for Human-Centered Artificial Intelligence
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261012142203/https://hai.stanford.edu/ai-index/2025-ai-index-report
+  - url: https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf
+    title: The AI Index 2025 Annual Report (full PDF)
+    publisher: Stanford Institute for Human-Centered Artificial Intelligence
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261012214559/https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Authors and April 2025 date taken from the report's suggested citation. Only the education chapter is summarized. Page locators are the report's printed page numbers.

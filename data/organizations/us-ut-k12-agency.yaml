@@ -1,0 +1,10 @@
+id: us-ut-k12-agency
+name: Utah State Board of Education
+abbreviation: USBE
+classification: k12-agency
+jurisdiction: us-ut
+education_levels:
+  - k12
+url: https://www.schools.utah.gov/
+watch_urls:
+  - https://schools.utah.gov/informationtechnology/artificialintelligence/index

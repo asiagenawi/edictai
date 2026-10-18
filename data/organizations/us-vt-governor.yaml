@@ -1,0 +1,8 @@
+id: us-vt-governor
+name: Office of the Governor of Vermont
+classification: governor
+jurisdiction: us-vt
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.vermont.gov/

@@ -1,0 +1,7 @@
+id: us-nm
+ocd_id: "ocd-division/country:us/state:nm"
+name: New Mexico
+abbreviation: NM
+classification: state
+fips: "35"
+region: Southwest

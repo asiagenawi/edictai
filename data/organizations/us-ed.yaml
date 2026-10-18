@@ -1,0 +1,11 @@
+id: us-ed
+name: U.S. Department of Education
+abbreviation: ED
+classification: federal-agency
+jurisdiction: us
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.ed.gov/
+watch_urls:
+  - https://www.ed.gov/topic/artificial-intelligence

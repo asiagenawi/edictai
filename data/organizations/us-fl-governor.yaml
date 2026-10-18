@@ -1,0 +1,8 @@
+id: us-fl-governor
+name: Office of the Governor of Florida
+classification: governor
+jurisdiction: us-fl
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.flgov.com/

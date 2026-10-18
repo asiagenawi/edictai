@@ -1,0 +1,54 @@
+id: 2026-making-ai-tutoring-productive-mastery-math
+title: 'Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment'
+authors:
+  - Philip Oreopoulos
+  - Michael Liut
+  - Alp Sungu
+  - Nina Low
+publisher: National Bureau of Economic Research
+published: 2026-08
+classification: report
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - research
+summary: A randomized field experiment with more than 6,000 middle school students in Hamilton County Schools, Tennessee, compared math practice on a computer-assisted learning platform with and without a large language model tutor, and with and without mastery-based progression, followed by a delayed test a week later. Students with AI support progressed more slowly but recovered from mistakes more effectively, and the most encouraging delayed-test gains, which were only marginally significant, appeared when the AI was embedded in the mastery workflow.
+key_findings:
+  - finding: Students with AI support progressed more slowly and attempted fewer questions, but answered more accurately when they did attempt, and the AI improved correctness on the attempt following a mistake.
+    citation:
+      source_url: https://www.nber.org/papers/w35621
+      locator: Abstract
+      quote: 'AI students progressed more slowly and attempted fewer questions, but answered more accurately conditional on reaching an attempt. The clearest mechanism appeared after mistakes: AI improved next-attempt correctness'
+  - finding: Mastery-based progression increased three-correct-in-a-row attainment but did not by itself improve delayed learning.
+    citation:
+      source_url: https://www.nber.org/papers/w35621
+      locator: Abstract
+      quote: Mastery increased three-correct-in-a-row attainment but did not by itself improve delayed learning.
+  - finding: The strongest delayed-test evidence came from combining AI with the mastery workflow, with marginally significant gains concentrated on practiced material.
+    citation:
+      source_url: https://www.nber.org/papers/w35621
+      locator: Abstract
+      quote: The most encouraging delayed-test evidence appears when AI is embedded in the mastery workflow, with marginally significant gains concentrated on practiced Exercise 1 material.
+methods: Registered randomized field experiment (AEA RCT Registry AEARCTR-0018678); more than 6,000 students in grades 6-8 across 20 schools in Hamilton County Schools, Tennessee, March-April 2026; cross-randomized AI vs. computer-assisted-learning-only support, mastery vs. non-mastery progression, and math topic; delayed assessment about one week later.
+geography:
+  - us-tn
+external_ids:
+  doi: 10.3386/w35621
+  openalex_id: W7203603021
+sources:
+  - url: https://www.nber.org/papers/w35621
+    title: 'Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment (NBER Working Paper 35621)'
+    publisher: National Bureau of Economic Research
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://www.nber.org/system/files/working_papers/w35621/w35621.pdf
+    title: 'Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment (full text PDF)'
+    publisher: National Bureau of Economic Research
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Working paper, not peer reviewed. Setting, dates, and grade span from section 3.1 of the PDF; issue date (August 2026) from the NBER page.

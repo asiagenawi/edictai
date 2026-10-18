@@ -1,0 +1,10 @@
+id: us-tx-uh
+name: University of Houston System
+abbreviation: UH System
+classification: university-system
+jurisdiction: us-tx
+education_levels:
+  - postsecondary
+url: https://uhsystem.edu/
+watch_urls:
+  - https://uhsystem.edu/offices/information-security/resources/artificial-intelligence/index.php

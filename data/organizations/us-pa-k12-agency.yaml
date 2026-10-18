@@ -1,0 +1,10 @@
+id: us-pa-k12-agency
+name: Pennsylvania Department of Education
+abbreviation: PDE
+classification: k12-agency
+jurisdiction: us-pa
+education_levels:
+  - k12
+url: https://www.pa.gov/agencies/education
+watch_urls:
+  - https://www.pa.gov/agencies/education/ai-digital-media-literacy/implementingaiinschools

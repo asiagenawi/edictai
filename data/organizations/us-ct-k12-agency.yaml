@@ -1,0 +1,10 @@
+id: us-ct-k12-agency
+name: Connecticut State Department of Education
+abbreviation: CSDE
+classification: k12-agency
+jurisdiction: us-ct
+education_levels:
+  - k12
+url: https://portal.ct.gov/sde
+watch_urls:
+  - https://portal.ct.gov/das/ctedtech/commission-for-educational-technology/initiatives/artificial-intelligence

@@ -1,0 +1,371 @@
+"""`statescope classify ...` subcommands."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import sys
+from datetime import date
+from pathlib import Path
+
+from ..paths import Paths
+from ..vocab import Vocab
+from .common import ClassifyPaths, expand, latest_candidates, load_candidates, read_json, read_jsonl
+from .instructions import write_instructions
+from .judgments import batch_for_output, check_full, check_triage, expected_keys, load_rows
+from .texts import TextStore
+
+
+def _paths(args: argparse.Namespace) -> Paths:
+    return Paths.discover(args.root)
+
+
+def _cp(paths: Paths, args: argparse.Namespace) -> ClassifyPaths:
+    work = getattr(args, "workdir", None)
+    return ClassifyPaths(paths, Path(work).resolve() if work else None)
+
+
+def _rel(path: Path) -> str:
+    rel = os.path.relpath(path)
+    return str(path) if rel.startswith("..") else rel
+
+
+def _keys(args: argparse.Namespace) -> list[str] | None:
+    keys: list[str] = []
+    for value in args.keys or []:
+        p = Path(value)
+        if p.is_file():
+            if p.suffix == ".jsonl":
+                keys += [r["key"] for r in read_jsonl(p)]
+            else:
+                keys += [
+                    ln.strip() for ln in p.read_text(encoding="utf-8").splitlines() if ln.strip()
+                ]
+        else:
+            keys += [k.strip() for k in value.split(",") if k.strip()]
+    return keys or None
+
+
+def _candidates(cp: ClassifyPaths, args: argparse.Namespace) -> dict:
+    path = Path(args.candidates) if getattr(args, "candidates", None) else latest_candidates(cp)
+    return load_candidates(path)
+
+
+def cmd_prep(args: argparse.Namespace) -> int:
+    from .prep import prep_full, prep_triage
+
+    paths = _paths(args)
+    cp = _cp(paths, args)
+    written = write_instructions(paths, cp.root)
+    candidates = _candidates(cp, args)
+    keys = _keys(args)
+    args.batch_size = args.batch_size or default_batch_size(args.stage)
+    if args.stage == "triage":
+        result = prep_triage(
+            cp, candidates, batch_size=args.batch_size, keys=keys, rebuild=args.rebuild
+        )
+    else:
+        result = prep_full(
+            cp,
+            candidates,
+            batch_size=args.batch_size,
+            keys=keys,
+            rebuild=args.rebuild,
+            require_text=args.require_text,
+        )
+    print(f"{result.items} bills in {len(result.batches)} new {args.stage} batches")
+    for path in result.batches:
+        print(f"  {_rel(path)}")
+    if result.skipped_existing:
+        print(f"Skipped {result.skipped_existing} already in data/legislation")
+    if result.skipped_judged or result.skipped_assigned:
+        print(
+            f"Skipped {result.skipped_judged} already judged and "
+            f"{result.skipped_assigned} already in a batch (use --rebuild to re-batch)"
+        )
+    if result.without_text:
+        print(f"{len(result.without_text)} bills have no fetched text (run `classify fetch-texts`)")
+    if result.unknown_keys:
+        print(
+            f"{len(result.unknown_keys)} keys are not in the candidate file: "
+            + ", ".join(result.unknown_keys[:10])
+        )
+    print("Instructions: " + ", ".join(_rel(p) for p in written.values()))
+    return 0
+
+
+def cmd_instructions(args: argparse.Namespace) -> int:
+    paths = _paths(args)
+    written = write_instructions(paths, _cp(paths, args).root)
+    for p in written.values():
+        print(_rel(p))
+    return 0
+
+
+def cmd_fetch_texts(args: argparse.Namespace) -> int:
+    from dotenv import load_dotenv
+
+    from ..ingest.legiscan import LegiScanClient, LegiScanError
+    from .common import BillStore
+    from .prep import triage_decisions
+    from .texts import fetch_texts
+
+    paths = _paths(args)
+    cp = _cp(paths, args)
+    candidates = _candidates(cp, args)
+    keys = _keys(args)
+    if keys is None:
+        decisions = triage_decisions(cp)
+        keys = [
+            k for k, d in sorted(decisions.items()) if d.get("decision") in ("in", "needs_text")
+        ]
+    store = BillStore(cp.legiscan)
+    pairs = []
+    missing = []
+    for key in keys:
+        row = candidates.get(key)
+        if row is None:
+            missing.append(key)
+            continue
+        bill = store.get(int(row["bill_id"])) or row
+        pairs.append((key, bill))
+    store.close()
+    load_dotenv(paths.root / ".env")
+    try:
+        client = LegiScanClient(os.environ.get("LEGISCAN_API_KEY", ""), cp.legiscan)
+        result = fetch_texts(
+            cp,
+            client,
+            pairs,
+            max_queries=args.max_queries,
+            refresh_extract=args.re_extract,
+            progress=lambda m: print(m, file=sys.stderr),
+        )
+    except LegiScanError as exc:
+        print(f"legiscan: {exc}", file=sys.stderr)
+        return 1
+    ok = len(result.fetched) + len(result.cached) - len(result.unavailable)
+    print(
+        f"{len(pairs)} bills: {len(result.fetched)} texts fetched, {len(result.cached)} cached; "
+        f"{ok} with text, {len(result.unavailable) + len(result.no_text)} text_unavailable"
+    )
+    for key, why in result.unavailable[:20]:
+        print(f"  unavailable {key}: {why}")
+    if result.skipped_budget:
+        print(f"{len(result.skipped_budget)} not fetched: --max-queries {args.max_queries} reached")
+    for key, why in result.errors[:20]:
+        print(f"  error {key}: {why}")
+    if missing:
+        print(f"{len(missing)} keys are not in the candidate file")
+    print(f"Queries: {result.queries} this run, {result.month_total} this month")
+    print(f"Texts: {_rel(cp.texts)}")
+    return 1 if result.errors else 0
+
+
+def _check(cp: ClassifyPaths, stage: str, files: list[Path], with_expected: bool):
+    paths = cp.paths
+    rows = load_rows(files)
+    expected = None
+    if with_expected and len(files) == 1:
+        expected = expected_keys(batch_for_output(files[0]))
+    if stage == "triage":
+        return check_triage(rows, expected)
+    return check_full(rows, Vocab.load(paths.vocab), TextStore(cp.texts), expected)
+
+
+def _detect_stage(files: list[Path]) -> str:
+    rows = load_rows(files[:1])
+    return "full" if rows and "in_scope" in rows[0] else "triage"
+
+
+def cmd_check(args: argparse.Namespace) -> int:
+    paths = _paths(args)
+    files = expand(args.files)
+    stage = args.stage or _detect_stage(files)
+    report = _check(_cp(paths, args), stage, files, with_expected=True)
+    for line in report.lines():
+        print(line)
+    print(report.summary(), file=sys.stderr)
+    return 0 if report.ok else 1
+
+
+def _openstates(paths: Paths):
+    """Session dates from Open States: fetched (and cached) with a key, else the cache alone."""
+    from dotenv import load_dotenv
+
+    from ..ingest.sessions import CachedOpenStates, OpenStatesClient
+
+    load_dotenv(paths.root / ".env")
+    key = os.environ.get("OPENSTATES_API_KEY", "")
+    cache = paths.cache / "openstates"
+    return OpenStatesClient(key, cache) if key else CachedOpenStates(cache)
+
+
+def cmd_import(args: argparse.Namespace) -> int:
+    from ..validate import validate
+    from .importer import import_judgments
+
+    paths = _paths(args)
+    cp = _cp(paths, args)
+    target = Paths(Path(args.target).resolve()) if args.target else paths
+    files = expand(args.files)
+    report = _check(cp, "full", files, with_expected=False)
+    candidates = _candidates(cp, args)
+    sessions_path = cp.legiscan / "sessions.json"
+    sessions = read_json(sessions_path) if sessions_path.exists() else {}
+    result = import_judgments(
+        cp,
+        target,
+        report,
+        candidates,
+        sessions,
+        today=date.today(),
+        openstates=_openstates(paths),
+        overwrite=args.overwrite,
+        dry_run=args.dry_run,
+        strict_quotes=args.strict_quotes,
+    )
+    verb = "Would write" if args.dry_run else "Wrote"
+    print(
+        f"{verb} {len(result.written)} records ({result.machine_verified} machine-verified, "
+        f"{result.unverified} unverified) to {_rel(target.data)}; "
+        f"{result.out_of_scope} judged out of scope"
+    )
+    for p in result.written:
+        print(f"  {_rel(p)}")
+    if result.dropped_provisions:
+        print(f"{result.dropped_provisions} provisions dropped for unverified quotes")
+    for key, errors in result.rejected:
+        print(f"Rejected {key}: " + "; ".join(errors))
+    for key, why in result.skipped:
+        print(f"Skipped {key}: {why}")
+    for jur, ident in result.sessions_added:
+        print(f"Added session {ident} to data/jurisdictions/{jur}.yaml")
+    if args.dry_run:
+        return 0
+    vreport, _ = validate(target, strict=True)
+    written = {os.path.realpath(p) for p in result.written}
+    relevant = [
+        i
+        for i in vreport.issues
+        if os.path.realpath(target.root / i.file) in written or "jurisdictions/" in i.file
+    ]
+    for issue in relevant:
+        print(issue.format())
+    print(f"validate --strict: {vreport.summary()}")
+    return 0 if vreport.ok and not result.rejected else 1
+
+
+def cmd_score(args: argparse.Namespace) -> int:
+    from .score import format_report, load_eval, score
+
+    paths = _paths(args)
+    cp = _cp(paths, args)
+    entries = load_eval(
+        Path(args.eval) if args.eval else paths.root / "pipeline" / "eval" / "classifier_eval.yaml"
+    )
+    rows = load_rows(expand(args.files))
+    # Later lines win when a key was judged more than once.
+    judgments = list({r["key"]: r for r in rows if isinstance(r.get("key"), str)}.values())
+    try:
+        bills = _candidates(cp, args)
+    except FileNotFoundError:
+        bills = {}
+    result = score(
+        entries,
+        judgments,
+        needs_text_as_in=not args.needs_text_as_out,
+        missing_as_out=args.missing_as_out,
+        bills=bills,
+    )
+    if args.format == "json":
+        print(json.dumps(result.as_dict(), indent=1))
+    else:
+        print(format_report(result))
+    return 0
+
+
+def register(sub: argparse._SubParsersAction) -> None:
+    c = sub.add_parser("classify", help="prepare, check, import, and score scope judgments")
+    c.add_argument(
+        "--workdir",
+        help="directory for batches, judgments, and instructions (default: .cache/classify)",
+    )
+    csub = c.add_subparsers(dest="classify_command", required=True)
+
+    def candidates_arg(p: argparse.ArgumentParser) -> None:
+        p.add_argument("--candidates", help="candidate file (default: newest in .cache/candidates)")
+
+    def keys_arg(p: argparse.ArgumentParser) -> None:
+        p.add_argument(
+            "--keys",
+            action="append",
+            help="limit to these bill keys: comma-separated, or a file of keys or JSON lines",
+        )
+
+    p = csub.add_parser("prep", help="write batch files and reviewer instructions")
+    p.add_argument("--stage", choices=("triage", "full"), required=True)
+    p.add_argument("--batch-size", type=int, default=None)
+    p.add_argument("--rebuild", action="store_true", help="discard unjudged batches and re-batch")
+    p.add_argument(
+        "--require-text",
+        action="store_true",
+        help="full stage: leave out bills with no fetched text",
+    )
+    candidates_arg(p)
+    keys_arg(p)
+    p.set_defaults(func=cmd_prep)
+
+    p = csub.add_parser("instructions", help="regenerate TRIAGE.md, FULL.md, and output schemas")
+    p.set_defaults(func=cmd_instructions)
+
+    p = csub.add_parser(
+        "fetch-texts", help="fetch the latest text of bills triaged in or needs_text (getBillText)"
+    )
+    p.add_argument(
+        "--max-queries", type=int, default=500, help="API queries this run (default 500)"
+    )
+    p.add_argument(
+        "--re-extract", action="store_true", help="re-extract text from cached responses"
+    )
+    candidates_arg(p)
+    keys_arg(p)
+    p.set_defaults(func=cmd_fetch_texts)
+
+    p = csub.add_parser("check", help="check a judgment file (exit 1 on any error)")
+    p.add_argument("files", nargs="+")
+    p.add_argument("--stage", choices=("triage", "full"))
+    p.set_defaults(func=cmd_check)
+
+    p = csub.add_parser("import", help="write records for accepted in-scope judgments")
+    p.add_argument("files", nargs="+", help="full-stage judgment files or directories")
+    p.add_argument("--target", help="repository root to write into (default: this one)")
+    p.add_argument("--overwrite", action="store_true", help="replace existing record files")
+    p.add_argument("--dry-run", action="store_true")
+    p.add_argument(
+        "--strict-quotes",
+        action="store_true",
+        help="reject a judgment with any unverified quote instead of dropping that provision",
+    )
+    candidates_arg(p)
+    p.set_defaults(func=cmd_import)
+
+    p = csub.add_parser("score", help="precision and recall against the evaluation set")
+    p.add_argument("files", nargs="+", help="judgment files (full or triage) or directories")
+    p.add_argument("--eval", help="evaluation file (default: pipeline/eval/classifier_eval.yaml)")
+    p.add_argument(
+        "--needs-text-as-out", action="store_true", help="triage files: count needs_text as out"
+    )
+    p.add_argument(
+        "--missing-as-out",
+        action="store_true",
+        help="count evaluation entries with no judgment as judged out",
+    )
+    p.add_argument("--format", choices=("text", "json"), default="text")
+    candidates_arg(p)
+    p.set_defaults(func=cmd_score)
+
+
+def default_batch_size(stage: str) -> int:
+    return 150 if stage == "triage" else 20

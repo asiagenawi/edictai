@@ -1,0 +1,10 @@
+id: us-ny-cuny
+name: City University of New York
+abbreviation: CUNY
+classification: university-system
+jurisdiction: us-ny
+education_levels:
+  - postsecondary
+url: https://www.cuny.edu/
+watch_urls:
+  - https://www.cuny.edu/academics/ai-academic-hub/

@@ -1,0 +1,45 @@
+id: us-nc-dpi-generative-ai-recommendations
+jurisdiction: us-nc
+issuer: us-nc-k12-agency
+title: North Carolina Generative AI Implementation Recommendations and Considerations for PK-13 Public Schools
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - instructional-use
+  - educator-training
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - synthetic-media
+  - safety-wellbeing
+summary: >-
+  North Carolina Department of Public Instruction recommendations for responsible use of
+  generative AI and AI literacy in public schools, organized around the five focus areas of the
+  state Digital Learning Plan (leadership and vision, human capacity, curriculum and
+  instruction, data privacy and cybersecurity, and technology infrastructure). It is a living
+  document, first published January 16, 2024 and revised repeatedly since, with additions
+  such as the EVERY responsible-use framework, tool evaluation resources, and guidance on
+  deepfakes and AI social companions.
+published: "2024-01-16"
+updated: "2026-08-06"
+sources:
+  - url: https://go.ncdpi.gov/AI_Guidelines
+    title: North Carolina Generative AI Implementation Recommendations and Considerations for PK-13 Public Schools
+    publisher: North Carolina Department of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043222/https://docs.google.com/document/d/1U-AwwwBg7glJ4ZDlcKVzARuFRPWwUWzqRN2rOgT9zlA/edit?usp=sharing
+  - url: https://www.dpi.nc.gov/districts-schools/districts-schools-support/digital-teaching-and-learning/ai-resources
+    title: AI Resources
+    publisher: North Carolina Department of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260805085111/https://www.dpi.nc.gov/districts-schools/districts-schools-support/digital-teaching-and-learning/ai-resources
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-document-text
+  notes: The go.ncdpi.gov link redirects to a Google Doc maintained by NCDPI; its version history lists the 1/16/2024 original publication and later updates through 8/6/26.

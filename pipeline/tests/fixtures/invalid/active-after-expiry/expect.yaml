@@ -1,0 +1,3 @@
+rule: expired
+severity: warning
+pointer: /status

@@ -1,0 +1,13 @@
+---
+/**
+ * Full-page canvas of shapes behind the home card. Plain canvas script, no framework.
+ * Place it after the card so the script can find the wordmark that replays the flow-in.
+ */
+import fieldScript from './shape-field.js?raw';
+---
+<canvas id="field" aria-hidden="true"></canvas>
+<script is:inline set:html={fieldScript} />
+
+<style>
+#field{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+</style>

@@ -1,0 +1,8 @@
+id: us-mi-legislature
+name: Michigan Legislature
+classification: legislature
+jurisdiction: us-mi
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.legislature.mi.gov/

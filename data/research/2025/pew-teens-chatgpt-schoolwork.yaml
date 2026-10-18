@@ -1,0 +1,42 @@
+id: 2025-pew-teens-chatgpt-schoolwork
+title: About a quarter of U.S. teens have used ChatGPT for schoolwork – double the share in 2023
+authors:
+  - Olivia Sidoti
+  - Eugenie Park
+  - Jeffrey Gottfried
+publisher: Pew Research Center
+published: '2025-01-15'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - academic-integrity
+  - equity-access
+summary: Pew Research Center surveyed U.S. teens ages 13 to 17 in fall 2024 about whether they use ChatGPT for schoolwork and which uses they consider acceptable. The share using it for schoolwork doubled from 2023 to 26 percent, and teens were more accepting of using it to research topics than to write essays.
+key_findings:
+  - finding: Twenty-six percent of teens said they had used ChatGPT for schoolwork, up from 13 percent in 2023.
+    citation:
+      source_url: https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/
+      quote: The share of teens who say they use ChatGPT for their schoolwork has risen to 26%, according to a Pew Research Center survey of U.S. teens ages 13 to 17. That’s up from 13% in 2023.
+  - finding: Black and Hispanic teens (31 percent each) were more likely than White teens (22 percent) to report using ChatGPT for schoolwork.
+    citation:
+      source_url: https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/
+      locator: By race and ethnicity
+      quote: Black and Hispanic teens (31% each) are more likely than White teens (22%) to say they have used ChatGPT for their schoolwork.
+  - finding: Fifty-four percent of teens said using ChatGPT to research new topics is acceptable, compared with 18 percent for writing essays.
+    citation:
+      source_url: https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/
+      quote: 18% say it’s acceptable to use ChatGPT to write essays, and 42% say it’s not acceptable.
+methods: Survey of 1,391 U.S. teens ages 13-17, Sept. 18 to Oct. 10, 2024, recruited through Ipsos KnowledgePanel parents; weighted to be representative of U.S. teens living with their parents.
+sources:
+  - url: https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/
+    title: About a quarter of U.S. teens have used ChatGPT for schoolwork – double the share in 2023
+    publisher: Pew Research Center
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261014113630/https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

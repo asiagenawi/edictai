@@ -1,0 +1,62 @@
+id: us-tx-2025-hb-1481
+jurisdiction: us-tx
+session: "2025"
+identifier: HB 1481
+title: Relating to artificial intelligence instruction in public schools
+classification: bill
+education_levels: [k12]
+topics: [ai-literacy, local-policy-requirement]
+summary: Requires districts to adopt an AI use policy.
+abstract: AN ACT relating to artificial intelligence.
+provisions:
+  - type: requires-local-ai-policy
+    description: Each district must adopt a policy on student use of AI.
+    citation:
+      source_url: https://example.org/tx/hb1481/enrolled
+      locator: Sec. 2
+      quote: Each school district shall adopt a policy.
+sponsors:
+  - name: Jane Doe
+    primary: true
+    party: R
+    chamber: lower
+  - name: John Roe
+    classification: caucus
+    primary: false
+actions:
+  - date: 2025-02-10
+    description: Filed
+    actor: lower
+    classification: [introduction]
+  - date: 2025-03-01
+    description: Referred to Public Education
+    actor: lower
+    classification: [referral-committee]
+  - date: 2025-04-15
+    description: Passed
+    actor: lower
+    classification: [passage]
+  - date: 2025-05-10
+    description: Passed
+    actor: upper
+    classification: [passage]
+  - date: 2025-06-20
+    description: Signed by the Governor
+    actor: executive
+    classification: [executive-signature]
+versions:
+  - note: Enrolled
+    date: 2025-05-12
+    url: https://example.org/tx/hb1481/enrolled
+session_law: Chapter 100
+related: [us-tx-tea-ai-guidance]
+external_ids:
+  legiscan_bill_id: 123456
+sources:
+  - url: https://example.org/tx/hb1481
+    title: HB 1481 history
+    kind: official
+    accessed: 2026-10-01
+verification:
+  status: machine-verified
+  last_verified: 2026-10-01

@@ -1,0 +1,44 @@
+id: 2025-aaup-artificial-intelligence-and-academic-professions
+title: Artificial Intelligence and Academic Professions
+authors:
+  - AAUP Ad Hoc Committee on Artificial Intelligence and Academic Professions
+publisher: American Association of University Professors
+published: '2025'
+classification: report
+education_levels:
+  - postsecondary
+topics:
+  - employment-evaluation
+  - procurement
+  - institutional-operations
+  - academic-integrity
+summary: A committee report based on a December 2024 survey of about 500 randomly sampled AAUP members on how AI and other education technology are affecting faculty work. Respondents reported that AI initiatives are largely led by administrators with little faculty input and that AI has worsened several aspects of their work; the report recommends shared governance over technology procurement and use.
+key_findings:
+  - finding: 71% of respondents said AI decision-making and initiatives are overwhelmingly led by college or university administrations.
+    citation:
+      source_url: https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/artificial-intelligence-and-academic
+      locator: Findings, concern 2
+      quote: Seventy-one percent of respondents said decision-making and AI initiatives are overwhelmingly led by college or university administrations
+  - finding: 91% of respondents were at least somewhat concerned about preventing academic dishonesty enabled by generative AI.
+    citation:
+      source_url: https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/artificial-intelligence-and-academic
+      locator: Findings, concern 3
+      quote: Respondents were overwhelmingly concerned with student plagiarism made possible by generative AI. Ninety-one percent noted that they were at least somewhat concerned about preventing academic dishonesty.
+  - finding: Respondents said AI had led to at least somewhat worse outcomes for the teaching environment (62%), job enthusiasm (76%), and student success (69%).
+    citation:
+      source_url: https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/artificial-intelligence-and-academic
+      locator: Findings
+      quote: AI has generally led to at least somewhat worse outcomes for the teaching environment (according to 62 percent of respondents), pay equity (30 percent), job enthusiasm (76 percent), academic freedom (40 percent), and student success (69 percent).
+methods: Online survey of AAUP members in December 2024; 5,000 members randomly selected from the active membership list, about 500 responses over two weeks; descriptive statistics and thematic coding of open-ended items. Results are not representative of all US academic workers.
+sources:
+  - url: https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/artificial-intelligence-and-academic
+    title: Artificial Intelligence and Academic Professions
+    publisher: American Association of University Professors
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261005154301/https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/artificial-intelligence-and-academic
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Full report text read on the AAUP site. The page states the report was prepared in May 2025 but gives no release date, so only the year is recorded.

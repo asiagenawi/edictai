@@ -1,0 +1,102 @@
+id: us-in-2025-hb-1296
+jurisdiction: us-in
+session: "2025"
+identifier: HB 1296
+title: Artificial intelligence inventory and policies.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - academic-integrity
+  - procurement
+  - instructional-use
+summary: >-
+  Would have required the Indiana Department of Education to issue guidelines and a model
+  policy on school AI policies, keep an inventory of AI platforms that teachers and
+  administrators could submit for review, and survey teachers and students about AI. Schools
+  would have had to adopt and post AI policies, and could not penalize a student based solely on
+  an AI detector's evidence. The bill was referred to the House Education Committee and did not
+  advance.
+abstract: >-
+  Requires the department of education (department) to establish the following: (1) Guidelines
+  and a model policy regarding school artificial intelligence policies. (2) An inventory of
+  artificial intelligence platforms that includes certain information. (3) A process and review
+  by which teachers and school administrators may submit an artificial intelligence platform for
+  inclusion on the inventory. Requires the department to: (1) conduct a survey of teachers and
+  students regarding artificial intelligence platforms; and (2) submit a report regarding the
+  results of the survey to the governor, legislative council, and members of the artificial
+  intelligence task force. Requires school corporations and charter schools to adopt, post, and
+  communicate to students a school policy regarding artificial intelligence. Prohibits school
+  corporations, charter schools, and employees of a school corporation or charter school from
+  penalizing a student based solely on evidence provided by an artificial intelligence detector.
+provisions:
+  - type: requires-local-ai-policy
+    description: Would require school corporations and charter schools to adopt, post, and communicate to students a school AI policy.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://iga.in.gov/legislative/2025/bills/house/1296/details
+      locator: Digest
+      quote: Requires school corporations and charter schools to adopt, post, and communicate to students a school policy regarding artificial intelligence.
+  - type: issues-model-policy
+    description: Would require the Department of Education to establish guidelines and a model policy for school AI policies.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://iga.in.gov/legislative/2025/bills/house/1296/details
+      locator: Digest
+      quote: Guidelines and a model policy regarding school artificial intelligence policies.
+  - type: academic-integrity-rules
+    description: Would bar schools and their employees from penalizing a student based solely on evidence from an AI detector.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://iga.in.gov/legislative/2025/bills/house/1296/details
+      locator: Digest
+      quote: Prohibits school corporations, charter schools, and employees of a school corporation or charter school from penalizing a student based solely on evidence provided by an artificial intelligence detector.
+  - type: procurement-standards
+    description: Would require the Department of Education to maintain an inventory of AI platforms and a review process for teachers and administrators to submit platforms for inclusion.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://iga.in.gov/legislative/2025/bills/house/1296/details
+      locator: Digest
+      quote: A process and review by which teachers and school administrators may submit an artificial intelligence platform for inclusion on the inventory.
+sponsors:
+  - name: Sue Errington
+    primary: true
+    chamber: lower
+  - name: Cherrish Pryor
+    primary: false
+    chamber: lower
+  - name: Tonya Pfaff
+    primary: false
+    chamber: lower
+actions:
+  - date: "2025-01-13"
+    description: Authored by Representative Errington; Coauthored by Representatives Pryor and Pfaff
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-13"
+    description: "First reading: referred to Committee on Education"
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+sources:
+  - url: https://iga.in.gov/legislative/2025/bills/house/1296/details
+    title: House Bill 1296 - Artificial intelligence inventory and policies
+    publisher: Indiana General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250323212056/https://iga.in.gov/legislative/2025/bills/house/1296/details
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page
+  notes: >-
+    Bill page lists only the 2025-01-13 actions and marks the bill dead; failure is
+    derived from the session end date (2025-04-24, General Assembly session calendar). Corrected legacy wording: the inventory and survey duties fall on the Department of
+    Education, not on schools.

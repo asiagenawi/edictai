@@ -1,0 +1,8 @@
+id: us-mn-governor
+name: Office of the Governor of Minnesota
+classification: governor
+jurisdiction: us-mn
+education_levels:
+  - k12
+  - postsecondary
+url: https://mn.gov/governor/

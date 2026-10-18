@@ -1,0 +1,47 @@
+id: 2024-designing-for-education-with-ai-developers-guide
+title: 'Designing for Education with Artificial Intelligence: An Essential Guide for Developers'
+authors:
+  - U.S. Department of Education, Office of Educational Technology
+publisher: U.S. Department of Education
+published: '2024-07'
+classification: report
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - procurement
+  - student-privacy
+  - equity-access
+  - instructional-use
+summary: Non-regulatory federal guide for companies and organizations building AI products for education, building on the Department's 2023 AI report and developer listening sessions. It frames trust as a responsibility shared among government, developers, and educators and organizes its advice around five recommendations covering design for teaching and learning, evidence, equity and civil rights, safety and security, and transparency.
+key_findings:
+  - finding: Developers in the Department's listening sessions singled out the 2023 report's recommendation to strengthen trust, and the guide's central message is that trust is a shared responsibility.
+    citation:
+      source_url: https://tech.ed.gov/files/2024/07/Designing-for-Education-with-Artificial-Intelligence-An-Essential-Guide-for-Developers.pdf
+      locator: 'Key Message: Shared Responsibility for Building Trust (PDF p. 8)'
+      quote: Through listening sessions, the Department learned that one key recommendation in the 2023 AI Report, “Prioritize Strengthening Trust,” resonated with developers as a call to action.
+  - finding: The guide is organized around five areas of shared responsibility, starting with designing for education values such as keeping humans in the loop and incorporating educator and student feedback throughout product development.
+    citation:
+      source_url: https://tech.ed.gov/files/2024/07/Designing-for-Education-with-Artificial-Intelligence-An-Essential-Guide-for-Developers.pdf
+      locator: Introduction (PDF p. 14)
+      quote: We categorized these concerns and organized this guide around five key overarching areas of shared responsibility
+  - finding: The guidance is explicitly non-regulatory and does not claim to cover federal guidelines exhaustively.
+    citation:
+      source_url: https://tech.ed.gov/files/2024/07/Designing-for-Education-with-Artificial-Intelligence-An-Essential-Guide-for-Developers.pdf
+      locator: Introduction (PDF p. 5)
+      quote: This guide provides non-regulatory, education-specific guidance that is aligned with federal guidelines and guardrails.
+methods: Federal guidance document informed by Department listening sessions with developers and educators and by the 2023 report Artificial Intelligence and the Future of Teaching and Learning.
+related:
+  - 2023-ai-and-the-future-of-teaching-and-learning
+sources:
+  - url: https://tech.ed.gov/files/2024/07/Designing-for-Education-with-Artificial-Intelligence-An-Essential-Guide-for-Developers.pdf
+    title: 'Designing for Education with Artificial Intelligence: An Essential Guide for Developers'
+    publisher: U.S. Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250202231631/https://tech.ed.gov/files/2024/07/Designing-for-Education-with-Artificial-Intelligence-An-Essential-Guide-for-Developers.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The Office of Educational Technology website is no longer online, so the full text was read from the Wayback Machine capture listed as archived_url. Locators give PDF page numbers.

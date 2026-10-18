@@ -1,0 +1,3 @@
+rule: id-path
+file: data/legislation/us-tx/sb-20.yaml
+message: file must be at data/legislation/{jurisdiction}/{session}/{bill-slug}.yaml

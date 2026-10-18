@@ -1,0 +1,8 @@
+id: us-ne-legislature
+name: Nebraska Legislature
+classification: legislature
+jurisdiction: us-ne
+education_levels:
+  - k12
+  - postsecondary
+url: https://nebraskalegislature.gov/

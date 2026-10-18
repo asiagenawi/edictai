@@ -1,0 +1,210 @@
+id: us-ga-2025-2026-sb-179
+jurisdiction: us-ga
+session: "2025-2026"
+identifier: SB 179
+title: >-
+  Education; the academic and disciplinary records of each transferring student shall be
+  provided within five days; require
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: >-
+  As enacted, makes a computer science course, or a career, technical, and agricultural
+  education course with embedded computer science, a high school graduation requirement
+  beginning in the 2031-2032 school year for students graduating in 2037 or later, and adds
+  artificial intelligence and computer science ethics to the statutory definition of computer
+  science. The final version also raises the Georgia Virtual School per-course charge, requires
+  schools to allow patriotic societies to speak with students, and revises the definition of
+  private school; the listed caption reflects the bill as first introduced.
+abstract: >-
+  To amend Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to
+  elementary and secondary education, so as to provide that, beginning in the 2031-2032 school
+  year, a computer science course shall be a high school graduation requirement; to provide for
+  certain computer science courses to be substituted for units of credit graduation
+  requirements in certain other subject areas; to provide for such exception; to revise
+  legislative findings; to increase the allowable charge per student per semester for each
+  Georgia Virtual School course from $250.00 to $350.00; to require local school systems to
+  allow the representatives of certain organizations to speak with students during school
+  hours; to require certain organizations to provide notice; to require local school
+  superintendents to provide approval of certain activities by certain organizations during
+  school hours; to require local school superintendents to provide written explanation for
+  denial of certain activities; to provide for legislative intent; to provide for a
+  definition; to include certain online schools in the definition of "private school"; to
+  provide for related matters; to repeal conflicting laws; and for other purposes.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: >-
+      Requires students graduating in 2037 or later to complete a computer science course, or
+      a CTAE course embedded with computer science, as a condition of high school graduation,
+      beginning in the 2031-2032 school year.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.ga.gov/api/legislation/document/20252026/247229
+      locator: Section 1, O.C.G.A. 20-2-149.3(c)(4)(A)
+      quote: >-
+        Beginning in the 2031-2032 school year, each local board of education shall require
+        all students who will graduate in 2037 or later, as a condition of graduation from high
+        school, to complete a course in computer science
+  - type: ai-in-standards
+    description: >-
+      Adds artificial intelligence and computer science ethics to the statutory definition of
+      computer science that governs required computer science courses and content.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.ga.gov/api/legislation/document/20252026/247229
+      locator: Section 1, O.C.G.A. 20-2-149.3(b)(1)
+      quote: >-
+        'Computer science' means the study of computers, algorithmic processes, coding,
+        computer science ethics, artificial intelligence, emerging technologies, and logical
+        critical thinking
+sponsors:
+  - name: Clint Dixon
+    primary: true
+    chamber: upper
+  - name: Steve Gooch
+    primary: false
+    chamber: upper
+  - name: Bill Cowsert
+    primary: false
+    chamber: upper
+  - name: John F. Kennedy
+    primary: false
+    chamber: upper
+  - name: Frank Ginn
+    primary: false
+    chamber: upper
+  - name: Russ Goodman
+    primary: false
+    chamber: upper
+  - name: Billy Hickman
+    primary: false
+    chamber: upper
+  - name: Randal Mangham
+    primary: false
+    chamber: upper
+  - name: Chuck Hufstetler
+    primary: false
+    chamber: upper
+  - name: Bethany Ballard
+    primary: false
+    chamber: lower
+actions:
+  - date: "2025-02-13"
+    description: Senate Hopper
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-18"
+    description: Senate Read and Referred
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-03-03"
+    description: Senate Committee Favorably Reported By Substitute
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-04"
+    description: Senate Read Second Time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-03-06"
+    description: Senate Passed/Adopted By Substitute
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-10"
+    description: House First Readers
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-11"
+    description: House Second Readers
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-04-02"
+    description: House Committee Favorably Reported By Substitute
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-04"
+    description: House Passed/Adopted By Substitute
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-09"
+    description: Senate Agreed House Amend or Sub As Amended
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-23"
+    description: House Agreed Senate Amend or Sub
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-04-10"
+    description: Senate Sent to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-05-12"
+    description: Senate Date Signed by Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-05-12"
+    description: Act 625
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: As introduced (LC 49 2223)
+    url: https://www.legis.ga.gov/api/legislation/document/20252026/232539
+    archived_url: https://web.archive.org/web/20251112210154/https://www.legis.ga.gov/api/legislation/document/20252026/232539
+    media_type: application/pdf
+  - note: As passed Senate
+    url: https://www.legis.ga.gov/api/legislation/document/20252026/235430
+    archived_url: https://web.archive.org/web/20251112195748/https://www.legis.ga.gov/api/legislation/document/20252026/235430
+    media_type: application/pdf
+  - note: House Committee on Education substitute (LC 49 2411S)
+    url: https://www.legis.ga.gov/api/legislation/document/20252026/238672
+    archived_url: https://web.archive.org/web/20251112203151/https://www.legis.ga.gov/api/legislation/document/20252026/238672
+    media_type: application/pdf
+  - note: As passed (SB 179/AP)
+    url: https://www.legis.ga.gov/api/legislation/document/20252026/247229
+    archived_url: https://web.archive.org/web/20261017224903/https://www.legis.ga.gov/api/legislation/document/20252026/247229
+    media_type: application/pdf
+session_law: Act 625
+related:
+  - us-ga-2025-2026-hb-487
+sources:
+  - url: https://www.legis.ga.gov/legislation/70372
+    title: SB 179 - Georgia General Assembly
+    publisher: Georgia General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260831150515/https://www.legis.ga.gov/legislation/70372
+  - url: https://www.legis.ga.gov/api/legislation/document/20252026/247229
+    title: Senate Bill 179, as passed (26 SB 179/AP)
+    publisher: Georgia General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017224903/https://www.legis.ga.gov/api/legislation/document/20252026/247229
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-source-fetch
+  notes: >-
+    The official caption still describes the bill as introduced (student records transfer);
+    the as-passed text replaced that content with the computer science graduation requirement
+    and other provisions. Effective date 2026-07-01 per the status history.

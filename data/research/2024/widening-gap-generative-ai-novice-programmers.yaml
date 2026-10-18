@@ -1,0 +1,58 @@
+id: 2024-widening-gap-generative-ai-novice-programmers
+title: 'The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers'
+authors:
+  - James Prather
+  - Brent N. Reeves
+  - Juho Leinonen
+  - Stephen MacNeil
+  - Arisoa S. Randrianasolo
+  - Brett A. Becker
+  - Bailey Kimmel
+  - Jared Wright
+  - Ben Briggs
+publisher: ACM Conference on International Computing Education Research (ICER 2024)
+published: '2024-08-06'
+classification: peer-reviewed
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - equity-access
+  - research
+summary: Researchers observed 21 students in an introductory programming course at a small U.S. research university as they solved a programming problem with generative AI tools, using observation, interviews, and eye tracking. Nearly all students finished, but students who were already doing well used the tools to accelerate, while struggling students had their existing metacognitive difficulties compounded and often believed they had performed better than they had.
+key_findings:
+  - finding: Although 20 of 21 students completed the programming problem, students split between those who used generative AI to accelerate and those who struggled.
+    citation:
+      source_url: https://arxiv.org/pdf/2405.17739
+      locator: Abstract
+      quote: Although 20 of 21 students completed the assigned programming problem, our findings show an unfortunate divide in the use of GenAI tools between students who accelerated and students who struggled.
+  - finding: For struggling students, known metacognitive difficulties persisted and were compounded by generative AI, and many finished with an illusion of competence.
+    citation:
+      source_url: https://arxiv.org/pdf/2405.17739
+      locator: Abstract
+      quote: struggling students often expressed cognitive dissonance about their problem solving ability, thought they performed better than they did, and finished with an illusion of competence.
+  - finding: Students with better grades and higher self-efficacy were more likely to use the tools to accelerate, which the authors suggest could widen the digital divide.
+    citation:
+      source_url: https://arxiv.org/pdf/2405.17739
+      locator: Section 1, Introduction
+      quote: Students with better grades and higher self-efficacy were more likely to use GenAI tools to accelerate towards a solution
+methods: Qualitative lab study replicating earlier work; 21 of 27 students in one CS1 course at a small U.S. research university; 21 lab sessions with participant observation, interviews, and eye tracking.
+external_ids:
+  doi: 10.1145/3632620.3671116
+  openalex_id: W4401379837
+sources:
+  - url: https://arxiv.org/pdf/2405.17739
+    title: 'The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers (arXiv author version)'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://arxiv.org/abs/2405.17739
+    title: 'The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Text read from the authors' arXiv version; ACM DOI recorded under external_ids. Publication date from OpenAlex. Small, single-course qualitative sample.

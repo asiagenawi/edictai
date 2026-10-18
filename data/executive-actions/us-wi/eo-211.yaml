@@ -1,0 +1,46 @@
+id: us-wi-eo-211
+jurisdiction: us-wi
+issuer: us-wi-governor
+number: Executive Order #211
+title: Relating to the Creation of the Governor's Task Force on Workforce and Artificial Intelligence
+classification: executive-order
+status: active
+signed: "2023-08-23"
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: >-
+  Governor Tony Evers created a task force, chaired by the Secretary of Workforce Development,
+  to analyze generative AI's impact on Wisconsin's labor market and produce an advisory action
+  plan. Members include representatives of the University of Wisconsin System and the
+  Wisconsin Technical College System, and the plan is to recommend policy related to workforce
+  development and educational systems.
+provisions:
+  - type: creates-task-force
+    description: Creates the Governor's Task Force on Workforce and Artificial Intelligence, whose action plan must recommend solutions including policy related to educational systems.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/code/executive_orders/2019_tony_evers/2023-211.pdf
+      locator: Para. 2(d)
+      quote: >-
+        Based on the impacts identified, recommend solutions including policy related to
+        workforce development and educational systems.
+sources:
+  - url: https://docs.legis.wisconsin.gov/code/executive_orders/2019_tony_evers/2023-211.pdf
+    title: Executive Order #211
+    publisher: Wisconsin Legislature (Legislative Reference Bureau)
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017214936/https://docs.legis.wisconsin.gov/code/executive_orders/2019_tony_evers/2023-211.pdf
+verification:
+  status: unverified
+  notes: >-
+    Not in legacy data. Text and signing date (August 23, 2023) confirmed from the official
+    order. Current status not stated on the source; marked active because no rescission was
+    found, but this was not confirmed. Education levels are not specified in the order beyond
+    "educational systems" and UW/WTCS membership.

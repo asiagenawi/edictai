@@ -1,0 +1,45 @@
+id: 2023-ai-and-the-future-of-teaching-and-learning
+title: 'Artificial Intelligence and the Future of Teaching and Learning: Insights and Recommendations'
+authors:
+  - U.S. Department of Education, Office of Educational Technology
+publisher: U.S. Department of Education
+published: '2023-05'
+classification: report
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - instructional-use
+  - educator-training
+  - equity-access
+  - research
+summary: Federal report from the U.S. Department of Education's Office of Educational Technology, informed by four public listening sessions in 2022 with more than 700 attendees, on the opportunities and risks of AI in teaching, learning, assessment, and research. It closes with seven recommendations for education leaders, led by keeping humans in the loop and developing education-specific guidelines and guardrails.
+key_findings:
+  - finding: The report draws on four listening sessions held in June and August 2022 with more than 700 attendees, who said action was needed ahead of an expected increase of AI in education technology.
+    citation:
+      source_url: https://www2.ed.gov/documents/ai-report/ai-report.pdf
+      locator: Introduction, p. 2
+      quote: Through a series of four listening sessions conducted in June and August 2022 and attended by more than 700 attendees, it became clear that constituents believe that action is required now in order to get ahead of the expected increase of AI in education technology
+  - finding: Its central recommendation is that "humans in the loop" be a key criterion for educational use of AI.
+    citation:
+      source_url: https://www2.ed.gov/documents/ai-report/ai-report.pdf
+      locator: 'Recommendation #1: Emphasize Humans in the Loop, p. 53'
+      quote: Building on this consensus, we call upon all constituents to adopt “humans in the loop” as a key criterion for educational use of AI.
+  - finding: The final recommendation asks policymakers to develop education-specific guidelines and guardrails, noting that local leaders find it increasingly hard to make informed decisions about deploying AI.
+    citation:
+      source_url: https://www2.ed.gov/documents/ai-report/ai-report.pdf
+      locator: 'Recommendation #7: Develop Education-Specific Guidelines and Guardrails, p. 60'
+      quote: With technology growing in complexity at such a rapid pace, it is becoming difficult for local leaders to make informed decisions about the deployment of artificial intelligence.
+methods: Policy report based on four public listening sessions (June and August 2022, more than 700 attendees) and consultation with internal and external AI policy experts.
+sources:
+  - url: https://www2.ed.gov/documents/ai-report/ai-report.pdf
+    title: 'Artificial Intelligence and the Future of Teaching and Learning: Insights and Recommendations'
+    publisher: U.S. Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20240918131327/https://www2.ed.gov/documents/ai-report/ai-report.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The ed.gov PDF refused automated access, so the full text was read from the Wayback Machine capture listed as archived_url. Page numbers are the report's printed page numbers.

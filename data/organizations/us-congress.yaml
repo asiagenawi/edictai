@@ -1,0 +1,8 @@
+id: us-congress
+name: United States Congress
+classification: legislature
+jurisdiction: us
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.congress.gov/

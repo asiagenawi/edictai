@@ -1,0 +1,10 @@
+id: us-wi-higher-ed-agency
+name: Universities of Wisconsin
+abbreviation: UW
+classification: higher-ed-agency
+jurisdiction: us-wi
+education_levels:
+  - postsecondary
+url: https://www.wisconsin.edu/
+watch_urls:
+  - https://www.wisconsin.edu/news/archive/universities-of-wisconsin-affirm-commitment-to-prioritizing-ai-readiness-news-summary/

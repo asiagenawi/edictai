@@ -1,0 +1,7 @@
+id: us-co
+ocd_id: "ocd-division/country:us/state:co"
+name: Colorado
+abbreviation: CO
+classification: state
+fips: "08"
+region: West

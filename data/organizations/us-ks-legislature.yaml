@@ -1,0 +1,8 @@
+id: us-ks-legislature
+name: Kansas Legislature
+classification: legislature
+jurisdiction: us-ks
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.kslegislature.gov/

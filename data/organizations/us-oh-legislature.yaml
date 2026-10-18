@@ -1,0 +1,8 @@
+id: us-oh-legislature
+name: Ohio General Assembly
+classification: legislature
+jurisdiction: us-oh
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.legislature.ohio.gov/

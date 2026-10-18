@@ -1,0 +1,8 @@
+id: us-ok-governor
+name: Office of the Governor of Oklahoma
+classification: governor
+jurisdiction: us-ok
+education_levels:
+  - k12
+  - postsecondary
+url: https://oklahoma.gov/governor.html

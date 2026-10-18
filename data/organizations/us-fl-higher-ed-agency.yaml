@@ -1,0 +1,10 @@
+id: us-fl-higher-ed-agency
+name: Board of Governors of the State University System of Florida
+abbreviation: BOG
+classification: higher-ed-agency
+jurisdiction: us-fl
+education_levels:
+  - postsecondary
+url: https://www.flbog.edu/
+watch_urls:
+  - https://www.flbog.edu/session/task-force-on-artificial-intelligence-cybersecurity-zy7y3yat/

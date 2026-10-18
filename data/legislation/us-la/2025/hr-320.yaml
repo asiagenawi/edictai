@@ -1,0 +1,78 @@
+id: us-la-2025-hr-320
+jurisdiction: us-la
+session: "2025"
+identifier: HR 320
+title: Requests the state Department of Education, the State Board of Elementary and Secondary Education, the Board of Regents, and postsecondary education management boards to promote artificial intelligence education for students and to encourage professional development relative to artificial intelligence for faculty and staff
+classification: resolution
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - educator-training
+  - workforce
+summary: >-
+  A nonbinding Louisiana House resolution urging the state Department of Education, the State
+  Board of Elementary and Secondary Education, the Board of Regents, and postsecondary management
+  boards to promote AI education for students and encourage AI professional development for
+  faculty and staff. It also encourages schools and districts to evaluate and adopt flexible AI
+  learning resources.
+abstract: >-
+  Requests the state Dept. of Education, the State Bd. of Elementary and Secondary Education, the
+  Bd. of Regents, and postsecondary education management boards to promote artificial
+  intelligence (AI) education for students and to encourage professional development relative to
+  AI for faculty and staff.
+sponsors:
+  - name: Josh Carlson
+    primary: true
+    chamber: lower
+actions:
+  - date: "2025-06-08"
+    description: Read by title, rules suspended, passed to 3rd reading.
+    actor: lower
+    classification:
+      - introduction
+      - reading-2
+  - date: "2025-06-10"
+    description: Read by title, roll called, yeas 88, nays 0. The resolution was adopted.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-06-11"
+    description: Enrolled and signed by the Speaker of the House.
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-06-13"
+    description: Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.
+    actor: lower
+    classification:
+      - enrollment
+versions:
+  - note: Original
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1422611
+    archived_url: https://web.archive.org/web/20260609175137/https://www.legis.la.gov/legis/ViewDocument.aspx?d=1422611
+    media_type: application/pdf
+  - note: Enrolled
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1424193
+    archived_url: https://web.archive.org/web/20260609184348/https://www.legis.la.gov/legis/ViewDocument.aspx?d=1424193
+    media_type: application/pdf
+sources:
+  - url: https://legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HR320&sbi=y
+    title: HR320 - 2025 Regular Session
+    publisher: Louisiana State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260519034015/https://www.legis.la.gov/legis/BillInfo.aspx?s=25rs&b=HR320&sbi=y
+  - url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1424193
+    title: HR320 Enrolled
+    publisher: Louisiana State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260609184348/https://www.legis.la.gov/legis/ViewDocument.aspx?d=1424193
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page-and-text
+  notes: A simple House resolution needs no Senate or gubernatorial action; adoption on 2025-06-10 is its final step. The official history lists no separate introduction entry; the first recorded action (June 8) is treated as introduction.

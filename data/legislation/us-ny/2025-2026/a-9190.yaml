@@ -1,0 +1,65 @@
+id: us-ny-2025-2026-a-9190
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 9190
+title: Prohibits the use of most artificial intelligence in classrooms prior to high school
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - local-policy-requirement
+summary: >-
+  Would ban the use of artificial intelligence in classrooms before ninth grade, except for
+  diagnostic uses or explicit instruction interventions for students with disabilities. The
+  Commissioner of Education would give districts guidance on permitted uses; teachers and
+  staff could still use AI for administrative and planning work.
+abstract: >-
+  Prohibits the use of most artificial intelligence in classrooms prior to high school except
+  for AI used for diagnostic purposes or explicit instruction interventions for students with
+  disabilities.
+provisions:
+  - type: limits-ai-instructional-use
+    description: Prohibits AI use in classrooms before ninth grade, with exceptions for diagnostic purposes and interventions for students with disabilities.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09190&term=2025&Summary=Y&Actions=Y&Text=Y
+      locator: Education Law § 115(2)
+      quote: No artificial intelligence shall be used in classrooms in schools prior to ninth grade
+  - type: issues-model-policy
+    description: The Commissioner must give school districts guidance on permissible uses and best practices.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09190&term=2025&Summary=Y&Actions=Y&Text=Y
+      locator: Education Law § 115(2)
+      quote: The commissioner shall provide school districts with guidance regarding permissible uses and best practices regarding such uses.
+sponsors:
+  - name: Robert C. Carroll
+    primary: true
+    chamber: lower
+actions:
+  - date: "2025-11-03"
+    description: referred to education
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-01-07"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+sources:
+  - url: https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09190&term=2025&Summary=Y&Actions=Y&Text=Y
+    title: A09190 Summary, Actions and Text
+    publisher: New York State Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017221631/https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09190&term=2025&Summary=Y&Actions=Y&Text=Y
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page-and-text
+  notes: Same as S 10133 in the Senate. No Wayback snapshot found.

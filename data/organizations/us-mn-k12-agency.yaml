@@ -1,0 +1,10 @@
+id: us-mn-k12-agency
+name: Minnesota Department of Education
+abbreviation: MDE
+classification: k12-agency
+jurisdiction: us-mn
+education_levels:
+  - k12
+url: https://education.mn.gov/
+watch_urls:
+  - https://education.mn.gov/MDE/dse/tech/AI/

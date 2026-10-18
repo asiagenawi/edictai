@@ -1,0 +1,59 @@
+id: us-ma-dese-ai-guidance
+jurisdiction: us-ma
+issuer: us-ma-k12-agency
+title: Massachusetts Guidance for Artificial Intelligence in K-12 Education
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - ai-literacy
+  - educator-training
+  - student-privacy
+  - data-governance
+  - equity-access
+  - academic-integrity
+  - procurement
+  - synthetic-media
+summary: >-
+  Guidance from the Massachusetts Department of Elementary and Secondary Education, developed with
+  its AI Task Force and ISTE+ASCD, to help district leaders create or refine local AI guidance and
+  policies. It sets core principles for AI use, including data privacy and security, an
+  implementation framework and self-assessment for districts, and a summary of legal foundations
+  covering student privacy, civil rights, procurement, and deepfakes.
+undated: true
+provisions:
+  - type: issues-model-policy
+    description: Recommends core principles that districts adopt to anchor local AI policy and guidance development.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.doe.mass.edu/edtech/ai/ai-guidance.pdf
+      locator: Core Principles for AI Use in Massachusetts Schools
+      quote: To help anchor local policy and guidance development, the Department of Elementary and Secondary Education recommends that districts adopt the following
+  - type: procurement-standards
+    description: Advises that districts approve only AI tools vetted through a data privacy agreement process and that vendor contracts address AI capabilities, data practices, and legal compliance.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.doe.mass.edu/edtech/ai/ai-guidance.pdf
+      locator: Legal Foundations for AI Use (p. 29)
+      quote: "Procurement: Districts must ensure vendor contracts address AI capabilities, data practices, and compliance with privacy and accessibility laws."
+sources:
+  - url: https://www.doe.mass.edu/edtech/ai/ai-guidance.pdf
+    title: Massachusetts Guidance for Artificial Intelligence in K-12 Education
+    publisher: Massachusetts Department of Elementary and Secondary Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261004143007/https://www.doe.mass.edu/edtech/ai/ai-guidance.pdf
+  - url: https://www.doe.mass.edu/edtech/ai/default.html
+    title: Artificial Intelligence (AI) in K12 Schools
+    publisher: Massachusetts Department of Elementary and Secondary Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260930064220/https://www.doe.mass.edu/edtech/ai/default.html
+verification:
+  status: unverified
+  notes: Content fetched from the official PDF and DESE AI page on 2026-10-17. The document carries no publication date; the DESE roadmap places resource creation in spring-summer 2025, and the current PDF file was generated in June 2026, so no date is recorded.

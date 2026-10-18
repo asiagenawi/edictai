@@ -1,0 +1,37 @@
+id: us-ri-ride-ai-guidance-for-leas
+jurisdiction: us-ri
+issuer: us-ri-k12-agency
+title: Artificial Intelligence (AI) Guidance for Local Education Agencies (LEAs)
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - equity-access
+  - student-privacy
+  - workforce
+  - institutional-operations
+  - ai-literacy
+summary: >-
+  Non-binding guidance from the Rhode Island Department of Education, dated August 2025, on using
+  AI in Rhode Island schools. It covers instructional guidance, equity and bias, meeting the needs
+  of diverse learners, security and safety, college and career readiness, district operations
+  and communications, and family engagement, with a getting-started checklist for districts.
+published: 2025-08
+sources:
+  - url: https://ride.ri.gov/sites/g/files/xkgbur806/files/2025-12/RIDE%20AI%20Guidance%208.15.25.pdf
+    title: Artificial Intelligence (AI) Guidance for Local Education Agencies (LEAs), August 2025
+    publisher: Rhode Island Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260206224738/https://ride.ri.gov/sites/g/files/xkgbur806/files/2025-12/RIDE%20AI%20Guidance%208.15.25.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-source-fetch
+  notes: >-
+    Guidance PDF (53 pages) fetched; cover dated August 2025 and it states its distribution
+    "doesn't constitute formal recommendations or regulations". Legacy title ("AI Guidance for
+    Education") corrected to the official title; legacy date and topics otherwise consistent.
+    RIDE press release returned HTTP 403 and was not used.

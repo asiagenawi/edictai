@@ -1,0 +1,40 @@
+/* Edictai design tokens. Light only. */
+:root {
+  color-scheme: light;
+
+  /* Surfaces and text */
+  --ground: #ffffff;
+  --card: #ffffff;
+  --ink: #201e1f;
+  --ink-3: #6a6c71;
+  --rule: #efebe6;
+
+  /* School-desk palette */
+  --red: #d9473a;      /* red pen */
+  --yellow: #f2c230;   /* pencil */
+  --blue: #4f7fc4;     /* notebook */
+  --sky: #a8c6ea;
+  --green: #3f7a62;    /* chalkboard */
+  --mint: #a9dcc3;
+  --pink: #f2b0ae;     /* eraser */
+  --graphite: #2b2d31;
+  --butter: #f6dd8a;
+  --wood: #e9c89a;
+  --metal: #b9bcc0;
+  --paper: #ffffff;
+
+  /* Type */
+  --serif: "Ibarra Real Nova", "Iowan Old Style", Georgia, serif;
+  --mono: "DM Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --script: "Pinyon Script", "Snell Roundhand", "Apple Chancery", cursive;
+  --text: 400 12px/19.2px var(--mono);
+
+  /* Card */
+  --card-width: 600px;
+  --card-radius: 4px;
+  --card-shadow: 0 24px 60px -20px rgba(32, 30, 31, .22);
+
+  /* Focus */
+  --focus: 2px solid var(--blue);
+  --focus-offset: 3px;
+}

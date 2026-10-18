@@ -1,0 +1,53 @@
+id: us-vt-eo-04-26
+jurisdiction: us-vt
+issuer: us-vt-governor
+number: Executive Order No. 04-26
+title: Establishing the Vermont AI Economic Taskforce
+classification: executive-order
+status: active
+signed: "2026-05-18"
+expires: "2028-05-18"
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: >-
+  Governor Phil Scott created an advisory Vermont AI Economic Taskforce to assess AI's effect
+  on the state economy sector by sector and recommend actions, investments, and legislation.
+  Members include an education-sector representative, and the taskforce must coordinate with
+  institutions of higher education on workforce initiatives. Annual reports are due January 1,
+  2027 and January 1, 2028; the order runs two years unless extended.
+provisions:
+  - type: creates-task-force
+    description: Establishes an advisory AI Economic Taskforce that includes an education-sector representative and coordinates with institutions of higher education on workforce alignment.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://governor.vermont.gov/sites/scott/files/documents/Establishing%20the%20Vermont%20AI%20Economic%20Taskforce%20-%20EO%2004-26.pdf
+      locator: Para. 8
+      quote: >-
+        The Taskforce shall coordinate with the Agency of Commerce and Community Development,
+        the Department of Labor, the State Workforce Development Board, and institutions of
+        higher education to ensure alignment with existing economic development and workforce
+        initiatives.
+sources:
+  - url: https://governor.vermont.gov/sites/scott/files/documents/Establishing%20the%20Vermont%20AI%20Economic%20Taskforce%20-%20EO%2004-26.pdf
+    title: Executive Order No. 04-26 - Establishing the Vermont AI Economic Taskforce
+    publisher: Office of Governor Phil Scott
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260519011010/https://governor.vermont.gov/sites/scott/files/documents/Establishing%20the%20Vermont%20AI%20Economic%20Taskforce%20-%20EO%2004-26.pdf
+  - url: https://governor.vermont.gov/document/executive-order-no-04-26
+    title: Executive Order No. 04-26
+    publisher: Office of Governor Phil Scott
+    kind: official
+    accessed: "2026-10-17"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Not in legacy data. Education content is limited (education-sector membership and
+    coordination with higher education); the order is primarily economic and workforce
+    focused. Effective for two years from May 18, 2026 unless extended or rescinded.

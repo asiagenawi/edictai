@@ -1,0 +1,66 @@
+id: us-ed-ai-supplemental-priority-final
+jurisdiction: us
+issuer: us-ed
+title: Final Priority and Definitions-Secretary's Supplemental Priority and Definitions on Advancing Artificial Intelligence in Education
+classification: policy
+status: current
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - instructional-use
+  - workforce
+  - research
+summary: >-
+  Final rule establishing a supplemental priority the Secretary of Education
+  may use in any Department discretionary grant competition, effective May
+  13, 2026. It covers projects that expand understanding of AI (such as AI
+  literacy, K-12 and college AI and computer science courses, educator
+  professional development, and AI dual-enrollment and certification
+  opportunities) and projects that expand appropriate and ethical use of AI
+  in teaching, tutoring, special education, teacher training, and school
+  operations.
+published: 2026-04-13
+effective: 2026-05-13
+provisions:
+  - type: educator-pd-requirement
+    description: Makes projects that provide educator professional development on integrating AI fundamentals into subject areas eligible for priority in Department discretionary grant competitions.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2026/04/13/2026-07087/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing
+      locator: Final Priority (a)(v), 91 FR 18778
+      quote: Provide professional development for educators on the integration of the fundamentals of AI into their respective subject areas
+  - type: ai-workforce-program
+    description: Makes projects that create AI courses and in-demand certification programs for high school students eligible for priority.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.federalregister.gov/documents/2026/04/13/2026-07087/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing
+      locator: Final Priority (a)(viii), 91 FR 18779
+      quote: Create opportunities for high school students through the development or expansion of AI courses and career-relevant, in-demand certification programs
+authorized_by: us-eo-14277
+related:
+  - us-ed-ai-supplemental-priority-proposed
+  - us-ed-ai-grant-funds-dear-colleague-letter
+sources:
+  - url: https://www.federalregister.gov/documents/2026/04/13/2026-07087/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing
+    title: Final Priority and Definitions (91 FR 18774, FR Doc. 2026-07087, Docket ED-2025-OS-0118)
+    publisher: Federal Register
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260530015351/https://www.federalregister.gov/documents/2026/04/13/2026-07087/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Checked against FR Doc. 2026-07087 (published 2026-04-13, effective
+    2026-05-13). Legacy record classified this as guidance; it is a final
+    rule (34 CFR Part 75), so classification is policy. Legacy said it was
+    "issued under Executive Order 14277"; the notice cites EO 14277 for its AI
+    definition, and the ED press release on the proposed priority ties it to
+    the order. Legacy topic Equity & Access dropped; the priority's
+    accessibility language is limited to universal design for learning.

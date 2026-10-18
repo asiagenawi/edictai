@@ -1,0 +1,34 @@
+id: us-ca-cde-learning-with-ai
+jurisdiction: us-ca
+issuer: us-ca-k12-agency
+title: 2023 AI Guidance
+classification: guidance
+status: superseded
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - instructional-use
+  - student-privacy
+  - equity-access
+  - educator-training
+  - curriculum-standards
+summary: The California Department of Education's first, non-binding web guidance on AI in K-12 education, framed around learning with AI and learning about AI. It covers safe use and data privacy, critiquing inaccuracies and bias, AI's social impacts, and teaching the "5 Big Ideas of AI" through the state computer science standards. CDE now keeps it as an archived page beside its newer guidance.
+published: '2023'
+superseded_by: us-ca-cde-ai-guidance
+sources:
+  - url: https://www.cde.ca.gov/ci/pl/aiincalifornia2023.asp
+    title: 2023 AI Guidance - Professional Learning
+    publisher: California Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260421130556/https://www.cde.ca.gov/ci/pl/aiincalifornia2023.asp
+  - url: https://www.cde.ca.gov/ci/pl/aiincalifornia.asp
+    title: Artificial Intelligence - Professional Learning
+    publisher: California Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260922195950/https://www.cde.ca.gov/ci/pl/aiincalifornia.asp
+verification:
+  status: unverified
+  notes: Content verified against the archived CDE page on 2026-10-17. The page gives no exact publication date, only that it is the 2023 guidance, so published is set to the year. A legacy claim that an "AI Resource Kit" was released in April 2024 was not confirmed and is omitted.

@@ -1,0 +1,8 @@
+id: us-vt-legislature
+name: Vermont General Assembly
+classification: legislature
+jurisdiction: us-vt
+education_levels:
+  - k12
+  - postsecondary
+url: https://legislature.vermont.gov/

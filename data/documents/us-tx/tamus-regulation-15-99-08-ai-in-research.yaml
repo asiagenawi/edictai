@@ -1,0 +1,25 @@
+id: us-tx-tamus-regulation-15-99-08-ai-in-research
+jurisdiction: us-tx
+issuer: us-tx-tamus
+title: System Regulation 15.99.08 Artificial Intelligence in Research
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - research-integrity
+  - data-governance
+summary: Texas A&M University System regulation, most recently revised February 18, 2026, guiding the use of generative and other AI for research. It bars using public or third-party AI tools with non-public research data, such as unpublished, export-controlled, or classified research, unless the tool is covered by a system or member contract with adequate safeguards.
+published: '2026-02-18'
+sources:
+  - url: https://policies.tamus.edu/15-99-08.pdf
+    title: 15.99.08 Artificial Intelligence in Research
+    publisher: The Texas A&M University System
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260925022407/https://policies.tamus.edu/15-99-08.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Published date is the revision date shown on the regulation.

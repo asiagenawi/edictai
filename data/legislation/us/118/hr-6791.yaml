@@ -1,0 +1,87 @@
+id: us-118-hr-6791
+jurisdiction: us
+session: "118"
+identifier: H.R. 6791
+title: Artificial Intelligence Literacy Act of 2023
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - educator-training
+  - funding
+  - equity-access
+summary: >-
+  Would amend the Digital Equity Act of 2021 to add AI literacy to the definition of digital literacy and
+  make AI literacy activities in K-12 schools, community colleges, universities, and other community
+  institutions eligible uses of Digital Equity Competitive Grant funds. Would also require annual reports
+  to Congress on those uses. The bill was referred to committee and saw no further action.
+provisions:
+  - type: appropriates-funding
+    description: Makes AI literacy efforts in public elementary and secondary schools, community colleges, and institutions of higher education eligible uses of Digital Equity Competitive Grant Program funds.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://www.govinfo.gov/content/pkg/BILLS-118hr6791ih/html/BILLS-118hr6791ih.htm
+      locator: Sec. 3(c)
+      quote: In the case of a grant made to increase artificial intelligence literacy in public elementary and secondary schools
+  - type: educator-pd-requirement
+    description: Allows grant funds to pay for teacher training, certification, and professional development related to AI education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.govinfo.gov/content/pkg/BILLS-118hr6791ih/html/BILLS-118hr6791ih.htm
+      locator: Sec. 3(c)
+      quote: to provide teachers training and certification to support artificial intelligence literacy efforts in schools
+sponsors:
+  - name: Rep. Blunt Rochester, Lisa [D-DE-At Large]
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: 2023-12-14
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: 2023-12-14
+    description: Referred to the House Committee on Energy and Commerce.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: 2023-12-15
+    description: Referred to the Subcommittee on Communications and Technology.
+    actor: committee
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: 2023-12-14
+    url: https://www.govinfo.gov/content/pkg/BILLS-118hr6791ih/html/BILLS-118hr6791ih.htm
+    archived_url: https://web.archive.org/web/20260713151955/https://www.govinfo.gov/content/pkg/BILLS-118hr6791ih/html/BILLS-118hr6791ih.htm
+    media_type: text/html
+external_ids:
+  congress_gov: 118/hr/6791
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/6791
+    title: H.R.6791 - Artificial Intelligence Literacy Act of 2023
+    publisher: Congress.gov
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20250219134331/https://www.congress.gov/bill/118th-congress/house-bill/6791
+  - url: https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr6791.xml
+    title: Bill status XML, H.R. 6791 (118th Congress)
+    publisher: U.S. Government Publishing Office
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260705040336/https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr6791.xml
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: govinfo-billstatus-and-text
+  notes: >-
+    Legacy record listed this as "AI Literacy Act of 2024", H.R. 6834; H.R. 6834 (118th) is the PROTECT Act
+    of 2023, a PFAS bill. Corrected to H.R. 6791. Legacy also described a Department of Education grant
+    program; the bill actually amends the Digital Equity Act (administered by NTIA, Commerce).

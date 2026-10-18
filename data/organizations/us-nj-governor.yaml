@@ -1,0 +1,8 @@
+id: us-nj-governor
+name: Office of the Governor of New Jersey
+classification: governor
+jurisdiction: us-nj
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.nj.gov/governor/

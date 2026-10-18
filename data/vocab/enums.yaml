@@ -1,0 +1,96 @@
+# Closed vocabularies referenced by the JSON Schemas in data/schema/.
+
+education_levels:
+  k12: K-12
+  postsecondary: Higher education
+
+# Status of a piece of legislation is DERIVED from its dated actions at build
+# time (see pipeline), never written by hand. Listed here for documentation.
+legislation_statuses:
+  introduced: Introduced, no further action
+  in-committee: Referred to or heard in committee
+  passed-chamber: Passed one chamber
+  passed-legislature: Passed both chambers, awaiting executive action
+  enacted: Signed or otherwise became law
+  vetoed: Vetoed
+  failed: Failed, withdrawn, or died at session end
+
+legislation_classifications: [bill, resolution, joint-resolution, concurrent-resolution, constitutional-amendment, appropriation]
+
+# Modeled on the Open Civic Data action classifications. Beyond those:
+# deferral covers a measure taken off notice, deferred, or laid over;
+# conference-committee covers requests for, appointment of, and reports from a
+# conference committee; enrollment covers enrolling, signing by the presiding
+# officers, and presentment or transmittal to the executive. Record only actions
+# the legislature itself recorded: died-at-session-end is for a legislature's
+# own entry to that effect, since the pipeline derives failure at session end
+# from the session's end_date.
+action_classifications:
+  - introduction
+  - reading-1
+  - reading-2
+  - reading-3
+  - referral-committee
+  - committee-hearing
+  - committee-passage
+  - committee-failure
+  - deferral
+  - amendment-passage
+  - passage
+  - failure
+  - withdrawal
+  - substitution
+  - conference-committee
+  - enrollment
+  - executive-receipt
+  - executive-signature
+  - executive-veto
+  - veto-override-passage
+  - became-law
+  - died-at-session-end
+  - other
+
+action_actors: [lower, upper, legislature, executive, committee, other]
+
+document_classifications:
+  guidance: Guidance or recommendations
+  policy: Binding policy, rule, or regulation
+  framework: Framework or standards
+  toolkit: Toolkit or resource collection
+  statement: Position statement or principles
+  report: Report from a task force, council, or agency
+  model-policy: Model or template policy for local adoption
+  program: Program, initiative, or challenge
+
+document_statuses: [current, superseded, withdrawn]
+
+executive_action_classifications: [executive-order, directive, proclamation, memorandum]
+executive_action_statuses: [active, rescinded, expired, superseded]
+
+organization_classifications:
+  legislature: Legislature
+  governor: Governor's office
+  k12-agency: State education agency (K-12)
+  higher-ed-agency: State higher education agency or coordinating board
+  university-system: Public university or college system
+  accreditor: Accrediting body
+  federal-agency: Federal agency
+  commission: State commission, council, or office outside the education agencies
+  other: Other
+
+research_classifications:
+  peer-reviewed: Peer-reviewed article
+  report: Research report
+  brief: Policy brief
+  survey: Survey or poll
+  dataset: Dataset
+  meta-analysis: Meta-analysis or systematic review
+
+source_kinds:
+  official: Official text from the issuing government or body
+  secondary: Reporting or analysis by a third party
+
+verification_statuses:
+  editor-reviewed: Checked against the source by a human editor
+  machine-verified: Source text fetched and checked to support each field, automatically
+  unverified: Not yet confirmed against an official source

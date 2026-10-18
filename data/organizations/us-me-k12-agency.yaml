@@ -1,0 +1,11 @@
+id: us-me-k12-agency
+name: Maine Department of Education
+abbreviation: DOE
+classification: k12-agency
+jurisdiction: us-me
+education_levels:
+  - k12
+url: https://www.maine.gov/doe/
+watch_urls:
+  - https://www.maine.gov/doe/learning/technology/guidance
+  - https://www.maine.gov/doe/learning/technology/professionallearning

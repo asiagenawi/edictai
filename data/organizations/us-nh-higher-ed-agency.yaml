@@ -1,0 +1,8 @@
+id: us-nh-higher-ed-agency
+name: University System of New Hampshire
+abbreviation: USNH
+classification: higher-ed-agency
+jurisdiction: us-nh
+education_levels:
+  - postsecondary
+url: https://www.usnh.edu/

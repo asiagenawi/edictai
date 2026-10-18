@@ -1,0 +1,10 @@
+id: us-mt-k12-agency
+name: Montana Office of Public Instruction
+abbreviation: OPI
+classification: k12-agency
+jurisdiction: us-mt
+education_levels:
+  - k12
+url: https://opi.mt.gov/
+watch_urls:
+  - https://opi.mt.gov/Portals/182/Page%20Files/Homepage/Docs/Montana%20Artificial%20Intelligence%20in%20K12%20Education%20Guidelines.pdf

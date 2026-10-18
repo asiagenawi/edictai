@@ -1,0 +1,173 @@
+id: us-fl-2024-hb-1361
+jurisdiction: us-fl
+session: '2024'
+identifier: HB 1361
+title: Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+  - procurement
+  - educator-training
+summary: An education act that, among other changes, amended Florida's digital learning statute to let school districts receive grant funds for subscription fees and professional learning for an artificial intelligence platform that supports students in grades 6-12. Platforms bought with the grants must meet listed requirements, including one-on-one tutoring aligned to state reading and math standards, teacher professional learning, and parental access to students' AI interactions.
+provisions:
+  - type: appropriates-funding
+    description: Allows school districts to receive grant funds for AI platform subscription fees and professional learning to support students in grades 6 through 12 during the school day.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF
+      locator: Section 1, amending s. 1002.321(3), F.S., lines 64-70
+      quote: A school district may receive grant funds for subscription fees and professional learning to support and accelerate learning for students in grades 6 through 12 during the school day.
+  - type: procurement-standards
+    description: Requires grant recipients to select an AI platform that uses a closed-system large language model, provides teacher professional learning, standards-aligned tutoring and lesson plans, and district, school, and parental reporting.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF
+      locator: Section 1, amending s. 1002.321(3)(a)-(e), F.S., lines 70-81
+      quote: 'Grant recipients must select an artificial intelligence platform that: (a) Uses large language models based on GPT-4, its equivalent, or a successor, and is on a closed system. (b) Provides professional learning to teachers.'
+  - type: requires-disclosure
+    description: Requires the AI platform to give parents access to students' AI interactions.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF
+      locator: Section 1, amending s. 1002.321(3)(e), F.S., lines 80-81
+      quote: (e) Provides district and school-level reporting and parental access to artificial intelligence interactions.
+sponsors:
+  - name: Education & Employment Committee
+    classification: committee
+    primary: true
+    chamber: lower
+  - name: Temple
+    primary: true
+    chamber: lower
+  - name: Barnaby
+    primary: false
+    chamber: lower
+  - name: Botana
+    primary: false
+    chamber: lower
+  - name: Canady
+    primary: false
+    chamber: lower
+  - name: Daniels
+    primary: false
+    chamber: lower
+  - name: Massullo
+    primary: false
+    chamber: lower
+  - name: Mooney
+    primary: false
+    chamber: lower
+  - name: Trabulsy
+    primary: false
+    chamber: lower
+  - name: Tuck
+    primary: false
+    chamber: lower
+actions:
+  - date: '2024-01-05'
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: '2024-01-08'
+    description: Referred to Education Quality Subcommittee; PreK-12 Appropriations Subcommittee; Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: '2024-01-09'
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: '2024-01-10'
+    description: Favorable by Education Quality Subcommittee
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-01-17'
+    description: Favorable by PreK-12 Appropriations Subcommittee
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-01-23'
+    description: Favorable with CS by Education & Employment Committee
+    actor: committee
+    classification:
+      - committee-passage
+      - substitution
+  - date: '2024-02-01'
+    description: Read 2nd time; Read 3rd time; CS passed; YEAS 113, NAYS 0
+    actor: lower
+    classification:
+      - reading-2
+      - reading-3
+      - passage
+  - date: '2024-02-02'
+    description: Referred to Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: '2024-02-07'
+    description: Withdrawn from Appropriations; Substituted for CS/SB 7038; Amendment(s) adopted (660000); CS passed as amended; YEAS 40 NAYS 0
+    actor: upper
+    classification:
+      - substitution
+      - amendment-passage
+      - passage
+  - date: '2024-03-07'
+    description: Concurred in Senate amendment 660000 as amended; CS passed as amended; YEAS 113, NAYS 0
+    actor: lower
+    classification:
+      - amendment-passage
+      - passage
+  - date: '2024-03-07'
+    description: Concurred in House amendment(s) to Senate amendment(s) (917109); CS passed as amended; YEAS 38 NAYS 0
+    actor: upper
+    classification:
+      - amendment-passage
+      - passage
+  - date: '2024-04-25'
+    description: Signed by Officers and presented to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: '2024-05-09'
+    description: Approved by Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: '2024-05-13'
+    description: Chapter No. 2024-162
+    actor: legislature
+    classification:
+      - became-law
+versions:
+  - note: Enrolled
+    date: '2024-03-12'
+    url: https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF
+    archived_url: https://web.archive.org/web/20260825110342/https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF
+    media_type: application/pdf
+session_law: Chapter 2024-162, Laws of Florida
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2024/1361
+    title: CS/HB 1361 (2024) - Education
+    publisher: The Florida Senate
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260213225905/https://flsenate.gov/Session/Bill/2024/1361
+  - url: https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF
+    title: CS/HB 1361, Enrolled
+    publisher: Florida House of Representatives
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260825110342/https://www.flsenate.gov/Session/Bill/2024/1361/BillText/er/PDF
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch

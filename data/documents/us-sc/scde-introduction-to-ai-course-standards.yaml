@@ -1,0 +1,44 @@
+id: us-sc-scde-introduction-to-ai-course-standards
+jurisdiction: us-sc
+issuer: us-sc-k12-agency
+title: Introduction to Artificial Intelligence Course Standards
+classification: framework
+status: current
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+  - workforce
+summary: >-
+  South Carolina Department of Education course standards, dated September 2023, for an
+  Introduction to Artificial Intelligence elective (course code 57M0) in the career and technical
+  education Information Technology cluster. The one-credit course, recommended for grades 9-10,
+  covers computing systems, data and analytics, and core AI and machine learning concepts.
+published: 2023-09
+provisions:
+  - type: ai-in-standards
+    description: Establishes state course standards for a high school Introduction to Artificial Intelligence CTE course.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://ed.sc.gov/instruction/career-and-technical-education/programs-and-courses/career-clusters/information-technology/information-technology-standards/introduction-to-ai-standards
+      locator: p. 1
+      quote: 'INTRODUCTION TO ARTIFICIAL INTELLIGENCE COURSE CODE: 57M0'
+sources:
+  - url: https://ed.sc.gov/instruction/career-and-technical-education/programs-and-courses/career-clusters/information-technology/information-technology-standards/introduction-to-ai-standards
+    title: Introduction to Artificial Intelligence Course Standards
+    publisher: South Carolina Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250901144906/https://ed.sc.gov/instruction/career-and-technical-education/programs-and-courses/career-clusters/information-technology/information-technology-standards/introduction-to-ai-standards/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-source-fetch
+  notes: >-
+    Course standards PDF fetched (header "September 2023 Information Technology Cluster South
+    Carolina Course Standards"). Corrected legacy record "AI Standards Framework for K-12"
+    (dated 2023-03-27): this is a single high school CTE course standard, not a K-12-wide
+    framework, and the legacy claim that South Carolina was one of the first states with dedicated
+    AI standards is unsupported and removed.

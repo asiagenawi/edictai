@@ -1,0 +1,8 @@
+id: us-tn-higher-ed-agency
+name: Tennessee Higher Education Commission
+abbreviation: THEC
+classification: higher-ed-agency
+jurisdiction: us-tn
+education_levels:
+  - postsecondary
+url: https://www.tn.gov/thec.html

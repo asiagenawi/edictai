@@ -1,0 +1,8 @@
+id: us-ct-cscu
+name: Connecticut State Colleges and Universities
+abbreviation: CSCU
+classification: university-system
+jurisdiction: us-ct
+education_levels:
+  - postsecondary
+url: https://www.ct.edu/

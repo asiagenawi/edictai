@@ -1,0 +1,8 @@
+id: us-ky-legislature
+name: Kentucky General Assembly
+classification: legislature
+jurisdiction: us-ky
+education_levels:
+  - k12
+  - postsecondary
+url: https://legislature.ky.gov/

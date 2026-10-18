@@ -1,0 +1,43 @@
+id: us-pa-pde-ai-in-k12-education
+jurisdiction: us-pa
+issuer: us-pa-k12-agency
+title: AI in K-12 Education
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+  - assessment
+  - ai-literacy
+summary: >-
+  A Pennsylvania Department of Education web page offering guidance to educators, families, and
+  students on using AI safely and responsibly. It explains what AI is, its benefits and risks,
+  privacy and data cautions, and when teachers and students should not use AI, stating that AI
+  should support teachers and student learning rather than replace them and should not be the
+  only grader.
+undated: true
+provisions:
+  - type: regulates-ai-assessment
+    description: Advises that AI not be used as the only grader and that teachers review and make final decisions.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.pa.gov/agencies/education/ai-digital-media-literacy/ai-in-k-12-education
+      locator: When Teachers and Students Should Not Use AI
+      quote: Do not use AI as the only grader.
+sources:
+  - url: https://www.pa.gov/agencies/education/ai-digital-media-literacy/ai-in-k-12-education
+    title: AI in K-12 Education
+    publisher: Pennsylvania Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260908172547/https://www.pa.gov/agencies/education/ai-digital-media-literacy/ai-in-k-12-education
+verification:
+  status: unverified
+  notes: >-
+    Page content fetched and supports the summary, but the page shows no publication date. The
+    earliest Wayback capture found is February 27, 2026, so no date is recorded.
+    Not in legacy data. A WESA report of April 21, 2026 said PDE had not issued official AI
+    guidance, so this page may be informal resources rather than formal guidance.

@@ -1,0 +1,10 @@
+id: us-wy-k12-agency
+name: Wyoming Department of Education
+abbreviation: WDE
+classification: k12-agency
+jurisdiction: us-wy
+education_levels:
+  - k12
+url: https://edu.wyoming.gov/
+watch_urls:
+  - https://edu.wyoming.gov/educators/digital-learning/

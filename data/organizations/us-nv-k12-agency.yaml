@@ -1,0 +1,10 @@
+id: us-nv-k12-agency
+name: Nevada Department of Education
+abbreviation: NDE
+classification: k12-agency
+jurisdiction: us-nv
+education_levels:
+  - k12
+url: https://doe.nv.gov/
+watch_urls:
+  - https://doe.nv.gov/offices/office-of-teaching-and-learning/nevada-digital-learning

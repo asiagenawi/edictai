@@ -1,0 +1,8 @@
+id: us-ny-governor
+name: Office of the Governor of New York
+classification: governor
+jurisdiction: us-ny
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.governor.ny.gov/

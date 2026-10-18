@@ -1,0 +1,8 @@
+id: us-pa-governor
+name: Office of the Governor of Pennsylvania
+classification: governor
+jurisdiction: us-pa
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.pa.gov/governor

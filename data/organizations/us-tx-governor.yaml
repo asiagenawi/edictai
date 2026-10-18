@@ -1,0 +1,8 @@
+id: us-tx-governor
+name: Office of the Governor of Texas
+classification: governor
+jurisdiction: us-tx
+education_levels:
+  - k12
+  - postsecondary
+url: https://gov.texas.gov/

@@ -1,0 +1,58 @@
+id: 2025-educause-ai-landscape-study-2025
+title: '2025 EDUCAUSE AI Landscape Study: Into the Digital AI Divide'
+authors:
+  - Jenay Robert
+  - Mark McCormack
+publisher: EDUCAUSE
+published: '2025-02-17'
+classification: survey
+education_levels:
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - academic-integrity
+  - educator-training
+  - data-governance
+  - equity-access
+summary: A survey of 788 higher education staff, faculty, and leaders in November 2024 on institutional AI strategy, policies, use cases, workforce, and differences between smaller and larger institutions. More respondents than a year earlier called AI a strategic priority and reported AI acceptable-use policies, while few said their cybersecurity and privacy policies were adequate for AI risks and smaller institutions reported fewer resources for AI adoption.
+key_findings:
+  - finding: The share of respondents reporting institutional AI-related acceptable use policies rose from 23% to 39% in one year.
+    citation:
+      source_url: https://web.archive.org/web/20250217185826/https://www.educause.edu/content/2025/2025-educause-ai-landscape-study/introduction-and-key-findings
+      locator: Key Findings, Policies and Guidelines
+      quote: The proportion of respondents reporting that their institution has AI-related AUPs increased from 23% last year to 39% this year
+  - finding: Only 9% said their institution's cybersecurity and privacy policies were adequate for AI-related risks.
+    citation:
+      source_url: https://web.archive.org/web/20250217185826/https://www.educause.edu/content/2025/2025-educause-ai-landscape-study/introduction-and-key-findings
+      locator: Key Findings, Policies and Guidelines
+      quote: Only 9% of respondents reported that their institution's cybersecurity and privacy policies are adequate for addressing AI-related risks to the institution.
+  - finding: Teaching and learning was the area most focused on AI, especially academic integrity (74%), and 68% said students use AI more than faculty.
+    citation:
+      source_url: https://web.archive.org/web/20250217185826/https://www.educause.edu/content/2025/2025-educause-ai-landscape-study/introduction-and-key-findings
+      locator: Key Findings, Use Cases
+      quote: Teaching and learning is the functional area at the institution most focused on using AI, with particular focus on the areas of academic integrity (74%), coursework (65%), assessment practices (54%), and curriculum design (54%).
+methods: Online survey of EDUCAUSE community members distributed November 4-19, 2024; 788 responses from people working at higher education institutions.
+sources:
+  - url: https://library.educause.edu/resources/2025/2/2025-educause-ai-landscape-study
+    title: '2025 EDUCAUSE AI Landscape Study: Into the Digital AI Divide'
+    publisher: EDUCAUSE
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260923145033/https://library.educause.edu/resources/2025/2/2025-educause-ai-landscape-study
+  - url: https://www.educause.edu/content/2025/2025-educause-ai-landscape-study/introduction-and-key-findings
+    title: 2025 EDUCAUSE AI Landscape Study, Introduction and Key Findings
+    publisher: EDUCAUSE
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250217185826/https://www.educause.edu/content/2025/2025-educause-ai-landscape-study/introduction-and-key-findings
+  - url: https://www.educause.edu/content/2025/2025-educause-ai-landscape-study/methodology-and-acknowledgments
+    title: 2025 EDUCAUSE AI Landscape Study, Methodology and Acknowledgments
+    publisher: EDUCAUSE
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250219205802/https://www.educause.edu/content/2025/2025-educause-ai-landscape-study/methodology-and-acknowledgments
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: EDUCAUSE pages block automated access and the report is now limited to members, so the text was read from Wayback Machine captures from February 2025, when the pages were public.

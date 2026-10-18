@@ -1,0 +1,8 @@
+id: us-al-legislature
+name: Alabama Legislature
+classification: legislature
+jurisdiction: us-al
+education_levels:
+  - k12
+  - postsecondary
+url: https://alison.legislature.state.al.us/

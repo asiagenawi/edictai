@@ -1,0 +1,47 @@
+id: us-me-eo-2024-12-20-ai-task-force
+jurisdiction: us-me
+issuer: us-me-governor
+title: An Order Establishing the Maine Artificial Intelligence Task Force
+classification: executive-order
+status: active
+signed: "2024-12-20"
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: >-
+  Governor Janet Mills established the Maine Artificial Intelligence Task Force to study the
+  implications of AI for Maine and recommend ways to prepare the economy and workforce, protect
+  residents from harmful uses, and deploy AI in public agencies. Members include the
+  Commissioner of Education, the Chancellor of the University of Maine System, and the
+  President of the Maine Community College System; a public report was due by October 31, 2025.
+provisions:
+  - type: creates-task-force
+    description: Creates the Maine AI Task Force, including the Commissioner of Education and the heads of the University of Maine System and Maine Community College System, with a public report due by October 31, 2025.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://www.maine.gov/governor/mills/official_documents/executive-orders/2024-12-order-establishing-maine-artificial-intelligence-task
+      locator: Membership, Chairs, and Advisory Committee; Proceedings, Records, and Report
+      quote: The Commissioner of the Department of Education or their designee
+sources:
+  - url: https://www.maine.gov/governor/mills/official_documents/executive-orders/2024-12-order-establishing-maine-artificial-intelligence-task
+    title: An Order Establishing the Maine Artificial Intelligence Task Force
+    publisher: Office of Governor Janet T. Mills
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261004073838/https://www.maine.gov/governor/mills/official_documents/executive-orders/2024-12-order-establishing-maine-artificial-intelligence-task
+  - url: https://www.maine.gov/governor/mills/official_documents
+    title: Official Documents
+    publisher: Office of Governor Janet T. Mills
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260911220827/http://www1.maine.gov/governor/mills/official_documents
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-order-text
+  notes: The order carries no number on the Governor's site (FY 24/25); the signing date comes from the Official Documents index.

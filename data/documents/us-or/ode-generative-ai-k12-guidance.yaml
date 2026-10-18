@@ -1,0 +1,43 @@
+id: us-or-ode-generative-ai-k12-guidance
+jurisdiction: us-or
+issuer: us-or-k12-agency
+title: Generative Artificial Intelligence (AI) in K-12 Classrooms Guidance
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - local-policy-requirement
+  - educator-training
+  - equity-access
+  - academic-integrity
+summary: >-
+  Oregon Department of Education guidance on generative AI in K-12 classrooms, released as
+  Version 3.0 in June 2026 as a web-based interactive guide that replaced the earlier v2.0
+  document. It moves from introducing generative AI toward practical guidance on safe, effective
+  implementation, built around guiding principles, and is accompanied by a step-by-step guide
+  for school leaders on developing AI policies and protocols and other companion resources.
+updated: 2026-06
+version: "3.0"
+sources:
+  - url: https://www.oregon.gov/ode/educator-resources/teachingcontent/pages/generative-artificial-intelligence-(ai)-for-k-12-schools.aspx
+    title: Generative Artificial Intelligence (AI) for K-12 Schools
+    publisher: Oregon Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017013051/https://www.oregon.gov/ode/educator-resources/teachingcontent/pages/generative-artificial-intelligence-(ai)-for-k-12-schools.aspx
+  - url: https://content.govdelivery.com/accounts/ORED/bulletins/41cbe18
+    title: ODE Private Schools & ESEA Equitable Services newsletter, June 25, 2026
+    publisher: Oregon Department of Education
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-source-fetch
+  notes: >-
+    ODE page fetched; it does not state a publication date. The June 25, 2026 ODE bulletin
+    announces "the release of Version 3.0 of Generative Artificial Intelligence (AI) in K-12
+    Classrooms Guidance". Legacy record dated the guidance 2023-10-01 (original version); the
+    original release date was not confirmed, and the record now tracks the current version.

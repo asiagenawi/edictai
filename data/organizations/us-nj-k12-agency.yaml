@@ -1,0 +1,10 @@
+id: us-nj-k12-agency
+name: New Jersey Department of Education
+abbreviation: NJDOE
+classification: k12-agency
+jurisdiction: us-nj
+education_levels:
+  - k12
+url: https://www.nj.gov/education/
+watch_urls:
+  - https://www.nj.gov/education/innovation/ai/

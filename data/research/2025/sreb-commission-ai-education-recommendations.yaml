@@ -1,0 +1,50 @@
+id: 2025-sreb-commission-ai-education-recommendations
+title: SREB Commission on AI in Education Policy Recommendations
+authors:
+  - SREB Commission on AI in Education
+publisher: Southern Regional Education Board
+published: '2025-12-02'
+classification: brief
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - educator-training
+  - curriculum-standards
+  - procurement
+  - safety-wellbeing
+  - workforce
+summary: The Southern Regional Education Board's Commission on AI in Education, which convened more than 75 education and business leaders in 2024 and 2025, approved 12 final policy recommendations for states. They include statewide AI networks, targeted guidance, professional development, AI in K-12 standards, needs assessments, procurement and safety policies, postsecondary adoption playbooks, and evaluation frameworks.
+key_findings:
+  - finding: The Commission approved 12 final recommendations for states, schools, and colleges, with the last three covering safety, postsecondary adoption, and evaluation.
+    citation:
+      source_url: https://www.sreb.org/post/sreb-ai-education-commission-approves-final-recommendations
+      quote: The SREB Commission on AI in Education has approved 12 final recommendations to help states, schools and colleges as they adopt artificial intelligence tools.
+  - finding: It recommends that states regularly review education technology safety policies to protect minors from AI-related harm.
+    citation:
+      source_url: https://www.sreb.org/post/sreb-ai-education-commission-approves-final-recommendations
+      locator: Recommendation 10
+      quote: States should regularly review, and revise if necessary, their educational technology safety policies to ensure that minors are protected from harm related to AI use.
+  - finding: It recommends that states integrate AI knowledge and skills into K-12 standards and curricula.
+    citation:
+      source_url: https://www.sreb.org/ai-commission-recommendations
+      quote: States should integrate AI knowledge and skills into K-12 standards and curricula
+methods: Policy recommendations developed by a regional commission of more than 75 education and business leaders during 2024 and 2025.
+sources:
+  - url: https://www.sreb.org/post/sreb-ai-education-commission-approves-final-recommendations
+    title: SREB AI in Education Commission Approves Final Recommendations
+    publisher: Southern Regional Education Board
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://www.sreb.org/ai-commission-recommendations
+    title: AI Commission Recommendations
+    publisher: Southern Regional Education Board
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260907063440/https://www.sreb.org/ai-commission-recommendations
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Date is the posting date of the final-recommendations announcement (December 2, 2025); the first six recommendations were released earlier.

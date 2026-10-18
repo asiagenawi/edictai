@@ -1,0 +1,8 @@
+id: us-ny-higher-ed-agency
+name: New York State Education Department Office of Higher Education
+abbreviation: OHE
+classification: higher-ed-agency
+jurisdiction: us-ny
+education_levels:
+  - postsecondary
+url: https://www.nysed.gov/higher-education

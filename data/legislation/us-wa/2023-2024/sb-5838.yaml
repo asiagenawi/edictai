@@ -1,0 +1,143 @@
+id: us-wa-2023-2024-sb-5838
+jurisdiction: us-wa
+session: 2023-2024
+identifier: E2SSB 5838
+title: Establishing an artificial intelligence task force
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: >-
+  Created a Washington artificial intelligence task force, staffed by the Office of the
+  Attorney General, to study AI use in the public and private sectors and recommend
+  guidelines and legislation to the Legislature. The task force's executive committee may
+  convene subcommittees on topics including education and workforce development.
+provisions:
+  - type: creates-task-force
+    description: Establishes an AI task force whose subcommittee topics include education and workforce development, with recommendations due to the Legislature.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Session%20Laws/Senate/5838-S2.SL.pdf
+      locator: Sec. 2(2)(e)(i)
+      quote: >-
+        The executive committee shall define the scope of activity and subject matter focus
+        required of the subcommittees including, but not limited to: Education and workforce
+        development
+sponsors:
+  - name: Joe Nguyen
+    primary: true
+    chamber: upper
+actions:
+  - date: "2023-12-12"
+    description: Prefiled for introduction.
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-08"
+    description: First reading, referred to Environment, Energy & Technology.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2024-01-10"
+    description: Public hearing in the Senate Committee on Environment, Energy & Technology.
+    actor: committee
+    classification:
+      - committee-hearing
+  - date: "2024-01-19"
+    description: Executive action taken; ENET majority, 1st substitute bill be substituted, do pass, and refer to Ways & Means.
+    actor: committee
+    classification:
+      - committee-passage
+  - date: "2024-01-22"
+    description: Referred to Ways & Means.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-02-05"
+    description: Executive action taken; WM majority, 2nd substitute bill be substituted, do pass.
+    actor: committee
+    classification:
+      - committee-passage
+  - date: "2024-02-08"
+    description: 2nd substitute bill substituted; floor amendments adopted; third reading, passed; yeas, 31; nays, 18.
+    actor: upper
+    classification:
+      - substitution
+      - amendment-passage
+      - reading-3
+      - passage
+  - date: "2024-02-10"
+    description: First reading, referred to Consumer Protection & Business.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2024-02-21"
+    description: Executive action taken; CPB majority, do pass with amendments; referred to Appropriations.
+    actor: committee
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-02-26"
+    description: Executive action taken; APP majority, do pass with amendments.
+    actor: committee
+    classification:
+      - committee-passage
+  - date: "2024-02-29"
+    description: Committee amendments adopted; third reading, passed; yeas, 68; nays, 28.
+    actor: lower
+    classification:
+      - amendment-passage
+      - reading-3
+      - passage
+  - date: "2024-03-04"
+    description: Senate concurred in House amendments. Passed final passage; yeas, 30; nays, 19.
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-03-08"
+    description: Delivered to Governor.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-03-18"
+    description: Governor signed. Chapter 163, 2024 Laws.
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Session Law
+    date: "2024-03-18"
+    url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Session%20Laws/Senate/5838-S2.SL.pdf
+    archived_url: https://web.archive.org/web/20260923034654/https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Session%20Laws/Senate/5838-S2.SL.pdf
+    media_type: application/pdf
+session_law: Chapter 163, Laws of 2024
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=5838&Year=2023
+    title: SB 5838 - 2023-24 Bill Summary
+    publisher: Washington State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260508121749/https://app.leg.wa.gov/billsummary?Year=2023&BillNumber=5838
+  - url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Session%20Laws/Senate/5838-S2.SL.pdf
+    title: Engrossed Second Substitute Senate Bill 5838, Chapter 163, Laws of 2024
+    publisher: Washington State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260923034654/https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Session%20Laws/Senate/5838-S2.SL.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Legacy record cited SB 5693, which is an unrelated salmon-recovery liability bill; the AI
+    task force bill sponsored by Sen. Nguyen is SB 5838. Legacy dates were also wrong
+    (introduced 2024-01-08 after prefiling 2023-12-12; signed 2024-03-18, not 2024-03-28).
+    The session law does not mention student data protection; education appears only as a
+    subcommittee topic. Bill is general AI policy, not education-specific.

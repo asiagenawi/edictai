@@ -1,0 +1,147 @@
+id: us-oh-2025-2026-hb-96
+jurisdiction: us-oh
+session: 2025-2026
+identifier: HB 96
+title: Make state operating appropriations for FY 2026-27
+classification: appropriation
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+summary: >-
+  Ohio's fiscal year 2026-2027 operating budget. Among many other provisions, it enacted Ohio
+  Revised Code section 3301.24, which required the Department of Education and Workforce to
+  develop a model policy on the use of artificial intelligence in schools by December 31, 2025,
+  and requires every school district, community school, and STEM school to adopt an AI policy by
+  July 1, 2026.
+provisions:
+  - type: issues-model-policy
+    description: Requires the Department of Education and Workforce to develop a model policy on AI use in schools, addressing appropriate use by students and staff, by December 31, 2025.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://codes.ohio.gov/ohio-revised-code/section-3301.24
+      locator: R.C. 3301.24(A)
+      quote: Not later than December 31, 2025, the department of education and workforce shall develop a model policy on the use of artificial intelligence in schools.
+  - type: requires-local-ai-policy
+    description: Requires each school district, community school, and STEM school to adopt an AI use policy by July 1, 2026; schools may adopt the department's model policy.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://codes.ohio.gov/ohio-revised-code/section-3301.24
+      locator: R.C. 3301.24(B)
+      quote: Not later than July 1, 2026, each school district, community school established under Chapter 3314. of the Revised Code, and STEM school established under Chapter 3326. of the Revised Code shall adopt a policy on the use of artificial intelligence.
+sponsors:
+  - name: Brian Stewart
+    primary: true
+    chamber: lower
+actions:
+  - date: '2025-02-11'
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: '2025-02-12'
+    description: Referred to committee Finance
+    actor: lower
+    classification:
+      - referral-committee
+  - date: '2025-04-08'
+    description: Reported - Substitute Finance
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2025-04-09'
+    description: Passed
+    actor: lower
+    classification:
+      - passage
+  - date: '2025-04-17'
+    description: Introduced
+    actor: upper
+    classification:
+      - reading-1
+  - date: '2025-04-30'
+    description: Referred to committee Finance
+    actor: upper
+    classification:
+      - referral-committee
+  - date: '2025-06-10'
+    description: Reported - Substitute Finance
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2025-06-11'
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: '2025-06-11'
+    description: Refused to concur in Senate amendments
+    actor: lower
+    classification:
+      - other
+  - date: '2025-06-12'
+    description: Insist on amendments; asks for committee of conference
+    actor: upper
+    classification:
+      - conference-committee
+  - date: '2025-06-25'
+    description: Conference report agreed to
+    actor: upper
+    classification:
+      - passage
+  - date: '2025-06-25'
+    description: Conference report agreed to
+    actor: lower
+    classification:
+      - passage
+  - date: '2025-06-27'
+    description: Sent To The Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: '2025-06-30'
+    description: Signed By The Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: '2025-07-01'
+    description: line item veto receipt
+    actor: lower
+    classification:
+      - other
+  - date: '2025-07-21'
+    description: Item passed notwithstanding objections of the Governor
+    actor: lower
+    classification:
+      - veto-override-passage
+  - date: '2025-10-01'
+    description: Item passed notwithstanding objections of the Governor
+    actor: upper
+    classification:
+      - veto-override-passage
+related:
+  - us-oh-dew-ai-model-policy
+sources:
+  - url: https://www.legislature.ohio.gov/legislation/136/hb96/status
+    title: House Bill 96 Status | 136th General Assembly
+    publisher: Ohio Legislature
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260518152208/https://www.legislature.ohio.gov/legislation/136/hb96/status
+  - url: https://codes.ohio.gov/ohio-revised-code/section-3301.24
+    title: Section 3301.24 | Artificial intelligence policy
+    publisher: Ohio Legislative Service Commission
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260608171858/https://codes.ohio.gov/ohio-revised-code/section-3301.24
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-source-fetch
+  notes: >-
+    Not in legacy data; added as a major enacted AI-in-education provision. Status page and
+    R.C. 3301.24 (effective September 30, 2025, enacted by HB 96) fetched. Record covers only
+    the AI provision of this omnibus budget bill; cosponsors not listed.

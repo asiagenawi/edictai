@@ -1,0 +1,56 @@
+id: 2024-simple-techniques-to-bypass-genai-text-detectors
+title: 'Simple techniques to bypass GenAI text detectors: implications for inclusive education'
+authors:
+  - Mike Perkins
+  - Jasper Roe
+  - Binh H. Vu
+  - Darius Postma
+  - Don Hickerson
+  - James McGaughran
+  - Huy Q. Khuat
+publisher: International Journal of Educational Technology in Higher Education
+published: '2024-09-08'
+classification: peer-reviewed
+education_levels:
+  - postsecondary
+topics:
+  - academic-integrity
+  - equity-access
+summary: Researchers generated short texts with GPT-4, Claude 2, and Bard, altered them with six simple evasion techniques, and ran them along with human-written controls through seven AI text detectors. Detectors were already inaccurate on unaltered AI text, became less accurate on altered text, and misjudged some human-written samples, leading the authors to conclude the tools should not be used to decide academic integrity violations.
+key_findings:
+  - finding: Mean detector accuracy was 39.5% on unaltered AI-generated text, and only 67% of tests on human-written control samples were accurate.
+    citation:
+      source_url: https://researchonline.jcu.edu.au/86904/1/86904.pdf
+      locator: Results, baseline testing
+      quote: 39.5% when evaluating unmanipulated AI-generated content. Importantly, regarding the human-written control samples, only 67% of the tests were accurate
+  - finding: Applying adversarial techniques such as adding spelling errors or increasing burstiness reduced average detector accuracy by 17.4 percentage points, with Turnitin showing the largest drop.
+    citation:
+      source_url: https://researchonline.jcu.edu.au/86904/1/86904.pdf
+      locator: Abstract
+      quote: Results show significant reductions in detector accuracy (17.4%) when faced with simple techniques to manipulate the AI generated content.
+  - finding: The authors conclude detectors cannot currently be recommended for determining academic integrity violations, though they may support learning when used non-punitively.
+    citation:
+      source_url: https://researchonline.jcu.edu.au/86904/1/86904.pdf
+      locator: Abstract
+      quote: they cannot currently be recommended for determining academic integrity violations due to accuracy limitations and the potential for false accusation which undermines inclusive and fair assessment practices.
+methods: Experimental test in September-October 2023; 15 AI-generated samples, 89 adversarially altered versions, and 10 human-written controls (114 samples) run through seven AI text detectors for 805 tests.
+external_ids:
+  doi: 10.1186/s41239-024-00487-w
+  openalex_id: W4402340204
+sources:
+  - url: https://researchonline.jcu.edu.au/86904/1/86904.pdf
+    title: 'Simple techniques to bypass GenAI text detectors: implications for inclusive education (published version, James Cook University repository)'
+    publisher: James Cook University
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://arxiv.org/abs/2403.19148
+    title: GenAI Detection Tools, Adversarial Techniques and Implications for Inclusivity in Higher Education (preprint)
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261009112753/https://arxiv.org/abs/2403.19148
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The publisher site returned a bot challenge; the published version was read from the authors' institutional repository and the journal reference confirmed on arXiv. Publication date from OpenAlex. The abstract counts six detectors while the methods section tests seven; the record follows the methods section.

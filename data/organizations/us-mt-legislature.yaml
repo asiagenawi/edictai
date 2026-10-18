@@ -1,0 +1,8 @@
+id: us-mt-legislature
+name: Montana Legislature
+classification: legislature
+jurisdiction: us-mt
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.legmt.gov/

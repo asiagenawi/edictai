@@ -1,0 +1,8 @@
+id: us-dc-higher-ed-agency
+name: Higher Education Licensure Commission
+abbreviation: HELC
+classification: higher-ed-agency
+jurisdiction: us-dc
+education_levels:
+  - postsecondary
+url: https://osse.dc.gov/service/higher-education-licensure-commission-helc1

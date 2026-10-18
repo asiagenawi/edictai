@@ -1,0 +1,7 @@
+id: us-de-higher-ed-agency
+name: Delaware Department of Education Higher Education Authorizations
+classification: higher-ed-agency
+jurisdiction: us-de
+education_levels:
+  - postsecondary
+url: https://education.delaware.gov/community/higher-ed-authorizations/

@@ -1,0 +1,8 @@
+id: us-ar-higher-ed-agency
+name: Arkansas Division of Higher Education
+abbreviation: ADHE
+classification: higher-ed-agency
+jurisdiction: us-ar
+education_levels:
+  - postsecondary
+url: https://adhe.edu/

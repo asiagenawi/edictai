@@ -1,0 +1,51 @@
+id: 2026-crpe-states-and-ai-early-look
+title: 'States and AI: An Early Look at How States Are Approaching AI in Education'
+authors:
+  - Dana Harrison
+  - Bree Dusseault
+publisher: Center on Reinventing Public Education
+published: '2026-03'
+classification: brief
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - educator-training
+  - task-force
+  - procurement
+summary: CRPE released a database of AI-related actions by 20 early adopter states in 2024 and 2025, covering guidance, legislation, executive orders, professional learning, pilots, and partnerships, with a preliminary, non-evaluative analysis. Most of these states issued non-binding guidance and invested in educator training, about half ran pilots, and approaches looked similar across political contexts.
+key_findings:
+  - finding: Of the 20 states, 18 provided professional learning, 17 used partnerships, 16 issued guidance, and 11 piloted AI strategies or tools.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/SEA-Brief-2026-v1.pdf
+      locator: p. 2
+      quote: Of the 20 states we examined, they commonly provide professional learning opportunities (18 of 20), leverage partnerships to support AI goals (17 of 20), issue guidance (16 of 20), and pilot AI strategies or tools (11 of 20).
+  - finding: All of the guidance issued by the 16 states was non-binding, and many states updated it regularly.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/SEA-Brief-2026-v1.pdf
+      locator: Flexibility over Directives, p. 2
+      quote: Sixteen of 20 have issued AI guidance, all of which is non-binding
+  - finding: In 19 of the 20 states, legislatures introduced at least one AI bill involving K-12 education or the state education agency in 2024 or 2025.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/SEA-Brief-2026-v1.pdf
+      locator: p. 3
+      quote: In 19 of the 20 states (95%) in the database, legislatures introduced at least one AI-related bill in 2024 or 2025 that involved K-12 education and/or impacted the SEA.
+methods: Database of 20 early adopter states compiled from publicly available information captured November 2025 through January 2026; states chosen through expert interviews, observed AI actions, and geographic and political variety.
+sources:
+  - url: https://crpe.org/states-and-ai-an-early-look-at-how-early-adopters-are-approaching-ai-in-education/
+    title: 'States and AI: An Early Look at How Early Adopters Are Approaching AI in Education'
+    publisher: Center on Reinventing Public Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260903155133/https://crpe.org/states-and-ai-an-early-look-at-how-early-adopters-are-approaching-ai-in-education/
+  - url: https://crpe.org/wp-content/uploads/SEA-Brief-2026-v1.pdf
+    title: 'States and AI: An Early Look at How States Are Approaching AI in Education (brief)'
+    publisher: Center on Reinventing Public Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260419233835/https://crpe.org/wp-content/uploads/SEA-Brief-2026-v1.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The brief is dated March 2026; the landing page's datePublished metadata is 2026-03-12.

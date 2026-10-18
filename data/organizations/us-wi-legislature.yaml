@@ -1,0 +1,8 @@
+id: us-wi-legislature
+name: Wisconsin State Legislature
+classification: legislature
+jurisdiction: us-wi
+education_levels:
+  - k12
+  - postsecondary
+url: https://legis.wisconsin.gov/

@@ -1,0 +1,10 @@
+id: us-nm-k12-agency
+name: New Mexico Public Education Department
+abbreviation: NMPED
+classification: k12-agency
+jurisdiction: us-nm
+education_levels:
+  - k12
+url: https://web.ped.nm.gov/
+watch_urls:
+  - https://web.ped.nm.gov/bureaus/curriculum-instruction/education-technology/

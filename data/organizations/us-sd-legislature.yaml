@@ -1,0 +1,8 @@
+id: us-sd-legislature
+name: South Dakota Legislature
+classification: legislature
+jurisdiction: us-sd
+education_levels:
+  - k12
+  - postsecondary
+url: https://sdlegislature.gov/

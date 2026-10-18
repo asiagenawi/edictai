@@ -1,0 +1,40 @@
+id: us-ca-eo-n-6-26
+jurisdiction: us-ca
+issuer: us-ca-governor
+number: N-6-26
+title: Executive Order N-6-26 on preparing workers and businesses for AI disruption
+classification: executive-order
+status: active
+signed: '2026-05-21'
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - ai-literacy
+summary: Directs California labor, economic development, and other state agencies to study and respond to AI's effects on the workforce, including reviewing training programs and AI literacy programs. It requests that higher education institutions expand measures that prepare a workforce for new technologies and look at adding on-the-job training to degree programs.
+provisions:
+  - type: ai-workforce-program
+    description: Requests that institutions of higher education, working with the California Education Interagency Council, expand workforce measures for emerging technologies and evaluate adding on-the-job training and apprenticeships to BA/AA programs.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.gov.ca.gov/wp-content/uploads/2026/05/5.21.26-AI-Workforce-EO-FINAL-SIGNED.pdf
+      locator: Order para. 12, p. 6
+      quote: Evaluate opportunities to include on-the-job training as part of their comprehensive academic offerings, including but not limited to BA/AA programs, aligning apprenticeships and training that lead to employment for recent graduates.
+sources:
+  - url: https://www.gov.ca.gov/wp-content/uploads/2026/05/5.21.26-AI-Workforce-EO-FINAL-SIGNED.pdf
+    title: Executive Order N-6-26
+    publisher: Office of Governor Gavin Newsom
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261011142852/https://www.gov.ca.gov/wp-content/uploads/2026/05/5.21.26-AI-Workforce-EO-FINAL-SIGNED.pdf
+  - url: https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/
+    title: Governor Newsom signs first-of-its-kind executive order to prepare workers and businesses for potential AI disruption
+    publisher: Office of Governor Gavin Newsom
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261008115303/http://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch

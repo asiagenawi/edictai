@@ -1,0 +1,10 @@
+id: us-ut-higher-ed-agency
+name: Utah System of Higher Education
+abbreviation: USHE
+classification: higher-ed-agency
+jurisdiction: us-ut
+education_levels:
+  - postsecondary
+url: https://ushe.edu/
+watch_urls:
+  - https://ushe.edu/ushe-briefs/resolution-on-strategic-direction-for-an-ai-driven-future/

@@ -1,0 +1,58 @@
+id: us-md-msde-ai-framework
+jurisdiction: us-md
+issuer: us-md-k12-agency
+title: "Artificial Intelligence in K-12 Public Schools: Maryland's Framework for Responsible AI in Education"
+classification: framework
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - local-policy-requirement
+  - student-privacy
+  - data-governance
+  - equity-access
+  - academic-integrity
+  - assessment
+  - educator-training
+  - ai-literacy
+  - procurement
+  - institutional-operations
+summary: >-
+  Statewide framework from the Maryland State Department of Education for responsible AI use in
+  K-12 schools, covering roles and responsibilities, data privacy and security, equity, academic
+  integrity and assessment, professional learning, student AI literacy, operational uses, and
+  procurement and vendor governance. It says MSDE does not approve specific AI tools and that
+  local education agencies adopt district AI policies and vet tools.
+updated: "2026-06"
+provisions:
+  - type: requires-local-ai-policy
+    description: Local education agencies are expected to implement statewide expectations by adopting district AI policies and vetting and approving tools.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://msde.maryland.gov/about/Documents/DCCR/ai/AI-Guidance-A.pdf
+      locator: Roles and Responsibilities
+      quote: Local education agencies implement statewide expectations by adopting district AI policies, vetting, and approving tools
+  - type: procurement-standards
+    description: Calls for rigorous vendor vetting, contractual protections, documented risk assessments, and ongoing monitoring of AI tools.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://msde.maryland.gov/about/Documents/DCCR/ai/AI-Guidance-A.pdf
+      locator: Procurement and Vendor Governance
+      quote: Maryland requires rigorous vendor vetting, strong contractual protections, documented risk assessments, and ongoing monitoring.
+related:
+  - us-md-2026-sb-720
+sources:
+  - url: https://msde.maryland.gov/about/Documents/DCCR/ai/AI-Guidance-A.pdf
+    title: "Artificial Intelligence in K-12 Public Schools: Maryland's Framework for Responsible AI in Education"
+    publisher: Maryland State Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261009212222/https://msde.maryland.gov/about/documents/dccr/ai/ai-guidance-a.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-pdf-text
+  notes: Title page reads "Last updated June 2026"; an earlier original publication date is not stated in the document. The document does not cite SB 720, so authorized_by is not set.

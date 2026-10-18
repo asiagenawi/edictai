@@ -1,0 +1,8 @@
+id: us-ms-legislature
+name: Mississippi Legislature
+classification: legislature
+jurisdiction: us-ms
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.legislature.ms.gov/

@@ -1,0 +1,8 @@
+id: us-nh-higher-ed-agency-2
+name: Community College System of New Hampshire
+abbreviation: CCSNH
+classification: higher-ed-agency
+jurisdiction: us-nh
+education_levels:
+  - postsecondary
+url: https://www.ccsnh.edu/

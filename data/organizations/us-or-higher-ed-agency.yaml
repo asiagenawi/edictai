@@ -1,0 +1,8 @@
+id: us-or-higher-ed-agency
+name: Oregon Higher Education Coordinating Commission
+abbreviation: HECC
+classification: higher-ed-agency
+jurisdiction: us-or
+education_levels:
+  - postsecondary
+url: https://www.oregon.gov/highered/

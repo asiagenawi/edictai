@@ -1,0 +1,10 @@
+id: us-mi-k12-agency
+name: Michigan Department of Education
+abbreviation: MDE
+classification: k12-agency
+jurisdiction: us-mi
+education_levels:
+  - k12
+url: https://www.michigan.gov/mde
+watch_urls:
+  - https://www.michigan.gov/mde/services/academic-standards/educational-technology/artificial-intelligence

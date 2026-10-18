@@ -1,0 +1,8 @@
+id: us-nc-governor
+name: Office of the Governor of North Carolina
+classification: governor
+jurisdiction: us-nc
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.nc.gov/

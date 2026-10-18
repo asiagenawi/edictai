@@ -1,0 +1,8 @@
+id: us-nh-governor
+name: Office of the Governor of New Hampshire
+classification: governor
+jurisdiction: us-nh
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.governor.nh.gov/

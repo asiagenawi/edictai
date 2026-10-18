@@ -1,0 +1,117 @@
+id: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools
+jurisdiction: us-fl
+issuer: us-fl-k12-agency
+title: Rule 6A-1.0957, F.A.C., Internet Safety Policy (2026 amendment on artificial intelligence instructional tools)
+classification: policy
+status: current
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - safety-wellbeing
+  - student-privacy
+  - procurement
+  - academic-integrity
+  - educator-training
+  - employment-evaluation
+summary: A State Board of Education rule amendment requiring every Florida school district and charter school governing board to add AI instructional tool rules to its internet safety policy by July 1, 2027. Local policies must notify parents of approved AI tools and let them opt their child in, add extra review for tools used in pre-K through grade 5, require human review of AI-driven decisions, train staff, publish a list of approved tools, and bar vendors from using student data to train commercial AI models. The rule also bars AI designed to meet students' social or emotional needs or to simulate companionship.
+published: '2026-09-16'
+effective: '2026-10-29'
+provisions:
+  - type: requires-local-ai-policy
+    description: Each district school board and charter school governing board must amend its internet safety policy to address AI instructional tools by July 1, 2027.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(e)
+      quote: Each district school board and charter school governing board must, by July 1, 2027, adopt and implement an amendment to their internet safety policy that specifically addresses safety policy regarding the use of artificial intelligence instructional tools.
+  - type: requires-disclosure
+    description: Parents must be notified when an AI instructional tool is approved, and must opt their child in before the student uses it directly, with a comparable non-AI alternative offered.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(e)1.
+      quote: If the student will be directly using the tool, provide the option for parents to opt their child into using the tool along with information on an alternative, non-artificial intelligence instructional tool that is substantively comparable in instructional quality and access for their child to use if they do not opt them in.
+  - type: prohibits-ai-replacing-educators
+    description: AI instructional tools may only supplement, not replace, teachers' professional judgment.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(e)4.
+      quote: Ensure that the use of AI instructional tools is limited to supplementing, and not replacing, the professional judgment of teachers and the primary right of parents to direct the upbringing and education of their children.
+  - type: regulates-ai-assessment
+    description: AI may not make decisions such as grading, evaluations, or discipline without human review.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(e)10.
+      quote: 'Ensure that AI is never used as a decision maker absent human review for any use case, such as but not limited to: grading, evaluations, promotions, discipline, threat assessment, counseling referrals or Exceptional Student Education (ESE) referrals, or communications.'
+  - type: academic-integrity-rules
+    description: Local policies must address plagiarism, permissible classroom use, and verification of student-authored work.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(e)9.
+      quote: Ensure academic integrity in the use of AI instructional tools by addressing student plagiarism, permissible classroom usage, verification of student authored work
+  - type: educator-pd-requirement
+    description: Teachers and administrators must be trained on AI risks, limitations, safety, and compliance.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(e)11.
+      quote: Require teacher and administrator training regarding AI risks, limitations, safety, and compliance with the obligations in this rule
+  - type: procurement-standards
+    description: Approval processes must review evidence of effectiveness and require vendors to disclose known limitations; districts must keep a public list of approved AI tools.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(e)12.-13.
+      quote: Approval processes must require vendors to disclose known instructional limitations and any available independent evaluations or studies regarding the effectiveness of the tool.
+  - type: restricts-student-data-use
+    description: Approved AI tools may not sell, monetize, profile, or commercially exploit student data to train commercial AI models.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(e)17.
+      quote: Require that AI instructional tools approved for student use do not sell, monetize, profile, or commercially exploit student data to train commercial AI models.
+  - type: chatbot-minor-protections
+    description: Districts and charter boards may not deploy AI designed to meet students' social or emotional needs, simulate friendship or companionship, or use anthropomorphic design to keep students engaged.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+      locator: Rule 6A-1.0957(3)(f)
+      quote: 'School districts and charter school governing boards may not adopt policies that deploy any form of artificial intelligence that is designed, marketed, or configured to: 1. Meet a student’s social or emotional needs, including Social Emotional Learning; 2. Simulate friendship, companionship, or an emotional relationship with a student'
+sources:
+  - url: https://www.flrules.org/gateway/ruleNo.asp?id=6A-1.0957
+    title: '6A-1.0957 : Internet Safety Policy'
+    publisher: Florida Department of State, Florida Administrative Code
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250704163634/https://flrules.org/gateway/ruleNo.asp?id=6A-1.0957
+  - url: https://www.flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+    title: 6A-1.0957 Internet Safety Policy (final adopted version, effective 10/29/2026)
+    publisher: Florida Department of State, Florida Administrative Code
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017223630/https://flrules.org/gateway/readFile.asp?sid=0&tid=31488060&type=1&file=6A-1.0957.doc
+  - url: https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml
+    title: Florida Sets National Standard for Responsible AI in Classrooms—From VPK Through College
+    publisher: Florida Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261008140903/https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: Adopted by the State Board of Education on 2026-09-16 (FDOE press release); rule filed 2026-10-09 with an effective date of 2026-10-29 (Florida Administrative Code). The FDOE press release was read from its Wayback capture because fldoe.org refused direct requests.

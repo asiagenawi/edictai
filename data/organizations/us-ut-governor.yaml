@@ -1,0 +1,8 @@
+id: us-ut-governor
+name: Office of the Governor of Utah
+classification: governor
+jurisdiction: us-ut
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.utah.gov/

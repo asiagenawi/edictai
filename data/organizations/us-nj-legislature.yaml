@@ -1,0 +1,8 @@
+id: us-nj-legislature
+name: New Jersey Legislature
+classification: legislature
+jurisdiction: us-nj
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.njleg.state.nj.us/

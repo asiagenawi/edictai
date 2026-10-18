@@ -1,0 +1,16 @@
+id: us
+ocd_id: "ocd-division/country:us"
+name: United States
+abbreviation: US
+classification: country
+legislature_url: "https://www.congress.gov"
+sessions:
+  - identifier: "118"
+    name: 118th Congress
+    classification: primary
+    start_date: 2023-01-03
+    end_date: 2025-01-03
+  - identifier: "119"
+    name: 119th Congress
+    classification: primary
+    start_date: 2025-01-03

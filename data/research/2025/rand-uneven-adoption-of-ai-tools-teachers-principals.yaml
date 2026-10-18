@@ -1,0 +1,54 @@
+id: 2025-rand-uneven-adoption-of-ai-tools-teachers-principals
+title: Uneven Adoption of Artificial Intelligence Tools Among U.S. Teachers and Principals in the 2023–2024 School Year
+authors:
+  - Julia H. Kaufman
+  - Ashley Woo
+  - Joshua Eagan
+  - Sabrina Lee
+  - Emma B. Kassan
+publisher: RAND Corporation
+published: '2025-02-11'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - equity-access
+  - institutional-operations
+summary: Using spring 2024 surveys from the RAND American Educator Panels, the report examines how many K-12 teachers and principals used AI tools and whether schools provided AI guidance. One quarter of teachers and nearly 60 percent of principals reported using AI, with lower use and less guidance in higher-poverty schools.
+key_findings:
+  - finding: One quarter of ELA, math, and science teachers used AI tools for instructional planning or teaching in 2023-24, and nearly 60 percent of principals used AI tools for their work.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA134-25.html
+      locator: Key Takeaways
+      quote: one-quarter of ELA, math, and science teachers used AI tools for instructional planning or teaching in the 2023–2024 school year. Nearly 60 percent of surveyed American School Leader Panel principals also reported using AI tools for their work in 2023–2024.
+  - finding: Almost 40 percent of ELA or science teachers reported using AI, compared with 20 percent of general elementary or math teachers.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA134-25.html
+      locator: Key Takeaways
+      quote: almost 40 percent of ELA or science teachers reported using AI compared with 20 percent of general elementary education or math teachers.
+  - finding: Eighteen percent of principals said their school or district provided AI guidance; principals in the highest-poverty schools were about half as likely as those in the lowest-poverty schools to report it.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA134-25.html
+      locator: Key Takeaways
+      quote: Eighteen percent of principals reported that their schools or districts provided guidance on the use of AI by staff, teachers, or students.
+methods: 'Weighted, nationally representative surveys: spring 2024 American Instructional Resources Survey of 9,126 K-12 ELA, math, and science teachers (American Teacher Panel) and spring 2024 American Mathematics Educator Study survey of 3,631 principals (American School Leader Panel).'
+external_ids:
+  doi: 10.7249/RRA134-25
+sources:
+  - url: https://www.rand.org/pubs/research_reports/RRA134-25.html
+    title: Uneven Adoption of Artificial Intelligence Tools Among U.S. Teachers and Principals in the 2023–2024 School Year
+    publisher: RAND Corporation
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261008183708/https://www.rand.org/pubs/research_reports/RRA134-25.html
+  - url: https://www.rand.org/content/dam/rand/pubs/research_reports/RRA100/RRA134-25/RAND_RRA134-25.pdf
+    title: Uneven Adoption of Artificial Intelligence Tools Among U.S. Teachers and Principals in the 2023–2024 School Year (PDF)
+    publisher: RAND Corporation
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260810105851/https://www.rand.org/content/dam/rand/pubs/research_reports/RRA100/RRA134-25/RAND_RRA134-25.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

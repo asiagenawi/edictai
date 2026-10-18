@@ -1,0 +1,10 @@
+id: us-ms-k12-agency
+name: Mississippi Department of Education
+abbreviation: MDE
+classification: k12-agency
+jurisdiction: us-ms
+education_levels:
+  - k12
+url: https://www.mdek12.org/
+watch_urls:
+  - https://mdek12.org/otss/dlresources/

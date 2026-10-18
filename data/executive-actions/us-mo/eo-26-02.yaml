@@ -1,0 +1,39 @@
+id: us-mo-eo-26-02
+jurisdiction: us-mo
+issuer: us-mo-governor
+number: Executive Order 26-02
+title: Executive Order 26-02 (Artificial Intelligence strategy for state government, economy, energy, and workforce)
+classification: executive-order
+status: active
+signed: "2026-01-13"
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - curriculum-standards
+summary: >-
+  Governor Mike Kehoe ordered a strategic framework for AI use in state government, a review of
+  the business climate for AI companies, and a review of data center energy demands. It directs
+  the Department of Higher Education and Workforce Development to evaluate AI programming at
+  public colleges and universities and to recommend and establish AI-focused degrees,
+  certifications, apprenticeships, and retraining, with findings due by November 30, 2026.
+provisions:
+  - type: ai-workforce-program
+    description: Directs the Commissioner of Higher Education and Workforce Development to evaluate AI programming at public higher education institutions and recommend and establish new AI-focused degree programs, certifications, apprenticeships, and retraining initiatives.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.sos.mo.gov/library/reference/orders/2026/eo2
+      quote: recommend and establish new degree programs, including certifications, apprenticeships, and rapid retraining initiatives focused on high-demand AI-related skills
+sources:
+  - url: https://www.sos.mo.gov/library/reference/orders/2026/eo2
+    title: Executive Order 26-02
+    publisher: Missouri Secretary of State
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260916072956/https://www.sos.mo.gov/library/reference/orders/2026/eo2
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-order-text
+  notes: The order has no formal title; the title here summarizes its scope.

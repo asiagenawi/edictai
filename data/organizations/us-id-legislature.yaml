@@ -1,0 +1,8 @@
+id: us-id-legislature
+name: Idaho Legislature
+classification: legislature
+jurisdiction: us-id
+education_levels:
+  - k12
+  - postsecondary
+url: https://legislature.idaho.gov/

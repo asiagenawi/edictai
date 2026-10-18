@@ -1,0 +1,55 @@
+id: us-wa-eo-24-01
+jurisdiction: us-wa
+issuer: us-wa-governor
+number: EO 24-01
+title: Artificial Intelligence
+classification: executive-order
+status: active
+signed: "2024-01-30"
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - research
+  - procurement
+summary: >-
+  Governor Jay Inslee's order directing executive agencies to assess and set guidelines for
+  state government use and procurement of generative AI. It also directs the Workforce
+  Training and Education Coordinating Board to create research opportunities and partnerships
+  that expose students and researchers to generative AI and support AI workforce training.
+provisions:
+  - type: ai-workforce-program
+    description: Directs the Workforce Training and Education Coordinating Board to identify and create research partnerships to expand generative AI technology and education and accelerate AI workforce development.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20(tmp).pdf
+      locator: Para. 10
+      quote: >-
+        The goals will be to expose students and researchers to emerging opportunities
+        regarding the development of generative AI Systems and accelerate training and AI
+        workforce development.
+related:
+  - us-wa-2023-2024-sb-5838
+sources:
+  - url: https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20(tmp).pdf
+    title: Executive Order 24-01 - Artificial Intelligence
+    publisher: Office of the Governor, State of Washington
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260521001200/https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20%28tmp%29.pdf
+  - url: https://governor.wa.gov/office-governor/official-actions/executive-orders?combine=Artificial&governor=All&field_executive_order_status_target_id=All
+    title: Executive Orders listing (status)
+    publisher: Office of the Governor, State of Washington
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017215834/https://governor.wa.gov/office-governor/office/official-actions/executive-orders?combine=Artificial&governor=All&field_executive_order_status_target_id=All
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Legacy record gave the signing date as 2024-01-01; the order was signed 2024-01-30. The
+    Governor's executive order listing shows it as Active as of the access date. Education
+    content is limited to paragraph 10 (Workforce Board research partnerships); the order is
+    mainly about state agency use of generative AI.

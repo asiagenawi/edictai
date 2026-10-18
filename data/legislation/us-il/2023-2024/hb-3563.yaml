@@ -1,0 +1,150 @@
+id: us-il-2023-2024-hb-3563
+jurisdiction: us-il
+session: 2023-2024
+identifier: HB 3563
+title: DOIT-AI Task Force
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - local-policy-requirement
+  - workforce
+summary: >-
+  Created the Generative AI and Natural Language Processing Task Force within the Illinois
+  Department of Innovation and Technology to study generative AI and report to the Governor
+  and General Assembly by December 31, 2024. Its duties included recommending model policies
+  for schools on student use of generative AI in the classroom, and its members included the
+  State Superintendent of Education, teachers, and principals.
+abstract: >-
+  Amends the Department of Innovation and Technology Act. Provides that the Department of
+  Innovation and Technology shall establish the Generative AI and Natural Language Processing
+  Task Force investigate and provide a report on generative artificial intelligence software and
+  natural language processing software.
+provisions:
+  - type: creates-task-force
+    description: Directs the Department of Innovation and Technology to establish a Generative AI and Natural Language Processing Task Force, which must report to the Governor and General Assembly by December 31, 2024.
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/103/103-0451.htm
+      locator: 20 ILCS 1370/1-80(b), (g)
+      quote: The Department shall establish the Generative AI and Natural Language Processing Task Force.
+  - type: issues-model-policy
+    description: Makes recommending model policies for schools on student classroom use of generative AI one of the task force's responsibilities.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/103/103-0451.htm
+      locator: 20 ILCS 1370/1-80(e)(2)
+      quote: recommending model policies for schools to address the use of generative artificial intelligence by students in the classroom
+sponsors:
+  - name: Abdelnasser Rashid
+    primary: true
+    chamber: lower
+  - name: Robert Peters
+    primary: true
+    chamber: upper
+actions:
+  - date: "2023-02-17"
+    description: Filed with the Clerk by Rep. Abdelnasser Rashid
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-02-17"
+    description: First Reading; Referred to Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2023-02-28"
+    description: Assigned to Cybersecurity, Data Analytics, & IT Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-09"
+    description: Do Pass / Short Debate Cybersecurity, Data Analytics, & IT Committee; 013-000-000
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-03-16"
+    description: Second Reading - Short Debate
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-03-22"
+    description: Third Reading - Short Debate - Passed 109-000-000
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2023-03-23"
+    description: First Reading; Referred to Assignments
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2023-04-20"
+    description: Do Pass State Government; 007-000-001
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2023-05-03"
+    description: Second Reading; Senate Floor Amendment No. 1 Adopted
+    actor: upper
+    classification:
+      - reading-2
+      - amendment-passage
+  - date: "2023-05-11"
+    description: Senate Floor Amendment No. 2 Adopted; Third Reading - Passed; 054-000-000
+    actor: upper
+    classification:
+      - amendment-passage
+      - reading-3
+      - passage
+  - date: "2023-05-18"
+    description: House Concurs 113-000-000; Passed Both Houses
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-06-16"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2023-08-04"
+    description: Governor Approved; Effective Date August 4, 2023
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2023-08-04"
+    description: Public Act 103-0451
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Public Act
+    date: "2023-08-04"
+    url: https://ilga.gov/ftp/Public%20Acts/103/103-0451.htm
+    archived_url: https://web.archive.org/web/20250402191101/https://www.ilga.gov/ftp/Public%20Acts/103/103-0451.htm
+    media_type: text/html
+session_law: Public Act 103-0451
+sources:
+  - url: https://www.ilga.gov/ftp/legislation/103/BillStatus/HTML/10300HB3563.html
+    title: Bill Status of HB 3563, 103rd General Assembly
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250312014936/https://ilga.gov/ftp/legislation/103/BillStatus/HTML/10300HB3563.html
+  - url: https://ilga.gov/ftp/Public%20Acts/103/103-0451.htm
+    title: Public Act 103-0451
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250402191101/https://www.ilga.gov/ftp/Public%20Acts/103/103-0451.htm
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-status-and-public-act-text
+  notes: >-
+    Legacy record listed Rep. Jennifer Gong-Gershowitz as sponsor; the official bill status shows
+    Rep. Abdelnasser Rashid (House) and Sen. Robert Peters (Senate) as chief sponsors. Education
+    is one of several task-force responsibilities; the task force is not education-specific.

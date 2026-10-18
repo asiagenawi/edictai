@@ -1,0 +1,8 @@
+id: us-vt-higher-ed-agency
+name: Vermont State Colleges System
+abbreviation: VSCS
+classification: higher-ed-agency
+jurisdiction: us-vt
+education_levels:
+  - postsecondary
+url: https://www.vsc.edu/

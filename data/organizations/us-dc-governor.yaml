@@ -1,0 +1,9 @@
+id: us-dc-governor
+name: Executive Office of the Mayor of the District of Columbia
+abbreviation: EOM
+classification: governor
+jurisdiction: us-dc
+education_levels:
+  - k12
+  - postsecondary
+url: https://mayor.dc.gov/

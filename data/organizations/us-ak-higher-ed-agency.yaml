@@ -1,0 +1,11 @@
+id: us-ak-higher-ed-agency
+name: University of Alaska System
+abbreviation: UA
+classification: higher-ed-agency
+jurisdiction: us-ak
+education_levels:
+  - postsecondary
+url: https://www.alaska.edu/
+watch_urls:
+  - https://www.alaska.edu/ai/
+  - https://www.alaska.edu/ai/policies/index.php

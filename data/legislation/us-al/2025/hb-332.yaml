@@ -1,0 +1,114 @@
+id: us-al-2025-hb-332
+jurisdiction: us-al
+session: '2025'
+identifier: HB 332
+title: Education, public K-12 schools, completion of approved computer science course required
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Would have added emerging technologies, including artificial intelligence, to Alabama's statutory definition of computer science and required public school students, beginning with the graduating class of 2031, to earn a computer science credit to graduate. It passed the House but was not taken up for a final Senate vote before the 2025 regular session ended; a similar bill, HB 329, was enacted in 2026.
+sponsors:
+  - name: Faulkner
+    primary: true
+    chamber: lower
+  - name: Collins
+    primary: false
+    chamber: lower
+  - name: Hulsey
+    primary: false
+    chamber: lower
+  - name: Baker
+    primary: false
+    chamber: lower
+  - name: Colvin
+    primary: false
+    chamber: lower
+  - name: Shaw
+    primary: false
+    chamber: lower
+  - name: Datcher
+    primary: false
+    chamber: lower
+  - name: Moore (M)
+    primary: false
+    chamber: lower
+  - name: DuBose
+    primary: false
+    chamber: lower
+  - name: Woods
+    primary: false
+    chamber: lower
+actions:
+  - date: '2025-02-25'
+    description: Read for the first time and referred to the House Committee on Education Policy
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+      - referral-committee
+  - date: '2025-03-19'
+    description: Reported Out of Committee House of Origin; Read for the Second Time and placed on the Calendar
+    actor: lower
+    classification:
+      - committee-passage
+      - reading-2
+  - date: '2025-04-01'
+    description: Education Policy Engrossed Substitute Offered; Motion to Adopt - Adopted Roll Call 585
+    actor: lower
+    classification:
+      - substitution
+      - amendment-passage
+  - date: '2025-04-01'
+    description: Motion to Read a Third Time and Pass as Amended - Adopted Roll Call 586
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: '2025-04-03'
+    description: Read for the first time and referred to the Senate Committee on Education Policy
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: '2025-04-30'
+    description: Reported Out of Committee Second House
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2025-05-01'
+    description: Read for the Second Time and placed on the Calendar
+    actor: upper
+    classification:
+      - reading-2
+versions:
+  - note: Engrossed
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB332-eng.pdf
+    archived_url: https://web.archive.org/web/20250613070304/https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB332-eng.pdf
+    media_type: application/pdf
+  - note: Introduced
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB332-int.pdf
+    archived_url: https://web.archive.org/web/20250405144212/https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB332-int.pdf
+    media_type: application/pdf
+related:
+  - us-al-2026-hb-329
+sources:
+  - url: https://alison.legislature.state.al.us/bill-search
+    title: ALISON bill search - HB332, 2025 Regular Session
+    publisher: Alabama Legislature
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260916032952/https://alison.legislature.state.al.us/bill-search
+  - url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB332-eng.pdf
+    title: HB332 Engrossed
+    publisher: Alabama Legislature
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250613070304/https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB332-eng.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: Bill history retrieved from the Alabama Legislature's ALISON system data service. ALISON lists the current status as "Read Second Time in Second House"; failure is derived from the session end date (2025-05-14).

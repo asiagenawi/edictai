@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://statescope.org/schema/jurisdiction.schema.json",
+  "title": "Jurisdiction",
+  "description": "The United States or one of the 50 states and DC. Stored at data/jurisdictions/{id}.yaml.",
+  "type": "object",
+  "required": ["id", "ocd_id", "name", "abbreviation", "classification"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/jurisdiction_id" },
+    "ocd_id": {
+      "type": "string",
+      "pattern": "^ocd-division/country:us(/(state|district):[a-z]{2})?$",
+      "description": "Open Civic Data division identifier."
+    },
+    "name": { "type": "string" },
+    "abbreviation": { "type": "string", "pattern": "^[A-Z]{2}$|^US$" },
+    "classification": { "type": "string", "enum": ["country", "state", "district"] },
+    "fips": { "type": "string", "pattern": "^\\d{2}$" },
+    "region": { "type": "string", "enum": ["Northeast", "Southeast", "Midwest", "Southwest", "West"] },
+    "legislature_url": { "$ref": "common.schema.json#/$defs/url" },
+    "sessions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["identifier", "name", "start_date"],
+        "additionalProperties": false,
+        "properties": {
+          "identifier": { "type": "string", "description": "Used in legislation IDs and paths, e.g. '2025', '2025-2026', '119'." },
+          "name": { "type": "string" },
+          "classification": { "type": "string", "enum": ["primary", "special"] },
+          "start_date": { "$ref": "common.schema.json#/$defs/date" },
+          "end_date": { "$ref": "common.schema.json#/$defs/date", "description": "Last day of the session. Measures short of final passage by this date are derived as failed." },
+          "legiscan_session_id": { "type": "integer" },
+          "sources": { "$ref": "common.schema.json#/$defs/sources", "description": "Official sources for the session's dates." }
+        }
+      }
+    }
+  }
+}

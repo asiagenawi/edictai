@@ -1,0 +1,50 @@
+id: 2025-from-chalkboards-to-chatbots-nigeria
+title: 'From Chalkboards to Chatbots: Evaluating the Impact of Generative AI on Learning Outcomes in Nigeria'
+authors:
+  - Martin De Simone
+  - Federico Tiberti
+  - Maria Barron Rodriguez
+  - Federico Manolio
+  - Wuraola Mosuro
+  - Eliot Jolomi Dikoru
+publisher: World Bank
+published: '2025-05-19'
+classification: report
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - research
+summary: A World Bank policy research working paper reports a randomized controlled trial of a six-week after-school program in Benin City, Nigeria, in which first-year senior secondary students used Microsoft Copilot (powered by GPT-4) with teacher guidance to study English. Students selected for the program scored higher on an end-of-program assessment and on their regular end-of-term English exam, with larger effects for students who attended more sessions.
+key_findings:
+  - finding: Students selected for the program scored 0.31 standard deviations higher on the end-of-intervention assessment, with an effect of 0.23 standard deviations on English, the main outcome.
+    citation:
+      source_url: https://documents.worldbank.org/curated/en/099548105192529324/pdf/IDU-c09f40d8-9ff8-42dc-b315-591157499be7.pdf
+      locator: Abstract
+      quote: The intervention demonstrated a significant improvement of 0.31 standard deviation on an assessment that included English topics aligned with the Nigerian curriculum, knowledge of artificial intelligence and digital skills.
+  - finding: Being selected for the program raised performance on the regular third-term English curricular exam by 0.21 standard deviations.
+    citation:
+      source_url: https://documents.worldbank.org/curated/en/099548105192529324/pdf/IDU-c09f40d8-9ff8-42dc-b315-591157499be7.pdf
+      locator: Introduction, p. 2
+      quote: We calculate an ITT effect of being selected for the program on the performance in the third-term exam of 0.21 standard deviations.
+  - finding: Effects were positive across baseline ability levels but largest for female students and for students with higher prior performance; each additional day attended was associated with about 0.031 standard deviations of improvement.
+    citation:
+      source_url: https://documents.worldbank.org/curated/en/099548105192529324/pdf/IDU-c09f40d8-9ff8-42dc-b315-591157499be7.pdf
+      locator: Introduction, p. 3
+      quote: with an effect size of approximately 0.031 standard deviation per additional day of attendance
+methods: Randomized controlled trial; first-year senior secondary students from nine public schools in Benin City, Nigeria, randomly selected from volunteers (657 assigned to treatment, 671 to control; 759 completed the final assessment); twelve 90-minute after-school sessions over six weeks; intent-to-treat and attendance-based estimates.
+external_ids:
+  doi: 10.1596/1813-9450-11125
+  openalex_id: W4410575792
+sources:
+  - url: https://documents.worldbank.org/curated/en/099548105192529324/pdf/IDU-c09f40d8-9ff8-42dc-b315-591157499be7.pdf
+    title: 'From Chalkboards to Chatbots: Evaluating the Impact of Generative AI on Learning Outcomes in Nigeria (Policy Research Working Paper 11125)'
+    publisher: World Bank
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Working paper, not peer reviewed. Study is outside the United States. Document date from the World Bank Documents and Reports API (WPS11125).

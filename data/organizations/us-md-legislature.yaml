@@ -1,0 +1,8 @@
+id: us-md-legislature
+name: Maryland General Assembly
+classification: legislature
+jurisdiction: us-md
+education_levels:
+  - k12
+  - postsecondary
+url: https://mgaleg.maryland.gov/

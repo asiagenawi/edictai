@@ -1,0 +1,8 @@
+id: us-ak-governor
+name: Office of the Governor of Alaska
+classification: governor
+jurisdiction: us-ak
+education_levels:
+  - k12
+  - postsecondary
+url: https://gov.alaska.gov/

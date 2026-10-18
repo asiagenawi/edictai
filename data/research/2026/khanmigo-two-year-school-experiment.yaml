@@ -1,0 +1,51 @@
+id: 2026-khanmigo-two-year-school-experiment
+title: 'One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment'
+authors:
+  - Philip Oreopoulos
+  - Nina Low
+publisher: Annenberg Institute at Brown University (EdWorkingPapers)
+published: 2026-08
+classification: report
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - research
+summary: A two-year cluster randomized trial in 18 middle schools in Hamilton County, Tennessee, randomly assigned grades within each school to use Khan Academy with its Khanmigo AI tutor, set to coach rather than give answers, during daily remedial math sessions. Assignment produced small math gains similar to those from Khan Academy practice without AI, and the authors attribute the modest effect to students rarely engaging the tutor in substantive dialogue.
+key_findings:
+  - finding: Assignment to Khanmigo raised math achievement by 1.3 national percentile ranks per term, about 0.06 to 0.08 standard deviations over a school year, with an implied effect of 0.14 standard deviations for a full year of active participation.
+    citation:
+      source_url: https://edworkingpapers.com/ai26-1551
+      locator: Abstract
+      quote: Assignment raises math achievement by 1.3 national percentile ranks per term, or about 0.06 to 0.08 standard deviations over a school year; the implied effect of a full year of active participation reaches 0.14 standard deviations.
+  - finding: These gains resembled those from Khan Academy practice without AI assistance.
+    citation:
+      source_url: https://edworkingpapers.com/ai26-1551
+      locator: Abstract
+      quote: These gains resemble those from Khan Academy practice without AI assistance.
+  - finding: Although 96% of students tried Khanmigo, the median student messaged it on only a third of practice days and in only 17% of sessions in which they made a mistake.
+    citation:
+      source_url: https://edworkingpapers.com/ai26-1551
+      locator: Abstract
+      quote: 96 percent of students tried Khanmigo at least once, but the median student messaged it on only a third of the days they practiced, and in only 17 percent of the exercise sessions in which they made a mistake.
+methods: Preregistered cluster randomized trial over the 2024-25 and 2025-26 school years; one or two of three grades (6-8) randomly assigned within each of 18 middle schools in Hamilton County Schools, Tennessee; below-grade-level students in daily remedial math sessions; 6,902 student-term observations with MAP math scores.
+geography:
+  - us-tn
+external_ids:
+  doi: 10.26300/kner-hv33
+sources:
+  - url: https://edworkingpapers.com/ai26-1551
+    title: 'One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment (EdWorkingPaper 26-1551)'
+    publisher: Annenberg Institute at Brown University
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://edworkingpapers.com/sites/default/files/ai26-1551.pdf
+    title: 'One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment (full text PDF)'
+    publisher: Annenberg Institute at Brown University
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Working paper, not peer reviewed. Design and sample details from the introduction and data sections of the PDF.

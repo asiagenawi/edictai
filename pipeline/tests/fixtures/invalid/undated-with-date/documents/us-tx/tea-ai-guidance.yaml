@@ -1,0 +1,29 @@
+id: us-tx-tea-ai-guidance
+jurisdiction: us-tx
+issuer: us-tx-k12-agency
+title: Guidance on AI in Texas Classrooms
+classification: guidance
+status: current
+education_levels: [k12]
+topics: [instructional-use]
+summary: Guidance for districts on classroom AI use.
+published: 2025-08
+undated: true
+provisions:
+  - type: issues-model-policy
+    description: Provides a model district AI policy.
+    citation:
+      source_url: https://example.org/tea/ai-guidance.pdf
+      locator: p. 4
+revisions:
+  - observed: 2025-08-15
+    url: https://example.org/tea/ai-guidance.pdf
+    sha256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+authorized_by: us-tx-2025-hb-1481
+sources:
+  - url: https://example.org/tea/ai-guidance.pdf
+    kind: official
+    accessed: 2026-10-01
+verification:
+  status: machine-verified
+  last_verified: 2026-10-01

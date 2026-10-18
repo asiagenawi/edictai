@@ -1,0 +1,44 @@
+id: us-vt-aoe-ai-guidance-for-education
+jurisdiction: us-vt
+issuer: us-vt-k12-agency
+title: Vermont AI Guidance for Education
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - academic-integrity
+  - student-privacy
+  - safety-wellbeing
+  - procurement
+  - equity-access
+summary: >-
+  Vermont Agency of Education guidance (Version 1.0) on using AI in schools, framed around
+  personalized, proficiency-based, and project-based learning. It sets developmental
+  expectations by grade band, a four-principles framework for educator and student use, and
+  risk guidance on academic honesty, cognitive offloading, data privacy, student well-being,
+  and bias, plus a tool-vetting framework and implementation steps for school leaders.
+published: "2026-01-23"
+sources:
+  - url: https://education.vermont.gov/sites/aoe/files/documents/edu-aoe-ai-guidance-for-education.pdf
+    title: Vermont AI Guidance for Education, Version 1.0
+    publisher: Vermont Agency of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260128031146/https://education.vermont.gov/sites/aoe/files/documents/edu-aoe-ai-guidance-for-education.pdf
+  - url: https://education.vermont.gov/press-release/vermont-agency-education-releases-new-guidance-support-use-artificial-intelligence
+    title: Vermont Agency of Education Releases New Guidance to Support the Use of Artificial Intelligence in Schools
+    publisher: Vermont Agency of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260201042015/https://education.vermont.gov/press-release/vermont-agency-education-releases-new-guidance-support-use-artificial-intelligence
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Document states "Issue Date: January 23, 2026"; the press release is dated January 27,
+    2026 (legacy used the press release date). No Wayback snapshot retrieved (archive offline
+    at access time).

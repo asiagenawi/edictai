@@ -1,0 +1,51 @@
+id: us-nc-eo-24
+jurisdiction: us-nc
+issuer: us-nc-governor
+number: Executive Order No. 24
+title: Advancing Trustworthy Artificial Intelligence That Benefits All North Carolinians
+classification: executive-order
+status: active
+signed: "2025-09-02"
+expires: "2028-12-31"
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - ai-literacy
+  - workforce
+summary: >-
+  Governor Josh Stein created the North Carolina AI Leadership Council, whose members include
+  higher education representatives and a K-12 education representative, and an AI Accelerator
+  within the Department of Information Technology to coordinate state AI governance, pilots, and
+  training. The order calls for a statewide AI literacy strategy and public AI literacy
+  trainings developed with partners including the Department of Public Instruction. It remains
+  in effect until December 31, 2028 unless rescinded.
+provisions:
+  - type: creates-task-force
+    description: Establishes the AI Leadership Council, including four higher education representatives and one K-12 education representative, with initial deliverables due June 30, 2026.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians/open
+      locator: Sec. 1(B)-(C)
+      quote: One representative from the K-12 education community
+sources:
+  - url: https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians/open
+    title: Executive Order No. 24 (signed PDF)
+    publisher: Office of the Governor of North Carolina
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260320005325/https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians/open
+  - url: https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians
+    title: "Executive Order No. 24: Advancing Trustworthy Artificial Intelligence That Benefits All North Carolinians"
+    publisher: Office of the Governor of North Carolina
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260813114324/https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-order-text
+  notes: Signed order is a scanned PDF; text read from page images. No Wayback snapshot found.

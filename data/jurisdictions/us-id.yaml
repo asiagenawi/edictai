@@ -1,0 +1,13 @@
+id: us-id
+ocd_id: "ocd-division/country:us/state:id"
+name: Idaho
+abbreviation: ID
+classification: state
+fips: "16"
+region: West
+sessions:
+  - identifier: "2026"
+    name: Sixty-eighth Legislature, Second Regular Session
+    classification: primary
+    start_date: "2026-01-12"
+    end_date: "2026-04-02"

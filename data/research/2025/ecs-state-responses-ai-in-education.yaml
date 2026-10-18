@@ -1,0 +1,41 @@
+id: 2025-ecs-state-responses-ai-in-education
+title: How States Are Responding to the Rise of AI in Education
+authors:
+  - Jenny McCann
+publisher: Education Commission of the States
+published: '2025-06-17'
+classification: brief
+education_levels:
+  - k12
+topics:
+  - task-force
+  - local-policy-requirement
+  - ai-literacy
+  - curriculum-standards
+summary: Education Commission of the States blog post reviewing state AI-in-education policy through spring 2025, including K-12 guidance, legislation, oversight and sandbox proposals, and state task force reports. It finds that at least 28 states had published K-12 AI guidance and that many states had introduced AI education bills, although only one had been enacted in 2025 as of April 1.
+key_findings:
+  - finding: At least 28 states had published guidance on AI in K-12 settings as of April 2025.
+    citation:
+      source_url: https://www.ecs.org/artificial-intelligence-ai-education-task-forces/
+      quote: Fast forward to April 2025, and at least 28 states have published guidance on AI in K-12 settings.
+  - finding: As of April 1, 2025, one AI-related education bill had been enacted that year (Mississippi S.B. 2426, creating a state AI task force), while at least 20 states had introduced AI education bills.
+    citation:
+      source_url: https://www.ecs.org/artificial-intelligence-ai-education-task-forces/
+      quote: 'As of April 1, 2025, only one AI-related education bill has been enacted this year: Mississippi ’s S.B. 2426 , which creates a state AI task force.'
+  - finding: Task force reports from Arkansas, Georgia, and Illinois shared priorities including AI literacy frameworks, educator professional development, equitable access, student data protection, and implementation support.
+    citation:
+      source_url: https://www.ecs.org/artificial-intelligence-ai-education-task-forces/
+      quote: Task force reports from Arkansas ( 2025 ), Georgia ( 2024 ) and Illinois ( 2024 ) highlight similar priorities like creating curricular frameworks for AI literacy, investing in educator professional development
+methods: Review of state legislation, guidance documents, and task force reports through April 2025.
+sources:
+  - url: https://www.ecs.org/artificial-intelligence-ai-education-task-forces/
+    title: How States Are Responding to the Rise of AI in Education
+    publisher: Education Commission of the States
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261013031710/https://www.ecs.org/artificial-intelligence-ai-education-task-forces/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Written by a guest researcher for ECS; the post states that views are the author's. Publication date from the page's datePublished metadata. Quotes keep the spacing of the page text.

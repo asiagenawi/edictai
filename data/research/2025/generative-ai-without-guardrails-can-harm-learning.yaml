@@ -1,0 +1,50 @@
+id: 2025-generative-ai-without-guardrails-can-harm-learning
+title: 'Generative AI without guardrails can harm learning: Evidence from high school mathematics'
+authors:
+  - Hamsa Bastani
+  - Osbert Bastani
+  - Alp Sungu
+  - Haosen Ge
+  - Özge Kabakcı
+  - Rei Mariman
+publisher: Proceedings of the National Academy of Sciences
+published: '2025-06-25'
+classification: peer-reviewed
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - research
+summary: A preregistered field experiment at a high school in Turkey gave nearly 1,000 math students either a standard GPT-4 chat interface, a GPT-4 tutor with teacher-designed safeguards, or no AI during practice sessions, then tested them without AI. Both AI versions raised practice scores, but students who used the unrestricted chatbot scored lower on the later unassisted exam than students who never had access, while the safeguarded tutor largely avoided that drop.
+key_findings:
+  - finding: Access to GPT-4 during practice raised practice-problem grades by 48% for the standard chat interface and 127% for the safeguarded tutor, relative to the control group.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/
+      locator: Abstract
+      quote: having GPT-4 access while solving problems significantly improves performance (48% improvement in grades for GPT Base and 127% for GPT Tutor)
+  - finding: When AI access was removed, students who had used the standard chat interface performed 17% worse on the exam than students who never had access; the safeguarded tutor's effect on the exam was statistically indistinguishable from the control group.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/
+      locator: Main results
+      quote: on the exam, students in the GPT Base arm perform statistically significantly worse than students in the control arm by 17%; this negative effect is essentially eradicated in the GPT Tutor arm, though we still do not observe a positive effect.
+  - finding: Message analysis indicated that most students in the standard chat arm used it to obtain answers, and students did not perceive the reduction in their own learning.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/
+      locator: Introduction
+      quote: we find evidence that students do not perceive any reduction in their learning or subsequent performance as a consequence of copying solutions
+methods: Preregistered classroom-randomized controlled trial; about fifty 9th-11th grade math classes (nearly 1,000 students) at one high school in Turkey, fall 2023-24; three arms (control, GPT Base, GPT Tutor) over four 90-minute sessions.
+external_ids:
+  doi: 10.1073/pnas.2422633122
+  openalex_id: W4411627694
+sources:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/
+    title: 'Generative AI without guardrails can harm learning: Evidence from high school mathematics (PubMed Central full text)'
+    publisher: National Library of Medicine
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261004012309/https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Full text read from the PubMed Central copy because the publisher page blocked automated access; DOI recorded under external_ids. Publication date from OpenAlex.

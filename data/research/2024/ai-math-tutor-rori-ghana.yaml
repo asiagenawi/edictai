@@ -1,0 +1,49 @@
+id: 2024-ai-math-tutor-rori-ghana
+title: 'Effective and Scalable Math Support: Experimental Evidence on the Impact of an AI-Math Tutor in Ghana'
+authors:
+  - Owen Henkel
+  - Hannah Horne-Robinson
+  - Nessie Kozhakhmetova
+  - Amanda Lee
+publisher: arXiv
+published: '2024-02-15'
+classification: report
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - equity-access
+  - research
+summary: A preliminary evaluation randomly assigned 11 Rising Academies schools in Ghana to give students in grades 3-9 access to Rori, a WhatsApp-based math tutor that uses language models, during two 30-minute study hall sessions per week, or to continue regular instruction. Over eight months, math growth scores were substantially higher in the treatment group, at a marginal cost of about $5 per student.
+key_findings:
+  - finding: Math growth scores were substantially higher for the treatment group, with an effect size of 0.36 that the authors describe as roughly equivalent to an extra year of learning.
+    citation:
+      source_url: https://arxiv.org/pdf/2402.09809
+      locator: Abstract
+      quote: We find that the math growth scores were substantially higher for the treatment group and statistically significant (p < 0.001). The effect size of 0.36 is considered large in the context of educational interventions
+  - finding: Rori runs on basic mobile phones over low-bandwidth networks, with a marginal cost of about $5 per student.
+    citation:
+      source_url: https://arxiv.org/pdf/2402.09809
+      locator: Abstract
+      quote: the marginal cost of providing Rori is approximately $5 per student
+methods: School-level randomized trial; about 500 students in grades 3-9 at 11 Rising Academies schools in Ghana (five treatment, six control); two 30-minute weekly sessions; math assessments at two points over eight months; difference-in-differences analysis.
+external_ids:
+  doi: 10.48550/arXiv.2402.09809
+  openalex_id: W4391897332
+sources:
+  - url: https://arxiv.org/pdf/2402.09809
+    title: 'Effective and Scalable Math Support: Experimental Evidence on the Impact of an AI-Math Tutor in Ghana (arXiv v2 PDF)'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://arxiv.org/abs/2402.09809
+    title: 'Effective and Scalable Math Support: Evidence on the Impact of an AI- Tutor on Math Achievement in Ghana'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261003075706/https://arxiv.org/abs/2402.09809
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Preprint reporting year-one results; study is outside the United States. A conference version appears in Communications in Computer and Information Science (2024). First submitted 15 February 2024, revised 5 May 2024.

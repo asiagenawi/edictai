@@ -1,0 +1,8 @@
+id: us-ks-governor
+name: Office of the Governor of Kansas
+classification: governor
+jurisdiction: us-ks
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.governor.ks.gov/

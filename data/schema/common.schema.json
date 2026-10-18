@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://statescope.org/schema/common.schema.json",
+  "title": "Shared definitions",
+  "description": "Types reused across StateScope record schemas. Properties annotated with x-vocab must take a value from the named vocabulary in data/vocab/; the validator enforces this so vocabularies have a single source of truth.",
+  "$defs": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "ISO 8601 calendar date (YYYY-MM-DD)."
+    },
+    "partial_date": {
+      "type": "string",
+      "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$",
+      "description": "ISO 8601 date with optional month and day, for sources that publish only a year or month."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "jurisdiction_id": {
+      "type": "string",
+      "pattern": "^us(-[a-z]{2})?$",
+      "description": "'us' for federal, 'us-xx' for a state or DC (lowercase USPS code).",
+      "x-ref": "jurisdiction"
+    },
+    "education_levels": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "x-vocab": "education_levels" }
+    },
+    "topics": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "x-vocab": "topics" }
+    },
+    "source": {
+      "type": "object",
+      "description": "A citation backing the record. Every record needs at least one official source.",
+      "required": ["url", "kind", "accessed"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "$ref": "#/$defs/url" },
+        "title": { "type": "string" },
+        "publisher": { "type": "string" },
+        "kind": { "type": "string", "x-vocab": "source_kinds" },
+        "accessed": { "$ref": "#/$defs/date", "description": "Date the source was last retrieved." },
+        "archived_url": { "$ref": "#/$defs/url", "description": "Permanent archive copy, usually the Wayback Machine." }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "citation": {
+      "type": "object",
+      "description": "Points a specific claim at the place in a source that supports it.",
+      "required": ["source_url"],
+      "additionalProperties": false,
+      "properties": {
+        "source_url": { "$ref": "#/$defs/url" },
+        "locator": { "type": "string", "description": "Section, page, or paragraph, e.g. 'Sec. 3(b)' or 'p. 14'." },
+        "quote": { "type": "string", "maxLength": 600, "description": "Short verbatim excerpt supporting the claim." }
+      }
+    },
+    "provision": {
+      "type": "object",
+      "required": ["type", "description", "citation"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string", "x-vocab": "provision_types" },
+        "description": { "type": "string", "description": "Plain-language statement of what this provision does." },
+        "education_levels": { "$ref": "#/$defs/education_levels" },
+        "citation": { "$ref": "#/$defs/citation" }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "x-vocab": "verification_statuses" },
+        "last_verified": { "$ref": "#/$defs/date" },
+        "method": { "type": "string", "description": "How verification was done, e.g. 'legiscan-text', 'manual'." },
+        "notes": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "status": { "enum": ["editor-reviewed", "machine-verified"] } } },
+          "then": { "required": ["status", "last_verified"] }
+        }
+      ]
+    },
+    "external_ids": {
+      "type": "object",
+      "description": "Identifiers for this record in upstream systems.",
+      "additionalProperties": false,
+      "properties": {
+        "legiscan_bill_id": { "type": "integer" },
+        "openstates_id": { "type": "string" },
+        "congress_gov": { "type": "string", "description": "e.g. '119/hr/610'" },
+        "federal_register_document_number": { "type": "string" },
+        "doi": { "type": "string" },
+        "openalex_id": { "type": "string" }
+      }
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable identifier. Never reused or changed once published."
+    }
+  }
+}

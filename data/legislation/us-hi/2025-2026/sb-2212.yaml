@@ -1,0 +1,154 @@
+id: us-hi-2025-2026-sb-2212
+jurisdiction: us-hi
+session: "2025-2026"
+identifier: SB 2212
+title: Relating to Artificial Intelligence Literacy Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - local-policy-requirement
+  - funding
+summary: >-
+  Would have required public school students in grades 11 and 12 to pass an artificial
+  intelligence literacy course of at least six weeks as a graduation condition beginning in
+  2027-2028, required each public school to adopt an AI use policy, created an advisory council
+  for AI education, and appropriated $5,000,000 for a three-year AI education grant pilot
+  program. It was referred to Senate committees and received no hearing.
+abstract: >-
+  Requires the Department of Education to develop and implement a statewide Artificial
+  Intelligence Literacy Curricula Plan for students in eleventh and twelfth grades, beginning
+  with the 2027-2028 school year as a condition for graduation. Establishes the Advisory Council
+  for Artificial Intelligence Education. Establishes a three-year Artificial Intelligence
+  Education Grant Pilot Program within the Department of Education. Requires reports to the
+  Legislature. Appropriates funds.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: >-
+      Would require all students in grades 11 and 12 to complete and pass an AI literacy course
+      of at least six weeks as a condition for graduation, beginning in 2027-2028.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+      locator: Section 1, proposed HRS 302A-A(b)
+      quote: >-
+        All students in grades eleven and twelve shall complete a course in artificial
+        intelligence literacy and obtain a passing grade in the course as a condition for
+        graduation.
+  - type: requires-local-ai-policy
+    description: Would require each public school to develop an AI use policy with parents and the community.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+      locator: Section 1, proposed HRS 302A-A(d)
+      quote: >-
+        Each public school shall develop an artificial intelligence policy in consultation with
+        its students' parents and the local community
+  - type: educator-prep-requirement
+    description: >-
+      Would require teachers to complete AI literacy professional development and be certified
+      before teaching AI literacy courses.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+      locator: Section 1, proposed HRS 302A-A(c)
+      quote: >-
+        A teacher shall complete artificial intelligence literacy professional development and
+        be certified as an artificial intelligence literacy teacher before teaching artificial
+        intelligence literacy courses in public schools.
+  - type: creates-task-force
+    description: Would establish an advisory council for artificial intelligence education appointed by the Board of Education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+      locator: Section 2, proposed HRS 302A-B(a)
+      quote: The board shall appoint an advisory council for artificial intelligence education
+  - type: appropriates-funding
+    description: Would appropriate $5,000,000 for fiscal year 2026-2027 for a three-year AI education grant pilot program.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+      locator: Section 4
+      quote: >-
+        the sum of $5,000,000 or so much thereof as may be necessary for fiscal year 2026-2027
+        for the development and implementation of the artificial intelligence education grant
+        pilot program
+sponsors:
+  - name: Chang
+    primary: true
+    chamber: upper
+  - name: Fevella
+    primary: false
+    chamber: upper
+  - name: Rhoads
+    primary: false
+    chamber: upper
+  - name: San Buenaventura
+    primary: false
+    chamber: upper
+  - name: Moriwaki
+    primary: false
+    chamber: upper
+  - name: Richards
+    primary: false
+    chamber: upper
+  - name: Wakai
+    primary: false
+    chamber: upper
+actions:
+  - date: "2026-01-14"
+    description: Pending Introduction.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: Introduced and passed First Reading.
+    actor: upper
+    classification:
+      - introduction
+      - reading-1
+  - date: "2026-01-26"
+    description: Referred to EDU/LBT, WAM.
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+    archived_url: https://web.archive.org/web/20261017214334/https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+    media_type: text/html
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2212&year=2026
+    title: Measure Status Details for SB 2212
+    publisher: Hawaii State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260201131442/https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2212&year=2026
+  - url: https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+    title: SB 2212, as introduced
+    publisher: Hawaii State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017214334/https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SR&billnumber=195&year=2026
+    title: SR 195 (2026), informing the House and Governor that the Senate is ready to adjourn sine die
+    publisher: Hawaii State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017223212/https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SR&billnumber=195&year=2026
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-source-fetch
+  notes: >-
+    Sine die date taken from SR 195 (adopted 2026-05-08). Companion HB 1887 was deferred in
+    House EDN on 2026-02-03. Introducers are listed in legislature order; only the first is
+    marked primary.

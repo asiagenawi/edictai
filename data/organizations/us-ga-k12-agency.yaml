@@ -1,0 +1,10 @@
+id: us-ga-k12-agency
+name: Georgia Department of Education
+abbreviation: GaDOE
+classification: k12-agency
+jurisdiction: us-ga
+education_levels:
+  - k12
+url: https://www.gadoe.org/
+watch_urls:
+  - https://gadoe.org/learning/artificial-intelligence/

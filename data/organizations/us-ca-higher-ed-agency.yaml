@@ -1,0 +1,10 @@
+id: us-ca-higher-ed-agency
+name: California Community Colleges Chancellor's Office
+abbreviation: CCCCO
+classification: higher-ed-agency
+jurisdiction: us-ca
+education_levels:
+  - postsecondary
+url: https://www.cccco.edu/
+watch_urls:
+  - https://www.cccco.edu/about-us/genai-and-the-future-of-learning/

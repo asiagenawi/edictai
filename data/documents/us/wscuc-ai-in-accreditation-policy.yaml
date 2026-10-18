@@ -1,0 +1,31 @@
+id: us-wscuc-ai-in-accreditation-policy
+jurisdiction: us
+issuer: wscuc
+title: 'Artificial Intelligence in Accreditation Policy: Principles and Restrictions'
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - data-governance
+summary: WSCUC policy, approved in November 2024, that protects the confidentiality and integrity of institutional materials during accreditation and substantive change reviews. Commission representatives and peer reviewers may not submit institutional materials to external AI tools, may use only Commission-approved AI tools, and may use them only as an aid to human judgment.
+published: 2024-11
+sources:
+  - url: https://www.wscuc.org/documents/artificial-intelligence-in-accreditation-policy-principles-and-restrictions/
+    title: Artificial Intelligence in Accreditation Policy – Principles and Restrictions
+    publisher: WASC Senior College and University Commission
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260615050653/https://www.wscuc.org/documents/artificial-intelligence-in-accreditation-policy-principles-and-restrictions/
+  - url: https://wascsenior.box.com/s/jhmujmv4qp1e41zixenzmixyhdjkj1i0
+    title: Artificial Intelligence in Accreditation Policy - Principles and Restrictions.pdf
+    publisher: WASC Senior College and University Commission
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017222415/https://wascsenior.app.box.com/s/jhmujmv4qp1e41zixenzmixyhdjkj1i0
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Policy text read from the Commission's linked Box document, which states 'Approved by the Commission, November 2024'.

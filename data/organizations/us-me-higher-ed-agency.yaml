@@ -1,0 +1,11 @@
+id: us-me-higher-ed-agency
+name: University of Maine System
+abbreviation: UMS
+classification: higher-ed-agency
+jurisdiction: us-me
+education_levels:
+  - postsecondary
+url: https://www.maine.edu/
+watch_urls:
+  - https://www.maine.edu/ai/
+  - https://www.maine.edu/ai/policies/

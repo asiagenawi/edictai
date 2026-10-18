@@ -1,0 +1,73 @@
+id: us-ca-cde-ai-model-policy
+jurisdiction: us-ca
+issuer: us-ca-k12-agency
+title: 'Model Policy: Artificial Intelligence In Education'
+classification: model-policy
+status: current
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - assessment
+  - ai-literacy
+  - educator-training
+  - equity-access
+summary: A non-binding model board policy that California school districts and charter schools can adapt, developed by the California Department of Education with the SB 1288 working group. It covers disclosure and plagiarism, limits on AI detection software, privacy and vendor contract safeguards, parent review rights, teacher-retained grading authority, and AI literacy as a core academic competency.
+published: '2026-06-25'
+provisions:
+  - type: academic-integrity-rules
+    description: Model policy states that AI detection software should not be the sole basis for discipline or grade penalties.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.cde.ca.gov/ci/pl/aipolicy.asp
+      locator: Model Policy, AI Detection Software
+      quote: AI detection software should not be used as the sole basis for disciplinary action or grade penalty.
+  - type: restricts-student-data-use
+    description: Model policy calls for AI tools to protect student data and bars its use for training public AI models or advertising.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.cde.ca.gov/ci/pl/aipolicy.asp
+      locator: Model Policy, Privacy by Design
+      quote: All AI tools should protect student data, prohibit its use for training public AI models or advertising, and maintain strong security safeguards against data breaches.
+  - type: regulates-ai-assessment
+    description: Model policy requires students to be told when their work is submitted to AI for grading or feedback and keeps final grading authority with the educator.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.cde.ca.gov/ci/pl/aipolicy.asp
+      locator: Model Policy, Grading and Assessment
+      quote: Regardless of whether AI is used to generate draft feedback, the educator of record retains sole authority to determine final grades.
+  - type: procurement-standards
+    description: Model policy calls for AI vendor contracts to include enforceable student data protections such as breach notification, audit rights, and data deletion.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.cde.ca.gov/ci/pl/aipolicy.asp
+      locator: Model Policy, Vendor Contractual Safeguards
+      quote: All AI vendor contracts should include enforceable provisions protecting student data privacy and security, including breach notification requirements, audit rights, data deletion upon contract termination, and vendor accountability for unauthorized use of student data.
+authorized_by: us-ca-2023-2024-sb-1288
+related:
+  - us-ca-cde-ai-guidance
+sources:
+  - url: https://www.cde.ca.gov/ci/pl/aipolicy.asp
+    title: 'Model Policy: Artificial Intelligence In Education'
+    publisher: California Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260916141115/https://www.cde.ca.gov/ci/pl/aipolicy.asp
+  - url: https://www.cde.ca.gov/nr/el/le/yr26ltr0706.asp
+    title: 'Release of Model Policy: AI in Education (letter, July 6, 2026)'
+    publisher: California Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017223324/https://www.cde.ca.gov/nr/el/le/yr26ltr0706.asp
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: Posting date of June 25, 2026 is stated in the Superintendent's July 6, 2026 letter.

@@ -1,0 +1,8 @@
+id: us-me-higher-ed-agency-2
+name: Maine Community College System
+abbreviation: MCCS
+classification: higher-ed-agency
+jurisdiction: us-me
+education_levels:
+  - postsecondary
+url: https://www.mccs.me.edu/

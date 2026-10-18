@@ -1,0 +1,8 @@
+id: us-tx-tsus
+name: Texas State University System
+abbreviation: TSUS
+classification: university-system
+jurisdiction: us-tx
+education_levels:
+  - postsecondary
+url: https://www.tsus.edu/

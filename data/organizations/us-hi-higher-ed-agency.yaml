@@ -1,0 +1,8 @@
+id: us-hi-higher-ed-agency
+name: University of Hawaii System
+abbreviation: UH
+classification: higher-ed-agency
+jurisdiction: us-hi
+education_levels:
+  - postsecondary
+url: https://www.hawaii.edu/

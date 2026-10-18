@@ -1,0 +1,10 @@
+id: us-mn-minnstate
+name: Minnesota State Colleges and Universities
+abbreviation: Minnesota State
+classification: university-system
+jurisdiction: us-mn
+education_levels:
+  - postsecondary
+url: https://www.minnstate.edu/
+watch_urls:
+  - https://www.minnstate.edu/system/asa/innovations/student-guide-to-ai.html

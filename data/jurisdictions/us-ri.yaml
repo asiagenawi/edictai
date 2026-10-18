@@ -1,0 +1,7 @@
+id: us-ri
+ocd_id: "ocd-division/country:us/state:ri"
+name: Rhode Island
+abbreviation: RI
+classification: state
+fips: "44"
+region: Northeast

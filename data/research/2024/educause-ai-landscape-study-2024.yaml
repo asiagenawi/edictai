@@ -1,0 +1,50 @@
+id: 2024-educause-ai-landscape-study-2024
+title: 2024 EDUCAUSE AI Landscape Study
+authors:
+  - Jenay Robert
+publisher: EDUCAUSE
+published: '2024-02-12'
+classification: survey
+education_levels:
+  - postsecondary
+topics:
+  - academic-integrity
+  - data-governance
+  - educator-training
+  - institutional-operations
+summary: The first EDUCAUSE AI Landscape Study surveyed higher education staff, faculty, and leaders in late 2023 on AI strategy, policy, workforce, and expectations. Most institutions were working on AI strategy, driven largely by student use of AI, and most respondents said AI had already affected academic integrity, while few described their AI policies as restrictive.
+key_findings:
+  - finding: Only 11% of respondents said nobody at their institution was working on AI-related strategy.
+    citation:
+      source_url: https://web.archive.org/web/20240214081828/https://www.educause.edu/ecar/research-publications/2024/2024-educause-ai-landscape-study/introduction-and-key-findings
+      locator: Key Findings
+      quote: Only 11% of respondents said that nobody at their institution is working on AI-related strategy.
+  - finding: 78% said AI had affected academic integrity.
+    citation:
+      source_url: https://web.archive.org/web/20240214081828/https://www.educause.edu/ecar/research-publications/2024/2024-educause-ai-landscape-study/introduction-and-key-findings
+      locator: Key Findings
+      quote: A majority of respondents (78%) indicated that AI has impacted academic integrity.
+  - finding: Only 18% described their AI-related policies as somewhat or extremely restrictive, such as bans on student or faculty use.
+    citation:
+      source_url: https://web.archive.org/web/20240214081828/https://www.educause.edu/ecar/research-publications/2024/2024-educause-ai-landscape-study/introduction-and-key-findings
+      locator: Key Findings
+      quote: Only 18% of respondents said their AI-related policies are somewhat or extremely restrictive—for example, banning student or faculty use.
+methods: Online survey of the EDUCAUSE higher education community distributed November 27 to December 8, 2023.
+sources:
+  - url: https://library.educause.edu/resources/2024/2/2024-educause-ai-landscape-study
+    title: 2024 EDUCAUSE AI Landscape Study
+    publisher: EDUCAUSE
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261011174826/https://library.educause.edu/resources/2024/2/2024-educause-ai-landscape-study
+  - url: https://www.educause.edu/ecar/research-publications/2024/2024-educause-ai-landscape-study/introduction-and-key-findings
+    title: 2024 EDUCAUSE AI Landscape Study, Introduction and Key Findings
+    publisher: EDUCAUSE
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20240214081828/https://www.educause.edu/ecar/research-publications/2024/2024-educause-ai-landscape-study/introduction-and-key-findings
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: EDUCAUSE pages block automated access and the report is now limited to members, so the text was read from Wayback Machine captures (February 2024 for key findings). The number of respondents was not stated on the pages read.

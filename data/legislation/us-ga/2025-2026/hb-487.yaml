@@ -1,0 +1,108 @@
+id: us-ga-2025-2026-hb-487
+jurisdiction: us-ga
+session: "2025-2026"
+identifier: HB 487
+title: >-
+  Quality Basic Education Act; computer science course shall be a high school graduation
+  requirement beginning in 2031; provide
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: >-
+  Would have made a computer science course, or a career, technical, and agricultural
+  education course with embedded computer science, a high school graduation requirement
+  beginning in the 2031-2032 school year, and revised the statutory definition of computer
+  science to include artificial intelligence. It was read twice in the House and received no
+  further action; the same requirement was later enacted through SB 179.
+abstract: >-
+  A BILL to be entitled an Act to amend Part 2 of Article 6 of Chapter 2 of Title 20 of the
+  Official Code of Georgia Annotated, relating to competencies and core curriculum under the
+  "Quality Basic Education Act," so as to provide that, beginning in the 2031-2032 school year,
+  a computer science course shall be a high school graduation requirement; to provide for
+  certain computer science courses to be substituted for units of credit graduation
+  requirements in certain other subject areas; to provide for such exception; to revise
+  legislative findings; to provide for related matters; to repeal conflicting laws; and for
+  other purposes.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: >-
+      Would require students to complete a computer science course, defined to include
+      artificial intelligence, as a condition of high school graduation beginning in the
+      2031-2032 school year.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.ga.gov/api/legislation/document/20252026/232701
+      locator: O.C.G.A. 20-2-149.3(b)(1), (c)(4)(A), as proposed
+      quote: >-
+        Beginning in the 2031-2032 school year, each local board of education shall require
+        all students, as a condition of graduation from high school, to complete a course in
+        computer science
+sponsors:
+  - name: Bethany Ballard
+    primary: true
+    chamber: lower
+  - name: Matt Dubnik
+    primary: false
+    chamber: lower
+  - name: Brad Thomas
+    primary: false
+    chamber: lower
+  - name: Todd Jones
+    primary: false
+    chamber: lower
+  - name: Scott Hilton
+    primary: false
+    chamber: lower
+actions:
+  - date: "2025-02-18"
+    description: House Hopper
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-19"
+    description: House First Readers
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-02-20"
+    description: House Second Readers
+    actor: lower
+    classification:
+      - reading-2
+versions:
+  - note: Introduced (LC 49 2261)
+    url: https://www.legis.ga.gov/api/legislation/document/20252026/232701
+    archived_url: https://web.archive.org/web/20261017224808/https://www.legis.ga.gov/api/legislation/document/20252026/232701
+    media_type: application/pdf
+related:
+  - us-ga-2025-2026-sb-179
+sources:
+  - url: https://www.legis.ga.gov/legislation/70411
+    title: HB 487 - Georgia General Assembly
+    publisher: Georgia General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250220144336/https://www.legis.ga.gov/legislation/70411
+  - url: https://www.legis.ga.gov/api/legislation/document/20252026/232701
+    title: House Bill 487 (LC 49 2261), as introduced
+    publisher: Georgia General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017224808/https://www.legis.ga.gov/api/legislation/document/20252026/232701
+  - url: https://georgiacourts.gov/enacted-legislation/
+    title: Summary of the 2026 Legislative Session
+    publisher: Judicial Council of Georgia
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20240822113231/https://georgiacourts.gov/enacted-legislation/
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-source-fetch
+  notes: >-
+    Status history ends at House Second Readers (2025-02-20); the 2025-2026 term adjourned sine
+    die on 2026-04-02 per the Judicial Council of Georgia session summary, so the bill died.

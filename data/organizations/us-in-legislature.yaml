@@ -1,0 +1,8 @@
+id: us-in-legislature
+name: Indiana General Assembly
+classification: legislature
+jurisdiction: us-in
+education_levels:
+  - k12
+  - postsecondary
+url: https://iga.in.gov/

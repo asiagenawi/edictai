@@ -1,0 +1,59 @@
+id: us-ak-deed-k12-ai-framework
+jurisdiction: us-ak
+issuer: us-ak-k12-agency
+title: 'Alaska''s Strategic Framework: Artificial Intelligence for K-12 - Recommendations and Considerations for Districts'
+classification: framework
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - equity-access
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - local-policy-requirement
+summary: Non-binding framework from the Alaska Department of Education and Early Development, drafted with an AI K-12 advisory group, that gives districts recommendations rather than mandates. It sets seven guiding principles (human-centered use, fair access, transparency, oversight, security, ethical use, and cultural responsiveness), urges districts to move beyond outright bans, and recommends district AI literacy programs, vendor vetting, and district-wide AI guidelines.
+undated: true
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Recommends that all schools and districts develop and implement an AI literacy program for staff and students.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://education.alaska.gov/State_Board/october-2025/9.1_Alaska%20K12%20AI%20Framework_final_v2.pdf
+      locator: p. 6, AI Literacy for All
+      quote: It is imperative that all schools and districts develop and implement an AI Literacy program that provides all staff and students with an understanding of this powerful technology.
+  - type: academic-integrity-rules
+    description: Recommends district policies requiring students to disclose and cite AI use, treating uncited AI-generated work submitted as original as plagiarism.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://education.alaska.gov/State_Board/october-2025/9.1_Alaska%20K12%20AI%20Framework_final_v2.pdf
+      locator: p. 10, Rethinking Plagiarism and Academic Integrity
+      quote: Submitting AI-generated work as original without proper citation is considered plagiarism.
+  - type: procurement-standards
+    description: Recommends districts establish a vetting process for AI tools that reviews vendor terms of service, privacy policies, and compliance documentation.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://education.alaska.gov/State_Board/october-2025/9.1_Alaska%20K12%20AI%20Framework_final_v2.pdf
+      locator: p. 9, Vendor Vetting
+      quote: Districts should establish a robust vetting process for AI tools, requiring schools and districts to review terms of service, privacy policies, and compliance documentation from vendors.
+sources:
+  - url: https://education.alaska.gov/State_Board/october-2025/9.1_Alaska%20K12%20AI%20Framework_final_v2.pdf
+    title: 'Alaska''s Strategic Framework: Artificial Intelligence for K-12'
+    publisher: Alaska Department of Education and Early Development
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260512195010/https://education.alaska.gov/State_Board/october-2025/9.1_Alaska%20K12%20AI%20Framework_final_v2.pdf
+  - url: https://education.alaska.gov/artificial-intelligence
+    title: Artificial Intelligence - Education and Early Development
+    publisher: Alaska Department of Education and Early Development
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260706184520/https://education.alaska.gov/artificial-intelligence
+verification:
+  status: unverified
+  notes: Content verified against the DEED PDF on 2026-10-17. The document carries no date, so none is recorded; it appears in the October 2025 State Board of Education meeting materials. The legacy record's exact date (2025-10-01) could not be confirmed.

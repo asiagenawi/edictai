@@ -1,0 +1,7 @@
+id: accjc
+name: Accrediting Commission for Community and Junior Colleges
+abbreviation: ACCJC
+classification: accreditor
+education_levels:
+  - postsecondary
+url: https://accjc.org/

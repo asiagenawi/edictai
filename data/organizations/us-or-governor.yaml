@@ -1,0 +1,8 @@
+id: us-or-governor
+name: Office of the Governor of Oregon
+classification: governor
+jurisdiction: us-or
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.oregon.gov/gov/

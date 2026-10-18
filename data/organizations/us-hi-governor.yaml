@@ -1,0 +1,8 @@
+id: us-hi-governor
+name: Office of the Governor of Hawaii
+classification: governor
+jurisdiction: us-hi
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.hawaii.gov/

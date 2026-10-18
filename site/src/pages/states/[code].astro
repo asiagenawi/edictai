@@ -1,0 +1,402 @@
+---
+/**
+ * A jurisdiction's records as a database view: filter rail on the left, and
+ * tabs for the records register, the provisions matrix, the activity log, the
+ * issuing bodies, and an about sheet. The page is rendered complete at build
+ * time; the script below only filters, sorts, expands, and switches tabs.
+ */
+import Base from '../../layouts/Base.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import { dataAsOf, jurisdictions, url, type State } from '../../lib/data';
+import { LEVELS, longDate, statePage } from '../../lib/state-page';
+import { mosaicSvg } from '../../lib/mosaic';
+import { stateOutline } from '../../lib/usmap';
+import '../../styles/state.css';
+
+export function getStaticPaths() {
+  return jurisdictions().map((state) => ({ params: { code: state.code }, props: { state } }));
+}
+
+const { state } = Astro.props as { state: State };
+const page = statePage(state);
+const asOf = dataAsOf();
+// States use the States map's own outline and tiles, so arriving by the map's zoom lands on exactly this picture.
+const outline = state.classification !== 'country' && state.fips ? stateOutline(state.fips, `Outline of ${state.name}`) : null;
+const silhouette = outline?.svg ?? (state.classification === 'country' ? mosaicSvg(null, 'Outline of the United States') : null);
+const ocdId = state.id === 'us' ? 'ocd-division/country:us' : `ocd-division/country:us/state:${state.code}`;
+const ORG_TYPES: Record<string, string> = {
+  legislature: 'Legislature', governor: "Governor's office", 'k12-agency': 'K-12 agency', 'higher-ed-agency': 'Higher-ed agency',
+  'university-system': 'University system', accreditor: 'Accreditor', 'federal-agency': 'Federal agency', commission: 'Commission', other: 'Other',
+};
+const total = page.rows.length;
+const csvPath = url(`states/${state.code}/records.csv`);
+const jsonPath = url(`states/${state.code}/records.json`);
+const repo = 'https://github.com/asiagenawi/statescope';
+const citation = `Edictai (${asOf.slice(0, 4)}). ${state.name} [${state.id}]. AI policy in American education dataset, data as of ${asOf}. CC BY 4.0.`;
+const facetLabel = { type: (v: string) => v, level: (v: string) => LEVELS[v] ?? v, status: (v: string) => v, year: (v: string) => v };
+const facetValue = (key: keyof typeof page.facets, r: (typeof page.rows)[number]) =>
+  key === 'type' ? [r.type] : key === 'level' ? r.levels : key === 'status' ? [r.status] : [r.year];
+const FACETS = [['type', 'Type'], ['level', 'Level'], ['status', 'Status'], ['year', 'Year']] as const;
+const withProvisions = page.rows.filter((r) => r.provisions.length);
+const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id, ident: r.ident ?? r.title }))).sort((a, b) => b.date.localeCompare(a.date));
+---
+<Base title={`${state.name} · Edictai`} description={page.lede} bodyClass="sp">
+  <script is:inline>
+    /* Arriving from the States map: draw the map's last frame (this state filling the window) before anything
+       else paints, so the zoom carries straight on from the previous page. The rest happens in the page script. */
+    (function () {
+      var z = null;
+      try {
+        if (location.hash === '#from-map') z = JSON.parse(sessionStorage.getItem('edictai-zoom') || 'null');
+        sessionStorage.removeItem('edictai-zoom');
+      } catch (e) {}
+      if (!z || !z.items || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var g = 7, ov = document.createElement('canvas'), dpr = Math.min(2, devicePixelRatio || 1), VW = innerWidth, VH = innerHeight;
+      ov.className = 'zoom-ov'; ov.width = VW * dpr; ov.height = VH * dpr; document.body.append(ov);
+      var c = ov.getContext('2d'), b = z.b, cx = (b[0][0] + b[1][0]) / 2, cy = (b[0][1] + b[1][1]) / 2;
+      var s1 = z.k * Math.max(VW / (b[1][0] - b[0][0]), VH / (b[1][1] - b[0][1]));
+      z.items.forEach(function (it) { it.p = new Path2D(it.d); });
+      // Tiles of size gs (the map's 7 units, or the header's bold size); insets scale with the tile.
+      function tiles(ctx, T, gs) {
+        var i0 = gs * 0.086;
+        for (var i = 0; i < T.length; i++) {
+          var x = T[i][0], y = T[i][1], k = T[i][2], h = gs / 2 - i0, mx = x + gs / 2, my = y + gs / 2;
+          ctx.fillStyle = T[i][3]; ctx.beginPath();
+          if (k === 0) ctx.arc(mx, my, h, 0, 7);
+          else if (k === 1) ctx.rect(x + i0, y + i0, gs - 2 * i0, gs - 2 * i0);
+          else if (k === 2) { ctx.moveTo(x + i0, y + gs - i0); ctx.arc(x + i0, y + gs - i0, gs - 2 * i0, -Math.PI / 2, 0); }
+          else if (k === 3) { ctx.moveTo(mx, y + i0); ctx.lineTo(x + gs - i0, my); ctx.lineTo(mx, y + gs - i0); ctx.lineTo(x + i0, my); }
+          else { ctx.moveTo(mx, my - h); ctx.arc(mx, my, h, -Math.PI / 2, Math.PI / 2); }
+          ctx.fill();
+        }
+      }
+      // draw(scale, offset x, offset y, white wash behind): the camera over the handed-over state, whose tiles
+      // are already the header outline's bold ones (the map dissolved into them mid-zoom).
+      function draw(s, px, py, wash) {
+        c.setTransform(1, 0, 0, 1, 0, 0); c.clearRect(0, 0, ov.width, ov.height);
+        c.fillStyle = 'rgba(255,255,255,' + wash + ')'; c.fillRect(0, 0, ov.width, ov.height);
+        c.setTransform(dpr * s, 0, 0, dpr * s, dpr * px, dpr * py);
+        z.items.forEach(function (it) {
+          c.save(); c.clip(it.p); tiles(c, it.T, it.g || g); c.restore();
+          c.strokeStyle = '#fff'; c.lineWidth = 2.6 / s; c.lineJoin = 'round'; c.stroke(it.p);
+        });
+      }
+      draw(s1, VW / 2 - cx * s1, VH / 2 - cy * s1, 1);
+      window.__zoom = { z: z, ov: ov, draw: draw, cx: cx, cy: cy, s1: s1, VW: VW, VH: VH };
+    })();
+  </script>
+  <div class="wrap">
+    <SiteHeader current="states" />
+
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={url('states/')}>States</a><span>/</span><span aria-current="page">{state.name}</span></nav>
+    <div class="titlebar">
+      <div class="tt">
+        {silhouette && <div class="sil" style={outline ? `--sw:${outline.w}px;--sh:${outline.h}px` : undefined} set:html={silhouette} />}
+        <div>
+          <h1>{state.name}</h1>
+          <p class="lede">{page.lede}</p>
+          <p class="ids"><span class="code">{state.id}</span>{state.region && <span>{state.region}</span>}{state.region && <span class="dot">·</span>}<span>Data as of {longDate(asOf)}</span></p>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn" href={`${repo}/commits/master/data`}>Follow updates</a>
+        <a class="btn primary" href={csvPath} download>Download CSV</a>
+      </div>
+    </div>
+
+    <div class="body">
+      <nav class="rail" aria-label="Filter records">
+        <div class="fg"><h3>Search</h3><input id="f-q" type="search" placeholder="Title, ID or topic" aria-label="Search records" /></div>
+        {total === 0 && <p class="none">Nothing to filter yet.</p>}
+        {FACETS.map(([key, title]) => page.facets[key].length > 0 && (
+          <div class="fg" data-f={key}>
+            <h3>{title}</h3>
+            {page.facets[key].map((v) => (
+              <label class="opt"><input type="checkbox" value={v} /><span>{facetLabel[key](v)}</span></label>
+            ))}
+          </div>
+        ))}
+        <button type="button" class="clear" id="clear" hidden>Clear all filters</button>
+      </nav>
+
+      <main>
+        <div class="tabs" role="tablist">
+          <button role="tab" aria-selected="true" data-p="records">Records</button>
+          <button role="tab" aria-selected="false" data-p="provisions">Provisions</button>
+          <button role="tab" aria-selected="false" data-p="activity">Activity log</button>
+          <button role="tab" aria-selected="false" data-p="issuers">Issuers</button>
+          <button role="tab" aria-selected="false" data-p="about">About</button>
+        </div>
+
+        <section class="panel" id="p-records" role="tabpanel">
+          <div id="reg">
+            {page.groups.map((g, gi) => (
+              <section class:list={['yg', { first: gi === 0 }]} data-year={g.year}>
+                <div class="yr"><h3>{g.year}</h3></div>
+                <div class="grp">
+                  {g.rows.map((r, i) => (
+                    <Fragment>
+                      <div class:list={['reg-row', { first: i === 0, last: i === g.rows.length - 1 }]} id={r.id} tabindex="0" role="button" aria-expanded="false" aria-controls={`d-${r.id}`}
+                        data-id={r.id} data-type={r.type} data-level={r.levels.join(' ')} data-status={r.status} data-year={r.year}
+                        data-q={`${r.ident ?? ''} ${r.title} ${r.sub} ${r.id} ${r.type}`.toLowerCase()}>
+                        <span class="dt num">{r.day}</span>
+                        <span class="gl"><svg viewBox="0 0 12 12" role="img" aria-label={r.type} set:html={r.glyph} /></span>
+                        <span class="ti">{r.ident && <span class="mono">{r.ident}</span>}<span class="nm">{r.title}</span><small><b>{r.type}</b>{r.sub && ` · ${r.sub}`}</small></span>
+                        <span class="st">{r.status}</span>
+                      </div>
+                      <div class="reg-det" id={`d-${r.id}`} hidden>
+                        <div class="det">
+                          <div>
+                            <p>{r.summary}</p>
+                            {r.provisions.length > 0 && <Fragment><h4>Provisions</h4><ul>{r.provisions.map((p) => <li><span class="loc">{p.locator ?? ''}</span><span>{p.description}</span></li>)}</ul></Fragment>}
+                            {r.latestAction && <p class="latest">Latest action: {longDate(r.latestAction.date)} — {r.latestAction.description}</p>}
+                            {r.sources.length > 0 && <ul class="srcs">{r.sources.map((s) => <li><a href={s.url}>{s.title}</a>{s.archivedUrl && <Fragment> · <a class="arch" href={s.archivedUrl}>archived</a></Fragment>}</li>)}</ul>}
+                          </div>
+                          <dl class="kv">{r.facts.map(([k, v]) => <Fragment><dt>{k}</dt><dd>{v}</dd></Fragment>)}</dl>
+                        </div>
+                      </div>
+                    </Fragment>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+          <p class="empty" id="r-empty" hidden={total > 0}>{total ? 'No records match these filters.' : `No records for ${state.name} yet.`}</p>
+        </section>
+
+        <section class="panel" id="p-provisions" role="tabpanel" hidden>
+          <div class="mx-tools"><label><input type="checkbox" id="mx-hide" /> Hide provision types with no records</label>
+            <span class="legend"><span><i class="mdot law"></i>Legislation</span><span><i class="mdot doc"></i>Guidance and policy</span><span><i class="mdot order"></i>Executive order</span></span></div>
+          {withProvisions.length === 0 ? <p class="empty">No provisions recorded for {state.name} yet.</p> : (
+            <div class="tbl-wrap"><table class="matrix" id="mx">
+              <thead><tr><th scope="col">Record</th>{page.provisionTypes.map((t) => <th scope="col" class:list={['rec', { off: !page.usedTypes.has(t.code) }]} data-code={t.code} title={t.code}>{t.name}</th>)}<th scope="col" class="n">Count</th></tr></thead>
+              <tbody>
+                {withProvisions.map((r) => {
+                  const codes = new Set(r.provisions.map((p) => p.type));
+                  return (
+                    <tr data-id={r.id}>
+                      <td class="pt" title={r.title}><span class="mid">{r.ident ?? ''}</span> {r.title}</td>
+                      {page.provisionTypes.map((t) => <td class="c" data-code={t.code}>{codes.has(t.code) && <i class:list={['mdot', r.kind]} title={`${r.ident ?? r.title}: ${r.provisions.filter((p) => p.type === t.code).map((p) => p.locator ?? t.name).join('; ')}`}></i>}</td>)}
+                      <td class="n">{codes.size}</td>
+                    </tr>
+                  );
+                })}
+                <tr class="tot"><td>Records with this provision</td>{page.provisionTypes.map((t) => <td class="c" data-code={t.code}></td>)}<td></td></tr>
+              </tbody>
+            </table></div>
+          )}
+        </section>
+
+        <section class="panel" id="p-activity" role="tabpanel" hidden>
+          {actions.length === 0 ? <p class="empty">No legislative actions recorded for {state.name}.</p> : (
+            <Fragment>
+              <div class="toolbar"><label class="menu">Record<select id="a-rec"><option value="">All</option>{page.rows.filter((r) => r.actions.length).map((r) => <option value={r.id}>{(r.ident ? `${r.ident} · ` : '') + r.title.slice(0, 48)}</option>)}</select></label></div>
+              <div class="tbl-wrap"><table id="at"><thead><tr><th scope="col">Date</th><th scope="col">Record</th><th scope="col">Action (as recorded)</th></tr></thead><tbody>
+                {actions.map((a) => <tr data-id={a.id}><td class="d">{longDate(a.date)}</td><td class="id">{a.ident}</td><td>{a.description}</td></tr>)}
+              </tbody></table></div>
+            </Fragment>
+          )}
+        </section>
+
+        <section class="panel" id="p-issuers" role="tabpanel" hidden>
+          {page.issuers.length === 0 ? <p class="empty">No issuing bodies recorded for {state.name}.</p> : (
+            <div class="tbl-wrap" style="margin-top:12px"><table><thead><tr><th scope="col">Body</th><th scope="col">Type</th><th scope="col">ID</th><th scope="col" class="n">Records</th></tr></thead><tbody>
+              {page.issuers.map(({ org, count }) => <tr><td>{org.url ? <a href={org.url}>{org.name}</a> : org.name}</td><td>{ORG_TYPES[org.classification] ?? org.classification}</td><td class="id">{org.id}</td><td class="n">{count}</td></tr>)}
+            </tbody></table></div>
+          )}
+        </section>
+
+        <section class="panel" id="p-about" role="tabpanel" hidden>
+          <div class="sheet">
+            <section class="fs"><h3>Jurisdiction</h3><div class="fs-b">
+              <div class="fr"><span class="fk">Name</span><span class="fv">{state.name}</span></div>
+              <div class="fr"><span class="fk">Edictai ID</span><span class="fv cd">{state.id}</span></div>
+              <div class="fr"><span class="fk">OCD ID</span><span class="fv cd">{ocdId}</span></div>
+              {state.fips && <div class="fr"><span class="fk">FIPS code</span><span class="fv num">{state.fips}</span></div>}
+              {state.region && <div class="fr"><span class="fk">Region</span><span class="fv">{state.region}</span></div>}
+              {state.legislatureUrl && <div class="fr"><span class="fk">Legislature</span><span class="fv"><a href={state.legislatureUrl}>{state.legislatureUrl.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></span></div>}
+              <div class="fr"><span class="fk">Data as of</span><span class="fv">{longDate(asOf)}</span></div>
+            </div></section>
+            <section class="fs"><h3>Records</h3><div class="fs-b">
+              {page.recordFacts.map(([k, v]) => <div class="fr"><span class="fk">{k}</span><span class="fv num">{v}</span></div>)}
+            </div></section>
+            <section class="fs"><h3>Legislative sessions</h3><div class="fs-b">
+              {page.sessions.length === 0 ? <div class="fr"><span class="fk">Sessions</span><span class="fv">None recorded yet</span></div> : (
+                <Fragment>
+                  <div class="fr fh"><span class="fk">Session</span><span class="fv two"><span>Convened</span><span>Adjourns</span></span></div>
+                  {page.sessions.map((s) => <div class="fr"><span class="fk cd">{s.identifier}</span><span class="fv two num"><span>{longDate(s.startDate) || '—'}</span><span>{longDate(s.endDate) || '—'}</span></span></div>)}
+                </Fragment>
+              )}
+            </div></section>
+            <section class="fs"><h3>Export</h3><div class="fs-b">
+              <div class="fr"><span class="fk">This {state.classification === 'country' ? 'jurisdiction' : 'state'}</span><span class="fv links"><a href={csvPath} download>CSV</a><a href={jsonPath}>JSON</a></span></div>
+              <div class="fr"><span class="fk">Full dataset</span><span class="fv links"><a href={`${repo}/tree/master/data`}>Records (YAML)</a><a href={`${repo}/tree/master/docs/data`}>Data dictionary</a></span></div>
+            </div></section>
+            <section class="fs"><h3>Cite</h3><div class="fs-b">
+              <div class="fr"><span class="fk">Citation</span><span class="fv"><span id="cite">{citation}</span> <button class="lk" type="button" id="copy">Copy</button></span></div>
+            </div></section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</Base>
+
+<script>
+  // Zoom out of the state (after arriving from the States map): the mosaic shrinks from full screen into the
+  // header outline, decelerating, while the page fades up behind it; the outline itself takes over at the end.
+  // It starts only once the page has loaded and its fonts are in, so no loading work lands mid-movement; until
+  // then the full-screen frame drawn by the inline script simply holds.
+  type Zoom = { z: { b: [[number, number], [number, number]]; ob?: [[number, number], [number, number]] }; ov: HTMLCanvasElement; draw: (s: number, px: number, py: number, wash: number) => void; cx: number; cy: number; s1: number; VW: number; VH: number; started?: boolean };
+  const Z_HOLD = 400;
+  function startZoom() {
+    const Z = (window as unknown as { __zoom?: Zoom }).__zoom;
+    const sil = document.querySelector<HTMLElement>('.sil');
+    if (!Z || Z.started) return;
+    Z.started = true;
+    if (!sil) { Z.ov.remove(); return; }
+    // The outline's SVG sits 2px inside its box and frames the state's main landmass: end on exactly that frame.
+    const sr = sil.getBoundingClientRect(), [[x0, y0], [x1, y1]] = Z.z.ob ?? Z.z.b;
+    const s0 = Math.min((sr.width - 4) / (x1 - x0), (sr.height - 4) / (y1 - y0));
+    const tx0 = sr.left + sr.width / 2 - ((x0 + x1) / 2) * s0, ty0 = sr.top + sr.height / 2 - ((y0 + y1) / 2) * s0;
+    const tx1 = Z.VW / 2 - Z.cx * Z.s1, ty1 = Z.VH / 2 - Z.cy * Z.s1;
+    sil.style.opacity = '0';
+    const D = 1500, t0 = performance.now();
+    const frame = (now: number) => {
+      const t = Math.min(1, (now - t0) / D), q = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2, e = 1 - q;
+      const s = s0 * Math.pow(Z.s1 / s0, e);
+      const px = (1 - e) * (tx0 + Z.cx * s0) + e * (tx1 + Z.cx * Z.s1) - Z.cx * s;
+      const py = (1 - e) * (ty0 + Z.cy * s0) + e * (ty1 + Z.cy * Z.s1) - Z.cy * s;
+      Z.draw(s, px, py, Math.min(1, e * 1.6));
+      if (t < 1) { requestAnimationFrame(frame); return; }
+      // Land: the header outline is the same bold tiles at this exact size and place, so swap it in.
+      sil.style.opacity = '';
+      Z.ov.remove();
+    };
+    requestAnimationFrame(frame);
+  }
+  if ((window as unknown as { __zoom?: Zoom }).__zoom) {
+    history.replaceState(null, '', location.pathname + location.search);
+    (document.readyState === 'complete' ? Promise.resolve() : new Promise((r) => addEventListener('load', r, { once: true })))
+      .then(() => document.fonts?.ready)
+      .then(() => setTimeout(() => requestAnimationFrame(startZoom), Z_HOLD));
+  }
+
+  const $ = <T extends Element = HTMLElement>(s: string, el: ParentNode = document) => el.querySelector<T>(s);
+  const $$ = <T extends Element = HTMLElement>(s: string, el: ParentNode = document) => [...el.querySelectorAll<T>(s)];
+
+  // Tabs
+  $$('.tabs button').forEach((b) => b.addEventListener('click', () => {
+    $$('.tabs button').forEach((x) => x.setAttribute('aria-selected', String(x === b)));
+    $$('.panel').forEach((p) => (p.hidden = p.id !== 'p-' + b.dataset.p));
+  }));
+
+  // Filters: a row passes when it matches the search and every facet with a selection.
+  const rows = $$('.reg-row');
+  const q = $<HTMLInputElement>('#f-q')!;
+  const attr = (r: HTMLElement, key: string) => (r.dataset[key] ?? '').split(key === 'level' ? ' ' : '\u0000').filter(Boolean);
+  const facets = $$('.fg[data-f]').map((g) => ({ key: g.dataset.f!, opts: $$<HTMLInputElement>('input', g) }));
+  const chosen = (key: string) => facets.find((f) => f.key === key)!.opts.filter((o) => o.checked).map((o) => o.value);
+  function passes(r: HTMLElement, skip?: string) {
+    const term = q.value.trim().toLowerCase();
+    if (term && !r.dataset.q!.includes(term)) return false;
+    return facets.every(({ key }) => {
+      const sel = key === skip ? [] : chosen(key);
+      return !sel.length || attr(r, key).some((v) => sel.includes(v));
+    });
+  }
+
+  function refresh() {
+    const visible = new Set<string>();
+    for (const r of rows) {
+      const ok = passes(r);
+      r.hidden = !ok;
+      $(`#${CSS.escape(r.getAttribute('aria-controls')!)}`)!.hidden = !ok || r.getAttribute('aria-expanded') !== 'true';
+      if (ok) visible.add(r.dataset.id!);
+    }
+    // Year groups: hide empty ones and mark the first and last visible rows for the timeline.
+    let first = true;
+    for (const g of $$('.yg')) {
+      const vis = $$('.reg-row', g).filter((r) => !r.hidden);
+      g.hidden = !vis.length;
+      g.classList.toggle('first', first && vis.length > 0);
+      if (vis.length) first = false;
+      vis.forEach((r, i) => { r.classList.toggle('first', i === 0); r.classList.toggle('last', i === vis.length - 1); });
+    }
+    const n = visible.size;
+    $('#r-empty')!.hidden = n > 0;
+    for (const { key, opts } of facets) for (const o of opts) {
+      const c = rows.filter((r) => passes(r, key) && attr(r, key).includes(o.value)).length;
+      o.parentElement!.classList.toggle('zero', c === 0);
+    }
+    $('#clear')!.hidden = !q.value && facets.every(({ key }) => !chosen(key).length);
+    matrix(visible);
+    activity(visible);
+  }
+
+  // Provisions matrix: show visible records; optionally hide types none of them have; recount totals.
+  const hideEmpty = $<HTMLInputElement>('#mx-hide')!;
+  function matrix(visible: Set<string>) {
+    const mx = $('#mx');
+    if (!mx) return;
+    const shown = $$<HTMLTableRowElement>('tbody tr[data-id]', mx);
+    shown.forEach((tr) => (tr.hidden = !visible.has(tr.dataset.id!)));
+    const live = shown.filter((tr) => !tr.hidden);
+    for (const th of $$('th[data-code]', mx)) {
+      const code = th.dataset.code!;
+      const count = live.filter((tr) => $(`td[data-code="${code}"] i`, tr)).length;
+      th.classList.toggle('off', count === 0);
+      $$(`[data-code="${code}"]`, mx).forEach((cell) => (cell.hidden = hideEmpty.checked && count === 0));
+      $(`tr.tot td[data-code="${code}"]`, mx)!.textContent = count ? String(count) : '';
+    }
+  }
+  hideEmpty.addEventListener('change', refresh);
+
+  // Activity log: actions of visible records, optionally one record.
+  const pick = $<HTMLSelectElement>('#a-rec');
+  function activity(visible: Set<string>) {
+    if (!pick) return;
+    const trs = $$<HTMLTableRowElement>('#at tbody tr');
+    trs.forEach((tr) => (tr.hidden = !visible.has(tr.dataset.id!) || (!!pick.value && tr.dataset.id !== pick.value)));
+  }
+  pick?.addEventListener('change', refresh);
+
+  // Expand a record in place.
+  for (const r of rows) {
+    const toggle = () => {
+      const open = r.getAttribute('aria-expanded') !== 'true';
+      r.setAttribute('aria-expanded', String(open));
+      $(`#${CSS.escape(r.getAttribute('aria-controls')!)}`)!.hidden = !open;
+    };
+    r.addEventListener('click', toggle);
+    r.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
+  }
+
+  q.addEventListener('input', refresh);
+  facets.forEach(({ opts }) => opts.forEach((o) => o.addEventListener('change', refresh)));
+  $('#clear')!.addEventListener('click', () => {
+    q.value = '';
+    facets.forEach(({ opts }) => opts.forEach((o) => (o.checked = false)));
+    refresh();
+  });
+
+  $('#copy')?.addEventListener('click', () => {
+    const text = $('#cite')!.textContent ?? '';
+    navigator.clipboard?.writeText(text).then(
+      () => ($('#copy')!.textContent = 'Copied'),
+      () => getSelection()?.selectAllChildren($('#cite')!),
+    );
+  });
+
+  refresh();
+
+  // A link to states/<code>/#<record-id> opens that record. Ids hold only letters, digits, - and _.
+  const target = /^#[\w-]+$/.test(location.hash) ? document.getElementById(location.hash.slice(1)) : null;
+  if (target?.classList.contains('reg-row')) {
+    target.setAttribute('aria-expanded', 'true');
+    $(`#${CSS.escape(target.getAttribute('aria-controls')!)}`)!.hidden = false;
+    target.scrollIntoView({ block: 'start' });
+    // Browsers also focus a focusable fragment target once the page loads; the expanded detail is marker enough.
+    addEventListener('load', () => { if (document.activeElement === target) target.blur(); });
+  }
+</script>

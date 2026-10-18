@@ -1,0 +1,8 @@
+id: us-sc-legislature
+name: South Carolina General Assembly
+classification: legislature
+jurisdiction: us-sc
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.scstatehouse.gov/

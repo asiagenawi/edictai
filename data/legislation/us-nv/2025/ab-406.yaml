@@ -1,0 +1,136 @@
+id: us-nv-2025-ab-406
+jurisdiction: us-nv
+session: "2025"
+identifier: AB 406
+title: Makes various changes relating to health.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - instructional-use
+  - local-policy-requirement
+  - employment-evaluation
+summary: >-
+  Bars Nevada public schools, including charter schools, from using artificial intelligence
+  to perform the mental-health duties of school counselors, psychologists, and social workers,
+  while allowing administrative uses such as scheduling and record keeping. It directs the
+  Department of Education to develop a policy on AI use by school staff providing mental or
+  behavioral health services, and separately restricts AI systems marketed as providing
+  mental health care.
+abstract: >-
+  AN ACT relating to health; prohibiting certain uses of artificial intelligence in public
+  schools; requiring the Department of Education to develop a policy concerning certain uses
+  of artificial intelligence; imposing certain restrictions relating to the marketing and
+  programming of artificial intelligence systems; prohibiting certain persons from
+  representing themselves as qualified to provide mental or behavioral health care; imposing
+  certain restrictions relating to the use of artificial intelligence by providers of mental
+  or behavioral health care; providing civil penalties; and providing other matters properly
+  relating thereto.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Public schools may not use AI to perform the mental-health functions and duties of school counselors, school psychologists, or school social workers.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf
+      locator: Sec. 2(1)
+      quote: shall not use artificial intelligence to perform the functions and duties of a school counselor, school psychologist or school social worker
+  - type: issues-model-policy
+    description: The Department of Education must develop a policy on AI use by school mental-health personnel, including a method to examine the accuracy and efficacy of the AI used.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf
+      locator: Sec. 2(2)
+      quote: The Department shall develop a policy for the use of artificial intelligence by a school counselor, school psychologist, school social worker or other educational personnel
+sponsors:
+  - name: Jovan Jackson
+    primary: true
+    chamber: lower
+  - name: Hanadi Nadeem
+    primary: true
+    chamber: lower
+actions:
+  - date: "2025-03-11"
+    description: Read first time. Referred to Committee on Education. To printer.
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+      - referral-committee
+  - date: "2025-04-21"
+    description: From committee - Amend, and do pass as amended. Read second time. Amended. (Amend. No. 389.)
+    actor: lower
+    classification:
+      - committee-passage
+      - reading-2
+      - amendment-passage
+  - date: "2025-04-22"
+    description: Read third time. Passed, as amended. (Yeas 42, Nays None.)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-29"
+    description: Read first time. Referred to Committee on Education.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-05-19"
+    description: From committee - Amend, and do pass as amended. Read second time. Amended. (Amend. No. 664.)
+    actor: upper
+    classification:
+      - committee-passage
+      - reading-2
+      - amendment-passage
+  - date: "2025-05-21"
+    description: Read third time. Passed, as amended. (Yeas 20, Nays 1.)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-05-29"
+    description: Senate Amendment No. 664 concurred in. To enrollment.
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-06-01"
+    description: Enrolled and delivered to Governor.
+    actor: legislature
+    classification:
+      - executive-receipt
+  - date: "2025-06-05"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-06-06"
+    description: Chapter 283.
+    actor: other
+    classification:
+      - became-law
+versions:
+  - note: Enrolled
+    url: https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf
+    archived_url: https://web.archive.org/web/20260923034647/https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf
+    media_type: application/pdf
+session_law: Statutes of Nevada 2025, Chapter 283
+sources:
+  - url: https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12575/Overview
+    title: AB406 Overview (NELIS)
+    publisher: Nevada Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261006001027/https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12575/Overview
+  - url: https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf
+    title: AB406 (Enrolled)
+    publisher: Nevada Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260923034647/https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page-and-text

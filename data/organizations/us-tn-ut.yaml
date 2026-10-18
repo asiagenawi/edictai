@@ -1,0 +1,8 @@
+id: us-tn-ut
+name: University of Tennessee System
+abbreviation: UT System
+classification: university-system
+jurisdiction: us-tn
+education_levels:
+  - postsecondary
+url: https://tennessee.edu/

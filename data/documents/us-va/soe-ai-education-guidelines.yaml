@@ -1,0 +1,49 @@
+id: us-va-soe-ai-education-guidelines
+jurisdiction: us-va
+issuer: us-va-governor
+title: Guidelines for AI Integration Throughout Education in the Commonwealth of Virginia
+classification: guidance
+status: current
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - instructional-use
+  - academic-integrity
+  - educator-training
+  - student-privacy
+  - equity-access
+  - ai-literacy
+summary: >-
+  Guidelines from the Virginia Secretary of Education setting guiding principles for AI in K-12
+  and higher education (including "do no harm," integrity, and augmenting rather than replacing
+  teachers), strategies for integration, and roles for the Virginia Department of Education,
+  SCHEV, local governing boards, and educators, such as creating AI policy resources, approval
+  processes for AI tools, and training.
+undated: true
+sources:
+  - url: https://www.education.virginia.gov/resources/artificial-intelligence/
+    title: Artificial Intelligence
+    publisher: Office of the Virginia Secretary of Education
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260814175601/https://www.education.virginia.gov/resources/artificial-intelligence/
+  - url: https://www.education.virginia.gov/media/governorvirginiagov/secretary-of-education/pdf/AI-Education-Guidelines.pdf
+    title: Guidelines for AI Integration Throughout Education in the Commonwealth of Virginia
+    publisher: Office of the Virginia Secretary of Education
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260917162833/https://www.education.virginia.gov/media/governorvirginiagov/secretary-of-education/pdf/AI-Education-Guidelines.pdf
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Issued by the Secretary of Education (Governor's cabinet), not the Department of Education;
+    issuer set to the governor's office for lack of a separate organization. Legacy dated it June
+    2024; the document carries no date and PDF metadata shows creation January 17, 2024, so no date is
+    recorded. The document
+    refers to "the Executive Order" without naming its number; legacy link to Executive Order 30
+    (2024) not confirmed because the order's text could not be fetched. Still posted on the
+    Secretary of Education site at access; status current not otherwise confirmed. No Wayback
+    snapshot retrieved (archive unreachable at access time).

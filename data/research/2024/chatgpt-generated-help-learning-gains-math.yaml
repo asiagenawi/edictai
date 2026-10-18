@@ -1,0 +1,42 @@
+id: 2024-chatgpt-generated-help-learning-gains-math
+title: ChatGPT-generated help produces learning gains equivalent to human tutor-authored help on mathematics skills
+authors:
+  - Zachary A. Pardos
+  - Shreya Bhandari
+publisher: PLOS ONE
+published: '2024-05-24'
+classification: peer-reviewed
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - instructional-use
+  - research
+summary: Researchers at the University of California, Berkeley randomly assigned 274 online adult learners to receive no hints, human tutor-written hints, or ChatGPT-generated hints while practicing algebra or statistics problems. Only the ChatGPT condition produced statistically significant learning gains over the no-help control, and gains did not differ significantly between ChatGPT and human tutor hints, though about a third of ChatGPT hints initially failed quality checks.
+key_findings:
+  - finding: Only the ChatGPT-hint condition produced statistically significant learning gains compared with a no-help control, with no significant difference in gains or time on task between ChatGPT and human tutor hints.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11125466/
+      locator: Abstract
+      quote: We find that only the ChatGPT condition produces statistically significant learning gains compared to a no-help control, with no statistically significant differences in gains or time-on-task observed between learners receiving ChatGPT vs human tutor help.
+  - finding: ChatGPT-generated help failed quality checks on 32% of problems; a self-consistency technique reduced errors to near zero for algebra and 13% for statistics.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11125466/
+      locator: Abstract
+      quote: Notably, ChatGPT-generated help failed quality checks on 32% of problems. This was, however, reducible to nearly 0% for algebra problems and 13% for statistics problems after applying self-consistency
+methods: Randomized 3 x 4 online experiment (hint condition by subject area); 274 adult Amazon Mechanical Turk participants with at least a high school degree; problems from OpenStax Elementary, Intermediate and College Algebra and Statistics; pre-test, five-problem acquisition phase, and post-test.
+external_ids:
+  doi: 10.1371/journal.pone.0304013
+  openalex_id: W4398784073
+sources:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11125466/
+    title: ChatGPT-generated help produces learning gains equivalent to human tutor-authored help on mathematics skills (PubMed Central full text)
+    publisher: National Library of Medicine
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250223044653/https://pmc.ncbi.nlm.nih.gov/articles/PMC11125466/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Full text read from the PubMed Central copy. Participants were adults; education levels reflect the high school and college algebra and statistics content. Publication date from OpenAlex.

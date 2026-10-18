@@ -1,0 +1,203 @@
+id: us-ut-2026-hb-273
+jurisdiction: us-ut
+session: "2026"
+identifier: H.B. 273
+title: Classroom Technology Amendments
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - curriculum-standards
+  - ai-literacy
+  - academic-integrity
+  - assessment
+  - safety-wellbeing
+  - workforce
+summary: >-
+  Requires the Utah State Board of Education to publish a model policy on balanced classroom
+  technology use that includes a model artificial intelligence use policy, and requires each
+  local education agency to adopt its own AI use policy based on that model. It also adds AI to
+  the core computer science standards and allows high schools to offer an AI "sandbox" course.
+abstract: >-
+  This bill requires the State Board of Education to create model policies on the use of
+  technology and artificial intelligence in a public school classroom.
+provisions:
+  - type: issues-model-policy
+    description: >-
+      Directs the state board to publish and maintain a model AI use policy, part of a balanced
+      technology model policy to be posted before December 1, 2026.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+      locator: Utah Code 53G-7-1402(2); 53G-7-228(5)
+      quote: The state board shall publish and maintain a model artificial intelligence use policy
+  - type: requires-local-ai-policy
+    description: >-
+      Requires each LEA to adopt an AI use policy based on the model, submit it to the state board,
+      train staff on it, and review it at least every two years; the model policy is the default for
+      an LEA that fails to adopt one.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+      locator: Utah Code 53G-7-1402(3)-(4)
+      quote: >-
+        An LEA shall produce and adopt an artificial intelligence use policy based on the model
+        policy described in Subsection (2).
+  - type: regulates-ai-assessment
+    description: >-
+      The model policy must prohibit educators from using generative AI to independently grade
+      student work or make high-stakes determinations about placement, discipline, progression, or
+      program eligibility.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+      locator: Utah Code 53G-7-1402(1), (2)(f)
+      quote: >-
+        prohibits educators from using generative artificial intelligence to independently grade
+        student work or issue high-stakes determinations
+  - type: academic-integrity-rules
+    description: >-
+      The model policy must prohibit students from using generative AI to complete academic work
+      unless an educator authorizes it for a specific instructional purpose.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+      locator: Utah Code 53G-7-1402(2)(h)
+  - type: requires-disclosure
+    description: >-
+      The model policy must require written notice to parents when a school or educator uses
+      generative AI for instruction, assessment, or classroom activities.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+      locator: Utah Code 53G-7-1402(2)(j)
+  - type: ai-in-standards
+    description: >-
+      Requires the state board to include AI standards in the core computer science standards.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+      locator: Utah Code 53E-4-202(2)(b)
+      quote: include artificial intelligence standards in core computer science standards
+  - type: ai-workforce-program
+    description: >-
+      Allows an LEA to offer an AI sandbox course to students in grades 9 through 12 aligned with
+      workforce needs in AI, data science, and related fields.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+      locator: Utah Code 53G-7-1403(1)
+sponsors:
+  - name: Ariel Defay
+    primary: true
+    chamber: lower
+  - name: Chris H. Wilson
+    primary: false
+    chamber: upper
+actions:
+  - date: 2026-01-20
+    description: House/ 1st reading (Introduced)
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+  - date: 2026-02-04
+    description: House/ to standing committee (House Education Committee)
+    actor: lower
+    classification:
+      - referral-committee
+  - date: 2026-02-09
+    description: House Comm - Favorable Recommendation (10-0-5), with amendment recommendation
+    actor: committee
+    classification:
+      - committee-passage
+  - date: 2026-02-10
+    description: House/ 2nd reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: 2026-02-18
+    description: House/ passed 3rd reading (68-1-6)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: 2026-02-19
+    description: Senate/ 1st reading (Introduced)
+    actor: upper
+    classification:
+      - reading-1
+  - date: 2026-02-20
+    description: Senate/ to standing committee (Senate Education Committee)
+    actor: upper
+    classification:
+      - referral-committee
+  - date: 2026-02-27
+    description: Senate Comm - Favorable Recommendation (3-2-2)
+    actor: committee
+    classification:
+      - committee-passage
+  - date: 2026-03-04
+    description: Senate/ floor amendment; passed 2nd & 3rd readings/ suspension (17-9-3)
+    actor: upper
+    classification:
+      - amendment-passage
+      - reading-2
+      - reading-3
+      - passage
+  - date: 2026-03-05
+    description: House/ concurs with Senate amendment (62-6-7)
+    actor: lower
+    classification:
+      - passage
+  - date: 2026-03-12
+    description: House/ to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: 2026-03-18
+    description: Governor Signed
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: 2026-01-16
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0273.xml
+    archived_url: https://web.archive.org/web/20261017220446/https://le.utah.gov/Session/2026/bills/introduced/HB0273.xml
+  - note: Enrolled
+    date: 2026-03-11
+    url: https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+    archived_url: https://web.archive.org/web/20261017220413/https://le.utah.gov/Session/2026/bills/enrolled/HB0273.xml
+related:
+  - us-ut-usbe-ai-framework
+sources:
+  - url: https://le.utah.gov/~2026/bills/static/HB0273.html
+    title: H.B. 273 Classroom Technology Amendments (2026 General Session)
+    publisher: Utah State Legislature
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20261001163044/https://le.utah.gov/~2026/bills/static/HB0273.html
+  - url: https://le.utah.gov/data/2026GS/HB0273.json
+    title: H.B. 273 bill status data
+    publisher: Utah State Legislature
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20261017220524/https://le.utah.gov/data/2026GS/HB0273.json
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Not in legacy data; added as a major enacted 2026 AI-in-education law. Provisions taken from the
+    enrolled text (sections effective July 1, 2026). No Wayback snapshot retrieved (archive
+    unreachable at access time).

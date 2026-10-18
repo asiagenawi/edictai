@@ -1,0 +1,8 @@
+id: us-al-k12-agency
+name: Alabama State Department of Education
+abbreviation: ALSDE
+classification: k12-agency
+jurisdiction: us-al
+education_levels:
+  - k12
+url: https://www.alabamaachieves.org/

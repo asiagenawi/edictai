@@ -1,0 +1,8 @@
+id: us-ma-higher-ed-agency
+name: Massachusetts Department of Higher Education
+abbreviation: DHE
+classification: higher-ed-agency
+jurisdiction: us-ma
+education_levels:
+  - postsecondary
+url: https://www.mass.edu/

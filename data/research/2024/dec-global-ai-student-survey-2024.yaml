@@ -1,0 +1,44 @@
+id: 2024-dec-global-ai-student-survey-2024
+title: Digital Education Council Global AI Student Survey 2024
+authors:
+  - Digital Education Council
+publisher: Digital Education Council
+published: '2024-08-02'
+classification: survey
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - ai-literacy
+summary: An international survey of 3,839 bachelor's, master's, and doctoral students in 16 countries, conducted in July 2024, on how students use AI, how prepared they feel, and what they expect from their universities. Most students reported regular AI use, but many said they lacked AI skills and that their universities' AI adoption and guidelines fell short of their expectations.
+key_findings:
+  - finding: 86% of students reported regularly using AI in their studies, and 54% used it weekly.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/newsroom/what-students-want-key-results-from-dec-global-ai-student-survey-2024
+      quote: 86% of students globally are regularly using AI in their studies, with 54% of them using AI on a weekly basis
+  - finding: 58% said they did not have sufficient AI knowledge and skills, and 48% did not feel prepared for an AI-enabled workplace.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/newsroom/what-students-want-key-results-from-dec-global-ai-student-survey-2024
+      quote: 58% reported that they do not feel that they had sufficient AI knowledge and skills, and 48% do not feel adequately prepared for an AI-enabled workplace.
+  - finding: Only 5% of students said they were fully aware of their institution's AI guidelines and considered them comprehensive.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/newsroom/what-students-want-key-results-from-dec-global-ai-student-survey-2024
+      quote: only 5% of students indicated that they were fully aware of AI guidelines and feel that they are fully comprehensive
+methods: Online survey conducted July 2024; 3,839 responses from bachelor's, master's, and doctoral students across 16 countries and multiple fields of study.
+sources:
+  - url: https://www.digitaleducationcouncil.com/resource-library-items/digital-education-council-global-ai-student-survey-2024
+    title: Digital Education Council Global AI Student Survey 2024
+    publisher: Digital Education Council
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261008114712/https://www.digitaleducationcouncil.com/resource-library-items/digital-education-council-global-ai-student-survey-2024
+  - url: https://www.digitaleducationcouncil.com/newsroom/what-students-want-key-results-from-dec-global-ai-student-survey-2024
+    title: 'What Students Want: Key Results from DEC Global AI Student Survey 2024'
+    publisher: Digital Education Council
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Findings taken from the publisher's report page and its key-results release dated August 7, 2024; the full PDF is embedded in a viewer and was not read.

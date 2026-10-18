@@ -1,0 +1,8 @@
+id: us-la-legislature
+name: Louisiana State Legislature
+classification: legislature
+jurisdiction: us-la
+education_levels:
+  - k12
+  - postsecondary
+url: https://legis.la.gov/

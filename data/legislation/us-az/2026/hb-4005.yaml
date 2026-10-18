@@ -1,0 +1,139 @@
+id: us-az-2026-hb-4005
+jurisdiction: us-az
+session: '2026'
+identifier: HB 4005
+title: artificial intelligence; course; public schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Would have required Arizona school districts, starting in 2027-28, to provide instruction on the ethical, moral, and educational uses of AI to students in grades 3, 6, 8, 10, and 12, using a curriculum adopted by the Department of Education, and to report annually on that instruction. Both chambers passed the bill, but Governor Hobbs vetoed it on June 19, 2026.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: As passed, would have required each school district to provide AI instruction to all students in grades 3, 6, 8, 10, and 12 beginning in the 2027-2028 school year.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.azleg.gov/legtext/57leg/2R/summary/S.4005ED_ASVETOED.DOCX.htm
+      locator: Senate Fact Sheet (as vetoed), Provisions 1
+      quote: Requires, beginning in the 2027-2028 school year, each school district to provide instruction on the ethical, moral and educational uses of AI to all students who are enrolled in grades 3, 6, 8, 10 and 12.
+sponsors:
+  - name: Nick Kupper
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: '2026-02-04'
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: '2026-02-09'
+    description: House first read; assigned to Artificial Intelligence & Innovation and Rules
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: '2026-02-12'
+    description: 'House Artificial Intelligence & Innovation Committee: do pass (4-2-1)'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-02-16'
+    description: 'House Rules Committee: constitutional and in proper form'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-02-24'
+    description: 'House Committee of the Whole: do pass amended'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: '2026-03-03'
+    description: House third read, passed (31-25)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: '2026-03-09'
+    description: Senate first read; assigned to Education and Rules
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: '2026-03-25'
+    description: 'Senate Education Committee: do pass (4-3)'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-03-30'
+    description: 'Senate Rules Committee: proper for consideration'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-06-11'
+    description: 'Senate Committee of the Whole: do pass amended'
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: '2026-06-12'
+    description: Senate third read, passed (16-13)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: '2026-06-12'
+    description: House concurred in Senate amendments
+    actor: lower
+    classification:
+      - passage
+  - date: '2026-06-13'
+    description: House final read, passed (31-22); transmitted to Governor
+    actor: lower
+    classification:
+      - passage
+      - executive-receipt
+  - date: '2026-06-19'
+    description: Vetoed by the Governor
+    actor: executive
+    classification:
+      - executive-veto
+versions:
+  - note: Introduced
+    url: https://www.azleg.gov/legtext/57leg/2R/bills/HB4005P.pdf
+    archived_url: https://web.archive.org/web/20260214121203/https://www.azleg.gov/legtext/57leg/2R/bills/HB4005P.pdf
+    media_type: application/pdf
+  - note: House Engrossed
+    date: '2026-03-03'
+    url: https://www.azleg.gov/legtext/57leg/2R/bills/HB4005H.htm
+    archived_url: https://web.archive.org/web/20261017222826/https://www.azleg.gov/legtext/57leg/2R/bills/HB4005H.htm
+  - note: Senate Engrossed
+    date: '2026-06-12'
+    url: https://www.azleg.gov/legtext/57leg/2R/bills/HB4005S.htm
+    archived_url: https://web.archive.org/web/20261017222900/https://www.azleg.gov/legtext/57leg/2R/bills/HB4005S.htm
+sources:
+  - url: https://apps.azleg.gov/BillStatus/BillOverview/85516
+    title: HB4005 - artificial intelligence; course; public schools - Bill Status
+    publisher: Arizona State Legislature
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260213212118/https://apps.azleg.gov/BillStatus/BillOverview/85516
+  - url: https://www.azleg.gov/legtext/57leg/2R/summary/S.4005ED_ASVETOED.DOCX.htm
+    title: Senate Fact Sheet for H.B. 4005 (as vetoed)
+    publisher: Arizona State Senate
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017222957/https://www.azleg.gov/legtext/57leg/2R/summary/S.4005ED_ASVETOED.DOCX.htm
+  - url: https://www.azleg.gov/legtext/57leg/2R/bills/HB4005P.pdf
+    title: HB 4005 introduced version
+    publisher: Arizona State Legislature
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260214121203/https://www.azleg.gov/legtext/57leg/2R/bills/HB4005P.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: Actions reconstructed from the Arizona Legislature bill status API (bill ID 85516) and the Senate fact sheet; action descriptions are paraphrased from structured status fields, not verbatim journal entries.

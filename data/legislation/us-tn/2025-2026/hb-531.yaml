@@ -1,0 +1,70 @@
+id: us-tn-2025-2026-hb-531
+jurisdiction: us-tn
+session: 2025-2026
+identifier: HB 531
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+summary: >-
+  As introduced, would require local education agencies and public charter schools to provide
+  age-appropriate instruction on accessing, using, and critically evaluating AI tools, and would
+  require the Department of Education to issue implementation guidance and, subject to available
+  funding, provide AI professional development for educators. It was taken off notice in the
+  House Education Committee in March 2025.
+sponsors:
+  - name: Farmer
+    primary: true
+    chamber: lower
+actions:
+  - date: 2025-01-29
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: 2025-02-03
+    description: Intro., P1C.
+    actor: lower
+    classification:
+      - reading-1
+  - date: 2025-02-05
+    description: P2C, ref. to Education Committee; assigned to s/c Education Instruction Subcommittee
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: 2025-03-04
+    description: Rec for pass by s/c ref. to Education Committee
+    actor: committee
+    classification:
+      - committee-passage
+  - date: 2025-03-11
+    description: Action deferred in Education Committee to 3/18/2025
+    actor: committee
+    classification:
+      - deferral
+  - date: 2025-03-18
+    description: Taken off notice for cal in Education Committee
+    actor: committee
+    classification:
+      - deferral
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB0531&GA=114
+    title: HB 531 / SB 514 (114th General Assembly)
+    publisher: Tennessee General Assembly
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260306232212/https://wapp.capitol.tn.gov/apps/BillInfo/default.aspx?BillNumber=HB0531&GA=114
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Corrections to legacy: filed January 29, 2025 (legacy said January 14); House sponsor Farmer
+    added; Senate companion SB 514 (Bailey) was assigned to the Senate Education general
+    subcommittee on March 19, 2025. Summary checked against the General Assembly's bill summary;
+    bill text itself not fetched. No Wayback snapshot retrieved (archive unreachable at access time).

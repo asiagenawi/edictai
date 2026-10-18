@@ -1,0 +1,3 @@
+rule: id-path
+pointer: /id
+message: does not match path

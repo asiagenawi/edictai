@@ -1,0 +1,8 @@
+id: us-dc-legislature
+name: Council of the District of Columbia
+classification: legislature
+jurisdiction: us-dc
+education_levels:
+  - k12
+  - postsecondary
+url: https://dccouncil.gov/

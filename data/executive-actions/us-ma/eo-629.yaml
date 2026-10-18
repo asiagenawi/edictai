@@ -1,0 +1,37 @@
+id: us-ma-eo-629
+jurisdiction: us-ma
+issuer: us-ma-governor
+number: No. 629
+title: Establishing an Artificial Intelligence Strategic Task Force
+classification: executive-order
+status: expired
+signed: "2024-02-15"
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: >-
+  Governor Maura Healey's order creating an AI Strategic Task Force, led by the secretaries of
+  economic development and technology services, to study AI's impact on the state, including on
+  higher education institutions, and advise the Governor. Members include higher education
+  representatives, and objectives include assessing AI's workforce impacts and training needs.
+provisions:
+  - type: creates-task-force
+    description: Establishes the AI Strategic Task Force to study AI and generative AI and their impact on the state, including higher education institutions, and to report recommendations to the Governor.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.mass.gov/executive-orders/no-629-establishing-an-artificial-intelligence-strategic-task-force
+      locator: Section 3
+      quote: to study AI and GenAI technology and its impact on the state, including with respect to its employees, constituents, private business, and higher education institutions
+sources:
+  - url: https://www.mass.gov/executive-orders/no-629-establishing-an-artificial-intelligence-strategic-task-force
+    title: "No. 629: Establishing an Artificial Intelligence Strategic Task Force"
+    publisher: Commonwealth of Massachusetts
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260617104906/https://www.mass.gov/executive-orders/no-629-establishing-an-artificial-intelligence-strategic-task-force
+verification:
+  status: unverified
+  notes: Text, date (02/15/2024), and issuer verified on mass.gov. Replaces Executive Order No. 628. The order runs until 30 days after the Task Force delivers its written report; status "expired" is inferred from DESE's reference to the "Massachusetts AI Strategic Task Force 2024 Report to the Governor", and the exact end date is not confirmed.

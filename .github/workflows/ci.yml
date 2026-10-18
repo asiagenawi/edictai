@@ -1,0 +1,92 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pipeline:
+    name: Pipeline and data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v10.3.0
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen --all-extras
+
+      - name: Lint
+        run: |
+          uv run --no-sync ruff check .
+          uv run --no-sync ruff format --check .
+
+      - name: Test
+        run: uv run --no-sync pytest
+
+      # --strict: every issuer must have an organization record, so a record
+      # can't reference a body the dataset doesn't describe.
+      - name: Validate records
+        run: uv run --no-sync statescope validate --strict --format github
+
+      - name: Check data dictionary is current
+        run: uv run --no-sync statescope docs --check
+
+      - name: Build
+        run: uv run --no-sync statescope build --parquet
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: statescope-build
+          path: |
+            build/statescope.db
+            build/csv/
+            build/parquet/
+            build/datapackage.json
+            build/snapshot.json
+          retention-days: 14
+
+  web:
+    name: Web
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v10.3.0
+        with:
+          enable-cache: true
+
+      # The site's build bundles the snapshot, so it needs the data built first.
+      # Invalid records are skipped here; the pipeline job reports them.
+      - name: Build data snapshot
+        run: |
+          uv sync --frozen --no-dev
+          uv run --no-sync statescope build --no-parquet --skip-invalid
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+        working-directory: web
+
+      - name: Lint
+        run: npm run lint
+        working-directory: web
+
+      - name: Build
+        run: npm run build
+        working-directory: web

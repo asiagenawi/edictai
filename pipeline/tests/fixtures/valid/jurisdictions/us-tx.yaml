@@ -1,0 +1,17 @@
+id: us-tx
+ocd_id: "ocd-division/country:us/state:tx"
+name: Texas
+abbreviation: TX
+classification: state
+fips: "48"
+region: Southwest
+sessions:
+  - identifier: "2025"
+    name: 89th Legislature, Regular Session
+    classification: primary
+    start_date: 2025-01-14
+    end_date: 2025-06-02
+    sources:
+      - url: https://example.org/tx/session-dates
+        kind: official
+        accessed: 2026-09-15

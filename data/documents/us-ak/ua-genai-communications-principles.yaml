@@ -1,0 +1,29 @@
+id: us-ak-ua-genai-communications-principles
+jurisdiction: us-ak
+issuer: us-ak-higher-ed-agency
+title: 'AI in Your Workday: The five principles behind UA''s AI guidelines'
+classification: guidance
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+summary: University of Alaska System article explaining the five principles, including authenticity, discernment, and accountability, behind its recently published guidelines for using generative AI in communications work. The principles call for human oversight of AI output and hold individuals and the institution responsible for what is published.
+published: '2026-10-16'
+sources:
+  - url: https://www.alaska.edu/news/system/2026-ai-in-your-workday-five-principles.php
+    title: 'AI in Your Workday: The five principles behind UA''s AI guidelines'
+    publisher: University of Alaska System
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017222656/https://www.alaska.edu/news/system/2026-ai-in-your-workday-five-principles.php
+  - url: https://www.alaska.edu/ai/policies/index.php
+    title: University GenAI Policies and Guidelines
+    publisher: University of Alaska System
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260112202126/https://www.alaska.edu/ai/policies/index.php
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

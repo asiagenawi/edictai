@@ -1,0 +1,8 @@
+id: us-ia-legislature
+name: Iowa Legislature
+classification: legislature
+jurisdiction: us-ia
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.legis.iowa.gov/

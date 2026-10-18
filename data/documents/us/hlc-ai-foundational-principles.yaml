@@ -1,0 +1,23 @@
+id: us-hlc-ai-foundational-principles
+jurisdiction: us
+issuer: hlc
+title: HLC Foundational Principles Regarding Artificial Intelligence
+classification: statement
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+summary: 'Seven principles the Higher Learning Commission set for its own use of AI across its operations, including accreditation activities: integrity, transparency, mission and strategic alignment, guidance, responsible efficiency, accountability, and privacy and security. HLC also said it would name an advisory group to develop AI resources for member institutions.'
+published: 2026-08
+sources:
+  - url: https://www.hlcommission.org/learning-center/news/hlc-sets-ai-principles-to-guide-its-operations-and-activities/
+    title: HLC Sets AI Principles to Guide its Operations and Activities
+    publisher: Higher Learning Commission
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Page is behind a bot check for scripted clients; text was read in a browser session.

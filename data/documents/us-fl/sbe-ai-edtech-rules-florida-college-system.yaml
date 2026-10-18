@@ -1,0 +1,41 @@
+id: us-fl-sbe-ai-edtech-rules-florida-college-system
+jurisdiction: us-fl
+issuer: us-fl-k12-agency
+title: State Board of Education rules on artificial intelligence and educational technology (Florida College System institutions)
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - student-privacy
+  - safety-wellbeing
+  - academic-integrity
+  - instructional-use
+summary: On September 16, 2026, the Florida State Board of Education adopted rules on AI and educational technology that apply to Florida College System institutions as well as school districts and charter school boards. Each must adopt policies that notify parents when an AI instructional tool is approved, let parents choose a non-AI alternative, prohibit companion-style AI and undisclosed monitoring, bar vendors from selling student data, and set academic integrity expectations.
+published: '2026-09-16'
+provisions:
+  - type: requires-local-ai-policy
+    description: Requires Florida College System institutions, along with districts and charter school boards, to adopt policies governing AI and other educational technologies.
+    citation:
+      source_url: https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml
+      quote: Districts, charter school boards, and Florida College System institutions must adopt transparent policies governing AI and other educational technologies.
+  - type: restricts-student-data-use
+    description: Requires those policies to prohibit vendors from selling student data or using it to train agentic models.
+    citation:
+      source_url: https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml
+      quote: prohibit vendors from selling student data or using it to train agentic models
+related:
+  - us-fl-sbe-rule-6a-1-0957-ai-instructional-tools
+sources:
+  - url: https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml
+    title: Florida Sets National Standard for Responsible AI in Classrooms—From VPK Through College
+    publisher: Florida Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261008140903/https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Based on the Department's press release; the rule text itself (fldoe.org) could not be extracted. The rules also cover K-12 districts; this record covers their application to Florida College System institutions. Page is behind a bot check for scripted clients; text was read in a browser session.

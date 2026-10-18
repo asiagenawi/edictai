@@ -1,0 +1,38 @@
+id: 2024-pew-teachers-views-ai-tools-k12
+title: A quarter of U.S. teachers say AI tools do more harm than good in K-12 education
+authors:
+  - Luona Lin
+publisher: Pew Research Center
+published: '2024-05-15'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - instructional-use
+summary: Pew Research Center surveyed U.S. public K-12 teachers in fall 2023 about whether AI tools do more good or harm in K-12 education, alongside a separate teen survey on ChatGPT use. A quarter of teachers said AI tools do more harm than good, few said they do more good, and many were unsure, with high school teachers the most negative.
+key_findings:
+  - finding: Twenty-five percent of public K-12 teachers said AI tools do more harm than good in K-12 education, 32 percent said there is an equal mix, 6 percent said more good than harm, and 35 percent were unsure.
+    citation:
+      source_url: https://www.pewresearch.org/short-reads/2024/05/15/a-quarter-of-u-s-teachers-say-ai-tools-do-more-harm-than-good-in-k-12-education/
+      quote: A quarter of public K-12 teachers say using AI tools in K-12 education does more harm than good. About a third (32%) say there is about an equal mix of benefit and harm, while only 6% say it does more good than harm. Another 35% say they aren’t sure.
+  - finding: High school teachers (35 percent) were more likely than middle (24 percent) and elementary (19 percent) teachers to say AI tools do more harm than good.
+    citation:
+      source_url: https://www.pewresearch.org/short-reads/2024/05/15/a-quarter-of-u-s-teachers-say-ai-tools-do-more-harm-than-good-in-k-12-education/
+      locator: How teachers’ views differ by school level
+      quote: About a third of high school teachers (35%) say these tools do more harm than good. Roughly a quarter of middle school teachers (24%) and 19% of elementary school teachers say the same.
+  - finding: Among teens who had heard of ChatGPT, 19 percent said they had used it for schoolwork in fall 2023.
+    citation:
+      source_url: https://www.pewresearch.org/short-reads/2024/05/15/a-quarter-of-u-s-teachers-say-ai-tools-do-more-harm-than-good-in-k-12-education/
+      quote: Among teens who have heard of ChatGPT, 19% say they have used it to help them with schoolwork.
+methods: Survey of 2,531 U.S. public K-12 teachers (RAND American Teacher Panel), Oct. 17 to Nov. 14, 2023, weighted to state and national teacher characteristics; plus a separate survey of 1,453 U.S. teens ages 13-17, Sept. 26 to Oct. 23, 2023.
+sources:
+  - url: https://www.pewresearch.org/short-reads/2024/05/15/a-quarter-of-u-s-teachers-say-ai-tools-do-more-harm-than-good-in-k-12-education/
+    title: A quarter of U.S. teachers say AI tools do more harm than good in K-12 education
+    publisher: Pew Research Center
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260807222950/https://www.pewresearch.org/short-reads/2024/05/15/a-quarter-of-u-s-teachers-say-ai-tools-do-more-harm-than-good-in-k-12-education/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

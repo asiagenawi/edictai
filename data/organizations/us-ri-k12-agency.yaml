@@ -1,0 +1,10 @@
+id: us-ri-k12-agency
+name: Rhode Island Department of Education
+abbreviation: RIDE
+classification: k12-agency
+jurisdiction: us-ri
+education_levels:
+  - k12
+url: https://ride.ri.gov/
+watch_urls:
+  - https://ride.ri.gov/students-families/AI

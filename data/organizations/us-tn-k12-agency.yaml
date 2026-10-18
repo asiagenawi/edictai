@@ -1,0 +1,8 @@
+id: us-tn-k12-agency
+name: Tennessee Department of Education
+abbreviation: TDOE
+classification: k12-agency
+jurisdiction: us-tn
+education_levels:
+  - k12
+url: https://www.tn.gov/education.html

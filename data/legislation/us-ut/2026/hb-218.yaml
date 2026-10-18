@@ -1,0 +1,130 @@
+id: us-ut-2026-hb-218
+jurisdiction: us-ut
+session: "2026"
+identifier: H.B. 218
+title: Digital Skills Amendments
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: >-
+  Requires the State Board of Education to have standards in place, beginning with the 2027-2028
+  school year, for a grade 7 or 8 digital skills course whose concepts include artificial
+  intelligence literacy alongside topics such as digital privacy, cybersecurity, media literacy,
+  and algorithms. It also lets the state superintendent create an advisory tech council on
+  technology education.
+abstract: >-
+  This bill changes the requirements for the existing grades 7 and 8 required digital course.
+provisions:
+  - type: ai-in-standards
+    description: >-
+      Defines digital skills concepts to include AI literacy and requires state board standards for
+      a grade 7 or 8 digital skills course beginning in the 2027-2028 school year.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0218.xml
+      locator: Utah Code 53E-4-208(1)(b)(iii), (2)
+      quote: >-
+        artificial intelligence literacy, including understanding artificial intelligence
+        capabilities, limitations, ethical considerations, and societal implications
+sponsors:
+  - name: Jordan D. Teuscher
+    primary: true
+    chamber: lower
+  - name: Michael K. McKell
+    primary: false
+    chamber: upper
+actions:
+  - date: 2026-01-20
+    description: House/ 1st reading (Introduced)
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+  - date: 2026-02-02
+    description: House/ to standing committee (House Education Committee)
+    actor: lower
+    classification:
+      - referral-committee
+  - date: 2026-02-04
+    description: House Comm - Favorable Recommendation (9-0-6), with amendment recommendation
+    actor: committee
+    classification:
+      - committee-passage
+  - date: 2026-02-05
+    description: House/ 2nd reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: 2026-02-17
+    description: House/ passed 3rd reading (73-0-2)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: 2026-02-17
+    description: Senate/ 1st reading (Introduced)
+    actor: upper
+    classification:
+      - reading-1
+  - date: 2026-02-19
+    description: Senate/ to standing committee (Senate Education Committee)
+    actor: upper
+    classification:
+      - referral-committee
+  - date: 2026-02-25
+    description: Senate Comm - Favorable Recommendation (4-0-3)
+    actor: committee
+    classification:
+      - committee-passage
+  - date: 2026-03-06
+    description: Senate/ passed 2nd & 3rd readings/ suspension (26-0-3)
+    actor: upper
+    classification:
+      - reading-2
+      - reading-3
+      - passage
+  - date: 2026-03-12
+    description: House/ to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: 2026-03-18
+    description: Governor Signed
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: 2026-01-09
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0218.xml
+    archived_url: https://web.archive.org/web/20261017220428/https://le.utah.gov/Session/2026/bills/introduced/HB0218.xml
+  - note: Enrolled
+    date: 2026-03-11
+    url: https://le.utah.gov/Session/2026/bills/enrolled/HB0218.xml
+    archived_url: https://web.archive.org/web/20261017220354/https://le.utah.gov/Session/2026/bills/enrolled/HB0218.xml
+sources:
+  - url: https://le.utah.gov/~2026/bills/static/HB0218.html
+    title: H.B. 218 Digital Skills Amendments (2026 General Session)
+    publisher: Utah State Legislature
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260920184252/https://le.utah.gov/~2026/bills/static/HB0218.html
+  - url: https://le.utah.gov/data/2026GS/HB0218.json
+    title: H.B. 218 bill status data
+    publisher: Utah State Legislature
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20261017220505/https://le.utah.gov/data/2026GS/HB0218.json
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Legacy record had no sponsor or dates; added from the legislature's status data (prime sponsor
+    Rep. Teuscher, floor sponsor Sen. McKell; signed March 18, 2026). Legacy topic "Student Privacy"
+    dropped: the bill teaches digital privacy as course content and does not regulate student data.
+    No Wayback snapshot retrieved (archive unreachable at access time).

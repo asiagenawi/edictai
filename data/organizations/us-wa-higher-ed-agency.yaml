@@ -1,0 +1,8 @@
+id: us-wa-higher-ed-agency
+name: Washington Student Achievement Council
+abbreviation: WSAC
+classification: higher-ed-agency
+jurisdiction: us-wa
+education_levels:
+  - postsecondary
+url: https://wsac.wa.gov/

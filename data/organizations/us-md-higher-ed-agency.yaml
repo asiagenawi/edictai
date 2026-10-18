@@ -1,0 +1,8 @@
+id: us-md-higher-ed-agency
+name: Maryland Higher Education Commission
+abbreviation: MHEC
+classification: higher-ed-agency
+jurisdiction: us-md
+education_levels:
+  - postsecondary
+url: https://mhec.maryland.gov/

@@ -1,0 +1,10 @@
+id: us-ky-higher-ed-agency
+name: Kentucky Council on Postsecondary Education
+abbreviation: CPE
+classification: higher-ed-agency
+jurisdiction: us-ky
+education_levels:
+  - postsecondary
+url: https://cpe.ky.gov/
+watch_urls:
+  - https://cpe.ky.gov/aboutus/aitaskforce.html

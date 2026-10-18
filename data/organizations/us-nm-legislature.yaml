@@ -1,0 +1,8 @@
+id: us-nm-legislature
+name: New Mexico Legislature
+classification: legislature
+jurisdiction: us-nm
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.nmlegis.gov/

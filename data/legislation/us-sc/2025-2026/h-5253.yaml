@@ -1,0 +1,94 @@
+id: us-sc-2025-2026-h-5253
+jurisdiction: us-sc
+session: 2025-2026
+identifier: H. 5253
+title: Ai in education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+  - data-governance
+  - academic-integrity
+  - local-policy-requirement
+  - employment-evaluation
+summary: >-
+  Would add Section 59-28-195 to the South Carolina Code to require written opt-in parental
+  consent before students use AI in instruction, annual disclosure of AI tools and data
+  practices, teacher review of AI-generated content, and limits on student data collection and
+  commercial use. It would bar AI from replacing licensed teachers in core instruction or final
+  grading and from automated discipline or placement decisions without human review, and would
+  let parents seek injunctive relief or damages.
+provisions:
+  - type: requires-disclosure
+    description: Would require written opt-in parental consent before a student uses AI in instruction and an annual written disclosure of AI tools, vendors, and student data practices.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm
+      locator: Sec. 59-28-195(B)(1)-(2)
+      quote: A school entity shall not require or permit a student to use artificial intelligence or generative artificial intelligence as part of instruction or school-sponsored activities without first obtaining written, opt-in parental consent.
+  - type: prohibits-ai-replacing-educators
+    description: Would bar AI from replacing a licensed teacher in core academic instruction or assigning final grades.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm
+      locator: Sec. 59-28-195(C)(1)
+      quote: Artificial intelligence shall not replace a licensed teacher in providing core academic instruction or assigning final grades.
+  - type: restricts-student-data-use
+    description: Would limit AI systems to the minimum necessary student data, bar sale or commercial use of that data, require deletion, and require parental consent for biometric data collection.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm
+      locator: Sec. 59-28-195(D)
+      quote: may not be sold, shared, licensed, or used for commercial advertising or profiling
+  - type: academic-integrity-rules
+    description: Would require school entities to adopt policies on student use of generative AI for coursework and bar its use on graded assignments unless a teacher expressly authorizes it.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm
+      locator: Sec. 59-28-195(E)
+      quote: Students may not use generative artificial intelligence to complete graded assignments unless expressly authorized by a teacher for a defined instructional purpose.
+sponsors:
+  - name: Guffey
+    primary: true
+    chamber: lower
+  - name: Chapman
+    primary: true
+    chamber: lower
+actions:
+  - date: '2026-02-24'
+    description: Introduced and read first time (House Journal-page 60)
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+  - date: '2026-02-24'
+    description: Referred to Committee on Education and Public Works (House Journal-page 60)
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: '2026-02-24'
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/5253_20260224.htm
+    archived_url: https://web.archive.org/web/20261017225550/https://www.scstatehouse.gov/sess126_2025-2026/prever/5253_20260224.htm
+sources:
+  - url: https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm
+    title: 2025-2026 Bill 5253 - Ai in education
+    publisher: South Carolina General Assembly
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260327152350/https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-source-fetch
+  notes: >-
+    Bill status and text fetched from scstatehouse.gov. Corrections vs legacy: the bill has no
+    "Student AI Safeguards Act" short title (official summary is "Ai in education"); legacy cited
+    LegiScan, replaced with the official page. No action after committee referral is recorded.

@@ -1,0 +1,8 @@
+id: us-wy-legislature
+name: Wyoming Legislature
+classification: legislature
+jurisdiction: us-wy
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.wyoleg.gov/

@@ -1,0 +1,99 @@
+id: us-119-hr-5351
+jurisdiction: us
+session: "119"
+identifier: H.R. 5351
+title: NSF AI Education Act of 2025
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - workforce
+  - educator-training
+  - research
+  - funding
+summary: >-
+  Would authorize the National Science Foundation to fund AI scholarships and fellowships for undergraduate
+  and graduate students, professional development fellowships for K-12 teachers and other school
+  professionals, up to eight community college and career and technical education Centers of AI Excellence,
+  and research on AI in education. The House Science Committee ordered it reported with a substitute
+  amendment on June 25, 2026.
+provisions:
+  - type: educator-pd-requirement
+    description: Authorizes NSF fellowships for teachers, school counselors, and other school professionals to train on teaching and using AI in K-12 settings.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.govinfo.gov/content/pkg/BILLS-119hr5351ih/html/BILLS-119hr5351ih.htm
+      locator: Sec. 2, new 5401(e)(2)(E)(iv)
+      quote: may award fellowships to teachers, school counselors, and other school professionals for professional development programs
+  - type: ai-workforce-program
+    description: Directs NSF to designate up to eight community college and area career and technical education Centers of AI Excellence.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.govinfo.gov/content/pkg/BILLS-119hr5351ih/html/BILLS-119hr5351ih.htm
+      locator: Sec. 3
+      quote: shall establish up to eight regionally and geographically diverse eligible applicants to be designated as Community College and Area Career and Technical Education Centers of AI Excellence
+  - type: appropriates-funding
+    description: Authorizes NSF scholarships and fellowships for students in AI-related degree programs, with possible priority for those studying to teach AI.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.govinfo.gov/content/pkg/BILLS-119hr5351ih/html/BILLS-119hr5351ih.htm
+      locator: Sec. 2, new 5401(e)(2)(D)
+sponsors:
+  - name: Rep. Fong, Vince [R-CA-20]
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: 2025-09-15
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: 2025-09-15
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: 2026-06-25
+    description: Committee Consideration and Mark-up Session Held
+    actor: committee
+    classification:
+      - committee-hearing
+  - date: 2026-06-25
+    description: 'Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 33 - 0.'
+    actor: committee
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: 2025-09-15
+    url: https://www.govinfo.gov/content/pkg/BILLS-119hr5351ih/html/BILLS-119hr5351ih.htm
+    archived_url: https://web.archive.org/web/20260710144712/https://www.govinfo.gov/content/pkg/BILLS-119hr5351ih/html/BILLS-119hr5351ih.htm
+    media_type: text/html
+external_ids:
+  congress_gov: 119/hr/5351
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/5351
+    title: H.R.5351 - NSF AI Education Act of 2025
+    publisher: Congress.gov
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260609174101/https://www.congress.gov/bill/119th-congress/house-bill/5351
+  - url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5351.xml
+    title: Bill status XML, H.R. 5351 (119th Congress)
+    publisher: U.S. Government Publishing Office
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260705032617/https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5351.xml
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: govinfo-billstatus-and-text
+  notes: >-
+    Legacy number, title, sponsor, and introduction date confirmed. Updated status: ordered reported by the
+    House Science Committee 2026-06-25 (legacy said introduced). Provisions cite the introduced text; the
+    reported substitute text was not reviewed.

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://statescope.org/schema/organization.schema.json",
+  "title": "Organization",
+  "description": "A body that issues policy: legislatures, governors' offices, state K-12 and higher-ed agencies, university systems, accreditors, federal agencies. Stored at data/organizations/{id}.yaml.",
+  "type": "object",
+  "required": ["id", "name", "classification", "url"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/record_id", "description": "e.g. 'us-ca-cde', 'us-ed', 'sacscoc'." },
+    "name": { "type": "string" },
+    "abbreviation": { "type": "string" },
+    "classification": { "type": "string", "x-vocab": "organization_classifications" },
+    "jurisdiction": {
+      "$ref": "common.schema.json#/$defs/jurisdiction_id",
+      "description": "Omitted for bodies that span states, such as regional accreditors."
+    },
+    "education_levels": { "$ref": "common.schema.json#/$defs/education_levels" },
+    "url": { "$ref": "common.schema.json#/$defs/url" },
+    "watch_urls": {
+      "type": "array",
+      "description": "Pages the change watcher monitors for new or revised AI policy.",
+      "items": { "$ref": "common.schema.json#/$defs/url" }
+    }
+  }
+}

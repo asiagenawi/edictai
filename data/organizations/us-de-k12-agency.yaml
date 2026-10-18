@@ -1,0 +1,10 @@
+id: us-de-k12-agency
+name: Delaware Department of Education
+abbreviation: DDOE
+classification: k12-agency
+jurisdiction: us-de
+education_levels:
+  - k12
+url: https://education.delaware.gov/
+watch_urls:
+  - https://education.delaware.gov/educators/academic-support/standards-and-instruction/digital-de/instructional-resources/ai-in-delaware-education/

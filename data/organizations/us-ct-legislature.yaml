@@ -1,0 +1,8 @@
+id: us-ct-legislature
+name: Connecticut General Assembly
+classification: legislature
+jurisdiction: us-ct
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.cga.ct.gov/

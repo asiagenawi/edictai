@@ -1,0 +1,47 @@
+id: 2024-crpe-districts-and-ai-early-adopters-2024-25
+title: 'Districts and AI: Tracking Early Adopters and Implications for the 2024-25 School Year'
+authors:
+  - Bree Dusseault
+  - Jared Hurwitz
+  - Michael Berardino
+  - Nadja Michel-Herf
+publisher: Center on Reinventing Public Education
+published: '2024-10-24'
+classification: brief
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - educator-training
+  - ai-literacy
+summary: CRPE built a database of 40 "early adopter" school districts and charter networks with system-wide AI strategies, compiled from public information, and sorted their approaches into guidance, tools for students and staff, changes to systems and structures, and back-office uses. About two-thirds had published AI guidance, and most were pursuing only a few of the eight strategies tracked.
+key_findings:
+  - finding: Of the 40 early adopter systems, 26 (65%) had published guidance on AI use for staff, students, and families, leaving a third pursuing AI strategies without formal guidance.
+    citation:
+      source_url: https://crpe.org/districts-and-ai-tracking-early-adopters-and-what-this-means-for-2024-25/
+      locator: Beyond tools section
+      quote: Of the 40 school systems we studied, 26 (65%) have provided publicly available guidance to staff, students, and families on using AI.
+  - finding: The most common strategies were AI tools for teachers, students, and parents (70%, 58%, and 38%) and professional development (63%); new AI courses and learning standards were less common (30% and 8%).
+    citation:
+      source_url: https://crpe.org/districts-and-ai-tracking-early-adopters-and-what-this-means-for-2024-25/
+      locator: Beyond tools section
+      quote: The most common strategies include using AI-enabled tools for key stakeholders (teachers, students, and parents at 70%, 58%, and 38%, respectively) and providing professional development opportunities (63%).
+  - finding: The 40 systems endorsed or partnered with 65 tools, most often MagicSchool, SchoolAI, and Writable; six systems had comprehensive approaches with five or more strategies.
+    citation:
+      source_url: https://crpe.org/districts-and-ai-tracking-early-adopters-and-what-this-means-for-2024-25/
+      locator: Beyond tools section
+      quote: These 40 school systems collectively endorse or partner with 65 tools
+methods: Database of 40 early adopter school districts and charter management organizations compiled from publicly available news stories and referrals from AI support organizations; not a representative sample.
+sources:
+  - url: https://crpe.org/districts-and-ai-tracking-early-adopters-and-what-this-means-for-2024-25/
+    title: 'Districts and AI: Tracking Early Adopters and Implications for the 2024-25 School Year'
+    publisher: Center on Reinventing Public Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260523021648/https://crpe.org/districts-and-ai-tracking-early-adopters-and-what-this-means-for-2024-25/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Publication date taken from the page's datePublished metadata.

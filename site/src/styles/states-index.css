@@ -1,0 +1,62 @@
+/*
+ * States index: the map is the page. On wide screens the view fills the
+ * window and nothing scrolls; the map sits on the right with its right edge on
+ * the header rule's end, and the title and state card stack on the left.
+ */
+html.fit,html.fit body{height:100%;overflow:hidden}
+html.fit body{margin:0}
+html.fit .si>.wrap{height:100%;display:flex;flex-direction:column}
+html.fit .si .states{flex:1;min-height:0}
+
+.si .states{display:grid;grid-template-columns:minmax(260px,1fr) auto;gap:48px;padding:54px 0 0}
+.si .st-side{display:flex;flex-direction:column;gap:28px;min-height:0}
+.si .st-side h1{margin:-4px 0 0;font-family:var(--serif);font-weight:500;font-size:40px;line-height:1}
+.si .st-side .lede{margin:10px 0 0;max-width:34ch;font-family:var(--serif);font-style:italic;font-size:17px;line-height:1.45;color:var(--ink-2)}
+
+/* the card in the left column fills in as states are hovered */
+.si .scard{display:grid;padding:14px 16px 12px;background:var(--paper);border:1px solid var(--rule);border-radius:4px}
+.si .sc-empty{display:grid;place-content:center;justify-items:center;gap:10px;min-height:100%;padding:20px;text-align:center;font-size:13px;line-height:1.5;color:var(--ink-3)}
+.si .sc-body{display:grid;gap:10px;align-self:start;align-content:start;animation:scIn .25s ease}
+@keyframes scIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.si .sc-top{display:flex;gap:14px;align-items:center}
+.si .sc-sil{width:44px;height:44px;flex:none}
+.si .sc-reg{display:block;font-size:12px;color:var(--ink-3)}
+.si .sc-top b{display:block;font-family:var(--serif);font-weight:500;font-size:23px;line-height:1.1}
+.si .sc-kv{display:grid;grid-template-columns:minmax(0,1fr) auto;margin:0;font-size:12.5px}
+.si .sc-kv dt,.si .sc-kv dd{margin:0;padding:3px 0;border-top:1px solid var(--hair)}
+.si .sc-kv dt{display:flex;align-items:center;gap:8px;color:var(--ink-2)}
+.si .sc-kv dd{text-align:right;font-variant-numeric:tabular-nums}
+.si .sc-kv .tot{font-weight:500;color:var(--ink)}
+.si .sc-kv svg.g{width:12px;height:12px;flex:none}
+.si .sc-latest{font-size:12.5px;line-height:1.45;color:var(--ink-3)}
+.si .sc-latest b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:400;font-size:13.5px;color:var(--ink)}
+.si .sc-go{padding-top:7px;border-top:1px solid var(--hair);font-size:12.5px;color:var(--ink)}
+
+/* the map: canvas paints the mosaic, SVG paths take hover, focus and clicks */
+.si .map-area{position:relative;min-height:0;display:grid;place-items:start end}
+.si .map{position:relative;width:100%}
+.si .map canvas,.si .map svg{position:absolute;inset:0;width:100%;height:100%}
+.si #map-g path{fill:rgba(255,255,255,0);stroke:#fff;stroke-width:2.6;stroke-linejoin:round;cursor:pointer;transition:fill .28s ease}
+.si #map-g path.none{fill:var(--hair)}
+/* hovering (or focusing) a state fades the others behind a white veil */
+.si #map-g:hover path:not(.on),.si #map-g:focus-within path:not(.on){fill:rgba(255,255,255,.55)}
+.si #map-g:hover path.none:not(.on),.si #map-g:focus-within path.none:not(.on){fill:#f6f6f4}
+.si #map-g a:focus{outline:none}
+/* an outline marks the state only for keyboard focus, so tabbing stays visible */
+.si #map-hl{fill:none;stroke:var(--ink);stroke-width:2;stroke-linejoin:round;pointer-events:none;opacity:0;transition:opacity .25s ease}
+.si #map-hl.show{opacity:1}
+
+/* federal government and DC sit as quiet buttons in the open space above the Great Lakes */
+.si .map-extra{position:absolute;z-index:1;display:flex;flex-direction:column;gap:6px;transform:translate(-50%,0)}
+.si .map-extra a{padding:4px 10px;text-align:center;white-space:nowrap;font-size:12.5px;color:var(--ink);text-decoration:none;background:var(--paper);border:1px solid var(--rule);border-radius:3px;transition:border-color .2s}
+.si .map-extra a:hover,.si .map-extra a:focus-visible{border-color:var(--ink);outline:none}
+
+/* the zoom-through overlay */
+.zoom-ov{position:fixed;inset:0;width:100vw;height:100vh;z-index:50;pointer-events:none}
+@media (prefers-reduced-motion: reduce){.si #map-g path,.si #map-hl{transition:none}.si .sc-body{animation:none}}
+@media (max-width:760px){
+  .si .states{grid-template-columns:minmax(0,1fr);gap:20px;padding-top:24px}
+  .si .scard{min-height:0}
+  .si .map-area{display:block;padding-bottom:44px}
+  .si .map-extra{left:auto!important;top:calc(100% + 10px)!important;right:0;transform:none;flex-direction:row}
+}

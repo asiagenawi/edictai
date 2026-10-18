@@ -1,0 +1,43 @@
+id: us-wy-wde-guidance-ai-use-policy
+jurisdiction: us-wy
+issuer: us-wy-k12-agency
+title: Guidance for Wyoming School Districts on Developing Artificial Intelligence Use Policy
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - ai-literacy
+  - academic-integrity
+  - student-privacy
+  - educator-training
+summary: >-
+  Wyoming Department of Education framework to help school districts write their own policies
+  on appropriate and responsible use of AI, particularly generative AI, in instruction, school
+  management, and district operations. It sets out guiding principles including AI literacy,
+  academic integrity, and human agency, and a student AI usage continuum. The guidance is
+  advisory; districts write their own policies.
+published: "2024-07-15"
+sources:
+  - url: https://edu.wyoming.gov/wp-content/uploads/2024/08/Guidance-for-AI-Policy-Development.pdf
+    title: Guidance for Wyoming School Districts on Developing Artificial Intelligence Use Policy
+    publisher: Wyoming Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250902051158/https://edu.wyoming.gov/wp-content/uploads/2024/08/Guidance-for-AI-Policy-Development.pdf
+  - url: https://edu.wyoming.gov/sups-memo/07-15-2024-wde-releases-guidance-for-developing-artificial-intelligence-use-policy/
+    title: WDE Releases Guidance for Developing Artificial Intelligence Use Policy (Superintendent's memo, July 15, 2024)
+    publisher: Wyoming Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260520195108/https://edu.wyoming.gov/sups-memo/07-15-2024-wde-releases-guidance-for-developing-artificial-intelligence-use-policy/
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Legacy record dated this 2024-06-01 and pointed to the agency homepage; WDE announced the
+    release on July 15, 2024 (a June 2024 upload of the PDF also exists). Did not find a newer
+    version. No Wayback snapshot retrieved (archive offline at access time).

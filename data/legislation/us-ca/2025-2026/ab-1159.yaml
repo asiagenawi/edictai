@@ -1,0 +1,149 @@
+id: us-ca-2025-2026-ab-1159
+jurisdiction: us-ca
+session: 2025-2026
+identifier: AB 1159
+title: Student personal information.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - student-privacy
+  - data-governance
+summary: Amends California's student online privacy laws for K-12 and preschool so that operators of school-purpose websites, services, and apps may not use covered student information to train generative AI systems or develop AI systems. It also creates a Higher Education Student Information Protection Act, operative July 1, 2027, with similar protections for college students, and lets harmed students bring civil actions against noncompliant operators.
+abstract: The bill would, among other changes to KOPIPA and ELPIPA related to protecting the personal information of students, prohibit an operator from using covered information, as defined, including persistent unique identifiers, created or gathered by the operator’s site, service, or application to train a generative artificial intelligence system or service or develop an artificial intelligence system. This bill would also enact the Higher Education Student Information Protection Act (HESIPA), which would generally protect the personal information of a student enrolled in a higher education institution, as defined, in a similar manner as KOPIPA and ELPIPA. The bill would make HESIPA operative on July 1, 2027.
+provisions:
+  - type: restricts-student-data-use
+    description: Prohibits operators of K-12 school-purpose online services from using covered pupil information, including persistent unique identifiers, to train generative AI or develop AI systems.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1159
+      locator: Sec. 1, Business and Professions Code 22584, paragraph (5)
+      quote: Use covered information, including persistent unique identifiers, created or gathered by the operator’s site, service, or application to train a generative artificial intelligence system or service or develop an artificial intelligence system.
+  - type: restricts-student-data-use
+    description: Enacts the Higher Education Student Information Protection Act, operative July 1, 2027, extending similar protections, including the AI training prohibition, to students at higher education institutions.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1159
+      locator: Legislative Counsel's Digest
+      quote: This bill would also enact the Higher Education Student Information Protection Act (HESIPA), which would generally protect the personal information of a student enrolled in a higher education institution, as defined, in a similar manner as KOPIPA and ELPIPA.
+sponsors:
+  - name: Dawn Addis
+    primary: true
+    chamber: lower
+actions:
+  - date: '2025-02-20'
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+  - date: '2025-03-24'
+    description: Referred to Coms. on P. & C.P. and JUD.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: '2026-01-13'
+    description: 'From committee: Do pass and re-refer to Com. on JUD. (Ayes 11. Noes 2.) (January 13). Re-referred to Com. on JUD.'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-01-15'
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 10. Noes 2.) (January 15).'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-01-22'
+    description: 'From committee: Do pass. (Ayes 14. Noes 1.) (January 22).'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-01-26'
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 65. Noes 5. Page 3835.)
+    actor: lower
+    classification:
+      - passage
+      - reading-3
+  - date: '2026-05-20'
+    description: Referred to Coms. on ED. and P., D.T., & C.P.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: '2026-06-10'
+    description: 'From committee: Do pass and re-refer to Com. on P., D.T., & C.P. (Ayes 4. Noes 0.) (June 10). Re-referred to Com. on P., D.T., & C.P.'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-06-23'
+    description: 'From committee: Do pass and re-refer to Com. on APPR. (Ayes 7. Noes 0.) (June 22). Re-referred to Com. on APPR.'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-08-13'
+    description: 'From committee: Do pass. (Ayes 5. Noes 0.) (August 13).'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-08-21'
+    description: Read third time and amended. Ordered to second reading.
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: '2026-08-30'
+    description: Read third time. Passed. Ordered to the Assembly. (Ayes 32. Noes 0.).
+    actor: upper
+    classification:
+      - passage
+      - reading-3
+  - date: '2026-08-31'
+    description: Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 70. Noes 4. Page 6976.).
+    actor: lower
+    classification:
+      - passage
+  - date: '2026-09-09'
+    description: Enrolled and presented to the Governor at 1 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: '2026-09-10'
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: '2026-09-10'
+    description: Chaptered by Secretary of State - Chapter 182, Statutes of 2026.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Chaptered
+    date: '2026-09-10'
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1159
+    archived_url: https://web.archive.org/web/20260206093417/https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1159
+session_law: Chapter 182, Statutes of 2026
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1159
+    title: AB-1159 Student personal information (2025-2026)
+    publisher: California Legislative Information
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260206093417/https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1159
+  - url: https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB1159
+    title: Bill History - AB-1159
+    publisher: California Legislative Information
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260126172249/https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB1159
+  - url: https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/
+    title: Governor Newsom signs the strongest child safety chatbot and social media laws in the nation
+    publisher: Office of Governor Gavin Newsom
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261011090906/https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: Chaptered text and history read from leginfo in a browser session. Wayback captures of the leginfo pages predate chaptering, so no archived_url is given.

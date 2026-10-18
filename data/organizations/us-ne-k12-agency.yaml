@@ -1,0 +1,10 @@
+id: us-ne-k12-agency
+name: Nebraska Department of Education
+abbreviation: NDE
+classification: k12-agency
+jurisdiction: us-ne
+education_levels:
+  - k12
+url: https://www.education.ne.gov/
+watch_urls:
+  - https://www.education.ne.gov/safety/digital-guidance-support/

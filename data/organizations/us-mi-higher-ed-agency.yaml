@@ -1,0 +1,8 @@
+id: us-mi-higher-ed-agency
+name: Michigan Department of Lifelong Education, Advancement, and Potential
+abbreviation: MiLEAP
+classification: higher-ed-agency
+jurisdiction: us-mi
+education_levels:
+  - postsecondary
+url: https://www.michigan.gov/mileap

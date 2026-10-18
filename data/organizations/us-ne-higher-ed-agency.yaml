@@ -1,0 +1,8 @@
+id: us-ne-higher-ed-agency
+name: Nebraska Coordinating Commission for Postsecondary Education
+abbreviation: CCPE
+classification: higher-ed-agency
+jurisdiction: us-ne
+education_levels:
+  - postsecondary
+url: https://ccpe.nebraska.gov/

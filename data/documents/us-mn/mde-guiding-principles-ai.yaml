@@ -1,0 +1,34 @@
+id: us-mn-mde-guiding-principles-ai
+jurisdiction: us-mn
+issuer: us-mn-k12-agency
+title: Guiding Principles for Artificial Intelligence in Education
+classification: statement
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - equity-access
+  - student-privacy
+summary: >-
+  Minnesota Department of Education principles for responsible AI use in schools, based on the
+  U.S. Department of Education's 2023 AI report and the National Center on Education and the
+  Economy's 2024 framework. The principles call for grounding AI use in a shared vision and
+  values, keeping people at the center of decisions, advancing equity, ensuring safety, privacy,
+  and effectiveness, and continuous improvement.
+updated: "2026-06"
+sources:
+  - url: https://education.mn.gov/MDE/dse/tech/AI/AIEd/
+    title: Artificial Intelligence in Education
+    publisher: Minnesota Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261004165152/https://education.mn.gov/MDE/dse/tech/AI/AIEd/
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-agency-page
+  notes: >-
+    The page says it was last updated June 2026; `updated` holds that date. The original
+    publication date was not confirmed. The site blocks automated clients, so the page was read
+    in a browser; the available Wayback capture shows only a bot-check page.

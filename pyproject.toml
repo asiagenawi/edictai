@@ -1,0 +1,61 @@
+[project]
+name = "statescope"
+version = "0.1.0"
+description = "Validation and build pipeline for the StateScope AI-in-education policy dataset."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+  "jsonschema>=4.23",
+  "python-dotenv>=1.2.4",
+  "pyyaml>=6.0.2",
+  "referencing>=0.36",
+]
+
+[project.optional-dependencies]
+# Parquet output pulls in pyarrow, which is large; the core build works without it.
+parquet = ["pyarrow>=18"]
+# PDF bill-text extraction for the classifier tooling.
+classify = ["pypdf>=5"]
+
+[project.scripts]
+statescope = "statescope.cli:main"
+
+[dependency-groups]
+dev = [
+  "pre-commit>=4",
+  "pytest>=8",
+  "ruff>=0.17",
+]
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pipeline/src/statescope"]
+
+[tool.hatch.build.targets.sdist]
+include = ["pipeline/src", "db/schema.sql"]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.pytest.ini_options]
+testpaths = ["pipeline/tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["pipeline/src", "pipeline/tests"]
+# The Flask service predates the pipeline and keeps its own style.
+extend-exclude = ["api", "web"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "RUF"]
+# The formatter owns line length; long string literals are left intact.
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["statescope"]

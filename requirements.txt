@@ -1,1 +1,3 @@
--r backend/requirements.txt
+-r api/requirements.txt
+# The pipeline package, which builds the database the API reads.
+.

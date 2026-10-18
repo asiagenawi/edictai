@@ -1,0 +1,86 @@
+# Subject topics. A record may carry several. Codes are stable identifiers:
+# never rename one; deprecate it and add a new code instead.
+- code: ai-literacy
+  name: AI Literacy
+  description: Teaching students and educators what AI is, how it works, and its limits and risks.
+  education_levels: [k12, postsecondary]
+- code: curriculum-standards
+  name: Curriculum & Standards
+  description: Integrating AI into curriculum frameworks, content standards, or course requirements.
+  education_levels: [k12, postsecondary]
+- code: instructional-use
+  name: Instructional Use
+  description: Rules and guidance for using AI tools in teaching and learning.
+  education_levels: [k12, postsecondary]
+- code: educator-training
+  name: Educator Training
+  description: Professional development, preparation, or licensure requirements for teachers and faculty on AI.
+  education_levels: [k12, postsecondary]
+- code: local-policy-requirement
+  name: Local Policy Requirement
+  description: Requires districts, schools, or institutions to adopt their own AI use policy.
+  education_levels: [k12, postsecondary]
+- code: academic-integrity
+  name: Academic Integrity
+  description: AI use by students in coursework, plagiarism, and detection.
+  education_levels: [k12, postsecondary]
+- code: assessment
+  name: Assessment
+  description: AI in testing, grading, proctoring, and evaluation of students.
+  education_levels: [k12, postsecondary]
+- code: student-privacy
+  name: Student Privacy
+  description: Protecting student personal information processed by AI systems.
+  education_levels: [k12, postsecondary]
+- code: data-governance
+  name: Data Governance
+  description: Frameworks for collecting, sharing, retaining, and securing education data used by AI.
+  education_levels: [k12, postsecondary]
+- code: procurement
+  name: Procurement & Vendors
+  description: Purchasing, vetting, and contracting for AI-powered education technology.
+  education_levels: [k12, postsecondary]
+- code: safety-wellbeing
+  name: Student Safety & Wellbeing
+  description: Chatbots and minors, mental health, age-appropriateness, and online safety in school settings.
+  education_levels: [k12, postsecondary]
+- code: synthetic-media
+  name: Deepfakes & Synthetic Media
+  description: AI-generated images, audio, or video involving students or staff, including harassment and discipline.
+  education_levels: [k12, postsecondary]
+- code: equity-access
+  name: Equity & Access
+  description: Equitable access to AI tools and instruction; bias and disparate impact.
+  education_levels: [k12, postsecondary]
+- code: task-force
+  name: Task Forces & Study
+  description: Commissions, working groups, councils, or studies on AI in education.
+  education_levels: [k12, postsecondary]
+- code: workforce
+  name: Workforce & Careers
+  description: Preparing students for AI-affected careers; AI pathways, certificates, and programs.
+  education_levels: [k12, postsecondary]
+- code: funding
+  name: Funding & Grants
+  description: Appropriations, grants, or pilot programs for AI in education.
+  education_levels: [k12, postsecondary]
+- code: research
+  name: Research
+  description: Funding or conducting research on AI in education.
+  education_levels: [k12, postsecondary]
+- code: admissions
+  name: Admissions & Enrollment
+  description: AI in admissions decisions, applications, and enrollment management.
+  education_levels: [postsecondary]
+- code: research-integrity
+  name: Research Integrity
+  description: AI use in academic research, publication, and grant writing.
+  education_levels: [postsecondary]
+- code: institutional-operations
+  name: Institutional Operations
+  description: AI use in administration, advising, student services, and institutional decision-making.
+  education_levels: [k12, postsecondary]
+- code: employment-evaluation
+  name: Staff Employment & Evaluation
+  description: AI in hiring, evaluating, supervising, or replacing teachers, faculty, and staff.
+  education_levels: [k12, postsecondary]

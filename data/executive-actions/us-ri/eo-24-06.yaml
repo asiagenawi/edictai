@@ -1,0 +1,52 @@
+id: us-ri-eo-24-06
+jurisdiction: us-ri
+issuer: us-ri-governor
+number: Executive Order 24-06
+title: Artificial Intelligence and Data Centers of Excellence
+classification: executive-order
+status: active
+signed: 2024-02-29
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+  - curriculum-standards
+  - data-governance
+summary: >-
+  Governor McKee's order creates a state data governance structure, a Chief Data Officer, an AI Center of
+  Excellence, and an AI Task Force to advise state policymakers. It directs the Department of Labor and
+  Training, the Rhode Island Department of Education, and the Office of the Postsecondary Commissioner to
+  develop AI training for public and private-sector workers and to identify ways to add AI-related training
+  to state higher education curricula.
+provisions:
+  - type: creates-task-force
+    description: Establishes an AI Task Force, appointed by the Governor, to assess the risks and opportunities of AI and advise state policymakers.
+    citation:
+      source_url: https://governor.ri.gov/executive-orders/executive-order-24-06
+      locator: Para. 6
+      quote: There is hereby established an AI Task Force charged with assessing the risks and opportunities presented by the proliferation of AI and advising state policy makers
+  - type: ai-workforce-program
+    description: Directs DLT, RIDE, and the Office of the Postsecondary Commissioner to develop AI training and to incorporate AI-related training into state training programs and higher education curricula.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://governor.ri.gov/executive-orders/executive-order-24-06
+      locator: Para. 7
+      quote: DLT, RIDE and OPC shall also identify ways to incorporate AI-related training in existing state training programs and in state higher education curriculums.
+sources:
+  - url: https://governor.ri.gov/executive-orders/executive-order-24-06
+    title: Executive Order 24-06
+    publisher: Office of the Governor of Rhode Island
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260611004301/https://governor.ri.gov/executive-orders/executive-order-24-06
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    The live governor.ri.gov page returns 403 to automated fetches; text was read from the Wayback Machine
+    copy of the official page (captured 2026-06-11). Status is active because the order has no end date and
+    no rescission was found; this was not confirmed against a current list of orders. The order's
+    education content is limited to paragraph 7.

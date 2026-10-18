@@ -1,0 +1,144 @@
+id: us-il-2025-2026-hb-1859
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 1859
+title: COM COL-Course Instructor-AI
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - employment-evaluation
+summary: >-
+  Amends the Public Community College Act so that a community college course may not use
+  artificial intelligence as the sole source of instruction in place of a qualified faculty
+  member. Faculty may still use AI to augment instruction. Takes effect January 1, 2026.
+abstract: >-
+  Replaces everything after the enacting clause. Amends the Public Community College Act.
+  Provides that each board of trustees of a community college district shall require the faculty
+  member who teaches a course to be an individual who meets the qualifications in the Illinois
+  Administrative Code and any other applicable rules adopted by the Illinois Community College
+  Board. Provides that a course may not, in lieu of a faculty member, use artificial intelligence
+  as the sole source of instruction for students. Provides that nothing shall be construed to
+  prohibit a faculty member from using artificial intelligence to augment course instruction.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Bars community college courses from using AI as the sole source of instruction in place of a qualified faculty member, while allowing faculty to use AI to augment instruction.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/104/104-0201.htm
+      locator: 110 ILCS 805/3-29.28(b)-(c)
+      quote: A course may not, in lieu of a faculty member, use artificial intelligence as the sole source of instruction for students.
+sponsors:
+  - name: Abdelnasser Rashid
+    primary: true
+    chamber: lower
+  - name: Mike Porfirio
+    primary: true
+    chamber: upper
+actions:
+  - date: "2025-01-29"
+    description: Filed with the Clerk by Rep. Abdelnasser Rashid
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-29"
+    description: First Reading; Referred to Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-02-25"
+    description: Assigned to Higher Education Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-05"
+    description: Do Pass / Short Debate Higher Education Committee; 012-000-000
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-18"
+    description: Second Reading - Short Debate
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-04-07"
+    description: Third Reading - Short Debate - Passed 087-017-001
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-08"
+    description: First Reading; Referred to Assignments
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-04-23"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-05-14"
+    description: Senate Committee Amendment No. 1 Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2025-05-15"
+    description: Do Pass as Amended Executive; 007-003-000; Second Reading
+    actor: upper
+    classification:
+      - committee-passage
+      - reading-2
+  - date: "2025-05-21"
+    description: Third Reading - Passed; 046-012-000
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-05-30"
+    description: House Concurs 093-022-000; Passed Both Houses
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-06-24"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-08-15"
+    description: Governor Approved; Effective Date January 1, 2026
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-08-15"
+    description: Public Act 104-0201
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Public Act
+    date: "2025-08-15"
+    url: https://ilga.gov/ftp/Public%20Acts/104/104-0201.htm
+    archived_url: https://web.archive.org/web/20261017215916/https://ilga.gov/ftp/Public%20Acts/104/104-0201.htm
+    media_type: text/html
+session_law: Public Act 104-0201
+sources:
+  - url: https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400HB1859.html
+    title: HB1859 - 104th General Assembly (2025-2026)
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017224145/https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400HB1859.html
+  - url: https://ilga.gov/ftp/Public%20Acts/104/104-0201.htm
+    title: Public Act 104-0201
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017215916/https://ilga.gov/ftp/Public%20Acts/104/104-0201.htm
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-status-and-public-act-text

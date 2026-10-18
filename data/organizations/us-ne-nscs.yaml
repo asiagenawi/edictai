@@ -1,0 +1,8 @@
+id: us-ne-nscs
+name: Nebraska State College System
+abbreviation: NSCS
+classification: university-system
+jurisdiction: us-ne
+education_levels:
+  - postsecondary
+url: https://www.nscs.edu/

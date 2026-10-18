@@ -1,0 +1,8 @@
+id: us-sc-k12-agency
+name: South Carolina Department of Education
+abbreviation: SCDE
+classification: k12-agency
+jurisdiction: us-sc
+education_levels:
+  - k12
+url: https://ed.sc.gov/

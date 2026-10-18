@@ -1,0 +1,8 @@
+id: us-wv-legislature
+name: West Virginia Legislature
+classification: legislature
+jurisdiction: us-wv
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.wvlegislature.gov/

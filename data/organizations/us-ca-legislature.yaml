@@ -1,0 +1,8 @@
+id: us-ca-legislature
+name: California State Legislature
+classification: legislature
+jurisdiction: us-ca
+education_levels:
+  - k12
+  - postsecondary
+url: https://leginfo.legislature.ca.gov/

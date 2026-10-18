@@ -5,13 +5,20 @@ __pycache__/
 dist/
 venv/
 .venv/
+.ruff_cache/
+.pytest_cache/
 
 # Node
 node_modules/
-frontend/dist/
+web/dist/
 
 # Environment
-.env
+.env*
+!.env.example
+
+# Build outputs (statescope build)
+build/
+web/public/data/snapshot.json
 
 # SQLite
 *.db
@@ -23,3 +30,6 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Downloaded API responses (statescope ingest)
+.cache/

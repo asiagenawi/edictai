@@ -1,0 +1,58 @@
+id: us-hi-hidoe-ai-guidance-students
+jurisdiction: us-hi
+issuer: us-hi-k12-agency
+title: Artificial Intelligence (AI) Guidance for Student Use
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - academic-integrity
+  - instructional-use
+  - student-privacy
+  - ai-literacy
+summary: >-
+  Hawaii State Department of Education guidance for students on using AI tools. Students may
+  use school-approved AI tools with a signed Technology Responsible Use Form, must disclose and
+  cite any AI use in assignments, should not use AI on exams or quizzes unless permitted, and
+  should verify AI output and avoid sharing personal information.
+published: "2025-01"
+provisions:
+  - type: academic-integrity-rules
+    description: Requires students to declare any AI use in assignments and treats uncited AI-generated work as plagiarism.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://docs.google.com/presentation/d/18glINUteILqrRjUFX7mJtytWlP3urp0gAkAkTIRYEsA/edit
+      locator: Transparency; Plagiarism
+      quote: >-
+        Using AI to generate answers or complete assignments without proper citation is
+        plagiarism.
+  - type: limits-ai-instructional-use
+    description: Limits student use to school-approved AI tools and bars AI use on exams or quizzes unless explicitly allowed.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://docs.google.com/presentation/d/18glINUteILqrRjUFX7mJtytWlP3urp0gAkAkTIRYEsA/edit
+      locator: Assessments; Third-Party AI Tools
+      quote: >-
+        It should not be used in the context of completing exams or quizzes unless explicitly
+        stated.
+sources:
+  - url: https://www.ocid-ddt.k12.hi.us/programs/technology-integration/ai
+    title: OCID Digital Design Team - AI
+    publisher: Hawaii State Department of Education, Office of Curriculum and Instructional Design
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043153/https://www.ocid-ddt.k12.hi.us/programs/technology-integration/ai
+  - url: https://docs.google.com/presentation/d/18glINUteILqrRjUFX7mJtytWlP3urp0gAkAkTIRYEsA/edit
+    title: HIDOE AI Guidance for Students
+    publisher: Hawaii State Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017214756/https://docs.google.com/presentation/d/18glINUteILqrRjUFX7mJtytWlP3urp0gAkAkTIRYEsA/edit
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-source-fetch
+  notes: Document is dated "Hawaii State Department of Education | January 2025".

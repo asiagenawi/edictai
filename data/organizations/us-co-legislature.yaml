@@ -1,0 +1,8 @@
+id: us-co-legislature
+name: Colorado General Assembly
+classification: legislature
+jurisdiction: us-co
+education_levels:
+  - k12
+  - postsecondary
+url: https://leg.colorado.gov/

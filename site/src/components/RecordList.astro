@@ -1,0 +1,23 @@
+---
+/** A plain table of records: title, kind, status, date. */
+import { kindLabel, url, type PolicyRecord } from '../lib/data';
+
+interface Props { records: PolicyRecord[]; showState?: boolean }
+const { records, showState = false } = Astro.props;
+---
+{records.length === 0 ? <p class="muted">No records.</p> : (
+<table>
+  <thead><tr>{showState && <th scope="col">Where</th>}<th scope="col">Title</th><th scope="col">Kind</th><th scope="col">Status</th><th scope="col">Date</th></tr></thead>
+  <tbody>
+    {records.map((r) => (
+      <tr>
+        {showState && <td>{r.stateCode.toUpperCase()}</td>}
+        <td><a href={url(r.path)}>{r.identifier ? `${r.identifier}: ` : ''}{r.title}</a></td>
+        <td>{kindLabel(r)}</td>
+        <td>{r.status}</td>
+        <td>{r.date ?? <span class="muted">Undated</span>}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+)}

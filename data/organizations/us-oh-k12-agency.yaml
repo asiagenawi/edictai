@@ -1,0 +1,10 @@
+id: us-oh-k12-agency
+name: Ohio Department of Education and Workforce
+abbreviation: DEW
+classification: k12-agency
+jurisdiction: us-oh
+education_levels:
+  - k12
+url: https://education.ohio.gov/
+watch_urls:
+  - https://education.ohio.gov/Topics/AI-in-Ohio-s-Education

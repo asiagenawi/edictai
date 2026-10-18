@@ -1,0 +1,10 @@
+id: us-nc-k12-agency
+name: North Carolina Department of Public Instruction
+abbreviation: NCDPI
+classification: k12-agency
+jurisdiction: us-nc
+education_levels:
+  - k12
+url: https://www.dpi.nc.gov/
+watch_urls:
+  - https://www.dpi.nc.gov/districts-schools/districts-schools-support/digital-learning-school-connectivity/ai-resources

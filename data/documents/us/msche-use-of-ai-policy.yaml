@@ -1,0 +1,43 @@
+id: us-msche-use-of-ai-policy
+jurisdiction: us
+issuer: msche
+title: Use of Artificial Intelligence Policy
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - data-governance
+summary: Middle States Commission on Higher Education policy and procedures, effective July 1, 2025, setting broad expectations for lawful, ethical, transparent, and secure use of AI. The Commission allows institutions to use AI to prepare accreditation materials, holds them responsible for the accuracy of what they submit, and asks them to fold AI into existing data governance and information security policies.
+published: '2025-07-02'
+provisions:
+  - type: procurement-standards
+    description: Expects institutions to bring the governance, procurement, and use of AI into line with Commission standards and their own policies.
+    citation:
+      source_url: https://www.msche.org/2025/07/02/new-use-of-artificial-intelligence-accreditation-policy-and-procedures/
+      quote: Institutions should ensure that the governance, procurement, and use of AI is aligned with the Commission’s Standards for Accreditation and Requirements of Affiliation
+sources:
+  - url: https://www.msche.org/2025/07/02/new-use-of-artificial-intelligence-accreditation-policy-and-procedures/
+    title: New Use of Artificial Intelligence Accreditation Policy and Procedures
+    publisher: Middle States Commission on Higher Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260429113157/https://www.msche.org/2025/07/02/new-use-of-artificial-intelligence-accreditation-policy-and-procedures/
+  - url: https://www.msche.org/policies-guidelines/use-of-artificial-intelligence-policy/
+    title: Use of Artificial Intelligence Policy
+    publisher: Middle States Commission on Higher Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017225306/https://www.msche.org/policies-guidelines/use-of-artificial-intelligence-policy/
+  - url: https://www.msche.org/policies-guidelines/use-of-artificial-intelligence-procedures/
+    title: Use of Artificial Intelligence Procedures
+    publisher: Middle States Commission on Higher Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017225333/https://www.msche.org/policies-guidelines/use-of-artificial-intelligence-procedures/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Fields are supported by the Commission's July 2, 2025 announcement; the policy page itself renders its text in an embedded viewer that could not be extracted.

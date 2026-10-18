@@ -1,0 +1,83 @@
+id: us-il-2025-2026-hb-4411
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 4411
+title: SCH CD-Computer Science Req
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: >-
+  Would require students entering 9th grade in the 2028-2029 school year and later to complete
+  one year of high school computer science and artificial intelligence to graduate, create an
+  introductory computer science teaching endorsement for grades 5-12, and require school boards
+  to report K-8 computer science course data to the State Board of Education.
+abstract: >-
+  Amends the School Code. Requires, beginning with the 2027-2028 school year, school boards to
+  report specified data to the State Board of Education regarding computer science courses in
+  schools maintaining any of grades kindergarten through 8. Requires the State Board to make the
+  data publicly available. With respect to a Professional Educator License, provides that the
+  State Board shall create an introductory content area endorsement for teaching computer science
+  in grades 5 through 12 that allows licensed educators to teach introductory computer science
+  courses. In provisions concerning required high school courses, provides that a computer
+  science course (rather than an Advanced Placement computer science course) qualifies under the
+  mathematics requirement. Requires each pupil entering the 9th grade beginning with the
+  2028-2029 school year to successfully complete one year of high school computer science and
+  artificial intelligence as a prerequisite to receiving a high school diploma, which may be
+  taken in any of grades 7 through 12 and shall count toward the fulfillment of certain other
+  high school graduation requirements. Requires the State Board to create guidelines for school
+  districts. Provides that the computer science course requirement does not apply to a pupil
+  transferring to a high school in this State from another state after the pupil's 11th grade
+  year. Allows a school to enter into a cooperative resource sharing agreement to ensure that its
+  students can enroll in a computer science course. Makes other changes.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: Would require one year of high school computer science and artificial intelligence for a diploma, starting with students entering 9th grade in 2028-2029.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400HB4411.html
+      locator: Synopsis As Introduced
+      quote: Requires each pupil entering the 9th grade beginning with the 2028-2029 school year to successfully complete one year of high school computer science and artificial intelligence as a prerequisite to receiving a high school diploma
+sponsors:
+  - name: Laura Faver Dias
+    primary: true
+    chamber: lower
+  - name: Abdelnasser Rashid
+    primary: false
+    chamber: lower
+  - name: Joyce Mason
+    primary: false
+    chamber: lower
+  - name: Maura Hirschauer
+    primary: false
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Filed with the Clerk by Rep. Laura Faver Dias
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-14"
+    description: First Reading; Referred to Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+sources:
+  - url: https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400HB4411.html
+    title: HB4411 - 104th General Assembly (2025-2026)
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017224422/https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400HB4411.html
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-status
+  notes: >-
+    Legacy record had no sponsor or dates. Last action as of 2026-10-17 is co-sponsors added on
+    2026-04-15; the bill remains in the House Rules Committee and the 104th General Assembly has
+    not ended. Legacy source was a third-party aggregator; replaced with the official bill status.

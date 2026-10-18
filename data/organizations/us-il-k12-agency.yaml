@@ -1,0 +1,10 @@
+id: us-il-k12-agency
+name: Illinois State Board of Education
+abbreviation: ISBE
+classification: k12-agency
+jurisdiction: us-il
+education_levels:
+  - k12
+url: https://www.isbe.net/
+watch_urls:
+  - https://www.isbe.net/aiguidance

@@ -1,0 +1,149 @@
+id: us-il-2025-2026-hb-3851
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 3851
+title: SCH CD-Cyber-Bullying
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: >-
+  Amends the School Code's bullying provisions so that, beginning with the 2026-2027 school
+  year, cyber-bullying also includes posting or distributing an unauthorized digital replica of
+  a person (a digital replica used without the depicted person's consent) when it causes the
+  harms listed in the definition of bullying. Takes effect July 1, 2026.
+abstract: >-
+  Amends the Courses of Study Article of the School Code. In provisions concerning bullying and
+  cyber-bullying, provides that bullying includes posting or distributing sexually explicit
+  images. Provides that, beginning with the 2026-2027 school year, the term "cyber-bullying"
+  includes the posting or distribution of a digital replica by electronic means. Defines
+  "artificial intelligence", "digital replica", and "generative artificial intelligence".
+  Effective July 1, 2026.
+provisions:
+  - type: addresses-deepfakes
+    description: Adds posting or distributing an unauthorized digital replica of an individual to the School Code definition of cyber-bullying, starting with the 2026-2027 school year.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/104/104-0338.htm
+      locator: 105 ILCS 5/27-23.7(b)
+      quote: Beginning with the 2026-2027 school year, "cyber-bullying" also includes the posting or distribution of an unauthorized digital replica by electronic means if the posting or distribution creates any of the effects enumerated in the definition of "bullying" in this Section.
+sponsors:
+  - name: Janet Yang Rohr
+    primary: true
+    chamber: lower
+  - name: Meg Loughran Cappel
+    primary: true
+    chamber: upper
+actions:
+  - date: "2025-02-07"
+    description: Filed with the Clerk by Rep. Janet Yang Rohr
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-18"
+    description: First Reading; Referred to Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-03-11"
+    description: Assigned to Cybersecurity, Data Analytics, & IT Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-20"
+    description: Do Pass / Short Debate Cybersecurity, Data Analytics, & IT Committee; 012-000-000
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-26"
+    description: Second Reading - Short Debate
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-04-09"
+    description: House Floor Amendment No. 1 Adopted; Third Reading - Short Debate - Passed 116-000-000
+    actor: lower
+    classification:
+      - amendment-passage
+      - reading-3
+      - passage
+  - date: "2025-04-10"
+    description: First Reading; Referred to Assignments
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-04-23"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-05-14"
+    description: Senate Committee Amendments No. 1 and No. 2 Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2025-05-15"
+    description: Do Pass as Amended Executive; 013-000-000; Second Reading
+    actor: upper
+    classification:
+      - committee-passage
+      - reading-2
+  - date: "2025-05-30"
+    description: Third Reading - Passed; 057-000-000
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-05-31"
+    description: House Concurs 117-000-000; Passed Both Houses
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-06-24"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-08-15"
+    description: Governor Approved; Effective Date July 1, 2026
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-08-15"
+    description: Public Act 104-0338
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Public Act
+    date: "2025-08-15"
+    url: https://ilga.gov/ftp/Public%20Acts/104/104-0338.htm
+    archived_url: https://web.archive.org/web/20261017215947/https://ilga.gov/ftp/Public%20Acts/104/104-0338.htm
+    media_type: text/html
+session_law: Public Act 104-0338
+sources:
+  - url: https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400HB3851.html
+    title: HB3851 - 104th General Assembly (2025-2026)
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017224305/https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400HB3851.html
+  - url: https://ilga.gov/ftp/Public%20Acts/104/104-0338.htm
+    title: Public Act 104-0338
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017215947/https://ilga.gov/ftp/Public%20Acts/104/104-0338.htm
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-status-and-public-act-text
+  notes: >-
+    Corrected legacy dates: filed 2025-02-07 (legacy said 2025-02-05) and signed 2025-08-15
+    (legacy said 2025-08-09). Legacy omitted sponsor and Public Act number. Legacy topics
+    (academic integrity, student privacy) re-judged as synthetic media and student safety.

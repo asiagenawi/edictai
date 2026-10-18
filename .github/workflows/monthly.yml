@@ -1,0 +1,53 @@
+name: Monthly release
+
+on:
+  schedule:
+    - cron: "7 13 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: monthly
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Validate, build, and log changes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: astral-sh/setup-uv@v10.3.0
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen --all-extras
+
+      - name: Validate records
+        run: uv run --no-sync statescope validate --strict --format github
+
+      - name: Check data dictionary is current
+        run: uv run --no-sync statescope docs --check
+
+      - name: Build
+        run: uv run --no-sync statescope build --parquet
+
+      - name: Write changelog entry
+        id: entry
+        run: python3 .github/scripts/changelog.py build/csv/records.csv CHANGELOG.md
+
+      - uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          branch: changelog/monthly
+          commit-message: "Add the monthly changelog entry"
+          title: "Changelog for ${{ steps.entry.outputs.month }}"
+          body: |
+            Monthly entry generated from the build: record counts by type and the
+            records added or changed under `data/` since the previous entry.
+          add-paths: CHANGELOG.md

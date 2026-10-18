@@ -1,0 +1,48 @@
+id: 2025-gallup-walton-voices-of-gen-z-ai
+title: 'Voices of Gen Z: How American Youth View and Use Artificial Intelligence'
+authors:
+  - Gallup
+  - Walton Family Foundation
+  - GSV Ventures
+publisher: Gallup
+published: '2025-04-01'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+summary: Gallup, the Walton Family Foundation, and GSV Ventures surveyed nearly 3,500 Americans ages 13 to 28 in March 2025 about their use of and feelings toward generative AI, including at school and work. Most used generative AI, more said it would harm than help their critical thinking, and only about a quarter of students said their school explicitly permits AI while about half said their school lacks clear AI policies.
+key_findings:
+  - finding: Seventy-nine percent of Gen Z respondents used generative AI products, including 47 percent weekly, but more said the tools made them anxious than hopeful or excited.
+    citation:
+      source_url: https://www.gallup.com/file/analytics/658901/Gallup-Walton-Family-Foundation_Voices-of-Gen-Z_How-American-Youth-View-AI-Report.pdf
+      locator: Key findings, 01
+      quote: Most Gen Zers (79%) say they use generative artificial intelligence products, including 47% who do so on a weekly basis
+  - finding: Gen Z respondents were more than twice as likely to say AI will harm rather than help their critical thinking skills (49 percent to 22 percent).
+    citation:
+      source_url: https://www.gallup.com/file/analytics/658901/Gallup-Walton-Family-Foundation_Voices-of-Gen-Z_How-American-Youth-View-AI-Report.pdf
+      locator: Key findings, 02
+      quote: Gen Zers are also more than twice as likely to say AI will harm, rather than help, their critical thinking skills (49% to 22%).
+  - finding: About half of students said schools should permit AI and teach students to use it, but 28 percent said their school explicitly permits AI and 49 percent said it has no clear AI policies.
+    citation:
+      source_url: https://www.gallup.com/file/analytics/658901/Gallup-Walton-Family-Foundation_Voices-of-Gen-Z_How-American-Youth-View-AI-Report.pdf
+      locator: Key findings, 03
+      quote: just 28% of students say their school explicitly permits the use of artificial intelligence, while nearly half (49%) say their school does not have clear policies regarding AI.
+methods: Gallup Panel web survey, March 6-13, 2025, of 3,465 people ages 13-28 in all 50 states and DC, including 1,460 children ages 13-18 reached through panel households; margin of error ±2.4 points overall, ±3.3 for K-12 students.
+sources:
+  - url: https://www.gallup.com/analytics/658901/walton-family-foundation-gallup-voices-gen-american-youth.aspx
+    title: 'Voices of Gen Z: How American Youth View and Use Artificial Intelligence'
+    publisher: Gallup
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260922043511/https://www.gallup.com/analytics/658901/walton-family-foundation-gallup-voices-gen-american-youth.aspx
+  - url: https://www.gallup.com/file/analytics/658901/Gallup-Walton-Family-Foundation_Voices-of-Gen-Z_How-American-Youth-View-AI-Report.pdf
+    title: 'Voices of Gen Z: How American Youth View and Use Artificial Intelligence (report PDF)'
+    publisher: Gallup
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

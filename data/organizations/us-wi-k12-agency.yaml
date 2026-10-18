@@ -1,0 +1,10 @@
+id: us-wi-k12-agency
+name: Wisconsin Department of Public Instruction
+abbreviation: DPI
+classification: k12-agency
+jurisdiction: us-wi
+education_levels:
+  - k12
+url: https://dpi.wi.gov/
+watch_urls:
+  - https://dpi.wi.gov/imt/ai-guidance/wisconsins-dpi-ai-guidance-hub

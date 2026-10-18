@@ -1,0 +1,31 @@
+id: us-co-cde-artificial-intelligence-resources
+jurisdiction: us-co
+issuer: us-co-k12-agency
+title: Artificial Intelligence (AI)
+classification: toolkit
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - educator-training
+  - curriculum-standards
+summary: A Colorado Department of Education web page that collects resources on AI in K-12 schools, including the Colorado Roadmap for AI in K-12 Education produced by the Colorado Education Initiative, computer science standards, and links to professional development courses. The department states it does not endorse the listed resources and that AI is meant to support, not replace, teachers.
+undated: true
+sources:
+  - url: https://ed.cde.state.co.us/artificialintelligence
+    title: Artificial Intelligence (AI)
+    publisher: Colorado Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260316141517/https://ed.cde.state.co.us/artificialintelligence
+  - url: https://www.coloradoedinitiative.org/wp-content/uploads/2024/08/Colorado-Roadmap-for-AI-in-K-12-Education_August-2024.pdf
+    title: 'Colorado Roadmap for AI in K-12 Education: Guidance for Integrating AI into Teaching and Learning (August 2024)'
+    publisher: Colorado Education Initiative
+    kind: secondary
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260922043147/https://www.coloradoedinitiative.org/wp-content/uploads/2024/08/Colorado-Roadmap-for-AI-in-K-12-Education_August-2024.pdf
+verification:
+  status: unverified
+  notes: Page content verified against the CDE site on 2026-10-17. The page carries no publication date, so none is recorded; its most recent dated item is a March 28, 2025 summit, and the earliest Wayback capture is from 2025-11-01. The Roadmap it presents was published by the Colorado Education Initiative, a nonprofit, with CDE staff serving on its steering committee and working groups.

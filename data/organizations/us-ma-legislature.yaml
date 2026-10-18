@@ -1,0 +1,8 @@
+id: us-ma-legislature
+name: Massachusetts General Court
+classification: legislature
+jurisdiction: us-ma
+education_levels:
+  - k12
+  - postsecondary
+url: https://malegislature.gov/

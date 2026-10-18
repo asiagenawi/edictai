@@ -1,0 +1,3 @@
+rule: id-path
+pointer: /jurisdiction
+message: does not match directory 'us-ca'

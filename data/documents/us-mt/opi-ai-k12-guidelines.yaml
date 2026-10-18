@@ -1,0 +1,41 @@
+id: us-mt-opi-ai-k12-guidelines
+jurisdiction: us-mt
+issuer: us-mt-k12-agency
+title: Montana Artificial Intelligence in K-12 Education Guidelines
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - local-policy-requirement
+  - educator-training
+  - student-privacy
+  - procurement
+  - synthetic-media
+  - academic-integrity
+  - equity-access
+summary: >-
+  Advisory guidelines from the Montana Office of Public Instruction, developed with the Montana
+  Digital Academy's Frontier Learning Lab, to help district and school leaders build local AI
+  guidance, policy, and professional learning. Version 2.0 covers core principles for AI
+  integration, an implementation roadmap, universal access, student privacy and responsible
+  procurement, and a protocol for responding to malicious deepfakes and synthetic media.
+updated: "2026-08"
+version: "2.0"
+sources:
+  - url: https://opifiles.mt.gov/Portals/182/Page%20Files/Homepage/Docs/Montana%20Artificial%20Intelligence%20in%20K12%20Education%20Guidelines.pdf?ver=2025-10-14-134920-167
+    title: Montana Artificial Intelligence in K-12 Education Guidelines, Version 2.0
+    publisher: Montana Office of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260813103922/https://opifiles.mt.gov/Portals/182/Page%20Files/Homepage/Docs/Montana%20Artificial%20Intelligence%20in%20K12%20Education%20Guidelines.pdf?ver=2025-10-14-134920-167
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-document-text
+  notes: >-
+    `updated` is the Version 2.0 date (August 2026) printed on the cover; the document says it
+    is the second version and is revised twice a year. The first version's release date was not
+    confirmed from an official source.

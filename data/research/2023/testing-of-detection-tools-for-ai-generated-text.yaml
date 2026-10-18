@@ -1,0 +1,52 @@
+id: 2023-testing-of-detection-tools-for-ai-generated-text
+title: Testing of detection tools for AI-generated text
+authors:
+  - Debora Weber-Wulff
+  - Alla Anohina-Naumeca
+  - Sonja Bjelobaba
+  - Tomáš Foltýnek
+  - Jean Gabriel Guerrero-Dib
+  - Olumide Popoola
+  - Petr Šigut
+  - Lorna Waddington
+publisher: International Journal for Educational Integrity
+published: '2023-12-24'
+classification: peer-reviewed
+education_levels:
+  - postsecondary
+topics:
+  - academic-integrity
+  - assessment
+summary: Researchers tested 14 AI-text detection tools, including Turnitin and PlagiarismCheck, on 54 documents of known origin, including human-written, machine-translated, ChatGPT-generated, manually edited, and machine-paraphrased texts. They concluded the tools are neither accurate nor reliable, tend to classify text as human-written, and perform worse when AI text is obfuscated.
+key_findings:
+  - finding: All 14 tools scored below 80% accuracy and only five scored above 70%.
+    citation:
+      source_url: https://web.archive.org/web/20251124123802/https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00146-z
+      locator: Discussion
+      quote: Detection tools for AI-generated text do fail, they are neither accurate nor reliable (all scored below 80% of accuracy and only 5 over 70%).
+  - finding: Human-written texts machine-translated from other languages were misclassified more often, and six of the 14 tools produced false positives that would amount to false accusations.
+    citation:
+      source_url: https://web.archive.org/web/20251124123802/https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00146-z
+      locator: Results, Error analysis
+      quote: Six of the fourteen tools tested generated false positives, with the risk increasing dramatically for machine-translated texts.
+  - finding: Manual editing and machine paraphrasing raised the share of undetected AI-generated texts to about half or more, and no tool correctly classified all obfuscated documents.
+    citation:
+      source_url: https://web.archive.org/web/20251124123802/https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00146-z
+      locator: Results, Error analysis
+      quote: for manually edited texts (case 05-ManEd) the ratio of undetected texts increases to approx. 50% and in the case of machine-paraphrased texts (case 06-Para) rises even higher.
+methods: Controlled test of 12 free and 2 commercial detectors in March-May 2023; 54 English-language test documents prepared by nine researchers in six categories (human-written, machine-translated, ChatGPT-generated, manually edited, paraphrased with Quillbot), for 756 tests in total.
+external_ids:
+  doi: 10.1007/s40979-023-00146-z
+  openalex_id: W4390175962
+sources:
+  - url: https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00146-z
+    title: Testing of detection tools for AI-generated text
+    publisher: International Journal for Educational Integrity (BMC)
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20251124123802/https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00146-z
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The publisher page returned a bot challenge, so the full text was read from the Wayback Machine capture of the publisher page. Publication date from OpenAlex.

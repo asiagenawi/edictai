@@ -1,0 +1,8 @@
+id: us-in-higher-ed-agency
+name: Indiana Commission for Higher Education
+abbreviation: CHE
+classification: higher-ed-agency
+jurisdiction: us-in
+education_levels:
+  - postsecondary
+url: https://www.in.gov/che/

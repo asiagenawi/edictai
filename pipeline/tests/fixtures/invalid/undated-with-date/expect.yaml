@@ -1,0 +1,3 @@
+rule: document-date
+pointer: /undated
+message: undated is true but published is set

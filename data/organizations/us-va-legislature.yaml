@@ -1,0 +1,8 @@
+id: us-va-legislature
+name: Virginia General Assembly
+classification: legislature
+jurisdiction: us-va
+education_levels:
+  - k12
+  - postsecondary
+url: https://vga.virginia.gov/

@@ -1,0 +1,8 @@
+id: us-ar-uasys
+name: University of Arkansas System
+abbreviation: UA System
+classification: university-system
+jurisdiction: us-ar
+education_levels:
+  - postsecondary
+url: https://www.uasys.edu/

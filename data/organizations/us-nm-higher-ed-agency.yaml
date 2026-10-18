@@ -1,0 +1,8 @@
+id: us-nm-higher-ed-agency
+name: New Mexico Higher Education Department
+abbreviation: NMHED
+classification: higher-ed-agency
+jurisdiction: us-nm
+education_levels:
+  - postsecondary
+url: https://hed.nm.gov/

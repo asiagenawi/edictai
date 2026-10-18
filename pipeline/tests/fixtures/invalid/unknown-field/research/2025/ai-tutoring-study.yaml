@@ -1,0 +1,25 @@
+id: 2025-ai-tutoring-study
+title: An example study of AI tutoring
+authors: [A. Researcher, B. Researcher]
+publisher: Example Journal
+published: 2025-03
+classification: peer-reviewed
+education_levels: [k12]
+topics: [instructional-use, research]
+summary: Studied AI tutoring in a sample of schools.
+key_findings:
+  - finding: Students using the tutor scored higher.
+    citation:
+      source_url: https://example.org/study
+      locator: Table 2
+methods: RCT
+geography: [us-tx]
+external_ids:
+  doi: 10.0000/example
+sources:
+  - url: https://example.org/study
+    kind: official
+    accessed: 2026-09-01
+verification:
+  status: unverified
+colour: blue

@@ -1,0 +1,4 @@
+rule: vocab
+file: data/legislation/us-tx/2025/sb-20.yaml
+pointer: /topics/0
+message: did you mean 'funding'

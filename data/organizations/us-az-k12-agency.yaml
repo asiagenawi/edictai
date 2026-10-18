@@ -1,0 +1,10 @@
+id: us-az-k12-agency
+name: Arizona Department of Education
+abbreviation: ADE
+classification: k12-agency
+jurisdiction: us-az
+education_levels:
+  - k12
+url: https://www.azed.gov/
+watch_urls:
+  - https://www.azed.gov/information-technology/artificial-intelligence

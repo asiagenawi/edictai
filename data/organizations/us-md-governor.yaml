@@ -1,0 +1,8 @@
+id: us-md-governor
+name: Office of the Governor of Maryland
+classification: governor
+jurisdiction: us-md
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.maryland.gov/

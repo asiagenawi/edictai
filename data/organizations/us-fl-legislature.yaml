@@ -1,0 +1,8 @@
+id: us-fl-legislature
+name: Florida Legislature
+classification: legislature
+jurisdiction: us-fl
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.leg.state.fl.us/

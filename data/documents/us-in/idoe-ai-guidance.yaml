@@ -1,0 +1,54 @@
+id: us-in-idoe-ai-guidance
+jurisdiction: us-in
+issuer: us-in-k12-agency
+title: Artificial Intelligence (AI) Guidance
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - instructional-use
+  - student-privacy
+  - academic-integrity
+summary: >-
+  A short Indiana Department of Education guide presenting key considerations for AI in K-12
+  education, organized around AI literacy, instruction and learning, impact, and security. It
+  offers considerations for local AI policy, such as adding AI to existing acceptable use
+  policies, defining acceptable uses, protecting student data under FERPA and COPPA, and not
+  relying on AI detection tools alone for academic dishonesty decisions.
+undated: true
+provisions:
+  - type: academic-integrity-rules
+    description: Advises schools to reconsider using AI detection tools as the sole basis for academic dishonesty interventions.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://drive.google.com/file/d/155XYqyFR_YnHE6veanG7ZpM1NBPB2N44/view
+      locator: Key Considerations for AI Policy
+      quote: Reconsider the use of AI detection tools as the sole source of intervention related to academic dishonesty.
+related:
+  - us-in-2025-hb-1296
+sources:
+  - url: https://www.in.gov/doe/educators/digital-learning/
+    title: Digital Learning
+    publisher: Indiana Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260420102006/https://www.in.gov/doe/educators/digital-learning/
+  - url: https://drive.google.com/file/d/155XYqyFR_YnHE6veanG7ZpM1NBPB2N44/view
+    title: Artificial Intelligence (AI) Guidance
+    publisher: Indiana Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260902210324/https://drive.google.com/file/d/155XYqyFR_YnHE6veanG7ZpM1NBPB2N44/view
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-document
+  notes: >-
+    Linked from the IDOE Digital Learning page as a Google Drive PDF (7 pages). The document
+    shows no printed date, so none is recorded; the PDF's embedded metadata (title "AI
+    Guidance Document Updated", created 2025-10-07) suggests this is an updated version and an
+    earlier edition may exist. Legacy record called it "AI Guidance for Educators" dated 2024-05; neither
+    the title nor that date could be confirmed.

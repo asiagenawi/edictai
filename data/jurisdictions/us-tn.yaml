@@ -1,0 +1,30 @@
+id: us-tn
+ocd_id: "ocd-division/country:us/state:tn"
+name: Tennessee
+abbreviation: TN
+classification: state
+fips: "47"
+region: Southeast
+sessions:
+  - identifier: 2023-2024
+    name: 113th General Assembly
+    classification: primary
+    start_date: 2023-01-10
+    end_date: 2024-04-25
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:tn/government?include=legislative_sessions"
+        title: "Open States API, Tennessee legislative sessions"
+        publisher: Open States
+        kind: secondary
+        accessed: 2026-10-17
+  - identifier: 2025-2026
+    name: 114th General Assembly
+    classification: primary
+    start_date: 2025-01-14
+    end_date: 2026-04-25
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:tn/government?include=legislative_sessions"
+        title: "Open States API, Tennessee legislative sessions"
+        publisher: Open States
+        kind: secondary
+        accessed: 2026-10-17

@@ -1,0 +1,77 @@
+id: us-ga-gadoe-leveraging-ai-k12
+jurisdiction: us-ga
+issuer: us-ga-k12-agency
+title: Leveraging AI in the K-12 Setting
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+  - local-policy-requirement
+  - procurement
+  - educator-training
+  - academic-integrity
+summary: >-
+  Georgia Department of Education guidance on ethical, effective, and secure use of AI in K-12
+  public schools. It cautions against high-stakes uses of AI, sets practices for protecting
+  personally identifiable information, outlines a process for districts to adopt AI policies
+  and vet tools (with a sample evaluation rubric), and covers professional learning, classroom
+  use expectations, and attribution of AI-generated work.
+published: "2025-01-21"
+provisions:
+  - type: procurement-standards
+    description: >-
+      Recommends a formal vetting process for district and school AI tools, including a review
+      committee, pilot tests, evaluation against ethical, educational, and technical standards,
+      and a list of district-approved tools.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://lor2.gadoe.org/gadoe/file/b172b8fe-0ac8-46a7-bfdb-282df86b52ed/1/Leveraging%20AI%20in%20the%20K-12%20Setting.pdf
+      locator: p. 9, Having a Process for Formally Vetting and Adopting District and School Level AI Tools
+      quote: A rigorous vetting process is essential before adopting AI tools.
+  - type: restricts-student-data-use
+    description: Directs users never to enter personally identifiable information into AI systems.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://lor2.gadoe.org/gadoe/file/b172b8fe-0ac8-46a7-bfdb-282df86b52ed/1/Leveraging%20AI%20in%20the%20K-12%20Setting.pdf
+      locator: p. 5, Safeguarding Privacy
+      quote: >-
+        Never input PII, such as social security numbers, home addresses, health information,
+        academic information, employee performance, or other sensitive data into AI systems.
+  - type: academic-integrity-rules
+    description: >-
+      Advises that AI-generated content be clearly identified in student submissions and that
+      districts consider AI attribution policies alongside existing academic integrity policies.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://lor2.gadoe.org/gadoe/file/b172b8fe-0ac8-46a7-bfdb-282df86b52ed/1/Leveraging%20AI%20in%20the%20K-12%20Setting.pdf
+      locator: p. 14, Attributing Work to AI
+      quote: Clearly identify AI-generated content in student submissions.
+sources:
+  - url: https://login.community.gadoe.org/documents/leveraging-ai-in-the-k-12-setting
+    title: Leveraging AI in the K-12 Setting - GaDOE Community
+    publisher: Georgia Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043157/https://login.community.gadoe.org/documents/leveraging-ai-in-the-k-12-setting
+  - url: https://lor2.gadoe.org/gadoe/file/b172b8fe-0ac8-46a7-bfdb-282df86b52ed/1/Leveraging%20AI%20in%20the%20K-12%20Setting.pdf
+    title: Leveraging AI in the K-12 Setting (PDF, January 2025)
+    publisher: Georgia Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261001230352/https://lor2.gadoe.org/gadoe/file/b172b8fe-0ac8-46a7-bfdb-282df86b52ed/1/Leveraging%20AI%20in%20the%20K-12%20Setting.pdf
+  - url: https://gadoe.org/learning/artificial-intelligence/
+    title: Artificial Intelligence - Georgia Department of Education
+    publisher: Georgia Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260424184808/https://gadoe.org/learning/artificial-intelligence/
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-source-fetch

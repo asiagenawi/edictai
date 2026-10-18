@@ -1,0 +1,8 @@
+id: us-ri-higher-ed-agency
+name: Rhode Island Office of the Postsecondary Commissioner
+abbreviation: RIOPC
+classification: higher-ed-agency
+jurisdiction: us-ri
+education_levels:
+  - postsecondary
+url: https://riopc.edu/

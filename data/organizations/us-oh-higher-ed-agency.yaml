@@ -1,0 +1,8 @@
+id: us-oh-higher-ed-agency
+name: Ohio Department of Higher Education
+abbreviation: ODHE
+classification: higher-ed-agency
+jurisdiction: us-oh
+education_levels:
+  - postsecondary
+url: https://highered.ohio.gov/

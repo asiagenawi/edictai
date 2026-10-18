@@ -1,0 +1,8 @@
+id: us-wy-higher-ed-agency
+name: Wyoming Community College Commission
+abbreviation: WCCC
+classification: higher-ed-agency
+jurisdiction: us-wy
+education_levels:
+  - postsecondary
+url: https://communitycolleges.wy.edu/

@@ -1,0 +1,8 @@
+id: us-la-lsu
+name: Louisiana State University System
+abbreviation: LSU
+classification: university-system
+jurisdiction: us-la
+education_levels:
+  - postsecondary
+url: https://www.lsu.edu/

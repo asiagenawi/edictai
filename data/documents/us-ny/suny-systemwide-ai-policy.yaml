@@ -1,0 +1,33 @@
+id: us-ny-suny-systemwide-ai-policy
+jurisdiction: us-ny
+issuer: us-ny-suny
+title: SUNY Systemwide Artificial Intelligence Policy
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - institutional-operations
+  - data-governance
+  - ai-literacy
+summary: SUNY policy 6904, effective April 30, 2026, setting guidelines for acceptable use of AI across state-operated campuses and other SUNY entities. It sets out responsible AI principles and requires each institution to publish or update its own AI policies by December 31, 2026.
+published: '2026-04-30'
+provisions:
+  - type: requires-local-ai-policy
+    description: Requires SUNY institutions to publish or update their own AI policies by December 31, 2026, with a possible one-time extension of up to two months.
+    citation:
+      source_url: https://www.suny.edu/sunypp/documents.cfm?doc_id=933
+      locator: Institutional Requirements
+      quote: SUNY institutions shall publish AI policies and/or update relevant existing policies no later than December 31, 2026.
+sources:
+  - url: https://www.suny.edu/sunypp/documents.cfm?doc_id=933
+    title: SUNY Systemwide Artificial Intelligence Policy (Document Number 6904)
+    publisher: State University of New York
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Policy library page is behind a bot check for scripted clients; text was read in a browser session.

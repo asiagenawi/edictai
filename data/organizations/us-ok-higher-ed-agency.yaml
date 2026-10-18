@@ -1,0 +1,10 @@
+id: us-ok-higher-ed-agency
+name: Oklahoma State Regents for Higher Education
+abbreviation: OSRHE
+classification: higher-ed-agency
+jurisdiction: us-ok
+education_levels:
+  - postsecondary
+url: https://www.okhighered.org/
+watch_urls:
+  - https://okhighered.org/innovation-council/ic-ai-impact-committee/

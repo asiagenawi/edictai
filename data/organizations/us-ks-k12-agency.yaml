@@ -1,0 +1,8 @@
+id: us-ks-k12-agency
+name: Kansas State Department of Education
+abbreviation: KSDE
+classification: k12-agency
+jurisdiction: us-ks
+education_levels:
+  - k12
+url: https://www.ksde.gov/

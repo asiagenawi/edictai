@@ -1,0 +1,16 @@
+id: us-il
+ocd_id: "ocd-division/country:us/state:il"
+name: Illinois
+abbreviation: IL
+classification: state
+fips: "17"
+region: Midwest
+sessions:
+  - identifier: 2023-2024
+    name: 103rd General Assembly
+    classification: primary
+    start_date: "2023-01-11"
+  - identifier: 2025-2026
+    name: 104th General Assembly
+    classification: primary
+    start_date: "2025-01-08"

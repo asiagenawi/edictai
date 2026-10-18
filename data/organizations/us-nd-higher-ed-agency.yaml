@@ -1,0 +1,8 @@
+id: us-nd-higher-ed-agency
+name: North Dakota University System
+abbreviation: NDUS
+classification: higher-ed-agency
+jurisdiction: us-nd
+education_levels:
+  - postsecondary
+url: https://ndus.edu/

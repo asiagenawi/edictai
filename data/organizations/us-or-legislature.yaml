@@ -1,0 +1,8 @@
+id: us-or-legislature
+name: Oregon State Legislature
+classification: legislature
+jurisdiction: us-or
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.oregonlegislature.gov/

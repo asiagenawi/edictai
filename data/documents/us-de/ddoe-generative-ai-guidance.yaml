@@ -1,0 +1,49 @@
+id: us-de-ddoe-generative-ai-guidance
+jurisdiction: us-de
+issuer: us-de-k12-agency
+title: Generative AI in Delaware Education
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - educator-training
+  - academic-integrity
+  - student-privacy
+  - equity-access
+summary: Guidance from the Delaware Department of Education, developed with the Delaware Council on Educational Technology and its Generative AI Subcommittee, to help school districts and charter schools address generative AI in local policies. It explains what AI is, sets out key policy areas such as student data protection and equitable access, offers classroom integration and academic integrity strategies, and suggests a framework for educator professional learning.
+published: '2024-08-07'
+revisions:
+  - observed: '2026-10-17'
+    url: https://education.delaware.gov/wp-content/uploads/2024/07/delaware_generative_ai_guidance.pdf
+    archived_url: https://web.archive.org/web/20260922043145/https://education.delaware.gov/wp-content/uploads/2024/07/delaware_generative_ai_guidance.pdf
+    note: Original release titled "Generative AI in the Classroom Guidance", version 1.0 (06/2024).
+  - observed: '2026-10-17'
+    url: https://education.delaware.gov/wp-content/uploads/2026/03/delaware_generative_ai_DE_guidance.pdf
+    archived_url: https://web.archive.org/web/20260309140113/https://education.delaware.gov/wp-content/uploads/2026/03/delaware_generative_ai_DE_guidance.pdf
+    note: Re-posted March 2026 under the title "Generative AI in Delaware Education"; body text unchanged and version history still lists only version 1.0.
+sources:
+  - url: https://education.delaware.gov/wp-content/uploads/2026/03/delaware_generative_ai_DE_guidance.pdf
+    title: Generative AI in Delaware Education
+    publisher: Delaware Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260309140113/https://education.delaware.gov/wp-content/uploads/2026/03/delaware_generative_ai_DE_guidance.pdf
+  - url: https://education.delaware.gov/wp-content/uploads/2024/07/delaware_generative_ai_guidance.pdf
+    title: Generative AI in the Classroom Guidance
+    publisher: Delaware Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260922043145/https://education.delaware.gov/wp-content/uploads/2024/07/delaware_generative_ai_guidance.pdf
+  - url: https://news.delaware.gov/2024/08/07/state-releases-guidance-on-generative-artificial-intelligence-in-classrooms/
+    title: State Releases Guidance on Generative Artificial Intelligence in Classrooms
+    publisher: Delaware Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260215071545/https://news.delaware.gov/2024/08/07/state-releases-guidance-on-generative-artificial-intelligence-in-classrooms/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch

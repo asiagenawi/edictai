@@ -1,0 +1,13 @@
+id: us-ut
+ocd_id: "ocd-division/country:us/state:ut"
+name: Utah
+abbreviation: UT
+classification: state
+fips: "49"
+region: West
+sessions:
+  - identifier: "2026"
+    name: 2026 General Session
+    classification: primary
+    start_date: 2026-01-20
+    end_date: 2026-03-06

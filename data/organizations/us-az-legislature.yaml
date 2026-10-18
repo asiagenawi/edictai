@@ -1,0 +1,8 @@
+id: us-az-legislature
+name: Arizona State Legislature
+classification: legislature
+jurisdiction: us-az
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.azleg.gov/

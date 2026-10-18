@@ -1,0 +1,8 @@
+id: us-wv-higher-ed-agency
+name: West Virginia Higher Education Policy Commission
+abbreviation: HEPC
+classification: higher-ed-agency
+jurisdiction: us-wv
+education_levels:
+  - postsecondary
+url: https://www.wvhepc.edu/

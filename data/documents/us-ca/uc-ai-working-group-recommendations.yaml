@@ -1,0 +1,33 @@
+id: us-ca-uc-ai-working-group-recommendations
+jurisdiction: us-ca
+issuer: us-ca-uc
+title: Recommendations to Guide the University of California's Artificial Intelligence Strategy
+classification: report
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - equity-access
+  - admissions
+  - assessment
+  - data-governance
+summary: Final report of the University of California Presidential Working Group on AI, setting out UC Responsible AI Principles and recommendations for AI use in health, human resources, policing, and the student experience, including admissions, advising, and proctoring. The UC President adopted the recommendations, establishing overarching principles and a governance process for AI deployed in UC operations.
+published: 2021-10
+sources:
+  - url: https://www.ucop.edu/ethics-compliance-audit-services/compliance/uc-ai-working-group-final-report.pdf
+    title: Recommendations to Guide the University of California's Artificial Intelligence Strategy (Final Report)
+    publisher: University of California Office of the President
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260923042032/https://www.ucop.edu/ethics-compliance-audit-services/compliance/uc-ai-working-group-final-report.pdf
+  - url: https://www.universityofcalifornia.edu/news/uc-adopts-recommendations-responsible-use-artificial-intelligence
+    title: UC adopts recommendations for the responsible use of artificial intelligence
+    publisher: University of California
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260611094200/https://www.universityofcalifornia.edu/news/uc-adopts-recommendations-responsible-use-artificial-intelligence
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

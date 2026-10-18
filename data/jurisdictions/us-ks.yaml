@@ -1,0 +1,7 @@
+id: us-ks
+ocd_id: "ocd-division/country:us/state:ks"
+name: Kansas
+abbreviation: KS
+classification: state
+fips: "20"
+region: Midwest

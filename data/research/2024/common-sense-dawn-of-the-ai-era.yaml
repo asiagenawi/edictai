@@ -1,0 +1,56 @@
+id: 2024-common-sense-dawn-of-the-ai-era
+title: 'The Dawn of the AI Era: Teens, Parents, and the Adoption of Generative AI at Home and School'
+authors:
+  - Mary Madden
+  - Angela Calvin
+  - Alexa Hasse
+  - Amanda Lenhart
+publisher: Common Sense Media
+published: '2024-09-18'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - academic-integrity
+  - equity-access
+summary: Common Sense Media surveyed a nationally representative sample of U.S. teens ages 13 to 18 and their parents in spring 2024 about generative AI use at home and school. Seven in 10 teens had used a generative AI tool, many were unsure of their school's AI rules, and Black teens were more likely than peers to report having schoolwork wrongly flagged as AI-generated.
+key_findings:
+  - finding: Seventy percent of teens ages 13 to 18 had used at least one type of generative AI tool.
+    citation:
+      source_url: https://www.commonsensemedia.org/sites/default/files/research/report/2024-the-dawn-of-the-ai-era_final-release-for-web.pdf
+      locator: Key Findings, p. 4
+      quote: while 70% of teens say they have used at least one type of gen AI tool
+  - finding: Thirty-seven percent of teens were not sure whether their school had generative AI rules, 35 percent said it did, and 27 percent said it had none.
+    citation:
+      source_url: https://www.commonsensemedia.org/sites/default/files/research/report/2024-the-dawn-of-the-ai-era_final-release-for-web.pdf
+      locator: Key Findings, finding 6
+      quote: 37% of teens are not sure whether their school has gen AI rules.
+  - finding: Ten percent of teens said a teacher had flagged their work as AI-generated when it was not; Black teens reported this at about twice the rate of White or Latino teens.
+    citation:
+      source_url: https://www.commonsensemedia.org/sites/default/files/research/report/2024-the-dawn-of-the-ai-era_final-release-for-web.pdf
+      locator: Key Findings, finding 7, p. 10
+      quote: Black teens are more than twice as likely as White or Latino teens to say that teachers flagged their schoolwork as being created by generative AI when it was not (20% vs. 7% and 10%, respectively).
+  - finding: Eighty-three percent of parents said their child's school had not communicated with them about generative AI.
+    citation:
+      source_url: https://www.commonsensemedia.org/sites/default/files/research/report/2024-the-dawn-of-the-ai-era_final-release-for-web.pdf
+      locator: Key Findings, finding 6
+      quote: The large majority of parents of teens (83%) say that their child's school has not communicated with them about
+methods: Nationally representative paired survey of 1,045 U.S. parents and their teens ages 13-18, with oversamples of Black and Latino teens, collected online in English or Spanish by Ipsos, March to May 2024.
+sources:
+  - url: https://www.commonsensemedia.org/research/the-dawn-of-the-ai-era-teens-parents-and-the-adoption-of-generative-ai-at-home-and-school
+    title: 'The Dawn of the AI Era: Teens, Parents, and the Adoption of Generative AI at Home and School'
+    publisher: Common Sense Media
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260911174722/https://www.commonsensemedia.org/research/the-dawn-of-the-ai-era-teens-parents-and-the-adoption-of-generative-ai-at-home-and-school
+  - url: https://www.commonsensemedia.org/sites/default/files/research/report/2024-the-dawn-of-the-ai-era_final-release-for-web.pdf
+    title: The Dawn of the AI Era (full report PDF)
+    publisher: Common Sense Media
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261012130823/https://www.commonsensemedia.org/sites/default/files/research/report/2024-the-dawn-of-the-ai-era_final-release-for-web.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

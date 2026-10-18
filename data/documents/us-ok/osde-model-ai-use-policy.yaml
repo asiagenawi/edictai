@@ -1,0 +1,40 @@
+id: us-ok-osde-model-ai-use-policy
+jurisdiction: us-ok
+issuer: us-ok-k12-agency
+title: 'Model Policy: Artificial Intelligence (AI) Use in Schools'
+classification: model-policy
+status: current
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - student-privacy
+  - procurement
+summary: >-
+  A template board policy from the Oklahoma State Department of Education, updated October 2026,
+  that districts can adapt to meet the Oklahoma Responsible Technology in Schools Act. It covers
+  definitions, roles, educator oversight, data privacy, parent opt-out, annual review, and an
+  implementation deadline of the start of the 2027-2028 school year.
+updated: 2026-10
+authorized_by: us-ok-2025-2026-sb-1734
+related:
+  - us-ok-osde-ai-guidance
+sources:
+  - url: https://oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Model%20Policy%20AI%20Use%20in%20Schools%20Update%20October%202026.pdf
+    title: Model Policy Artificial Intelligence (Updated October 2026)
+    publisher: Oklahoma State Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261011135054/https://www.oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Model%20Policy%20AI%20Use%20in%20Schools%20Update%20October%202026.pdf
+  - url: https://oklahoma.gov/education/services/standards-learning/artificial-intelligence--ai--and-digital-learning1.html
+    title: Artificial Intelligence (AI) and Digital Learning
+    publisher: Oklahoma State Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261011135229/https://oklahoma.gov/education/services/standards-learning/artificial-intelligence--ai--and-digital-learning1.html
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-source-fetch
+  notes: Model policy PDF fetched; date taken from the document's file name and the OSDE page link text ("Updated October 2026").

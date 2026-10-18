@@ -1,0 +1,45 @@
+id: 2026-rand-more-students-use-ai-for-homework
+title: 'More Students Use AI for Homework, and More Believe It Harms Critical Thinking: Selected Findings from the American Youth Panel'
+authors:
+  - Heather L. Schwartz
+  - Melissa Kay Diliberti
+publisher: RAND Corporation
+published: '2026-03-17'
+classification: survey
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - instructional-use
+  - academic-integrity
+summary: RAND's December 2025 American Youth Panel survey of 1,214 people ages 12 to 29 asked how and why middle school, high school, and college students use AI for school, with trends from earlier 2025 surveys. The share using AI for homework help rose over 2025, and a growing majority agreed that more AI use for schoolwork will harm critical thinking.
+key_findings:
+  - finding: The share of students in middle school and up who used AI for homework help rose from 48 percent in May 2025 to 62 percent in December 2025, driven by middle and high schoolers.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA4742-1.html
+      locator: Key Takeaways
+      quote: The share of students in middle school grades and up who reported using AI for help with their homework increased from 48 percent in May 2025 to 62 percent in December 2025.
+  - finding: By December 2025, 67 percent of students agreed that more AI use for schoolwork will harm their critical thinking skills, up more than 10 percentage points in ten months.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA4742-1.html
+      locator: Key Takeaways
+      quote: As of December 2025, 67 percent of students endorsed the statement "The more students use AI for their schoolwork, the more it will harm their critical thinking skills"
+  - finding: Except for using AI to get homework answers, most students did not consider their school-related AI uses to be cheating.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA4742-1.html
+      locator: Key Takeaways
+      quote: With the exception of using AI to get answers for homework, most students did not feel that their use of AI for other school-related purposes constituted cheating.
+methods: Nationally representative survey of 1,214 youth ages 12-29 (RAND American Youth Panel, December 2025), with trend comparisons to February and May 2025 waves.
+external_ids:
+  doi: 10.7249/RRA4742-1
+sources:
+  - url: https://www.rand.org/pubs/research_reports/RRA4742-1.html
+    title: 'More Students Use AI for Homework, and More Believe It Harms Critical Thinking: Selected Findings from the American Youth Panel'
+    publisher: RAND Corporation
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261008172524/https://www.rand.org/pubs/research_reports/RRA4742-1.html
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

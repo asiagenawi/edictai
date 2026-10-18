@@ -1,0 +1,8 @@
+id: us-ct-governor
+name: Office of the Governor of Connecticut
+classification: governor
+jurisdiction: us-ct
+education_levels:
+  - k12
+  - postsecondary
+url: https://portal.ct.gov/governor

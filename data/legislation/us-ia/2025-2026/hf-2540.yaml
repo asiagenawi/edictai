@@ -1,0 +1,91 @@
+id: us-ia-2025-2026-hf-2540
+jurisdiction: us-ia
+session: "2025-2026"
+identifier: HF 2540
+title: >-
+  An Act relating to computer science and artificial intelligence education, including high
+  school curricula and graduation requirements, and practitioner preparation programs, and
+  including applicability provisions.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - curriculum-standards
+  - ai-literacy
+  - educator-training
+summary: >-
+  Would add one semester of computer science and artificial intelligence to Iowa's high school
+  graduation requirements beginning with the 2030-2031 graduating class, require computer
+  science standards to cover what AI is, how it works, and its societal and ethical impacts,
+  and require educator preparation programs to include computer science, AI, and computational
+  thinking. The House Education Committee bill was placed on the House calendar with no further
+  recorded action.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: >-
+      Would require one semester (or equivalent) of computer science and artificial
+      intelligence for graduation, beginning with the 2030-2031 graduating class.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/HF2540.pdf
+      locator: Sec. 1, amending Iowa Code 256.7(26)(a)
+      quote: >-
+        beginning with students in the 2030-2031 school year graduating class, one semester of
+        computer science and artificial intelligence, or the trimester or quarter equivalent
+  - type: ai-in-standards
+    description: Would require computer science and AI standards at all grade levels to include instruction on AI concepts and impacts.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/HF2540.pdf
+      locator: Sec. 2
+      quote: >-
+        including instruction that explains what artificial intelligence is, how artificial
+        intelligence works, and the societal and ethical impacts of artificial intelligence
+  - type: educator-prep-requirement
+    description: Would require practitioner preparation programs to include preparation in computer science, AI, and computational thinking.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/HF2540.pdf
+      locator: Sec. 13, amending Iowa Code 256.16(1)
+      quote: >-
+        Include preparation in computer science, artificial intelligence, and computational
+        thinking that is appropriate to the grade level and subject area in which the student
+        who is enrolled in the practitioner preparation program will teach.
+actions:
+  - date: "2026-02-16"
+    description: Introduced, placed on calendar. H.J. 305.
+    actor: lower
+    classification:
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-02-16"
+    url: https://www.legis.iowa.gov/docs/publications/LGI/91/HF2540.pdf
+    archived_url: https://web.archive.org/web/20260413205821/https://www.legis.iowa.gov/docs/publications/LGI/91/HF2540.pdf
+    media_type: application/pdf
+sources:
+  - url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%202540
+    title: Iowa Legislature - BillBook, HF 2540
+    publisher: Iowa Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017225022/https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%202540
+  - url: https://www.legis.iowa.gov/docs/publications/LGI/91/HF2540.pdf
+    title: House File 2540, introduced
+    publisher: Iowa Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260413205821/https://www.legis.iowa.gov/docs/publications/LGI/91/HF2540.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-source-fetch
+  notes: >-
+    Committee bill (successor to HSB 610; companion SF 2094). BillBook history lists only the
+    2026-02-16 introduction. The 2026 session end date was not confirmed from an official
+    source, so no died-at-session-end action is recorded.

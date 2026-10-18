@@ -1,0 +1,53 @@
+id: us-la-ldoe-ai-guidance
+jurisdiction: us-la
+issuer: us-la-k12-agency
+title: "Artificial Intelligence in Louisiana Schools: Guidance for K-12 Schools"
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - instructional-use
+  - educator-training
+  - student-privacy
+  - data-governance
+  - procurement
+  - academic-integrity
+  - workforce
+  - local-policy-requirement
+summary: >-
+  Louisiana Department of Education guidance for K-12 schools that sets guiding principles for AI
+  use, an AI literacy framework with Louisiana AI competencies for students, teachers, and leaders,
+  and advice on classroom integration, career pathways, and prompting. It includes an AI technology
+  evaluation rubric for vetting tools, a summary of relevant state privacy laws including
+  data-sharing agreement requirements, and a sample family letter.
+updated: "2026-09-03"
+provisions:
+  - type: procurement-standards
+    description: Provides an AI technology evaluation rubric for school systems to assess tools on data privacy, cybersecurity, and instructional criteria, and says data-sharing agreements with AI vendors must comply with R.S. 17:3913.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://doe.louisiana.gov/docs/default-source/technology-footprint/ldoe-ai-guidance.pdf
+      locator: Evaluating AI Technology; AI Technology Evaluation Rubric (pp. 21-27)
+      quote: Data-Sharing Agreements (DSAs) between AI vendors and school systems must be crafted to ensure compliance with privacy regulations
+  - type: ai-in-standards
+    description: Sets out Louisiana Artificial Intelligence Competencies for K-12 Education for students, teachers, and school and system leaders.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://doe.louisiana.gov/docs/default-source/technology-footprint/ldoe-ai-guidance.pdf
+      locator: Louisiana Artificial Intelligence (AI) Competencies for K-12 Education (p. 9)
+sources:
+  - url: https://doe.louisiana.gov/docs/default-source/technology-footprint/ldoe-ai-guidance.pdf
+    title: "Artificial Intelligence in Louisiana Schools: Guidance for K-12 Schools"
+    publisher: Louisiana Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250207162753/https://doe.louisiana.gov/docs/default-source/technology-footprint/ldoe-ai-guidance.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-pdf-text
+  notes: Cover reads "Fall 2026" and "Updated 9.3.26"; `updated` holds that date. The date of the original edition is not stated in the current document.

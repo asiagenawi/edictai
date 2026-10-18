@@ -1,0 +1,8 @@
+id: us-ut-legislature
+name: Utah State Legislature
+classification: legislature
+jurisdiction: us-ut
+education_levels:
+  - k12
+  - postsecondary
+url: https://le.utah.gov/

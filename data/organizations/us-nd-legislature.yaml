@@ -1,0 +1,8 @@
+id: us-nd-legislature
+name: North Dakota Legislative Assembly
+classification: legislature
+jurisdiction: us-nd
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.ndlegis.gov/

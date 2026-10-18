@@ -1,0 +1,11 @@
+id: us-ftc
+name: Federal Trade Commission
+abbreviation: FTC
+classification: federal-agency
+jurisdiction: us
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.ftc.gov/
+watch_urls:
+  - https://www.ftc.gov/industry/technology/super-intelligence

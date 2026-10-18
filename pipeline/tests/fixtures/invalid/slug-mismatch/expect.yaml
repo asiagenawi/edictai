@@ -1,0 +1,3 @@
+rule: bill-slug
+severity: warning
+pointer: /identifier

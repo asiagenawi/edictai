@@ -1,0 +1,8 @@
+id: us-nd-governor
+name: Office of the Governor of North Dakota
+classification: governor
+jurisdiction: us-nd
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.governor.nd.gov/

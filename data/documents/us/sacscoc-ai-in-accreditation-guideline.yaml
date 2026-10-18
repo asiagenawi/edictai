@@ -1,0 +1,32 @@
+id: us-sacscoc-ai-in-accreditation-guideline
+jurisdiction: us
+issuer: sacscoc
+title: Artificial Intelligence in Accreditation
+classification: guidance
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - data-governance
+summary: Guideline from the Commission on Colleges and Universities (formerly SACSCOC) on the risks of using generative AI to prepare or review accreditation materials. It asks institutions to use only private, secure AI platforms for sensitive material, to verify AI outputs because they attest to the accuracy of what they submit, and it bars peer evaluators from putting submitted materials into AI tools that would expose them outside the review process.
+published: '2024-12-01'
+provisions:
+  - type: procurement-standards
+    description: Directs institutions to submit accreditation materials only through AI platforms that are private and do not use transmitted data for model training.
+    citation:
+      source_url: https://commissioncu.org/policies/artificial-intelligence-in-accreditation/
+      locator: Security, Integrity, and Confidentiality
+      quote: Only those platforms that are private, secure from public dissemination, and where transmitted prompts, files, or data are not used for model training should be used.
+sources:
+  - url: https://commissioncu.org/policies/artificial-intelligence-in-accreditation/
+    title: Artificial Intelligence in Accreditation
+    publisher: Commission on Colleges and Universities
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017213755/https://commissioncu.org/policies/artificial-intelligence-in-accreditation/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Published date is the page's 'Last Updated' date. The issuer renamed itself from SACSCOC to the Commission on Colleges and Universities.

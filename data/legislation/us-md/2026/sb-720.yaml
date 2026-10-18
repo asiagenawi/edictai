@@ -1,0 +1,184 @@
+id: us-md-2026-sb-720
+jurisdiction: us-md
+session: "2026"
+identifier: SB 720
+title: Education - Artificial Intelligence - Guidelines, Professional Development, and Collaborative (Artificial Intelligence Ready Schools Act)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - procurement
+  - educator-training
+  - ai-literacy
+  - curriculum-standards
+  - task-force
+summary: >-
+  Requires the Maryland State Department of Education to publish and annually review AI guidance
+  for students, educators, administrators, and parents, and requires each local school system to
+  adopt an aligned AI policy within 120 days of that guidance and designate an AI coordinator. It
+  also has the Department develop a rubric for evaluating AI tools, add AI literacy to K-12
+  workforce preparation and computer science standards by June 1, 2027, provide educator
+  professional development, and establishes a temporary Maryland AI Education Collaborative.
+abstract: >-
+  Requiring the State Department of Education to provide certain guidance on artificial
+  intelligence to local school systems, educators, parents, and students through an online
+  platform; requiring the Department to develop certain guidelines, best practices, and evaluative
+  tools to assist local school systems in the evaluation of artificial intelligence tools selected
+  for use by local school systems; establishing the Maryland AI Education Collaborative on
+  Artificial Intelligence in K-12 Education; etc.
+provisions:
+  - type: issues-model-policy
+    description: The Department must provide AI guidance through an online platform and publish separate guidance for students, educators, administrators, and parents and guardians, reviewing it each year.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf
+      locator: Education Article 7-2202(a)
+  - type: requires-local-ai-policy
+    description: Each local school system must have an AI policy aligned with the state guidance within 120 days of the guidance's release.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf
+      locator: Education Article 7-2202(c)
+      quote: EACH LOCAL SCHOOL SYSTEM SHALL HAVE AN ARTIFICIAL INTELLIGENCE POLICY ALIGNED WITH THE GUIDANCE
+  - type: procurement-standards
+    description: The Department must develop and publish a rubric and evaluative tools that local school systems must use when reviewing and selecting AI tools.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf
+      locator: Education Article 7-2202(e)
+  - type: ai-in-standards
+    description: By June 1, 2027, the Department must ensure AI literacy is a component of workforce preparation standards and computer science standards for kindergarten through grade 12.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf
+      locator: Education Article 7-2203(a)
+  - type: educator-pd-requirement
+    description: The Department must provide AI professional development to educators and school leaders covering AI concepts, classroom uses, privacy, security, and academic integrity, offered during the workday or for licensure renewal credit.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf
+      locator: Education Article 7-2203(b)
+  - type: creates-task-force
+    description: Establishes the Maryland AI Education Collaborative on Artificial Intelligence in K-12 Education to study AI use in local school systems and report annually starting December 1, 2027; this section ends May 31, 2028.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf
+      locator: Education Article 7-2204; Section 3
+sponsors:
+  - name: Hester
+    primary: true
+    chamber: upper
+  - name: Attar
+    primary: false
+    chamber: upper
+  - name: Brooks
+    primary: false
+    chamber: upper
+  - name: Feldman
+    primary: false
+    chamber: upper
+  - name: Harris
+    primary: false
+    chamber: upper
+  - name: Watson
+    primary: false
+    chamber: upper
+actions:
+  - date: "2026-02-06"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - introduction
+      - reading-1
+      - referral-committee
+  - date: "2026-03-18"
+    description: Favorable with Amendments Report by Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-19"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+      - amendment-passage
+  - date: "2026-03-20"
+    description: Third Reading Passed (41-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-21"
+    description: Referred Ways and Means
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-11"
+    description: Favorable with Amendments Report by Ways and Means; Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - committee-passage
+      - reading-2
+      - amendment-passage
+  - date: "2026-04-13"
+    description: Third Reading Passed (129-8)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-13"
+    description: Senate Concurs House Amendments; Third Reading Passed (45-0); Passed Enrolled
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-26"
+    description: Approved by the Governor - Chapter 634
+    actor: executive
+    classification:
+      - executive-signature
+      - became-law
+versions:
+  - note: Introduced
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0720f.pdf
+    archived_url: https://web.archive.org/web/20260319160446/https://mgaleg.maryland.gov/2026RS/bills/sb/sb0720F.pdf
+    media_type: application/pdf
+  - note: Third Reader
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0720t.pdf
+    archived_url: https://web.archive.org/web/20260327011405/https://mgaleg.maryland.gov/2026RS/bills/sb/sb0720t.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0720e.pdf
+    archived_url: https://web.archive.org/web/20260613191515/https://mgaleg.maryland.gov/2026RS/bills/sb/sb0720E.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-05-26"
+    url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf
+    archived_url: https://web.archive.org/web/20261009212243/https://mgaleg.maryland.gov/2026rs/Chapters_noln/CH_634_sb0720e.pdf
+    media_type: application/pdf
+session_law: Chapter 634, Laws of Maryland 2026
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0720?ys=2026RS
+    title: SB0720 2026 Regular Session
+    publisher: Maryland General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260706183832/https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0720?ys=2026RS
+  - url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf
+    title: Chapter 634 (Senate Bill 720)
+    publisher: Maryland General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261009212243/https://mgaleg.maryland.gov/2026rs/Chapters_noln/CH_634_sb0720e.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page-and-text
+  notes: Bill page lists sponsors by surname only ("Senators Hester, Attar, Brooks, Feldman, Harris, and Watson"); the first-listed sponsor is recorded as primary. Effective June 1, 2026.

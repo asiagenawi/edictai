@@ -1,0 +1,24 @@
+id: us-tx-2025-sb-20
+jurisdiction: us-tx
+session: "2025"
+identifier: SB 20
+title: Relating to AI tutoring pilots
+classification: bill
+education_levels: [k12, postsecondary]
+topics: [funding]
+summary: Would fund AI tutoring pilots.
+actions:
+  - date: 2025-02-01
+    description: Filed
+    actor: upper
+    classification: [introduction]
+  - date: 2025-02-30
+    description: Referred to Education
+    actor: upper
+    classification: [referral-committee]
+sources:
+  - url: https://example.org/tx/sb20
+    kind: official
+    accessed: 2026-09-15
+verification:
+  status: unverified

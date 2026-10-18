@@ -1,0 +1,7 @@
+id: us-mt
+ocd_id: "ocd-division/country:us/state:mt"
+name: Montana
+abbreviation: MT
+classification: state
+fips: "30"
+region: West

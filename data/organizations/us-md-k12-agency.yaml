@@ -1,0 +1,10 @@
+id: us-md-k12-agency
+name: Maryland State Department of Education
+abbreviation: MSDE
+classification: k12-agency
+jurisdiction: us-md
+education_levels:
+  - k12
+url: https://msde.maryland.gov/
+watch_urls:
+  - https://msde.maryland.gov/academics-0/artificial-intelligence

@@ -1,0 +1,3 @@
+rule: schema
+pointer: /sponsors/1/classification
+message: "'caucus' is not one of"

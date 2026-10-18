@@ -1,0 +1,8 @@
+id: us-nc-higher-ed-agency
+name: University of North Carolina System
+abbreviation: UNC System
+classification: higher-ed-agency
+jurisdiction: us-nc
+education_levels:
+  - postsecondary
+url: https://www.northcarolina.edu/

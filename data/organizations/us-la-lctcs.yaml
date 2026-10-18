@@ -1,0 +1,8 @@
+id: us-la-lctcs
+name: Louisiana Community and Technical College System
+abbreviation: LCTCS
+classification: university-system
+jurisdiction: us-la
+education_levels:
+  - postsecondary
+url: https://www.lctcs.edu/

@@ -1,0 +1,3 @@
+rule: load
+file: data/documents/us-tx/broken.yaml
+message: YAML parse error

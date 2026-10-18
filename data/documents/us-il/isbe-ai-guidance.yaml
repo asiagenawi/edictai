@@ -1,0 +1,65 @@
+id: us-il-isbe-ai-guidance
+jurisdiction: us-il
+issuer: us-il-k12-agency
+title: Artificial Intelligence Guidance
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - student-privacy
+  - data-governance
+  - procurement
+  - academic-integrity
+  - synthetic-media
+  - safety-wellbeing
+  - equity-access
+  - institutional-operations
+summary: >-
+  Statewide, non-mandatory guidance from the Illinois State Board of Education on AI use in
+  prekindergarten through grade 12, developed under Public Act 104-0399 with a blue-ribbon
+  advisory panel. It frames AI as a means to inform teaching and learning that keeps the
+  teacher-student relationship central, and offers districts tools, model policy resources, and
+  case studies on instruction, AI literacy, data privacy, and local decision-making.
+published: "2026-07-09"
+provisions:
+  - type: issues-model-policy
+    description: Provides model policy resources for districts, including district-wide, acceptable use, and informed use policy models, without creating statewide mandates for classroom AI use.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.isbe.net/Documents/AIGuidance.pdf
+      locator: Table of contents, "Resources, Tools, and Decision Supports > Model Policies - District Wide, AUP, IUP"
+authorized_by: us-il-2025-2026-sb-1920
+related:
+  - us-il-2023-2024-hb-3563
+sources:
+  - url: https://www.isbe.net/Documents/AIGuidance.pdf
+    title: Artificial Intelligence Guidance (June 2026)
+    publisher: Illinois State Board of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260801193729/https://www.isbe.net/Documents/AIGuidance.pdf
+  - url: https://www.isbe.net/Lists/News/DispForm.aspx?ID=1593
+    title: ISBE Releases Statewide Guidance on Artificial Intelligence in Schools
+    publisher: Illinois State Board of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261012093342/https://www.isbe.net/Lists/News/DispForm.aspx?ID=1593
+  - url: https://www.isbe.net/AIGuidance
+    title: AI Guidance
+    publisher: Illinois State Board of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017224646/https://www.isbe.net/AIGuidance
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-document-and-press-release
+  notes: >-
+    The PDF cover is dated June 2026; ISBE's press release announcing it is dated Thursday, July 9,
+    2026, used here as the publication date. The PDF is 408 pages (legacy record said 409). The
+    guidance notes that initial drafts used AI tools. The press release states it does not create
+    statewide mandates for classroom AI use.

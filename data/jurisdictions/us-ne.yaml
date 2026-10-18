@@ -1,0 +1,7 @@
+id: us-ne
+ocd_id: "ocd-division/country:us/state:ne"
+name: Nebraska
+abbreviation: NE
+classification: state
+fips: "31"
+region: Midwest

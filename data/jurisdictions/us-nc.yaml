@@ -1,0 +1,7 @@
+id: us-nc
+ocd_id: "ocd-division/country:us/state:nc"
+name: North Carolina
+abbreviation: NC
+classification: state
+fips: "37"
+region: Southeast

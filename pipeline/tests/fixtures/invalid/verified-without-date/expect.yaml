@@ -1,0 +1,3 @@
+rule: schema
+pointer: /verification
+message: "'last_verified' is a required property"

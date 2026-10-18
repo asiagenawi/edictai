@@ -1,0 +1,8 @@
+id: us-me-legislature
+name: Maine State Legislature
+classification: legislature
+jurisdiction: us-me
+education_levels:
+  - k12
+  - postsecondary
+url: https://legislature.maine.gov/

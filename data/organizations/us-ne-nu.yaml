@@ -1,0 +1,11 @@
+id: us-ne-nu
+name: University of Nebraska System
+abbreviation: NU
+classification: university-system
+jurisdiction: us-ne
+education_levels:
+  - postsecondary
+url: https://nebraska.edu/
+watch_urls:
+  - https://nebraska.edu/services/ai/
+  - https://nebraska.edu/offices/provosts-office/academic-affairs/nu-ai-taskforce

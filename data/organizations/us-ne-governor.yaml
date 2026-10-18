@@ -1,0 +1,8 @@
+id: us-ne-governor
+name: Office of the Governor of Nebraska
+classification: governor
+jurisdiction: us-ne
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.nebraska.gov/

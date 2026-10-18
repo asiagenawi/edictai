@@ -1,0 +1,8 @@
+id: us-mn-higher-ed-agency
+name: Minnesota Office of Higher Education
+abbreviation: OHE
+classification: higher-ed-agency
+jurisdiction: us-mn
+education_levels:
+  - postsecondary
+url: https://ohe.mn.gov/

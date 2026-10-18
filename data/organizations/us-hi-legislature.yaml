@@ -1,0 +1,8 @@
+id: us-hi-legislature
+name: Hawaii State Legislature
+classification: legislature
+jurisdiction: us-hi
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.capitol.hawaii.gov/

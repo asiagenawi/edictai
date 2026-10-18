@@ -1,0 +1,41 @@
+id: us-mo-dese-ai-guidance-leas
+jurisdiction: us-mo
+issuer: us-mo-k12-agency
+title: Artificial Intelligence Guidance for Local Education Agencies
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - local-policy-requirement
+  - student-privacy
+  - educator-training
+  - academic-integrity
+  - ai-literacy
+summary: >-
+  Missouri Department of Elementary and Secondary Education guidance (Version 1.0, 2025-26),
+  developed by its Computer Science Advisory Council, to help local education agencies write
+  their own AI policies under local control. It covers the benefits and challenges of AI,
+  data privacy, professional development, instructional best practices, AI integration, and
+  points to consider in district AI policies.
+version: "1.0"
+undated: true
+sources:
+  - url: https://dese.mo.gov/media/pdf/artificial-intelligence-guidance-local-education-agencies
+    title: Artificial Intelligence Guidance for Local Education Agencies
+    publisher: Missouri Department of Elementary and Secondary Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043154/https://dese.mo.gov/media/pdf/artificial-intelligence-guidance-local-education-agencies
+  - url: https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/04/AI_Guidance-Accessible_AOD.pdf
+    title: Artificial Intelligence Guidance for Local Education Agencies, Version 1.0 (PDF)
+    publisher: Missouri Department of Elementary and Secondary Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017214547/https://dese.mo.gov/sites/g/files/zuston521/files/media/pdf/2026/04/AI_Guidance-Accessible_AOD.pdf
+verification:
+  status: unverified
+  notes: >-
+    Content checked against the PDF on 2026-10-17. The document is labeled Version 1.0, 2025-26,
+    with no release date, so none is recorded; the file's upload path is 2026/04.

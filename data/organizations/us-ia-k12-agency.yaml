@@ -1,0 +1,7 @@
+id: us-ia-k12-agency
+name: Iowa Department of Education
+classification: k12-agency
+jurisdiction: us-ia
+education_levels:
+  - k12
+url: https://educate.iowa.gov/

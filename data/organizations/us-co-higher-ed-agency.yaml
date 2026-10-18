@@ -1,0 +1,10 @@
+id: us-co-higher-ed-agency
+name: Colorado Department of Higher Education
+abbreviation: CDHE
+classification: higher-ed-agency
+jurisdiction: us-co
+education_levels:
+  - postsecondary
+url: https://cdhe.colorado.gov/
+watch_urls:
+  - https://cdhe.colorado.gov/ai-engaged-campus-designation

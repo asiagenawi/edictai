@@ -1,0 +1,8 @@
+id: us-president
+name: Executive Office of the President
+classification: federal-agency
+jurisdiction: us
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.whitehouse.gov/

@@ -1,0 +1,24 @@
+id: us-tx-eo-ga-99
+jurisdiction: us-tx
+issuer: us-tx-governor
+number: GA-99
+title: Relating to AI in state agencies and schools
+classification: executive-order
+status: active
+signed: 2025-09-01
+expires: 2025-01-01
+education_levels: [k12, postsecondary]
+topics: [task-force]
+summary: Creates a task force on AI in education.
+provisions:
+  - type: creates-task-force
+    description: Creates a governor's task force on AI in education.
+    education_levels: [k12]
+    citation:
+      source_url: https://example.org/gov-tx/ga-99.pdf
+sources:
+  - url: https://example.org/gov-tx/ga-99.pdf
+    kind: official
+    accessed: 2026-09-20
+verification:
+  status: unverified

@@ -1,0 +1,189 @@
+id: us-va-2026-sb-394
+jurisdiction: us-va
+session: "2026"
+identifier: SB 394
+title: >-
+  Department of Education; artificial intelligence system use in instructional settings;
+  development of AIS safety guidance required; AIS Innovation in Education Pilot Program
+  established; report.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - student-privacy
+  - equity-access
+  - educator-training
+  - funding
+summary: >-
+  Requires the Virginia Department of Education to compile information on current classroom uses
+  of AI and post guidance for the safe, ethical, and equitable use of AI systems in public schools,
+  and requires each school board to adopt policies consistent with that guidance. Subject to
+  appropriation, it also creates the AIS Innovation in Education Pilot Program to fund and evaluate
+  AI pilots in school divisions, with annual reports to the legislature.
+provisions:
+  - type: issues-model-policy
+    description: >-
+      Directs the Department of Education to compile information on current AI uses in public
+      schools and post guidance for the safe, ethical, and equitable use of AI systems in
+      instructional settings, covering student data privacy, teacher training, transparency, data
+      privacy agreements barring use of student data to train external models, bias, and access.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://lis.blob.core.windows.net/files/1224638.HTML
+      locator: Va. Code 22.1-20.2:1(B)
+      quote: >-
+        establish and post in a publicly accessible location on its website guidance for the safe,
+        ethical, and equitable use of an AIS in instructional settings in public elementary and
+        secondary schools
+  - type: requires-local-ai-policy
+    description: Requires each school board to adopt and enforce policies consistent with the department's guidance.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://lis.blob.core.windows.net/files/1224638.HTML
+      locator: Va. Code 22.1-20.2:1(C)
+      quote: >-
+        Each school board shall establish, implement, and enforce policies consistent with the
+        guidance developed by the Department pursuant to subsection B.
+  - type: restricts-student-data-use
+    description: >-
+      The guidance must address data privacy agreements that prohibit using division-level or
+      student data to train or improve external AI models.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://lis.blob.core.windows.net/files/1224638.HTML
+      locator: Va. Code 22.1-20.2:1(B)(1)(d)
+  - type: appropriates-funding
+    description: >-
+      Subject to appropriation, establishes the AIS Innovation in Education Pilot Program to fund
+      and evaluate AI uses in school divisions, prioritizing high-poverty, rural, and
+      under-resourced divisions and requiring educator professional development; the pilot
+      provisions expire July 1, 2030.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://lis.blob.core.windows.net/files/1224638.HTML
+      locator: Va. Code 22.1-20.2:1(D); enactment clause 2
+  - type: educator-pd-requirement
+    description: >-
+      Pilot divisions must include professional development for educators on AI literacy and
+      responsible use.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://lis.blob.core.windows.net/files/1224638.HTML
+      locator: Va. Code 22.1-20.2:1(D)(3)
+sponsors:
+  - name: Pekarsky
+    primary: true
+    chamber: upper
+actions:
+  - date: 2026-01-13
+    description: Prefiled and ordered printed; Offered 01-14-2026 26105454D
+    actor: upper
+    classification:
+      - introduction
+  - date: 2026-01-13
+    description: Referred to Committee on Education and Health
+    actor: upper
+    classification:
+      - referral-committee
+  - date: 2026-02-12
+    description: Reported from Education and Health and rereferred to Finance and Appropriations (15-Y 0-N)
+    actor: committee
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: 2026-02-12
+    description: Reported from Finance and Appropriations (15-Y 0-N)
+    actor: committee
+    classification:
+      - committee-passage
+  - date: 2026-02-16
+    description: Read third time and passed Senate (38-Y 1-N 0-A)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: 2026-02-19
+    description: Read first time; referred to Committee on Communications, Technology and Innovation
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: 2026-02-23
+    description: Referred from Communications, Technology and Innovation and referred to Education (Voice Vote)
+    actor: lower
+    classification:
+      - referral-committee
+  - date: 2026-03-04
+    description: Reported from Education with substitute (20-Y 1-N)
+    actor: committee
+    classification:
+      - committee-passage
+  - date: 2026-03-09
+    description: Passed House with substitute (96-Y 1-N 0-A)
+    actor: lower
+    classification:
+      - reading-3
+      - amendment-passage
+      - passage
+  - date: 2026-03-10
+    description: House substitute rejected by Senate (0-Y 40-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: 2026-03-13
+    description: Conference report agreed to by Senate (37-Y 2-N 0-A)
+    actor: upper
+    classification:
+      - passage
+  - date: 2026-03-13
+    description: Conference report agreed to by House (95-Y 0-N 0-A)
+    actor: lower
+    classification:
+      - passage
+  - date: 2026-03-31
+    description: Enrolled Bill communicated to Governor on March 31, 2026
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: 2026-04-13
+    description: Approved by Governor-Chapter 943 (effective 7/1/2026)
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: 2026-01-13
+    url: https://lis.blob.core.windows.net/files/1089896.HTML
+    archived_url: https://web.archive.org/web/20261017220937/https://lis.blob.core.windows.net/files/1089896.HTML
+    media_type: text/html
+  - note: Chaptered
+    date: 2026-04-13
+    url: https://lis.blob.core.windows.net/files/1224638.HTML
+    archived_url: https://web.archive.org/web/20261017221122/https://lis.blob.core.windows.net/files/1224638.HTML
+    media_type: text/html
+session_law: Acts of Assembly 2026, Chapter 943
+related:
+  - us-va-2026-hb-1186
+sources:
+  - url: https://lis.virginia.gov/bill-details/20261/SB394
+    title: SB394 - 2026 Regular Session
+    publisher: Virginia Legislative Information System
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260708002134/https://lis.virginia.gov/bill-details/20261/SB394
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Not in legacy data; Senate companion to HB 1186, both enacted April 13, 2026. History and
+    chaptered text read from LIS public data services; chaptered text is identical to HB 1186
+    (Chapter 937). No Wayback
+    snapshot retrieved (archive unreachable at access time).

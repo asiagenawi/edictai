@@ -1,0 +1,7 @@
+id: us-de
+ocd_id: "ocd-division/country:us/state:de"
+name: Delaware
+abbreviation: DE
+classification: state
+fips: "10"
+region: Northeast

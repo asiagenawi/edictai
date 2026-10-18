@@ -1,0 +1,10 @@
+id: us-va-k12-agency
+name: Virginia Department of Education
+abbreviation: VDOE
+classification: k12-agency
+jurisdiction: us-va
+education_levels:
+  - k12
+url: https://www.doe.virginia.gov/
+watch_urls:
+  - https://www.doe.virginia.gov/teaching-learning-assessment/instructional-resources-support/technology-in-education/artificial-intelligence

@@ -1,0 +1,8 @@
+id: us-sd-governor
+name: Office of the Governor of South Dakota
+classification: governor
+jurisdiction: us-sd
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.sd.gov/

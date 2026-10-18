@@ -1,0 +1,55 @@
+id: 2025-ai-tutoring-outperforms-in-class-active-learning
+title: 'AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting'
+authors:
+  - Greg Kestin
+  - Kelly Miller
+  - Anna Klales
+  - Timothy Milbourne
+  - Gregorio Ponti
+publisher: Scientific Reports
+published: '2025-06-03'
+classification: peer-reviewed
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - research
+summary: A randomized crossover experiment in a large introductory physics course at Harvard University compared lessons delivered through a custom GPT-4 tutor, built around pedagogical best practices and pre-written solutions, with the same lessons taught through in-class active learning. Students using the AI tutor at home scored higher on post-tests, spent less time on task on average, and reported feeling more engaged and motivated.
+key_findings:
+  - finding: Median learning gains for students in the AI-tutored condition were more than double those for students in the in-class active learning condition.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/
+      locator: Results, Learning gains
+      quote: The median learning gains for students, relative to the pre-test baseline (M = 2.75, N = 316), in the AI-tutored group were over double
+  - finding: Controlling for prior knowledge and other factors, the estimated effect size was 0.63 in linear regression and 0.73 to 1.3 standard deviations in a quantile regression that accounts for a ceiling effect.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/
+      locator: Results, regression analysis
+      quote: While the linear regression suggests an effect size of 0.63, this is an underestimation due to ceiling effect
+  - finding: The median time on task with the AI tutor was 49 minutes, compared with about 60 minutes of in-class learning time, and 70% of AI-group students spent under 60 minutes.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/
+      locator: Results, Time on task
+      quote: 70% of students in the AI group spent less than 60 minutes on task, while 30% spent more than 60 minutes on task. The median time on task for students in the AI group was 49 minutes.
+  - finding: Students in the AI condition reported higher engagement and motivation than students in the in-class condition.
+    citation:
+      source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/
+      locator: Results, students' perceptions of learning
+methods: Randomized controlled crossover trial; 194 eligible students in an introductory physics course for the life sciences at Harvard University, fall 2023; two lessons (surface tension, fluid flow) with pre- and post-tests.
+geography:
+  - us-ma
+external_ids:
+  doi: 10.1038/s41598-025-97652-6
+  openalex_id: W4411505840
+sources:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/
+    title: 'AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting (PubMed Central full text)'
+    publisher: National Library of Medicine
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261009054321/https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Full text read from the PubMed Central copy; DOI recorded under external_ids. Publication date from OpenAlex.

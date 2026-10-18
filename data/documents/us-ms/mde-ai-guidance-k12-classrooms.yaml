@@ -1,0 +1,42 @@
+id: us-ms-mde-ai-guidance-k12-classrooms
+jurisdiction: us-ms
+issuer: us-ms-k12-agency
+title: "Artificial Intelligence: Guidance for K-12 Classrooms"
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - academic-integrity
+  - educator-training
+  - local-policy-requirement
+  - student-privacy
+summary: >-
+  Mississippi Department of Education guidance offering procedural advice and instructional
+  strategies to district leaders, school leaders, and teachers on appropriate AI use in schools.
+  It covers digital citizenship, strategies to deter cheating and plagiarism, standards-aligned
+  content, formative assessment, accessibility, considerations for writing an AI use policy, and
+  staff training.
+undated: true
+sources:
+  - url: https://www.mdek12.org/sites/default/files/Offices/MDE/OTSS/DL/ai_guidance_final.pdf
+    title: "Artificial Intelligence: Guidance for K-12 Classrooms"
+    publisher: Mississippi Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043145/https://www.mdek12.org/sites/default/files/Offices/MDE/OTSS/DL/ai_guidance_final.pdf
+  - url: https://mdek12.org/otss/dlresources/
+    title: Digital Learning Resources
+    publisher: Mississippi Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260313074325/https://mdek12.org/otss/dlresources/
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-document-text
+  notes: >-
+    The document is undated; the department's resources page says it held a webinar on April 17,
+    2024 to give an overview of the guidance. No date is recorded. The current resources page
+    describes the guidance but no longer links the PDF.

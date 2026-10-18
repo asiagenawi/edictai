@@ -1,0 +1,36 @@
+id: us-crac-ai-learning-evaluation-statement
+jurisdiction: us
+issuer: crac
+title: Statement on the Use of Artificial Intelligence (AI) to Advance Learning Evaluation and Recognition
+classification: statement
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+summary: Joint statement by the Council of Regional Accrediting Commissions (C-RAC), whose seven member commissions accredit about 3,000 degree-granting colleges and universities, saying that using AI in learning evaluation and credit transfer does not conflict with accreditation standards, policies, or practices. It supports transparent, accountable, and unbiased AI tools for evaluating prior learning and transfer credit.
+published: '2025-10-06'
+sources:
+  - url: https://www.c-rac.org/post/c-rac-statement-on-the-use-of-artificial-intelligence-ai-to-advance-learning-evaluation-and-recogn
+    title: C-RAC Statement on the Use of Artificial Intelligence (AI) to Advance Learning Evaluation and Recognition
+    publisher: Council of Recognized Accrediting Commissions
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260208141305/https://www.c-rac.org/post/c-rac-statement-on-the-use-of-artificial-intelligence-ai-to-advance-learning-evaluation-and-recogn
+  - url: https://68d6c276-e98a-4e4c-a61e-d7c0a9aab604.usrfiles.com/ugd/68d6c2_437ddf23a8d649d5a78504b586911982.pdf
+    title: 'Statement on the Use of Artificial Intelligence (AI) to Advance Learning Evaluation and Recognition: Full Statement'
+    publisher: Council of Recognized Accrediting Commissions
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260414053034/https://68d6c276-e98a-4e4c-a61e-d7c0a9aab604.usrfiles.com/ugd/68d6c2_437ddf23a8d649d5a78504b586911982.pdf
+  - url: https://www.msche.org/2025/10/06/c-rac-releases-statement-on-the-use-of-artificial-intelligence-ai/
+    title: C-RAC Releases Statement on the Use of Artificial Intelligence (AI)
+    publisher: Middle States Commission on Higher Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20251022084659/https://www.msche.org/2025/10/06/c-rac-releases-statement-on-the-use-of-artificial-intelligence-ai/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Date taken from the MSCHE announcement, which states the statement was released October 6, 2025.

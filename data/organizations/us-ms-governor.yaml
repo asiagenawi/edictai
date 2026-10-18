@@ -1,0 +1,8 @@
+id: us-ms-governor
+name: Office of the Governor of Mississippi
+classification: governor
+jurisdiction: us-ms
+education_levels:
+  - k12
+  - postsecondary
+url: https://governorreeves.ms.gov/

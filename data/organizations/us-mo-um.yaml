@@ -1,0 +1,10 @@
+id: us-mo-um
+name: University of Missouri System
+abbreviation: UM System
+classification: university-system
+jurisdiction: us-mo
+education_levels:
+  - postsecondary
+url: https://www.umsystem.edu/
+watch_urls:
+  - https://www.umsystem.edu/departments-staff/information-technology/artificial-intelligence

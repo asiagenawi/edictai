@@ -1,0 +1,60 @@
+id: us-eo-14110
+jurisdiction: us
+issuer: us-president
+number: EO 14110
+title: Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence
+classification: executive-order
+status: rescinded
+signed: 2023-10-30
+ended: 2025-01-20
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - instructional-use
+  - equity-access
+  - student-privacy
+  - workforce
+summary: >-
+  Government-wide executive order on AI safety, security, and civil rights.
+  Its education provision directed the Secretary of Education to develop
+  resources, policies, and guidance on safe, responsible, and
+  nondiscriminatory AI use in education, including an AI toolkit for
+  education leaders. It was revoked by Executive Order 14148 on January 20,
+  2025.
+provisions:
+  - type: issues-model-policy
+    description: Directed the Secretary of Education to develop, within 365 days, resources, policies, and guidance on AI in education, including an "AI toolkit" for education leaders.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence
+      locator: Sec. 8(d)
+      quote: the Secretary of Education shall, within 365 days of the date of this order, develop resources, policies, and guidance regarding AI
+related:
+  - us-eo-14277
+external_ids:
+  federal_register_document_number: 2023-24283
+sources:
+  - url: https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence
+    title: Executive Order 14110 (88 FR 75191)
+    publisher: Federal Register
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20261010031151/https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence
+  - url: https://www.federalregister.gov/documents/2025/01/28/2025-01901/initial-rescissions-of-harmful-executive-orders-and-actions
+    title: Executive Order 14148, Initial Rescissions of Harmful Executive Orders and Actions (90 FR 8237)
+    publisher: Federal Register
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20261013020555/https://www.federalregister.gov/documents/2025/01/28/2025-01901/initial-rescissions-of-harmful-executive-orders-and-actions
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Signing date and education provision checked against FR Doc. 2023-24283;
+    revocation checked against EO 14148 Sec. 2(ggg), signed 2025-01-20.
+    Legacy corrections: legacy source URL (whitehouse.gov briefing-room) now
+    returns 404, replaced with the Federal Register; legacy said the order
+    created "guidelines for AI use in schools", but the text directs
+    resources, policies, and guidance plus an AI toolkit; legacy topic
+    Procurement is not supported by the education text and was dropped.

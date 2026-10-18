@@ -1,0 +1,7 @@
+id: us-tx
+ocd_id: "ocd-division/country:us/state:tx"
+name: Texas
+abbreviation: TX
+classification: state
+fips: "48"
+region: Southwest

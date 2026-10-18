@@ -1,0 +1,46 @@
+id: 2026-tyton-time-for-class-2026
+title: 'Time for Class 2026: The AI Tipping Point: From Monitoring Students to Engaging Them'
+authors:
+  - Catherine Shaw
+  - Hadley Dorn
+  - Amrita Narayanan
+  - Louise Hay
+  - Gates Bryant
+publisher: Tyton Partners
+published: '2026-06-12'
+classification: survey
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - assessment
+  - academic-integrity
+summary: Annual national surveys of students, instructors, and administrators at US colleges, fielded in April and May 2026, on AI adoption, assessment practices, institutional AI policy, and workforce readiness. More than half of each group reported at least weekly AI use, faculty who redesigned assessments around AI reported better engagement than those who restricted it, and few institutions had an institution-wide AI policy.
+key_findings:
+  - finding: For the first time, more than half of administrators, faculty, and students reported using AI at least weekly.
+    citation:
+      source_url: https://tytonpartners.com/time-for-class-2026-the-ai-tipping-point-from-monitoring-students-to-engaging-them/
+      locator: Key insights
+      quote: For the first time, more than half of administrators, faculty, and students use AI at least weekly, with daily GenAI use at its highest point since Spring 2023 (43% of administrators, 32% of students, and 25% of faculty).
+  - finding: Only 13% of faculty at institutions that ban AI said their policy was effective, compared with 30% where AI is integrated into assignments.
+    citation:
+      source_url: https://tytonpartners.com/time-for-class-2026-the-ai-tipping-point-from-monitoring-students-to-engaging-them/
+      locator: Key insights
+      quote: Only 13% of faculty at institutions that ban AI entirely say their policy is effective, versus 30% where AI is integrated into assignments.
+  - finding: 32% of administrators reported an institution-wide AI policy; where one existed, 22% of faculty considered it effective versus 44% of administrators.
+    citation:
+      source_url: https://tytonpartners.com/time-for-class-2026-the-ai-tipping-point-from-monitoring-students-to-engaging-them/
+      locator: Key insights
+      quote: Just 32% of administrators report an institution-wide AI policy, and where one exists, only 22% of faculty believe it's effective compared to 44% of administrators.
+methods: National surveys of more than 3,000 students, instructors, and administrators at over 750 US colleges and universities, fielded April-May 2026.
+sources:
+  - url: https://tytonpartners.com/time-for-class-2026-the-ai-tipping-point-from-monitoring-students-to-engaging-them/
+    title: 'Time for Class 2026: The AI Tipping Point: From Monitoring Students to Engaging Them'
+    publisher: Tyton Partners
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Findings taken from the publisher's release page; the full report download was not read. Supported by the Gates Foundation, with D2L as research insight partner, per the release page. No Wayback capture was found.

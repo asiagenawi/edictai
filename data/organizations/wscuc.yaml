@@ -1,0 +1,9 @@
+id: wscuc
+name: WASC Senior College and University Commission
+abbreviation: WSCUC
+classification: accreditor
+education_levels:
+  - postsecondary
+url: https://www.wscuc.org/
+watch_urls:
+  - https://www.wscuc.org/documents/artificial-intelligence-in-accreditation-policy-principles-and-restrictions/

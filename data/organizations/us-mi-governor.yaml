@@ -1,0 +1,8 @@
+id: us-mi-governor
+name: Office of the Governor of Michigan
+classification: governor
+jurisdiction: us-mi
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.michigan.gov/whitmer

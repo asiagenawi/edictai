@@ -1,0 +1,8 @@
+id: us-mt-higher-ed-agency
+name: Montana University System
+abbreviation: MUS
+classification: higher-ed-agency
+jurisdiction: us-mt
+education_levels:
+  - postsecondary
+url: https://mus.edu/

@@ -1,0 +1,40 @@
+id: 2025-ecs-ai-pilot-programs-k12
+title: AI Pilot Programs in K-12 Settings
+authors:
+  - Sam Comai
+publisher: Education Commission of the States
+published: '2025-06-24'
+classification: brief
+education_levels:
+  - k12
+topics:
+  - funding
+  - instructional-use
+  - equity-access
+summary: Education Commission of the States blog post describing state and district AI pilot programs in K-12 schools, including Connecticut's classroom pilot, Indiana's AI platform grant, Iowa's AI reading tutor rollout, Kentucky's early warning tool, and a New Mexico attendance pilot. It also notes equity concerns about access and about the accuracy of predictive early warning systems.
+key_findings:
+  - finding: At least five states had implemented or were developing AI pilot programs; Connecticut launched one in seven districts in spring 2025 for students in grades 7-12.
+    citation:
+      source_url: https://www.ecs.org/ai-artificial-intelligence-pilots-k12-schools/
+      quote: At least five states have implemented or are in the process of developing pilot programs to foster integration and responsible use in the classroom.
+  - finding: Indiana's 2023-24 AI-Powered Platform Pilot Grant used $2 million in federal COVID relief funds, and 53% of participating teachers rated their experience positive or very positive.
+    citation:
+      source_url: https://www.ecs.org/ai-artificial-intelligence-pilots-k12-schools/
+      quote: Of the teachers who participated, 53% indicated that their experience was either positive or very positive.
+  - finding: Iowa announced a $3 million investment to provide all elementary schools with an AI reading tutor tool.
+    citation:
+      source_url: https://www.ecs.org/ai-artificial-intelligence-pilots-k12-schools/
+      quote: The Iowa Department of Education announced a $3 million investment to provide all Iowa elementary schools (public and nonpublic) with an AI reading tutor tool
+methods: Descriptive review of publicly reported state and district AI pilot programs as of spring 2025.
+sources:
+  - url: https://www.ecs.org/ai-artificial-intelligence-pilots-k12-schools/
+    title: AI Pilot Programs in K-12 Settings
+    publisher: Education Commission of the States
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260725063117/https://www.ecs.org/ai-artificial-intelligence-pilots-k12-schools/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Written by a guest researcher for ECS; the post states that views are the author's. Publication date from the page's datePublished metadata.

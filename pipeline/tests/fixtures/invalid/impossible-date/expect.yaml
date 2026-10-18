@@ -1,0 +1,3 @@
+rule: schema
+pointer: /actions/1/date
+message: not a real calendar date

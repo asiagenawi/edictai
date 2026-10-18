@@ -1,0 +1,50 @@
+id: us-oh-dew-ai-model-policy
+jurisdiction: us-oh
+issuer: us-oh-k12-agency
+title: 'AI in Education: Model Policy for Ohio Districts and Schools'
+classification: model-policy
+status: current
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - academic-integrity
+  - student-privacy
+  - procurement
+summary: >-
+  A model board policy on artificial intelligence released by the Ohio Department of Education
+  and Workforce on December 30, 2025, as required by Ohio Revised Code 3301.24. Districts,
+  community schools, and STEM schools, which must adopt an AI policy by July 1, 2026, may adopt it
+  as written or customize it. It covers student and staff use, ethics and academic integrity,
+  data privacy and security, curriculum integration, and review of third-party AI tools.
+published: '2025-12-30'
+authorized_by: us-oh-2025-2026-hb-96
+related:
+  - us-oh-2025-2026-hb-96
+sources:
+  - url: https://education.ohio.gov/Topics/AI-in-Ohio-s-Education/Model-Policy
+    title: AI Model Policy for Ohio Districts and Schools
+    publisher: Ohio Department of Education and Workforce
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260911183433/https://education.ohio.gov/Topics/AI-in-Ohio-s-Education/Model-Policy
+  - url: https://education.ohio.gov/getattachment/Topics/AI-in-Ohio-s-Education/Model-Policy/AI-In-Education-Model-Policy.pdf.aspx?lang=en-US
+    title: 'AI in Education: Model Policy for Ohio Districts and Schools'
+    publisher: Ohio Department of Education and Workforce
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260522185551/https://education.ohio.gov/getattachment/Topics/AI-in-Ohio-s-Education/Model-Policy/AI-In-Education-Model-Policy.pdf.aspx?lang=en-US
+  - url: https://education.ohio.gov/Media/Media-Releases/2025-Media-Releases/Ohio-Department-of-Education-and-Workforce-Release
+    title: Ohio Department of Education and Workforce Releases AI in Education Model Policy
+    publisher: Ohio Department of Education and Workforce
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260609024740/https://education.ohio.gov/Media/Media-Releases/2025-Media-Releases/Ohio-Department-of-Education-and-Workforce-Release
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-source-fetch
+  notes: >-
+    Model policy PDF, landing page, and December 30, 2025 media release fetched. Classified as
+    model-policy because it is a template board policy schools may adopt; it is not binding on its own.

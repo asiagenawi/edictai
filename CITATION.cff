@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use Edictai data or software, please cite it as below."
+type: dataset
+title: "Edictai: AI in Education Policy in the United States"
+abstract: >-
+  An open dataset of artificial intelligence policy in US education, covering K-12 and
+  higher education in the 50 states, the District of Columbia, and the federal government:
+  legislation, agency guidance, executive actions, university system and accreditor policy,
+  and research. Records are YAML files validated by JSON Schema and built into SQLite, CSV,
+  and Parquet.
+authors:
+  - family-names: Genawi
+    given-names: Asia
+repository-code: "https://github.com/asiagenawi/statescope"
+url: "https://asiagenawi.github.io/statescope/"
+license: CC-BY-4.0
+keywords:
+  - artificial intelligence
+  - education policy
+  - K-12
+  - higher education
+  - legislation
+  - open data
+references:
+  - type: software
+    title: "Edictai"
+    authors:
+      - family-names: Genawi
+        given-names: Asia
+    repository-code: "https://github.com/asiagenawi/statescope"
+    license: MIT

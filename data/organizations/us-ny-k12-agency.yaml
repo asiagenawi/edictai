@@ -1,0 +1,11 @@
+id: us-ny-k12-agency
+name: New York State Education Department
+abbreviation: NYSED
+classification: k12-agency
+jurisdiction: us-ny
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.nysed.gov/
+watch_urls:
+  - https://www.acces.nysed.gov/bpss/schools/use-artificial-intelligence-ai-bpss-licensed-schools

@@ -1,0 +1,8 @@
+id: us-nh-legislature
+name: New Hampshire General Court
+classification: legislature
+jurisdiction: us-nh
+education_levels:
+  - k12
+  - postsecondary
+url: https://gc.nh.gov/

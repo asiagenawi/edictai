@@ -1,0 +1,25 @@
+id: us-tx-tamus-ai-teaching-learning-toolkit
+jurisdiction: us-tx
+issuer: us-tx-tamus
+title: 'AI in Teaching and Learning: A Toolkit for the Texas A&M University System'
+classification: toolkit
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - academic-integrity
+  - assessment
+  - student-privacy
+summary: Practical guide for faculty, instructional designers, and academic leaders on using AI in teaching while following system and institutional governance and data security requirements. It covers guiding principles, classroom applications, AI-aware assessment and integrity expectations, data privacy checks, and piloting.
+published: 2026-02
+sources:
+  - url: https://www.tamus.edu/catie/wp-content/uploads/sites/50/2026/02/AI_Toolkit_-02-02-2026.pdf
+    title: 'AI in Teaching and Learning: A Toolkit for the Texas A&M University System'
+    publisher: The Texas A&M University System
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017225843/https://www.tamus.edu/catie/wp-content/uploads/sites/50/2026/02/AI_Toolkit_-02-02-2026.pdf
+verification:
+  status: unverified
+  notes: Content was read from the official PDF; the publication month comes from the file's upload path and name, not from a date stated in the document.

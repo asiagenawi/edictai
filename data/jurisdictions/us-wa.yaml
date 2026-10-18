@@ -1,0 +1,19 @@
+id: us-wa
+ocd_id: "ocd-division/country:us/state:wa"
+name: Washington
+abbreviation: WA
+classification: state
+fips: "53"
+region: West
+sessions:
+  - identifier: 2023-2024
+    name: 2023-2024 Regular Session (68th Legislature)
+    classification: primary
+    start_date: "2023-01-09"
+    end_date: "2024-03-07"
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:wa/government?include=legislative_sessions"
+        title: "Open States API, Washington legislative sessions"
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-17"

@@ -1,0 +1,8 @@
+id: us-ks-higher-ed-agency
+name: Kansas Board of Regents
+abbreviation: KBOR
+classification: higher-ed-agency
+jurisdiction: us-ks
+education_levels:
+  - postsecondary
+url: https://kansasregents.gov/

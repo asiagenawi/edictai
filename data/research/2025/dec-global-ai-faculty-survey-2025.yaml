@@ -1,0 +1,41 @@
+id: 2025-dec-global-ai-faculty-survey-2025
+title: Digital Education Council Global AI Faculty Survey 2025
+authors:
+  - Digital Education Council
+publisher: Digital Education Council
+published: '2025-01-20'
+classification: survey
+education_levels:
+  - postsecondary
+topics:
+  - educator-training
+  - instructional-use
+  - assessment
+summary: A survey of 1,681 faculty at 52 higher education institutions in 28 countries on their use of AI, readiness, and views of institutional support. Most faculty expected to use AI in teaching and worried about students' ability to evaluate AI output, while few said their institutions' guidelines or training resources were sufficient.
+key_findings:
+  - finding: 83% of faculty were concerned about students' ability to critically evaluate AI-generated output.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/dec-insights/what-faculty-want-key-results-from-the-global-ai-faculty-survey-2025
+      locator: Faculty Concerns
+      quote: The survey revealed widespread concerns about students' ability to critically evaluate AI-generated outputs, with 83% of faculty members expressing concern.
+  - finding: 54% of faculty said current student evaluation methods are no longer adequate, with 13% calling for a complete revamp.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/dec-insights/what-faculty-want-key-results-from-the-global-ai-faculty-survey-2025
+      quote: Over half of faculty (54%) believe current student evaluation methods are no longer adequate in the age of AI, with 13% calling for an urgent, complete revamp.
+  - finding: Only 4% of faculty were fully aware of their institution's AI guidelines and found them comprehensive, and 6% fully agreed their institution provided sufficient AI literacy training resources.
+    citation:
+      source_url: https://www.digitaleducationcouncil.com/dec-insights/what-faculty-want-key-results-from-the-global-ai-faculty-survey-2025
+      quote: only 4% of faculty are fully aware of their institutional AI guidelines and feel they are fully comprehensive. Just 6% fully agree that their institutions have provided sufficient resources to train faculty's AI literacy.
+methods: Survey of 1,681 faculty members at 52 higher education institutions in 28 countries.
+sources:
+  - url: https://www.digitaleducationcouncil.com/dec-insights/what-faculty-want-key-results-from-the-global-ai-faculty-survey-2025
+    title: 'What Faculty Want: Key Results from the Global AI Faculty Survey 2025'
+    publisher: Digital Education Council
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260905004625/https://www.digitaleducationcouncil.com/dec-insights/what-faculty-want-key-results-from-the-global-ai-faculty-survey-2025
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Findings taken from the publisher's key-results article dated January 28, 2025; the report itself is listed on the publisher's site as January 20, 2025. The full PDF was not read.

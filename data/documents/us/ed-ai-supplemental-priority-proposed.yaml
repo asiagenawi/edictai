@@ -1,0 +1,47 @@
+id: us-ed-ai-supplemental-priority-proposed
+jurisdiction: us
+issuer: us-ed
+title: Proposed Priority and Definitions-Secretary's Supplemental Priority and Definitions on Advancing Artificial Intelligence in Education
+classification: policy
+status: superseded
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - instructional-use
+summary: >-
+  Notice of proposed priority published by the Department of Education for
+  use in its discretionary grant competitions, covering AI literacy, AI and
+  computer science education, educator professional development, and use of
+  AI to personalize learning and reduce administrative burden. Public
+  comments were due August 20, 2025. It was finalized, with changes, in April
+  2026.
+published: 2025-07-21
+superseded_by: us-ed-ai-supplemental-priority-final
+authorized_by: us-eo-14277
+related:
+  - us-ed-ai-grant-funds-dear-colleague-letter
+sources:
+  - url: https://www.federalregister.gov/documents/2025/07/21/2025-13650/proposed-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing
+    title: Proposed Priority and Definitions (90 FR 34203, FR Doc. 2025-13650, Docket ED-2025-OS-0118)
+    publisher: Federal Register
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260530015349/https://www.federalregister.gov/documents/2025/07/21/2025-13650/proposed-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing
+  - url: https://www.ed.gov/about/news/press-release/us-department-of-education-issues-guidance-artificial-intelligence-use-schools-proposes-additional-supplemental-priority
+    title: U.S. Department of Education Issues Guidance on Artificial Intelligence Use in Schools, Proposes Additional Supplemental Priority
+    publisher: U.S. Department of Education
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260813035131/https://www.ed.gov/about/news/press-release/us-department-of-education-issues-guidance-artificial-intelligence-use-schools-proposes-additional-supplemental-priority
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Publication date, comment deadline, and docket checked against FR Doc.
+    2025-13650. The link to EO 14277 is stated in the ED press release.

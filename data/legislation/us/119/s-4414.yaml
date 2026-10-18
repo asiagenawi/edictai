@@ -1,0 +1,75 @@
+id: us-119-s-4414
+jurisdiction: us
+session: "119"
+identifier: S. 4414
+title: LIFT AI Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - research
+summary: >-
+  Would authorize the National Science Foundation to make competitive awards to colleges and nonprofits to
+  develop K-12 AI literacy curricula, instructional materials, teacher professional development, and
+  evaluation tools. The bill was referred to the Senate Commerce, Science, and Transportation Committee.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Funds development of formal and informal K-12 AI literacy curricula and augmentation of existing curricula to include AI literacy; does not mandate instruction.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.govinfo.gov/content/pkg/BILLS-119s4414is/html/BILLS-119s4414is.htm
+      locator: Sec. 2(b)-(c)
+      quote: to support research activities to develop educational curricula, instructional material, teacher professional development, and evaluation methods for AI literacy at the K-12 level
+  - type: educator-pd-requirement
+    description: Allows awards to fund AI literacy professional development for state and local educational agencies, principals, and educators.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.govinfo.gov/content/pkg/BILLS-119s4414is/html/BILLS-119s4414is.htm
+      locator: Sec. 2(c)(4)
+sponsors:
+  - name: Sen. Schiff, Adam B. [D-CA]
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: 2026-04-28
+    description: Introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: 2026-04-28
+    description: Read twice and referred to the Committee on Commerce, Science, and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+versions:
+  - note: Introduced
+    date: 2026-04-28
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s4414is/html/BILLS-119s4414is.htm
+    archived_url: https://web.archive.org/web/20260710191608/https://www.govinfo.gov/content/pkg/BILLS-119s4414is/html/BILLS-119s4414is.htm
+    media_type: text/html
+external_ids:
+  congress_gov: 119/s/4414
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/4414
+    title: S.4414 - LIFT AI Act
+    publisher: Congress.gov
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260508161829/https://www.congress.gov/bill/119th-congress/senate-bill/4414
+  - url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4414.xml
+    title: Bill status XML, S. 4414 (119th Congress)
+    publisher: U.S. Government Publishing Office
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260705083307/https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4414.xml
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: govinfo-billstatus-and-text

@@ -1,0 +1,72 @@
+id: us-ut-usbe-ai-framework
+jurisdiction: us-ut
+issuer: us-ut-k12-agency
+title: "Artificial Intelligence Framework for Utah P-12 Education: Guidance on the Use of AI in Our Schools"
+classification: framework
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - academic-integrity
+  - student-privacy
+  - ai-literacy
+  - educator-training
+  - equity-access
+  - synthetic-media
+  - institutional-operations
+summary: >-
+  Utah State Board of Education guidance for students, staff, and school communities on
+  responsible use of AI, especially generative AI, in instruction, school management, and
+  operations where local policy permits. It sets guiding principles, lists responsible and
+  prohibited uses (including AI-manipulated media for bullying, plagiarism, and uses that
+  compromise privacy), and addresses safety, security, and privacy. The version posted at access
+  is dated March 2026 and is described as a living document.
+updated: 2026-03
+provisions:
+  - type: academic-integrity-rules
+    description: >-
+      States that students should not submit AI-generated work as their own and that teachers will
+      clarify when and how AI tools may be used on assignments.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://schools.utah.gov/informationtechnology/artificialintelligence/_artificialintelligence/AIFramework.pdf
+      locator: p. 11, Prohibited Use of AI Tools
+      quote: Students should not submit AI-generated work as their original work.
+  - type: addresses-deepfakes
+    description: >-
+      Prohibits using AI tools to manipulate media to impersonate others for bullying, harassment,
+      or intimidation.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://schools.utah.gov/informationtechnology/artificialintelligence/_artificialintelligence/AIFramework.pdf
+      locator: p. 11, Prohibited Use of AI Tools
+      quote: >-
+        Using AI tools to manipulate media to impersonate others for bullying, harassment, or any
+        form of intimidation is strictly prohibited.
+related:
+  - us-ut-2026-hb-273
+sources:
+  - url: https://schools.utah.gov/informationtechnology/artificialintelligence/index
+    title: Artificial Intelligence
+    publisher: Utah State Board of Education
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20261001235656/https://www.schools.utah.gov/informationtechnology/artificialintelligence/index
+  - url: https://schools.utah.gov/informationtechnology/artificialintelligence/_artificialintelligence/AIFramework.pdf
+    title: "Artificial Intelligence Framework for Utah P-12 Education: Guidance on the Use of AI in Our Schools (March 2026)"
+    publisher: Utah State Board of Education
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260811081933/https://schools.utah.gov/informationtechnology/artificialintelligence/_artificialintelligence/AIFramework.pdf
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Legacy dated the framework April 2024. The PDF now posted is dated March 2026 (footer "AI
+    Framework, 2026"); earlier versions are not recorded here, so `updated` records the current
+    version. Legacy topic "Data Governance" replaced with student-privacy. No Wayback snapshot
+    retrieved (archive unreachable at access time).

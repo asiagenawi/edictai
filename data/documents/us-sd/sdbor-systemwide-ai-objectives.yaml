@@ -1,0 +1,32 @@
+id: us-sd-sdbor-systemwide-ai-objectives
+jurisdiction: us-sd
+issuer: us-sd-higher-ed-agency
+title: BOR Systemwide Objectives for AI Integration
+classification: statement
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - ai-literacy
+  - curriculum-standards
+  - research
+summary: 'The South Dakota Board of Regents announced systemwide objectives for adopting AI at the state''s public universities. The work is organized into five components: governance and infrastructure, curricular and program impacts, agentic AI in operations, research, and AI literacy for students, faculty, and staff.'
+published: '2026-05-20'
+sources:
+  - url: https://sdbor.edu/news/bor-systemwide-objectives-for-ai-integration-5-20-26/
+    title: BOR Systemwide Objectives for AI Integration
+    publisher: South Dakota Board of Regents
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260611095951/https://sdbor.edu/news/bor-systemwide-objectives-for-ai-integration-5-20-26/
+  - url: https://sdbor.edu/ai-ready/
+    title: AI at South Dakota's Public Universities
+    publisher: South Dakota Board of Regents
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260918122336/https://sdbor.edu/ai-ready/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

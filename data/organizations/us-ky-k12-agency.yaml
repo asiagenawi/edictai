@@ -1,0 +1,10 @@
+id: us-ky-k12-agency
+name: Kentucky Department of Education
+abbreviation: KDE
+classification: k12-agency
+jurisdiction: us-ky
+education_levels:
+  - k12
+url: https://www.education.ky.gov/
+watch_urls:
+  - https://www.education.ky.gov/districts/tech/Pages/A.I.-in-Kentucky-Education.aspx

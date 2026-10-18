@@ -1,0 +1,48 @@
+id: us-ky-kde-ai-guidance-brief
+jurisdiction: us-ky
+issuer: us-ky-k12-agency
+title: Artificial Intelligence Guidance Brief
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+  - educator-training
+  - ai-literacy
+  - local-policy-requirement
+summary: >-
+  Kentucky Department of Education guidance brief from its Office of Education Technology that
+  urges districts to treat AI like other emerging technologies, emphasizing consistency, balance,
+  and normalization, and offers guiding questions on data privacy, tool vetting, and reviewing AI
+  output. It sets out the department's principles for responsible AI governance under the KETS
+  Master Plan and is offered as an example for districts writing their own AI policies.
+updated: "2025-12"
+provisions:
+  - type: issues-model-policy
+    description: The brief is offered as an example for districts creating their own AI use and integration policies.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://kets.news/ai
+      locator: Introduction (p. 4)
+      quote: this document can serve as an example to districts creating their own AI usage/integration policies
+sources:
+  - url: https://kets.news/ai
+    title: Artificial Intelligence Guidance Brief (Updated December 2025)
+    publisher: Kentucky Department of Education, Office of Education Technology
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017220326/https://drive.google.com/file/d/1QH4InW_EUBRUswGLkR-IH6RDLUcAZYx4/view?usp=drive_link
+  - url: https://www.education.ky.gov/districts/tech/Pages/A.I.-in-Kentucky-Education.aspx
+    title: AI in Kentucky K-12, September 2026
+    publisher: Kentucky Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260815234657/https://www.education.ky.gov/districts/tech/Pages/A.I.-in-Kentucky-Education.aspx
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-pdf-text
+  notes: The KDE page links the brief through the short link kets.news/ai, which redirects to a Google Drive-hosted PDF. Cover reads "2025" and "Updated December 2025"; the original release date is not stated.

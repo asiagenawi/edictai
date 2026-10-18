@@ -1,0 +1,10 @@
+id: us-nd-k12-agency
+name: North Dakota Department of Public Instruction
+abbreviation: NDDPI
+classification: k12-agency
+jurisdiction: us-nd
+education_levels:
+  - k12
+url: https://www.nd.gov/dpi/
+watch_urls:
+  - https://www.nd.gov/dpi/policyguidelines/north-dakota-k-12-ai-guidance-framework

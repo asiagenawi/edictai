@@ -1,0 +1,19 @@
+id: us-fl
+ocd_id: "ocd-division/country:us/state:fl"
+name: Florida
+abbreviation: FL
+classification: state
+fips: "12"
+region: Southeast
+sessions:
+  - identifier: '2024'
+    name: 2024 Regular Session
+    classification: primary
+    start_date: '2024-01-09'
+    end_date: '2024-03-08'
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:fl/government?include=legislative_sessions"
+        title: "Open States API, Florida legislative sessions"
+        publisher: Open States
+        kind: secondary
+        accessed: '2026-10-17'

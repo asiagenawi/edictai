@@ -1,0 +1,13 @@
+id: us-hi
+ocd_id: "ocd-division/country:us/state:hi"
+name: Hawaii
+abbreviation: HI
+classification: state
+fips: "15"
+region: West
+sessions:
+  - identifier: "2025-2026"
+    name: Thirty-Third Legislature (Regular Sessions of 2025 and 2026)
+    classification: primary
+    start_date: "2025-01-15"
+    end_date: "2026-05-08"

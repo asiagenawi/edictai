@@ -1,0 +1,8 @@
+id: us-id-higher-ed-agency
+name: Idaho State Board of Education
+abbreviation: SBOE
+classification: higher-ed-agency
+jurisdiction: us-id
+education_levels:
+  - postsecondary
+url: https://boardofed.idaho.gov/

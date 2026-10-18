@@ -1,0 +1,27 @@
+id: us-sacscoc-good-practices-generative-ai
+jurisdiction: us
+issuer: sacscoc
+title: Good Practices in the Use of Generative AI
+classification: guidance
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - academic-integrity
+  - data-governance
+  - instructional-use
+summary: Good-practices document from the Commission on Colleges and Universities (formerly SACSCOC) meant to serve as guiding principles for member institutions on responsible and ethical use of generative AI. It covers institutional leadership, AI policies and regulations, governance, ethics and integrity, student achievement, and implications for institutional planning.
+published: '2025-06-01'
+sources:
+  - url: https://commissioncu.org/policies/good-practices-in-the-use-of-generative-ai/
+    title: Good Practices in the Use of Generative AI
+    publisher: Commission on Colleges and Universities
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017213859/https://commissioncu.org/policies/good-practices-in-the-use-of-generative-ai/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Published date is the page's 'Last Updated' date.

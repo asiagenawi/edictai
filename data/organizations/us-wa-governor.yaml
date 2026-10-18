@@ -1,0 +1,8 @@
+id: us-wa-governor
+name: Office of the Governor of Washington
+classification: governor
+jurisdiction: us-wa
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.wa.gov/

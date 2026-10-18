@@ -1,0 +1,8 @@
+id: us-mo-higher-ed-agency
+name: Missouri Department of Higher Education and Workforce Development
+abbreviation: MDHEWD
+classification: higher-ed-agency
+jurisdiction: us-mo
+education_levels:
+  - postsecondary
+url: https://dhewd.mo.gov/

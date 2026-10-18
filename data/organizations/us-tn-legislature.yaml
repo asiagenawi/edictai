@@ -1,0 +1,8 @@
+id: us-tn-legislature
+name: Tennessee General Assembly
+classification: legislature
+jurisdiction: us-tn
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.capitol.tn.gov/

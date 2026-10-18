@@ -1,0 +1,8 @@
+id: us-ny-legislature
+name: New York State Legislature
+classification: legislature
+jurisdiction: us-ny
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.nysenate.gov/

@@ -1,0 +1,8 @@
+id: us-pa-higher-ed-agency
+name: Pennsylvania State Board of Higher Education
+abbreviation: SBHE
+classification: higher-ed-agency
+jurisdiction: us-pa
+education_levels:
+  - postsecondary
+url: https://www.pa.gov/agencies/sbhe

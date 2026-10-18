@@ -1,0 +1,42 @@
+id: us-nj-eo-346
+jurisdiction: us-nj
+issuer: us-nj-governor
+number: Executive Order No. 346
+title: Establishing the Artificial Intelligence Task Force
+classification: executive-order
+status: active
+signed: "2023-10-10"
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - research
+summary: >-
+  Governor Phil Murphy created an advisory Artificial Intelligence Task Force, whose members
+  include the Commissioner of Education and the Secretary of Higher Education, to study the
+  impacts of emerging AI and recommend government actions, with a report due within 12 months.
+  The order also directs the Office of the Secretary of Higher Education to review AI as a
+  research opportunity for New Jersey colleges and universities.
+provisions:
+  - type: creates-task-force
+    description: Establishes the Artificial Intelligence Task Force, including the Commissioner of Education and the Secretary of Higher Education, to report findings and recommendations within 12 months.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://nj.gov/infobank/eo/056murphy/pdf/EO-346.pdf
+      locator: Paras. 1, 2, 5
+      quote: (v) the Commissioner of the Department of Education; (vi) the Secretary of Higher Education
+sources:
+  - url: https://nj.gov/infobank/eo/056murphy/pdf/EO-346.pdf
+    title: Executive Order No. 346
+    publisher: Office of the Governor of New Jersey
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260930011308/https://nj.gov/infobank/eo/056murphy/pdf/EO-346.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-order-text
+  notes: The order text carries no formal title; the title here describes paragraph 1.

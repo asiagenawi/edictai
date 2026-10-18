@@ -1,0 +1,53 @@
+id: 2025-gallup-walton-teaching-for-tomorrow-ai
+title: 'Teaching for Tomorrow: Unlocking Six Weeks a Year With AI'
+authors:
+  - Gallup
+  - Walton Family Foundation
+publisher: Gallup
+published: '2025-06-24'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - educator-training
+summary: Gallup and the Walton Family Foundation surveyed U.S. public K-12 teachers in spring 2025 about how often they use AI tools, for which tasks, and how much time it saves. Six in 10 teachers used AI for work, weekly users estimated saving about six hours a week, and teachers in schools with an AI policy reported more use and larger time savings.
+key_findings:
+  - finding: Six in 10 teachers used an AI tool for their work in 2024-25, and 32 percent used AI at least weekly.
+    citation:
+      source_url: https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx
+      quote: In the 2024-25 school year, six in 10 teachers reported using an AI tool for their work.
+  - finding: Teachers who used AI at least weekly estimated saving 5.9 hours per week, equivalent to about six weeks over a school year.
+    citation:
+      source_url: https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx
+      locator: Regular Users Earn an Estimated “AI Dividend” of 5.9 Hours per Week
+      quote: Teachers who use AI tools at least weekly estimate they save 5.9 hours per week, on average. Over the course of a 37.4-week school year, these time savings add up to the equivalent of six weeks per school year .
+  - finding: Only 19 percent of teachers worked at schools with an AI policy; those schools saw higher AI use and a 26 percent larger average time savings per teacher.
+    citation:
+      source_url: https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf
+      locator: p. 17
+      quote: schools with an AI policy are earning an AI dividend that is 26% greater than schools without an AI policy (2.3 vs. 1.7 hours saved per week per teacher).
+  - finding: Most teachers (68 percent) had not received any school- or district-provided AI training.
+    citation:
+      source_url: https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf
+      locator: p. 18
+      quote: most teachers (68%) have not engaged in any training provided by their school or district on how to use AI or AI tools.
+methods: Web survey of 2,232 U.S. public K-12 teachers recruited from the RAND American Teacher Panel, March 18 to April 11, 2025, weighted to national teacher and school demographics; margin of error ±2.5 points.
+sources:
+  - url: https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx
+    title: Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year
+    publisher: Gallup
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260916100115/https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx
+  - url: https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf
+    title: 'Teaching for Tomorrow: Unlocking Six Weeks a Year With AI (report PDF)'
+    publisher: Gallup
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260810105850/https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Publication date is the release date of Gallup's news article on the report.

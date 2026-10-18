@@ -1,0 +1,8 @@
+id: us-md-usm
+name: University System of Maryland
+abbreviation: USM
+classification: university-system
+jurisdiction: us-md
+education_levels:
+  - postsecondary
+url: https://www.usmd.edu/

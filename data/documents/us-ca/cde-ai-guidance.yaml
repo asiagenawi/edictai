@@ -1,0 +1,39 @@
+id: us-ca-cde-ai-guidance
+jurisdiction: us-ca
+issuer: us-ca-k12-agency
+title: Guidance for the Safe and Effective Use of Artificial Intelligence in California Public Schools
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - equity-access
+  - academic-integrity
+  - student-privacy
+  - educator-training
+summary: Non-binding California Department of Education guidance for TK-12 schools, developed with the AI working group created by SB 1288. It is organized around human-centered AI, AI literacy, equitable access, academic integrity, and data privacy, and replaces the department's 2023 AI guidance.
+published: '2026-01-09'
+authorized_by: us-ca-2023-2024-sb-1288
+related:
+  - us-ca-cde-ai-model-policy
+  - us-ca-cde-learning-with-ai
+sources:
+  - url: https://www.cde.ca.gov/ci/pl/aiincalifornia.asp
+    title: Artificial Intelligence - Professional Learning
+    publisher: California Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260922195950/https://www.cde.ca.gov/ci/pl/aiincalifornia.asp
+  - url: https://www.cde.ca.gov/nr/el/le/yr26ltr0109.asp
+    title: Release of California Artificial Intelligence in Education Guidance (letter, January 9, 2026)
+    publisher: California Department of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260512190702/https://www.cde.ca.gov/nr/el/le/yr26ltr0109.asp
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: The CDE page labels this the "2025 Guidance"; the Superintendent's letter announcing its release is dated January 9, 2026.

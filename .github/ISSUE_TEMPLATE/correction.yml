@@ -1,0 +1,61 @@
+name: Correction
+description: Report an error or outdated information in an existing record.
+title: "Correction: "
+labels: ["data", "correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the data accurate. Corrections backed by an official source
+        (a legislature, agency, university system, or accreditor) can be resolved fastest.
+  - type: input
+    id: record
+    attributes:
+      label: Record
+      description: The record ID (for example `us-tx-2025-hb-1481`) or a link to the record on the site.
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong?
+      multiple: true
+      options:
+        - Status or legislative history
+        - Summary
+        - Topics or provisions
+        - Dates
+        - Education level (K-12 / higher education)
+        - Title, number, or issuer
+        - Source link is broken or wrong
+        - Record is out of scope
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What the record says now, and what it should say.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: A link to the official text that supports the correction.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: locator
+    attributes:
+      label: Where in the source
+      description: Section, page, or a short quotation, if it helps locate the relevant text.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues for this record.
+          required: true

@@ -1,0 +1,102 @@
+id: us-ms-2025-sb-2426
+jurisdiction: us-ms
+session: "2025"
+identifier: SB 2426
+title: Artificial Intelligence Task Force; create and prescribe responsibilities of.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+summary: >-
+  Creates the Artificial Intelligence Regulation (AIR) Task Force to study AI applications,
+  risks, and policy options for Mississippi and report recommendations to the Legislature each
+  year by December 1. Its ex officio expert members include people from K-12 education and from
+  four-year and two-year postsecondary education; the task force dissolves December 31, 2027.
+abstract: >-
+  AN ACT TO ESTABLISH THE ARTIFICIAL INTELLIGENCE REGULATION (AIR) TASK FORCE; TO PROVIDE FOR
+  THE APPOINTMENT OF MEMBERS OF THE TASK FORCE, INCLUDING EX-OFFICIO MEMBERS; TO SPECIFY THE TASK
+  FORCE'S PURPOSE AND DUTIES; TO DIRECT THE TASK FORCE TO STUDY AND EVALUATE ARTIFICIAL
+  INTELLIGENCE APPLICATIONS, RISKS AND POLICY RECOMMENDATIONS; TO REQUIRE THAT THE TASK FORCE WILL
+  REPORT ITS FINDINGS AND ANY RECOMMENDATIONS TO THE LEGISLATURE ANNUALLY; TO AUTHORIZE FUNDS AND
+  SUPPORT FOR THE TASK FORCE'S WORK; AND FOR RELATED PURPOSES.
+provisions:
+  - type: creates-task-force
+    description: Establishes the AIR Task Force, with ex officio members from elementary and secondary education and from four-year and two-year postsecondary education, reporting annually and dissolving December 31, 2027.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426SG.htm
+      locator: Section 1
+      quote: shall dissolve in December 31, 2027
+sponsors:
+  - name: Bart Williams
+    primary: true
+    chamber: upper
+actions:
+  - date: "2025-01-20"
+    description: (S) Referred To Technology
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-02-04"
+    description: (S) Title Suff Do Pass
+    actor: committee
+    classification:
+      - committee-passage
+  - date: "2025-02-11"
+    description: (S) Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-14"
+    description: (H) Referred To Technology
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-04"
+    description: (H) Title Suff Do Pass
+    actor: committee
+    classification:
+      - committee-passage
+  - date: "2025-03-10"
+    description: (H) Passed
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-03-13"
+    description: Enrolled Bill Signed
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2025-03-18"
+    description: Approved by Governor
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: As Sent to Governor
+    url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426SG.htm
+    archived_url: https://web.archive.org/web/20260710203219/https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426SG.htm
+session_law: Chapter 385
+sources:
+  - url: https://billstatus.ls.state.ms.us/2025/pdf/history/SB/SB2426.xml
+    title: SB 2426 bill history
+    publisher: Mississippi Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260306232208/https://billstatus.ls.state.ms.us/2025/pdf/history/SB/SB2426.xml
+  - url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426SG.htm
+    title: SB 2426 (As Sent to Governor)
+    publisher: Mississippi Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260710203219/https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426SG.htm
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-page-and-text
+  notes: The official history's first entry is the January 20 committee referral; no separate introduction date is listed.

@@ -1,0 +1,19 @@
+---
+/**
+ * The Edictai wordmark: a mosaic tile mark (red pencil top left, laptop bottom
+ * right, white script E) beside a script "E", "DICT" in serif capitals and a red "AI".
+ * Clicking it replays the field's flow-in on the home page.
+ */
+interface Props { size?: number }
+const { size = 37 } = Astro.props;
+---
+<div class="word"><svg class="mark" width={size} height={size} viewBox="0 0 48 48" aria-hidden="true"><defs><clipPath id="mk"><rect x="2" y="2" width="44" height="44" rx="5"/></clipPath></defs><g clip-path="url(#mk)"><rect x="2" y="2" width="44" height="44" fill="var(--yellow)"/><circle cx="9" cy="9" r="7" fill="var(--red)"/><rect x="16" y="2" width="14" height="14" fill="var(--blue)"/><path d="M38 2l8 8-8 8-8-8z" fill="var(--green)"/><path d="M2 30a14 14 0 0 1 14-14v14z" fill="var(--sky)"/><circle cx="24" cy="24" r="7" fill="var(--pink)"/><rect x="31" y="17" width="15" height="15" fill="var(--graphite)"/><circle cx="24" cy="39" r="7" fill="var(--blue)"/><rect x="2" y="31" width="15" height="15" fill="var(--mint)"/><rect x="2" y="2" width="15" height="15" fill="var(--mint)"/><g transform="rotate(-45 9.5 9.5)"><path d="M1.5 9.5l3-1.8v3.6z" fill="#e9c89a"/><path d="M1.5 9.5l1.1-.65v1.3z" fill="var(--graphite)"/><rect x="4.5" y="7.7" width="9" height="3.6" fill="var(--red)"/><rect x="13.5" y="7.6" width="1.4" height="3.8" fill="#b9bcc0"/><rect x="14.9" y="7.7" width="2.4" height="3.6" rx=".8" fill="var(--pink)"/></g><rect x="31" y="31" width="15" height="15" fill="var(--sky)"/><rect x="33.2" y="33.6" width="10.6" height="7" rx=".6" fill="var(--graphite)"/><rect x="34.2" y="34.6" width="8.6" height="5" fill="var(--blue)"/><path d="M32 41.4h13l1 1.6H31z" fill="#b9bcc0"/></g><text font-family="Pinyon Script, Snell Roundhand, cursive" x="24" y="37" text-anchor="middle" font-size="36" fill="#fff" stroke="#fff" stroke-width=".6">E</text></svg><span class="name"><span class="E">E</span>DICT<span class="ai">AI</span></span></div>
+
+<style>
+.word{display:flex;align-items:center;gap:12px;height:37px;cursor:pointer;user-select:none}
+.mark{flex:none;display:block}
+.name{font-family:var(--serif);font-size:27px;letter-spacing:.1em;line-height:1;font-weight:500;display:inline-flex;align-items:baseline}
+.name .E{font-family:var(--script);font-size:54px;letter-spacing:0;line-height:0;margin-right:2px;transform:translateY(6px);display:inline-block}
+.name .ai{color:var(--red)}
+@media (max-width:640px){ .name{font-size:24px} }
+</style>

@@ -1,0 +1,61 @@
+id: us-hi-hidoe-ai-guidance-employees
+jurisdiction: us-hi
+issuer: us-hi-k12-agency
+title: Artificial Intelligence (AI) Guidance for Employees
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - academic-integrity
+  - educator-training
+  - student-privacy
+  - equity-access
+summary: >-
+  Hawaii State Department of Education guidance for employees on responsible AI use, organized
+  around accountability, fairness and equity, human oversight, assessment and effectiveness,
+  professional development, and data protection. It advises against relying solely on AI
+  detection tools to determine plagiarism and against entering personally identifiable
+  information into AI tools.
+published: "2024-05"
+provisions:
+  - type: academic-integrity-rules
+    description: Advises employees not to use AI detection tools as the sole basis for determining plagiarism.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://docs.google.com/presentation/d/1LQCtWDPMaLfzGpXD1mYKQDJr2LdAZLamJHsd4xe4zbw/edit
+      locator: Accountability
+      quote: >-
+        Avoid using AI detection tools solely to determine plagiarism due to limitations of AI
+        detection tools.
+  - type: restricts-student-data-use
+    description: Directs employees to review AI tools' terms and privacy policies, obtain approval, and avoid entering PII.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://docs.google.com/presentation/d/1LQCtWDPMaLfzGpXD1mYKQDJr2LdAZLamJHsd4xe4zbw/edit
+      locator: Data Protection
+      quote: Avoid entering personally identifiable information (PII) into AI tools.
+sources:
+  - url: https://www.ocid-ddt.k12.hi.us/programs/technology-integration/ai
+    title: OCID Digital Design Team - AI
+    publisher: Hawaii State Department of Education, Office of Curriculum and Instructional Design
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043153/https://www.ocid-ddt.k12.hi.us/programs/technology-integration/ai
+  - url: https://docs.google.com/presentation/d/1LQCtWDPMaLfzGpXD1mYKQDJr2LdAZLamJHsd4xe4zbw/edit
+    title: HIDOE AI Guidance for Employees
+    publisher: Hawaii State Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20240815160720/https://docs.google.com/presentation/d/1LQCtWDPMaLfzGpXD1mYKQDJr2LdAZLamJHsd4xe4zbw/edit
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-source-fetch
+  notes: >-
+    Document is dated "Hawaii State Department of Education | May 2024" and is linked from the
+    HIDOE OCID AI page. A signed HIDOE memo version is linked there on an internal SharePoint
+    site that could not be retrieved.

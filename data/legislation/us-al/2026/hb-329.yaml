@@ -1,0 +1,138 @@
+id: us-al-2026-hb-329
+jurisdiction: us-al
+session: '2026'
+identifier: HB 329
+title: Education; public K-12 schools, completion of approved computer science course required
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+  - workforce
+summary: Adds emerging technologies, including artificial intelligence, to Alabama's statutory definition of computer science and requires public school students, beginning with the graduating class of 2032, to earn at least one credit in a department-approved computer science course or a course with embedded computer science skills. The credit can count toward mathematics, science, career and technical education, or elective requirements without raising the total credits needed to graduate.
+provisions:
+  - type: ai-in-standards
+    description: Expands the statutory definition of computer science to include emerging technologies such as artificial intelligence, which approved computer science courses meeting the graduation requirement must cover.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-enr.pdf
+      locator: Section 1, amending Code of Alabama 1975 §16-46B-1(2)
+      quote: COMPUTER SCIENCE. The study of computers and algorithmic processes, including their principles, their hardware and software designs, their implementation, and their impact on society, and their emerging technologies, including, but not limited to, artificial intelligence.
+  - type: ai-course-or-graduation-requirement
+    description: Requires students graduating in 2032 and later to earn at least one credit in an approved computer science course or a course with embedded computer science skills.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-enr.pdf
+      locator: Section 1, amending Code of Alabama 1975 §16-46B-7(c)(1)
+      quote: Beginning with the graduating class of 2032, all public school students shall demonstrate digital literacy by earning at least one credit in a department-approved, high school or college-level computer science course, or by completing a department-approved course with embedded computer science skills and experiences.
+sponsors:
+  - name: Faulkner
+    primary: true
+    chamber: lower
+  - name: Collins
+    primary: false
+    chamber: lower
+  - name: Baker
+    primary: false
+    chamber: lower
+  - name: Hulsey
+    primary: false
+    chamber: lower
+  - name: Colvin
+    primary: false
+    chamber: lower
+actions:
+  - date: '2026-01-22'
+    description: Read for the first time and referred to the House Committee on Education Policy
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+      - referral-committee
+  - date: '2026-02-04'
+    description: Reported Out of Committee House of Origin
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2026-02-05'
+    description: Read for the Second Time and placed on the Calendar
+    actor: lower
+    classification:
+      - reading-2
+  - date: '2026-02-12'
+    description: Education Policy Engrossed Substitute Offered; Motion to Adopt - Adopted Roll Call 410
+    actor: lower
+    classification:
+      - substitution
+      - amendment-passage
+  - date: '2026-02-12'
+    description: Motion to Read a Third Time and Pass as Amended - Adopted Roll Call 411
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: '2026-02-17'
+    description: Read for the first time and referred to the Senate Committee on Education Policy
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: '2026-02-25'
+    description: Reported Out of Committee Second House; Read for the Second Time and placed on the Calendar
+    actor: upper
+    classification:
+      - committee-passage
+      - reading-2
+  - date: '2026-04-07'
+    description: Motion to Read a Third Time and Pass - Adopted Roll Call 1171
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: '2026-04-07'
+    description: Delivered to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: '2026-04-16'
+    description: Enacted
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Enrolled
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-enr.pdf
+    archived_url: https://web.archive.org/web/20260518180152/https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-enr.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-eng.pdf
+    archived_url: https://web.archive.org/web/20260504065721/https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-eng.pdf
+    media_type: application/pdf
+  - note: Introduced
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-int.pdf
+    archived_url: https://web.archive.org/web/20260321204012/https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-int.pdf
+    media_type: application/pdf
+session_law: Act 2026-507
+related:
+  - us-al-2025-hb-332
+sources:
+  - url: https://alison.legislature.state.al.us/bill-search
+    title: ALISON bill search - HB329, 2026 Regular Session
+    publisher: Alabama Legislature
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260916032952/https://alison.legislature.state.al.us/bill-search
+  - url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-enr.pdf
+    title: HB329 Enrolled
+    publisher: Alabama Legislature
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260518180152/https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-enr.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: Bill history, sponsor, status and act number retrieved from the Alabama Legislature's ALISON system data service; provisions checked against the enrolled text. Effective October 1, 2026.

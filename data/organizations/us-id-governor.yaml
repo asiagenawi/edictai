@@ -1,0 +1,8 @@
+id: us-id-governor
+name: Office of the Governor of Idaho
+classification: governor
+jurisdiction: us-id
+education_levels:
+  - k12
+  - postsecondary
+url: https://gov.idaho.gov/

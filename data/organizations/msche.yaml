@@ -1,0 +1,9 @@
+id: msche
+name: Middle States Commission on Higher Education
+abbreviation: MSCHE
+classification: accreditor
+education_levels:
+  - postsecondary
+url: https://www.msche.org/
+watch_urls:
+  - https://www.msche.org/policies-guidelines/use-of-artificial-intelligence-policy/

@@ -1,0 +1,103 @@
+id: us-ct-2024-hb-5524
+jurisdiction: us-ct
+session: '2024'
+identifier: HB 5524
+title: An Act Authorizing and Adjusting Bonds of the State and Concerning Provisions Related to State and Municipal Tax Administration, General Government and School Building Projects
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+  - educator-training
+  - student-privacy
+summary: An omnibus bonding and implementer act whose Sections 143 and 144 directed the Connecticut State Department of Education to run an artificial intelligence education tool pilot program in five school districts for fiscal year 2024-25, with grants to implement a commissioner-selected AI tool in grades 7-12, and to provide related professional development for educators in the participating districts.
+provisions:
+  - type: appropriates-funding
+    description: Creates a one-year AI education tool pilot program under which the Commissioner of Education awards grants to five local or regional boards of education to implement an existing AI tool for classroom instruction in a grade from seven to twelve.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.cga.ct.gov/2024/ACT/PA/PDF/2024PA-00151-R00HB-05524-PA.PDF
+      locator: Sec. 143(a)-(b), p. 193
+      quote: For the fiscal year ending June 30, 2025, the Department of Education shall administer an artificial intelligence education tool pilot program. Under such pilot program, the Commissioner of Education shall award a grant to assist such boards in implementing an existing artificial intelligence tool, selected by the commissioner, that will be used by educators and students for classroom instruction and student learning.
+  - type: educator-pd-requirement
+    description: Requires the Department of Education to provide professional development to educators in the pilot districts on using the selected AI tool safely, its benefits, and laws on AI and student data privacy.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.cga.ct.gov/2024/ACT/PA/PDF/2024PA-00151-R00HB-05524-PA.PDF
+      locator: Sec. 144, p. 194
+      quote: For the fiscal year ending June 30, 2025, the Department of Education shall provide professional development for educators employed by the local and regional boards of education participating in the artificial intelligence education tool pilot program pursuant to section 143 of this act.
+sponsors:
+  - name: Matthew Ritter
+    primary: true
+    chamber: lower
+  - name: Martin M. Looney
+    primary: true
+    chamber: upper
+  - name: Jason Rojas
+    primary: true
+    chamber: lower
+  - name: Bob Duff
+    primary: true
+    chamber: upper
+actions:
+  - date: '2024-05-07'
+    description: Emergency Certification
+    actor: lower
+    classification:
+      - introduction
+  - date: '2024-05-07'
+    description: House Passed
+    actor: lower
+    classification:
+      - passage
+  - date: '2024-05-07'
+    description: Transmitted Pursuant To Joint Rule 17
+    actor: lower
+    classification:
+      - other
+  - date: '2024-05-08'
+    description: Senate Passed
+    actor: upper
+    classification:
+      - passage
+  - date: '2024-05-22'
+    description: (LCO) Public Act 24-151
+    actor: legislature
+    classification:
+      - other
+  - date: '2024-05-31'
+    description: Transmitted by Secretary of the State to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: '2024-06-06'
+    description: Signed by the Governor
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Public Act
+    url: https://www.cga.ct.gov/2024/ACT/PA/PDF/2024PA-00151-R00HB-05524-PA.PDF
+    archived_url: https://web.archive.org/web/20260423220103/https://www.cga.ct.gov/2024/act/pa/pdf/2024PA-00151-R00HB-05524-PA.pdf
+    media_type: application/pdf
+session_law: Public Act 24-151
+sources:
+  - url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB05524&which_year=2024
+    title: H.B. No. 5524 Session Year 2024 - Bill Status
+    publisher: Connecticut General Assembly
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260113133546/https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?which_year=2024&selBillType=Bill&bill_num=HB05524
+  - url: https://www.cga.ct.gov/2024/ACT/PA/PDF/2024PA-00151-R00HB-05524-PA.PDF
+    title: Public Act No. 24-151
+    publisher: Connecticut General Assembly
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260423220103/https://www.cga.ct.gov/2024/act/pa/pdf/2024PA-00151-R00HB-05524-PA.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch

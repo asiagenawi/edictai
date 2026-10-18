@@ -1,0 +1,86 @@
+id: us-eo-14277
+jurisdiction: us
+issuer: us-president
+number: EO 14277
+title: Advancing Artificial Intelligence Education for American Youth
+classification: executive-order
+status: active
+signed: 2025-04-23
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - educator-training
+  - task-force
+  - workforce
+  - funding
+  - research
+summary: >-
+  Sets a federal policy of promoting AI literacy and proficiency through AI
+  education, educator training, and early exposure to AI concepts. Creates the
+  White House Task Force on Artificial Intelligence Education, chaired by the
+  OSTP Director, and directs it to plan a Presidential Artificial Intelligence
+  Challenge for students and educators. Directs the Department of Education to
+  issue guidance on using grant funds for AI and to prioritize AI in teacher
+  training grants, and directs the Department of Labor to expand AI-related
+  apprenticeships and high school AI coursework.
+provisions:
+  - type: creates-task-force
+    description: Establishes the White House Task Force on Artificial Intelligence Education, chaired by the Director of the Office of Science and Technology Policy.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth
+      locator: Sec. 4(a)-(b)
+      quote: There is hereby established the White House Task Force on Artificial Intelligence Education (Task Force).
+  - type: issues-model-policy
+    description: Directs the Secretary of Education to issue guidance within 90 days on using formula and discretionary grant funds to improve education outcomes using AI.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth
+      locator: Sec. 6(c)
+      quote: the Secretary of Education shall issue guidance regarding the use of formula and discretionary grant funds to improve education outcomes using AI
+  - type: educator-pd-requirement
+    description: Directs the Secretary of Education to prioritize the use of AI in discretionary teacher-training grant programs, including professional development so educators can integrate AI fundamentals into all subject areas.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth
+      locator: Sec. 7(a)
+      quote: providing professional development for all educators, so they can integrate the fundamentals of AI into all subject areas
+  - type: ai-workforce-program
+    description: Directs the Secretary of Labor to grow Registered Apprenticeships in AI-related occupations and to support AI courses and certification programs for high school students.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth
+      locator: Sec. 8(a), 8(d)
+      quote: Prioritizing the development and growth of Registered Apprenticeships in AI-related occupations.
+related:
+  - us-ed-ai-grant-funds-dear-colleague-letter
+  - us-ed-ai-supplemental-priority-proposed
+  - us-ed-ai-supplemental-priority-final
+external_ids:
+  federal_register_document_number: 2025-07368
+sources:
+  - url: https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth
+    title: Executive Order 14277, Advancing Artificial Intelligence Education for American Youth (90 FR 17519)
+    publisher: Federal Register
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260910204710/https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth
+  - url: https://www.whitehouse.gov/presidential-actions/2025/04/advancing-artificial-intelligence-education-for-american-youth/
+    title: Advancing Artificial Intelligence Education for American Youth
+    publisher: The White House
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20261003053649/https://www.whitehouse.gov/presidential-actions/2025/04/advancing-artificial-intelligence-education-for-american-youth/
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Text checked against the Federal Register publication (FR Doc. 2025-07368,
+    90 FR 17519, published 2025-04-28). Legacy record framed the order as
+    K-12 only; the order also covers postsecondary teacher preparation (HEA
+    Title II) and dual enrollment, so both education levels are set. Executive
+    Order 14434 (2026-09-29) directs agencies to use "Super Intelligence (SI)"
+    in place of "AI", and federal pages now refer to the Task Force and the
+    Challenge with "SI"; it does not amend or revoke this order.

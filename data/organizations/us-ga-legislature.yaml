@@ -1,0 +1,8 @@
+id: us-ga-legislature
+name: Georgia General Assembly
+classification: legislature
+jurisdiction: us-ga
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.legis.ga.gov/

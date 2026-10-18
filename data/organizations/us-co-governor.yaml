@@ -1,0 +1,8 @@
+id: us-co-governor
+name: Office of the Governor of Colorado
+classification: governor
+jurisdiction: us-co
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.colorado.gov/governor

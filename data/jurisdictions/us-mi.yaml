@@ -1,0 +1,7 @@
+id: us-mi
+ocd_id: "ocd-division/country:us/state:mi"
+name: Michigan
+abbreviation: MI
+classification: state
+fips: "26"
+region: Midwest

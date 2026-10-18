@@ -1,0 +1,10 @@
+id: us-ca-csu
+name: California State University
+abbreviation: CSU
+classification: university-system
+jurisdiction: us-ca
+education_levels:
+  - postsecondary
+url: https://www.calstate.edu/
+watch_urls:
+  - https://www.calstate.edu/impact-of-the-csu/technology/ai-empowered-csu/Pages/default.aspx

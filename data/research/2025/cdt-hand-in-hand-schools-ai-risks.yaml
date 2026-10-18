@@ -1,0 +1,58 @@
+id: 2025-cdt-hand-in-hand-schools-ai-risks
+title: 'Hand in Hand: Schools’ Embrace of AI Connected to Increased Risks to Students'
+authors:
+  - Elizabeth Laird
+  - Maddy Dwyer
+  - Hannah Quay-de la Vallee
+publisher: Center for Democracy & Technology
+published: '2025-10-08'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - student-privacy
+  - safety-wellbeing
+  - synthetic-media
+  - ai-literacy
+  - instructional-use
+summary: The Center for Democracy & Technology surveyed nationally representative samples of high school students and middle and high school teachers and parents in summer 2025 about AI use in schools and related risks. Most respondents had used AI, and students and teachers in schools that use AI for more purposes were more likely to report risks such as data breaches, deepfake harassment, and troubling student interactions with chatbots.
+key_findings:
+  - finding: Eighty-five percent of teachers and 86 percent of students reported using AI during the 2024-25 school year.
+    citation:
+      source_url: https://cdt.org/wp-content/uploads/2025/10/FINAL-CDT-2025-Hand-in-Hand-Polling-100225-accessible.pdf
+      locator: AI Literacy section, p. 34
+      quote: 85 percent of teachers report they have used AI in at least one way in their classroom in the past school year (2024-25), and 86 percent of students say they have used AI for either school or personal use.
+  - finding: Teachers and students reporting many school-related AI uses were more likely to report exposure to risks including data breaches, tech-enabled harassment, AI systems that do not work as intended, and troubling student-technology interactions.
+    citation:
+      source_url: https://cdt.org/wp-content/uploads/2025/10/FINAL-CDT-2025-Hand-in-Hand-Polling-100225-accessible.pdf
+      locator: Emerging Risks, p. 11
+      quote: 'Teachers and students who report many school-related uses are also more likely to report exposure to risks like:'
+  - finding: Forty-two percent of students said they or a friend had used AI for mental health support, and 42 percent as a friend or companion, in the past school year.
+    citation:
+      source_url: https://cdt.org/wp-content/uploads/2025/10/FINAL-CDT-2025-Hand-in-Hand-Polling-100225-accessible.pdf
+      locator: Table 3, p. 25
+      quote: As a friend/companion 42%
+  - finding: Forty-eight percent of teachers and of students said they had received AI training or information from their school.
+    citation:
+      source_url: https://cdt.org/wp-content/uploads/2025/10/FINAL-CDT-2025-Hand-in-Hand-Polling-100225-accessible.pdf
+      locator: Figure 30, p. 35
+      quote: Almost half of teachers and students report that they have received some training or information about AI from someone at their school, and most found it helpful.
+methods: Online surveys of nationally representative samples of 1,030 9th-12th grade students, 806 6th-12th grade teachers, and 1,018 6th-12th grade parents, fielded June to August 2025 with quotas and weighting to national demographics.
+sources:
+  - url: https://cdt.org/insights/hand-in-hand-schools-embrace-of-ai-connected-to-increased-risks-to-students/
+    title: 'Hand in Hand: Schools’ Embrace of AI Connected to Increased Risks to Students'
+    publisher: Center for Democracy & Technology
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20251008163536/https://cdt.org/insights/hand-in-hand-schools-embrace-of-ai-connected-to-increased-risks-to-students/
+  - url: https://cdt.org/wp-content/uploads/2025/10/FINAL-CDT-2025-Hand-in-Hand-Polling-100225-accessible.pdf
+    title: Hand in Hand (full report PDF)
+    publisher: Center for Democracy & Technology
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20251008182241/https://cdt.org/wp-content/uploads/2025/10/FINAL-CDT-2025-Hand-in-Hand-Polling-100225-accessible.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The CDT site returned HTTP 403 to automated requests; the report page and PDF were read from Wayback Machine captures of the official URLs.

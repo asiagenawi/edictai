@@ -1,0 +1,8 @@
+id: us-ky-higher-ed-agency-2
+name: Kentucky Community and Technical College System
+abbreviation: KCTCS
+classification: higher-ed-agency
+jurisdiction: us-ky
+education_levels:
+  - postsecondary
+url: https://kctcs.edu/

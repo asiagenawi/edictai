@@ -1,0 +1,25 @@
+id: us-ok-osrhe-transforming-higher-education-with-ai
+jurisdiction: us-ok
+issuer: us-ok-higher-ed-agency
+title: Transforming Oklahoma Higher Education with Artificial Intelligence
+classification: guidance
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - institutional-operations
+  - data-governance
+  - ai-literacy
+summary: Guide developed by the Oklahoma State Regents for Higher Education with recommendations for colleges and universities on AI in governance, operations, and pedagogy. It states that it is not law or regulation, and the Oklahoma AI Impact in Higher Education Committee was a primary contributor.
+published: 2024-09
+sources:
+  - url: https://okhighered.org/wp-content/uploads/2024/09/AI-higher-ed-whitepaper.pdf
+    title: Transforming Oklahoma Higher Education with Artificial Intelligence
+    publisher: Oklahoma State Regents for Higher Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20241118210234/https://okhighered.org/wp-content/uploads/2024/09/AI-higher-ed-whitepaper.pdf
+verification:
+  status: unverified
+  notes: Content was read from the official PDF; the publication month comes from the file's upload path, not from a date stated in the document.

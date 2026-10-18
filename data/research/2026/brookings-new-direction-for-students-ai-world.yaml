@@ -1,0 +1,53 @@
+id: 2026-brookings-new-direction-for-students-ai-world
+title: 'A New Direction for Students in an AI World: Prosper, Prepare, Protect'
+authors:
+  - Mary Burns
+  - Rebecca Winthrop
+  - Natasha Luther
+  - Emma Venetis
+  - Rida Karim
+publisher: Brookings Institution, Center for Universal Education
+published: '2026-01-14'
+classification: report
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - ai-literacy
+  - student-privacy
+  - procurement
+  - equity-access
+summary: The Brookings Global Task Force on AI in Education conducted a yearlong global "premortem" study of the risks generative AI poses to children's learning and development, drawing on consultations with more than 500 people in 50 countries, a review of more than 400 studies, and a Delphi panel. It concludes that at this point the risks to children's education overshadow the benefits, and it offers recommendations under three pillars, Prosper, Prepare, and Protect.
+key_findings:
+  - finding: The study concludes that, at this point in its development, the risks of generative AI in children's education overshadow its benefits, largely because the risks undermine foundational development.
+    citation:
+      source_url: https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/
+      quote: we find that at this point in its trajectory, the risks of utilizing generative AI in children’s education overshadow its benefits. This is largely because the risks of AI differ in nature from its benefits—that is, these risks undermine children’s foundational development
+  - finding: The authors find that well-designed AI tools can benefit learning when used within a pedagogically sound approach, while overreliance can put children's learning capacity, wellbeing, relationships, safety, and privacy at risk.
+    citation:
+      source_url: https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/
+      quote: Overreliance on AI tools and platforms can put children and youth’s fundamental learning capacity at risk.
+  - finding: Recommendations include comprehensive regulatory frameworks for educational AI and procurement that protects student privacy, safety, and security.
+    citation:
+      source_url: https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/
+      locator: Protect pillar
+      quote: Procure technology that protects students’ privacy, safety, and security.
+methods: Yearlong global qualitative study with interviews, focus groups, and consultations with more than 500 students, teachers, parents, education leaders, and technologists in 50 countries; review of more than 400 studies; Delphi panel.
+sources:
+  - url: https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/
+    title: 'A new direction for students in an AI world: Prosper, prepare, protect'
+    publisher: Brookings Institution
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261013031710/https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/
+  - url: https://www.brookings.edu/wp-content/uploads/2026/01/A-New-Direction-for-Students-in-an-AI-World-FULL-REPORT.pdf
+    title: 'A New Direction for Students in an AI World: Prosper, Prepare, Protect (full report)'
+    publisher: Brookings Institution
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261001171852/https://www.brookings.edu/wp-content/uploads/2026/01/A-New-Direction-for-Students-in-an-AI-World-FULL-REPORT.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Global study, not limited to the United States. Authors taken from the full report's title page; date from the web page's datePublished metadata.

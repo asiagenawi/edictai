@@ -1,0 +1,48 @@
+id: 2025-common-sense-teens-ai-companions
+title: 'Talk, Trust, and Trade-Offs: How and Why Teens Use AI Companions'
+authors:
+  - Michael B. Robb
+  - Supreet Mann
+publisher: Common Sense Media
+published: '2025-07-16'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - student-privacy
+summary: Common Sense Media and NORC surveyed a nationally representative sample of U.S. teens ages 13 to 17 in spring 2025 about their use of AI companions such as Character.AI and Replika. Most teens had used AI companions and about half used them regularly; a third of users had discussed serious matters with an AI companion instead of a person, and a third had felt uncomfortable with something one said or did.
+key_findings:
+  - finding: Seventy-two percent of teens had used AI companions at least once, and 52 percent were regular users.
+    citation:
+      source_url: https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf
+      locator: Key Findings, finding 1
+      quote: Seventy-two percent of teens have used AI companions at least once, and over half (52%) qualify as regular users who interact with these platforms at least a few times a month.
+  - finding: Thirty-three percent of AI companion users had chosen to discuss important or serious matters with an AI companion instead of real people.
+    citation:
+      source_url: https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf
+      locator: Key Findings, finding 9
+      quote: Among AI companion users, 33% have chosen to discuss important or serious matters with AI companions instead of real people
+  - finding: Thirty-four percent of users reported feeling uncomfortable with something an AI companion had said or done.
+    citation:
+      source_url: https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf
+      locator: Key Findings, finding 8
+      quote: One-third of users experience discomfort with AI companions.
+methods: Nationally representative survey of 1,060 U.S. teens ages 13-17 conducted by NORC at the University of Chicago, April 30 to May 14, 2025, combining the probability-based AmeriSpeak Teen Omnibus with a nonprobability sample.
+sources:
+  - url: https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions
+    title: 'Talk, Trust, and Trade-Offs: How and Why Teens Use AI Companions'
+    publisher: Common Sense Media
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261011092450/https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions
+  - url: https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf
+    title: Talk, Trust, and Trade-Offs (full report PDF)
+    publisher: Common Sense Media
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261013040926/https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

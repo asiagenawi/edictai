@@ -1,0 +1,50 @@
+id: us-dc-osse-ai-model-policy-staff-use
+jurisdiction: us-dc
+issuer: us-dc-k12-agency
+title: LEA AI Model Policy for Staff Use, 2026-27 School Year
+classification: model-policy
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - institutional-operations
+  - student-privacy
+  - educator-training
+  - ai-literacy
+  - local-policy-requirement
+summary: A customizable model policy from the Office of the State Superintendent of Education for DC local education agencies to adapt for staff use of AI; adoption is optional. It sorts staff uses into a "stoplight" framework, with red uses (such as student discipline decisions, teacher evaluations, and IEP or Section 504 eligibility) prohibited, yellow uses (such as grading and drafting IEPs) allowed with enhanced oversight, and green uses (such as lesson planning) allowed with human review. It does not cover student use or tool procurement.
+published: 2026-09-01
+provisions:
+  - type: educator-pd-requirement
+    description: The model policy has staff complete approved AI training, show AI literacy before use, and renew the training each year.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://osse.dc.gov/sites/default/files/dc/sites/osse/page_content/attachments/LEA%20AI%20Model%20Policy%20Booklet%20Sept%202026.pdf
+      locator: p. 8, Requirements for Staff Use
+      quote: All staff using AI tools for professional purposes must complete [replace with LEA name] approved training modules about the safe, legal, ethical, effective, and equitable use of AI in educational settings.
+sources:
+  - url: https://osse.dc.gov/sites/default/files/dc/sites/osse/page_content/attachments/LEA%20AI%20Model%20Policy%20Booklet%20Sept%202026.pdf
+    title: LEA AI Model Policy for Staff Use, 2026-27 School Year
+    publisher: Office of the State Superintendent of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261009151716/https://osse.dc.gov/sites/default/files/dc/sites/osse/page_content/attachments/LEA%20AI%20Model%20Policy%20Booklet%20Sept%202026.pdf
+  - url: https://osse.dc.gov/release/osse-releases-ai-model-policy-guide-responsible-staff-use-schools
+    title: OSSE Releases AI Model Policy to Guide Responsible Staff Use in Schools
+    publisher: Office of the State Superintendent of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261017221852/https://osse.dc.gov/release/osse-releases-ai-model-policy-guide-responsible-staff-use-schools
+  - url: https://osse.dc.gov/page/education-and-digital-technology
+    title: Education and Digital Technology
+    publisher: Office of the State Superintendent of Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260814170038/https://osse.dc.gov/page/education-and-digital-technology
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: Released 2026-09-01 per the OSSE press release; the PDF cover reads September 2026.

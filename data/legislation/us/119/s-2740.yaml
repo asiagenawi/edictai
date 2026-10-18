@@ -1,0 +1,65 @@
+id: us-119-s-2740
+jurisdiction: us
+session: "119"
+identifier: S. 2740
+title: RAISE Act of 2025
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+summary: >-
+  Would amend the Elementary and Secondary Education Act of 1965 so that the academic standards states adopt
+  may include standards for artificial intelligence and other emerging technologies. The bill was referred
+  to the Senate HELP Committee.
+provisions:
+  - type: ai-in-standards
+    description: Adds standards for AI and other emerging technologies to the state academic standards provision of ESEA Section 1111(b)(1)(C).
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.govinfo.gov/content/pkg/BILLS-119s2740is/html/BILLS-119s2740is.htm
+      locator: Sec. 2
+      quote: including standards for artificial intelligence and other emerging technologies
+sponsors:
+  - name: Sen. Husted, Jon [R-OH]
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: 2025-09-09
+    description: Introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: 2025-09-09
+    description: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+versions:
+  - note: Introduced
+    date: 2025-09-09
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s2740is/html/BILLS-119s2740is.htm
+    archived_url: https://web.archive.org/web/20260710114325/https://www.govinfo.gov/content/pkg/BILLS-119s2740is/html/BILLS-119s2740is.htm
+    media_type: text/html
+external_ids:
+  congress_gov: 119/s/2740
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/2740
+    title: S.2740 - RAISE Act of 2025
+    publisher: Congress.gov
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260219190620/https://www.congress.gov/bill/119th-congress/senate-bill/2740
+  - url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s2740.xml
+    title: Bill status XML, S. 2740 (119th Congress)
+    publisher: U.S. Government Publishing Office
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260705084116/https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s2740.xml
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: govinfo-billstatus-and-text

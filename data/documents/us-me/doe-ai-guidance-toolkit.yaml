@@ -1,0 +1,47 @@
+id: us-me-doe-ai-guidance-toolkit
+jurisdiction: us-me
+issuer: us-me-k12-agency
+title: Maine DOE AI Guidance Toolkit
+classification: toolkit
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - educator-training
+  - local-policy-requirement
+  - equity-access
+  - student-privacy
+summary: >-
+  An interactive toolkit from the Maine Department of Education's Office of Teaching and
+  Learning that pairs AI guidance with practical tools, scenarios, and learning opportunities,
+  grounded in digital citizenship and computer science. Developed with Maine educators, it
+  offers a framework to help shape district policies and stresses that AI should support, not
+  replace, human connection and critical thinking, while promoting equity, privacy, and digital
+  literacy.
+published: "2025-02-20"
+sources:
+  - url: https://view.genially.com/6717d13429a41768c92aa057
+    title: AI Guidance Toolkit
+    publisher: Maine Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043156/https://view.genially.com/6717d13429a41768c92aa057
+  - url: https://mainedoenews.net/2025/02/20/maine-department-of-education-releases-interactive-ai-guidance-toolkit-for-schools-and-educators/
+    title: Maine Department of Education Releases Interactive AI Guidance Toolkit for Schools and Educators
+    publisher: Maine Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250513124512/https://mainedoenews.net/2025/02/20/maine-department-of-education-releases-interactive-ai-guidance-toolkit-for-schools-and-educators/
+  - url: https://www.maine.gov/doe/learning/technology/guidance
+    title: Technology Guidance
+    publisher: Maine Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260712062653/http://www1.maine.gov/doe/learning/technology/guidance
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-announcement-and-agency-page
+  notes: The toolkit itself is an interactive Genially presentation linked from the department's Technology Guidance page; fields are supported by the department's release announcement and guidance page.

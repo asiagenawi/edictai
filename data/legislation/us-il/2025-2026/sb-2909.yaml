@@ -1,0 +1,143 @@
+id: us-il-2025-2026-sb-2909
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 2909
+title: SCH CD-Teacher Evaluation-AI
+classification: bill
+education_levels:
+  - k12
+topics:
+  - institutional-operations
+  - instructional-use
+  - employment-evaluation
+summary: >-
+  Bars teacher evaluators from using AI tools to assign scores or ratings in a teacher's
+  evaluation and bars teachers from using AI to generate evidence of professional practice for
+  their evaluations, while allowing AI for administrative tasks. Evaluators and teachers must
+  disclose the name and purpose of any AI tool they use. Takes effect January 1, 2027.
+abstract: >-
+  Amends the Evaluation of Certified Employees Article of the School Code. Prohibits an evaluator
+  from using an artificial intelligence tool to assign a numerical score or qualitative rating for
+  any component of a teacher's evaluation or any evaluation task that requires professional
+  judgment. However, allows an artificial intelligence tool to be used to support the evaluator in
+  administrative tasks.
+provisions:
+  - type: requires-disclosure
+    description: Requires evaluators and teachers to disclose the name and specific purpose of any AI tool used in the teacher evaluation process.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/104/104-0565.htm
+      locator: 105 ILCS 5/24A-5
+      quote: If an evaluator uses an artificial intelligence tool, the name and specific purpose of the artificial intelligence tool must be disclosed to the teacher being evaluated.
+sponsors:
+  - name: Christopher Belt
+    primary: true
+    chamber: upper
+  - name: Mary Beth Canty
+    primary: true
+    chamber: lower
+actions:
+  - date: "2026-01-27"
+    description: Filed with Secretary by Sen. Christopher Belt
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-27"
+    description: First Reading; Referred to Assignments
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-02-03"
+    description: Assigned to Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-18"
+    description: Do Pass Education; 012-000-000
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-25"
+    description: Second Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-26"
+    description: Recalled to Second Reading; Senate Floor Amendment No. 1 Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-04-16"
+    description: Third Reading - Passed; 055-000-000
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-17"
+    description: First Reading; Referred to Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-04-27"
+    description: Assigned to Elementary & Secondary Education - Administration, Licensing & Charter Schools
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-05-06"
+    description: Do Pass / Short Debate Elementary & Secondary Education - Administration, Licensing & Charter Schools; 009-000-000
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-05-19"
+    description: Second Reading - Short Debate
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-05-27"
+    description: Third Reading - Short Debate - Passed 113-000-000; Passed Both Houses
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-06-25"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-07-10"
+    description: Governor Approved; Effective Date January 1, 2027
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-07-10"
+    description: Public Act 104-0565
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Public Act
+    date: "2026-07-10"
+    url: https://ilga.gov/ftp/Public%20Acts/104/104-0565.htm
+    archived_url: https://web.archive.org/web/20261017220154/https://ilga.gov/ftp/Public%20Acts/104/104-0565.htm
+    media_type: text/html
+session_law: Public Act 104-0565
+sources:
+  - url: https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB2909.html
+    title: SB2909 - 104th General Assembly (2025-2026)
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017224615/https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB2909.html
+  - url: https://ilga.gov/ftp/Public%20Acts/104/104-0565.htm
+    title: Public Act 104-0565
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017220154/https://ilga.gov/ftp/Public%20Acts/104/104-0565.htm
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-status-and-public-act-text

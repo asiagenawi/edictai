@@ -1,0 +1,117 @@
+id: us-ca-2023-2024-ab-2876
+jurisdiction: us-ca
+session: 2023-2024
+identifier: AB 2876
+title: 'Pupil instruction: media literacy: artificial intelligence literacy: curriculum frameworks: instructional materials.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires California's Instructional Quality Commission to consider adding AI literacy content to the mathematics, science, and history-social science curriculum frameworks when they are next revised after January 1, 2025, and to consider AI literacy in its criteria for evaluating instructional materials in those subjects. The law defines AI literacy as knowing how AI works and how to use it, including its limitations, implications, and ethical considerations.
+abstract: The bill would also require the commission to consider incorporating Artificial Intelligence (AI) literacy content into the mathematics, science, and history-social science curriculum frameworks when those frameworks are next revised after January 1, 2025, and would require the commission to consider including AI literacy in its criteria for evaluating instructional materials when the state board next adopts mathematics, science, and history-social science instructional materials, as provided.
+provisions:
+  - type: ai-in-standards
+    description: Directs the Instructional Quality Commission to consider incorporating AI literacy content into the mathematics, science, and history-social science curriculum frameworks at their next revision after January 1, 2025.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2876
+      locator: Sec. 1, Education Code 33548(d)(1)
+      quote: The commission shall consider incorporating AI literacy content into the mathematics, science, and history-social science curriculum frameworks when those frameworks are next revised after January 1, 2025.
+  - type: ai-in-standards
+    description: Directs the commission to consider including AI literacy in its criteria for evaluating mathematics, science, and history-social science instructional materials at the next adoption after January 1, 2025.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2876
+      locator: Sec. 1, Education Code 33548(d)(2)
+      quote: When mathematics, science, and history-social science instructional materials are next adopted by the state board after January 1, 2025, the commission shall consider including AI literacy in its criteria for evaluating instructional materials.
+sponsors:
+  - name: Marc Berman
+    primary: true
+    chamber: lower
+actions:
+  - date: '2024-02-15'
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+  - date: '2024-03-11'
+    description: Referred to Com. on ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: '2024-04-08'
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 7. Noes 0.) (April 3).'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-05-01'
+    description: 'From committee: Do pass. To Consent Calendar. (Ayes 14. Noes 0.) (May 1).'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-05-09'
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 65. Noes 0. Page 5161.)
+    actor: lower
+    classification:
+      - passage
+      - reading-3
+  - date: '2024-05-22'
+    description: Referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: '2024-06-12'
+    description: 'From committee: Do pass and re-refer to Com. on APPR. (Ayes 7. Noes 0.) (June 12). Re-referred to Com. on APPR.'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-08-20'
+    description: Read third time. Passed. Ordered to the Assembly. (Ayes 40. Noes 0. Page 5227.).
+    actor: upper
+    classification:
+      - passage
+      - reading-3
+  - date: '2024-08-27'
+    description: Enrolled and presented to the Governor at 12 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: '2024-09-29'
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: '2024-09-29'
+    description: Chaptered by Secretary of State - Chapter 927, Statutes of 2024.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Chaptered
+    date: '2024-09-29'
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2876
+    archived_url: https://web.archive.org/web/20260825110335/https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2876
+session_law: Chapter 927, Statutes of 2024
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2876
+    title: AB-2876 Pupil instruction (2023-2024)
+    publisher: California Legislative Information
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260803143528/https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2876
+  - url: https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202320240AB2876
+    title: Bill History - AB-2876
+    publisher: California Legislative Information
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250919080540/https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202320240AB2876
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: leginfo blocks automated requests; chaptered text and history were read from Wayback Machine captures of the official leginfo pages.

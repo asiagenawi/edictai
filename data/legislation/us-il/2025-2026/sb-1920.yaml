@@ -1,0 +1,189 @@
+id: us-il-2025-2026-sb-1920
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 1920
+title: SCH CD-ASL Implementation
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - ai-literacy
+  - instructional-use
+  - student-privacy
+  - equity-access
+  - synthetic-media
+  - task-force
+summary: >-
+  Requires the Illinois State Board of Education to develop and publish statewide guidance on
+  the use of artificial intelligence in K-12 education by July 1, 2026, covering AI concepts,
+  classroom and district uses, bias, student data privacy, AI literacy, and support for special
+  populations, and allows the State Superintendent to convene an advisory council. It also adds
+  AI-generated false depictions, including sexually explicit images and videos, to the
+  recommended topics for Internet safety instruction, alongside unrelated provisions on American
+  Sign Language resources and educator testing.
+abstract: >-
+  Replaces everything after the enacting clause. Amends the School Code. Requires the State Board
+  of Education to develop statewide guidance for school districts and educators on the use of
+  artificial intelligence in elementary and secondary education. Requires, no later than July 1,
+  2026, the State Board of Education to encourage school districts to collect teaching resources
+  to support American Sign Language programs. With respect to educator licensure, provides that,
+  on or before July 1, 2026, the State Board of Education shall post publicly on its website the
+  process by which the State Board or any entity designated by the State Board evaluates content
+  area knowledge tests to determine content validity, an absence of bias, or the scores required
+  to pass such tests. With respect to the recommendation that an age-appropriate unit of Internet
+  safety instruction include recognizing and reporting online harassment and cyber-bullying, adds
+  that this includes the creation and distribution of false representations of individuals
+  created by artificial intelligence, including, but not limited to, sexually explicit images and
+  videos.
+provisions:
+  - type: issues-model-policy
+    description: Directs the State Board of Education to develop and publish statewide guidance for districts and educators on AI use in elementary and secondary education by July 1, 2026, and to update it as needed.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/104/104-0399.htm
+      locator: 105 ILCS 5/2-3.118a(a)
+      quote: The State Board of Education shall develop and publish this guidance by July 1, 2026 and provide continuous updates as it deems necessary.
+  - type: bias-or-equity-requirement
+    description: The required guidance must address how districts can evaluate bias in AI tools and best practices for making AI applications accessible to all students and supporting English learners and students with disabilities.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/104/104-0399.htm
+      locator: 105 ILCS 5/2-3.118a(a)(3), (6), (7)
+      quote: how districts and educators can evaluate and address bias, privacy, transparency, and risk assessment and management in the usage of artificial intelligence technologies and applications
+  - type: creates-task-force
+    description: Allows the State Superintendent to convene a statewide council, including AI experts and at least two practicing classroom teachers, to consult on further AI guidance and support.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/104/104-0399.htm
+      locator: 105 ILCS 5/2-3.118a(b)
+      quote: The State Superintendent of Education may convene stakeholders for a statewide council to consult on the further development of guidance, resources, and other support for school districts and educators on the use of artificial intelligence in schools.
+  - type: addresses-deepfakes
+    description: Adds the creation and distribution of AI-generated false representations of individuals, including sexually explicit images and videos, to the recommended Internet safety curriculum topics.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://ilga.gov/ftp/Public%20Acts/104/104-0399.htm
+      locator: 105 ILCS 5/27-13.3(c)(5)
+      quote: including the creation and distribution of false representations of individuals created by artificial intelligence, including, but not limited to, sexually explicit images and videos
+sponsors:
+  - name: Doris Turner
+    primary: true
+    chamber: upper
+  - name: Laura Faver Dias
+    primary: true
+    chamber: lower
+actions:
+  - date: "2025-02-06"
+    description: Filed with Secretary by Sen. Doris Turner
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-06"
+    description: First Reading; Referred to Assignments
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-02-25"
+    description: Assigned to Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-18"
+    description: Senate Committee Amendment No. 2 Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2025-03-19"
+    description: Do Pass as Amended Education; 014-000-000
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-20"
+    description: Second Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-03"
+    description: Third Reading - Passed; 054-000-000
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-17"
+    description: First Reading; Referred to Rules Committee; Assigned to Elementary & Secondary Education - Administration, Licensing & Charter Schools
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-05-07"
+    description: Do Pass / Short Debate Elementary & Secondary Education - Administration, Licensing & Charter Schools; 009-000-000
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-16"
+    description: Second Reading - Short Debate
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-05-23"
+    description: House Floor Amendment No. 2 Adopted; Third Reading - Short Debate - Passed 074-034-000
+    actor: lower
+    classification:
+      - amendment-passage
+      - reading-3
+      - passage
+  - date: "2025-05-31"
+    description: House Floor Amendment No. 2 Senate Concurs 056-000-000; Passed Both Houses
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-06-27"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-08-15"
+    description: Governor Approved; Effective Date January 1, 2026
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-08-15"
+    description: Public Act 104-0399
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Public Act
+    date: "2025-08-15"
+    url: https://ilga.gov/ftp/Public%20Acts/104/104-0399.htm
+    archived_url: https://web.archive.org/web/20261017220116/https://ilga.gov/ftp/Public%20Acts/104/104-0399.htm
+    media_type: text/html
+session_law: Public Act 104-0399
+related:
+  - us-il-isbe-ai-guidance
+sources:
+  - url: https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB1920.html
+    title: SB1920 - 104th General Assembly (2025-2026)
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017224548/https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB1920.html
+  - url: https://ilga.gov/ftp/Public%20Acts/104/104-0399.htm
+    title: Public Act 104-0399
+    publisher: Illinois General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017220116/https://ilga.gov/ftp/Public%20Acts/104/104-0399.htm
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-bill-status-and-public-act-text
+  notes: >-
+    The AI guidance and Internet safety provisions were added by House Floor Amendment No. 2; the
+    bill as introduced dealt only with American Sign Language materials, which is why the official
+    short description does not mention AI.

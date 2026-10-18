@@ -1,0 +1,2439 @@
+# Hand-labeled evaluation set for the bill-scope classifier.
+# See README.md in this directory for the scope definition and labeling rules.
+- id: us-118-hr-9211
+  jurisdiction: us
+  session: "118"
+  identifier: H.R. 9211
+  title: Literacy in Future Technologies Artificial Intelligence Act (LIFT AI Act)
+  url: "https://www.congress.gov/bill/118th-congress/house-bill/9211"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118hr9211ih/html/BILLS-118hr9211ih.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards, educator-training, research]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Sec. 2(b)-(c) authorizes NSF awards to develop K-12 AI literacy curricula, evaluation tools, and professional development for State and local educational agencies and educators."
+- id: us-118-hr-9402
+  jurisdiction: us
+  session: "118"
+  identifier: H.R. 9402
+  title: NSF AI Education Act of 2024
+  url: "https://www.congress.gov/bill/118th-congress/house-bill/9402"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118hr9402ih/html/BILLS-118hr9402ih.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [workforce, funding, research, educator-training]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Creates NSF AI scholarships/fellowships (Sec. 2), Community College and Area CTE Centers of AI Excellence (Sec. 3), awards for research on AI in education (Sec. 4), and a National STEM Teachers Corps (Sec. 5)."
+- id: us-118-hr-9403
+  jurisdiction: us
+  session: "118"
+  identifier: H.R. 9403
+  title: Expanding AI Voices through Capacity Building Act (Expanding AI Voices Act)
+  url: "https://www.congress.gov/bill/118th-congress/house-bill/9403"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118hr9403ih/html/BILLS-118hr9403ih.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [equity-access, research, workforce, funding]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Sec. 2 (\"Expanding Capacity in Artificial Intelligence Science\") directs NSF to fund AI research and education capacity building and partnerships at minority-serving and other under-resourced institutions of higher education."
+- id: us-118-s-4394
+  jurisdiction: us
+  session: "118"
+  identifier: S. 4394
+  title: NSF AI Education Act of 2024
+  url: "https://www.congress.gov/bill/118th-congress/senate-bill/4394"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118s4394is/html/BILLS-118s4394is.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [workforce, funding, research, educator-training, instructional-use]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Creates undergraduate/graduate AI scholarships (Secs. 3-4), community college and vocational school Centers of AI Excellence (Sec. 9), AI-in-education research awards (Sec. 10), and guidance for the introduction and use of AI in schools (Sec. 13)."
+- id: us-119-hr-5351
+  jurisdiction: us
+  session: "119"
+  identifier: H.R. 5351
+  title: NSF AI Education Act of 2025
+  url: "https://www.congress.gov/bill/119th-congress/house-bill/5351"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119hr5351ih/html/BILLS-119hr5351ih.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [workforce, funding, research]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Sec. 3 establishes Community College and Area Career and Technical Education Centers of AI Excellence and Sec. 4 funds research on artificial intelligence in education, alongside AI scholarships in Sec. 2."
+- id: us-119-hr-5584
+  jurisdiction: us
+  session: "119"
+  identifier: H.R. 5584
+  title: Literacy in Future Technologies Artificial Intelligence Act (LIFT AI Act)
+  url: "https://www.congress.gov/bill/119th-congress/house-bill/5584"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119hr5584ih/html/BILLS-119hr5584ih.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards, educator-training, research]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Sec. 2 (\"Preparing K-12 Educators and Students for an AI Literate Future\") authorizes NSF awards for K-12 AI literacy curriculum development and educator professional learning."
+- id: us-119-hr-8747
+  jurisdiction: us
+  session: "119"
+  identifier: H.R. 8747
+  title: K-12 AI Literacy and Readiness Act of 2026
+  url: "https://www.congress.gov/bill/119th-congress/house-bill/8747"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119hr8747ih/html/BILLS-119hr8747ih.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, educator-training, funding]
+  matched_keywords: [artificial intelligence]
+  rationale: "Sec. 2 amends ESEA sections 4104 and 4107/4109 to make instruction on safe, responsible AI use and AI professional development for teachers and school leaders allowable uses of Title IV-A funds."
+- id: us-119-s-2740
+  jurisdiction: us
+  session: "119"
+  identifier: S. 2740
+  title: Recommending Artificial Intelligence Standards in Education Act of 2025 (RAISE Act of 2025)
+  url: "https://www.congress.gov/bill/119th-congress/senate-bill/2740"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119s2740is/html/BILLS-119s2740is.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [curriculum-standards]
+  matched_keywords: [artificial intelligence]
+  rationale: Sec. 2 amends ESEA section 1111(b)(1)(C) so State academic standards may include standards for artificial intelligence and other emerging technologies.
+- id: us-119-s-4414
+  jurisdiction: us
+  session: "119"
+  identifier: S. 4414
+  title: Literacy in Future Technologies Artificial Intelligence Act (LIFT AI Act)
+  url: "https://www.congress.gov/bill/119th-congress/senate-bill/4414"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119s4414is/html/BILLS-119s4414is.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards, educator-training, research]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Sec. 2 (\"Preparing K-12 Educators and Students for an AI Literate Future\") directs NSF awards to improve AI literacy education at the elementary and secondary school level, including educator professional development."
+- id: us-119-s-4958
+  jurisdiction: us
+  session: "119"
+  identifier: S. 4958
+  title: Safeguard Kids Act
+  url: "https://www.congress.gov/bill/119th-congress/senate-bill/4958"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119s4958is/html/BILLS-119s4958is.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, safety-wellbeing, funding]
+  matched_keywords: [artificial intelligence, chatbot]
+  rationale: "Sec. 2 amends ESEA Title IV-A (sections 4104, 4108, 4109) to fund teaching K-12 students about the dangers and responsible use of AI chatbots and school counseling for chatbot-related mental health issues."
+- id: us-az-2026-hb-4005
+  jurisdiction: us-az
+  session: "2026"
+  identifier: HB 4005
+  title: artificial intelligence; course; public schools
+  url: "https://apps.azleg.gov/BillStatus/BillOverview/85516"
+  verified_url: "https://www.azleg.gov/legtext/57leg/2R/bills/HB4005S.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards]
+  matched_keywords: [artificial intelligence]
+  rationale: "Proposed ARS 15-701.05 requires each school district, from 2027-2028, to provide instruction on the ethical, moral and educational uses of artificial intelligence in grades 3, 6, 8, 10 and 12 using a department-adopted curriculum, with annual reporting."
+- id: us-ca-2023-2024-ab-2370
+  jurisdiction: us-ca
+  session: "2023-2024"
+  identifier: AB 2370
+  title: "Community colleges: faculty: artificial intelligence."
+  url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2370"
+  verified_url: "https://downloads.leginfo.legislature.ca.gov/pubinfo_2023.zip"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [instructional-use, institutional-operations]
+  matched_keywords: [artificial intelligence]
+  rationale: "Would add Education Code 87709 providing that artificial intelligence shall not be used to replace community college faculty for academic instruction and may only be a peripheral tool for course development, assessment, and tutoring."
+- id: us-ca-2023-2024-ab-2652
+  jurisdiction: us-ca
+  session: "2023-2024"
+  identifier: AB 2652
+  title: "State Department of Education: artificial intelligence working group."
+  url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2652"
+  verified_url: "https://downloads.leginfo.legislature.ca.gov/pubinfo_2023.zip"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, local-policy-requirement]
+  matched_keywords: [artificial intelligence]
+  rationale: Would add Education Code 33328.5 requiring the Superintendent and State Board to convene a working group to develop guidance and a model policy for local educational agencies on the safe use of artificial intelligence in education (not enacted; companion to SB 1288).
+- id: us-ca-2023-2024-ab-2876
+  jurisdiction: us-ca
+  session: "2023-2024"
+  identifier: AB 2876
+  title: "Pupil instruction: media literacy: artificial intelligence literacy: curriculum frameworks: instructional materials."
+  url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2876"
+  verified_url: "https://downloads.leginfo.legislature.ca.gov/pubinfo_2023.zip"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Amends Education Code 33548 to define \"Artificial Intelligence (AI) literacy\" and require the Instructional Quality Commission to consider incorporating AI literacy into the math, science, and history-social science curriculum frameworks and instructional materials criteria (chaptered 2024)."
+- id: us-ca-2023-2024-sb-1288
+  jurisdiction: us-ca
+  session: "2023-2024"
+  identifier: SB 1288
+  title: "Public schools: artificial intelligence working group."
+  url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1288"
+  verified_url: "https://downloads.leginfo.legislature.ca.gov/pubinfo_2023.zip"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, local-policy-requirement]
+  matched_keywords: [artificial intelligence]
+  rationale: "Adds Education Code 33328.5 requiring the Superintendent to convene a working group that must develop guidance and a model policy for school districts, county offices, and charter schools on the safe and effective use of artificial intelligence (chaptered 2024)."
+- id: us-ca-2025-2026-ab-2148
+  jurisdiction: us-ca
+  session: "2025-2026"
+  identifier: AB 2148
+  title: "Local educational agency employees: public postsecondary education employees: artificial intelligence, automated decision systems, and educational technology: discipline."
+  url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2148"
+  verified_url: "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [institutional-operations, data-governance]
+  matched_keywords: [artificial intelligence]
+  rationale: "Would bar LEAs and public postsecondary segments from disciplining or retaliating against employees based on artificial intelligence or automated decision system output, or for refusing to use educational technology, and require edtech to be easily turned off."
+- id: us-ca-2025-2026-ab-2392
+  jurisdiction: us-ca
+  session: "2025-2026"
+  identifier: AB 2392
+  title: "Public postsecondary education: generative artificial intelligence systems: procurement standards: training."
+  url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2392"
+  verified_url: "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [procurement, educator-training, task-force]
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Adds Education Code 66098.1 requiring the CCC Chancellor's office and CSU (and requesting UC) to convene an intersegmental working group on procurement standards and training for GenAI systems used for educational purposes and to provide that training to students, faculty, and staff (chaptered 2026)."
+- id: us-ca-2025-2026-ab-2487
+  jurisdiction: us-ca
+  session: "2025-2026"
+  identifier: AB 2487
+  title: "Artificial intelligence: education and workforce development."
+  url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2487"
+  verified_url: "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [workforce, ai-literacy, educator-training, instructional-use]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "The Artificial Intelligence Education and Workforce Development Act would require the California Community Colleges to issue statewide guidance on AI use in community colleges, integrate AI literacy into instructor professional development, and run a classroom AI-tool pilot program."
+- id: us-ca-2025-2026-ab-2504
+  jurisdiction: us-ca
+  session: "2025-2026"
+  identifier: AB 2504
+  title: "Community colleges: artificial intelligence: pilot program."
+  url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2504"
+  verified_url: "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [workforce]
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Adds Education Code 78026 et seq. directing the CCC Chancellor's office to run the Future of Creative Industries Pilot Program at up to 10 community colleges to support creative-industry workers displaced or at risk of displacement by generative AI (chaptered 2026)."
+- id: us-ct-2025-hb-5877
+  jurisdiction: us-ct
+  session: "2025"
+  identifier: HB 5877
+  title: AN ACT PROHIBITING THE USE OF ARTIFICIAL INTELLIGENCE TO REPLACE TEACHERS.
+  url: "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&which_year=2025&bill_num=5877"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: Statement of purpose is to prohibit the use of artificial intelligence to replace public school educators in providing instruction to and regular interaction with students.
+- id: us-dc-2025-2026-b26-491
+  jurisdiction: us-dc
+  session: "2025-2026"
+  identifier: B26-0491
+  title: Artificial Intelligence Literacy in Education Act of 2025
+  url: "https://lims.dccouncil.gov/Legislation/B26-0491"
+  verified_url: "https://lims.dccouncil.gov/api/search/GetLegislationMetadata/B26-0491"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, local-policy-requirement]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "The Council's bill summary states Bill 26-491 would direct local education agencies to adopt and implement a model AI literacy policy."
+- id: us-de-2025-2026-hb-404
+  jurisdiction: us-de
+  session: "2025-2026"
+  identifier: HB 404
+  title: AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO THE ARTIFICIAL INTELLIGENCE AND EXTENDED REALITY IN SCHOOLS PILOT PROGRAM.
+  url: "https://legis.delaware.gov/BillDetail/143237"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use, procurement, funding, student-privacy]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Creates a 3-year Artificial Intelligence and Extended Reality in Schools Pilot Program in which DOE selects 12 elementary, middle and high schools, funds them to procure and implement AI and XR products, and forms a committee to recommend privacy-safe AI products for students and educators."
+- id: us-fl-2024-hb-1361
+  jurisdiction: us-fl
+  session: "2024"
+  identifier: HB 1361
+  title: Education
+  url: "https://www.flsenate.gov/Session/Bill/2024/1361"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [funding, instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: "Enacted as Ch. 2024-162, it amends s. 1002.321, F.S. to award grants to school districts to implement AI in support of students and teachers and sets requirements for that AI (the rest of the bill covers unrelated scholarship provisions)."
+- id: us-fl-2026-hb-1503
+  jurisdiction: us-fl
+  session: "2026"
+  identifier: HB 1503
+  title: Computer Science Education and Certification
+  url: "https://www.flsenate.gov/Session/Bill/2026/1503"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [curriculum-standards, ai-literacy, educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: "CS/CS/HB 1503 amends s. 1007.25, F.S. so technology-integrated general education core courses must include instruction on applying AI tools, and amends s. 1007.2616 so high school computer science courses must include instruction on AI; it died in returning messages on 3/13/2026."
+- id: us-fl-2026-sb-1194
+  jurisdiction: us-fl
+  session: "2026"
+  identifier: SB 1194
+  title: Artificial Intelligence in Education
+  url: "https://www.flsenate.gov/Session/Bill/2026/1194"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, educator-training, ai-literacy, curriculum-standards]
+  matched_keywords: [artificial intelligence]
+  rationale: "Would require the State Board of Education to adopt statewide AI use standards and policies, provide teacher training, review district compliance with AI policies, and require student instruction on digital literacy and AI ethics; it died in Education Pre-K-12 Committee."
+- id: us-hi-2025-2026-hb-1676
+  jurisdiction: us-hi
+  session: "2025-2026"
+  identifier: HB 1676
+  title: Relating to Artificial Intelligence.
+  url: "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1676&year=2026"
+  verified_url: "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1676_HD1_.HTM"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [task-force]
+  matched_keywords: [artificial intelligence]
+  rationale: Section 2 establishes an artificial intelligence in education task force within the University of Hawaii to set guidance and safeguards for AI integration in public schools and public higher education institutions.
+- id: us-hi-2025-2026-sb-2212
+  jurisdiction: us-hi
+  session: "2025-2026"
+  identifier: SB 2212
+  title: Relating to Artificial Intelligence Literacy Education.
+  url: "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2212&year=2026"
+  verified_url: "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards]
+  matched_keywords: [artificial intelligence, machine learning, generative]
+  rationale: "Proposed HRS 302A-A requires a statewide AI literacy curricula plan and, from 2027-2028, a passing grade in a minimum six-week artificial intelligence literacy course as a graduation condition for grades 11-12."
+- id: us-ia-2025-2026-hf-2153
+  jurisdiction: us-ia
+  session: "2025-2026"
+  identifier: HF 2153
+  title: "An Act requiring community colleges, school districts, and institutions under the control of the state board of regents to adopt policies related to the use of artificial intelligence by students and employees."
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF2153"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2153.pdf"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [local-policy-requirement, instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: "New section 260C.14(27) and parallel school-district and regents provisions require each board, by July 1, 2028, to adopt a policy on when students and staff may use artificial intelligence, with policies published by the Department of Education."
+- id: us-ia-2025-2026-hf-252
+  jurisdiction: us-ia
+  session: "2025-2026"
+  identifier: HF 252
+  title: "An Act incorporating preparation in computer science, artificial intelligence, and computational thinking into the preparation required in approved practitioner preparation programs, and including applicability provisions."
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF252"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/91/HF252.pdf"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: "New paragraph 256.16(1)(o) requires approved teacher preparation programs at higher education institutions to include preparation in artificial intelligence, and new 262.9(39) has the regents issue guidance on doing so."
+- id: us-ia-2025-2026-hf-2528
+  jurisdiction: us-ia
+  session: "2025-2026"
+  identifier: HF 2528
+  title: "An Act modifying the duties of the workforce development board, state board of education, and department of education related to cyber and artificial intelligence."
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF2528"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2528.pdf"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards, workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: "New subsection 84A.1B(6) creates a cyber and artificial intelligence workforce initiative that includes developing and implementing AI literacy standards in the K-12 public school curriculum, with related duties for the state board and department of education."
+- id: us-ia-2025-2026-hf-2540
+  jurisdiction: us-ia
+  session: "2025-2026"
+  identifier: HF 2540
+  title: "An Act relating to computer science and artificial intelligence education, including high school curricula and graduation requirements, and practitioner preparation programs, and including applicability provisions."
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF2540"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2540.pdf"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [curriculum-standards, ai-literacy, educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: Companion of IA SF 2094; requires one semester of computer science and artificial intelligence for graduation beginning with the 2030-2031 class and adds AI to computer science standards and practitioner preparation programs.
+- id: us-ia-2025-2026-sf-2094
+  jurisdiction: us-ia
+  session: "2025-2026"
+  identifier: SF 2094
+  title: "An Act relating to computer science and artificial intelligence education, including high school curricula and graduation requirements, practitioner preparation programs, and college admissions, and including applicability provisions."
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF2094"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/91/SF2094.pdf"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [curriculum-standards, ai-literacy, educator-training, admissions]
+  matched_keywords: [artificial intelligence]
+  rationale: Amends section 256.7(26) to require one semester of computer science and artificial intelligence for the 2030-31 graduating class and amends 262.9(3) so regents institutions must count that course toward the admission index.
+- id: us-id-2026-s-1227
+  jurisdiction: us-id
+  session: "2026"
+  identifier: S 1227
+  title: EDUCATION – Adds to existing law to establish provisions regarding generative artificial intelligence in public education.
+  url: "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1227/"
+  verified_url: "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227.pdf"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, educator-training, procurement, curriculum-standards]
+  matched_keywords: [artificial intelligence, generative, AI]
+  rationale: "New Idaho Code chapter 33-70 requires the State Department of Education to develop a generative AI in education framework for K-12 schools (33-7003) and requires districts and charter schools to adopt aligned policies, plus standards, professional development, and procurement rules (Session Law Ch. 71)."
+- id: us-il-2023-2024-hb-4625
+  jurisdiction: us-il
+  session: "2023-2024"
+  identifier: HB 4625
+  title: AN ACT concerning education (SCH CD-DIGITAL LITERACY SKILLS)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=4625&GAID=17&DocTypeID=HB&SessionID=112&GA=103"
+  verified_url: "https://ilga.gov/ftp/legislation/103/HB/10300HB4625.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards]
+  matched_keywords: [AI]
+  rationale: "New 105 ILCS 5/27-20.07 requires districts to provide digital literacy instruction beginning in elementary school that expressly includes AI literacy, with ISBE-provided standards."
+- id: us-il-2023-2024-hb-5399
+  jurisdiction: us-il
+  session: "2023-2024"
+  identifier: HB 5399
+  title: AN ACT concerning education (BD HIGHER ED-AI IN EDUC REPORT)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=5399&GAID=17&DocTypeID=HB&SessionID=112&GA=103"
+  verified_url: "https://ilga.gov/ftp/legislation/103/HB/10300HB5399.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [research]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: New 110 ILCS 205/9.44 requires the Board of Higher Education to report to the General Assembly on the state of artificial intelligence education and development in public and private institutions of higher education.
+- id: us-il-2023-2024-hb-5848
+  jurisdiction: us-il
+  session: "2023-2024"
+  identifier: HB 5848
+  title: AN ACT concerning education (SCH CD-BULLYING-DEEPFAKE)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=5848&GAID=17&DocTypeID=HB&SessionID=112&GA=103"
+  verified_url: "https://ilga.gov/ftp/legislation/103/HB/10300HB5848.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [synthetic-media, safety-wellbeing]
+  matched_keywords: [artificial intelligence, generative, deepfake]
+  rationale: "Amends the School Code bullying provisions (105 ILCS 5/27-23.7) so that cyber-bullying includes distributing a digital replica of an individual, and defines artificial intelligence and generative artificial intelligence."
+- id: us-il-2025-2026-hb-1859
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: HB 1859
+  title: AN ACT concerning education (COM COL-COURSE INSTRUCTOR-AI)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=1859&GAID=18&DocTypeID=HB&SessionID=114&GA=104"
+  verified_url: "https://www.ilga.gov/legislation/PublicActs/View/104-0201"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [instructional-use, institutional-operations]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Enacted as Public Act 104-0201, new 110 ILCS 805/3-29.28 bars a community college course from using artificial intelligence as the sole source of instruction in lieu of a qualified faculty member."
+- id: us-il-2025-2026-hb-2503
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: HB 2503
+  title: AN ACT concerning education (SCH CD-ARTIFICIAL INTELLIGENCE)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=2503&GAID=18&DocTypeID=HB&SessionID=114&GA=104"
+  verified_url: "https://ilga.gov/ftp/legislation/104/HB/10400HB2503.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, ai-literacy, student-privacy, safety-wellbeing]
+  matched_keywords: [artificial intelligence]
+  rationale: "Creates a State Instructional Technology Advisory Board and requires ISBE to set safety, transparency and data-privacy standards for AI technology used in schools, issue guidance on AI in education and AI literacy, and add responsible AI use to the Internet safety curriculum."
+- id: us-il-2025-2026-hb-2655
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: HB 2655
+  title: AN ACT concerning education (BD HIGHER ED-AI ED REPORT)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=2655&GAID=18&DocTypeID=HB&SessionID=114&GA=104"
+  verified_url: "https://ilga.gov/ftp/legislation/104/HB/10400HB2655.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [research, curriculum-standards]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "New 110 ILCS 205/9.45 requires the Board of Higher Education to report on the state of artificial intelligence education and development in public and private institutions of higher education, including existing AI academic programs and courses."
+- id: us-il-2025-2026-hb-5113
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: HB 5113
+  title: AN ACT concerning education (SCH CD-AI USE IN EDUC COMM)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=5113&GAID=18&DocTypeID=HB&SessionID=114&GA=104"
+  verified_url: "https://ilga.gov/ftp/legislation/104/HB/10400HB5113.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, instructional-use]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: New 105 ILCS 5/2-3.214 directs the State Board of Education to establish an Artificial-Intelligence Use in Education Commission to recommend best practices and policies for smartphone and artificial-intelligence use in schools.
+- id: us-il-2025-2026-sb-1556
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: SB 1556
+  title: AN ACT concerning education (SCH CD-ARTIFICIAL INTELLIGENCE)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=1556&GAID=18&DocTypeID=SB&SessionID=114&GA=104"
+  verified_url: "https://ilga.gov/ftp/legislation/104/SB/10400SB1556.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, student-privacy, safety-wellbeing, ai-literacy]
+  matched_keywords: [artificial intelligence]
+  rationale: "Companion of IL HB 2503; new 105 ILCS 5/2-3.118a creates a State Instructional Technology Advisory Board and requires ISBE to set safety, transparency, data-privacy and quality standards for AI technology used in schools and issue guidance on AI in education."
+- id: us-il-2025-2026-sb-1920
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: SB 1920
+  title: AN ACT concerning education (SCH CD-ASL IMPLEMENTATION)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=1920&GAID=18&DocTypeID=SB&SessionID=114&GA=104"
+  verified_url: "https://www.ilga.gov/legislation/PublicActs/View/104-0399"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use, ai-literacy]
+  matched_keywords: [artificial intelligence, machine learning]
+  rationale: "Enacted as Public Act 104-0399, new 105 ILCS 5/2-3.118a directs the State Board of Education to develop statewide guidance for districts and educators on the use of artificial intelligence in elementary and secondary education."
+- id: us-il-2025-2026-sb-2909
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: SB 2909
+  title: AN ACT concerning education (SCH CD-TEACHER EVALUATION-AI)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=2909&GAID=18&DocTypeID=SB&SessionID=114&GA=104"
+  verified_url: "https://www.ilga.gov/legislation/PublicActs/View/104-0565"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [assessment, institutional-operations]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Enacted as Public Act 104-0565, amended 105 ILCS 5/24A-5 prohibits evaluators from using an artificial intelligence tool to assign a score or rating on any component of a teacher's evaluation."
+- id: us-il-2025-2026-sb-416
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: SB 416
+  title: AN ACT concerning education (EDUCATION-TECH)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=416&GAID=18&DocTypeID=SB&SessionID=114&GA=104"
+  verified_url: "https://ilga.gov/ftp/legislation/104/BillStatus/XML/10400SB0416.xml"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, assessment, procurement]
+  matched_keywords: [artificial intelligence]
+  rationale: "As amended by Senate Floor Amendments 1 and 2, the bill creates the Student Educational Technology Rights Act requiring each school board to adopt a policy that bars teachers from using an AI tool to assign grades requiring professional judgment and requires board approval of any AI model used with students."
+- id: us-ky-2024-sb-52
+  jurisdiction: us-ky
+  session: "2024"
+  identifier: SB 52
+  title: AN ACT relating to technology in education and declaring an emergency.
+  url: "https://apps.legislature.ky.gov/record/24rs/sb52.html"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [local-policy-requirement, educator-training, task-force, institutional-operations]
+  matched_keywords: [artificial intelligence]
+  rationale: "Would create an \"Artificial Intelligence in Kentucky's Schools\" project in KRS Chapter 156 (KDE AI training, district AI policies) and an \"Artificial Intelligence in Higher Education\" project in KRS Chapter 164 (a CPE AI working group and guidelines for postsecondary institutions); it never left Senate Education."
+- id: us-la-2025-hr-320
+  jurisdiction: us-la
+  session: "2025"
+  identifier: HR 320
+  title: "Requests the state Department of Education, the State Board of Elementary and Secondary Education, the Board of Regents, and postsecondary education management boards to promote artificial intelligence education for students and to encourage professional development relative to artificial intelligence for faculty and staff"
+  url: "https://legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HR320"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [ai-literacy, educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: "The adopted resolution (88-0) requests LDOE, BESE, the Board of Regents, and the postsecondary management boards to promote AI education for students and AI professional development for faculty and staff, so it directs an education action and is more than ceremonial."
+- id: us-la-2026-hb-1149
+  jurisdiction: us-la
+  session: "2026"
+  identifier: HB 1149
+  title: Requires each public school to incorporate instruction on artificial intelligence into an existing course of study for each student in grades six through twelve
+  url: "https://legis.la.gov/legis/BillInfo.aspx?s=26RS&b=HB1149"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards]
+  matched_keywords: [artificial intelligence]
+  rationale: Would require every public school to incorporate AI instruction into an existing course of study for each student in grades 6-12; it is still pending in House Education.
+- id: us-ma-2025-2026-h-614
+  jurisdiction: us-ma
+  session: "2025-2026"
+  identifier: H.614
+  title: An Act relative to issuing guidance regarding setting policies for the use of AI in schools
+  url: "https://malegislature.gov/Bills/194/H614"
+  verified_url: "https://malegislature.gov/Bills/194/H614/House/Bill/Text"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, instructional-use, equity-access]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Section 1 amends G.L. c.69 s.1A to require the commissioner to issue guidelines for school districts and charter schools on student and educator use of AI programs, including equity implications and factors for setting school AI policies."
+- id: us-ma-2025-2026-s-429
+  jurisdiction: us-ma
+  session: "2025-2026"
+  identifier: S.429
+  title: An Act to establish a commission to investigate AI in education
+  url: "https://malegislature.gov/Bills/194/S429"
+  verified_url: "https://malegislature.gov/Bills/194/S429/Senate/Bill/Text"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, data-governance, procurement]
+  matched_keywords: [AI, generative, artificial intelligence]
+  rationale: "New chapter 69A creates a commission in the executive office of education to survey and recommend regulations on automated decision systems and generative AI used in the commonwealth's school systems."
+- id: us-md-2025-sb-906
+  jurisdiction: us-md
+  session: "2025"
+  identifier: SB 906
+  title: "Education - Artificial Intelligence - Guidelines, Professional Development, and Task Force"
+  url: "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0906?ys=2025RS"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, procurement, data-governance, educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: "Would require MSDE, with the Task Force on AI in K-12 Education, to issue AI guidance to county boards, keep an annually updated list of approved AI tools, and require each county board to inventory its AI systems each year; its Senate hearing was canceled and it did not pass."
+- id: us-md-2026-sb-720
+  jurisdiction: us-md
+  session: "2026"
+  identifier: SB 720
+  title: "Education - Artificial Intelligence - Guidelines, Professional Development, and Collaborative (Artificial Intelligence Ready Schools Act)"
+  url: "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0720?ys=2026RS"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, procurement, educator-training, task-force]
+  matched_keywords: [artificial intelligence]
+  rationale: "Requires MSDE to provide AI guidance and tools for evaluating AI tools chosen by local school systems, and establishes the Maryland AI Education Collaborative on AI in K-12 Education; it was approved by the Governor as Chapter 634."
+- id: us-me-2025-2026-ld-643
+  jurisdiction: us-me
+  session: "2025-2026"
+  identifier: LD 643
+  title: "Resolve, to Study the Effects of Artificial Intelligence, Cellular Telephones and Social Media on Public Education"
+  url: "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=643&snum=132"
+  verified_url: "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0411&item=1&snum=132"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force]
+  matched_keywords: [artificial intelligence]
+  rationale: "Sec. 1 directs the Department of Education to establish a working group to study and recommend legislation on the use of artificial intelligence, cell phones and social media in public school settings."
+- id: us-mn-2023-2024-hf-4662
+  jurisdiction: us-mn
+  session: "2023-2024"
+  identifier: HF 4662
+  title: A bill for an act relating to higher education; establishing academic freedom protections for Minnesota State Colleges and Universities faculty; creating an artificial intelligence working group; requiring a report
+  url: "https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF4662&ssn=0&y=2024"
+  verified_url: "https://www.revisor.mn.gov/bills/93/2024/0/HF/4662/versions/latest/"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [instructional-use, institutional-operations, task-force]
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Proposed section 136F.405, subdivision 3, bars Minnesota State institutions from using artificial or generative intelligence as the primary instructor of a credit-bearing course, and the bill also creates an AI working group."
+- id: us-mn-2023-2024-sf-4416
+  jurisdiction: us-mn
+  session: "2023-2024"
+  identifier: SF 4416
+  title: A bill for an act relating to higher education; establishing academic freedom protections for Minnesota State Colleges and Universities faculty; creating an artificial intelligence working group; requiring a report
+  url: "https://www.revisor.mn.gov/bills/bill.php?b=Senate&f=SF4416&ssn=0&y=2024"
+  verified_url: "https://www.revisor.mn.gov/bills/93/2024/0/SF/4416/versions/latest/"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [instructional-use, institutional-operations, task-force]
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Companion of MN HF 4662 (revisor status page lists HF4662 as companion); proposed section 136F.405, subdivision 3(a), bars Minnesota State institutions from using artificial or generative intelligence as the primary instructor of a credit-bearing course, and section 2 creates an AI work group."
+- id: us-ms-2024-sb-2062
+  jurisdiction: us-ms
+  session: "2024"
+  identifier: SB 2062
+  title: Artificial Intelligence in Education Task Force Act; enact.
+  url: "https://billstatus.ls.state.ms.us/2024/pdf/history/SB/SB2062.xml"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, curriculum-standards]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "The long title creates a task force to evaluate AI applications in K-12, develop policy recommendations for student and educator use, and recommend how to incorporate AI into educational standards; the bill status is Dead."
+- id: us-ms-2025-sb-2059
+  jurisdiction: us-ms
+  session: "2025"
+  identifier: SB 2059
+  title: Artificial Intelligence in Education Task Force Act; enact.
+  url: "https://billstatus.ls.state.ms.us/2025/pdf/history/SB/SB2059.xml"
+  verified_url: "https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059PS.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [task-force, instructional-use, workforce]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Section 2 establishes an AI in Education Task Force, chaired by the State Superintendent, to evaluate applications of artificial intelligence in K-12 and recommend policies for responsible use by students and educators (2025 reintroduction of 2024 SB 2062)."
+- id: us-ms-2026-hb-1242
+  jurisdiction: us-ms
+  session: "2026"
+  identifier: HB 1242
+  title: Mississippi Dyslexia Generative Artificial Intelligence Education and Workforce Development Act; create.
+  url: "https://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB1242.xml"
+  verified_url: "https://billstatus.ls.state.ms.us/documents/2026/html/HB/1200-1299/HB1242IN.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use, curriculum-standards, funding, workforce]
+  matched_keywords: [artificial intelligence, generative, machine learning]
+  rationale: "Creates a state-funded, open-access dyslexia curriculum and \"generative artificial intelligence system\" (defined in Section 3(c)) administered by the Department of Education, with pilot programs in schools and adult education settings."
+- id: us-nc-2025-2026-h-1004
+  jurisdiction: us-nc
+  session: "2025-2026"
+  identifier: H 1004
+  title: "UNC AI & Technology Hubs."
+  url: "https://www.ncleg.gov/BillLookUp/2025/H1004"
+  verified_url: "https://www.ncleg.gov/Sessions/2025/Bills/House/HTML/H1004v1.html"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [funding, research, workforce, institutional-operations]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Part I, Section 1.(a) would have the UNC Board of Governors pick up to eight constituent institutions as Artificial Intelligence Hubs, and the bill would fund a Collaboratory grant program for AI research; it died in House Appropriations."
+- id: us-nc-2025-2026-s-864
+  jurisdiction: us-nc
+  session: "2025-2026"
+  identifier: S 864
+  title: Safe and Responsible AI in Schools Act.
+  url: "https://www.ncleg.gov/BillLookUp/2025/S864"
+  verified_url: "https://www.ncleg.gov/Sessions/2025/Bills/Senate/HTML/S864v1.html"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards, local-policy-requirement, procurement, educator-training]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Section 1.(a) would add G.S. 115C-81.90(a1) requiring K-12 AI literacy standards, and the bill would require public school units to adopt AI policies, set up an AI tool evaluation framework, and fund Friday Institute educator training; it was referred to Senate Rules on 4/29/2026."
+- id: us-nj-2024-2025-a-4936
+  jurisdiction: us-nj
+  session: "2024-2025"
+  identifier: A 4936
+  title: "An Act concerning artificial intelligence curricula, certificates, and degree programs, and supplementing Title 18A of the New Jersey Statutes."
+  url: "https://www.njleg.state.nj.us/bill-search/2024/A4936"
+  verified_url: "https://pub.njleg.gov/bills/2024/A5000/4936_I1.HTM"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [curriculum-standards, ai-literacy, workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: Companion of NJ S 3876; section 1(b) requires each school district to incorporate AI instruction in grades K-12 and section 2(a) requires each public institution of higher education to offer certificate and degree programs in artificial intelligence.
+- id: us-nj-2024-2025-s-3876
+  jurisdiction: us-nj
+  session: "2024-2025"
+  identifier: S 3876
+  title: "An Act concerning artificial intelligence curricula, certificates, and degree programs, and supplementing Title 18A of the New Jersey Statutes."
+  url: "https://www.njleg.state.nj.us/bill-search/2024/S3876"
+  verified_url: "https://pub.njleg.gov/bills/2024/S4000/3876_I1.HTM"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [ai-literacy, curriculum-standards, workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: "Section 1 requires each school district to incorporate instruction on artificial intelligence into the curriculum, and section 2 requires each public institution of higher education to offer AI certificate and degree programs using model curricula developed by the Secretary of Higher Education for four-year institutions and county colleges."
+- id: us-nj-2026-2027-a-1323
+  jurisdiction: us-nj
+  session: "2026-2027"
+  identifier: A 1323
+  title: An Act concerning surveillance systems in schools and supplementing chapter 41 of Title 18A of the New Jersey Statutes.
+  url: "https://www.njleg.state.nj.us/bill-search/2026/A1323"
+  verified_url: "https://pub.njleg.gov/bills/2026/A1500/1323_R1.HTM"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [student-privacy, local-policy-requirement, safety-wellbeing]
+  matched_keywords: [artificial intelligence]
+  rationale: "Requires a board of education or charter/renaissance school board of trustees that uses a surveillance system with artificial intelligence capabilities to adopt a policy identifying the information collected, how it is used, and who may access it."
+- id: us-nj-2026-2027-a-4352
+  jurisdiction: us-nj
+  session: "2026-2027"
+  identifier: A 4352
+  title: "An Act concerning artificial intelligence curricula, certificates, and degree programs, and supplementing Title 18A of the New Jersey Statutes."
+  url: "https://www.njleg.state.nj.us/bill-search/2026/A4352"
+  verified_url: "https://pub.njleg.gov/bills/2026/A4500/4352_I1.HTM"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [ai-literacy, curriculum-standards, workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: Requires school districts to provide AI instruction and requires every public institution of higher education to offer certificate and degree programs in artificial intelligence based on Secretary of Higher Education model curricula (successor to 2024 S3876/A4936).
+- id: us-nj-2026-2027-a-5184
+  jurisdiction: us-nj
+  session: "2026-2027"
+  identifier: A 5184
+  title: An Act concerning the use of artificial intelligence in public schools and supplementing chapter 36 of Title 18A of the New Jersey Statutes.
+  url: "https://www.njleg.state.nj.us/bill-search/2026/A5184"
+  verified_url: "https://pub.njleg.gov/bills/2026/A5500/5184_I1.HTM"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement]
+  matched_keywords: [artificial intelligence]
+  rationale: "Section 1(b) requires the board of education of each school district to adopt a policy concerning the responsible use of artificial intelligence in its schools, with DOE establishing a model policy."
+- id: us-nj-2026-2027-a-5643
+  jurisdiction: us-nj
+  session: "2026-2027"
+  identifier: A 5643
+  title: Establishes Division of Artificial Intelligence Learning in DOE and prohibits use of artificial intelligence in curriculum of school districts for students in preschool through 10th grade.
+  url: "https://www.njleg.state.nj.us/bill-search/2026/A5643"
+  verified_url: "https://www.njleg.state.nj.us/api/billSearchHist/combinedSearch/empty/artificial%20intelligence/empty/empty/empty/empty/2026"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use, curriculum-standards]
+  matched_keywords: [artificial intelligence]
+  rationale: "The official synopsis states the bill establishes a Division of Artificial Intelligence Learning in DOE and prohibits use of AI in school district curricula for preschool through grade 10 (introduced Oct. 15, 2026; bill text not yet posted)."
+- id: us-nj-2026-2027-s-2862
+  jurisdiction: us-nj
+  session: "2026-2027"
+  identifier: S 2862
+  title: "An Act concerning artificial intelligence curricula, certificates, and degree programs, and supplementing Title 18A of the New Jersey Statutes."
+  url: "https://www.njleg.state.nj.us/bill-search/2026/S2862"
+  verified_url: "https://pub.njleg.gov/bills/2026/S3000/2862_I1.HTM"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [curriculum-standards, ai-literacy, workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: Companion of NJ A 4352 (2026 session); section 1(b) requires school districts to incorporate AI instruction in grades K-12 and section 2 requires public institutions of higher education to offer AI certificate and degree programs using model curricula from the Secretary of Higher Education.
+- id: us-nm-2026-hb-330
+  jurisdiction: us-nm
+  session: "2026"
+  identifier: HB 330
+  title: AI ETHICS AS SCHOOL SCIENCE ELECTIVE
+  url: "https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legType=B&legNo=330&year=26"
+  verified_url: "https://www.nmlegis.gov/Sessions/26%20Regular/bills/house/HB0330.HTML"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [curriculum-standards, ai-literacy]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: Amends the graduation-requirements statute (22-13-1.1 NMSA) to provide artificial intelligence ethics as an elective in computer science (died in committee).
+- id: us-ny-2023-2024-a-10556
+  jurisdiction: us-ny
+  session: "2023-2024"
+  identifier: A 10556
+  title: "An act to amend the education law, in relation to establishing an artificial intelligence literacy in the digital equity competitive grant program"
+  url: "https://www.nysenate.gov/legislation/bills/2023/A10556"
+  verified_url: "https://nyassembly.gov/leg/?default_fld=&bn=A10556&term=2023&Summary=Y&Actions=Y&Text=Y"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [ai-literacy, funding, educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: "The \"Artificial Intelligence Literacy Act of 2024\" creates a commissioner-run grant program funding public elementary and secondary schools (AI teacher training and certification) and community colleges and institutions of higher education (AI literacy programs and hands-on AI labs)."
+- id: us-ny-2025-2026-a-9190
+  jurisdiction: us-ny
+  session: "2025-2026"
+  identifier: A 9190
+  title: "An act to amend the education law, in relation to prohibiting the use of most artificial intelligence in classrooms prior to high school"
+  url: "https://www.nysenate.gov/legislation/bills/2025/A9190"
+  verified_url: "https://nyassembly.gov/leg/?default_fld=&bn=A09190&term=2025&Summary=Y&Actions=Y&Text=Y"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use]
+  matched_keywords: [artificial intelligence, AI, machine learning, algorithm]
+  rationale: New Education Law 115 provides that no artificial intelligence shall be used in classrooms prior to ninth grade (except diagnostic/disability interventions) and directs the commissioner to issue guidance to districts on permissible uses.
+- id: us-ny-2025-2026-s-10671
+  jurisdiction: us-ny
+  session: "2025-2026"
+  identifier: S 10671
+  title: "An act to amend the education law, in relation to humanoid robots and artificial intelligence avatars in instructional settings"
+  url: "https://www.nysenate.gov/legislation/bills/2025/S10671"
+  verified_url: "https://nyassembly.gov/leg/?default_fld=&bn=S10671&term=2025&Summary=Y&Actions=Y&Text=Y"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use, local-policy-requirement]
+  matched_keywords: [artificial intelligence]
+  rationale: "New Education Law 3039 requires each school district, charter school and BOCES to adopt a written policy that prohibits use of an artificial intelligence-enabled humanoid robot in an instructional capacity."
+- id: us-ny-2025-2026-s-7892
+  jurisdiction: us-ny
+  session: "2025-2026"
+  identifier: S 7892
+  title: "An act to amend the education law, in relation to directing the commissioner of education to make recommendations to the board of regents regarding the incorporation of instruction in artificial intelligence system literacy into the school curriculum"
+  url: "https://www.nysenate.gov/legislation/bills/2025/S7892"
+  verified_url: "https://nyassembly.gov/leg/?default_fld=&bn=S07892&term=2025&Summary=Y&Actions=Y&Text=Y"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "New Education Law 305(33) directs the commissioner to recommend to the Regents AI system literacy content at each grade level in elementary, junior high and senior high schools (basic concepts of AI, critical evaluation of AI output, ethics)."
+- id: us-ok-2025-2026-sb-1734
+  jurisdiction: us-ok
+  session: "2025-2026"
+  identifier: SB 1734
+  title: Schools; creating the Oklahoma Responsible Technology in Schools Act; requiring development of guidance for use of artificial intelligence and emerging technologies. Effective date. Emergency.
+  url: "https://www.oklegislature.gov/BillInfo.aspx?Bill=SB1734&Session=2600"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: "Creates the Oklahoma Responsible Technology in Schools Act, which requires guidance on AI and emerging-technology use in schools; it passed the Senate 42-0 and the House 89-0 and was approved by the Governor on 5/12/2026."
+- id: us-pa-2025-2026-hb-2375
+  jurisdiction: us-pa
+  session: "2025-2026"
+  identifier: HB 2375
+  title: "An Act amending the act of March 10, 1949 (P.L.30, No.14), known as the Public School Code of 1949, in charter schools, further providing for definitions, for charter school requirements, for establishment of charter school, for causes for nonrenewal or termination, for powers and duties of department, for cyber charter school requirements and prohibitions and for establishment of cyber charter school."
+  url: "https://www.palegis.us/legislation/bills/2025/hb2375"
+  verified_url: "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2375/PN3180"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: "Amends Section 1715-A so a charter school may not adopt an instructional model that relies on artificial intelligence instead of professional employees to provide direct instruction, and bars approval of such charter applications."
+- id: us-pa-2025-2026-hb-2785
+  jurisdiction: us-pa
+  session: "2025-2026"
+  identifier: HB 2785
+  title: "An Act amending the act of March 10, 1949 (P.L.30, No.14), known as the Public School Code of 1949, in books, furniture and supplies, providing for procurement and technology requirements."
+  url: "https://www.palegis.us/legislation/bills/2025/hb2785"
+  verified_url: "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2785/PN4005"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [procurement, student-privacy, data-governance]
+  matched_keywords: [artificial intelligence]
+  rationale: "Requires school entities contracting for artificial intelligence-related technology, programs or platforms to include contract terms requiring FERPA/CIPA/COPPA compliance, barring collection of student PII, and deleting sensitive data within 90 days of termination."
+- id: us-pa-2025-2026-hb-2786
+  jurisdiction: us-pa
+  session: "2025-2026"
+  identifier: HB 2786
+  title: "An Act amending the act of March 10, 1949 (P.L.30, No.14), known as the Public School Code of 1949, in student supports, providing for artificial intelligence policy."
+  url: "https://www.palegis.us/legislation/bills/2025/hb2786"
+  verified_url: "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2786/PN4006"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, academic-integrity, student-privacy]
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "New Section 1303.3-A requires each school entity and nonpublic school to adopt by 2027-28 an AI policy defining appropriate and prohibited generative AI use, FERPA/COPPA privacy safeguards, and academic integrity rules."
+- id: us-pa-2025-2026-hb-2787
+  jurisdiction: us-pa
+  session: "2025-2026"
+  identifier: HB 2787
+  title: "An Act amending the act of March 10, 1949 (P.L.30, No.14), known as the Public School Code of 1949, in school safety and security, providing for prohibition of artificial intelligence for school-based mental health and counseling."
+  url: "https://www.palegis.us/legislation/bills/2025/hb2787"
+  verified_url: "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2787/PN3918"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [safety-wellbeing, procurement]
+  matched_keywords: [artificial intelligence, chatbot, generative]
+  rationale: "New Section 1323-B bars school entities from using AI, AI chatbots or generative AI to provide school-based mental health or counseling services to students and bars suppliers from contracting to provide such systems."
+- id: us-pa-2025-2026-hb-2788
+  jurisdiction: us-pa
+  session: "2025-2026"
+  identifier: HB 2788
+  title: "An Act amending the act of March 10, 1949 (P.L.30, No.14), known as the Public School Code of 1949, in certification of teachers, providing for use of artificial intelligence in education."
+  url: "https://www.palegis.us/legislation/bills/2025/hb2788"
+  verified_url: "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2788/PN3907"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [educator-training, funding]
+  matched_keywords: [artificial intelligence]
+  rationale: "New Section 1205.9 authorizes school entities to train employees on AI in education (uses and limits, academic integrity, student privacy, bias) for continuing-education credit and directs the department to award grants for that training."
+- id: us-sc-2025-2026-h-5253
+  jurisdiction: us-sc
+  session: "2025-2026"
+  identifier: H 5253
+  title: Ai in education
+  url: "https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use, student-privacy, safety-wellbeing]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Would add S.C. Code § 59-28-195 to set limits and safeguards on AI use in public schools, including parental notice and consent, human and teacher oversight, and student data protection; it remains in House Education and Public Works."
+- id: us-tn-2023-2024-sb-1711
+  jurisdiction: us-tn
+  session: "2023-2024"
+  identifier: SB 1711
+  title: "AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence."
+  url: "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB1711&GA=113"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [local-policy-requirement, instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: "As enacted (Pub. Ch. 550), requires the UT board of trustees, board of regents, state university boards, each local board of education, and each public charter school governing body to adopt a policy on student, faculty, and staff use of AI for instructional and assignment purposes."
+- id: us-tn-2025-2026-hb-531
+  jurisdiction: us-tn
+  session: "2025-2026"
+  identifier: HB 531
+  title: "AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence."
+  url: "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB0531&GA=114"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [ai-literacy, curriculum-standards, educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: "Would require LEAs and public charter schools to give age-appropriate instruction on accessing, using, and critically evaluating AI tools, with department guidance and an AI professional development program for educators; it was taken off notice in House Education Committee on 3/18/2025."
+- id: us-tn-2025-2026-sb-677
+  jurisdiction: us-tn
+  session: "2025-2026"
+  identifier: SB 677
+  title: "AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence."
+  url: "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0677&GA=114"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: "As enacted (Pub. Ch. 1056), requires the department of education to offer a free asynchronous course on AI in the classroom and requires grades 6-12 teachers to complete a department-approved AI professional development course by Aug. 1, 2028 or within two years of licensure."
+- id: us-tx-2025-2026-hb-2400
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: HB 2400
+  title: Relating to a prohibition on the use of artificial intelligence technology for classroom instruction.
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2400"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: The caption and text would bar school districts and open-enrollment charter schools from using AI technology to deliver classroom instruction; it died in House Public Education Committee.
+- id: us-tx-2025-2026-hb-5282
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: HB 5282
+  title: Relating to the use of artificial intelligence to score certain portions of assessment instruments administered to public school students.
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB5282"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [assessment]
+  matched_keywords: [artificial intelligence]
+  rationale: "The caption shows the bill governs TEA's use of AI to score portions of state assessment instruments given to public school students; it died in House Public Education Committee."
+- id: us-ut-2026-hb-273
+  jurisdiction: us-ut
+  session: "2026"
+  identifier: HB 273
+  title: Classroom Technology Amendments
+  url: "https://le.utah.gov/~2026/bills/static/HB0273.html"
+  verified_url: "https://le.utah.gov/data/2026GS/HB0273.json"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: "Requires the State Board of Education to create a model policy on the use of artificial intelligence in the classroom with LEA policy requirements, and allows public high schools to offer a sandbox artificial intelligence course (signed 3/18/2026)."
+- id: us-ut-2026-sb-322
+  jurisdiction: us-ut
+  session: "2026"
+  identifier: SB 322
+  title: Educational Technology Regulatory Sandbox
+  url: "https://le.utah.gov/~2026/bills/static/SB0322.html"
+  verified_url: "https://le.utah.gov/data/2026GS/SB0322.json"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use, safety-wellbeing, student-privacy, academic-integrity]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Would create an education technology sandbox establishing minimum standards for artificial intelligence use in public education, including vendor red-teaming, a ban on AI simulating romantic relationships with students, and educator authority over grading (filed, not passed)."
+- id: us-va-2024-sb-385
+  jurisdiction: us-va
+  session: "2024"
+  identifier: SB 385
+  title: "A BILL to direct the Board of Education, in collaboration with the State Council of Higher Education for Virginia, to convene a work group to study and make recommendations on the use of artificial intelligence technology in education."
+  url: "https://lis.virginia.gov/bill-details/20241/SB385"
+  verified_url: "https://lis.virginia.gov/LegislationVersion/api/GetLegislationVersionbyBillNumberAsync?billNumber=SB385&sessionCode=20241"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12, postsecondary]
+  topics: [task-force]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Section 1 would have the Board of Education and SCHEV convene a work group to recommend guidelines on AI use in public schools and public institutions of higher education; it was stricken at the patron's request in Senate Finance and Appropriations."
+- id: us-va-2026-hb-1186
+  jurisdiction: us-va
+  session: "2026"
+  identifier: HB 1186
+  title: Department of Education; artificial intelligence use in instructional settings; development of AIS safety guidance required; AIS Innovation in Education Pilot Program established; report.
+  url: "https://lis.virginia.gov/bill-details/20261/HB1186"
+  verified_url: "https://lis.virginia.gov/LegislationText/api/GetLegislationTextByIDAsync?legislationTextID=266876"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use, safety-wellbeing, student-privacy, local-policy-requirement, funding]
+  matched_keywords: [artificial intelligence, machine learning]
+  rationale: "Adds Va. Code § 22.1-20.2:1, defining \"AIS in instructional settings\", requiring Department of Education guidance on safe, ethical, and equitable AI use, and setting up the AIS Innovation in Education Pilot Program; it was approved by the Governor as Chapter 937 (eff. 7/1/2026)."
+- id: us-va-2026-hj-32
+  jurisdiction: us-va
+  session: "2026"
+  identifier: HJ 32
+  title: Directing the Joint Legislative Audit and Review Commission to study artificial intelligence use policies in place at institutions of higher education in the Commonwealth. Report.
+  url: "https://lis.virginia.gov/bill-details/20261/HJ32"
+  verified_url: "https://lis.virginia.gov/LegislationVersion/api/GetLegislationVersionbyBillNumberAsync?billNumber=HJ32&sessionCode=20261"
+  label: in_scope
+  difficulty: clear
+  education_levels: [postsecondary]
+  topics: [research, institutional-operations]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: The resolution directs JLARC to study the AI-use policies in place at Virginia institutions of higher education; the Senate agreed to it on 3/3/2026.
+- id: us-wa-2025-2026-sb-5956
+  jurisdiction: us-wa
+  session: "2025-2026"
+  identifier: SB 5956
+  title: "Addressing artificial intelligence, student discipline, and surveillance in public schools."
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=5956&Year=2025"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5956-S.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [safety-wellbeing, student-privacy, local-policy-requirement]
+  matched_keywords: [artificial intelligence]
+  rationale: "Would limit school use of automated systems and biometric data in student discipline (e.g., Sec. 5 bars inferring emotional states from biometric data), require human judgment in discipline decisions, and direct OSPI to update its AI guidance and WSSDA to write a model policy."
+- id: us-wa-2025-2026-sb-6299
+  jurisdiction: us-wa
+  session: "2025-2026"
+  identifier: SB 6299
+  title: Concerning artificial intelligence and instructional staff.
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=6299&Year=2025"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6299.htm"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: Adds a section to chapter 28A.400 RCW stating artificial intelligence may supplement instruction but may not replace certificated instructional staff or paraeducators.
+- id: us-wv-2026-hb-5205
+  jurisdiction: us-wv
+  session: "2026"
+  identifier: HB 5205
+  title: Requiring the State Board of Education to create model policies on the use of technology and artifical intelligence in a public school classroom
+  url: "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=5205&year=2026&sessiontype=RS&btype=bill"
+  label: in_scope
+  difficulty: clear
+  education_levels: [k12]
+  topics: [local-policy-requirement, instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: The official summary says the bill would require the State Board of Education to create model policies on technology and AI use in public school classrooms (new §18-2-47 and §18-5-55 through -59); it died in House Education.
+- id: us-118-hr-5077
+  jurisdiction: us
+  session: "118"
+  identifier: H.R. 5077
+  title: Creating Resources for Every American To Experiment with Artificial Intelligence Act of 2023 (CREATE AI Act of 2023)
+  url: "https://www.congress.gov/bill/118th-congress/house-bill/5077"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118hr5077ih/html/BILLS-118hr5077ih.htm"
+  label: out_of_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [research, equity-access]
+  matched_keywords: [artificial intelligence, AI, algorithm]
+  rationale: "A general AI research-infrastructure bill (NAIRR), but new sec. 5603 requires the NAIRR to provide educational tools and training materials and sec. 5604(a) makes educators and students at institutions of higher education eligible users. Out of scope under the borderline rules: federal research infrastructure with incidental educator and student eligibility."
+- id: us-118-hr-9215
+  jurisdiction: us
+  session: "118"
+  identifier: H.R. 9215
+  title: Workforce for AI Trust Act
+  url: "https://www.congress.gov/bill/118th-congress/house-bill/9215"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118hr9215ih/html/BILLS-118hr9215ih.htm"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [workforce, research, funding]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "An AI-trustworthiness workforce bill whose Sec. 2(a) amends the National AI Initiative Act to fund interdisciplinary graduate and postdoctoral AI fellowships made through institutions of higher education, covering student tuition and fees."
+- id: us-118-s-2892
+  jurisdiction: us
+  session: "118"
+  identifier: S. 2892
+  title: Algorithmic Accountability Act of 2023
+  url: "https://www.congress.gov/bill/118th-congress/senate-bill/2892"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118s2892is/html/BILLS-118s2892is.htm"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [assessment, admissions, data-governance]
+  matched_keywords: [artificial intelligence, algorithm, machine learning]
+  rationale: "A general automated-decision impact-assessment bill whose Sec. 2(8) definition of \"critical decision\" expressly includes access to education and vocational training, including assessment, accreditation, or certification."
+- id: us-118-s-5152
+  jurisdiction: us
+  session: "118"
+  identifier: S. 5152
+  title: Artificial Intelligence Civil Rights Act of 2024
+  url: "https://www.congress.gov/bill/118th-congress/senate-bill/5152"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118s5152is/html/BILLS-118s5152is.htm"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [admissions, assessment, academic-integrity, equity-access]
+  matched_keywords: [artificial intelligence, algorithm, machine learning]
+  rationale: "A general algorithmic-discrimination bill whose definition of \"consequential action\" (Sec. 2) expressly covers education, including assessment, proctoring, academic-integrity enforcement, admissions, and financial aid decisions."
+- id: us-119-hr-3210
+  jurisdiction: us
+  session: "119"
+  identifier: H.R. 3210
+  title: Artificial Intelligence Literacy and Inclusion Act
+  url: "https://www.congress.gov/bill/119th-congress/house-bill/3210"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119hr3210ih/html/BILLS-119hr3210ih.htm"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [ai-literacy, curriculum-standards, equity-access]
+  matched_keywords: [artificial intelligence, AI]
+  rationale: "Mostly community AI literacy grants, but Sec. 2(b)(1)(D) requires the Secretary of Education to report strategies for incorporating AI literacy into K-12 and higher education curricula."
+- id: us-ar-2025-hb-1958
+  jurisdiction: us-ar
+  session: "2025"
+  identifier: HB 1958
+  title: To Require Public Entities to Create a Policy Concerning the Authorized Use of Artificial Intelligence
+  url: "https://arkleg.state.ar.us/Bills/Detail?id=HB1958&ddBienniumSession=2025%2F2025R"
+  verified_url: "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=848.pdf&ddBienniumSession=2025%2F2025R"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [local-policy-requirement, institutional-operations]
+  matched_keywords: [artificial intelligence]
+  rationale: "Act 848 amends Ark. Code 25-1-128, defining \"public entity\" to include public school districts, school boards, open-enrollment charter schools, and institutions of higher education, then requires each one to create an AI and automated decision tool policy."
+- id: us-co-2024-sb-24-205
+  jurisdiction: us-co
+  session: "2024"
+  identifier: SB 24-205
+  title: Concerning Consumer Protections in Interactions with Artificial Intelligence Systems
+  url: "https://leg.colorado.gov/bills/sb24-205"
+  verified_url: "https://leg.colorado.gov/sites/default/files/2024a_205_signed.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [admissions, data-governance]
+  matched_keywords: [artificial intelligence, algorithm]
+  rationale: "A general high-risk AI law whose definition of \"consequential decision\" in C.R.S. 6-1-1701(3)(a) covers \"education enrollment or an education opportunity,\" so AI-driven admissions and placement decisions by schools and colleges fall under its algorithmic-discrimination duties."
+- id: us-co-2025-sb-25-288
+  jurisdiction: us-co
+  session: "2025"
+  identifier: SB 25-288
+  title: "Concerning Preventing Certain Disclosures of Intimate Depictions, and, in Connection Therewith, Creating a Cause of Action for Nonconsensual Disclosure of an Intimate Digital Depiction and Adding and Amending Related Provisions in Criminal Law"
+  url: "https://leg.colorado.gov/bills/sb25-288"
+  verified_url: "https://leg.colorado.gov/sites/default/files/2025a_288_signed.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12]
+  topics: [synthetic-media, safety-wellbeing, curriculum-standards]
+  matched_keywords: [generative]
+  rationale: "The intimate-deepfake law (covering \"digital depictions\" made by generative AI) has a SECTION 8 amending C.R.S. 24-33.5-1803(3)(m) so the School Safety Resource Center's model sexting curriculum for school districts covers intimate digital depictions."
+- id: us-ct-2024-sb-2
+  jurisdiction: us-ct
+  session: "2024"
+  identifier: SB 2
+  title: An Act Concerning Artificial Intelligence
+  url: "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&which_year=2024&bill_num=2"
+  verified_url: "https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R03-SB.PDF"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [workforce, ai-literacy]
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "The broad AI bill's Sec. 24(b) requires the Board of Regents for Higher Education to establish, at the regional community-technical colleges, certificate programs in prompt engineering, AI marketing for small businesses, and AI for small business operations."
+- id: us-ct-2026-sb-5
+  jurisdiction: us-ct
+  session: "2026"
+  identifier: SB 5
+  title: An Act Concerning Online Safety
+  url: "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&which_year=2026&bill_num=5"
+  verified_url: "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00005-R04-SB.PDF"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [educator-training, ai-literacy, workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: "The online-safety bill (PA 26-15) has a Sec. 19 that directs the Board of Regents to set up a Connecticut AI Academy at Charter Oak State College, including courses for primary and secondary school teachers and administrators on appropriate classroom AI use."
+- id: us-il-2023-2024-hb-3563
+  jurisdiction: us-il
+  session: "2023-2024"
+  identifier: HB 3563
+  title: AN ACT concerning State government (Generative AI and Natural Language Processing Task Force)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=3563&GAID=17&DocTypeID=HB&SessionID=112"
+  verified_url: "https://ilga.gov/ftp/Public%20Acts/103/103-0451.htm"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [task-force, local-policy-requirement]
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Public Act 103-0451 creates a DoIT generative AI task force whose members include the State Superintendent, ICCB and IBHE executive directors, and two teachers, and whose duties include \"recommending model policies for schools to address the use of generative artificial intelligence by students in the classroom.\""
+- id: us-il-2025-2026-hb-3851
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: HB 3851
+  title: AN ACT concerning education (School Code bullying prevention; digital replicas)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=3851&GAID=18&DocTypeID=HB&SessionID=114"
+  verified_url: "https://www.ilga.gov/Documents/legislation/104/HB/10400HB3851.htm"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12]
+  topics: [synthetic-media, safety-wellbeing, local-policy-requirement]
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Amends School Code Sec. 27-23.7(b) so that, beginning 2026-27, \"cyber-bullying\" includes posting or distributing a \"digital replica\" created with artificial intelligence, which flows into every district's required bullying policy."
+- id: us-il-2025-2026-hb-862
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: HB 862
+  title: AN ACT concerning State government
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=862&GAID=18&DocTypeID=HB&SessionID=114"
+  verified_url: "https://ilga.gov/ftp/Public%20Acts/104/104-0465.htm"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12]
+  topics: [synthetic-media, safety-wellbeing]
+  matched_keywords: [artificial intelligence]
+  rationale: "In this multi-subject state-government act (P.A. 104-0465), Sec. 5-105 amends the School Code bullying section (105 ILCS 5/22-110, formerly 27-23.7) so that, from 2026-27, cyber-bullying includes distributing an \"unauthorized digital replica,\" with \"artificial intelligence\" defined by reference to the Digital Voice and Likeness Protection Act."
+- id: us-ks-2025-2026-hb-2592
+  jurisdiction: us-ks
+  session: "2025-2026"
+  identifier: HB 2592
+  title: AN ACT creating the Kansas task force on artificial intelligence and emerging technologies; providing membership and duties of such task force
+  url: "https://www.kslegislature.gov/li/b2025_26/measures/hb2592/"
+  verified_url: "https://www.kslegislature.gov/li/b2025_26/measures/documents/hb2592_00_0000.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [task-force]
+  matched_keywords: [artificial intelligence]
+  rationale: "Sec. 1(a) directs the general AI task force to explore \"the responsible integration of artificial intelligence into public education,\" and its membership includes appointees of the state board of education and the Kansas board of regents."
+- id: us-la-2026-sb-347
+  jurisdiction: us-la
+  session: "2026"
+  identifier: SB 347
+  title: "Provides for the crime of \"unlawful deepfake\" to be added to the definition of power-based violence under the Campus Accountability and Safety Act"
+  url: "https://legis.la.gov/Legis/BillInfo.aspx?s=26RS&b=SB347&sbi=y"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [synthetic-media, safety-wellbeing]
+  matched_keywords: [deepfake, artificial intelligence]
+  rationale: "Amends R.S. 17:3399.12(5) so that conduct under the unlawful-deepfake statutes (R.S. 14:73.13/73.14) involving AI-generated or deepfake media counts as \"power-based violence\" that colleges must address under the Campus Accountability and Safety Act (Act 497)."
+- id: us-md-2024-sb-360
+  jurisdiction: us-md
+  session: "2024"
+  identifier: SB 360
+  title: Budget Bill (Fiscal Year 2025)
+  url: "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0360?ys=2024RS"
+  verified_url: "https://mgaleg.maryland.gov/2024RS/bills/sb/sb0360E.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [funding, research]
+  matched_keywords: [artificial intelligence, machine learning]
+  rationale: "State budget whose SECTION 21(50) adds $500,000 for Morgan State University to support its Center for Equitable Artificial Intelligence and Machine Learning Systems. Out of scope under the borderline rules: funds a university AI research center with no instruction or student training."
+- id: us-md-2024-sb-818
+  jurisdiction: us-md
+  session: "2024"
+  identifier: SB 818
+  title: Information Technology – Artificial Intelligence – Policies and Procedures (Artificial Intelligence Governance Act of 2024)
+  url: "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0818?ys=2024RS"
+  verified_url: "https://mgaleg.maryland.gov/2024RS/bills/sb/sb0818E.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [institutional-operations, data-governance]
+  matched_keywords: [artificial intelligence]
+  rationale: A state-government AI governance act whose Sec. 3.5-802 applies the subtitle to public senior higher education institutions and Baltimore City Community College and requires them to adopt compatible policies for high-risk AI used for research or academic purposes and report annually on AI procured and deployed.
+- id: us-md-2025-hb-350
+  jurisdiction: us-md
+  session: "2025"
+  identifier: HB 350
+  title: Budget Bill (Fiscal Year 2026)
+  url: "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0350?ys=2025RS"
+  verified_url: "https://mgaleg.maryland.gov/2025RS/bills/hb/hb0350E.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [funding, task-force]
+  matched_keywords: [artificial intelligence, machine learning]
+  rationale: "State budget whose SECTION 21(55) adds $50,000 for Morgan State's Center for Equitable AI and Machine Learning Systems to complete an AI needs assessment for the State Department of Education and assist an AI-in-K-12 task force."
+- id: us-nj-2026-2027-a-2742
+  jurisdiction: us-nj
+  session: "2026-2027"
+  identifier: A 2742
+  title: "An Act concerning harassment, intimidation, and bullying in the public schools and amending P.L.2002, c.83 and P.L.2010, c.122"
+  url: "https://www.njleg.state.nj.us/bill-search/2026/A2742"
+  verified_url: "https://pub.njleg.state.nj.us/Bills/2026/A3000/2742_I1.HTM"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12]
+  topics: [synthetic-media, safety-wellbeing]
+  matched_keywords: [artificial intelligence, deepfake]
+  rationale: "Section 1 amends N.J.S.A. 18A:37-14 to define \"deceptive audio or visual media\" and adds acts using it to the definition of school harassment, intimidation, or bullying; the statement says this covers AI or deepfake impersonation."
+- id: us-nv-2025-ab-406
+  jurisdiction: us-nv
+  session: "2025"
+  identifier: AB 406
+  title: AN ACT relating to health; prohibiting certain uses of artificial intelligence in public schools; requiring the Department of Education to develop a policy concerning certain uses of artificial intelligence; ...
+  url: "https://archive.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12]
+  topics: [safety-wellbeing, instructional-use]
+  matched_keywords: [artificial intelligence]
+  rationale: "A mental-health AI bill whose Sec. 2 (new section in NRS Chapter 391) bars public schools from using AI to perform school counselor, psychologist, or social worker mental-health duties and requires the Department of Education to adopt a policy on such AI use."
+- id: us-oh-2025-2026-hb-96
+  jurisdiction: us-oh
+  session: "2025-2026"
+  identifier: HB 96
+  title: Make state operating appropriations for FY 2026-27
+  url: "https://www.legislature.ohio.gov/legislation/136/hb96"
+  verified_url: "https://codes.ohio.gov/ohio-revised-code/section-3301.24"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12]
+  topics: [local-policy-requirement, funding]
+  matched_keywords: [artificial intelligence]
+  rationale: "The operating budget enacted R.C. 3301.24, which requires the Department of Education and Workforce to develop a model AI-in-schools policy by Dec. 31, 2025 and requires every school district, community school, and STEM school to adopt an AI policy by July 1, 2026."
+- id: us-pa-2025-2026-hb-1505
+  jurisdiction: us-pa
+  session: "2025-2026"
+  identifier: HB 1505
+  title: "An Act amending the act of March 10, 1949 (P.L.30, No.14), known as the Public School Code of 1949, in preliminary provisions, providing for standardized testing study; ..."
+  url: "https://www.palegis.us/legislation/bills/2025/hb1505"
+  verified_url: "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB1505/PN3764"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12]
+  topics: [synthetic-media, safety-wellbeing, local-policy-requirement]
+  matched_keywords: [artificial intelligence]
+  rationale: "Within this omnibus School Code act (Act 20 of 2026), amended Section 1303.1-A(e) defines \"artificial intelligence-generated or modified media\" and includes it in \"cyberbullying,\" which school entities' bullying policies must address."
+- id: us-tn-2023-2024-hb-2325
+  jurisdiction: us-tn
+  session: "2023-2024"
+  identifier: HB 2325
+  title: "AN ACT to amend Tennessee Code Annotated, Title 4, relative to the artificial intelligence advisory council"
+  url: "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB2325&GA=113"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [task-force, workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: "The Tennessee AI Advisory Council Act (Pub. Ch. 988) seats the commissioner of education and requires the council's action plan to include \"proposed policy changes related to workforce development, educational systems, and research opportunities for colleges and universities.\""
+- id: us-tx-2025-2026-hb-3512
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: HB 3512
+  title: Relating to artificial intelligence training programs for certain employees and officials of state agencies and local governments
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3512"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03512F.htm"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12]
+  topics: [educator-training]
+  matched_keywords: [artificial intelligence]
+  rationale: A government-wide AI training bill whose SECTION 1 amends Education Code Sec. 11.175(h-1) to set how school district cybersecurity coordinators and other district employees must complete the required artificial intelligence training.
+- id: us-tx-2025-2026-hb-500
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: HB 500
+  title: Relating to making supplemental appropriations and reductions in appropriations and giving direction and adjustment authority regarding appropriations
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB500"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00500F.htm"
+  label: out_of_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [funding, research]
+  matched_keywords: [artificial intelligence]
+  rationale: "The supplemental appropriations act's SECTION 9.21 re-appropriates an estimated $167 million to the Texas A&M University System for \"quantum and artificial intelligence chip fabrication\" and its Center for Microdevices and Systems. Out of scope under the borderline rules: funds AI chip fabrication with no instruction or student training."
+- id: us-va-2026-hb-310
+  jurisdiction: us-va
+  session: "2026"
+  identifier: HB 310
+  title: "Artificial Intelligence Workforce Impact Act; established, report"
+  url: "https://lis.virginia.gov/bill-details/20261/HB310"
+  verified_url: "https://lis.blob.core.windows.net/lisfiles/20261/Summaries.csv"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: The state-agency AI workforce-reporting bill makes state employees displaced by AI systems eligible for retraining or upskilling programs coordinated through the Department of Human Resource Management and the Virginia Community College System.
+- id: us-wa-2023-2024-sb-5838
+  jurisdiction: us-wa
+  session: "2023-2024"
+  identifier: SB 5838
+  title: Establishing an artificial intelligence task force
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=5838&Year=2024"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Session%20Laws/Senate/5838-S2.sl.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [task-force, workforce]
+  matched_keywords: [artificial intelligence]
+  rationale: "General AI task force bill whose Sec. 1(3)(e)(i) requires the executive committee to convene subcommittees including an \"Education and workforce development\" subcommittee to advise on AI recommendations."
+- id: us-wa-2025-2026-hb-1622
+  jurisdiction: us-wa
+  session: "2025-2026"
+  identifier: HB 1622
+  title: Allowing bargaining over matters related to the use of artificial intelligence
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=1622&Year=2025"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/1622.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [postsecondary]
+  topics: [institutional-operations]
+  matched_keywords: [artificial intelligence]
+  rationale: "Sec. 1 amends RCW 41.56.021(4)(b), the higher-education employee bargaining section, to carve \"the use of technology\" out of institutions' management rights so that public colleges and universities must bargain over adopting AI under new Sec. 5."
+- id: us-wv-2024-hb-5690
+  jurisdiction: us-wv
+  session: "2024"
+  identifier: HB 5690
+  title: Creating a West Virginia Task Force on Artificial Intelligence
+  url: "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5690&year=2024&sessiontype=RS"
+  verified_url: "https://code.wvlegislature.gov/signed_bills/2024/2024-RS-HB5690-ENR_signed.pdf"
+  label: in_scope
+  difficulty: borderline
+  education_levels: [k12, postsecondary]
+  topics: [task-force, local-policy-requirement]
+  matched_keywords: [artificial intelligence]
+  rationale: "New Sec. 5A-6-9 seats the State Superintendent of Schools and the Higher Education Policy Commission chancellor on the task force and lists among its duties \"recommending model policies for schools to address the use of artificial intelligence by students in the classroom.\""
+- id: us-118-s-4596
+  jurisdiction: us
+  session: "118"
+  identifier: S. 4596
+  title: Artificial Intelligence Public Awareness and Education Campaign Act
+  url: "https://www.congress.gov/bill/118th-congress/senate-bill/4596"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118s4596is/html/BILLS-118s4596is.htm"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, AI, deepfake, chatbot, algorithm]
+  rationale: "Despite \"Education\" in the title, Sec. 2 directs a Commerce Department public awareness campaign for the general public, and its only higher-ed reference is outreach about federal AI job opportunities, not any governance of AI in schools."
+- id: us-119-hr-6489
+  jurisdiction: us
+  session: "119"
+  identifier: H.R. 6489
+  title: Safeguarding Adolescents From Exploitative BOTs Act (SAFE BOTs Act)
+  url: "https://www.congress.gov/bill/119th-congress/house-bill/6489"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119hr6489ih/html/BILLS-119hr6489ih.htm"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [chatbot, artificial intelligence, AI]
+  rationale: "AI chatbot and minors bill whose Sec. 2 obligations fall on chatbot providers; educators appear only as consultees for the NIH mental-health study in Sec. 2(g)(2)(E), with no school, student, or institution obligation."
+- id: us-119-s-146
+  jurisdiction: us
+  session: "119"
+  identifier: S. 146
+  title: Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act (TAKE IT DOWN Act)
+  url: "https://www.congress.gov/bill/119th-congress/senate-bill/146"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119s146enr/html/BILLS-119s146enr.htm"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [deepfake, artificial intelligence, machine learning]
+  rationale: "Deepfake law protecting minors whose Sec. 2 criminal prohibitions and Sec. 3 platform takedown duties contain no school or student provision (the only \"education\" reference is a medical-education exception)."
+- id: us-ar-2025-sb-142
+  jurisdiction: us-ar
+  session: "2025"
+  identifier: SB 142
+  title: "To Create the Bell to Bell, No Cell Act; to Amend the Requirements for Public School Discipline Policies with Regard to Student Use of Personal Electronic Devices"
+  url: "https://arkleg.state.ar.us/Bills/Detail?id=SB142&ddBienniumSession=2025%2F2025R"
+  verified_url: "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FSB142.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: []
+  rationale: Requires public school discipline policies to bar student personal electronic devices from bell to bell; the text contains no reference to artificial intelligence.
+- id: us-ct-2023-sb-1103
+  jurisdiction: us-ct
+  session: "2023"
+  identifier: SB 1103
+  title: "An Act Concerning Artificial Intelligence, Automated Decision-Making and Personal Data Privacy (Public Act 23-16)"
+  url: "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&which_year=2023&bill_num=1103"
+  verified_url: "https://www.cga.ct.gov/2023/ACT/PA/PDF/2023PA-00016-R00SB-01103-PA.PDF"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, machine learning]
+  rationale: "Section 1 requires DAS to inventory AI systems used by any \"state agency\" (as defined in 4d-1) and sets impact-assessment policies; the act never mentions schools, students, or higher education."
+- id: us-fl-2023-hb-379
+  jurisdiction: us-fl
+  session: "2023"
+  identifier: HB 379
+  title: Technology in K-12 Public Schools
+  url: "https://www.flsenate.gov/Session/Bill/2023/379"
+  verified_url: "https://www.flsenate.gov/Session/Bill/2023/379/BillText/er/PDF"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: []
+  rationale: "Requires district Internet safety policies, blocks student social media access on school networks, and adds social media safety instruction, with no mention of artificial intelligence or any other search keyword."
+- id: us-id-2024-hb-465
+  jurisdiction: us-id
+  session: "2024"
+  identifier: HB 465
+  title: Relating to crimes against children
+  url: "https://legislature.idaho.gov/sessioninfo/2024/legislation/H0465/"
+  verified_url: "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2024/legislation/H0465.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [generative, machine learning, algorithm]
+  rationale: "New Idaho Code 18-1507C makes it a felony to make or possess sexual depictions of children \"created using generative AI or machine learning\" (generative AI defined as \"any algorithm or model\"), a purely criminal provision that never mentions schools."
+- id: us-ky-2025-hb-208
+  jurisdiction: us-ky
+  session: "2025"
+  identifier: HB 208
+  title: AN ACT relating to technology in public schools
+  url: "https://apps.legislature.ky.gov/record/25rs/hb208.html"
+  verified_url: "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb208/bill.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: []
+  rationale: "Amends KRS 158.165 to require district policies on student personal telecommunications devices and Internet filtering of social media, with no AI provision."
+- id: us-la-2023-sb-175
+  jurisdiction: us-la
+  session: "2023"
+  identifier: SB 175
+  title: Creates the crime of unlawful deepfakes (Act 457)
+  url: "https://legis.la.gov/legis/BillInfo.aspx?s=23RS&b=SB175"
+  verified_url: "https://legis.la.gov/legis/ViewDocument.aspx?d=1333325"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [deepfake]
+  rationale: "Enacts R.S. 14:73.13, which criminalizes creating or possessing deepfakes that depict a minor in sexual conduct and nonconsensual deepfakes of others; it is a computer-related-crime statute with no school or student provision."
+- id: us-md-2024-hb-603
+  jurisdiction: us-md
+  session: "2024"
+  identifier: HB 603
+  title: Consumer Protection - Online Products and Services - Data of Children (Maryland Kids Code)
+  url: "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0603?ys=2024RS"
+  verified_url: "https://mgaleg.maryland.gov/2024RS/bills/hb/hb0603T.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [algorithm]
+  rationale: "Requires online products likely to be accessed by children to complete data protection impact assessments, including whether their \"algorithms\" would harm children; \"school\" appears only as an age-band label (\"core primary school years\"), and nothing applies to schools."
+- id: us-nc-2023-2024-hb-8
+  jurisdiction: us-nc
+  session: "2023-2024"
+  identifier: HB 8
+  title: An Act to Make Various Changes to the General Statutes (S.L. 2023-132)
+  url: "https://www.ncleg.gov/BillLookUp/2023/H8"
+  verified_url: "https://NCleg.net/EnactedLegislation/SessionLaws/HTML/2023-2024/SL2023-132.html"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [algorithm]
+  rationale: "An education omnibus that adds a high school computer science graduation requirement and course offerings, defining computer science as \"the study of computers and algorithmic processes,\" with no mention of artificial intelligence anywhere in the session law."
+- id: us-ne-2025-2026-lb-504
+  jurisdiction: us-ne
+  session: "2025-2026"
+  identifier: LB 504
+  title: Age-Appropriate Online Design Code Act
+  url: "https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB504.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: []
+  rationale: "Regulates covered online services' design features and profiling of covered minors; \"school\" appears only in limits on push notifications and parental controls \"during school hours,\" not as any duty of schools."
+- id: us-nj-2024-2025-a-3540
+  jurisdiction: us-nj
+  session: "2024-2025"
+  identifier: A 3540
+  title: An Act establishing civil and criminal penalties for the production and dissemination of deceptive audio or visual media and supplementing Title 2C of the New Jersey Statutes
+  url: "https://www.njleg.state.nj.us/bill-search/2024/A3540"
+  verified_url: "https://pub.njleg.gov/bills/2024/PL25/40_.HTM"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [deepfake, artificial intelligence]
+  rationale: "P.L.2025, c.40 sets criminal and civil penalties for producing or spreading deceptive deepfake media; its only school reference permits disclosing the media \"to a school administrator\" for reporting a violation, which imposes no obligation on schools."
+- id: us-ny-2023-2024-s-7543
+  jurisdiction: us-ny
+  session: "2023-2024"
+  identifier: S 7543
+  title: Legislative Oversight of Automated Decision-making in Government Act (LOADinG Act)
+  url: "https://www.nysenate.gov/legislation/bills/2023/S7543/amendment/B"
+  verified_url: "https://legislation.nysenate.gov/pdf/bills/2023/S7543B"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, algorithm, machine learning]
+  rationale: "Adds State Technology Law article on state agency use of automated decision-making systems (defined to include algorithms and AI); \"education\" appears only as \"education assistance\" in a list of public benefits, not as any school provision."
+- id: us-ny-2023-2024-s-7694
+  jurisdiction: us-ny
+  session: "2023-2024"
+  identifier: S 7694
+  title: Stop Addictive Feeds Exploitation (SAFE) for Kids Act
+  url: "https://www.nysenate.gov/legislation/bills/2023/S7694/amendment/A"
+  verified_url: "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S07694&term=2023&Summary=Y&Text=Y"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [machine learning, algorithm]
+  rationale: "Amends the general business law to bar social media platforms from serving algorithmic \"addictive feeds\" (described in the intent section as built on \"machine learning algorithms\") to minors, with Attorney General enforcement and no provision addressing schools or students."
+- id: us-ny-2025-2026-a-5689
+  jurisdiction: us-ny
+  session: "2025-2026"
+  identifier: A 5689
+  title: Establishes a computer science graduation requirement
+  url: "https://www.nysenate.gov/legislation/bills/2025/A5689"
+  verified_url: "https://legislation.nysenate.gov/pdf/bills/2025/a5689"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [algorithm]
+  rationale: "New Education Law 819 requires one high school computer science course for a diploma, defining computer science as \"the study of computers and algorithmic processes,\" with no AI content."
+- id: us-ny-2025-2026-s-9051
+  jurisdiction: us-ny
+  session: "2025-2026"
+  identifier: S 9051
+  title: "Prohibition on unsafe AI companion features for minors (AN ACT to amend the general business law, in relation to prohibiting artificial intelligence companions from using features which are considered unsafe for minors)"
+  url: "https://www.nysenate.gov/legislation/bills/2025/S9051/amendment/B"
+  verified_url: "https://legislation.nysenate.gov/pdf/bills/2025/S9051B"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "New GBL Article 48 (sections 1800-1805) bars AI companion operators from offering unsafe features to covered minors and is enforced by the Attorney General; the text never mentions schools, students, or educators."
+- id: us-or-2025-hb-3936
+  jurisdiction: us-or
+  session: "2025"
+  identifier: HB 3936
+  title: Relating to the security of state assets
+  url: "https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/HB3936"
+  verified_url: "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3936/Enrolled"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence]
+  rationale: "Amends ORS 276A.340-276A.348 to bar state agencies' information technology assets from using AI developed or owned by a \"covered vendor\"; the text contains no reference to schools or higher education."
+- id: us-or-2026-sb-1546
+  jurisdiction: us-or
+  session: "2026"
+  identifier: SB 1546
+  title: Relating to artificial intelligence companions
+  url: "https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/SB1546"
+  verified_url: "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1546/Enrolled"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, generative, algorithm]
+  rationale: "Section 1 puts duties on AI companion platform operators when a user is a minor; the only education reference is a carve-out of software used for \"education\" from the definition of \"artificial intelligence companion,\" so nothing applies to schools."
+- id: us-pa-2023-2024-hr-496
+  jurisdiction: us-pa
+  session: "2023-2024"
+  identifier: HR 496
+  title: A Resolution urging the Congress of the United States to amend 17 U.S.C. sections 102 and 107 to protect creative workers against displacement by artificial intelligence technology
+  url: "https://www.palegis.us/legislation/bills/2023/hr496"
+  verified_url: "https://www.palegis.us/legislation/bills/text/HTM/2023/0/HR0496/PN3513"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence]
+  rationale: Only urges Congress to amend copyright law to protect creative workers from AI displacement; it has no operative provision and no education content.
+- id: us-pa-2025-2026-hr-425
+  jurisdiction: us-pa
+  session: "2025-2026"
+  identifier: HR 425
+  title: A Resolution urging the United States Congress to suspend any and all efforts to pass Federal legislation that would impose a moratorium on state-level artificial intelligence regulation
+  url: "https://www.palegis.us/legislation/bills/2025/hr425"
+  verified_url: "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0425/PN2969"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, deepfake]
+  rationale: "A memorializing resolution whose resolved clauses only urge Congress and the state's congressional delegation and direct transmittal of copies; education appears only in a whereas clause listing sectors AI affects."
+- id: us-tx-2023-2024-hb-2060
+  jurisdiction: us-tx
+  session: "2023-2024"
+  identifier: HB 2060
+  title: Relating to the creation of the artificial intelligence advisory council
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&Bill=HB2060"
+  verified_url: "https://capitol.texas.gov/tlodocs/88R/billtext/html/HB02060F.htm"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, algorithm, machine learning]
+  rationale: "Creates the AI advisory council (Gov. Code 2054.621 et seq.) to study state agencies' automated decision systems; higher education appears only as the employer of two council members, and no duty falls on institutions."
+- id: us-tx-2025-2026-hb-1481
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: HB 1481
+  title: Relating to school district and open-enrollment charter school policies regarding student use of personal communication devices
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB1481"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01481F.htm"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: []
+  rationale: "Amends Education Code 37.082 to require district and charter policies restricting student use of personal communication devices during the school day, with no AI content."
+- id: us-tx-2025-2026-hr-1329
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: HR 1329
+  title: Congratulating Dr. Van Davis on his induction into the Texas Digital Learning Association Hall of Fame
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HR1329"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HR01329F.htm"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence]
+  rationale: "A congratulatory resolution that praises a higher-education digital learning leader's \"expertise in digital learning and artificial intelligence\" but resolves only to congratulate him and prepare an official copy, directing no education action."
+- id: us-tx-2025-2026-sb-1964
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: SB 1964
+  title: Relating to the regulation and use of artificial intelligence systems and the management of data by governmental entities
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1964"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01964F.htm"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence]
+  rationale: "Sets AI standards for state agencies and local governments under Gov. Code ch. 2054; its only \"educational\" provision (Sec. 2054.704) is a DIR public outreach program on AI, and the text never names schools or institutions of higher education."
+- id: us-tx-2025-2026-sb-20
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: SB 20
+  title: "Relating to the creation of the criminal offense of possession, promotion, or production of certain obscene visual material appearing to depict a child"
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB20"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00020F.htm"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence]
+  rationale: "Creates a Penal Code offense for obscene material depicting a child \"regardless of whether the depiction is ... an image created using an artificial intelligence application,\" with no school, student, or educator provision."
+- id: us-va-2024-sb-487
+  jurisdiction: us-va
+  session: "2024"
+  identifier: SB 487
+  title: "Artificial intelligence by public bodies; Joint Commission on Technology & Science to examine use (Chapter 678)"
+  url: "https://lis.virginia.gov/bill-details/20241/SB487"
+  verified_url: "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+ful+CHAP0678"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence]
+  rationale: "Directs JCOTS to analyze AI procurement, use, and impact assessment by \"public bodies\" and a possible Commission on AI, without naming schools, school boards, or higher-education institutions."
+- id: us-vt-2025-2026-s-69
+  jurisdiction: us-vt
+  session: "2025-2026"
+  identifier: S 69
+  title: An act relating to an age-appropriate design code (Act 63)
+  url: "https://legislature.vermont.gov/bill/status/2026/S.69"
+  verified_url: "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT063/ACT063%20As%20Enacted.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [algorithm]
+  rationale: "The Vermont Age-Appropriate Design Code Act (9 V.S.A. 2449a et seq.) regulates covered businesses' \"algorithmic recommendation systems\" for minors and excludes services \"used by and under the direction of an educational entity,\" so it puts no duties on schools."
+- id: us-wa-2025-2026-hb-2225
+  jurisdiction: us-wa
+  session: "2025-2026"
+  identifier: HB 2225
+  title: Artificial intelligence companion chatbots
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=2225&Year=2026"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Session%20Laws/House/2225-S.SL.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, chatbot, generative, algorithm]
+  rationale: "Adds a new Title 19 RCW consumer-protection chapter of safeguards for AI companion chatbots, especially toward minors; it mentions schools only to exclude \"narrowly tailored educational tools used in school or instructional settings\" from the chatbot definition and puts no obligation on schools."
+- id: us-wi-2023-2024-ab-1068
+  jurisdiction: us-wi
+  session: "2023-2024"
+  identifier: AB 1068
+  title: Use of artificial intelligence by state agencies and staff reduction goals
+  url: "https://docs.legis.wisconsin.gov/2023/proposals/ab1068"
+  verified_url: "https://docs.legis.wisconsin.gov/2023/related/proposals/ab1068.pdf"
+  label: out_of_scope
+  difficulty: borderline
+  matched_keywords: [artificial intelligence, machine learning, generative]
+  rationale: "New s. 16.503 requires each \"agency\" (defined as a body that submits a budget request under s. 16.42) to report its AI tool use and positions that AI could reduce, with no mention of schools or universities."
+- id: us-118-s-2770
+  jurisdiction: us
+  session: "118"
+  identifier: S. 2770
+  title: Protect Elections from Deceptive AI Act
+  url: "https://www.congress.gov/bill/118th-congress/senate-bill/2770"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-118s2770is/html/BILLS-118s2770is.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, AI, machine learning]
+  rationale: Sec. 2 prohibits distributing materially deceptive AI-generated media of federal candidates and has no education provision.
+- id: us-119-s-1399
+  jurisdiction: us
+  session: "119"
+  identifier: S. 1399
+  title: Health Tech Investment Act
+  url: "https://www.congress.gov/bill/119th-congress/senate-bill/1399"
+  verified_url: "https://www.govinfo.gov/content/pkg/BILLS-119s1399is/html/BILLS-119s1399is.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm, artificial intelligence, machine learning]
+  rationale: Sec. 2 sets Medicare outpatient payment rules for algorithm-based healthcare services and contains no education provision.
+- id: us-az-2024-hb-2394
+  jurisdiction: us-az
+  session: "2024"
+  identifier: HB 2394
+  title: Digital impersonation; injunctive relief; requirements
+  url: "https://www.azleg.gov/legtext/56leg/2R/bills/HB2394S.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, synthetic media]
+  rationale: "New A.R.S. 16-1023 lets candidates and others get injunctive relief against a \"digital impersonation\" (synthetic media made with deep generative methods and artificial intelligence techniques); \"educational institutions\" appears only in the internet-service exemption."
+- id: us-co-2025-hb-25-1004
+  jurisdiction: us-co
+  session: "2025"
+  identifier: HB25-1004
+  title: No Pricing Coordination Between Landlords
+  url: "https://leg.colorado.gov/bills/hb25-1004"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm]
+  rationale: "Housing bill prohibiting the sale or use of an \"algorithmic device\" meant to be used by two or more landlords to set rents in the same market; it has no school provision."
+- id: us-fl-2023-sb-932
+  jurisdiction: us-fl
+  session: "2023"
+  identifier: SB 932
+  title: Animal Welfare
+  url: "https://www.flsenate.gov/Session/Bill/2023/932"
+  verified_url: "https://www.flsenate.gov/Session/Bill/2023/932/BillText/Filed/HTML"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Animal welfare bill whose sexual-conduct-with-animals provision exempts \"accepted animal husbandry practices ... assistance with the birthing process or artificial insemination.\""
+- id: us-fl-2024-hb-919
+  jurisdiction: us-fl
+  session: "2024"
+  identifier: HB 919
+  title: Artificial Intelligence Use in Political Advertising
+  url: "https://www.flsenate.gov/Session/Bill/2024/919"
+  verified_url: "https://www.flsenate.gov/Session/Bill/2024/919/BillText/er/PDF"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Creates s. 106.145, F.S., defining \"generative artificial intelligence\" and requiring a disclaimer on political advertisements and electioneering communications made with it, with no education provision."
+- id: us-fl-2025-sb-794
+  jurisdiction: us-fl
+  session: "2025"
+  identifier: SB 794
+  title: Mandatory Human Reviews of Insurance Claim Denials
+  url: "https://www.flsenate.gov/Session/Bill/2025/794"
+  verified_url: "https://www.flsenate.gov/Session/Bill/2025/794/BillText/c1/HTML"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm, artificial intelligence, machine learning]
+  rationale: "Bars insurers from using \"algorithms, artificial intelligence, or machine learning systems as the sole basis\" for denying claims; it is purely insurance claims regulation."
+- id: us-fl-2026-sb-1680
+  jurisdiction: us-fl
+  session: "2026"
+  identifier: SB 1680
+  title: Surrogacy and Assisted Reproduction
+  url: "https://www.flsenate.gov/Session/Bill/2026/1680"
+  verified_url: "https://www.flsenate.gov/Session/Bill/2026/1680/BillText/Filed/HTML"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Surrogacy and preplanned-adoption bill that defines \"fertility technique\" to include artificial embryonation and artificial insemination; it has no technology or education provision."
+- id: us-hi-2023-hb-2145
+  jurisdiction: us-hi
+  session: "2023"
+  identifier: HB 2145
+  title: Relating to the Board of Agriculture
+  url: "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2145&year=2024"
+  verified_url: "https://data.capitol.hawaii.gov/sessions/session2024/bills/HB2145_.HTM"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Board of Agriculture membership bill whose findings cite OHA's \"Mahi ʻAi Business Loans program\"; here ʻAi is Hawaiian (mahi ʻai = farmer), not artificial intelligence."
+- id: us-hi-2023-hcr-143
+  jurisdiction: us-hi
+  session: "2023"
+  identifier: HCR 143
+  title: Requesting the Department of Education to appoint a committee to develop a measurable plan to expand Hawaiian language education for all students
+  url: "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HCR&billnumber=143&year=2023"
+  verified_url: "https://data.capitol.hawaii.gov/sessions/session2023/bills/HCR143_.HTM"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "K-12 Hawaiian-language education resolution whose Hawaiian-language version uses \"ai\" as a grammatical particle (\"E HIKI AI KE KA ANA\", \"e paa ai\"); it never refers to artificial intelligence."
+- id: us-hi-2025-2026-hb-1194
+  jurisdiction: us-hi
+  session: "2025-2026"
+  identifier: HB 1194
+  title: Relating to Midwives
+  url: "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1194&year=2025"
+  verified_url: "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB1194_.HTM"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Midwifery scope-of-practice bill (chapter 457J) that lists traditional practices \"laau lapaau, laau kahea, lomilomi, hooponopono, kilo, pule, and ai pono\"; \"ai\" is Hawaiian, not artificial intelligence."
+- id: us-hi-2025-2026-hb-49
+  jurisdiction: us-hi
+  session: "2025-2026"
+  identifier: HB 49
+  title: Relating to Wildlife
+  url: "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=49&year=2025"
+  verified_url: "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB49_.HTM"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "New HRS 183D section bans keeping cetaceans in captivity and collecting cetacean gametes \"for the purposes of artificial insemination\"; its mention of educational institutions concerns captive-animal exemptions, not AI."
+- id: us-hi-2025-2026-hb-641
+  jurisdiction: us-hi
+  session: "2025-2026"
+  identifier: HB 641
+  title: Relating to Health
+  url: "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=641&year=2025"
+  verified_url: "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB641_.HTM"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Health bill defining \"Native Hawaiian healing and cultural practices\" to include \"hooponopono, lomilomi massage, ai pono, and laau lapaau\"; \"ai\" is the Hawaiian word for food or eating."
+- id: us-hi-2025-2026-scr-22
+  jurisdiction: us-hi
+  session: "2025-2026"
+  identifier: SCR 22
+  title: "Recognizing the fiftieth anniversary of the restoration of Ahuʻena Heiau and affirming its unparalleled role in the spiritual, political, and cultural history of the state"
+  url: "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SCR&billnumber=22&year=2026"
+  verified_url: "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR22_.HTM"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Ceremonial resolution in which \"ʻai\" appears only in the place name \"Hale Nana Mahinaʻai\" at Ahuʻena Heiau; there is no technology or education directive."
+- id: us-ia-2023-2024-hf-2166
+  jurisdiction: us-ia
+  session: "2023-2024"
+  identifier: HF 2166
+  title: "An Act relating to controlled substances, including certain controlled substances schedules and precursor substances reporting requirements"
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=90&ba=HF2166"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/90/HF2166.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Controlled-substance scheduling bill in which \"ai.\" is an Iowa Code paragraph designator (\"NEW PARAGRAPH . ai. 1-boc-4-AP\"), not artificial intelligence."
+- id: us-ia-2023-2024-hf-2215
+  jurisdiction: us-ia
+  session: "2023-2024"
+  identifier: HF 2215
+  title: "An Act relating to the reporting of serious reportable events, and providing penalties"
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=90&ba=HF2215"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/90/HF2215.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Health-facility adverse-event reporting law (new chapter 135S) whose list of reportable events includes \"artificial insemination with the wrong donor sperm or wrong egg.\""
+- id: us-ia-2023-2024-hf-301
+  jurisdiction: us-ia
+  session: "2023-2024"
+  identifier: HF 301
+  title: An Act concerning penalties relating to drug paraphernalia and certain traffic offenses
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=90&ba=HF301"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/90/HF301.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Penalty bill that amends \"Section 805.8A, subsection 3, paragraph ai,\" so \"ai\" is a code paragraph letter, not artificial intelligence."
+- id: us-ia-2023-2024-hf-655
+  jurisdiction: us-ia
+  session: "2023-2024"
+  identifier: HF 655
+  title: "An Act providing for business organizations, including limited liability companies"
+  url: "https://www.legis.iowa.gov/legislation/BillBook?ga=90&ba=HF655"
+  verified_url: "https://www.legis.iowa.gov/docs/publications/LGI/90/HF655.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Business-entity code revision whose section-renumbering table uses lettered items (\"ah. Section 489.902 ... ai. Section 489.903\"), so \"ai\" is a list designator."
+- id: us-id-2024-h-664
+  jurisdiction: us-id
+  session: "2024"
+  identifier: H 664
+  title: Freedom from AI-Rigged (FAIR) Elections Act
+  url: "https://legislature.idaho.gov/sessioninfo/2024/legislation/H0664/"
+  verified_url: "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2024/legislation/H0664.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI, synthetic media]
+  rationale: "Creates a cause of action against publishing undisclosed \"synthetic media\" of a candidate in electioneering communications; \"educational institutions\" appears only in the interactive-computer-service exemption."
+- id: us-il-2023-2024-hb-3773
+  jurisdiction: us-il
+  session: "2023-2024"
+  identifier: HB 3773
+  title: AN ACT concerning business (Human Rights Act - artificial intelligence in employment)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=3773&GAID=17&DocTypeID=HB&SessionID=112&GA=103"
+  verified_url: "https://www.ilga.gov/documents/legislation/publicacts/103/PDF/103-0804.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Public Act 103-0804 amends Human Rights Act Sections 2-101 and 2-102 to define \"artificial intelligence\" and make discriminatory employer use of AI in employment decisions a civil rights violation; the only education references are existing employment-definition text (interns, religious educational institutions)."
+- id: us-il-2023-2024-hb-4875
+  jurisdiction: us-il
+  session: "2023-2024"
+  identifier: HB 4875
+  title: AN ACT concerning civil law (Right of Publicity Act - digital replicas)
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=4875&GAID=17&DocTypeID=HB&SessionID=112&GA=103"
+  verified_url: "https://www.ilga.gov/documents/legislation/103/HB/PDF/10300HB4875lv.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Amends the Right of Publicity Act to define \"artificial intelligence\" and make unauthorized commercial use of an individual's audiovisual digital replica actionable; \"educational\" appears only as an exempted purpose, not as a school obligation."
+- id: us-il-2025-2026-hb-1806
+  jurisdiction: us-il
+  session: "2025-2026"
+  identifier: HB 1806
+  title: Wellness and Oversight for Psychological Resources Act
+  url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=1806&GAID=18&DocTypeID=HB&SessionID=114&GA=104"
+  verified_url: "https://www.ilga.gov/Legislation/BillStatus/FullText?GAID=18&DocNum=1806&DocTypeID=HB&LegId=0&SessionID=114"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence]
+  rationale: "Bars providing therapy or psychotherapy services through AI except by licensed professionals and limits licensed professionals to \"permitted use of artificial intelligence systems\"; \"educational resources\" appears only in the Section 35 exemption for public self-help materials."
+- id: us-la-2025-hb-178
+  jurisdiction: us-la
+  session: "2025"
+  identifier: HB 178
+  title: Provides for the continuous revision of the Code of Civil Procedure
+  url: "https://legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HB178&sbi=y"
+  verified_url: "https://legis.la.gov/legis/ViewDocument.aspx?d=1425558"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, deepfake]
+  rationale: "Act 250 amends Code of Civil Procedure articles, including Art. 371, so that attorneys must use reasonable diligence on evidence authenticity and parties must raise or disclose exhibits \"generated by artificial intelligence,\" a court-procedure rule with no education provision."
+- id: us-ma-2023-2024-h-1713
+  jurisdiction: us-ma
+  session: "2023-2024"
+  identifier: H 1713
+  title: An Act to ensure legal parentage equality
+  url: "https://malegislature.gov/Bills/193/H1713"
+  verified_url: "https://malegislature.gov/Bills/193/H1713.html"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Parentage act whose definition of \"assisted reproduction\" expressly includes artificial insemination; it is family law with no AI or school provision."
+- id: us-ma-2025-2026-h-1191
+  jurisdiction: us-ma
+  session: "2025-2026"
+  identifier: H 1191
+  title: An Act improving access to infertility treatment
+  url: "https://malegislature.gov/Bills/194/H1191"
+  verified_url: "https://malegislature.gov/Bills/194/H1191.html"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Insurance mandate for infertility treatment whose covered services list \"(iii) artificial insemination\" alongside IVF and embryo transfer; it has no technology or education provision."
+- id: us-ma-2025-2026-s-994
+  jurisdiction: us-ma
+  session: "2025-2026"
+  identifier: S 994
+  title: An Act prohibiting algorithmic rent setting
+  url: "https://malegislature.gov/Bills/194/S994"
+  verified_url: "https://malegislature.gov/Bills/194/S994.html"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm, artificial intelligence, machine learning]
+  rationale: "New section 15G bars landlords from using an \"algorithmic device\" (including machine learning or AI techniques) to set rents, enforced under chapter 93A; it is housing and antitrust law with no education provision."
+- id: us-md-2025-hb-820
+  jurisdiction: us-md
+  session: "2025"
+  identifier: HB 820
+  title: Health Insurance - Utilization Review - Use of Artificial Intelligence
+  url: "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0820?ys=2025RS"
+  verified_url: "https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_747_hb0820t.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, algorithm]
+  rationale: "Chapter 747 requires carriers, pharmacy benefits managers, and private review agents to ensure \"artificial intelligence, algorithm, or other software tools\" used in utilization review meet set requirements, an insurance rule with no education provision."
+- id: us-me-2025-2026-ld-1727
+  jurisdiction: us-me
+  session: "2025-2026"
+  identifier: LD 1727
+  title: An Act to Ensure Transparency in Consumer Transactions Involving Artificial Intelligence
+  url: "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1727&snum=132"
+  verified_url: "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1154&item=3&snum=132"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, chatbot]
+  rationale: "Enacts 10 MRSA c. 239, which requires businesses using AI chatbots that could mislead a consumer into thinking they are talking to a human to disclose clearly that they are not, with no education provision."
+- id: us-mi-2023-2024-hb-5141
+  jurisdiction: us-mi
+  session: "2023-2024"
+  identifier: HB 5141
+  title: Campaign finance; advertising; using artificial intelligence in certain political advertisements; require disclosure
+  url: "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2023-HB-5141"
+  verified_url: "https://www.legislature.mi.gov/documents/2023-2024/billenrolled/House/pdf/2023-HNB-5141.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence]
+  rationale: "Amends the Michigan Campaign Finance Act (new sec. 59) to require a statement that a qualified political advertisement was \"generated in whole or substantially by artificial intelligence,\" with no education provision."
+- id: us-mn-2023-2024-hf-1370
+  jurisdiction: us-mn
+  session: "2023-2024"
+  identifier: HF 1370
+  title: "Cause of action for nonconsensual dissemination of deep fake sexual images established, crime of using deep fake technology to influence an election established, and crime for nonconsensual dissemination of deep fake sexual images established"
+  url: "https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF1370&ssn=0&y=2023"
+  verified_url: "https://www.revisor.mn.gov/laws/2023/0/Session+Law/Chapter/58/"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [deepfake]
+  rationale: "Session Law chapter 58 creates a civil action and crime for non-consensual deep fake sexual images and a crime for election deep fakes (new 609.771); \"school\" appears only as a type of address in the definition of personal information."
+- id: us-mn-2023-2024-sf-3504
+  jurisdiction: us-mn
+  session: "2023-2024"
+  identifier: SF 3504
+  title: A bill for an act relating to children; enacting the Uniform Parentage Act
+  url: "https://www.revisor.mn.gov/bills/bill.php?b=Senate&f=SF3504&ssn=0&y=2024"
+  verified_url: "https://www.revisor.mn.gov/bills/text.php?number=SF3504&version=0&session=ls93&session_year=2024&session_number=0"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Enacts the Uniform Parentage Act as chapter 257E and repeals Minn. Stat. 257.56 \"Artificial Insemination\", whose text is reproduced in the bill; it is a parentage law with no AI or education content."
+- id: us-nc-2025-2026-s-839
+  jurisdiction: us-nc
+  session: "2025-2026"
+  identifier: S 839
+  title: Price Transparency Act
+  url: "https://www.ncleg.gov/BillLookUp/2025/S839"
+  verified_url: "https://www.ncleg.gov/Sessions/2025/Bills/Senate/HTML/S839v1.html"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm]
+  rationale: "New G.S. 75-45 (Grocery Price Transparency Act) defines and bans \"algorithmic pricing\" and anti-competitive mergers for food retailers; it has no education provision."
+- id: us-nc-2025-2026-s-911
+  jurisdiction: us-nc
+  session: "2025-2026"
+  identifier: S 911
+  title: Protect Children Born from Fertility Care Act
+  url: "https://www.ncleg.gov/BillLookUp/2025/S911"
+  verified_url: "https://www.ncleg.gov/Sessions/2025/Bills/Senate/HTML/S911v1.html"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Rewrites G.S. Chapter 49A, Article 1 \"Children Conceived by Artificial Insemination\" on parentage and creates civil actions for fertility fraud; there is no artificial intelligence or education content."
+- id: us-nh-2024-hb-1432
+  jurisdiction: us-nh
+  session: "2024"
+  identifier: HB 1432
+  title: Relative to prohibiting certain uses of deepfakes and creating a private claim of action
+  url: "https://gc.nh.gov/bill_status/legacy/bs2016/bill_status.aspx?lsr=2152&sy=2024&txtsessionyear=2024&txtbillnumber=HB1432"
+  verified_url: "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?id=21522024&sy=2024&txtFormat=html"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [deepfake, artificial intelligence]
+  rationale: "Chapter 243 creates the crime and a civil cause of action for fraudulent use of deepfakes and bars registration of lobbyists found to have used them, with no school or student provision."
+- id: us-nm-2024-hb-182
+  jurisdiction: us-nm
+  session: "2024"
+  identifier: HB 182
+  title: Election Changes
+  url: "https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legType=B&legNo=182&year=24"
+  verified_url: "https://www.nmlegis.gov/Sessions/24%20Regular/final/HB0182.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence]
+  rationale: "Amends the Campaign Reporting Act to define \"artificial intelligence\" and require disclaimers on advertisements containing \"materially deceptive media,\" and creates a crime for distributing it; \"school board\" appears only in the list of excluded elections."
+- id: us-nm-2025-sb-278
+  jurisdiction: us-nm
+  session: "2025"
+  identifier: SB 278
+  title: Coronary Artery Calcium Screening Insurance
+  url: "https://www.nmlegis.gov/Legislation/Legislation?chamber=S&legType=B&legNo=278&year=25"
+  verified_url: "https://www.nmlegis.gov/Sessions/25%20Regular/bills/senate/SB0278.HTML"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm]
+  rationale: "Insurance coverage mandate whose eligibility definition relies on a risk score \"calculated from an evidence-based algorithm widely used in the medical community\" (a clinical risk calculator), not AI or education."
+- id: us-nm-2025-sb-412
+  jurisdiction: us-nm
+  session: "2025"
+  identifier: SB 412
+  title: Equine Dental Maintenance
+  url: "https://www.nmlegis.gov/Legislation/Legislation?chamber=S&legType=B&legNo=412&year=25"
+  verified_url: "https://www.nmlegis.gov/Sessions/25%20Regular/bills/senate/SB0412.HTML"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Veterinary practice act amendment adding an equine dental exemption; \"artificial insemination\" appears only in the existing exemption for instruction to people holding or training for artificial insemination permits."
+- id: us-ny-2025-2026-s-7882
+  jurisdiction: us-ny
+  session: "2025-2026"
+  identifier: S 7882
+  title: "An act to amend the general business law, in relation to the use of algorithmic pricing by a landlord for the purpose of determining the amount of rent to charge a residential tenant"
+  url: "https://www.nysenate.gov/legislation/bills/2025/S7882"
+  verified_url: "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S07882&term=2025&Summary=Y&Text=Y"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm]
+  rationale: "General Business Law amendment barring landlords from agreeing to coordinate rents through an \"algorithm\" or software service; it contains no education provision."
+- id: us-or-2024-sb-1571
+  jurisdiction: us-or
+  session: "2024"
+  identifier: SB 1571
+  title: Relating to the use of artificial intelligence in campaign communications; declaring an emergency
+  url: "https://olis.oregonlegislature.gov/liz/2024R1/Measures/Overview/SB1571"
+  verified_url: "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1571/Enrolled"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, synthetic media]
+  rationale: "Requires disclosure of \"synthetic media\" (content manipulated with artificial intelligence techniques) in campaign communications and amends ORS 260.345, with no education provision."
+- id: us-or-2025-sb-722
+  jurisdiction: us-or
+  session: "2025"
+  identifier: SB 722
+  title: Relating to residential tenancies
+  url: "https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/SB722"
+  verified_url: "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB722/Introduced"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm]
+  rationale: "Section 2 (ORS chapter 90) bars landlords from setting rents or holding units vacant based on \"commercial software designed to use algorithms that rely on nonpublic competitor data.\""
+- id: us-tn-2023-2024-hb-2091
+  jurisdiction: us-tn
+  session: "2023-2024"
+  identifier: HB 2091
+  title: "AN ACT to amend Tennessee Code Annotated, Title 39, Chapter 14, Part 1 and Title 47, relative to the protection of personal rights (ELVIS Act)"
+  url: "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB2091&GA=113"
+  verified_url: "https://www.capitol.tn.gov/Bills/113/Bill/HB2091.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm]
+  rationale: "Adds voice as a protected personal right and creates civil liability for distributing an \"algorithm, software, tool, or other technology\" whose primary purpose is producing an individual's likeness or voice without authorization, with no school, student, or educator provision."
+- id: us-tx-2025-2026-hb-3132
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: HB 3132
+  title: "Relating to reporting requirements for assisted reproductive technology, including in vitro fertilization"
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3132"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03132I.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "Requires fertility providers to report assisted reproductive technology procedures, which it defines to include artificial insemination and intrauterine insemination; it is health data reporting unrelated to AI or education."
+- id: us-tx-2025-2026-sb-441
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: SB 441
+  title: Relating to criminal and civil liability related to sexually explicit media and artificial intimate visual material; creating a criminal offense; increasing a criminal penalty
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB441"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00441F.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence]
+  rationale: "Creates criminal and civil liability for producing or distributing non-consensual \"artificial intimate visual material\" and deep fake sexually explicit media; the enrolled text has no school, student, or educator provision."
+- id: us-tx-2025-2026-sb-815
+  jurisdiction: us-tx
+  session: "2025-2026"
+  identifier: SB 815
+  title: "Relating to the use of certain automated systems in, and certain adverse determinations made in connection with, the health benefit claims process"
+  url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB815"
+  verified_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00815F.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, algorithm, machine learning]
+  rationale: "Defines \"algorithm\" and \"artificial intelligence system\" and limits automated systems' use in adverse determinations on health benefit claims by utilization review agents, with no school or student provision."
+- id: us-ut-2025-hb-452
+  jurisdiction: us-ut
+  session: "2025"
+  identifier: HB 452
+  title: Artificial Intelligence Amendments
+  url: "https://le.utah.gov/~2025/bills/static/HB0452.html"
+  verified_url: "https://le.utah.gov/Session/2025/bills/enrolled/HB0452.xml"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, chatbot]
+  rationale: "Regulates mental health chatbots that use artificial intelligence (user disclosures, limits on use of personal information, Division of Consumer Protection enforcement); the only higher-ed reference is an \"institution of higher education\" in the definition of scientific research, which imposes nothing on schools."
+- id: us-ut-2025-sb-180
+  jurisdiction: us-ut
+  session: "2025"
+  identifier: SB 180
+  title: Law Enforcement Usage of Artificial Intelligence
+  url: "https://le.utah.gov/~2025/bills/static/SB0180.html"
+  verified_url: "https://le.utah.gov/Session/2025/bills/enrolled/SB0180.xml"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "Requires law enforcement agencies to adopt generative AI use policies and requires police reports created with generative AI to carry a disclaimer and author certification, with no education provision."
+- id: us-ut-2025-sb-226
+  jurisdiction: us-ut
+  session: "2025"
+  identifier: SB 226
+  title: Artificial Intelligence Consumer Protection Amendments
+  url: "https://le.utah.gov/~2025/bills/static/SB0226.html"
+  verified_url: "https://le.utah.gov/Session/2025/bills/enrolled/SB0226.xml"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, generative]
+  rationale: "New Section 13-75-103 requires a supplier using generative AI in a consumer transaction to disclose that the individual is interacting with AI and not a human, a consumer-protection rule with no school or student provision."
+- id: us-wa-2023-2024-hb-1604
+  jurisdiction: us-wa
+  session: "2023-2024"
+  identifier: HB 1604
+  title: Providing a retroactive business and occupation tax exemption for custom farming
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=1604&Year=2023"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2023-24/Htm/Bills/House%20Bills/1604.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [AI]
+  rationale: "B&O tax exemption for custom farming whose definition of \"specific farming operation\" excludes \"artificial insemination or stud services,\" that is, livestock breeding."
+- id: us-wa-2023-2024-hb-1811
+  jurisdiction: us-wa
+  session: "2023-2024"
+  identifier: HB 1811
+  title: Reasonable exceptions to insurance rates for consumers whose credit information is influenced by extraordinary life circumstances
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=1811&Year=2023"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2023-24/Htm/Bills/House%20Bills/1811.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm]
+  rationale: "Personal-insurance rating bill that defines \"insurance score\" as a rating \"derived from an algorithm, computer application, model, or other process\" based on credit history; it has no education content."
+- id: us-wa-2023-2024-sb-5152
+  jurisdiction: us-wa
+  session: "2023-2024"
+  identifier: SB 5152
+  title: "Defining synthetic media in campaigns for elective office, and providing relief for candidates and campaigns"
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=5152&Year=2023"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Senate%20Passed%20Legislature/5152-S.PL.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [synthetic media]
+  rationale: "Adds a chapter to Title 42 RCW letting candidates get injunctive relief and damages for undisclosed \"synthetic media\" in electioneering communications; \"educational institutions\" appears only in the interactive-computer-service exemption."
+- id: us-wa-2025-2026-sb-5469
+  jurisdiction: us-wa
+  session: "2025-2026"
+  identifier: SB 5469
+  title: Prohibiting algorithmic rent fixing and noncompete agreements in the rental housing market
+  url: "https://app.leg.wa.gov/billsummary?BillNumber=5469&Year=2025"
+  verified_url: "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5469.htm"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [algorithm]
+  rationale: "New Title 19 RCW chapter treating the use of software, an algorithm, or another automated process that recommends rents to more than one landlord as a restraint of trade under the CPA."
+- id: us-wi-2023-2024-ab-664
+  jurisdiction: us-wi
+  session: "2023-2024"
+  identifier: AB 664
+  title: "Disclosures regarding content generated by artificial intelligence in political advertisements, granting rule-making authority, and providing a penalty"
+  url: "https://docs.legis.wisconsin.gov/2023/proposals/ab664"
+  verified_url: "https://docs.legis.wisconsin.gov/document/acts/2023/123.pdf"
+  label: out_of_scope
+  difficulty: clear
+  matched_keywords: [artificial intelligence, synthetic media, generative]
+  rationale: "2023 Wisconsin Act 123 creates s. 11.1303 (2m), requiring disclosure of \"synthetic media\" made with generative AI in political communications, with no education provision."

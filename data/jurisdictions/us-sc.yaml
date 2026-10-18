@@ -1,0 +1,12 @@
+id: us-sc
+ocd_id: "ocd-division/country:us/state:sc"
+name: South Carolina
+abbreviation: SC
+classification: state
+fips: "45"
+region: Southeast
+sessions:
+  - identifier: 2025-2026
+    name: 126th General Assembly (2025-2026)
+    classification: primary
+    start_date: '2025-01-14'

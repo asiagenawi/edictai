@@ -1,0 +1,8 @@
+id: us-ma-umass
+name: University of Massachusetts
+abbreviation: UMass
+classification: university-system
+jurisdiction: us-ma
+education_levels:
+  - postsecondary
+url: https://www.massachusetts.edu/

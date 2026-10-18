@@ -1,0 +1,13 @@
+id: us-in
+ocd_id: "ocd-division/country:us/state:in"
+name: Indiana
+abbreviation: IN
+classification: state
+fips: "18"
+region: Midwest
+sessions:
+  - identifier: "2025"
+    name: 2025 Regular Session (124th General Assembly, First Regular Session)
+    classification: primary
+    start_date: "2024-11-19"
+    end_date: "2025-04-24"

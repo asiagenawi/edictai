@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://statescope.org/schema/research.schema.json",
+  "title": "Research item",
+  "description": "A study, report, brief, or survey on AI in education. Stored at data/research/{year}/{slug}.yaml.",
+  "type": "object",
+  "required": ["id", "title", "authors", "publisher", "published", "classification", "education_levels", "topics", "summary", "sources", "verification"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/record_id", "description": "{year}-{slug}. Must match the file path." },
+    "title": { "type": "string" },
+    "authors": { "type": "array", "items": { "type": "string" } },
+    "publisher": { "type": "string", "description": "Journal or publishing organization." },
+    "published": { "$ref": "common.schema.json#/$defs/partial_date" },
+    "classification": { "type": "string", "x-vocab": "research_classifications" },
+    "education_levels": { "$ref": "common.schema.json#/$defs/education_levels" },
+    "topics": { "$ref": "common.schema.json#/$defs/topics" },
+    "summary": { "type": "string", "description": "What was studied, how, and what was found, in plain language." },
+    "key_findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["finding", "citation"],
+        "additionalProperties": false,
+        "properties": {
+          "finding": { "type": "string" },
+          "citation": { "$ref": "common.schema.json#/$defs/citation" }
+        }
+      }
+    },
+    "methods": { "type": "string", "description": "Design and sample, e.g. 'RCT, n=1,200 high school students, 3 states'." },
+    "geography": {
+      "type": "array",
+      "description": "Jurisdictions the study covers, when US-specific.",
+      "items": { "$ref": "common.schema.json#/$defs/jurisdiction_id" }
+    },
+    "related": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "common.schema.json#/$defs/record_id", "x-ref": "any" }
+    },
+    "external_ids": { "$ref": "common.schema.json#/$defs/external_ids" },
+    "sources": { "$ref": "common.schema.json#/$defs/sources" },
+    "verification": { "$ref": "common.schema.json#/$defs/verification" }
+  }
+}

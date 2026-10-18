@@ -1,0 +1,10 @@
+id: us-hi-k12-agency
+name: Hawaii State Department of Education
+abbreviation: HIDOE
+classification: k12-agency
+jurisdiction: us-hi
+education_levels:
+  - k12
+url: https://www.hawaiipublicschools.org/
+watch_urls:
+  - https://hawaiipublicschools.org/student-programs/artificial-intelligence/

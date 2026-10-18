@@ -1,0 +1,7 @@
+id: us-ak
+ocd_id: "ocd-division/country:us/state:ak"
+name: Alaska
+abbreviation: AK
+classification: state
+fips: "02"
+region: West

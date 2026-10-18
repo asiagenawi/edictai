@@ -1,0 +1,10 @@
+id: us-mo-k12-agency
+name: Missouri Department of Elementary and Secondary Education
+abbreviation: DESE
+classification: k12-agency
+jurisdiction: us-mo
+education_levels:
+  - k12
+url: https://dese.mo.gov/
+watch_urls:
+  - https://dese.mo.gov/college-career-readiness/curriculum/computer-science

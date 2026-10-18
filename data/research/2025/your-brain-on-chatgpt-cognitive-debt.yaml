@@ -1,0 +1,59 @@
+id: 2025-your-brain-on-chatgpt-cognitive-debt
+title: 'Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task'
+authors:
+  - Nataliya Kosmyna
+  - Eugene Hauptmann
+  - Ye Tong Yuan
+  - Jessica Situ
+  - Xian-Hao Liao
+  - Ashly Vivian Beresnitzky
+  - Iris Braunstein
+  - Pattie Maes
+publisher: arXiv
+published: '2025-06-10'
+classification: report
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - academic-integrity
+  - research
+summary: An MIT Media Lab study assigned 54 participants from five Boston-area universities to write essays over several sessions using ChatGPT, a search engine, or no tools, while recording brain activity with EEG; in a fourth session some participants switched conditions. Participants using the language model showed the weakest brain connectivity, the lowest sense of ownership of their essays, and the most difficulty quoting their own work, which the authors interpret as a possible cognitive cost of relying on AI for writing.
+key_findings:
+  - finding: EEG measures showed the strongest and most distributed brain networks in the no-tools group, moderate engagement for search engine users, and the weakest connectivity for language model users.
+    citation:
+      source_url: https://arxiv.org/abs/2506.08872
+      locator: Abstract
+      quote: 'EEG revealed significant differences in brain connectivity: Brain-only participants exhibited the strongest, most distributed networks; Search Engine users showed moderate engagement; and LLM users displayed the weakest connectivity.'
+  - finding: In the first session, 83.3% of participants in the language model group could not correctly quote from the essay they had just written, compared with 11.1% in each of the other groups.
+    citation:
+      source_url: https://arxiv.org/pdf/2506.08872
+      locator: Results, Session 1 interview, Question 3 (Ability to Quote)
+      quote: In the LLM ‑ assisted group, 83.3 % of participants (15/18) failed to provide a correct quotation, whereas only 11.1 % (2/18) in both the Search ‑ Engine and Brain ‑ Only groups encountered the same difficulty.
+  - finding: Self-reported ownership of essays was lowest in the language model group and highest in the no-tools group.
+    citation:
+      source_url: https://arxiv.org/abs/2506.08872
+      locator: Abstract
+      quote: Self-reported ownership of essays was the lowest in the LLM group and the highest in the Brain-only group.
+methods: Laboratory experiment with three assigned conditions (LLM, search engine, no tools) over three sessions plus a crossover fourth session; 54 participants aged 18-39 from MIT, Wellesley, Harvard, Tufts, and Northeastern (18 completed session 4); EEG, NLP analysis of essays, teacher and AI scoring, and interviews.
+geography:
+  - us-ma
+external_ids:
+  doi: 10.48550/arXiv.2506.08872
+  openalex_id: W4417258000
+sources:
+  - url: https://arxiv.org/abs/2506.08872
+    title: 'Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://arxiv.org/pdf/2506.08872
+    title: 'Your Brain on ChatGPT (full text PDF, v2)'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Preprint marked as under review; small sample. First submitted 10 June 2025, revised 31 December 2025 (v2).

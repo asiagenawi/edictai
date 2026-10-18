@@ -1,0 +1,10 @@
+id: us-la-k12-agency
+name: Louisiana Department of Education
+abbreviation: LDOE
+classification: k12-agency
+jurisdiction: us-la
+education_levels:
+  - k12
+url: https://doe.louisiana.gov/
+watch_urls:
+  - https://doe.louisiana.gov/educators/instructional-support/digital-learning

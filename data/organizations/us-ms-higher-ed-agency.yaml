@@ -1,0 +1,8 @@
+id: us-ms-higher-ed-agency
+name: Mississippi Institutions of Higher Learning
+abbreviation: IHL
+classification: higher-ed-agency
+jurisdiction: us-ms
+education_levels:
+  - postsecondary
+url: https://www.mississippi.edu/

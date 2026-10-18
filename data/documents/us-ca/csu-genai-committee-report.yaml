@@ -1,0 +1,35 @@
+id: us-ca-csu-genai-committee-report
+jurisdiction: us-ca
+issuer: us-ca-csu
+title: CSU Generative AI Committee Report
+classification: report
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - instructional-use
+summary: Report of the California State University's systemwide Generative AI Advisory Committee, which first convened in January 2024. It is linked from the CSU's AI-Empowered CSU initiative page.
+published: '2024'
+sources:
+  - url: https://www.calstate.edu/impact-of-the-csu/technology/ai-empowered-csu/Pages/default.aspx
+    title: AI-Empowered CSU
+    publisher: California State University
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260329175217/https://www.calstate.edu/impact-of-the-csu/technology/ai-empowered-csu/Pages/default.aspx
+  - url: https://www.calstate.edu/impact-of-the-csu/technology/ai-empowered-csu/Pages/ai-timeline.aspx
+    title: 'Reimagining AI in Higher Education: A Timeline'
+    publisher: California State University
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260711085047/https://www.calstate.edu/impact-of-the-csu/technology/ai-empowered-csu/Pages/ai-timeline.aspx
+  - url: https://genai.calstate.edu/sites/default/files/2024-10/CSU%20Generative%20AI%20Committee%20Report_stylized%207.1.24.pdf
+    title: CSU Generative AI Committee Report (2024)
+    publisher: California State University
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250928073638/https://genai.calstate.edu/sites/default/files/2024-10/CSU%20Generative%20AI%20Committee%20Report_stylized%207.1.24.pdf
+verification:
+  status: unverified
+  notes: The report PDF is behind a human-verification check and its text could not be read. Title and year come from the link label on the CSU initiative page; the committee's January 2024 start comes from the CSU timeline page.

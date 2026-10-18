@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/asiagenawi/statescope/security/advisories/new
+    about: Report security issues privately, not in a public issue.
+  - name: Methodology
+    url: https://github.com/asiagenawi/statescope/blob/master/docs/methodology.md
+    about: What Edictai covers, where the data comes from, and how records are verified.

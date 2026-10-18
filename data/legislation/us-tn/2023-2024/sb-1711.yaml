@@ -1,0 +1,151 @@
+id: us-tn-2023-2024-sb-1711
+jurisdiction: us-tn
+session: 2023-2024
+identifier: SB 1711
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - academic-integrity
+summary: >-
+  Requires each local board of education and public charter school governing body to adopt a
+  policy on the use of artificial intelligence by students, teachers, and staff for instructional
+  and assignment purposes, implemented by the 2024-2025 school year with annual compliance
+  reports to the Department of Education. It also requires the University of Tennessee, the
+  Board of Regents, and each state university board to adopt such a policy by July 1, 2025.
+provisions:
+  - type: requires-local-ai-policy
+    description: >-
+      Local boards of education must adopt and implement an AI use policy for instructional and
+      assignment purposes by the 2024-2025 school year and report compliance to the Department of
+      Education each July 1.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/113/Amend/SA0527.pdf
+      locator: Senate Amendment 1 (SA0527), Section 2 (TCA 49-2-203(a))
+      quote: >-
+        Adopt a policy regarding the use of artificial intelligence by students, teachers, and staff
+        for instructional and assignment purposes. The policy must be implemented in schools no
+        later than the 2024-2025 school year.
+  - type: requires-local-ai-policy
+    description: >-
+      Public charter school governing bodies must adopt the same kind of policy on the same timeline.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/113/Amend/SA0527.pdf
+      locator: Senate Amendment 1 (SA0527), Section 3 (TCA Title 49, Chapter 13)
+  - type: requires-local-ai-policy
+    description: >-
+      The University of Tennessee board, the Board of Regents, and each state university board must
+      adopt an AI use policy by July 1, 2025, post it online, and submit it to the legislative
+      education committees.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/113/Amend/SA0527.pdf
+      locator: Senate Amendment 1 (SA0527), Section 1(b), (d)
+sponsors:
+  - name: Hensley
+    primary: true
+    chamber: upper
+  - name: Crowe
+    primary: false
+    chamber: upper
+actions:
+  - date: 2024-01-11
+    description: Filed for introduction
+    actor: upper
+    classification:
+      - introduction
+  - date: 2024-01-22
+    description: Introduced, passed on first consideration
+    actor: upper
+    classification:
+      - reading-1
+  - date: 2024-02-07
+    description: Passed on second consideration, refer to Senate Education Committee
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: 2024-02-16
+    description: Recommended for passage with amendment/s, refer to Senate Calendar Committee (Ayes 8, Nays 0)
+    actor: committee
+    classification:
+      - committee-passage
+  - date: 2024-02-22
+    description: Amendment 1 (SA0527) adopted; passed Senate as amended (Ayes 32, Nays 1)
+    actor: upper
+    classification:
+      - amendment-passage
+      - passage
+  - date: 2024-02-22
+    description: Substituted for companion House Bill HB 1630
+    actor: lower
+    classification:
+      - substitution
+  - date: 2024-02-23
+    description: Passed House (Ayes 93, Nays 0, PNV 1)
+    actor: lower
+    classification:
+      - passage
+  - date: 2024-03-11
+    description: Transmitted to Governor for action
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: 2024-03-19
+    description: Signed by Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: 2024-03-19
+    description: Pub. Ch. 550
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    url: https://www.capitol.tn.gov/Bills/113/Bill/SB1711.pdf
+    archived_url: https://web.archive.org/web/20260925104718/https://www.capitol.tn.gov/Bills/113/Bill/SB1711.pdf
+    media_type: application/pdf
+  - note: Senate Amendment 1 (SA0527)
+    url: https://www.capitol.tn.gov/Bills/113/Amend/SA0527.pdf
+    archived_url: https://web.archive.org/web/20260514152745/https://capitol.tn.gov/Bills/113/Amend/SA0527.pdf
+    media_type: application/pdf
+  - note: Public Chapter 550
+    url: https://publications.tnsosfiles.com/acts/113/pub/pc0550.pdf
+    archived_url: https://web.archive.org/web/20260724104214/https://publications.tnsosfiles.com/acts/113/pub/pc0550.pdf
+    media_type: application/pdf
+session_law: Public Chapter 550
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB1711&GA=113
+    title: SB 1711 / HB 1630 (113th General Assembly)
+    publisher: Tennessee General Assembly
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20250503215308/https://wapp.capitol.tn.gov/apps/BillInfo/default.aspx?BillNumber=SB1711&ga=113
+  - url: https://www.capitol.tn.gov/Bills/113/Amend/SA0527.pdf
+    title: Senate Amendment No. 1 to SB 1711 (SA0527)
+    publisher: Tennessee General Assembly
+    kind: official
+    accessed: 2026-10-17
+    archived_url: https://web.archive.org/web/20260514152745/https://capitol.tn.gov/Bills/113/Amend/SA0527.pdf
+verification:
+  status: machine-verified
+  last_verified: 2026-10-17
+  method: manual-source-fetch
+  notes: >-
+    Corrections to legacy: prime Senate sponsor is Hensley, not Lundberg (Lundberg signed the
+    Senate Education Committee amendment); House companion HB 1630 (Cepicky); filed January 11,
+    2024 (legacy said January 9); signed and assigned Public Chapter 550 on March 19, 2024 (legacy
+    said March 11, which is the transmittal date). Legacy claim that Tennessee is the only state
+    mandating district AI policies removed (not supported by source). Public Chapter PDF returned
+    403; operative text verified from the adopted amendment, which replaced the bill in full. No
+    Wayback snapshot retrieved (archive unreachable at access time).

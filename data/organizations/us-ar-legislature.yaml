@@ -1,0 +1,8 @@
+id: us-ar-legislature
+name: Arkansas General Assembly
+classification: legislature
+jurisdiction: us-ar
+education_levels:
+  - k12
+  - postsecondary
+url: https://arkleg.state.ar.us/

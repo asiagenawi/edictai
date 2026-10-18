@@ -1,0 +1,32 @@
+id: us-tx-tamus-regulation-29-01-05-artificial-intelligence
+jurisdiction: us-tx
+issuer: us-tx-tamus
+title: System Regulation 29.01.05 Artificial Intelligence
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - instructional-use
+  - data-governance
+summary: Texas A&M University System regulation, approved December 10, 2024, that implements Texas Government Code Section 2054.601 and sets a broad framework for ethical, responsible, and innovative use of AI and machine learning across system members, including education, administration, and student use. It establishes a System AI Council and lets member institutions write their own rules.
+published: '2024-12-10'
+provisions:
+  - type: creates-task-force
+    description: Directs the System Chief Information Officer to establish a System AI Council to oversee systemwide AI initiatives.
+    citation:
+      source_url: https://policies.tamus.edu/29-01-05.pdf
+      locator: Section 1.1
+      quote: The System Chief Information Officer (SCIO) will establish a System AI Council.
+sources:
+  - url: https://policies.tamus.edu/29-01-05.pdf
+    title: 29.01.05 Artificial Intelligence
+    publisher: The Texas A&M University System
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260925022408/https://policies.tamus.edu/29-01-05.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

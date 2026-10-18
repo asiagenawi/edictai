@@ -1,0 +1,74 @@
+name: Missing policy
+description: Suggest a policy that is in scope but not yet in the dataset.
+title: "Missing policy: "
+labels: ["data", "missing-policy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Edictai covers AI policy for K-12 and higher education issued by state legislatures,
+        Congress, governors, the President, state and federal agencies, public university and
+        college systems, and accreditors. Policies of individual campuses or districts are out of
+        scope. See [the methodology](https://github.com/asiagenawi/statescope/blob/master/docs/methodology.md#scope).
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of policy
+      options:
+        - Legislation (bill or resolution)
+        - Agency guidance, framework, or policy
+        - Executive order or directive
+        - University or college system policy
+        - Accreditor policy or statement
+        - Research
+    validations:
+      required: true
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      description: State, DC, or federal.
+      placeholder: e.g. Texas
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title or number
+      description: Bill number, document title, or order number.
+      placeholder: e.g. HB 1481
+    validations:
+      required: true
+  - type: input
+    id: issuer
+    attributes:
+      label: Issuing body
+      placeholder: e.g. Texas Education Agency
+  - type: dropdown
+    id: level
+    attributes:
+      label: Education level
+      multiple: true
+      options:
+        - K-12
+        - Higher education
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: A link to the official text.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else that would help, such as related bills or documents.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the dataset and existing issues for this policy.
+          required: true

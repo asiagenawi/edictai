@@ -1,0 +1,8 @@
+id: us-mo-governor
+name: Office of the Governor of Missouri
+classification: governor
+jurisdiction: us-mo
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.mo.gov/

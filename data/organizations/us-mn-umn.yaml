@@ -1,0 +1,8 @@
+id: us-mn-umn
+name: University of Minnesota System
+abbreviation: UMN
+classification: university-system
+jurisdiction: us-mn
+education_levels:
+  - postsecondary
+url: https://www.umn.edu/

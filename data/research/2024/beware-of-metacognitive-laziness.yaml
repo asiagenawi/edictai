@@ -1,0 +1,51 @@
+id: 2024-beware-of-metacognitive-laziness
+title: 'Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance'
+authors:
+  - Yizhou Fan
+  - Luzhen Tang
+  - Huixiao Le
+  - Kejie Shen
+  - Shufang Tan
+  - Yueying Zhao
+  - Yuan Shen
+  - Xinyu Li
+  - Dragan Gašević
+publisher: British Journal of Educational Technology
+published: '2024-12-10'
+classification: peer-reviewed
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - research
+summary: A randomized lab experiment with 117 university students compared support from ChatGPT, a human expert, writing analytics tools, or no extra tool during an essay revision task, tracking motivation, self-regulated learning processes, and performance. The ChatGPT group improved essay scores the most, but did not differ in intrinsic motivation, knowledge gain, or knowledge transfer, and the authors report that reliance on ChatGPT may encourage "metacognitive laziness."
+key_findings:
+  - finding: Students supported by ChatGPT showed the largest essay score improvement, but their knowledge gain and transfer were not significantly different from other groups.
+    citation:
+      source_url: https://arxiv.org/pdf/2412.09315
+      locator: Abstract, Results
+      quote: ChatGPT group outperformed in the essay score improvement but their knowledge gain and transfer were not significantly different.
+  - finding: Groups with different kinds of support did not differ in post-task intrinsic motivation, but showed different patterns of self-regulated learning processes.
+    citation:
+      source_url: https://arxiv.org/pdf/2412.09315
+      locator: Abstract, Results
+      quote: learners who received different learning support showed no difference in post-task intrinsic motivation; 2) there were significant differences in the frequency and sequences of the self-regulated learning processes among groups
+  - finding: The authors conclude that tools such as ChatGPT may promote dependence on technology and hinder learners' self-regulation.
+    citation:
+      source_url: https://arxiv.org/pdf/2412.09315
+      locator: Practitioner Notes, What this paper adds
+methods: Randomized laboratory experiment; 117 university students assigned to four support conditions (ChatGPT, human expert, writing analytics checklist tools, no extra tool) on a writing task; multi-channel learning process, performance, and motivation data.
+external_ids:
+  doi: 10.1111/bjet.13544
+  openalex_id: W4405211386
+sources:
+  - url: https://arxiv.org/pdf/2412.09315
+    title: 'Beware of Metacognitive Laziness: Effects of Generative Artificial Intelligence on Learning Motivation, Processes, and Performance (arXiv author version)'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Text read from the authors' arXiv version; journal DOI recorded under external_ids. Publication date from OpenAlex. Quotes normalize the PDF's ligature characters.

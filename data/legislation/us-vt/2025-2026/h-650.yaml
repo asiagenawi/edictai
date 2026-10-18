@@ -1,0 +1,126 @@
+id: us-vt-2025-2026-h-650
+jurisdiction: us-vt
+session: 2025-2026
+identifier: H.650
+title: An act relating to educational technology products
+classification: bill
+education_levels:
+  - k12
+topics:
+  - student-privacy
+  - procurement
+  - data-governance
+summary: >-
+  Would require providers of student-facing educational technology products used in Vermont
+  schools to register annually with the Secretary of State, and would bar schools from using
+  products the Secretary of State has not certified. Certification standards must consider
+  design features including use of artificial intelligence, and certified products could not
+  collect non-essential student data or use it for sale or noneducational profiling. Passed the
+  House in March 2026 and was referred to Senate Finance.
+abstract: >-
+  This bill proposes to require that providers of educational technology products register
+  annually with the State. It also requires the Secretary of State to create a certification
+  standard and review process for these products before they can be used by schools.
+provisions:
+  - type: procurement-standards
+    description: Bars schools from using educational technology products not certified by the Secretary of State, whose certification standards must consider the product's use of artificial intelligence.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0650/H-0650%20As%20passed%20by%20the%20House%20Official.pdf
+      locator: 9 V.S.A. § 2444c(a)(2), (b)(4)(B) (as passed by the House)
+      quote: >-
+        No school shall use an educational technology product that has not been certified by
+        the Secretary of State pursuant to this section.
+  - type: restricts-student-data-use
+    description: Certified products may not collect non-essential student data or use collected data for sale, third-party sharing, or noneducational student profiles.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0650/H-0650%20As%20passed%20by%20the%20House%20Official.pdf
+      locator: 9 V.S.A. § 2444c(c)(4)-(5) (as passed by the House)
+      quote: >-
+        create a student profile for noneducational uses, which includes targeted advertising
+        and disciplinary actions
+sponsors:
+  - name: Angela Arsenault
+    primary: true
+    chamber: lower
+  - name: Edye Graning
+    primary: false
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Read first time and referred to the Committee on Commerce and Economic Development
+    actor: lower
+    classification:
+      - introduction
+      - reading-1
+      - referral-committee
+  - date: "2026-03-17"
+    description: Referred to Committee on Ways and Means per Rule 35(a)
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-03-25"
+    description: Read second time; report of Committee on Commerce and Economic Development agreed to; third reading ordered
+    actor: lower
+    classification:
+      - reading-2
+      - amendment-passage
+  - date: "2026-03-27"
+    description: Read third time and passed
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-01"
+    description: Read 1st time & referred to Committee on Education
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-05-13"
+    description: Favorable report with proposal of amendment by Committee on Education
+    actor: committee
+    classification:
+      - committee-passage
+  - date: "2026-05-13"
+    description: Referred to Committee on Finance per Senate Rule 31
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0650/H-0650%20As%20Introduced.pdf
+    archived_url: https://web.archive.org/web/20260312103250/https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0650/H-0650%20As%20Introduced.pdf
+    media_type: application/pdf
+  - note: As passed by the House
+    date: "2026-03-27"
+    url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0650/H-0650%20As%20passed%20by%20the%20House%20Official.pdf
+    archived_url: https://web.archive.org/web/20260621091815/https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0650/H-0650%20As%20passed%20by%20the%20House%20Official.pdf
+    media_type: application/pdf
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2026/H.650
+    title: H.650 Bill Status
+    publisher: Vermont General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260417214640/https://legislature.vermont.gov/bill/status/2026/H.650
+  - url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0650/H-0650%20As%20passed%20by%20the%20House%20Official.pdf
+    title: H.650 As Passed by the House (Official)
+    publisher: Vermont General Assembly
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260621091815/https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0650/H-0650%20As%20passed%20by%20the%20House%20Official.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Legacy record cited LegiScan and called it "HB 650"; official identifier is H.650 and
+    sources replaced with Vermont General Assembly pages. Actions from the detailed status
+    feed; the 2026-03-17 entry reflects the committee's favorable-with-amendment report. AI is
+    one certification consideration; the bill is primarily an edtech privacy measure. No
+    Wayback snapshot retrieved (archive offline).

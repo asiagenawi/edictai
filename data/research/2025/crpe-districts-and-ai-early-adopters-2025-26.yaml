@@ -1,0 +1,49 @@
+id: 2025-crpe-districts-and-ai-early-adopters-2025-26
+title: 'Districts and AI: Early Adopters Focus More on Students in 2025-26'
+authors:
+  - Bree Dusseault
+  - Jared Hurwitz
+  - Anagha Mandayam
+publisher: Center on Reinventing Public Education
+published: '2025-11-13'
+classification: brief
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - educator-training
+  - ai-literacy
+  - curriculum-standards
+summary: Update to CRPE's database of early adopter school districts for the 2025-26 school year, compiled from public information. The database grew from 40 to 79 districts, more of them published AI guidance and offered teacher training, and more used student-facing AI tools, though few changed courses or learning standards.
+key_findings:
+  - finding: The early adopter database nearly doubled from 40 to 79 districts; professional development offerings rose to 86% from 63%, and published guidance rose to 78% from 65%.
+    citation:
+      source_url: https://crpe.org/districts-and-ai-early-adopters-focus-more-on-students-in-2025-26/
+      locator: More Early Adopters Are Piloting Systemwide AI Strategies
+      quote: Our Early Adopters database has nearly doubled in a year, from 40 to 79 districts.
+  - finding: More than a third (37%) of districts were implementing five or more AI strategies, up from a few initiatives per district the prior year.
+    citation:
+      source_url: https://crpe.org/districts-and-ai-early-adopters-focus-more-on-students-in-2025-26/
+      locator: More Early Adopters Are Piloting Systemwide AI Strategies
+      quote: this year, we see more than a third (37%) implementing five or more strategies
+  - finding: Nearly two-thirds of districts reported student-centered AI tools, but only 27% shared information about AI courses and six districts (8%) reported changes to learning standards.
+    citation:
+      source_url: https://crpe.org/districts-and-ai-early-adopters-focus-more-on-students-in-2025-26/
+      locator: Early Adopters Focus More on Students, Mostly with New Tools
+      quote: Only a quarter (27%) share information about AI courses, and just six districts (8%) communicate any adjustments to learning standards.
+methods: Database of 79 early adopter districts and charter management organizations for 2025-26 compiled from publicly available information on AI initiatives; not a representative sample.
+related:
+  - 2024-crpe-districts-and-ai-early-adopters-2024-25
+sources:
+  - url: https://crpe.org/districts-and-ai-early-adopters-focus-more-on-students-in-2025-26/
+    title: 'Districts and AI: Early Adopters Focus More on Students in 2025-26'
+    publisher: Center on Reinventing Public Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260319040433/https://crpe.org/districts-and-ai-early-adopters-focus-more-on-students-in-2025-26/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Publication date taken from the page's datePublished metadata.

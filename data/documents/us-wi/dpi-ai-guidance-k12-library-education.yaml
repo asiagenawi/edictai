@@ -1,0 +1,52 @@
+id: us-wi-dpi-ai-guidance-k12-library-education
+jurisdiction: us-wi
+issuer: us-wi-k12-agency
+title: "Empowering Lifelong Learning: AI Guidance for Enhancing K-12 and Library Education"
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - educator-training
+  - student-privacy
+  - data-governance
+  - local-policy-requirement
+summary: >-
+  Wisconsin Department of Public Instruction guidance for K-12 educators, librarians, and
+  administrators on integrating AI. It is organized around seven focus areas: core concepts
+  and goals, partner engagement and communication, ethics and data policy, security and
+  infrastructure, professional development, curriculum and pedagogy, and continuous
+  evaluation. Version 1.0 was created in June 2024 and version 1.1 was issued in December 2024.
+published: 2024-06
+updated: 2024-12
+version: "1.1"
+sources:
+  - url: https://dpi.wi.gov/media/55552/download?inline
+    title: "Empowering Lifelong Learning: AI Guidance for Enhancing K-12 and Library Education (December 2024)"
+    publisher: Wisconsin Department of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+  - url: https://dpi.wi.gov/news/dpi-connected/dpi-releases-ai-guidance-schools-and-libraries
+    title: DPI Releases AI Guidance for Schools and Libraries
+    publisher: Wisconsin Department of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20251009171311/https://dpi.wi.gov/news/dpi-connected/dpi-releases-ai-guidance-schools-and-libraries
+  - url: https://dpi.wi.gov/digital-learning/ai-guidance/wisconsins-dpi-ai-guidance-hub
+    title: Wisconsin's DPI Artificial Intelligence Guidance Hub
+    publisher: Wisconsin Department of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017215054/https://dpi.wi.gov/imt/ai-guidance/wisconsins-dpi-ai-guidance-hub
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Legacy record dated this guidance 2023-10-01 with a generic title and a homepage URL. The
+    document's version history shows v1.0 created 6/2024 and v1.1 12/2024; DPI announced the
+    release on July 29, 2024. The hub labels it "AI Guidance for Wisconsin Schools" and says
+    it was last updated in 2025, but the linked file is still dated December 2024 (v1.1).
+    No Wayback snapshot retrieved (archive offline at access time).

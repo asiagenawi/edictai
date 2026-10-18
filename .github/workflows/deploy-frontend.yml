@@ -20,45 +20,42 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # The frontend ships the policy data as a static file so the map never
-      # waits on the API. Rebuild that snapshot from the checked-in seed JSON on
-      # every deploy, using the same scripts the backend runs.
-      - uses: actions/setup-python@v5
+      # waits on the API. Rebuild that snapshot from the records in data/ on
+      # every deploy; validation errors stop the deploy.
+      - uses: astral-sh/setup-uv@v10.3.0
         with:
-          python-version: '3.11'
+          enable-cache: true
 
-      - name: Install backend dependencies
-        run: pip install -r backend/requirements.txt
+      - name: Install pipeline
+        run: uv sync --frozen --no-dev
 
       - name: Build data snapshot
-        run: |
-          python backend/scripts/init_db.py
-          python backend/scripts/seed_data.py
-          python backend/scripts/export_static_data.py
+        run: uv run --no-sync statescope validate --format github && uv run --no-sync statescope build --no-parquet
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
-          cache-dependency-path: frontend/package-lock.json
+          cache-dependency-path: web/package-lock.json
 
       - name: Install dependencies
         run: npm ci --legacy-peer-deps
-        working-directory: frontend
+        working-directory: web
 
       - name: Build
         run: npm run build
-        working-directory: frontend
+        working-directory: web
         env:
           VITE_API_URL: https://statescope-1.onrender.com/api
 
-      - uses: actions/configure-pages@v4
+      - uses: actions/configure-pages@v6
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
-          path: frontend/dist
+          path: web/dist
 
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

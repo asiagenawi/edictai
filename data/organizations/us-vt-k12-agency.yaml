@@ -1,0 +1,10 @@
+id: us-vt-k12-agency
+name: Vermont Agency of Education
+abbreviation: AOE
+classification: k12-agency
+jurisdiction: us-vt
+education_levels:
+  - k12
+url: https://education.vermont.gov/
+watch_urls:
+  - https://education.vermont.gov/schools/school-operations/public-schools/education-technology

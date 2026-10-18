@@ -1,0 +1,8 @@
+id: us-co-cu
+name: University of Colorado System
+abbreviation: CU
+classification: university-system
+jurisdiction: us-co
+education_levels:
+  - postsecondary
+url: https://www.cu.edu/

@@ -1,0 +1,52 @@
+id: 2024-crpe-teacher-prep-ai-responses
+title: 'AI is Evolving, but Teacher Prep is Lagging: A First Look at Teacher Preparation Program Responses to AI'
+authors:
+  - Steven Weiner
+  - Robin Lake
+  - Jessica Rosner
+publisher: Center on Reinventing Public Education
+published: '2024-10'
+classification: survey
+education_levels:
+  - postsecondary
+  - k12
+topics:
+  - educator-training
+  - academic-integrity
+  - ai-literacy
+summary: CRPE surveyed and interviewed leaders of U.S. schools of education about how teacher preparation programs are responding to AI. Most programs were in the early stages, AI instruction for future teachers centered on preventing plagiarism, and few leaders said their faculty were confident using AI.
+key_findings:
+  - finding: About 59% of respondents said their programs offered some AI-related instruction to preservice teachers, mostly within existing coursework and focused on plagiarism prevention; about 25% trained future teachers on new ways of teaching with AI.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/Teacher-Prep-AI-2024.pdf
+      locator: p. 3
+      quote: Only about 25% of programs surveyed provide training on ways that AI can support new ways of teaching
+  - finding: Only 10% of education school leaders reported that their faculty were confident using AI.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/Teacher-Prep-AI-2024.pdf
+      locator: p. 4
+      quote: only 10% of the education school leaders surveyed reported that their faculty members are confident in using AI, and most do not use it in their instruction.
+  - finding: More than two-thirds of respondents said their institutions had no policies on AI tool use.
+    citation:
+      source_url: https://crpe.org/wp-content/uploads/Teacher-Prep-AI-2024.pdf
+      locator: p. 3
+      quote: More than two-thirds of survey respondents reported that their institutions have no policies around AI tool use
+methods: Survey and interviews of U.S. education school leaders; more than 500 contacted, 14% response rate.
+sources:
+  - url: https://crpe.org/ai-is-evolving-but-teacher-prep-is-lagging/
+    title: 'AI Is Evolving, but Teacher Prep Is Lagging: A First Look at Teacher Preparation Program Responses to AI'
+    publisher: Center on Reinventing Public Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260903023333/https://crpe.org/ai-is-evolving-but-teacher-prep-is-lagging/
+  - url: https://crpe.org/wp-content/uploads/Teacher-Prep-AI-2024.pdf
+    title: 'AI is Evolving, but Teacher Prep is Lagging (report PDF)'
+    publisher: Center on Reinventing Public Education
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261004210705/https://crpe.org/wp-content/uploads/Teacher-Prep-AI-2024.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: The report is dated October 2024; the landing page's datePublished metadata is 2024-10-22.

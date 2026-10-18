@@ -1,0 +1,57 @@
+id: 2024-tutor-copilot-human-ai-approach
+title: 'Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise'
+authors:
+  - Rose E. Wang
+  - Ana T. Ribeiro
+  - Carly D. Robinson
+  - Susanna Loeb
+  - Dora Demszky
+publisher: arXiv
+published: '2024-10-03'
+classification: report
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - educator-training
+  - equity-access
+  - research
+summary: Stanford researchers ran a preregistered randomized controlled trial in which virtual tutors working with elementary and middle school students in a large southern U.S. school district were randomly given access to Tutor CoPilot, a large language model tool that suggests expert-like responses in real time. Students whose tutors had the tool were more likely to master lesson topics, with the largest gains for students of lower-rated or less experienced tutors, at an estimated cost of about $20 per tutor per year.
+key_findings:
+  - finding: Students whose tutors used Tutor CoPilot were 4 percentage points more likely to master mathematics topics, as measured by session exit tickets.
+    citation:
+      source_url: https://arxiv.org/pdf/2410.03017
+      locator: Abstract
+      quote: students whose tutors used Tutor CoPilot were 4 percentage points more likely to master mathematics topics (p<.01)
+  - finding: Gains were largest for students of lower-rated tutors (9 percentage points) and less experienced tutors (7 percentage points).
+    citation:
+      source_url: https://arxiv.org/pdf/2410.03017
+      locator: Results, RQ2
+      quote: lower-rated tutors experienced a 9 p.p. increase in students passing their exit ticket (56%→ 65%student passing rate from control to treatment). In Figure 2b, less experienced tutors showed a 7 p.p. increase (61%→ 68%).
+  - finding: Analysis of more than 350,000 messages showed tutors with the tool asked more probing questions and gave less generic praise; estimated annual cost was about $20 per tutor.
+    citation:
+      source_url: https://arxiv.org/pdf/2410.03017
+      locator: Abstract
+      quote: Analysis of more than 350,000 messages indicates that Tutor CoPilot promotes effective pedagogy, increasing probing questions and reducing generic praise.
+methods: Preregistered randomized controlled trial with tutors as the unit of randomization; 900 tutors initially assigned (783 active in the study) and 1,013 students in grades 3-6 from nine schools in one large southern U.S. district (79% Hispanic); outcome is session exit-ticket mastery.
+external_ids:
+  doi: 10.48550/arXiv.2410.03017
+  openalex_id: W4403885569
+sources:
+  - url: https://arxiv.org/pdf/2410.03017
+    title: 'Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise (arXiv v3 PDF)'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261011005442/https://arxiv.org/pdf/2410.03017
+  - url: https://arxiv.org/abs/2410.03017
+    title: 'Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise'
+    publisher: arXiv
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261006014403/https://arxiv.org/abs/2410.03017
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Preprint, not peer reviewed. Figures taken from version 3 (revised 10 October 2026); first submitted 3 October 2024.

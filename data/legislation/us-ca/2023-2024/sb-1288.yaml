@@ -1,0 +1,149 @@
+id: us-ca-2023-2024-sb-1288
+jurisdiction: us-ca
+session: 2023-2024
+identifier: SB 1288
+title: 'Public schools: artificial intelligence working group.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - local-policy-requirement
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - instructional-use
+  - educator-training
+  - equity-access
+summary: Requires the State Superintendent of Public Instruction to convene a working group on artificial intelligence in public schools, at least half of whose members are current credentialed teachers. The group must develop guidance for school districts, county offices of education, and charter schools by January 1, 2026, a model AI policy by July 1, 2026, and a report to the Legislature by January 1, 2027. The provisions are repealed on January 1, 2031.
+abstract: This bill would require the Superintendent to convene a working group, composed as provided, for specific purposes related to artificial intelligence in public schools, as specified. The bill would require, among other things, the working group to develop, on or before January 1, 2026, guidance for school districts, county offices of education, and charter schools on the safe use of artificial intelligence in education, and to, on or before July 1, 2026, develop a model policy for those local educational agencies regarding the safe and effective use of artificial intelligence in ways that benefit, and do not negatively impact, pupils and educators, as provided.
+provisions:
+  - type: creates-task-force
+    description: Requires the Superintendent to convene an AI working group of teachers, classified staff, administrators, higher education faculty, industry representatives, and pupils, with at least half of members being current credentialed public school teachers.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1288
+      locator: Sec. 2, Education Code 33328.5(b)-(c)
+      quote: At least one-half of the workgroup shall be composed of current, credentialed public school teachers serving in elementary and secondary teaching positions with knowledge of the use of artificial intelligence in education.
+  - type: issues-model-policy
+    description: Requires the working group to develop statewide guidance by January 1, 2026, covering academic integrity, acceptable uses, data privacy and security, parent access to information pupils enter into AI systems, and software procurement.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1288
+      locator: Sec. 2, Education Code 33328.5(d)(3)
+      quote: On or before January 1, 2026, develop guidance for local educational agencies and charter schools on the safe use of artificial intelligence in education
+  - type: issues-model-policy
+    description: Requires the working group to develop a model AI policy for local educational agencies and charter schools by July 1, 2026, including equity and professional development strategies.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1288
+      locator: Sec. 2, Education Code 33328.5(d)(4)
+      quote: On or before July 1, 2026, develop a model policy for local educational agencies and charter schools regarding the safe and effective use of artificial intelligence in ways that benefit, and do not negatively impact, pupils and educators.
+sponsors:
+  - name: Josh Becker
+    primary: true
+    chamber: upper
+actions:
+  - date: '2024-02-15'
+    description: Introduced. Read first time. To Com. on RLS. for assignment. To print.
+    actor: upper
+    classification:
+      - introduction
+      - reading-1
+  - date: '2024-02-29'
+    description: Referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: '2024-04-24'
+    description: 'From committee: Do pass and re-refer to Com. on APPR with recommendation: To consent calendar. (Ayes 7. Noes 0. Page 3752.) (April 24). Re-referred to Com. on APPR.'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-05-16'
+    description: 'From committee: Do pass as amended. (Ayes 7. Noes 0. Page 3978.) (May 16).'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-05-24'
+    description: Read third time. Passed. (Ayes 38. Noes 0. Page 4210.) Ordered to the Assembly.
+    actor: upper
+    classification:
+      - passage
+      - reading-3
+  - date: '2024-06-03'
+    description: Referred to Coms. on ED. and P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: '2024-06-26'
+    description: 'From committee: Do pass and re-refer to Com. on P. & C.P. with recommendation: To consent calendar. (Ayes 7. Noes 0.) (June 26). Re-referred to Com. on P. & C.P.'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-07-03'
+    description: 'From committee: Do pass as amended and re-refer to Com. on APPR. with recommendation: To consent calendar. (Ayes 11. Noes 0.) (July 2).'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-08-15'
+    description: 'From committee: Do pass. (Ayes 14. Noes 0.) (August 15).'
+    actor: committee
+    classification:
+      - committee-passage
+  - date: '2024-08-26'
+    description: Read third time. Passed. (Ayes 77. Noes 0. Page 6533.) Ordered to the Senate.
+    actor: lower
+    classification:
+      - passage
+      - reading-3
+  - date: '2024-08-28'
+    description: Assembly amendments concurred in. (Ayes 39. Noes 0. Page 5615.) Ordered to engrossing and enrolling.
+    actor: upper
+    classification:
+      - passage
+  - date: '2024-09-04'
+    description: Enrolled and presented to the Governor at 4 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: '2024-09-28'
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: '2024-09-28'
+    description: Chaptered by Secretary of State. Chapter 893, Statutes of 2024.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Chaptered
+    date: '2024-09-28'
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1288
+    archived_url: https://web.archive.org/web/20241113094454/https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1288
+session_law: Chapter 893, Statutes of 2024
+related:
+  - us-ca-cde-ai-guidance
+  - us-ca-cde-ai-model-policy
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1288
+    title: SB-1288 Public schools - artificial intelligence working group (2023-2024)
+    publisher: California Legislative Information
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20241113094454/https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1288
+  - url: https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202320240SB1288
+    title: Bill History - SB-1288
+    publisher: California Legislative Information
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20250418135844/https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202320240SB1288
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: official-source-fetch
+  notes: leginfo blocks automated requests; chaptered text and history were read from Wayback Machine captures of the official leginfo pages.

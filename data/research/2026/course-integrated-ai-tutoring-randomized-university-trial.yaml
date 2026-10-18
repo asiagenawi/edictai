@@ -1,0 +1,61 @@
+id: 2026-course-integrated-ai-tutoring-randomized-university-trial
+title: 'The Effects of Course-Integrated AI Tutoring on Student Performance and Engagement: A Randomized University Trial'
+authors:
+  - Jing Liu
+  - Tracy Sweet
+  - Marty Haoyuan Chen
+  - Jonathan Engelberg
+  - Megan Masters
+  - Martyn Clark
+  - Axel Persaud
+  - Alia Lancaster
+  - Jeffrey Hollingsworth
+  - Jennifer King Rice
+publisher: Annenberg Institute at Brown University (EdWorkingPapers)
+published: 2026-10
+classification: report
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - equity-access
+  - research
+summary: A randomized controlled trial at the University of Maryland, College Park, in fall 2025 gave some instructors' course sections access to a GPT-4o-based virtual study assistant built into the campus learning management system, with roughly 2,400 undergraduates across many disciplines. Access to the AI tutor lowered final course grades and sharply reduced students' participation in existing online course activities, with larger estimated grade losses for first-generation students.
+key_findings:
+  - finding: Among sections of the same course, AI tutor access reduced final grades by 0.37 standard deviations and learning management system participation by 0.90 standard deviations.
+    citation:
+      source_url: https://edworkingpapers.com/ai26-1598
+      locator: Abstract
+      quote: Among sections of the same course, tutor access reduced final grades by 0.37 standard deviations and learning management system participation by 0.90 standard deviations.
+  - finding: Estimated effects on final grades ranged from -0.27 to -0.37 standard deviations across samples, and effects on homework scores were null or negative.
+    citation:
+      source_url: https://edworkingpapers.com/sites/default/files/ai26-1598.pdf
+      locator: Introduction, p. 3
+      quote: We found that access to the AI tutor negatively affected student final course grades by 0.27–0.37 standard deviations (SDs), with the clearest evidence in the exact-match sample.
+  - finding: Estimated final-grade losses for first-generation students were more than twice those for continuing-generation students.
+    citation:
+      source_url: https://edworkingpapers.com/sites/default/files/ai26-1598.pdf
+      locator: Introduction, p. 4
+      quote: the estimated final-grade losses among first-generation students were more than twice those among continuing-generation students in both samples
+methods: Randomized controlled trial with instructors randomized within blocks of identical or similar courses; 2,379 undergraduate students and 30 instructors across STEM, social sciences, humanities, and education at the University of Maryland, College Park, fall 2025; outcomes from course grades, learning management system activity, and surveys.
+geography:
+  - us-md
+external_ids:
+  doi: 10.26300/y3f8-vh05
+  openalex_id: W7214712878
+sources:
+  - url: https://edworkingpapers.com/ai26-1598
+    title: 'The Effects of Course-Integrated AI Tutoring on Student Performance and Engagement: A Randomized University Trial (EdWorkingPaper 26-1598)'
+    publisher: Annenberg Institute at Brown University
+    kind: official
+    accessed: '2026-10-17'
+  - url: https://edworkingpapers.com/sites/default/files/ai26-1598.pdf
+    title: 'The Effects of Course-Integrated AI Tutoring on Student Performance and Engagement: A Randomized University Trial (full text PDF)'
+    publisher: Annenberg Institute at Brown University
+    kind: official
+    accessed: '2026-10-17'
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Working paper, not peer reviewed. Dated October 2026 on the EdWorkingPapers page; an earlier version is listed on SSRN (10.2139/ssrn.7546479), which blocked automated access.

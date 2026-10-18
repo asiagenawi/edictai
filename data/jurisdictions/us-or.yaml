@@ -1,0 +1,7 @@
+id: us-or
+ocd_id: "ocd-division/country:us/state:or"
+name: Oregon
+abbreviation: OR
+classification: state
+fips: "41"
+region: West

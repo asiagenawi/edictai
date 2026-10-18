@@ -3,10 +3,13 @@ services:
     name: statescope-api
     runtime: python
     region: oregon
-    buildCommand: pip install -r backend/requirements.txt && python backend/scripts/init_db.py && python backend/scripts/seed_data.py
+    # The API reads build/statescope.db, which `statescope build` generates from
+    # the records in data/. A build with validation errors fails the deploy
+    # rather than serving incomplete data.
+    buildCommand: pip install -r requirements.txt && statescope build --no-web --no-parquet
     # Threaded workers so a streaming /api/ask/stream response doesn't block
     # every other request for the length of a Claude generation.
-    startCommand: python -m gunicorn --chdir backend --bind 0.0.0.0:$PORT --workers 2 --threads 4 --timeout 120 app:app
+    startCommand: python -m gunicorn --chdir api --bind 0.0.0.0:$PORT --workers 2 --threads 4 --timeout 120 app:app
     envVars:
       - key: ANTHROPIC_API_KEY
         sync: false
@@ -14,5 +17,13 @@ services:
         sync: false
       - key: FLASK_ENV
         value: production
+      # Ask: one shared daily budget per instance on top of the per-IP limit.
+      - key: ASK_DAILY_BUDGET
+        value: "500"
+      - key: ASK_EFFORT
+        value: medium
+      # Render's load balancer is the single proxy hop in front of gunicorn.
+      - key: TRUSTED_PROXIES
+        value: "1"
       - key: PYTHON_VERSION
-        value: "3.11"
+        value: "3.12"

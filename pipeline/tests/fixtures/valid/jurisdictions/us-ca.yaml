@@ -1,0 +1,7 @@
+id: us-ca
+ocd_id: "ocd-division/country:us/state:ca"
+name: California
+abbreviation: CA
+classification: state
+fips: "06"
+region: West

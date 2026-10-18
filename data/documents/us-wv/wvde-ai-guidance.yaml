@@ -1,0 +1,46 @@
+id: us-wv-wvde-ai-guidance
+jurisdiction: us-wv
+issuer: us-wv-k12-agency
+title: Guidance, Considerations, and Intentions for the Use of Artificial Intelligence in West Virginia Schools
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - safety-wellbeing
+  - educator-training
+summary: >-
+  West Virginia Department of Education guidance on generative AI for PK-12 staff, from
+  superintendents to classroom teachers. It covers guiding principles for educator use,
+  teaching students about AI, academic integrity, prohibited uses, student privacy and safety,
+  evaluating AI products, and sample considerations for district policies. Version 1.2 (March
+  2025) added a section on emerging risks, including AI companion apps.
+published: 2024-01
+updated: 2025-03
+version: "1.2"
+sources:
+  - url: https://wvde.us/media/1608/wvde-ai-guidance-12-march-2025pdf
+    title: Guidance, Considerations, and Intentions for the Use of Artificial Intelligence in West Virginia Schools, Version 1.2 (March 2025)
+    publisher: West Virginia Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260515084459/https://wvde.us/media/1608/wvde-ai-guidance-12-march-2025pdf
+  - url: https://wvde.us/ai/
+    title: Artificial Intelligence
+    publisher: West Virginia Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20250214025807/https://wvde.us/ai/
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: manual-source-fetch
+  notes: >-
+    Legacy record used a generic title and the agency homepage. Version history in the
+    document: v1.0 01/2024, v1.1 05/2024, v1.2 03/2025 (current). No Wayback snapshot
+    retrieved (archive offline at access time).

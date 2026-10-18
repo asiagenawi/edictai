@@ -1,0 +1,10 @@
+id: us-co-k12-agency
+name: Colorado Department of Education
+abbreviation: CDE
+classification: k12-agency
+jurisdiction: us-co
+education_levels:
+  - k12
+url: https://ed.cde.state.co.us/
+watch_urls:
+  - https://ed.cde.state.co.us/artificialintelligence

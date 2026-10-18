@@ -1,0 +1,8 @@
+---
+import Plain from '../../layouts/Plain.astro';
+import RecordList from '../../components/RecordList.astro';
+import { records } from '../../lib/data';
+---
+<Plain title="Bills & policies">
+  <RecordList records={records()} showState />
+</Plain>

@@ -1,0 +1,9 @@
+id: us-tx-k12-agency
+name: Texas Education Agency
+abbreviation: TEA
+classification: k12-agency
+jurisdiction: us-tx
+education_levels: [k12]
+url: https://example.org/tea
+watch_urls:
+  - https://example.org/tea/ai

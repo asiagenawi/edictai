@@ -1,0 +1,223 @@
+id: us-id-2026-s-1227
+jurisdiction: us-id
+session: "2026"
+identifier: S 1227
+title: >-
+  Education – Adds to existing law to establish provisions regarding generative artificial
+  intelligence in public education.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - student-privacy
+  - procurement
+  - academic-integrity
+  - employment-evaluation
+summary: >-
+  Creates a new chapter of Idaho Code on generative AI in education. The State Department of
+  Education must develop a statewide generative AI framework, subject to State Board of
+  Education approval, that ensures no generative AI replaces a human teacher; every school
+  district and public charter school must adopt an aligned generative AI policy. The department
+  must also develop K-12 generative AI literacy standards, assessment guidelines, an educator
+  professional development plan, and a parent guidance document, and AI tools procured by
+  schools must meet data privacy and vendor disclosure requirements.
+abstract: >-
+  RELATING TO EDUCATION; AMENDING TITLE 33, IDAHO CODE, BY THE ADDITION OF A NEW CHAPTER 70,
+  TITLE 33, IDAHO CODE, TO PROVIDE FOR LEGISLATIVE INTENT, TO PROVIDE FOR DEFINITIONS, TO
+  REQUIRE THE STATE DEPARTMENT OF EDUCATION TO DEVELOP A GENERATIVE ARTIFICIAL INTELLIGENCE IN
+  EDUCATION FRAMEWORK, TO REQUIRE LOCAL SCHOOL DISTRICTS AND PUBLIC CHARTER SCHOOLS TO ADOPT
+  CERTAIN POLICIES, TO REQUIRE THE STATE DEPARTMENT OF EDUCATION TO DEVELOP CERTAIN STANDARDS,
+  ASSESSMENTS, AND PROFESSIONAL DEVELOPMENT, TO PROVIDE FOR PARENTAL AND COMMUNITY ENGAGEMENT,
+  TO PROVIDE FOR PROCUREMENT REQUIREMENTS, AND TO PROVIDE FOR RULEMAKING; AND DECLARING AN
+  EMERGENCY AND PROVIDING AN EFFECTIVE DATE.
+provisions:
+  - type: issues-model-policy
+    description: >-
+      Directs the State Department of Education to develop a statewide generative AI in
+      education framework, subject to State Board of Education approval, as the foundation for
+      local policies.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+      locator: Idaho Code 33-7003(1)
+      quote: >-
+        The state department of education shall develop a statewide generative artificial
+        intelligence in education framework, subject to state board of education approval
+  - type: prohibits-ai-replacing-educators
+    description: The framework must ensure that no generative AI replaces or eliminates a human teacher.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+      locator: Idaho Code 33-7003(1)(b)
+      quote: Ensure that no generative artificial intelligence replaces or eliminates a human teacher
+  - type: requires-local-ai-policy
+    description: >-
+      Requires every school district and public charter school to adopt a policy on generative
+      AI use by students and employees, aligned with the state framework.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+      locator: Idaho Code 33-7004
+      quote: >-
+        Each local school district and public charter school shall adopt a policy governing the
+        use of generative artificial intelligence by students and employees
+  - type: ai-in-standards
+    description: Requires the department to develop and recommend generative AI literacy standards for K-12 students.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+      locator: Idaho Code 33-7005(1)
+      quote: Generative AI literacy standards for K-12 students
+  - type: educator-pd-requirement
+    description: Requires the department to develop and recommend a professional development plan for educators on generative AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+      locator: Idaho Code 33-7005(3)
+      quote: >-
+        A professional development plan to build educator capacity in safe and effective
+        integration of generative AI technologies
+  - type: procurement-standards
+    description: >-
+      Requires generative AI tools procured by districts and charter schools to comply with
+      privacy laws and requires vendors to disclose AI use and provide data protection
+      assurances.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+      locator: Idaho Code 33-7007(1)
+      quote: >-
+        Vendors shall disclose whether products utilize machine learning, predictive analytics,
+        or generative AI and shall provide assurances regarding data protection, algorithmic
+        transparency, and responsible use.
+sponsors:
+  - name: Senate Education Committee
+    classification: committee
+    primary: true
+    chamber: upper
+actions:
+  - date: "2026-01-22"
+    description: Introduced; read first time; referred to JR for Printing
+    actor: upper
+    classification:
+      - introduction
+      - reading-1
+  - date: "2026-01-23"
+    description: Reported Printed; referred to Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-01-29"
+    description: Reported out of Committee with Do Pass Recommendation; Filed for second reading
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-01-30"
+    description: Read second time; filed for Third Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-02-02"
+    description: Read third time in full – PASSED - 26-8-1
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-02-03"
+    description: Received from the Senate, Filed for First Reading; Read First Time, Referred to Education
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-03-02"
+    description: Reported out of Committee, Recommend place on General Orders
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-06"
+    description: Referred to the Committee of the Whole; Reported out without recommendation as amended
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-10"
+    description: Read second time as amended in House; Filed for Third Reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-12"
+    description: Read third time in full as amended in House – PASSED - 62-6-2
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-12"
+    description: Senate concurred in House amendments; referred to engrossment
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Read third time as amended in the House – PASSED - 27-6-2
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-18"
+    description: Reported signed by the Speaker & ordered delivered to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-03-19"
+    description: Signed by Governor on 03/19/26; Session Law Chapter 71; Effective 07/01/2026
+    actor: executive
+    classification:
+      - executive-signature
+      - became-law
+versions:
+  - note: Introduced
+    url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227.pdf
+    archived_url: https://web.archive.org/web/20260415105130/https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227.pdf
+    media_type: application/pdf
+  - note: House amendment
+    url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227A1.pdf
+    archived_url: https://web.archive.org/web/20261017220702/https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227A1.pdf
+    media_type: application/pdf
+  - note: Engrossed, as amended in the House
+    url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+    archived_url: https://web.archive.org/web/20260703013228/https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+    media_type: application/pdf
+  - note: Revised statement of purpose
+    url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227SOP.pdf
+    archived_url: https://web.archive.org/web/20260315111133/https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227SOP.pdf
+    media_type: application/pdf
+session_law: Chapter 71, 2026 Idaho Session Laws
+related:
+  - us-id-sde-genai-education-framework
+sources:
+  - url: https://legislature.idaho.gov/sessioninfo/2026/legislation/S1227/
+    title: S1227 - Idaho State Legislature
+    publisher: Idaho State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260712070057/https://legislature.idaho.gov/sessioninfo/2026/legislation/S1227/
+  - url: https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+    title: Senate Bill No. 1227, As Amended in the House
+    publisher: Idaho State Legislature
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260703013228/https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf
+verification:
+  status: machine-verified
+  last_verified: "2026-10-17"
+  method: official-source-fetch
+  notes: Committee bill (Senate Education Committee); floor sponsors Sen. Kevin Cook and Rep. Jeff Ehlers.

@@ -1,0 +1,8 @@
+id: us-nm-governor
+name: Office of the Governor of New Mexico
+classification: governor
+jurisdiction: us-nm
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.governor.state.nm.us/

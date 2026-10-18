@@ -1,0 +1,7 @@
+id: us-pa
+ocd_id: "ocd-division/country:us/state:pa"
+name: Pennsylvania
+abbreviation: PA
+classification: state
+fips: "42"
+region: Northeast

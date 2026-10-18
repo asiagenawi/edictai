@@ -1,0 +1,49 @@
+id: 2025-tyton-time-for-class-2025
+title: 'Time for Class 2025: Empowering Educators, Engaging Students'
+authors:
+  - Catherine Shaw
+  - Hadley Dorn
+  - Gates Bryant
+publisher: Tyton Partners
+published: '2025-06-11'
+classification: survey
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - academic-integrity
+summary: Annual national surveys of administrators, instructors, and students at US colleges, focused on introductory and developmental courses, covering teaching modality, student engagement, digital learning tools, and generative AI. Weekly or daily generative AI use rose sharply among all three groups since spring 2023, while preventing student cheating ranked as a top instructional challenge.
+key_findings:
+  - finding: Daily or weekly personal use of generative AI reached 40% of administrators, 30% of instructors, and 42% of students in spring 2025, up from 2%, 4%, and 14% in spring 2023.
+    citation:
+      source_url: https://4213961.fs1.hubspotusercontent-na1.net/hubfs/4213961/Publications/Time%20for%20Class/Tyton%20Partners_Time%20for%20Class%202025.pdf
+      locator: p. 6, Key findings
+      quote: daily or weekly use up to 40% among administrators (from 2% in spring 2023), 30% among instructors (from 4% in spring 2023), and 42% among students in spring 2025 (from 14% in spring 2023)
+  - finding: Preventing student cheating was the top instructional challenge reported by instructors of introductory or developmental courses (45%).
+    citation:
+      source_url: https://4213961.fs1.hubspotusercontent-na1.net/hubfs/4213961/Publications/Time%20for%20Class/Tyton%20Partners_Time%20for%20Class%202025.pdf
+      locator: p. 6, Key findings
+      quote: Preventing student cheating and increasing student attendance are the top instructional challenges among instructors teaching introductory or developmental courses (45% and 44%, respectively)
+  - finding: Instructor preference for face-to-face teaching rose from 55% in 2023 to 64% in 2025.
+    citation:
+      source_url: https://tytonpartners.com/time-for-class-2025/
+      quote: Instructor preference for in-person teaching jumped to 64%, up from 55% in 2023.
+methods: National surveys of administrators (n=312), instructors (n=1,572), and students (n=1,528) at more than 900 US colleges and universities, spring 2025; data weighted by institutional sector.
+sources:
+  - url: https://tytonpartners.com/time-for-class-2025/
+    title: 'Time for Class 2025: Empowering Educators, Engaging Students'
+    publisher: Tyton Partners
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260902105755/https://tytonpartners.com/time-for-class-2025/
+  - url: https://4213961.fs1.hubspotusercontent-na1.net/hubfs/4213961/Publications/Time%20for%20Class/Tyton%20Partners_Time%20for%20Class%202025.pdf
+    title: Time for Class 2025 (full report PDF)
+    publisher: Tyton Partners
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20251113225102/https://4213961.fs1.hubspotusercontent-na1.net/hubfs/4213961/Publications/Time%20for%20Class/Tyton%20Partners_Time%20for%20Class%202025.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Report PDF and release page read. Supported by the Gates Foundation and McGraw Hill Education, with contributions from D2L, per the release page.

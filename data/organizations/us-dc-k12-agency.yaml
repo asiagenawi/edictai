@@ -1,0 +1,10 @@
+id: us-dc-k12-agency
+name: Office of the State Superintendent of Education
+abbreviation: OSSE
+classification: k12-agency
+jurisdiction: us-dc
+education_levels:
+  - k12
+url: https://osse.dc.gov/
+watch_urls:
+  - https://osse.dc.gov/page/education-and-digital-technology

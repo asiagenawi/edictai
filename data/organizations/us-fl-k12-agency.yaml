@@ -1,0 +1,11 @@
+id: us-fl-k12-agency
+name: Florida Department of Education
+abbreviation: FDOE
+classification: k12-agency
+jurisdiction: us-fl
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.fldoe.org/
+watch_urls:
+  - https://www.fldoe.org/newsroom/latest-news/florida-sets-national-standard-for-responsible-ai-in-classroomsfrom-vpk-through-college.stml

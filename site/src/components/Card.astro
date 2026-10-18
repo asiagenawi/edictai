@@ -1,0 +1,26 @@
+---
+/**
+ * The white card that sits over the shape field. With `fit`, the card is kept
+ * whole on screen on wider viewports: 100px from the top when there is room,
+ * otherwise closer and scaled down.
+ */
+interface Props { fit?: boolean }
+const { fit = false } = Astro.props;
+
+const fitScript = `(()=>{const card=document.querySelector(".card.fit");
+function fit(){ if(innerWidth<=640){card.style.cssText="";return;}
+  card.style.transform="";const h=card.offsetHeight,room=innerHeight-32,sc=Math.min(1,room/h);
+  const top=Math.max(16,Math.min(100,(innerHeight-h*sc)/2)), left=Math.max(16,Math.min(100,innerWidth*.07));
+  card.style.position="absolute";card.style.top=top+"px";card.style.left=left+"px";card.style.transform=sc<1?"scale("+sc+")":"";}
+fit();addEventListener("resize",fit);document.fonts&&document.fonts.ready.then(fit);})();`;
+---
+<main class:list={["card", { fit }]}><slot /></main>
+{fit && <script is:inline set:html={fitScript} />}
+
+<style>
+.card{position:relative;z-index:1;width:min(var(--card-width),100%);margin:100px 0 80px max(0px,calc(100px - 16px));background:var(--card);padding:40px 56px 38px;border-radius:var(--card-radius);
+  box-shadow:var(--card-shadow);display:grid;gap:16px}
+.card :global(p){margin:0;max-width:62ch}
+@media (min-width:641px){ .fit{margin:0;transform-origin:0 0} }
+@media (max-width:640px){ .card{margin:64px 0 40px;padding:32px 24px} }
+</style>

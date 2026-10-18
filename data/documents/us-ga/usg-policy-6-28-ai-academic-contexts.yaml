@@ -1,0 +1,33 @@
+id: us-ga-usg-policy-6-28-ai-academic-contexts
+jurisdiction: us-ga
+issuer: us-ga-higher-ed-agency
+title: Board of Regents Policy 6.28 Artificial Intelligence in Academic Contexts
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - student-privacy
+  - educator-training
+summary: University System of Georgia Board of Regents policy requiring every USG institution to develop and implement policies or procedures for the ethical, responsible, and secure use of AI in academic contexts. Institutional rules must cover, at minimum, topics such as the definition of AI, ethical principles, accountability for AI-generated content, training for faculty, staff, and students, and student privacy.
+published: 2025-12
+provisions:
+  - type: requires-local-ai-policy
+    description: Requires all USG institutions to adopt policies or procedures governing AI use in academic contexts.
+    citation:
+      source_url: https://usg.policystat.com/policy/19463377/latest/
+      quote: All institutions within the University System of Georgia shall develop and implement policies or procedures that govern the ethical, responsible, and secure use of artificial intelligence (AI) in academic contexts.
+sources:
+  - url: https://usg.policystat.com/policy/19463377/latest/
+    title: 6.28 Artificial Intelligence in Academic Contexts
+    publisher: University System of Georgia
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260924233437/https://usg.policystat.com/policy/19463377/latest/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Policy page lists Effective 12/2025 and Last Revised 11/2025; text read in a browser session because the page renders with scripts.

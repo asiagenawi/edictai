@@ -1,0 +1,12 @@
+id: us-vt
+ocd_id: "ocd-division/country:us/state:vt"
+name: Vermont
+abbreviation: VT
+classification: state
+fips: "50"
+region: Northeast
+sessions:
+  - identifier: 2025-2026
+    name: 2025-2026 Regular Session
+    classification: primary
+    start_date: "2025-01-08"

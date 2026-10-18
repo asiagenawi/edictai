@@ -1,0 +1,10 @@
+---
+import Plain from '../../layouts/Plain.astro';
+import { research } from '../../lib/data';
+const items = research();
+---
+<Plain title="Research">
+  {items.length === 0 ? <p class="muted">No research records yet.</p> : (
+    <ul>{items.map((r) => <li>{r.title}<span class="muted"> · {r.publisher} · {r.published}</span></li>)}</ul>
+  )}
+</Plain>

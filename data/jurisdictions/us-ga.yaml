@@ -1,0 +1,13 @@
+id: us-ga
+ocd_id: "ocd-division/country:us/state:ga"
+name: Georgia
+abbreviation: GA
+classification: state
+fips: "13"
+region: Southeast
+sessions:
+  - identifier: "2025-2026"
+    name: 2025-2026 Regular Session
+    classification: primary
+    start_date: "2025-01-13"
+    end_date: "2026-04-02"

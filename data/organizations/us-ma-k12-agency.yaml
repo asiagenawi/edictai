@@ -1,0 +1,10 @@
+id: us-ma-k12-agency
+name: Massachusetts Department of Elementary and Secondary Education
+abbreviation: DESE
+classification: k12-agency
+jurisdiction: us-ma
+education_levels:
+  - k12
+url: https://www.doe.mass.edu/
+watch_urls:
+  - https://www.doe.mass.edu/edtech/ai/default.html

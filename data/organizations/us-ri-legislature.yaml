@@ -1,0 +1,8 @@
+id: us-ri-legislature
+name: Rhode Island General Assembly
+classification: legislature
+jurisdiction: us-ri
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.rilegislature.gov/

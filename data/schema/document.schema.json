@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://statescope.org/schema/document.schema.json",
+  "title": "Policy document",
+  "description": "Non-legislative policy issued by an agency, university system, or accreditor: guidance, frameworks, binding policy, toolkits, statements, task-force reports. Stored at data/documents/{jurisdiction}/{slug}.yaml.",
+  "type": "object",
+  "required": ["id", "jurisdiction", "issuer", "title", "classification", "status", "education_levels", "topics", "summary", "sources", "verification"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/record_id",
+      "description": "{jurisdiction}-{slug}, e.g. 'us-ca-cde-learning-with-ai'. Must match the file path."
+    },
+    "jurisdiction": { "$ref": "common.schema.json#/$defs/jurisdiction_id" },
+    "issuer": { "type": "string", "description": "Organization ID from data/organizations/.", "x-ref": "organization" },
+    "title": { "type": "string" },
+    "classification": { "type": "string", "x-vocab": "document_classifications" },
+    "status": { "type": "string", "x-vocab": "document_statuses" },
+    "education_levels": { "$ref": "common.schema.json#/$defs/education_levels" },
+    "topics": { "$ref": "common.schema.json#/$defs/topics" },
+    "summary": { "type": "string" },
+    "published": { "$ref": "common.schema.json#/$defs/partial_date", "description": "Date the document was first issued, when the document or its issuer gives it." },
+    "updated": { "$ref": "common.schema.json#/$defs/partial_date", "description": "Date of the current edition or last update, as shown by the issuer." },
+    "version": { "type": "string", "description": "Edition or version number the issuer gives the current text, e.g. '3.0'." },
+    "effective": { "$ref": "common.schema.json#/$defs/date", "description": "Date binding policy takes effect." },
+    "undated": { "type": "boolean", "description": "True when neither the document nor its issuer gives a date; published and updated are then left out rather than estimated." },
+    "provisions": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/provision" }
+    },
+    "revisions": {
+      "type": "array",
+      "description": "Observed versions of the document, newest last. Populated by the change watcher.",
+      "items": {
+        "type": "object",
+        "required": ["observed", "url"],
+        "additionalProperties": false,
+        "properties": {
+          "observed": { "$ref": "common.schema.json#/$defs/date" },
+          "url": { "$ref": "common.schema.json#/$defs/url" },
+          "archived_url": { "$ref": "common.schema.json#/$defs/url" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$", "description": "Hash of the normalized extracted text." },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "superseded_by": { "$ref": "common.schema.json#/$defs/record_id", "x-ref": "document" },
+    "authorized_by": { "$ref": "common.schema.json#/$defs/record_id", "description": "Legislation or executive action that required this document.", "x-ref": "any" },
+    "related": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "common.schema.json#/$defs/record_id", "x-ref": "any" }
+    },
+    "sources": { "$ref": "common.schema.json#/$defs/sources" },
+    "verification": { "$ref": "common.schema.json#/$defs/verification" }
+  }
+}

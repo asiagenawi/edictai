@@ -1,0 +1,13 @@
+id: us-oh
+ocd_id: "ocd-division/country:us/state:oh"
+name: Ohio
+abbreviation: OH
+classification: state
+fips: "39"
+region: Midwest
+sessions:
+  - identifier: 2025-2026
+    name: 136th General Assembly (2025-2026)
+    classification: primary
+    start_date: '2025-01-06'
+    end_date: '2026-12-31'

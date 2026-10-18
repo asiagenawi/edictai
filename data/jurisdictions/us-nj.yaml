@@ -1,0 +1,17 @@
+id: us-nj
+ocd_id: "ocd-division/country:us/state:nj"
+name: New Jersey
+abbreviation: NJ
+classification: state
+fips: "34"
+region: Northeast
+sessions:
+  - identifier: 2024-2025
+    name: 2024-2025 Session (221st Legislature)
+    classification: primary
+    start_date: "2024-01-09"
+    end_date: "2026-01-13"
+  - identifier: 2026-2027
+    name: 2026-2027 Session (222nd Legislature)
+    classification: primary
+    start_date: "2026-01-13"

@@ -1,0 +1,39 @@
+id: us-nd-dpi-k12-ai-guidance-framework
+jurisdiction: us-nd
+issuer: us-nd-k12-agency
+title: North Dakota K-12 AI Guidance Framework
+classification: framework
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - local-policy-requirement
+  - student-privacy
+  - equity-access
+  - educator-training
+summary: >-
+  A North Dakota Department of Public Instruction web framework to help schools plan AI
+  implementation around a "Human - Technology - Human" workflow in which people review AI output
+  for accuracy and bias. It offers implementation checklists for school leadership, educators,
+  business and IT operations, policy and legal considerations, and public outreach, along with
+  definitions, grade-band and accessibility considerations, and resource lists.
+undated: true
+sources:
+  - url: https://www.nd.gov/dpi/policyguidelines/north-dakota-k-12-ai-guidance-framework
+    title: North Dakota K-12 AI Guidance Framework
+    publisher: North Dakota Department of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043155/https://www.nd.gov/dpi/policyguidelines/north-dakota-k-12-ai-guidance-framework
+  - url: https://www.nd.gov/dpi/sites/www/files/documents/SAO/AI%20Checklist/Implementation%20Checklist%20-%20School%20Leadership.pdf
+    title: Implementation Checklist - School Leadership
+    publisher: North Dakota Department of Public Instruction
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260708052208/https://www.nd.gov/dpi/sites/www/files/documents/SAO/AI%20Checklist/Implementation%20Checklist%20-%20School%20Leadership.pdf
+verification:
+  status: unverified
+  notes: >-
+    Content checked against the live page on 2026-10-17. The page gives no publication date,
+    so none is recorded; the checklist PDFs' file metadata is from June 2024.

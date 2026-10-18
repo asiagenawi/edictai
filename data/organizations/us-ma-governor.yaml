@@ -1,0 +1,8 @@
+id: us-ma-governor
+name: Office of the Governor of Massachusetts
+classification: governor
+jurisdiction: us-ma
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.mass.gov/orgs/office-of-the-governor

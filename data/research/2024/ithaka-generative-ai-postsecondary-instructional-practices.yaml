@@ -1,0 +1,48 @@
+id: 2024-ithaka-generative-ai-postsecondary-instructional-practices
+title: 'Generative AI and Postsecondary Instructional Practices: Findings from a National Survey of Instructors'
+authors:
+  - Dylan Ruediger
+  - Melissa Blankstein
+  - Sage Jasper Love
+publisher: Ithaka S+R
+published: '2024-06-20'
+classification: survey
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - educator-training
+  - academic-integrity
+summary: Ithaka S+R analyzed a generative AI module from its 2024 national survey of instructors at US four-year institutions, answered by 2,654 faculty. Most instructors had experimented with generative AI for teaching but few felt confident using it, opinions on its value were divided, and 42% fully prohibited student use.
+key_findings:
+  - finding: 72% of instructors had used generative AI for at least one instructional activity, but no single use was common; designing course materials was the most frequent, at 22%.
+    citation:
+      source_url: https://sr.ithaka.org/publications/generative-ai-and-postsecondary-instructional-practices/
+      locator: Finding 2
+      quote: A large majority (72 percent) of instructors have experimented with using generative AI as an instructional tool. Yet while instructors are using generative AI in many different ways, no individual use case has become particularly well established.
+  - finding: Only 14% agreed they felt confident using generative AI in their instruction, and only 19% agreed it would benefit teaching in their field.
+    citation:
+      source_url: https://sr.ithaka.org/publications/generative-ai-and-postsecondary-instructional-practices/
+      locator: Finding 1
+      quote: only 14 percent agreed or strongly agreed they feel confident in their ability to use generative AI in their instruction.
+  - finding: 42% of instructors completely prohibited students from using generative AI, rising to 53% in the humanities.
+    citation:
+      source_url: https://sr.ithaka.org/publications/generative-ai-and-postsecondary-instructional-practices/
+      locator: Student use of generative AI
+      quote: Overall, 42 percent of instructors completely prohibit their students from using generative AI
+methods: Generative AI module of the Ithaka S+R 2024 US Instructor Survey, fielded February 7 to March 10, 2024, to 135,284 faculty at US four-year institutions; 2,654 respondents randomly assigned to the module (3.9% overall response rate).
+external_ids:
+  doi: 10.18665/sr.320892
+  openalex_id: W4399854131
+sources:
+  - url: https://sr.ithaka.org/publications/generative-ai-and-postsecondary-instructional-practices/
+    title: 'Generative AI and Postsecondary Instructional Practices: Findings from a National Survey of Instructors'
+    publisher: Ithaka S+R
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20260930023331/https://sr.ithaka.org/publications/generative-ai-and-postsecondary-instructional-practices/
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch
+  notes: Full report text read on the publisher site.

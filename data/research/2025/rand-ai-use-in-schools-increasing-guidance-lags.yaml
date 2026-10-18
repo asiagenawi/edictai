@@ -1,0 +1,63 @@
+id: 2025-rand-ai-use-in-schools-increasing-guidance-lags
+title: 'AI Use in Schools Is Quickly Increasing but Guidance Lags Behind: Findings from the RAND Survey Panels'
+authors:
+  - Christopher Joseph Doss
+  - Robert Bozick
+  - Heather L. Schwartz
+  - Lisa Chu
+  - Lydia R. Rainey
+  - Ashley Woo
+  - Justin Reich
+  - Jesse Dukes
+publisher: RAND Corporation
+published: '2025-09-30'
+classification: survey
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - academic-integrity
+  - educator-training
+  - ai-literacy
+summary: RAND combined 2024-25 surveys of nationally representative samples of students, parents, teachers, principals, and district leaders to update the picture of AI in K-12 schools. Student and teacher AI use rose by 15 percentage points or more in one to two years, while training for teachers and students and school AI policies lagged behind.
+key_findings:
+  - finding: In 2025, 54 percent of students and 53 percent of ELA, math, and science teachers said they used AI for school, up more than 15 percentage points from surveys one to two years earlier.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA4180-1.html
+      locator: Key Takeaways
+      quote: In 2025, 54 percent of students and 53 percent of English language arts, math, and science teachers indicated that they used AI for school.
+  - finding: Parents and students were more likely than district leaders to agree that greater AI use will harm students' critical-thinking skills, and half of students worried about being falsely accused of cheating with AI.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA4180-1.html
+      locator: Key Takeaways
+      quote: Sixty-one percent of parents, 48 percent of middle schoolers, 55 percent of high schoolers, and only 22 percent of district leaders agreed that greater use of AI will harm students’ critical-thinking skills.
+  - finding: Thirty-five percent of district leaders reported providing students with AI training, and over 80 percent of students said teachers had not explicitly taught them how to use AI for schoolwork.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA4180-1.html
+      locator: Key Takeaways
+      quote: As of spring 2025, 35 percent of district leaders reported that they provide students with training on AI.
+  - finding: Forty-five percent of principals reported school or district AI policies or guidance, and 34 percent of teachers reported policies on AI and academic integrity.
+    citation:
+      source_url: https://www.rand.org/pubs/research_reports/RRA4180-1.html
+      locator: Key Takeaways
+      quote: Forty-five percent of principals reported having school or district policies or guidance on the use of AI in schools, and 34 percent of teachers reported having school or district policies on the use of AI related to academic integrity.
+methods: 'Weighted analysis of eight nationally representative RAND panel samples collected October 2024 to May 2025: middle and high school students (n=1,261 and n=852, American Youth Panel), 984 parents of 12-17-year-olds, 967 teachers of all subjects and 8,601 ELA/math/science teachers (American Teacher Panel), 3,668 principals, and 289 and 232 district leaders; plus interviews with ten district leaders.'
+external_ids:
+  doi: 10.7249/RRA4180-1
+sources:
+  - url: https://www.rand.org/pubs/research_reports/RRA4180-1.html
+    title: 'AI Use in Schools Is Quickly Increasing but Guidance Lags Behind: Findings from the RAND Survey Panels'
+    publisher: RAND Corporation
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261013102213/https://www.rand.org/pubs/research_reports/RRA4180-1.html
+  - url: https://www.rand.org/content/dam/rand/pubs/research_reports/RRA4100/RRA4180-1/RAND_RRA4180-1.pdf
+    title: AI Use in Schools Is Quickly Increasing but Guidance Lags Behind (PDF)
+    publisher: RAND Corporation
+    kind: official
+    accessed: '2026-10-17'
+    archived_url: https://web.archive.org/web/20261003203542/https://www.rand.org/content/dam/rand/pubs/research_reports/RRA4100/RRA4180-1/RAND_RRA4180-1.pdf
+verification:
+  status: machine-verified
+  last_verified: '2026-10-17'
+  method: manual-fetch

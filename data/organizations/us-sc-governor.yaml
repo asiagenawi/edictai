@@ -1,0 +1,8 @@
+id: us-sc-governor
+name: Office of the Governor of South Carolina
+classification: governor
+jurisdiction: us-sc
+education_levels:
+  - k12
+  - postsecondary
+url: https://governor.sc.gov/

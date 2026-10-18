@@ -1,0 +1,9 @@
+id: hlc
+name: Higher Learning Commission
+abbreviation: HLC
+classification: accreditor
+education_levels:
+  - postsecondary
+url: https://www.hlcommission.org/
+watch_urls:
+  - https://www.hlcommission.org/learning-center/news/hlc-sets-ai-principles-to-guide-its-operations-and-activities/

@@ -1,0 +1,10 @@
+id: us-ok-k12-agency
+name: Oklahoma State Department of Education
+abbreviation: OSDE
+classification: k12-agency
+jurisdiction: us-ok
+education_levels:
+  - k12
+url: https://oklahoma.gov/education.html
+watch_urls:
+  - https://oklahoma.gov/education/services/standards-learning/artificial-intelligence--ai--and-digital-learning1.html

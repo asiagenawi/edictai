@@ -1,0 +1,8 @@
+id: us-ga-governor
+name: Office of the Governor of Georgia
+classification: governor
+jurisdiction: us-ga
+education_levels:
+  - k12
+  - postsecondary
+url: https://gov.georgia.gov/

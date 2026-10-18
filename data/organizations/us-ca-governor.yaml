@@ -1,0 +1,8 @@
+id: us-ca-governor
+name: Office of the Governor of California
+classification: governor
+jurisdiction: us-ca
+education_levels:
+  - k12
+  - postsecondary
+url: https://www.gov.ca.gov/

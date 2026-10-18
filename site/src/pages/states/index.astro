@@ -1,0 +1,370 @@
+---
+/**
+ * The States index: a map of the United States that fills the window. States
+ * with records are drawn as mosaics of brand shapes; hovering or focusing one
+ * fills the card on the left, and selecting it zooms through into its page.
+ * The map's paths and tiles are computed at build time (src/lib/usmap.ts); the
+ * script paints the mosaic and handles the interaction.
+ */
+import Base from '../../layouts/Base.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import { jurisdictions, states, url } from '../../lib/data';
+import { longDate, statePage } from '../../lib/state-page';
+import { PALETTE, TILE, boldTiles, usMap } from '../../lib/usmap';
+import '../../styles/state.css';
+import '../../styles/states-index.css';
+
+const PLURAL: Record<string, string> = {
+  Bill: 'Bills', Guidance: 'Guidance documents', Policy: 'Policies', 'Model policy': 'Model policies',
+  'Executive order': 'Executive orders', Report: 'Reports', Framework: 'Frameworks', Statement: 'Statements',
+  Toolkit: 'Toolkits', Program: 'Programs',
+};
+
+// What the card shows for each jurisdiction, all from the records.
+const cards = jurisdictions().map((j) => {
+  const { rows } = statePage(j);
+  const types = [...new Set(rows.map((r) => r.type))].map((t) => ({
+    label: PLURAL[t] ?? `${t}s`,
+    glyph: rows.find((r) => r.type === t)!.glyph,
+    n: rows.filter((r) => r.type === t).length,
+  })).sort((a, b) => b.n - a.n);
+  const latest = rows[0];
+  return {
+    id: j.id, name: j.name, region: j.region ?? (j.id === 'us' ? 'Federal' : ''), href: url(`states/${j.code}/`), fips: j.fips,
+    total: rows.length, enacted: rows.filter((r) => r.status === 'Became law').length, types,
+    latest: latest ? { title: latest.title, date: longDate(latest.date) } : null,
+  };
+});
+const byFips = new Map(cards.filter((c) => c.fips).map((c) => [c.fips!, c]));
+const map = usMap();
+const shapes = map.states.filter((s) => byFips.has(s.fips)).map((s) => ({ ...s, card: byFips.get(s.fips)! }));
+const withRecords = states().filter((s) => (cards.find((c) => c.id === s.id)?.total ?? 0) > 0).length;
+const federal = cards.find((c) => c.id === 'us')!;
+const dc = cards.find((c) => c.id === 'us-dc')!;
+const data = cards.map(({ fips, ...c }) => c);
+// The tiles of every state with records (flattened [x, y, shape, palette index, ...]); the same tiles draw its page's header outline.
+const tiles = Object.fromEntries(shapes.filter((s) => s.card.total).map((s) => [s.card.id, s.tiles.flat()]));
+// Each such state's header-outline tiles and frame: the zoom dissolves into these mid-flight and hands them over.
+const bold = Object.fromEntries(shapes.filter((s) => s.card.total).map((s) => {
+  const b = boldTiles(s.fips)!;
+  return [s.card.id, { g: b.size, t: b.tiles.flat(), ob: s.outline }];
+}));
+---
+<Base title="States · Edictai" description={`${withRecords} of 50 states and DC have at least one record.`} bodyClass="sp si">
+  <div class="wrap">
+    <SiteHeader current="states" />
+
+    <section class="states">
+      <aside class="st-side">
+        <div>
+          <h1>States</h1>
+          <p class="lede">{withRecords} of 50 states and DC have at least one record. Select a state to open its page.</p>
+        </div>
+        <div class="scard" id="scard" aria-live="polite">
+          <div class="sc-empty" id="sc-empty">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 3l12 9-5.5 1.2L15 20l-2.4 1-3.3-6.6L5 18z"/></svg>
+            <span>Hover over a state to see what it has on record.</span>
+          </div>
+          <div class="sc-body" id="sc-body" hidden>
+            <div class="sc-top"><svg class="sc-sil" id="sc-sil" viewBox="0 0 100 100" aria-hidden="true"><path /></svg><div><span class="sc-reg" id="sc-reg"></span><b id="sc-name"></b></div></div>
+            <dl class="sc-kv" id="sc-kv"></dl>
+            <div class="sc-latest" id="sc-latest"></div>
+            <span class="sc-go">Click to open the state page →</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="map-area" id="map-area">
+        <div class="map" id="map" style={`aspect-ratio:${map.width}/${map.height}`}>
+          <canvas id="map-c" aria-hidden="true"></canvas>
+          <svg id="map-s" viewBox={`0 0 ${map.width} ${map.height}`} role="group" aria-label="Map of the United States; select a state to open its page">
+            <g id="map-g">
+              {shapes.map((s) => (
+                <a href={s.card.href} data-j={s.card.id} data-colour={s.colour} data-b={s.bounds.flat().join(',')}
+                  aria-label={`${s.card.name}: ${s.card.total ? `${s.card.total} record${s.card.total === 1 ? '' : 's'}` : 'no records yet'}`}>
+                  <path d={s.d} class={s.card.total ? undefined : 'none'} />
+                </a>
+              ))}
+            </g>
+            <path id="map-hl" aria-hidden="true" />
+          </svg>
+          <div class="map-extra" style={`left:calc(${(map.extra[0] * 100).toFixed(2)}% + 16px);top:${(map.extra[1] * 100).toFixed(2)}%`}>
+            <a href={federal.href} data-j="us">Federal government</a>
+            <a href={dc.href} data-j="us-dc">District of Columbia</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script id="si-data" type="application/json" set:html={JSON.stringify({ cards: data, width: map.width, height: map.height, tiles, bold, palette: PALETTE, tile: TILE })} />
+</Base>
+
+<script>
+  type Card = { id: string; name: string; region: string; href: string; total: number; enacted: number; types: { label: string; glyph: string; n: number }[]; latest: { title: string; date: string } | null };
+  type Bold = { g: number; t: number[]; ob: [[number, number], [number, number]] };
+  const { cards, width: W, height: H, tiles: TILE_DATA, bold: BOLD, palette, tile: G } = JSON.parse(document.getElementById('si-data')!.textContent!) as
+    { cards: Card[]; width: number; height: number; tiles: Record<string, number[]>; bold: Record<string, Bold>; palette: string[]; tile: number };
+  const byId = new Map(cards.map((c) => [c.id, c]));
+  const $ = <T extends Element = HTMLElement>(s: string) => document.querySelector(s) as T;
+  const css = (n: string) => getComputedStyle(document.documentElement).getPropertyValue('--' + n).trim();
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const wide = matchMedia('(min-width: 761px)');
+  const root = document.documentElement;
+  const area = $('#map-area'), box = $('#map'), cv = $<HTMLCanvasElement>('#map-c'), hl = $<SVGPathElement>('#map-hl');
+  const sc = $('#scard'), body = $('#sc-body'), empty = $('#sc-empty');
+  const esc = (s: string) => s.replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]!);
+  const PAL = palette.map(css);
+
+  // The card: fills in for the hovered state, empties shortly after the pointer leaves.
+  let hideT = 0;
+  let shown: [Card, { d: string; b: number[]; fill: string } | undefined] | null = null;
+  function card(c: Card | null, shape?: { d: string; b: number[]; fill: string }, measuring = false) {
+    clearTimeout(hideT);
+    if (!measuring) shown = c ? [c, shape] : null;
+    if (!c) { hideT = window.setTimeout(() => { body.hidden = true; empty.hidden = false; }, 150); return; }
+    const sil = $<SVGSVGElement>('#sc-sil'), sp = sil.querySelector('path')!;
+    sil.style.display = shape ? '' : 'none';
+    if (shape) {
+      const [x0, y0, x1, y1] = shape.b, s = 92 / Math.max(x1 - x0, y1 - y0);
+      sp.setAttribute('d', shape.d);
+      sp.setAttribute('transform', `translate(${50 - ((x0 + x1) / 2) * s} ${50 - ((y0 + y1) / 2) * s}) scale(${s})`);
+      sp.setAttribute('fill', shape.fill);
+    }
+    $('#sc-reg').textContent = c.region;
+    $('#sc-name').textContent = c.name;
+    $('#sc-kv').innerHTML = c.total
+      ? c.types.map((t) => `<dt><svg class="g" viewBox="0 0 12 12" aria-hidden="true">${t.glyph}</svg>${t.label}</dt><dd>${t.n}</dd>`).join('') +
+        (c.enacted ? `<dt>Enacted laws</dt><dd>${c.enacted}</dd>` : '') + `<dt class="tot">All records</dt><dd class="tot">${c.total}</dd>`
+      : '<dt>No records yet</dt><dd></dd>';
+    $('#sc-latest').innerHTML = c.latest ? `Latest<b>${esc(c.latest.title)}</b>${c.latest.date}` : '';
+    if (body.hidden) { body.hidden = false; empty.hidden = true; }
+    else { body.style.animation = 'none'; void body.offsetHeight; body.style.animation = ''; }
+  }
+
+  // The tallest jurisdiction's card content (CARDMAX): the card never gets shorter, so it never jumps.
+  let CARDMAX = 0;
+  function sizeCard() {
+    sc.style.minHeight = ''; sc.style.height = '';
+    let max = 0;
+    body.style.animation = 'none'; body.hidden = false; empty.hidden = true;
+    for (const c of cards) { card(c, { d: '', b: [0, 0, 1, 1], fill: '' }, true); max = Math.max(max, sc.offsetHeight); }
+    body.style.animation = '';
+    // Put back whatever the card was showing before it was measured.
+    if (shown) card(shown[0], shown[1], true); else { body.hidden = true; empty.hidden = false; }
+    sc.style.minHeight = max + 'px';
+    CARDMAX = max;
+  }
+
+  // Fit: the map spans from OFF below the top of the "States" capitals to the bottom of the card, as wide as the room
+  // beside the left column allows (its height follows its shape). The card's bottom meets the map's, and the
+  // title-and-card block is centred so the gap from the header rule to the capitals equals the gap from the
+  // card to the window's bottom. In a short window the map shrinks so the card still fits (gaps at least 12px).
+  // Three passes, since the map's width changes the left column's width, which can rewrap the lede.
+  function fit() {
+    root.classList.toggle('fit', wide.matches);
+    const view = $('.states');
+    if (!wide.matches) {
+      $('.map-extra').style.top = '';
+      for (const el of [area, box]) { el.style.width = ''; el.style.height = ''; }
+      box.style.marginTop = ''; view.style.paddingTop = ''; sc.style.height = ''; sc.style.minHeight = '';
+      return;
+    }
+    if (!CARDMAX) sizeCard();
+    const OFF = 28;
+    const h1 = $('.st-side h1'), hdr = $('header.top').getBoundingClientRect().bottom;
+    const capOf = () => {
+      const r = document.createRange();
+      r.selectNodeContents(h1);
+      return r.getBoundingClientRect().top + 0.14 * parseFloat(getComputedStyle(h1).fontSize);
+    };
+    for (let pass = 0; pass < 3; pass++) {
+      const avail = view.clientWidth - 260 - 48, total = innerHeight - hdr, capTop = capOf(), T = sc.getBoundingClientRect().top - capTop;
+      let w = avail, h = (w * H) / W;
+      h = Math.min(Math.max(h, T + CARDMAX - OFF), total - 24 - OFF);
+      w = Math.min(avail, (h * W) / H);
+      h = Math.max((w * H) / W, Math.min(T + CARDMAX - OFF, total - 24 - OFF));
+      const gap = Math.max(12, (total - h - OFF) / 2), P = parseFloat(getComputedStyle(view).paddingTop) || 0;
+      view.style.paddingTop = Math.max(0, P + hdr + gap - capTop) + 'px';
+      const cardTop = sc.getBoundingClientRect().top;
+      sc.style.height = Math.max(CARDMAX, capOf() + OFF + h - cardTop) + 'px';
+      const bh = (w * H) / W;
+      area.style.width = w + 'px'; box.style.width = w + 'px'; box.style.height = bh + 'px';
+      box.style.marginTop = Math.max(0, sc.getBoundingClientRect().bottom - area.getBoundingClientRect().top - bh) + 'px';
+    }
+    // The Federal/DC buttons keep their spot over the Great Lakes, their top edge level with the map's top.
+    $('.map-extra').style.top = capOf() + OFF - box.getBoundingClientRect().top + 'px';
+  }
+
+  // The mosaic. Every state is kept as an item (its path, bounds, and tiles with colours resolved) so the
+  // zoom can redraw the map, or just the visible part of it, at any scale.
+  type Tile = [number, number, number, string];
+  type Item = { id: string; a: SVGAElement; d: string; p: Path2D; b: [[number, number], [number, number]]; T: Tile[] | null };
+  const ALL: Item[] = [...document.querySelectorAll<SVGAElement>('#map-g a')].map((a) => {
+    const d = a.querySelector('path')!.getAttribute('d')!, [x0, y0, x1, y1] = a.dataset.b!.split(',').map(Number), flat = TILE_DATA[a.dataset.j!];
+    const T: Tile[] | null = flat ? [] : null;
+    if (flat && T) for (let i = 0; i < flat.length; i += 4) T.push([flat[i], flat[i + 1], flat[i + 2], PAL[flat[i + 3]]]);
+    return { id: a.dataset.j!, a, d, p: new Path2D(d), b: [[x0, y0], [x1, y1]], T };
+  });
+  /** Tiles of size g (the map's 7 units, or a header outline's bold size); insets scale with the tile. */
+  function paintTiles(c: CanvasRenderingContext2D, tiles: Tile[], g = G) {
+    const i = g * 0.086;
+    for (const [x, y, k, col] of tiles) {
+      c.fillStyle = col;
+      c.beginPath();
+      const h = g / 2 - i, cx = x + g / 2, cy = y + g / 2;
+      if (k === 0) c.arc(cx, cy, h, 0, 7);
+      else if (k === 1) c.rect(x + i, y + i, g - 2 * i, g - 2 * i);
+      else if (k === 2) { c.moveTo(x + i, y + g - i); c.arc(x + i, y + g - i, g - 2 * i, -Math.PI / 2, 0); }
+      else if (k === 3) { c.moveTo(cx, y + i); c.lineTo(x + g - i, cy); c.lineTo(cx, y + g - i); c.lineTo(x + i, cy); }
+      else { c.moveTo(cx, cy - h); c.arc(cx, cy, h, -Math.PI / 2, Math.PI / 2); }
+      c.fill();
+    }
+  }
+  /** Draw items whose bounds meet the view [vx0, vy0]–[vx1, vy1], culling tiles outside it; s is the current scale (for the stroke). */
+  function vecMap(c: CanvasRenderingContext2D, items: Item[], vx0: number, vy0: number, vx1: number, vy1: number, s: number, stroke = true) {
+    for (const it of items) {
+      const [[x0, y0], [x1, y1]] = it.b;
+      if (x1 < vx0 || x0 > vx1 || y1 < vy0 || y0 > vy1) continue;
+      if (!it.T) { c.fillStyle = '#f3f3f1'; c.fill(it.p); }
+      else {
+        c.save(); c.clip(it.p);
+        paintTiles(c, it.T.filter((t) => t[0] + G > vx0 && t[0] < vx1 && t[1] + G > vy0 && t[1] < vy1));
+        c.restore();
+      }
+      if (stroke) { c.strokeStyle = '#fff'; c.lineWidth = 2.6 / s; c.lineJoin = 'round'; c.stroke(it.p); }
+    }
+  }
+  function paint() {
+    const dpr = Math.min(2, devicePixelRatio || 1) * 1.5, c = cv.getContext('2d')!;
+    cv.width = W * dpr; cv.height = H * dpr; c.scale(dpr, dpr);
+    // The page's SVG paths draw the white borders, so the canvas paints tiles only.
+    vecMap(c, ALL.filter((it) => it.T), -1e9, -1e9, 1e9, 1e9, 1, false);
+  }
+
+  // Painting ~10,000 shapes every frame stutters, so while the map is still small on screen the zoom draws a
+  // high-resolution snapshot of it, and only switches to drawing shapes once just a few hundred are in view.
+  const HI = 4;
+  let hiCv: HTMLCanvasElement | null = null;
+  function hiRes() {
+    if (hiCv) return hiCv;
+    const dpr = Math.min(2, devicePixelRatio || 1), k = (HI * dpr * box.clientWidth) / W;
+    hiCv = document.createElement('canvas');
+    hiCv.width = Math.ceil(W * k); hiCv.height = Math.ceil(H * k);
+    const c = hiCv.getContext('2d')!;
+    c.setTransform(k, 0, 0, k, 0, 0);
+    vecMap(c, ALL, -1e9, -1e9, 1e9, 1e9, 1);
+    return hiCv;
+  }
+  /**
+   * The camera at scale s and offset (px, py); others = opacity of every state but the pressed one, which is
+   * drawn on top at full strength, its fine map tiles dissolving into its bold outline tiles as mix goes 0 → 1.
+   */
+  function drawMap(c: CanvasRenderingContext2D, s: number, px: number, py: number, VW: number, VH: number, dpr: number, s0: number, me: Item, others: number, bold: { g: number; T: Tile[] }, mix: number) {
+    c.setTransform(dpr * s, 0, 0, dpr * s, dpr * px, dpr * py);
+    const vx0 = -px / s, vy0 = -py / s, vx1 = (VW - px) / s, vy1 = (VH - py) / s;
+    if (others > 0) {
+      c.globalAlpha = others;
+      if (s < s0 * HI * 0.9) { c.imageSmoothingQuality = 'high'; c.drawImage(hiRes(), 0, 0, W, H); }
+      else vecMap(c, ALL.filter((it) => it !== me), vx0, vy0, vx1, vy1, s);
+      c.globalAlpha = 1;
+    }
+    if (mix <= 0) { vecMap(c, [me], vx0, vy0, vx1, vy1, s); return; }
+    c.save(); c.clip(me.p);
+    if (mix < 1) { c.globalAlpha = 1 - mix; vecMap(c, [me], vx0, vy0, vx1, vy1, s, false); }
+    c.globalAlpha = mix; paintTiles(c, bold.T, bold.g); c.globalAlpha = 1;
+    c.restore();
+    c.strokeStyle = '#fff'; c.lineWidth = 2.6 / s; c.lineJoin = 'round'; c.stroke(me.p);
+  }
+
+  // Fetch a state's page as soon as the pointer is on it, so the hand-off doesn't wait on the network;
+  // the first hover also prepares the zoom's snapshot.
+  const fetched = new Set<string>();
+  function prefetch(href: string) {
+    if (!fetched.size) setTimeout(hiRes, 0);
+    if (fetched.has(href)) return;
+    fetched.add(href);
+    const l = document.createElement('link');
+    l.rel = 'prefetch'; l.href = href;
+    document.head.append(l);
+  }
+
+  // Zoom through, part one: the camera flies into the pressed state until it fills the window, the other
+  // states fading away as it closes in. The state's page picks up from that exact frame (handed over in
+  // sessionStorage) and flies back out into its header outline.
+  let picking = false, overlay: HTMLCanvasElement | null = null;
+  function pick(e: Event, me: Item) {
+    if (still || !wide.matches || !me.T || !BOLD[me.id]) return;
+    e.preventDefault();
+    if (picking) return;
+    picking = true;
+    hl.classList.remove('show');
+    const ov = (overlay = document.createElement('canvas'));
+    ov.className = 'zoom-ov';
+    document.body.append(ov);
+    const dpr = Math.min(2, devicePixelRatio || 1), VW = innerWidth, VH = innerHeight;
+    ov.width = VW * dpr; ov.height = VH * dpr;
+    const c = ov.getContext('2d')!;
+    const r = box.getBoundingClientRect(), s0 = r.width / W, [[x0, y0], [x1, y1]] = me.b, cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+    const s1 = 1.25 * Math.max(VW / (x1 - x0), VH / (y1 - y0)), D1 = 1400, t0 = performance.now();
+    // Start exactly where the map is drawn on the page, so nothing jumps when the overlay takes over.
+    const sx0 = r.left + cx * s0, sy0 = r.top + cy * s0;
+    const at = (k: number): [number, number, number] => {
+      const s = s0 * Math.pow(s1 / s0, k);
+      return [s, (1 - k) * sx0 + (k * VW) / 2 - cx * s, (1 - k) * sy0 + (k * VH) / 2 - cy * s];
+    };
+    const smooth = (u: number) => { const v = Math.min(1, Math.max(0, u)); return v * v * (3 - 2 * v); };
+    const fade = (k: number) => smooth((k - 0.12) / 0.5);
+    // Mid-flight the state's fine map tiles dissolve into its header outline's bold ones.
+    const mixAt = (k: number) => smooth((k - 0.32) / 0.22);
+    const bd = BOLD[me.id], bold = { g: bd.g, T: [] as Tile[] };
+    for (let i = 0; i < bd.t.length; i += 4) bold.T.push([bd.t[i], bd.t[i + 1], bd.t[i + 2], PAL[bd.t[i + 3]]]);
+    const wash = (k: number) => smooth((k - 0.55) / 0.35);
+    box.style.visibility = 'hidden';
+    const frame = (now: number) => {
+      const t = Math.min(1, (now - t0) / D1), k = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2, [s, px, py] = at(k);
+      c.setTransform(1, 0, 0, 1, 0, 0); c.clearRect(0, 0, ov.width, ov.height);
+      c.fillStyle = `rgba(255,255,255,${Math.max(wash(k), fade(k))})`; c.fillRect(0, 0, ov.width, ov.height);
+      drawMap(c, s, px, py, VW, VH, dpr, s0, me, 1 - fade(k), bold, mixAt(k));
+      if (t < 1) { requestAnimationFrame(frame); return; }
+      // Hand over the final frame: the state with its bold tiles, the camera, and the outline's frame.
+      try {
+        sessionStorage.setItem('edictai-zoom', JSON.stringify({ items: [{ d: me.d, b: me.b, me: true, T: bold.T, g: bold.g }], b: me.b, ob: bd.ob, k: 1.25 }));
+      } catch { /* storage unavailable: the page simply loads without the zoom out */ }
+      location.href = me.a.getAttribute('href')! + '#from-map';
+    };
+    requestAnimationFrame(frame);
+  }
+  // Coming back with the browser's back button restores the page as it was left.
+  addEventListener('pageshow', () => {
+    picking = false; overlay?.remove(); overlay = null; box.style.visibility = ''; hl.classList.remove('show');
+  });
+
+  for (const it of ALL) {
+    const { a } = it, p = a.querySelector('path')!, c = byId.get(it.id)!;
+    const on = () => {
+      prefetch(a.getAttribute('href')!);
+      document.querySelectorAll('#map-g .on').forEach((x) => x.classList.remove('on'));
+      p.classList.add('on');
+      hl.setAttribute('d', it.d);
+      hl.classList.toggle('show', a.matches(':focus-visible'));
+      card(c, { d: it.d, b: it.b.flat(), fill: c.total ? (it.T ? PAL[+a.dataset.colour!] : '#f3f3f1') : '#f3f3f1' });
+    };
+    const off = () => { if (picking) return; p.classList.remove('on'); hl.classList.remove('show'); card(null); };
+    a.addEventListener('mouseenter', on); a.addEventListener('focus', on);
+    a.addEventListener('mouseleave', off); a.addEventListener('blur', off);
+    a.addEventListener('click', (e) => pick(e, it));
+  }
+  for (const a of document.querySelectorAll<HTMLAnchorElement>('.map-extra a')) {
+    const c = byId.get(a.dataset.j!)!;
+    a.addEventListener('mouseenter', () => card(c)); a.addEventListener('focus', () => card(c));
+    a.addEventListener('mouseleave', () => card(null)); a.addEventListener('blur', () => card(null));
+  }
+
+  // The card's tallest content depends on the column's width, so it's re-measured on resize.
+  const refit = () => { CARDMAX = 0; fit(); };
+  paint();
+  fit();
+  addEventListener('resize', refit);
+  wide.addEventListener('change', refit);
+  document.fonts?.ready.then(refit);
+</script>

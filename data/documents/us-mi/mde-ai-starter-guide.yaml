@@ -1,0 +1,42 @@
+id: us-mi-mde-ai-starter-guide
+jurisdiction: us-mi
+issuer: us-mi-k12-agency
+title: Artificial Intelligence (AI) Starter Guide for Districts
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - student-privacy
+  - academic-integrity
+  - ai-literacy
+  - procurement
+summary: >-
+  A short Michigan Department of Education guide for districts with limited capacity, listing
+  essential practices for safe and equitable AI use: purposeful use, privacy and academic
+  integrity, AI literacy, and human oversight. It offers a starter checklist, such as adding AI
+  language to acceptable use policies, setting disclosure norms, and adding vendor AI clauses to
+  procurement templates.
+undated: true
+related:
+  - us-mi-mde-ai-comprehensive-guide
+sources:
+  - url: https://www.michigan.gov/mde/-/media/Project/Websites/mde/Educational-Technology/Artificial-Intelligence-AI-Starter-Guide-for-Districts.pdf
+    title: Artificial Intelligence (AI) Starter Guide for Districts
+    publisher: Michigan Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20261017225212/https://www.michigan.gov/mde/-/media/Project/Websites/mde/Educational-Technology/Artificial-Intelligence-AI-Starter-Guide-for-Districts.pdf
+  - url: https://www.michigan.gov/mde/services/academic-standards/educational-technology/artificial-intelligence
+    title: Artificial Intelligence
+    publisher: Michigan Department of Education
+    kind: official
+    accessed: "2026-10-17"
+    archived_url: https://web.archive.org/web/20260922043154/https://www.michigan.gov/mde/services/academic-standards/educational-technology/artificial-intelligence
+verification:
+  status: unverified
+  notes: >-
+    Content checked against the PDF on 2026-10-17. The guide is undated, so no date is recorded; PDF metadata (created April 2026) and
+    the department's AI guidance webinars held May-June 2026 place it in 2026.

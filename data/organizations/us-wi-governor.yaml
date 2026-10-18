@@ -1,0 +1,8 @@
+id: us-wi-governor
+name: Office of the Governor of Wisconsin
+classification: governor
+jurisdiction: us-wi
+education_levels:
+  - k12
+  - postsecondary
+url: https://evers.wi.gov/

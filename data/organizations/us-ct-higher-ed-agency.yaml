@@ -1,0 +1,8 @@
+id: us-ct-higher-ed-agency
+name: Connecticut Office of Higher Education
+abbreviation: OHE
+classification: higher-ed-agency
+jurisdiction: us-ct
+education_levels:
+  - postsecondary
+url: https://portal.ct.gov/ohe

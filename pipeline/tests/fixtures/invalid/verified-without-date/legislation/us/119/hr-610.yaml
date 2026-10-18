@@ -1,0 +1,23 @@
+id: us-119-hr-610
+jurisdiction: us
+session: "119"
+identifier: H.R. 610
+title: An example federal education bill
+classification: bill
+education_levels: [k12]
+topics: [ai-literacy]
+summary: Would direct the Department of Education to study AI literacy.
+actions:
+  - date: 2025-01-22
+    description: Introduced in House
+    actor: lower
+    classification: [introduction, referral-committee]
+external_ids:
+  congress_gov: 119/hr/610
+sources:
+  - url: https://example.org/congress/hr610
+    kind: official
+    accessed: 2026-08-30
+verification:
+  status: machine-verified
+

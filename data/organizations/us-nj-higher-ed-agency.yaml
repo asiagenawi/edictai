@@ -1,0 +1,8 @@
+id: us-nj-higher-ed-agency
+name: New Jersey Office of the Secretary of Higher Education
+abbreviation: OSHE
+classification: higher-ed-agency
+jurisdiction: us-nj
+education_levels:
+  - postsecondary
+url: https://www.nj.gov/highereducation/

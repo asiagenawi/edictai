@@ -1,0 +1,8 @@
+id: us-pa-passhe
+name: Pennsylvania State System of Higher Education
+abbreviation: PASSHE
+classification: university-system
+jurisdiction: us-pa
+education_levels:
+  - postsecondary
+url: https://www.passhe.edu/

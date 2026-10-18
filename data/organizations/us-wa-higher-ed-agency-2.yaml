@@ -1,0 +1,11 @@
+id: us-wa-higher-ed-agency-2
+name: Washington State Board for Community and Technical Colleges
+abbreviation: SBCTC
+classification: higher-ed-agency
+jurisdiction: us-wa
+education_levels:
+  - postsecondary
+url: https://www.sbctc.edu/
+watch_urls:
+  - https://www.sbctc.edu/about/task-forces-work-groups/stac/ai-taskforce/default.aspx
+  - https://www.sbctc.edu/colleges-staff/programs-services/student-success-center/faculty-development-ensured-learning/faculty-guide-ai.aspx
