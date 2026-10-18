@@ -217,11 +217,17 @@ function lede(state: State, list: PolicyRecord[]): string {
   return `${cap(word(n))} ${n === 1 ? 'record' : 'records'} on artificial intelligence in ${where}: ${listJoin(parts)}.`;
 }
 
+/** Register rows for any list of records, newest first (the state pages and Bills & policies share them). */
+export function registerRows(list: PolicyRecord[]): Row[] {
+  const orgs = new Map(organizations().map((o) => [o.id, o]));
+  return list.map((r) => row(r, orgs)).sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || a.title.localeCompare(b.title));
+}
+
 export function statePage(state: State) {
   const list = recordsFor(state.id);
   const orgList = organizations();
   const orgs = new Map(orgList.map((o) => [o.id, o]));
-  const rows = list.map((r) => row(r, orgs)).sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || a.title.localeCompare(b.title));
+  const rows = registerRows(list);
 
   const years = [...new Set(rows.map((r) => r.year))];
   const groups = years.map((year) => ({ year, rows: rows.filter((r) => r.year === year) }));

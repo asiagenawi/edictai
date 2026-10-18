@@ -1,5 +1,5 @@
-/** Flat per-record rows for a jurisdiction's CSV and JSON downloads. */
-import { provisionTypes, recordsFor, url, type State } from './data';
+/** Flat per-record rows for the CSV and JSON downloads (a jurisdiction's, or every record's). */
+import { provisionTypes, recordsFor, url, type PolicyRecord, type State } from './data';
 
 export const EXPORT_COLUMNS = [
   'id', 'record_type', 'classification', 'identifier', 'title', 'status', 'date', 'issuer',
@@ -8,8 +8,13 @@ export const EXPORT_COLUMNS = [
 export type ExportRow = Record<(typeof EXPORT_COLUMNS)[number], string>;
 
 export function exportRows(state: State, site: URL | undefined): ExportRow[] {
+  return exportRecords(recordsFor(state.id), site);
+}
+
+/** The same rows for any list of records (Bills & policies exports every record). */
+export function exportRecords(list: PolicyRecord[], site: URL | undefined): ExportRow[] {
   const known = new Set(provisionTypes().map((p) => p.code));
-  return recordsFor(state.id).map((r) => ({
+  return list.map((r) => ({
     id: r.id,
     record_type: r.type,
     classification: r.classification,

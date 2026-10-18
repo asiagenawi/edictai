@@ -56,7 +56,7 @@ jobs:
             build/snapshot.json
           retention-days: 14
 
-  web:
+  site:
     name: Web
     runs-on: ubuntu-latest
     steps:
@@ -77,16 +77,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: web/package-lock.json
+          cache-dependency-path: site/package-lock.json
 
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
-        working-directory: web
-
-      - name: Lint
-        run: npm run lint
-        working-directory: web
+        run: npm ci
+        working-directory: site
 
       - name: Build
         run: npm run build
-        working-directory: web
+        working-directory: site

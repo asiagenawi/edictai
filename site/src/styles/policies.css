@@ -1,0 +1,88 @@
+/*
+ * Bills & policies: the state page's register and rail (state.css), with a
+ * plain title block, dropdown filters, month stops on the timeline, and a
+ * small display-only map under the jurisdiction dropdown.
+ */
+
+/* title, with the page actions stacked at the far right like the state pages */
+.pp .ihead{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:12px 0 30px}
+.pp .ihead>div:first-child{max-width:780px;min-width:0}
+.pp .ihead h1{margin:0;font-family:var(--serif);font-weight:500;font-size:44px;letter-spacing:-.01em;line-height:1.05}
+.pp .ihead .lede{margin:12px 0 0;font-size:18px;line-height:1.5}
+.pp .ihead .actions{flex-direction:column;align-items:stretch;gap:8px;width:168px;flex:none}
+.pp .ihead .actions .btn{justify-content:center}
+
+/* the rail is short; it stays in the page's flow so the page scrolls as one */
+.pp .rail{position:static;min-height:0;align-self:stretch}
+.pp .fg .dd{margin-top:2px}
+
+/* every filter is a dropdown; what's chosen is listed under it */
+.dd{appearance:none;-webkit-appearance:none;width:100%;height:30px;padding:0 18px 0 2px;border:0;border-bottom:1px solid var(--ink-3);border-radius:0;
+  background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='6'%3E%3Cpath d='M0 0l4.5 6L9 0z' fill='%2316171a'/%3E%3C/svg%3E") no-repeat right 2px center;
+  font-size:13.5px;color:var(--ink);cursor:pointer;text-overflow:ellipsis}
+.dd:focus{outline:none;border-color:var(--ink)}
+.dd:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.jlist{list-style:none;margin:6px 0 0;padding:0;display:grid}
+.jlist:empty{display:none}
+.jlist li{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:4px 0;font-size:13.5px;border-bottom:1px solid var(--hair)}
+.jlist li span{min-width:0;overflow-wrap:anywhere}
+.jlist button{flex:none;font-size:12.5px;color:var(--ink-2);cursor:pointer}
+.jlist button:hover{color:var(--red)}
+
+/* the map only shows the chosen jurisdictions; it is not a control */
+.mini{display:block;width:100%;height:auto;margin:10px 0 4px}
+.mini path{fill:#d9d8d3;stroke:#fff;stroke-width:.8px;vector-effect:non-scaling-stroke;stroke-linejoin:round;transition:fill .2s}
+.mini path.dim{fill:#e4e3df}
+.mini path.on{fill:var(--c)}
+.mini path.none{fill:var(--hair)}
+
+/* register: jurisdiction tag before the identifier; one line under the title */
+.reg-row .ju{display:inline-block;margin-right:8px;padding:0 6px;border-radius:3px;background:var(--hair);font-size:11.5px;font-weight:500;line-height:18px;letter-spacing:.02em;color:var(--ink)}
+.pp .reg-row .ti small{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+
+/* month stops sit on the year's timeline */
+.mo{display:grid;grid-template-columns:52px 18px minmax(0,1fr);gap:0 14px;padding:14px 0 2px;font-family:var(--serif);font-style:italic;font-size:15px;color:var(--ink-2)}
+.mo .gl{position:relative;align-self:stretch}
+.mo .gl::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--rule)}
+.mo.first{padding-top:6px}
+.mo.first .gl::before{top:12px}
+
+/* detail */
+.pp .reg-det .det{grid-template-columns:minmax(0,1fr) 240px;gap:28px}
+.pp .reg-det .det p{margin:0 0 10px;font-size:16px;line-height:1.55;max-width:64ch}
+.pp .reg-det h4{margin:12px 0 6px}
+.pp .reg-det ul.pvl{display:block;margin:0;padding-left:18px;list-style:disc}
+.pp .reg-det ul.pvl li{display:list-item;font-size:13.5px;line-height:1.7}
+.pp .reg-det .kv dd,.pp .reg-det .kv dd:first-of-type{font-family:var(--sans);font-size:13px}
+.pp .reg-det .det p.links{display:grid;gap:6px;margin:12px 0 0;font-family:var(--sans);font-size:13px;line-height:1.45}
+.pp .reg-det .links a{justify-self:start;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule);overflow-wrap:anywhere}
+.pp .reg-det .links a:hover{border-color:var(--red)}
+
+.pp .more{margin:22px 0 0}
+
+@media (max-width:760px){
+  .pp .ihead{flex-wrap:wrap;gap:20px}
+  .pp .ihead h1{font-size:34px}
+  .pp .ihead .lede{font-size:15.5px}
+  .pp .ihead .actions{flex-direction:row;width:auto}
+  .pp .rail .fg[data-f="j"]{grid-column:1/-1}
+  .pp .mini{max-width:320px}
+  .pp .reg-det .det{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:700px){
+  .mo{grid-template-columns:44px 14px minmax(0,1fr)}
+}
+
+/* a select is as wide as its longest option; keep every filter inside its column */
+.pp .rail,.pp .fg{min-width:0}
+.pp .dd{min-width:0;max-width:100%}
+
+/* no fade-in: that is for arriving through the States map's zoom */
+body.sp.pp{animation:none}
+
+/* provisions across jurisdictions: one neutral dot, since a jurisdiction's records mix kinds */
+.pp .matrix .mdot{background:var(--ink)}
+.pp .matrix td.pt{max-width:200px}
+.pp .matrix td.pt a{text-decoration:none}
+.pp .matrix td.pt a:hover{text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px}
+.pp .matrix th:last-child,.pp .matrix td:last-child{padding-left:0}

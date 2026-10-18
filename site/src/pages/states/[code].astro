@@ -104,6 +104,14 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
       </div>
     </div>
 
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-p="records">Records</button>
+      <button role="tab" aria-selected="false" data-p="provisions">Provisions</button>
+      <button role="tab" aria-selected="false" data-p="activity">Activity log</button>
+      <button role="tab" aria-selected="false" data-p="issuers">Issuers</button>
+      <button role="tab" aria-selected="false" data-p="about">About</button>
+    </div>
+
     <div class="body">
       <nav class="rail" aria-label="Filter records">
         <div class="fg"><h3>Search</h3><input id="f-q" type="search" placeholder="Title, ID or topic" aria-label="Search records" /></div>
@@ -120,14 +128,6 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
       </nav>
 
       <main>
-        <div class="tabs" role="tablist">
-          <button role="tab" aria-selected="true" data-p="records">Records</button>
-          <button role="tab" aria-selected="false" data-p="provisions">Provisions</button>
-          <button role="tab" aria-selected="false" data-p="activity">Activity log</button>
-          <button role="tab" aria-selected="false" data-p="issuers">Issuers</button>
-          <button role="tab" aria-selected="false" data-p="about">About</button>
-        </div>
-
         <section class="panel" id="p-records" role="tabpanel">
           <div id="reg">
             {page.groups.map((g, gi) => (
@@ -382,10 +382,17 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
 
   $('#copy')?.addEventListener('click', () => {
     const text = $('#cite')!.textContent ?? '';
-    navigator.clipboard?.writeText(text).then(
-      () => ($('#copy')!.textContent = 'Copied'),
-      () => getSelection()?.selectAllChildren($('#cite')!),
-    );
+    // Where the clipboard is refused, select the citation so it can be copied by hand.
+    const done = (label: string) => {
+      $('#copy')!.textContent = label;
+      setTimeout(() => ($('#copy')!.textContent = 'Copy'), 2000);
+    };
+    const fallback = () => {
+      getSelection()?.selectAllChildren($('#cite')!);
+      done('Selected');
+    };
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => done('Copied'), fallback);
+    else fallback();
   });
 
   refresh();
