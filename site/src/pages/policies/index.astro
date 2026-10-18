@@ -97,6 +97,7 @@ const repo = 'https://github.com/asiagenawi/statescope';
 const csvPath = url('policies/records.csv');
 ---
 <Base title="Bills & policies · Edictai" description="Legislation, executive orders, guidance and policy on artificial intelligence in American schools and colleges." bodyClass="sp pp">
+  <link slot="head" rel="alternate" type="application/atom+xml" title="Edictai: Bills & policies" href={url('feed.xml')} />
   <div class="wrap">
     <SiteHeader current="policies" />
 
@@ -107,7 +108,7 @@ const csvPath = url('policies/records.csv');
         <p class="lede">Legislation, executive orders, guidance and policy on artificial intelligence in American schools and colleges, newest first.</p>
       </div>
       <div class="actions">
-        <a class="btn" href={`${repo}/commits/master/data`}>Follow updates</a>
+        <a class="btn" href={url('follow/?f=feed.xml')}>Follow updates</a>
         <a class="btn primary" id="dl" href={csvPath} download="edictai-records.csv" title="Downloads the records that match your filters">Download CSV</a>
       </div>
     </div>

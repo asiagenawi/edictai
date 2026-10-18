@@ -1,0 +1,71 @@
+---
+/**
+ * Follow updates: the page behind every Follow updates button. It names the feed the button was
+ * pressed for (?f=feed.xml or ?f=states/<code>/feed.xml), gives its address to copy into a feed
+ * reader, and lists the latest entries read from the feed itself.
+ */
+import Base from '../../layouts/Base.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import '../../styles/state.css';
+import '../../styles/policies.css';
+---
+<Base title="Follow updates · Edictai" description="Follow new and updated AI education policy records with a feed reader." bodyClass="sp pp fw">
+  <div class="wrap">
+    <SiteHeader />
+    <nav class="crumbs" aria-label="Breadcrumb"><a id="back" href={import.meta.env.BASE_URL + 'policies/'}>Bills &amp; policies</a><span>/</span><span aria-current="page">Follow updates</span></nav>
+    <div class="ihead"><div><h1 id="h">Follow updates</h1>
+      <p class="lede">New and updated records are published as a feed. Add this address to a feed reader, such as Feedly, Inoreader or NetNewsWire.</p></div></div>
+    <div class="feed-url"><code id="u"></code><button type="button" class="btn primary" id="copy">Copy address</button></div>
+    <h2 class="fh">Latest entries</h2>
+    <ol class="fl" id="list"></ol>
+  </div>
+</Base>
+
+<script>
+  const base = import.meta.env.BASE_URL;
+  const want = new URLSearchParams(location.search).get('f') ?? 'feed.xml';
+  // Only this site's own feeds: feed.xml or states/<code>/feed.xml.
+  const path = /^(states\/[a-z]{2}\/)?feed\.xml$/.test(want) ? want : 'feed.xml';
+  const address = new URL(base + path, location.href).href;
+  const $ = (s: string) => document.querySelector<HTMLElement>(s)!;
+  $('#u').textContent = address;
+
+  const state = path.match(/^states\/([a-z]{2})\//)?.[1];
+  if (state) ($('#back') as HTMLAnchorElement).href = `${base}states/${state}/`;
+
+  $('#copy').addEventListener('click', () => {
+    const b = $('#copy');
+    const done = (t: string) => { b.textContent = t; setTimeout(() => (b.textContent = 'Copy address'), 2000); };
+    const fallback = () => { getSelection()?.selectAllChildren($('#u')); done('Selected'); };
+    if (navigator.clipboard) navigator.clipboard.writeText(address).then(() => done('Copied'), fallback);
+    else fallback();
+  });
+
+  fetch(base + path).then((r) => r.text()).then((xml) => {
+    const doc = new DOMParser().parseFromString(xml, 'application/xml');
+    const title = doc.querySelector('feed > title')?.textContent?.replace(/^Edictai: /, '');
+    if (title) { $('#h').textContent = `Follow updates: ${title}`; ($('#back') as HTMLAnchorElement).textContent = title; }
+    const list = $('#list');
+    for (const e of [...doc.querySelectorAll('entry')].slice(0, 25)) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = e.querySelector('link')?.getAttribute('href')?.replace(/^https?:\/\/[^/]+/, '') ?? '#';
+      a.textContent = e.querySelector('title')?.textContent ?? '';
+      const m = document.createElement('span');
+      m.textContent = `${(e.querySelector('updated')?.textContent ?? '').slice(0, 10)} · ${e.querySelector('category')?.getAttribute('term') ?? ''}`;
+      li.append(a, m);
+      list.append(li);
+    }
+  });
+</script>
+
+<style is:global>
+  .fw .feed-url{display:flex;align-items:center;gap:14px;max-width:760px;padding:12px 14px;border:1px solid var(--rule);border-radius:3px}
+  .fw .feed-url code{flex:1;min-width:0;font-family:var(--mono);font-size:13px;overflow-wrap:anywhere}
+  .fw .fh{margin:40px 0 10px;font-family:var(--serif);font-style:italic;font-weight:400;font-size:18px}
+  .fw .fl{list-style:none;margin:0 0 90px;padding:0;max-width:760px;border-top:1px solid var(--rule)}
+  .fw .fl li{display:grid;gap:2px;padding:12px 0;border-bottom:1px solid var(--hair)}
+  .fw .fl a{font-weight:500;text-decoration:none;color:var(--ink)}
+  .fw .fl a:hover{text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px}
+  .fw .fl span{font-size:13px;color:var(--ink-2)}
+</style>

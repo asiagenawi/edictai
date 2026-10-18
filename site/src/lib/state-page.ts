@@ -36,7 +36,7 @@ const TYPE_LABELS: Record<string, string> = {
   memorandum: 'Memorandum',
 };
 
-const STATUS_LABELS: Record<string, string> = {
+export const STATUS_LABELS: Record<string, string> = {
   introduced: 'Introduced',
   'in-committee': 'In committee',
   'passed-chamber': 'Passed one chamber',

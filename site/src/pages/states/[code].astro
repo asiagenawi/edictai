@@ -41,6 +41,7 @@ const withProvisions = page.rows.filter((r) => r.provisions.length);
 const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id, ident: r.ident ?? r.title }))).sort((a, b) => b.date.localeCompare(a.date));
 ---
 <Base title={`${state.name} · Edictai`} description={page.lede} bodyClass="sp">
+  <link slot="head" rel="alternate" type="application/atom+xml" title={`Edictai: ${state.name}`} href={url(`states/${state.code}/feed.xml`)} />
   <script is:inline>
     /* Arriving from the States map: draw the map's last frame (this state filling the window) before anything
        else paints, so the zoom carries straight on from the previous page. The rest happens in the page script. */
@@ -99,7 +100,7 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
         </div>
       </div>
       <div class="actions">
-        <a class="btn" href={`${repo}/commits/master/data`}>Follow updates</a>
+        <a class="btn" href={url(`follow/?f=states/${state.code}/feed.xml`)}>Follow updates</a>
         <a class="btn primary" href={csvPath} download>Download CSV</a>
       </div>
     </div>
