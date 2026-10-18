@@ -1,6 +1,7 @@
 ---
 import '../styles/tokens.css';
 import '../styles/base.css';
+import AskPanel from '../components/AskPanel.astro';
 import { url } from '../lib/data';
 
 interface Props { title: string; description?: string; bodyClass?: string }
@@ -21,5 +22,6 @@ const { title, description = "An open record of AI policy in America's schools a
 </head>
 <body class={bodyClass}>
   <slot />
+  <AskPanel />
 </body>
 </html>

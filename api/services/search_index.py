@@ -107,7 +107,8 @@ class SearchIndex:
                 summary TEXT,
                 source_url TEXT,
                 num_id INTEGER,
-                verification_status TEXT
+                verification_status TEXT,
+                publisher TEXT
             );
             CREATE TABLE meta_levels (record_id TEXT, level TEXT, PRIMARY KEY (record_id, level));
             CREATE TABLE meta_topics (record_id TEXT, topic TEXT, PRIMARY KEY (record_id, topic));
@@ -141,11 +142,11 @@ class SearchIndex:
             rid = r['id']
             ident = r['identifier'] or ''
             self.conn.execute(
-                'INSERT INTO meta VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+                'INSERT INTO meta VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
                 (rid, r['record_type'], r['jurisdiction'], r['identifier'], r['title'],
                  r['classification'], r['status'], r['is_current'], r['date'],
                  activity.get(rid) or r['date'], r['summary'], r['source_url'], r['num_id'],
-                 r['verification_status']),
+                 r['verification_status'], r['issuer_name']),
             )
             jname = self.jurisdictions.get(r['jurisdiction'], {}).get('name', '')
             body = ' '.join(
@@ -184,10 +185,10 @@ class SearchIndex:
         ''').fetchall()
         for r in rows:
             self.conn.execute(
-                'INSERT INTO meta VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+                'INSERT INTO meta VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
                 (r['id'], 'research', None, None, r['title'], r['classification'], None, None,
                  r['published'], r['published'], r['summary'], r['source_url'], r['num_id'],
-                 r['verification_status']),
+                 r['verification_status'], r['publisher']),
             )
             body = ' '.join([r['publisher'] or '', r['methods'] or ''] + findings.get(r['id'], []))
             self.conn.execute(
@@ -245,6 +246,7 @@ class SearchIndex:
             'summary': summary,
             'source_url': row['source_url'],
             'num_id': row['num_id'],
+            'publisher': row['publisher'],
         }
 
     def exists(self, record_id):

@@ -33,3 +33,7 @@ Thumbs.db
 
 # Downloaded API responses (statescope ingest)
 .cache/
+
+# Ask API local state (daily budget counter, anonymous leads)
+api/.ask-budget.sqlite*
+api/leads.jsonl

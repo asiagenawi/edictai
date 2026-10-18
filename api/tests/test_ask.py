@@ -27,6 +27,7 @@ def test_valid_citation_is_kept_and_rendered(app_client, claude):
     res = ask(app_client)
     assert res.status_code == 200
     body = res.get_json()
+    assert body['kind'] == 'records'
     assert body['records_layer']['citations'] == [AB]
     assert f'[[{AB}]]' in body['records_layer']['text']
     assert body['records'][AB]['verification'] == 'unverified'
@@ -111,7 +112,7 @@ def test_unsupported_bill_number_falls_back_to_record_list(app_client, claude):
     claude([search_ab(), final(text, [AB]), final(text, [AB])])
     body = ask(app_client).get_json()
     assert 'SB 777' not in body['records_layer']['text']
-    assert body['records_layer']['text'].startswith('Here are the Edictai records that matched')
+    assert body['records_layer']['text'].startswith("Here's what I found in Edictai's records")
     assert AB in body['records_layer']['citations']
 
 
@@ -128,32 +129,132 @@ def test_answer_without_tool_use_is_sent_back(app_client, claude):
 
 # -- no match ---------------------------------------------------------------
 
-def test_no_match_says_no_record_first(app_client, claude):
+NO_TX = ("I couldn't find anything on facial recognition in Texas schools in Edictai's records. "
+         'Want me to look at other states?')
+
+
+def test_no_match_is_a_plain_sentence_then_general_knowledge(app_client, claude):
     claude([
         tool_turn(tool_use('search_records', {'query': 'facial recognition', 'jurisdiction': 'TX'})),
-        final('Texas passed a facial recognition ban in 2023.', [], no_record_subject='Texas facial recognition rules',
+        final(NO_TX, [],
               general_knowledge={'text': 'Some states have debated facial recognition limits.', 'mentioned_policies': []}),
     ])
     body = ask(app_client, 'Does Texas ban facial recognition in schools?').get_json()
+    assert body['kind'] == 'records'
     assert body['no_match'] is True
-    assert body['records_layer']['text'] == 'Edictai has no record of Texas facial recognition rules.'
+    assert body['records_layer']['text'] == NO_TX
+    assert 'has no record of' not in body['records_layer']['text']
     assert body['records_layer']['citations'] == []
     assert body['suggest_url']
     assert body['searched'] == ['Searching Texas records…']
     # General knowledge follows, separate and labelled.
     assert body['general_knowledge']['verified'] is False
-    assert 'not verified by Edictai' in body['general_knowledge']['label']
+    assert body['general_knowledge']['label'] == 'From general knowledge, not Edictai\u2019s records'
     md = body['answer']
-    assert md.index('Edictai has no record of') < md.index('general knowledge')
+    assert md.index("couldn't find") < md.index('From general knowledge')
+    assert 'data as of' not in md
 
 
-def test_no_match_keeps_model_statement_but_nothing_after(app_client, claude):
+def test_no_match_keeps_first_paragraph_only(app_client, claude):
     claude([
         tool_turn(tool_use('search_records', {'query': 'drones'})),
-        final('Edictai has no record of drone policies.\n\nBut Ohio has rules.', []),
+        final("I didn't find drone rules in Edictai's records.\n\nBut Ohio has rules.", []),
     ])
     body = ask(app_client, 'drone rules?').get_json()
-    assert body['records_layer']['text'] == 'Edictai has no record of drone policies.'
+    assert body['records_layer']['text'] == "I didn't find drone rules in Edictai's records."
+
+
+def test_no_match_with_unsupported_bill_number_uses_plain_default(app_client, claude):
+    text = 'Nothing in the records, though Ohio HB 96 may cover drones.'
+    claude([tool_turn(tool_use('search_records', {'query': 'drones'})), final(text, []), final(text, [])])
+    body = ask(app_client, 'drone rules?').get_json()
+    assert 'HB 96' not in body['records_layer']['text']
+    assert body['records_layer']['text'].startswith("I couldn't find anything on that")
+
+
+# -- conversation (small talk and off-topic) ---------------------------------
+
+def test_small_talk_needs_no_tools_and_has_no_records(app_client, claude):
+    client = claude([final('Hi! What are you looking into today?', kind='conversation')])
+    body = ask(app_client, 'hi').get_json()
+    assert len(client.calls) == 1  # no correction round for skipping tools
+    assert body['kind'] == 'conversation'
+    assert body['records_layer'] == {'text': 'Hi! What are you looking into today?', 'citations': []}
+    assert body['records'] == {} and body['no_match'] is False and body['follow_ups'] == []
+    assert body['general_knowledge'] is None
+    assert body['answer'] == 'Hi! What are you looking into today?'
+    # Short chatty messages run at low effort.
+    assert client.calls[0]['output_config']['effort'] == 'low'
+
+
+def test_policy_questions_keep_configured_effort(app_client, claude):
+    import config
+
+    client = claude([search_ab(), final(f'AB 1159 [[{AB}]].', [AB])])
+    ask(app_client)
+    assert client.calls[0]['output_config']['effort'] == config.ASK_EFFORT
+
+
+def test_effort_for():
+    from unittest import mock
+
+    import config
+    from services import ask_agent
+
+    with mock.patch.object(ask_agent, 'get_index') as gi:
+        gi.return_value.resolve_jurisdiction.side_effect = lambda v: 'us-tx' if v == 'texas' else None
+        assert ask_agent.effort_for('hi') == 'low'
+        assert ask_agent.effort_for('i just ate') == 'low'
+        assert ask_agent.effort_for('whats the weather') == 'low'
+        assert ask_agent.effort_for('yes') == 'low'
+        assert ask_agent.effort_for('yes', history=[{'role': 'assistant', 'content': 'Want the deadlines?'}]) == config.ASK_EFFORT
+        assert ask_agent.effort_for('what about Texas?') == config.ASK_EFFORT
+        assert ask_agent.effort_for('Has Wyoming passed a law on AI in schools?') == config.ASK_EFFORT
+        assert ask_agent.effort_for('What does AB 1159 do') == config.ASK_EFFORT
+
+
+def test_conversation_reply_may_not_cite_or_name_bills(app_client, claude):
+    client = claude([
+        final(f'Sure, AB 1159 [[{AB}]] is a good one.', [AB], kind='conversation'),
+        final('Happy to help. What are you looking into?', kind='conversation'),
+    ])
+    body = ask(app_client, 'thanks').get_json()
+    assert 'must not cite records' in client.calls[1]['messages'][-1]['content']
+    assert body['records_layer']['text'] == 'Happy to help. What are you looking into?'
+
+
+def test_conversation_reply_with_bill_number_is_replaced(app_client, claude):
+    text = 'Off topic, but SB 777 is interesting.'
+    claude([final(text, kind='conversation'), final(text, kind='conversation')])
+    body = ask(app_client, 'whats the weather').get_json()
+    assert body['kind'] == 'conversation'
+    assert 'SB 777' not in body['records_layer']['text']
+    assert body['records'] == {}
+
+
+def test_conversation_drops_general_knowledge(app_client, claude):
+    claude([final("I'm not knowledgeable about the weather.", kind='conversation',
+                  general_knowledge={'text': 'It is sunny.', 'mentioned_policies': []})])
+    body = ask(app_client, 'whats the weather').get_json()
+    assert body['general_knowledge'] is None
+
+
+def test_scope_names_the_page_jurisdiction(app_client, claude):
+    client = claude([search_ab(), final(f'AB 1159 [[{AB}]].', [AB])])
+    ask(app_client, 'What laws are there?', scope={'jurisdiction': 'us-ca'})
+    first = client.calls[0]['messages'][-1]['content']
+    assert "Edictai's page for California (us-ca)" in first
+    assert first.endswith('Message: What laws are there?')
+
+
+def test_history_is_passed_as_context(app_client, claude):
+    client = claude([search_ab(), final(f'AB 1159 [[{AB}]].', [AB])])
+    history = [{'role': 'user', 'content': 'What does AB 1159 do?'},
+               {'role': 'assistant', 'content': f'It limits pupil data use [[{AB}]]. Want the dates?'}]
+    ask(app_client, 'yes', history=history)
+    msgs = client.calls[0]['messages']
+    assert [m['role'] for m in msgs] == ['user', 'assistant', 'user']
+    assert 'Earlier messages are context only' in msgs[-1]['content']
 
 
 # -- general knowledge and leads ---------------------------------------------
@@ -267,7 +368,7 @@ def test_tool_call_limit(app_client, claude, monkeypatch):
 
     monkeypatch.setattr(config, 'ASK_MAX_TOOL_CALLS', 2)
     many = tool_turn(*[tool_use('search_records', {'query': f'q{i}'}, id=f't{i}') for i in range(3)])
-    client = claude([many, final('Edictai has no record of that.', [])])
+    client = claude([many, final("I couldn't find that.", [])])
     ask(app_client)
     results = client.calls[1]['messages'][-1]['content']
     assert results[2]['is_error'] is True
@@ -287,10 +388,47 @@ def test_stream_sends_progress_then_answer(app_client, claude):
     ])
     res = app_client.post('/api/ask/stream', json={'question': QUESTION})
     events = [json.loads(line[5:]) for line in res.get_data(as_text=True).split('\n') if line.startswith('data:')]
-    assert events[0] == {'progress': 'Opening AB 1159…', 'tool': 'get_record'}
+    assert events[0] == {'started': True}
+    assert events[1] == {'progress': 'Opening AB 1159…', 'tool': 'get_record'}
     kinds = [next(iter(e)) for e in events]
     assert kinds.index('answer') > kinds.index('progress')
     assert kinds[-1] == 'done'
     answer = next(e['answer'] for e in events if 'answer' in e)
     assert answer['records_layer']['citations'] == [AB]
     assert any('text' in e and 'AB 1159' in e['text'] for e in events)
+
+
+def test_stream_error_is_plain(app_client, claude):
+    def boom(kwargs):
+        raise RuntimeError('x')
+
+    claude([boom])
+    res = app_client.post('/api/ask/stream', json={'question': QUESTION})
+    events = [json.loads(line[5:]) for line in res.get_data(as_text=True).split('\n') if line.startswith('data:')]
+    assert events[0] == {'started': True}
+    assert 'error' in events[1] and events[-1] == {'done': True}
+
+
+def test_health_reports_record_counts(app_client):
+    body = app_client.get('/api/health').get_json()
+    assert body['status'] == 'ok'
+    assert body['records'] == {'legislation': 2, 'document': 1, 'executive-action': 1}
+
+
+def test_thinking_between_tools_by_default(app_client, claude):
+    client = claude([search_ab(), final(f'AB 1159 [[{AB}]].', [AB])])
+    ask(app_client)
+    assert client.calls[0]['thinking'] == {'type': 'between_tools'}
+
+
+def test_repeated_identical_call_is_not_rerun(app_client, claude):
+    same = {'id': AB}
+    client = claude([
+        tool_turn(tool_use('get_record', same, id='a')),
+        tool_turn(tool_use('get_record', same, id='b')),
+        final(f'AB 1159 [[{AB}]].', [AB]),
+    ])
+    body = ask(app_client).get_json()
+    second = client.calls[2]['messages'][-1]['content'][0]
+    assert second['tool_use_id'] == 'b' and 'Same call as before' in second['content']
+    assert body['records_layer']['citations'] == [AB]

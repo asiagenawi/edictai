@@ -23,6 +23,9 @@ CONGRESS_API_KEY = os.getenv('CONGRESS_API_KEY', '')
 # Model for the tool-use loop. Effort trades answer depth against latency.
 ASK_MODEL = os.getenv('ASK_MODEL', 'claude-sonnet-5-5')
 ASK_EFFORT = os.getenv('ASK_EFFORT', 'medium')
+# 'between_tools' (thinking only between tool calls; fastest), 'adaptive', or
+# 'default' to send no thinking setting. between_tools needs effort high or lower.
+ASK_THINKING = os.getenv('ASK_THINKING', 'between_tools')
 # 'default' lets the API rerun a declined request on a substitute model;
 # 'off' disables that (required when pointing ASK_MODEL at a model without it).
 ASK_FALLBACKS = os.getenv('ASK_FALLBACKS', 'default')

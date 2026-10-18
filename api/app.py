@@ -38,9 +38,14 @@ app.register_blueprint(ask_bp)
 @app.route('/api/health')
 def health():
     db = get_db()
-    count = db.execute('SELECT COUNT(*) FROM v_policies_legacy').fetchone()[0]
-    db.close()
-    return {'status': 'ok', 'policy_count': count}
+    try:
+        count = db.execute('SELECT COUNT(*) FROM v_policies_legacy').fetchone()[0]
+        records = dict(db.execute(
+            "SELECT record_type, COUNT(*) FROM records WHERE record_type IN "
+            "('legislation', 'document', 'executive-action', 'research') GROUP BY record_type").fetchall())
+    finally:
+        db.close()
+    return {'status': 'ok', 'policy_count': count, 'records': records}
 
 
 if __name__ == '__main__':

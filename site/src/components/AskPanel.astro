@@ -1,0 +1,164 @@
+---
+/**
+ * Ask Edictai: a side panel that opens from the Ask button in the site header
+ * on every page. Questions go to the Ask API (PUBLIC_ASK_API, the Flask
+ * service in api/), which answers from Edictai's records and cites each one;
+ * cited records show as chips linking to their place on the site.
+ *
+ * The conversation lives only in this browser tab (sessionStorage). Nothing is
+ * sent anywhere except the question, a few earlier messages for context, and,
+ * on a state page, that state as the scope.
+ */
+import FormDialog from './FormDialog.astro';
+
+const API = (import.meta.env.PUBLIC_ASK_API || 'https://statescope-1.onrender.com').replace(/\/+$/, '');
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+// On a state page the question is scoped to that state (no chip is shown for it).
+const m = Astro.url.pathname.slice(base.length - 1).match(/^\/states\/([a-z]{2})\//);
+const jurisdiction = m ? (m[1] === 'us' ? 'us' : `us-${m[1]}`) : '';
+const MARK = '<svg viewBox="0 0 48 48" aria-hidden="true"><defs><clipPath id="amk"><rect x="2" y="2" width="44" height="44" rx="5"/></clipPath></defs><g clip-path="url(#amk)"><rect x="2" y="2" width="44" height="44" fill="var(--yellow)"/><rect x="16" y="2" width="14" height="14" fill="var(--blue)"/><path d="M38 2l8 8-8 8-8-8z" fill="var(--green)"/><path d="M2 30a14 14 0 0 1 14-14v14z" fill="var(--sky)"/><circle cx="24" cy="24" r="7" fill="var(--pink)"/><rect x="31" y="17" width="15" height="15" fill="var(--graphite)"/><circle cx="24" cy="39" r="7" fill="var(--blue)"/><rect x="2" y="31" width="15" height="15" fill="var(--mint)"/><rect x="2" y="2" width="15" height="15" fill="var(--mint)"/><g transform="rotate(-45 9.5 9.5)"><path d="M1.5 9.5l3-1.8v3.6z" fill="var(--wood)"/><rect x="4.5" y="7.7" width="9" height="3.6" fill="var(--red)"/><rect x="14.9" y="7.7" width="2.4" height="3.6" rx=".8" fill="var(--pink)"/></g><rect x="31" y="31" width="15" height="15" fill="var(--sky)"/><rect x="33.2" y="33.6" width="10.6" height="7" rx=".6" fill="var(--graphite)"/><rect x="34.2" y="34.6" width="8.6" height="5" fill="var(--blue)"/></g><text font-family="Pinyon Script, Snell Roundhand, cursive" x="24" y="37" text-anchor="middle" font-size="36" fill="#fff">E</text></svg>';
+---
+<script is:inline>
+  // Reopen without a slide when the visitor moves to another page with the panel open.
+  try {
+    if (sessionStorage.getItem('edictai-ask-open') === '1') document.documentElement.classList.add('ask-open', 'ask-instant');
+  } catch {}
+</script>
+<aside class="askp" id="askp" role="dialog" aria-modal="false" aria-label="Ask Edictai" aria-hidden="true"
+  data-api={API} data-base={base} data-jurisdiction={jurisdiction}>
+  <div class="ap-rib" aria-hidden="true"></div>
+  <div class="ap-h">
+    <div class="ap-t"><h2><span class="ap-mark" set:html={MARK} />Ask Edictai</h2><button type="button" class="ap-x" aria-label="Close">×</button></div>
+    <p>Answers come from Edictai’s records, with every fact linked to its source.</p>
+  </div>
+  <div class="ap-body" role="log" aria-live="polite"></div>
+  <form class="ap-foot">
+    <label class="ap-sr" for="ap-q">Your question</label>
+    <div class="ap-box">
+      <textarea id="ap-q" rows="1" maxlength="2000" placeholder="Ask about a bill, a state or a kind of policy"></textarea>
+      <button class="ap-send" type="submit" aria-label="Ask"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 15V5M5.5 9.5 10 5l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+    <div class="ap-tools"><button type="button" class="ap-new">New conversation</button><button type="button" class="ap-report" data-open="askfix">Report a problem</button></div>
+  </form>
+</aside>
+<FormDialog id="askfix" title="Report a problem" subject="Problem with an Ask answer" fields={[
+  { name: 'question', label: 'Question', required: true },
+  { name: 'problem', label: 'What was wrong', kind: 'textarea', required: true },
+]} />
+
+<script>
+  import { initAsk } from './ask-panel';
+  initAsk();
+</script>
+
+<style is:global>
+  /* Rules for buttons in the panel start with .askp so they outrank the data pages' `.sp button` reset. */
+  /* The Ask button sits at the right end of the site header. */
+  header.top .ask-btn{margin-left:auto;display:inline-flex;align-items:center;gap:7px;height:32px;padding:0 14px 0 11px;border:1px solid var(--ink);border-radius:16px;background:var(--paper);font:400 13.5px/1 var(--sans,"DM Sans","Helvetica Neue",Arial,sans-serif);color:var(--ink);cursor:pointer;flex:none;transition:background .15s,color .15s}
+  .ask-btn svg{width:16px;height:16px}
+  header.top .ask-btn:hover,header.top .ask-btn[aria-expanded="true"]{background:var(--ink);color:#fff}
+
+  .askp,#askfix{
+    --ink:#16171a; --ink-2:#55575c; --ink-3:#6a6c71; --rule:#ececea; --hair:#f3f3f1; --tint:#fbfaf7;
+    --sans:"DM Sans","Helvetica Neue",Arial,sans-serif;
+  }
+  #askfix{font:400 14px/1.5 var(--sans)}
+  .askp{
+    position:fixed;top:0;right:0;bottom:0;z-index:50;width:min(440px,100vw);display:flex;flex-direction:column;
+    background:var(--paper);color:var(--ink);font:400 14px/1.5 var(--sans);letter-spacing:.005em;
+    border-left:1px solid var(--ink);box-shadow:-18px 0 40px rgba(22,23,26,.08);
+    transform:translateX(102%);transition:transform .28s cubic-bezier(.3,.7,.2,1),visibility 0s .28s;visibility:hidden;
+    padding-top:env(safe-area-inset-top,0px)
+  }
+  html.ask-open .askp{transform:none;visibility:visible;transition:transform .28s cubic-bezier(.3,.7,.2,1)}
+  html.ask-instant .askp,html.ask-instant body{transition:none!important}
+  .askp :focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:2px}
+  :where(.askp) button{font:inherit;color:inherit}
+  .ap-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+  .ap-rib{flex:none;line-height:0;padding:10px 26px 0;overflow:hidden}
+  .ap-rib svg{display:block;width:100%;height:12px}
+  .ap-h{flex:none;padding:16px 26px 18px;border-bottom:1px solid var(--rule)}
+  .ap-t{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .ap-h h2{display:flex;align-items:center;gap:10px;margin:0;font-family:var(--serif);font-weight:500;font-size:26px;line-height:1.1}
+  .ap-mark svg{display:block;width:22px;height:22px}
+  .askp .ap-x{background:none;border:0;padding:0 2px;font-size:26px;line-height:1;color:var(--ink-2);cursor:pointer}
+  .askp .ap-x:hover{color:var(--ink)}
+  .ap-h p{margin:6px 0 0;max-width:34ch;font-size:13.5px;line-height:1.5;color:var(--ink-2)}
+
+  .ap-body{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:24px 26px 16px;display:grid;gap:34px;align-content:start}
+  .ap-start{display:grid;gap:10px}
+  .ap-draw{width:100%;max-width:300px;height:auto;margin:0 0 4px}
+  .ap-start h3{margin:0;font-family:var(--serif);font-weight:500;font-size:24px;line-height:1.2}
+  .ap-start>p{margin:0 0 8px;font-size:14px;line-height:1.5;color:var(--ink-2)}
+  .ap-start ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+  .ap-start li button{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center;text-align:left;background:none;border:1px solid #cfd0cc;border-radius:10px;padding:12px 14px;cursor:pointer;transition:border-color .15s,background .15s}
+  .ap-start li button:hover{border-color:var(--ink);background:var(--tint)}
+  .ap-start .k{grid-column:1;font-size:11px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+  .ap-start .t{grid-column:1;font-size:14px;line-height:1.4;color:var(--ink)}
+  .ap-start .a{grid-column:2;grid-row:1/3;color:var(--ink-2);transition:transform .15s}
+  .ap-start li button:hover .a{transform:translateX(3px);color:var(--red)}
+
+  .ap-turn{display:grid;gap:14px;align-content:start}
+  .ap-qq{justify-self:end;max-width:85%;margin:0;padding:10px 14px;border-radius:16px 16px 4px 16px;background:var(--graphite);color:#fff;font-size:15px;line-height:1.45;overflow-wrap:anywhere;white-space:pre-wrap}
+  .ap-who{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:500;color:var(--ink)}
+  .ap-who svg{width:16px;height:16px;display:block}
+  .ap-look{margin:0;display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink-2)}
+  .ap-look i{width:7px;height:7px;display:inline-block;border-radius:50%;animation:ap-hop 1s infinite}
+  .ap-look i:nth-child(1){background:var(--red)}
+  .ap-look i:nth-child(2){background:var(--yellow);border-radius:0;animation-delay:.15s}
+  .ap-look i:nth-child(3){background:var(--blue);border-radius:0;rotate:45deg;animation-delay:.3s}
+  .ap-look span{margin-left:2px}
+  @keyframes ap-hop{0%,60%,100%{translate:0 0}30%{translate:0 -4px}}
+  @media (prefers-reduced-motion:reduce){.ap-look i{animation:none}.askp,body{transition:none!important}}
+
+  .ap-out-slot{display:grid;gap:16px}
+  .ap-ans{display:grid;gap:12px}
+  .ap-ans p{margin:0;font-family:var(--serif);font-size:16.5px;line-height:1.62;color:var(--ink);overflow-wrap:anywhere}
+  .ap-ans ul,.ap-ans ol{margin:0;padding-left:18px;display:grid;gap:6px;font-family:var(--serif);font-size:16px;line-height:1.55}
+  .ap-ans b{font-weight:600}
+  .ap-chip{display:inline-flex;align-items:center;gap:5px;margin:2px;padding:0 7px;border:1px solid #cfd0cc;border-radius:10px;background:var(--tint);font:400 11.5px/19px var(--sans);color:var(--ink);text-decoration:none;vertical-align:2px;white-space:nowrap}
+  .ap-chip b{font-weight:500}
+  .ap-chip svg{width:9px;height:9px;flex:none}
+  .ap-chip:hover{border-color:var(--ink)}
+  .ap-t2{width:100%;border-collapse:collapse;font-size:12.5px}
+  .ap-t2 th{text-align:left;font-weight:500;font-size:11.5px;color:var(--ink-2);padding:6px 8px 6px 0;border-bottom:1px solid var(--ink)}
+  .ap-t2 td{padding:6px 8px 6px 0;border-bottom:1px solid var(--hair);vertical-align:top}
+  .ap-out{padding:12px 14px;background:#f7f6f2;border-radius:3px}
+  .ap-out h3{margin:0 0 6px;font-size:11.5px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+  .ap-out p{font-size:15px;color:var(--ink-2)}
+  .ap-stamp{margin:0;font-size:12px;color:var(--ink-2)}
+  .ap-next{display:flex;flex-wrap:wrap;gap:6px}
+  .askp .ap-next button{display:inline-flex;align-items:center;gap:6px;border:1px solid #cfd0cc;border-radius:14px;background:var(--paper);padding:4px 11px;font-size:12.5px;line-height:1.4;text-align:left;cursor:pointer}
+  .askp .ap-next button::after{content:"→";color:var(--ink-2)}
+  .askp .ap-next button:hover{border-color:var(--ink)}
+  .ap-err{margin:0;font-size:13.5px;line-height:1.5;color:var(--ink-2)}
+  .askp .ap-err button{background:none;border:0;padding:0;border-bottom:1px solid #cfd0cc;cursor:pointer;color:var(--ink)}
+
+  .ap-foot{flex:none;padding:16px 26px 18px;padding-bottom:max(18px,env(safe-area-inset-bottom,0px));border-top:1px solid var(--rule);background:var(--tint)}
+  .ap-box{display:flex;align-items:flex-end;gap:8px;border:1px solid var(--ink);border-radius:14px;background:var(--paper);padding:8px 8px 8px 14px}
+  .ap-box textarea{flex:1;min-width:0;border:0;outline:0;resize:none;font:inherit;font-size:14.5px;line-height:1.5;color:var(--ink);background:transparent;min-height:22px;max-height:140px;padding:6px 0}
+  .ap-box textarea::placeholder{color:var(--ink-3)}
+  .ap-box textarea:focus-visible{outline:none}
+  .ap-box:focus-within{box-shadow:0 0 0 1px var(--ink)}
+  .askp .ap-send{flex:none;width:34px;height:34px;border-radius:50%;border:0;background:var(--ink);color:#fff;display:grid;place-items:center;cursor:pointer}
+  .askp .ap-send svg{width:18px;height:18px}
+  .askp .ap-send:hover{background:var(--red)}
+  .askp .ap-send:disabled{background:var(--ink-3);cursor:default}
+  .ap-tools{display:flex;align-items:center;gap:20px;margin-top:12px}
+  .askp .ap-tools button{background:none;border:0;padding:0;font-size:13px;color:var(--ink);cursor:pointer;border-bottom:1px solid #cfd0cc}
+  .askp .ap-tools button:hover{border-color:var(--red)}
+
+  /* When there is room, the page makes space for the panel and reflows beside it. */
+  @media (min-width:1000px){
+    body{transition:margin-right .28s cubic-bezier(.3,.7,.2,1)}
+    html.ask-open body{margin-left:0;margin-right:440px!important;padding-left:0;padding-right:0}
+    html.ask-open .wrap{max-width:none;margin:0 24px}
+    html.ask-open .body{grid-template-columns:180px minmax(0,1fr);gap:40px}
+    html.ask-open .rail{padding-right:24px}
+    html.ask-open #ribbon{width:calc(100% + 48px);margin-left:-24px}
+    html.ask-open,html.ask-open body{overflow-x:hidden}
+    html.ask-open .askp{box-shadow:none}
+  }
+  @media (max-width:560px){.askp{width:100vw;border-left:0}.ap-box textarea{font-size:16px}.ap-h,.ap-body,.ap-foot{padding-left:18px;padding-right:18px}.ap-rib{padding-left:18px;padding-right:18px}}
+</style>

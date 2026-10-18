@@ -139,11 +139,11 @@ def tool_turn(*blocks):
     return SimpleNamespace(content=list(blocks), stop_reason='tool_use')
 
 
-def final(records_text, citations=(), table=None, general_knowledge=None, no_record_subject=None,
-          follow_ups=()):
+def final(records_text, citations=(), table=None, general_knowledge=None, follow_ups=(),
+          kind='records'):
     body = {
-        'records_layer': {'text': records_text, 'citations': list(citations),
-                          'no_record_subject': no_record_subject},
+        'kind': kind,
+        'records_layer': {'text': records_text, 'citations': list(citations)},
         'table': table,
         'general_knowledge': general_knowledge,
         'follow_ups': list(follow_ups),

@@ -1,8 +1,8 @@
 """Ask endpoints.
 
 POST /api/ask          -> one JSON response.
-POST /api/ask/stream   -> server-sent events: `progress` lines while tools run,
-                          then the structured `answer`, then `done`.
+POST /api/ask/stream   -> server-sent events: `started` at once, `progress` lines
+                          while tools run, then the structured `answer`, then `done`.
 
 Request body: {"question": str, "history"?: [{role, content}], "scope"?: {jurisdiction, level, record_id}}.
 Both responses keep the earlier fields (`answer` as Markdown, `sources`) beside
@@ -91,6 +91,8 @@ def ask_stream():
     question, history, scope = parsed
 
     def generate():
+        # Sent at once so the page knows the service is awake before Claude replies.
+        yield _sse({'started': True})
         token = privacy.set_question(question)
         try:
             for kind, data in run_ask(question, history, scope):
