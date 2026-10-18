@@ -93,7 +93,6 @@ const mini = map.states
 const ptypes = provisionTypes();
 const mxRows = facets.j.map(([id, name]) => ({ id, name, href: rows.find((r) => r.j === id)!.href.split('#')[0] }));
 
-const repo = 'https://github.com/asiagenawi/statescope';
 const csvPath = url('policies/records.csv');
 ---
 <Base title="Bills & policies · Edictai" description="Legislation, executive orders, guidance and policy on artificial intelligence in American schools and colleges." bodyClass="sp pp">
@@ -108,7 +107,6 @@ const csvPath = url('policies/records.csv');
         <p class="lede">Legislation, executive orders, guidance and policy on artificial intelligence in American schools and colleges, newest first.</p>
       </div>
       <div class="actions">
-        <a class="btn" href={url('follow/?f=feed.xml')}>Follow updates</a>
         <a class="btn primary" id="dl" href={csvPath} download="edictai-records.csv" title="Downloads the records that match your filters">Download CSV</a>
       </div>
     </div>

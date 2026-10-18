@@ -1,4 +1,4 @@
-/** Every jurisdiction's records as an Atom feed: Follow updates on Bills & policies. */
+/** Every jurisdiction's records as an Atom feed, linked from Bills & policies. */
 import type { APIRoute } from 'astro';
 import { records } from '../lib/data';
 import { atom } from '../lib/feed';

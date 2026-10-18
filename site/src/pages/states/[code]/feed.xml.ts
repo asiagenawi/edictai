@@ -1,4 +1,4 @@
-/** One jurisdiction's records as an Atom feed: Follow updates on the state page. */
+/** One jurisdiction's records as an Atom feed, linked from the state page. */
 import type { APIRoute } from 'astro';
 import { jurisdictions, recordsFor, type State } from '../../../lib/data';
 import { atom } from '../../../lib/feed';

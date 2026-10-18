@@ -100,7 +100,6 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
         </div>
       </div>
       <div class="actions">
-        <a class="btn" href={url(`follow/?f=states/${state.code}/feed.xml`)}>Follow updates</a>
         <a class="btn primary" href={csvPath} download>Download CSV</a>
       </div>
     </div>

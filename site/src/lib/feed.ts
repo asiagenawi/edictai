@@ -1,7 +1,6 @@
 /**
- * Atom feeds behind the Follow updates buttons: the newest and most recently changed records,
- * for the whole site or one jurisdiction. A feed is the one way to follow a static site without
- * an account. The follow/ page shows a feed in a browser and gives its address.
+ * Atom feeds of the newest and most recently changed records, for the whole site or one
+ * jurisdiction. Pages link them in their head so feed readers can find them.
  */
 import { url, type PolicyRecord } from './data';
 import { STATUS_LABELS as STATUS } from './state-page';
