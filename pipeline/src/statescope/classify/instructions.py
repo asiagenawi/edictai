@@ -158,7 +158,8 @@ _DECISION_RULES = """\
   out of scope unless a provision applies to education (for example, a list of covered
   decisions that includes education, or a duty placed on schools).
 - Only public, system-level policy counts. Measures aimed at one named campus are
-  still state legislation and are judged the same way."""
+  still state legislation and are judged the same way, except budget items that fund
+  AI work at one named campus, which are out of scope (see the borderline table)."""
 
 
 def triage_md(paths: Paths, vocab: Vocab) -> str:
@@ -261,7 +262,7 @@ must be supported by the text you were given.
 | `education_levels` | in scope only: `k12`, `postsecondary`, or both, by who the provisions apply to |
 | `topics` | in scope only: one or more topic codes from the table below |
 | `summary` | in scope only: plain language, neutral, 1-{SUMMARY_MAX_SENTENCES} sentences, describing what the bill does (present tense: "Requires ...", "Creates ..."). No characterization ({", ".join(LOADED_WORDS[:8])}, and the like), no motives, no predictions, no status. |
-| `provisions` | in scope only: one entry per distinct clause that matters for AI in education (usually 1-4). Each has `type` (a provision code from the table below), `description` (one plain sentence), `locator` (where it is, as the bill writes it: "Sec. 2(b)", "Section 1, new 22.0965(c)", "[Page 3]" when the bill has no section numbers), `quote`, and optionally `education_levels` when it applies to only one level. Use `[]` when no provision type fits. |
+| `provisions` | in scope only: one entry per distinct clause that matters for AI in education (usually 1-4). Each has `type` (a provision code from the table below), `description` (one plain sentence), `locator` (where it is, as the bill writes it: "Sec. 2(b)", "Section 1, new 22.0965(c)", "[Page 3]" when the bill has no section numbers; copy only numbers you can see in the excerpt or its `heading`, and when none is visible describe the place in words, e.g. "Part on AI literacy, page 4", never a reconstructed number like "Sec. 103(b)(10)"), `quote`, and optionally `education_levels` when it applies to only one level. Use `[]` when no provision type fits. |
 | `quote` | at most {QUOTE_MAX} characters copied **exactly** from one excerpt: one contiguous passage, no ellipses, no brackets, no added or changed words, no fixed typos. Spacing is not compared: write line breaks as spaces, and repair spaces the PDF extraction put inside words ("ARTIFICI AL" may be written "ARTIFICIAL"). Leave out stray page markers such as "[Page 3]" by quoting a passage that does not cross one. |
 | `reasons` | at most {FULL_REASON_WORDS} words: which section or clause decided the scope call, citing it ("Sec. 3 requires each school district to ..."). Required for out-of-scope bills too. |
 
@@ -281,8 +282,12 @@ Example (one line in the file):
 ## Decision rules
 
 {_DECISION_RULES}
-- Judge the latest version, which is the one excerpted. If its AI provisions were
-  amended out, it is out of scope.
+- Judge every version you are given. The excerpts come from the latest version; when
+  an earlier version was also fetched, its excerpts are under `text.earlier`. If an
+  earlier version met the definition and the AI provisions were amended out, the bill
+  is in scope: quote the earlier version (give its version type in the locator, e.g.
+  "Introduced, Sec. 2"), and end the summary with a sentence saying the AI provisions
+  were removed by amendment.
 - When `text.status` is `text_unavailable`, decide from the metadata, set
   `confidence` to `low`, and give no provisions (there is nothing to quote).
 - When the excerpts are truncated and the decision may depend on text you cannot

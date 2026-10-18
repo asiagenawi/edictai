@@ -1,0 +1,86 @@
+id: us-ma-2025-2026-h-97
+jurisdiction: us-ma
+session: 2025-2026
+identifier: H 97
+title: Protecting consumers in interactions with artificial intelligence systems
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Regulates developers and deployers of high-risk artificial intelligence systems that make or
+  substantially factor into consequential decisions, including education enrollment or opportunities.
+  Requires documentation, impact assessments, and measures against algorithmic discrimination.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Education enrollment and opportunity decisions are consequential decisions, so AI systems
+      used in them are high-risk and subject to algorithmic discrimination duties.
+    citation:
+      source_url: https://malegislature.gov/Bills/194/H97.pdf
+      locator: Sec. 1, definition of consequential decision
+      quote: 'means a decision that has a material legal or similarly significant effect on the provision
+        or denial to any consumer of, or the cost or terms of: (1) education enrollment or an education
+        opportunity;'
+sponsors:
+  - name: David Rogers
+    primary: true
+    party: D
+    chamber: lower
+  - name: Andres Vargas
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-27"
+    description: Referred to the Joint Committee on Advanced Information Technology, the Internet and
+      Cybersecurity
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-02-27"
+    description: Senate concurred
+    actor: upper
+    classification:
+      - other
+  - date: "2025-08-28"
+    description: Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2 and Virtual Hearing updated
+      to include Virtual
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-12-24"
+    description: Accompanied by H94
+    actor: lower
+    classification:
+      - other
+  - date: "2025-12-24"
+    description: Bill reported favorably by committee and referred to the committee on House Ways and
+      Means
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-27"
+    url: https://malegislature.gov/Bills/194/H97.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2000828
+sources:
+  - url: https://malegislature.gov/Bills/194/H97
+    title: H 97 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://malegislature.gov/Bills/194/H97.pdf
+    title: H 97 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

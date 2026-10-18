@@ -1,0 +1,131 @@
+id: us-pa-2025-2026-sb-293
+jurisdiction: us-pa
+session: 2025-2026
+identifier: SB 293
+title: Providing for a report on artificial intelligence in the workforce; and imposing duties on the
+  Department of Labor and Industry and Department of Community and Economic Development.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: Directs the Department of Labor and Industry, in consultation with the Department of Community
+  and Economic Development and the Office of Administration, to study artificial intelligence's impact
+  on the state workforce and report to the General Assembly. The report must identify the skills and education
+  needed to work with AI and the resources school entities and institutions of higher education need to
+  deliver them, and the study must involve school entities and institutions of higher education.
+provisions:
+  - type: creates-task-force
+    description: Requires a comprehensive study and report on artificial intelligence and its impact on
+      the state workforce.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0293/PN1269
+      locator: Section 4(a)
+      quote: conduct a comprehensive study on artificial intelligence and its future impact on the workforce
+        in this Commonwealth and submit a final report to the General Assembly
+  - type: creates-task-force
+    description: The report must identify resources school entities and institutions of higher education
+      need to deliver AI-related skills and education.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0293/PN1269
+      locator: Section 4(b)(8)
+      quote: (8) Identification of the resources and opportunities required for SCHOOL ENTITIES AND institutions
+        of higher education to deliver skills, expertise and education identified in paragraph (5).
+sponsors:
+  - name: Vincent Hughes
+    primary: true
+    party: D
+    chamber: upper
+  - name: Kristin Phillips-Hill
+    primary: false
+    party: R
+    chamber: upper
+  - name: Steven Santarsiero
+    primary: false
+    party: D
+    chamber: upper
+  - name: Christine Tartaglione
+    primary: false
+    party: D
+    chamber: upper
+  - name: Arthur Haywood
+    primary: false
+    party: D
+    chamber: upper
+  - name: John Kane
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jay Costa
+    primary: false
+    party: D
+    chamber: upper
+  - name: Nikil Saval
+    primary: false
+    party: D
+    chamber: upper
+  - name: Rosemary Brown
+    primary: false
+    party: R
+    chamber: upper
+  - name: Amanda Cappelletti
+    primary: false
+    party: D
+    chamber: upper
+  - name: Nicholas Miller
+    primary: false
+    party: D
+    chamber: upper
+  - name: Maria Collett
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-05-12"
+    description: Referred to Labor & Industry
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-10-22"
+    description: Reported as amended
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-10-22"
+    description: First consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: Laid on the table (Pursuant to Senate Rule 9)
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0293/PN0774
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-10-22"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0293/PN1269
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2030536
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/sb293
+    title: SB 293 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0293/PN1269
+    title: SB 293 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

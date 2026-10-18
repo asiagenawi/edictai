@@ -1,0 +1,201 @@
+id: us-ny-2025-2026-a-8884
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 8884
+title: Regulates the development and use of certain artificial intelligence systems to prevent algorithmic
+  discrimination; requires independent audits of high risk AI systems; provides for enforcement by the
+  attorney general.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - admissions
+  - equity-access
+summary: Regulates the development and use of high-risk AI systems to prevent algorithmic discrimination,
+  covering consequential decisions in education and vocational training such as accreditation, certification,
+  admissions, and financial aid, and requires deployers to notify affected individuals, with independent
+  audits and attorney general enforcement.
+provisions:
+  - type: ai-in-admissions
+    description: Defines consequential decisions to include education and vocational training decisions
+      on accreditation, certification, admissions, and financial aid or scholarships.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08884&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08884A
+      locator: Sec. 105(4)(b)
+      quote: '(b) Education and vocational training, including, but not limited to, all of the following:
+        (i) Accreditation; (ii) Certification; (iii) Admissions; and (iv) Financial aid or scholarships.'
+  - type: requires-disclosure
+    description: Requires covered deployers to inform the affected person at the onset of an engagement
+      that a high-risk AI system is used to make a consequential decision.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08884&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08884A
+      locator: Sec. 108(1)
+      quote: Any covered deployer shall inform the covered subject and covered agent, if applicable, at
+        the immediate onset of an engagement between the covered subject and the covered deployer as to
+        the use of a high-risk AI system for the making of a consequential decision
+sponsors:
+  - name: Michaelle Solages
+    primary: true
+    party: D
+    chamber: lower
+  - name: Emily Gallagher
+    primary: false
+    party: D
+    chamber: lower
+  - name: Phara Souffrant Forrest
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marcela Mitaynes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Claire Valdez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Emerita Torres
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sarahana Shrestha
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jessica Gonzalez-Rojas
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alex Bores
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eddie Gibbs
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sarah Clark
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anna Kelles
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steven Raga
+    primary: false
+    party: D
+    chamber: lower
+  - name: Clyde Vanel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Harvey Epstein
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Jacobson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Grace Lee
+    primary: false
+    party: D
+    chamber: lower
+  - name: George Alvarez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Reilly
+    primary: false
+    party: R
+    chamber: lower
+  - name: Larinda Hooks
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jo Simon
+    primary: false
+    party: D
+    chamber: lower
+  - name: William Colton
+    primary: false
+    party: D
+    chamber: lower
+  - name: Diana Moreno
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alfred Taylor
+    primary: false
+    party: D
+    chamber: lower
+  - name: Yudelka Tapia
+    primary: false
+    party: D
+    chamber: lower
+  - name: Khaleel Anderson
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-06-09"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-06-11"
+    description: reference changed to ways and means
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-07"
+    description: referred to ways and means
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: reference changed to science and technology
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: amend and recommit to science and technology
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: print number 8884a
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-06-09"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08884&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08884
+    media_type: text/html
+  - note: Amended
+    date: "2025-06-09"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08884&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08884A
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2036445
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A8884
+    title: A 8884 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08884&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08884A
+    title: A 8884 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

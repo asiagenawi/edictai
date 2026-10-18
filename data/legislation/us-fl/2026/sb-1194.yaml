@@ -1,0 +1,115 @@
+id: us-fl-2026-sb-1194
+jurisdiction: us-fl
+session: "2026"
+identifier: SB 1194
+title: Artificial Intelligence in Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - academic-integrity
+  - educator-training
+  - ai-literacy
+  - assessment
+  - instructional-use
+summary: Requires the State Board of Education to adopt statewide standards and a policy for school and
+  student use of artificial intelligence that permit student AI use only with teacher permission, require
+  students to disclose AI use, and require AI-monitoring safeguards and proctored assessments for the
+  Florida Virtual School; directs the Department of Education to collect AI metrics, train teachers, and
+  review district compliance; adds digital literacy and AI ethics instruction; and requires student codes
+  of conduct to include AI policies.
+provisions:
+  - type: issues-model-policy
+    description: The State Board must adopt statewide standards and a policy for school and student AI
+      use.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1194/BillText/Filed/HTML
+      locator: Sec. 1, new 1001.03(20)
+      quote: The State Board of Education shall adopt statewide standards and a policy for school use
+        and student use of artificial intelligence (AI).
+  - type: academic-integrity-rules
+    description: Policies must allow student AI use only with teacher permission and require students
+      to disclose AI use.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1194/BillText/Filed/HTML
+      locator: Sec. 1, new 1001.03(20)(a)1.-2.
+      quote: Allow student use of AI only when a teacher has expressly permitted its use in certain applications.
+        2. Require a student to disclose how AI was used in his or her work.
+  - type: regulates-ai-assessment
+    description: Policies must require AI-monitoring safeguards and proctored assessments for the Florida
+      Virtual School.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1194/BillText/Filed/HTML
+      locator: Sec. 1, new 1001.03(20)(a)3.
+      quote: Require AI-monitoring safeguards and proctored assessments for the Florida Virtual School.
+  - type: educator-pd-requirement
+    description: The Department must train teachers on AI use, AI detection tools, and responsible use
+      strategies.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1194/BillText/Filed/HTML
+      locator: Sec. 1, new 1001.03(20)(b)2.
+      quote: Provide training for teachers on the use of AI, AI detection tools, and strategies for responsible
+        use of AI.
+  - type: requires-ai-literacy-instruction
+    description: Required instruction adds digital literacy and the ethics of using AI in ELA and technology
+      courses.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1194/BillText/Filed/HTML
+      locator: Sec. 2, amended 1003.42(2)(o)
+      quote: Digital literacy and the ethics of using artificial intelligence for English Language Arts
+        and technology courses.
+  - type: requires-local-ai-policy
+    description: District codes of student conduct must include AI use policies.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1194/BillText/Filed/HTML
+      locator: Sec. 3, new 1006.07(2)(p)
+      quote: Policies on the use of artificial intelligence pursuant to s. 1001.03(20).
+sponsors:
+  - name: Shevrin Jones
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-06"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-12"
+    description: Referred to Education Pre-K - 12; Commerce and Tourism; Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-01-13"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-03-13"
+    description: Died in Education Pre-K - 12
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-06"
+    url: https://www.flsenate.gov/Session/Bill/2026/1194/BillText/Filed/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2065901
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/1194
+    title: SB 1194 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1194/BillText/Filed/HTML
+    title: SB 1194 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

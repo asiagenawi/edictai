@@ -1,0 +1,92 @@
+id: us-119-hr-8747
+jurisdiction: us
+session: "119"
+identifier: H.R. 8747
+title: K–12 AI Literacy and Readiness Act of 2026
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - educator-training
+  - funding
+  - instructional-use
+summary: Amends the Elementary and Secondary Education Act so that state and local Student Support and
+  Academic Enrichment funds may be used for instruction on safe, effective, and responsible use of artificial
+  intelligence and for professional development that prepares teachers and other school staff to use and
+  teach the use of AI.
+provisions:
+  - type: appropriates-funding
+    description: Adds safe, effective, and responsible use of AI to the allowable state uses of funds
+      for student instruction.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8747/BILLS-119hr8747ih.pdf
+      locator: Sec. 2(a)
+      quote: the use of artificial intelligence (as defined in section 5002 of the National Artificial
+        Intelligence Initiative Act of 2020 (15 U.S.C. 9401)) in a manner that is safe, effective, and
+        responsible; or
+  - type: appropriates-funding
+    description: Adds instruction on the use of AI to the allowable local uses of funds.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8747/BILLS-119hr8747ih.pdf
+      locator: Sec. 2(c)
+      quote: instruction on the use of artificial intelligence (as defined in section 5002 of the National
+        Artificial Intelligence Initiative Act of 2020 (15 U.S.C. 9401)) in a manner that is safe, effective,
+        and responsible; or
+  - type: educator-pd-requirement
+    description: Allows funds to be used to give teachers and school staff the knowledge and skills to
+      use and teach the use of AI, including through professional development.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8747/BILLS-119hr8747ih.pdf
+      locator: Sec. 2(b), (d)
+      quote: providing teachers, paraprofessionals, school librarians and media personnel, specialized
+        instructional support personnel, and administrators with the knowledge and skills to use, and
+        teach the use of, artificial intelligence
+sponsors:
+  - name: Randy Fine
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-05-12"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-05-12"
+    description: Referred to the House Committee on Education and Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-07-21"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: 'Ordered to be Reported (Amended) by the Yeas and Nays: 18 - 15.'
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2026-06-02"
+    url: https://www.congress.gov/119/bills/hr8747/BILLS-119hr8747ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2149407
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/8747/all-info
+    title: H.R. 8747 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr8747/BILLS-119hr8747ih.pdf
+    title: H.R. 8747 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

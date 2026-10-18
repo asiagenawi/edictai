@@ -1,0 +1,113 @@
+id: us-119-s-4528
+jurisdiction: us
+session: "119"
+identifier: S. 4528
+title: IGNITE HBCU Excellence Act Institutional Grants for New Infrastructure, Technology, and Education
+  for HBCU Excellence Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Creates a competitive grant program for long-term facility improvements at Historically Black
+  Colleges and Universities. Allowable uses include workforce development hubs focused on fields such
+  as artificial intelligence that support education, training, and career placement for students, and
+  research equipment for emerging fields such as AI.
+provisions:
+  - type: ai-workforce-program
+    description: Grant funds may develop workforce development hubs focused on fields such as AI that
+      support student education, training, and career placement.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s4528/BILLS-119s4528is.pdf
+      locator: Sec. 3(a)(1)(G)
+      quote: establishing workforce development hubs that— (i) are aligned with regional labor market
+        needs; (ii) focus on fields such as artificial intelligence; and (iii) support education, training,
+        and career placement for students.
+sponsors:
+  - name: Tim Scott
+    primary: true
+    party: R
+    chamber: upper
+  - name: Christopher Coons
+    primary: false
+    party: D
+    chamber: upper
+  - name: Raphael Warnock
+    primary: false
+    party: D
+    chamber: upper
+  - name: Thom Tillis
+    primary: false
+    party: R
+    chamber: upper
+  - name: Chris Van Hollen
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lisa Rochester
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cory Booker
+    primary: false
+    party: D
+    chamber: upper
+  - name: John Boozman
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jon Ossoff
+    primary: false
+    party: D
+    chamber: upper
+  - name: Angela Alsobrooks
+    primary: false
+    party: D
+    chamber: upper
+  - name: James Justice
+    primary: false
+    party: R
+    chamber: upper
+  - name: Andy Kim
+    primary: false
+    party: D
+    chamber: upper
+  - name: Shelley Capito
+    primary: false
+    party: R
+    chamber: upper
+  - name: Maria Cantwell
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-05-14"
+    description: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-05-21"
+    url: https://www.congress.gov/119/bills/s4528/BILLS-119s4528is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2150106
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/4528/all-info
+    title: S. 4528 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s4528/BILLS-119s4528is.pdf
+    title: S. 4528 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

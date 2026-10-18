@@ -1,0 +1,87 @@
+id: us-mn-2025-2026-hf-2561
+jurisdiction: us-mn
+session: 2025-2026
+identifier: HF 2561
+title: Authority to offer applied doctoral degrees at state universities expanded.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - curriculum-standards
+summary: Amends the statutory mission of Minnesota state universities to allow them to offer applied doctoral
+  degrees in additional fields, including cybersecurity and artificial intelligence.
+provisions:
+  - type: ai-workforce-program
+    description: Authorizes state universities to offer applied doctoral degrees in artificial intelligence.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/94/2025/0/HF/2561/versions/0/pdf/
+      locator: Sec. 1, 135A.052, subd. 1(a)(4)
+      quote: psychology, physical therapy, audiology, and nursing, cybersecurity, artificial intelligence,
+sponsors:
+  - name: Kristin Bahner
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jim Nash
+    primary: false
+    party: R
+    chamber: lower
+  - name: Marion Rarick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Dan Wolgamott
+    primary: false
+    party: D
+    chamber: lower
+  - name: Huldah Momanyi-Hiltsley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ethan Cha
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mohamud Noor
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steve Elkins
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jessica Hanson
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-20"
+    description: Introduction and first reading, referred to Higher Education Finance and Policy
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-18"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/HF/2561/versions/0/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2011831
+sources:
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/HF/2561/
+    title: HF 2561 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/HF/2561/versions/0/pdf/
+    title: HF 2561 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

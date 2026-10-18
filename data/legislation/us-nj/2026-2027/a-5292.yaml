@@ -1,0 +1,67 @@
+id: us-nj-2026-2027-a-5292
+jurisdiction: us-nj
+session: 2026-2027
+identifier: A 5292
+title: Requires guidelines on use of instructional technology to be developed by DOE and policy to be
+  adopted by governing body of public school.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - local-policy-requirement
+summary: Directs the Commissioner of Education to develop K-12 guidelines on instructional technology,
+  defined to include artificial intelligence tools, that prioritize teacher-led instruction and address
+  academic integrity and student privacy. Requires each public school governing body to adopt a policy
+  on instructional technology use.
+provisions:
+  - type: issues-model-policy
+    description: The Commissioner of Education must develop guidelines on instructional technology, which
+      by definition includes AI tools, to assist boards in developing policies.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A5500/5292_I1.HTM
+      locator: Sec. 4(a)
+      quote: To assist boards of education in developing policies concerning the use of instructional
+        technology during regular school hours, the Commissioner of Education shall develop guidelines
+        applicable to students enrolled in grades kindergarten through 12.
+  - type: requires-local-ai-policy
+    description: Each board of education must adopt a policy on instructional technology use, which covers
+      AI tools.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A5500/5292_I1.HTM
+      locator: Statement
+      quote: The bill also requires each board of education to adopt a policy concerning the use of instructional
+sponsors:
+  - name: Alex Sauickie
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-06-18"
+    description: Introduced, Referred to Assembly Education Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-06-18"
+    url: https://pub.njleg.gov/Bills/2026/A5500/5292_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2153862
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/A5292
+    title: A 5292 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/A5500/5292_I1.HTM
+    title: A 5292 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

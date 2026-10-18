@@ -1,0 +1,76 @@
+id: us-ak-2023-2024-hb-306
+jurisdiction: us-ak
+session: 2023-2024
+identifier: HB 306
+title: Ai, Deepfakes, Cybersecurity, Data Xfers
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - equity-access
+summary: Sets rules for state agency use of artificial intelligence in consequential decisions, including
+  inventories, impact assessments, notice to affected individuals, consent, and human appeal, and bars
+  certain uses. The definition of state agency includes the University of Alaska. The bill also requires
+  disclosure of deepfakes in campaign communications.
+provisions:
+  - type: requires-disclosure
+    description: A state agency, including the University of Alaska, using AI for consequential decisions
+      must notify affected individuals.
+    citation:
+      source_url: https://www.akleg.gov/PDF/33/Bills/HB0306A.PDF
+      locator: Sec. 2, new AS 44.99.720(a)(1)
+      quote: (1) notify each individual who may be legally or significantly affected by the use of the
+        system;
+  - type: bias-or-equity-requirement
+    description: Impact assessments must analyze unlawful discrimination or disparate impact resulting
+      from the agency's AI system.
+    citation:
+      source_url: https://www.akleg.gov/PDF/33/Bills/HB0306A.PDF
+      locator: Sec. 2, new AS 44.99.710(a)(7)
+      quote: (7) any unlawful discrimination against or unlawful disparate impact on an individual or
+        a group of individuals
+sponsors:
+  - name: State Affairs
+    classification: committee
+    primary: true
+actions:
+  - date: "2024-02-02"
+    description: READ THE FIRST TIME - REFERRALS
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2024-02-02"
+    description: STA, JUD
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-02"
+    description: REFERRED TO STATE AFFAIRS
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-02-02"
+    url: https://www.akleg.gov/PDF/33/Bills/HB0306A.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1836190
+sources:
+  - url: https://www.akleg.gov/basis/Bill/Detail/33?Root=HB306
+    title: HB 306 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.akleg.gov/PDF/33/Bills/HB0306A.PDF
+    title: HB 306 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

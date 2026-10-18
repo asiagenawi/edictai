@@ -1,0 +1,180 @@
+id: us-fl-2026-sb-482
+jurisdiction: us-fl
+session: "2026"
+identifier: SB 482
+title: Artificial Intelligence Bill of Rights
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+summary: Bars school districts, public and private schools, and VPK providers from giving students access
+  to artificial intelligence instructional tools before grade 6 except under school personnel supervision
+  or for English learner or disability supports. Requires notice to parents before students receive access,
+  a parental opt-out with an alternative activity, and operator-provided parental access to student account
+  information.
+provisions:
+  - type: limits-ai-instructional-use
+    description: Educational entities may not give students access to AI instructional tools before grade
+      6, with exceptions for supervised use, English learner support, and disability accommodations.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/482/BillText/e1/HTML
+      locator: Section 12, new s. 1006.1495(2)
+      quote: 'An educational entity may not provide students with access to an artificial intelligence
+        instructional tool before grade 6 unless such use is: (a) Directed and supervised by school personnel;'
+  - type: requires-disclosure
+    description: Before a student gets access credentials, the educational entity must give the parent
+      notice identifying the tool and its educational purpose.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/482/BillText/e1/HTML
+      locator: Section 12, new s. 1006.1495(3)
+      quote: 'Before a student is provided access credentials for an artificial intelligence instructional
+        tool, the educational entity must provide the parent of a minor student with notice that: (a)
+        Identifies the tool and its educational purpose;'
+  - type: requires-disclosure
+    description: Parents must be offered an opt-out of their student's use of an AI instructional tool.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/482/BillText/e1/HTML
+      locator: Section 12, new s. 1006.1495(4)(a)
+      quote: A parent of a minor student must be provided the opportunity to opt out of the student’s
+        use of an artificial intelligence instructional tool.
+sponsors:
+  - name: Appropriations
+    classification: committee
+    primary: true
+  - name: Tom Leek
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-12-22"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-07"
+    description: Referred to Commerce and Tourism; Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-01-13"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-16"
+    description: On Committee agenda-- Commerce and Tourism, 01/21/26, 8:30 am, 110 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: Favorable by Commerce and Tourism; YEAS 10 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-01-21"
+    description: Now in Appropriations
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-13"
+    description: On Committee agenda-- Appropriations, 02/18/26, 1:30 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-18"
+    description: CS by- Appropriations; YEAS 18 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: Pending reference review -under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-02-20"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: Placed on Special Order Calendar, 02/25/26
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: CS by Appropriations read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-25"
+    description: Retained on Special Order Calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Retained on Special Order Calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-04"
+    description: Amendment(s) adopted (274134, 623028)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-04"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-04"
+    description: CS passed as amended; YEAS 35 NAYS 2
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-03-05"
+    description: In Messages
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-13"
+    description: Died in Messages
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2025-12-22"
+    url: https://www.flsenate.gov/Session/Bill/2026/482/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-02-20"
+    url: https://www.flsenate.gov/Session/Bill/2026/482/BillText/c1/HTML
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-03-04"
+    url: https://www.flsenate.gov/Session/Bill/2026/482/BillText/e1/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2060634
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/482
+    title: SB 482 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/482/BillText/e1/HTML
+    title: SB 482 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

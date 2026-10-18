@@ -1,0 +1,83 @@
+id: us-pa-2025-2026-hb-2788
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 2788
+title: In certification of teachers, providing for use of artificial intelligence in education.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - educator-training
+  - funding
+  - ai-literacy
+summary: Allows school entities to train school employees on the use of artificial intelligence in education,
+  covering instructional uses, academic integrity, privacy and bias, with continuing education credit
+  for approved programs. Directs the Department of Education, subject to funding, to provide grants to
+  school entities for this training.
+provisions:
+  - type: educator-pd-requirement
+    description: School entities may provide employees with training on AI in education that counts toward
+      continuing professional education when approved.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2788/PN3907
+      locator: Section 1205.9(a)
+      quote: A school entity may provide a school employe with training on the use of artificial intelligence
+        in education.
+  - type: appropriates-funding
+    description: The department must provide grants to school entities for AI training costs, subject
+      to available funding.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2788/PN3907
+      locator: Section 1205.9(b)
+      quote: To the extent funding is made available, the department shall provide grants to school entities
+        to aid with the costs associated with providing training on the use of artificial intelligence
+        in education in accordance with this section.
+sponsors:
+  - name: Christopher Pielli
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-09-24"
+    description: Referred to Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-10-06"
+    description: Reported as committed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-10-06"
+    description: First consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2026-10-06"
+    description: Laid on the table
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-09-24"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2788/PN3907
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2158817
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb2788
+    title: HB 2788 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2788/PN3907
+    title: HB 2788 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

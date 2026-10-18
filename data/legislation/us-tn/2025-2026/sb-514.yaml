@@ -1,0 +1,104 @@
+id: us-tn-2025-2026-sb-514
+jurisdiction: us-tn
+session: 2025-2026
+identifier: SB 514
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - educator-training
+  - local-policy-requirement
+summary: Requires each LEA and public charter school, beginning in 2026-2027, to provide age-appropriate
+  instruction on accessing, using, and critically evaluating artificial intelligence tools, aligned with
+  Department of Education guidance. Directs the department to issue that guidance and, subject to funding,
+  to provide AI professional development for educators.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: LEAs and public charter schools must teach students to access, use, and critically evaluate
+      AI tools.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/SB0514.pdf
+      locator: Section 1(a)
+      quote: each LEA and public charter school shall provide age-appropriate instruction to students
+        on how to access, utilize, and critically evaluate various artificial intelligence tools within
+        the curriculum taught by the educator
+  - type: issues-model-policy
+    description: The department must issue guidance to LEAs and charter schools on implementing the AI
+      instruction.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/SB0514.pdf
+      locator: Section 1(b)
+      quote: The department of education shall issue guidance to LEAs and public charter schools on how
+        to implement subsection (a).
+  - type: educator-pd-requirement
+    description: Subject to funding, the department must provide AI professional development for educators.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/SB0514.pdf
+      locator: Section 1(c)
+      quote: Subject to available funding, the department of education shall provide a professional development
+        program in artificial intelligence education for educators.
+sponsors:
+  - name: Paul Bailey
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-01-30"
+    description: Filed for introduction
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-10"
+    description: Introduced, Passed on First Consideration
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-12"
+    description: Passed on Second Consideration, refer to Senate Education Committee
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-03-05"
+    description: Placed on Senate Education Committee calendar for 3/12/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-12"
+    description: Action deferred in Senate Education Committee to 3/19/2025
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-03-12"
+    description: Placed on Senate Education Committee calendar for 3/19/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-19"
+    description: Assigned to General Subcommittee of Senate Education Committee
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Draft
+    date: "2025-01-30"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/SB0514.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1948149
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=SB0514&ga=114
+    title: SB 514 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.tn.gov/Bills/114/Bill/SB0514.pdf
+    title: SB 514 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

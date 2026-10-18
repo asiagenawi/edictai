@@ -1,0 +1,114 @@
+id: us-il-2025-2026-sb-1556
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 1556
+title: SCH CD-ARTIFICIAL INTELLIGENCE
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - procurement
+  - educator-training
+  - task-force
+  - ai-literacy
+summary: Requires the State Board of Education to establish a State Instructional Technology Advisory
+  Board and, with it, to set standards for AI technologies used in schools, evaluate and publish results
+  for commonly used AI tools, and issue annual guidance for districts and educators on AI use with professional
+  development. Adds AI use to annual district technology reports.
+provisions:
+  - type: creates-task-force
+    description: The State Board must establish an Instructional Technology Advisory Board covering AI
+      technologies.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200043&DocName=10400SB1556&DocNum=1556&DocTypeID=SB&LegID=160256&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.118a(a)
+      quote: The State Board of Education shall establish a State Instructional Technology Advisory Board,
+        which shall collaborate with the State Board of Education to provide guidance, integration, oversight,
+        and evaluation of education technologies
+  - type: procurement-standards
+    description: The State Board must publish a list of AI tools evaluated against its standards and the
+      results.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200043&DocName=10400SB1556&DocNum=1556&DocTypeID=SB&LegID=160256&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.118a(c)(3)
+      quote: the State Board of Education shall publish and provide to school districts a list of technology
+        tools employing artificial intelligence that have been evaluated against these standards and the
+        results of that evaluation.
+  - type: issues-model-policy
+    description: The State Board must develop guidance for districts and educators on AI use in education.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200043&DocName=10400SB1556&DocNum=1556&DocTypeID=SB&LegID=160256&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.118a(d)
+      quote: The State Board of Education shall, in collaboration with the Advisory Board, develop guidance
+        for school districts and educators on the use of artificial intelligence in education.
+  - type: educator-pd-requirement
+    description: The State Board must offer professional development on the AI guidance.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200043&DocName=10400SB1556&DocNum=1556&DocTypeID=SB&LegID=160256&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.118a(e)
+      quote: The State Board of Education shall develop and offer both synchronous and asynchronous professional
+        development opportunities designed to help educators understand and implement this guidance effectively.
+sponsors:
+  - name: Meg Loughran Cappel
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-04"
+    description: Filed with Secretary by Sen. Meg Loughran Cappel
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-04"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-02-04"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-12"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-19"
+    description: To AI and Social Media
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-21"
+    description: Rule 2-10 Committee Deadline Established As April 11, 2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-11"
+    description: Rule 3-9(a) / Re-referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-04"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200043&DocName=10400SB1556&DocNum=1556&DocTypeID=SB&LegID=160256&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1954662
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=1556&GAID=18&DocTypeID=SB&LegId=160256&SessionID=114
+    title: SB 1556 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200043&DocName=10400SB1556&DocNum=1556&DocTypeID=SB&LegID=160256&GAID=18&SessionID=114&SpecSess=&Session=
+    title: SB 1556 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

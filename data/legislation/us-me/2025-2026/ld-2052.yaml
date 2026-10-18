@@ -1,0 +1,169 @@
+id: us-me-2025-2026-ld-2052
+jurisdiction: us-me
+session: 2025-2026
+identifier: LD 2052
+title: Resolve, to Study the Use of Technology in Classrooms and Study Safeguards Related to Its Use
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+  - assessment
+  - employment-evaluation
+  - safety-wellbeing
+summary: Directs the Maine Education Policy Research Institute to survey schools on classroom technology
+  use and safeguards, including policies on generative and conversational artificial intelligence and
+  on AI use in grading and teacher evaluations. The Institute must gather guidance on safe instructional
+  technology and report recommendations by December 1, 2026.
+provisions:
+  - type: creates-task-force
+    description: Requires a survey of school policies on generative and conversational AI in classrooms.
+    citation:
+      source_url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1376&item=3&snum=132
+      locator: Sec. 2(3)
+      quote: The policies regarding allowed use or prohibition of gamification, leader boards, push notification
+        alerts, advertising, geolocation, generative and conversational artificial intelligence,
+  - type: creates-task-force
+    description: Requires the survey to cover policies prohibiting AI use in grading and teacher evaluations.
+    citation:
+      source_url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1376&item=3&snum=132
+      locator: Sec. 2(7)
+      quote: The policies in place for prohibiting artificial intelligence use in grading, teacher evaluations
+        and any other education or administrative areas;
+sponsors:
+  - name: Holly Sargent
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-12-09"
+    description: Received by the Clerk of the House on December 9, 2025.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-12-09"
+    description: The Resolve was REFERRED to the Committee on EDUCATION AND CULTURAL AFFAIRS pursuant
+      to Joint Rule 308.2 and ordered printed pursuant to Joint Rule 401.
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-05"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-02-05"
+    description: 'Voted: OTP-AM'
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: 'Reported Out: OTP-AM'
+    actor: legislature
+    classification:
+      - committee-passage
+  - date: "2026-03-17"
+    description: CONSENT CALENDAR - FIRST DAY
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-17"
+    description: Under suspension of the rules CONSENT CALENDAR - SECOND DAY.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-17"
+    description: The Resolve was PASSED TO BE ENGROSSED as Amended by Committee Amendment "A" (H-841).
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-17"
+    description: Sent for concurrence. ORDERED SENT FORTHWITH.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-18"
+    description: Report READ and ACCEPTED, in concurrence.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-18"
+    description: Bill READ ONCE
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-03-18"
+    description: Committee Amendment "A" (H-841) READ and ADOPTED.
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-18"
+    description: ASSIGNED FOR SECOND READING NEXT LEGISLATIVE DAY.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-19"
+    description: COMMITTEE ON BILLS IN THE SECOND READING REPORTS NO FURTHER VERBAL AMENDMENTS NECESSARY.
+      REPORT ACCEPTED.
+    actor: upper
+    classification:
+      - reading-2
+      - amendment-passage
+  - date: "2026-03-19"
+    description: READ A SECOND TIME and PASSED TO BE ENGROSSED AS AMENDED BY Committee Amendment "A" (H-841),
+      in concurrence.
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-03-19"
+    description: Ordered sent down forthwith.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: This being an emergency measure, a two-thirds vote of all the members elected to the
+      House was necessary.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: FINALLY PASSED.
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-24"
+    description: Sent for concurrence. ORDERED SENT FORTHWITH.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-25"
+    description: FINALLY PASSED - Emergency - 2/3 Elected Required, in concurrence.
+    actor: upper
+    classification:
+      - passage
+versions:
+  - note: Introduced
+    url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1376&item=1&snum=132
+    media_type: application/pdf
+  - note: Chaptered
+    url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1376&item=3&snum=132
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2057501
+sources:
+  - url: https://legislature.maine.gov/legis/bills/display_ps.asp?LD=2052&snum=132
+    title: LD 2052 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1376&item=3&snum=132
+    title: LD 2052 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

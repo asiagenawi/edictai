@@ -1,0 +1,76 @@
+id: us-118-hr-6886
+jurisdiction: us
+session: "118"
+identifier: H.R. 6886
+title: Transparent Automated Governance Act TAG Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - institutional-operations
+summary: Directs the Office of Management and Budget to issue guidance requiring federal agencies to disclose,
+  and offer appeal of, the use of automated systems in decisions about individuals, including decisions
+  affecting access to education and vocational training.
+provisions:
+  - type: requires-disclosure
+    description: Agencies must provide disclosure and an opportunity for appeal when automated systems
+      are used in critical decisions, including those on education access.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr6886/BILLS-118hr6886ih.pdf
+      locator: Sec. 3(a)(2)
+      quote: requires agencies to provide disclosure and opportunity for appeal
+sponsors:
+  - name: Clay Higgins
+    primary: true
+    party: R
+    chamber: lower
+  - name: Randy Weber
+    primary: false
+    party: R
+    chamber: lower
+  - name: James McGovern
+    primary: false
+    party: D
+    chamber: lower
+  - name: Donald Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Trone
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-12-22"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-12-22"
+    description: Referred to the House Committee on Oversight and Accountability.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-01-10"
+    url: https://www.congress.gov/118/bills/hr6886/BILLS-118hr6886ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1794843
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/6886/all-info
+    title: H.R. 6886 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr6886/BILLS-118hr6886ih.pdf
+    title: H.R. 6886 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

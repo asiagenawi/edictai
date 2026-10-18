@@ -1,0 +1,76 @@
+id: us-ny-2023-2024-s-8209
+jurisdiction: us-ny
+session: 2023-2024
+identifier: S 8209
+title: Enacts the New York artificial intelligence bill of rights to provide residents of the state with
+  rights and protections to ensure that any system making decisions without human intervention impacting
+  their lives do so lawfully, properly, and with meaningful oversight.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+  - student-privacy
+summary: Enacts the New York artificial intelligence bill of rights, giving residents rights regarding
+  automated systems that affect equal opportunities, defined to include access to education, and requiring
+  that automated systems used in sensitive domains including education be tailored, overseen, and include
+  human consideration, and that continuous surveillance not be used in education.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Requires automated systems in sensitive domains including education to be tailored to
+      purpose, open to oversight, and include human consideration for high-risk decisions.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08209&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08209
+      locator: § 408(4)
+      quote: Automated systems intended for use within sensitive domains, including but not limited to
+        criminal justice, employment, education, and health, shall additionally be tailored to their purpose,
+        provide meaningful access for oversight
+  - type: restricts-student-data-use
+    description: Bars continuous surveillance and monitoring in education where it is likely to limit
+      rights, opportunities, or access.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08209&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08209
+      locator: § 406(9)
+      quote: Continuous surveillance and monitoring shall not be used in education, work, housing, or
+        any other contexts where the use of such surveillance technologies is likely to limit rights,
+        opportunities, or access.
+sponsors:
+  - name: Jeremy Cooney
+    primary: true
+    party: D
+    chamber: upper
+  - name: Kevin Parker
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-01-12"
+    description: REFERRED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2024-01-12"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08209&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08209
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1812765
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2023/S8209
+    title: S 8209 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08209&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08209
+    title: S 8209 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

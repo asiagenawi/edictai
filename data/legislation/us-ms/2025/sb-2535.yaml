@@ -1,0 +1,99 @@
+id: us-ms-2025-sb-2535
+jurisdiction: us-ms
+session: "2025"
+identifier: SB 2535
+title: MS Future Innovators Act; enact to require high-school computer science or CTE with embedded computer
+  science course.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Requires public high school students, beginning with the 2027-2028 ninth-grade class, to earn
+  one unit of credit in computer science or a CTE course with embedded computer science. The qualifying
+  course must include instruction on emerging technologies such as artificial intelligence, including
+  what AI is, how it works, and its impact on society.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: Creates a computer science graduation requirement whose qualifying course must cover
+      AI concepts.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2500-2599/SB2535PS.htm
+      locator: Section 1, new 37-13-215(4)
+      quote: The computer science course or courses fulfilling this graduation requirement must include
+        instruction on the fundamental concepts of emerging computer science technologies, such as artificial
+        intelligence (AI), including an understanding of what AI is, how it works, and its impact on society.
+  - type: requires-ai-literacy-instruction
+    description: Requires instruction on what AI is, how it works and its societal impact.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2500-2599/SB2535PS.htm
+      locator: Section 1, new 37-13-215(4)
+      quote: including an understanding of what AI is, how it works, and its impact on society
+sponsors:
+  - name: Chris Johnson
+    primary: true
+    party: R
+    chamber: upper
+  - name: Sarita Simmons
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-01-20"
+    description: Referred To Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-02-04"
+    description: Title Suff Do Pass
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-11"
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-12"
+    description: Transmitted To House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-14"
+    description: Referred To Education;Accountability, Efficiency, Transparency
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-04"
+    description: Died In Committee
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2025-01-22"
+    url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2500-2599/SB2535IN.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-02-12"
+    url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2500-2599/SB2535PS.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1936069
+sources:
+  - url: https://billstatus.ls.state.ms.us/2025/pdf/history/SB/SB2535.xml
+    title: SB 2535 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2500-2599/SB2535PS.htm
+    title: SB 2535 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

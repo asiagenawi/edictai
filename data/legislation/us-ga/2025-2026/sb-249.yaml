@@ -1,0 +1,83 @@
+id: us-ga-2025-2026-sb-249
+jurisdiction: us-ga
+session: 2025-2026
+identifier: SB 249
+title: '"Quality Basic Education Act,"; beginning in the 2031-2032 school year, a computer science course
+  shall be a high school graduation requirement; provide'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Makes a computer science course a high school graduation requirement beginning in 2031-32, defines
+  computer science to include artificial intelligence and emerging technologies, allows certain computer
+  science courses to substitute for other credits, and provides grants for computer science teacher professional
+  development subject to appropriations.
+provisions:
+  - type: ai-in-standards
+    description: Defines computer science, which becomes a graduation requirement, to include artificial
+      intelligence.
+    citation:
+      source_url: https://www.legis.ga.gov/api/legislation/document/20252026/233730
+      locator: Sec. 1, 20-2-149.3(b)(1)
+      quote: '''Computer science'' means the study of computers, algorithmic processes, coding, artificial
+        intelligence, emerging technologies, and logical critical thinking'
+sponsors:
+  - name: Clint Dixon
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jason Anavitarte
+    primary: true
+    party: R
+    chamber: upper
+  - name: Max Burns
+    primary: true
+    party: R
+    chamber: upper
+  - name: Marty Harbin
+    primary: true
+    party: R
+    chamber: upper
+  - name: Billy Hickman
+    primary: true
+    party: R
+    chamber: upper
+  - name: Shawn Still
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-24"
+    description: Senate Hopper
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-26"
+    description: Senate Read and Referred
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-25"
+    url: https://www.legis.ga.gov/api/legislation/document/20252026/233730
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1982057
+sources:
+  - url: https://www.legis.ga.gov/legislation/70775
+    title: SB 249 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.ga.gov/api/legislation/document/20252026/233730
+    title: SB 249 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

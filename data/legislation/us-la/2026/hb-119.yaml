@@ -1,0 +1,297 @@
+id: us-la-2026-hb-119
+jurisdiction: us-la
+session: "2026"
+identifier: HB 119
+title: Provides relative to unlawful conduct involving images of another person created by artificial
+  intelligence (EN SEE FISC NOTE GF EX)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Expands crimes involving AI-generated sexual images, including a new crime of possessing such
+  images of persons under seventeen, and defines 'student' for these offenses. Requires public school
+  principals to give students in grade six and above and their parents information each year about these
+  crimes, using materials developed by the Department of Education.
+provisions:
+  - type: addresses-deepfakes
+    description: Public school principals must inform students in grades six and above, and their parents,
+      about crimes involving AI-created images during the first five days of each school year.
+    citation:
+      source_url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1481219
+      locator: Sec. 2, new R.S. 17:416.20.1(A)
+      quote: The principal of each public school shall disseminate information during the first five days
+        of each school year to each student grades six and above regarding the crime and consequences
+        of unlawful dissemination or sale of images of another created by artificial intelligence
+sponsors:
+  - name: Bryan Fontenot
+    primary: true
+    party: R
+    chamber: lower
+  - name: Alonzo Knox
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-13"
+    description: Prefiled.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-13"
+    description: Under the rules, provisionally referred to the Committee on Administration of Criminal
+      Justice.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-13"
+    description: First appeared in the Interim Calendar on 2/13/2026.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: Read by title, under the rules, referred to the Committee on Administration of Criminal
+      Justice.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-18"
+    description: Reported with amendments (12-0).
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-23"
+    description: Read by title, amended, ordered engrossed, passed to 3rd reading.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-23"
+    description: Scheduled for floor debate on 03/24/2026.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: Read by title, returned to the calendar.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: Notice given.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: Scheduled for floor debate on 03/30/2026.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: Called from the calendar.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: Read by title, amended, returned to the calendar.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: Called from the calendar.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: Read third time by title, amended, roll called on final passage, yeas 101, nays 0. Finally
+      passed, title adopted, ordered to the Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-31"
+    description: Received in the Senate. Rules suspended. Read first time by title and placed on the Calendar
+      for a second reading.
+    actor: upper
+    classification:
+      - reading-1
+      - passage
+  - date: "2026-04-01"
+    description: Read second time by title and referred to the Committee on Judiciary C.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-04-14"
+    description: Reported favorably.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-15"
+    description: Read by title and referred to the Legislative Bureau.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-20"
+    description: Reported without Legislative Bureau amendments. Read by title and passed to third reading
+      and final passage.
+    actor: upper
+    classification:
+      - reading-3
+      - committee-passage
+  - date: "2026-04-27"
+    description: Senate floor amendments read and adopted.
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-04-27"
+    description: Read by title and returned to the Calendar, subject to call.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-19"
+    description: Rules suspended. Called from the Calendar.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-19"
+    description: Senate floor amendments read and adopted. Read by title, passed by a vote of 34 yeas
+      and 0 nays, and ordered returned to the House. Motion to reconsider tabled.
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-05-20"
+    description: Received from the Senate with amendments.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-25"
+    description: Scheduled for concurrence on 05/26/2026.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: Read by title, roll called, yeas 99, nays 0, Senate amendments rejected, conference committee
+      appointment pending.
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-26"
+    description: Notice House rejected the Senate amendments.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: 'Senate conference committee members appointed: Hodges, Morris, and Kleinpeter.'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-05-26"
+    description: Notice of Senate conferees appointed.
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-27"
+    description: 'House conferees appointed: Fontenot, Villio, and Boyer.'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-27"
+    description: Notice House Conference Committee members appointed.
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-05-31"
+    description: Conference Committee report received. Lies over under the rules.
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-31"
+    description: Conference committee report received.
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-05-31"
+    description: Scheduled for floor debate on 06/01/2026.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: Conference Committee Report read, roll called, yeas 90, nays 0. The Conference Committee
+      Report was adopted.
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-06-01"
+    description: Notice House adopted the Conference Committee Report.
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-06-01"
+    description: Conference Committee Report read; adopted by a vote of 37 yeas and 0 nays.
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-06-01"
+    description: Notice of Senate adoption of Conference Committee Report.
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-06-01"
+    description: Enrolled and signed by the Speaker of the House.
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-06-01"
+    description: Signed by the President of the Senate on 6/2/2026.
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-06-04"
+    description: Sent to the Governor for executive approval.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-06-09"
+    description: Signed by the Governor. Becomes Act No. 782.
+    actor: executive
+    classification:
+      - became-law
+  - date: "2026-06-09"
+    description: 'Effective date: 08/01/2026.'
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1438658
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1451305
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1456608
+    media_type: application/pdf
+  - note: Enrolled
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1479850
+    media_type: application/pdf
+  - note: Chaptered
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1481219
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2116827
+sources:
+  - url: https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=HB119&sbi=y
+    title: HB 119 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1481219
+    title: HB 119 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

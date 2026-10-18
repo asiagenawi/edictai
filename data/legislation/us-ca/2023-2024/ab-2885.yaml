@@ -1,0 +1,221 @@
+id: us-ca-2023-2024-ab-2885
+jurisdiction: us-ca
+session: 2023-2024
+identifier: AB 2885
+title: Artificial intelligence.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+summary: Establishes a uniform statutory definition of artificial intelligence across several California
+  codes, including the Education Code provisions governing the California Online Community College, whose
+  research and development unit uses machine learning and AI to build out student supports.
+sponsors:
+  - name: Rebecca Bauer-Kahan
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tom Umberg
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-02-15"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-02-16"
+    description: From printer. May be heard in committee March 17.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-21"
+    description: Referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-21"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on P. &
+      C.P. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-04-01"
+    description: Re-referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-01"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on P. &
+      C.P. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-04-01"
+    description: 'In committee: Hearing postponed by committee.'
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-04-02"
+    description: Re-referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-17"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on APPR. with recommendation:
+      To Consent Calendar. (Ayes 11. Noes 0.) (April 16).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-18"
+    description: Read second time and amended.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-04-22"
+    description: Re-referred to Com. on APPR.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-05-08"
+    description: 'From committee: Do pass. To Consent Calendar. (Ayes 15. Noes 0.) (May 8).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-05-09"
+    description: Read second time. Ordered to Consent Calendar.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-05-16"
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 71. Noes 0.)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-05-16"
+    description: In Senate. Read first time. To Com. on RLS. for assignment.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-05-29"
+    description: Referred to Com. on JUD.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-06-19"
+    description: 'From committee: Do pass and re-refer to Com. on APPR with recommendation: To Consent
+      Calendar. (Ayes 10. Noes 0.) (June 18). Re-referred to Com. on APPR.'
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-07-01"
+    description: 'From committee: Be ordered to second reading file pursuant to Senate Rule 28.8 and ordered
+      to Consent Calendar.'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-07-02"
+    description: Read second time. Ordered to Consent Calendar.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-08-05"
+    description: From Consent Calendar.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-08-05"
+    description: Ordered to third reading.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-08-21"
+    description: Read third time and amended. Ordered to second reading.
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2024-08-22"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-08-30"
+    description: Read third time. Passed. Ordered to the Assembly. (Ayes 39. Noes 0.).
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-08-31"
+    description: In Assembly. Concurrence in Senate amendments pending.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-08-31"
+    description: Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 76. Noes 0.).
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-09-13"
+    description: Enrolled and presented to the Governor at 4 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-09-28"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-09-28"
+    description: Chaptered by Secretary of State - Chapter 843, Statutes of 2024.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2024-02-15"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2885#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2024-03-21"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2885#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2024-04-01"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2885#97AMD
+    media_type: text/html
+  - note: Amended
+    date: "2024-04-18"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2885#96AMD
+    media_type: text/html
+  - note: Amended
+    date: "2024-08-21"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2885#95AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2024-09-05"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2885#94ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2024-09-28"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2885#93CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1848433
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240AB2885
+    title: AB 2885 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2885#93CHP
+    title: AB 2885 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

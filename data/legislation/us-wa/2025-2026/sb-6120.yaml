@@ -1,0 +1,78 @@
+id: us-wa-2025-2026-sb-6120
+jurisdiction: us-wa
+session: 2025-2026
+identifier: SB 6120
+title: Regulating high-risk artificial intelligence system development, deployment, and use.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Regulates developers and deployers of high-risk artificial intelligence systems used to make
+  consequential decisions, including decisions on education enrollment or education opportunity, and requires
+  them to protect consumers from algorithmic discrimination.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Includes decisions about education enrollment or opportunity among the consequential
+      decisions the act covers.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6120.pdf
+      locator: Sec. 1(3)
+      quote: 'effect on the provision or denial to any consumer of: (a) Parole, probation, a pardon, or
+        any other release from incarceration or court supervision; (b) Education enrollment or an education
+        opportunity;'
+  - type: bias-or-equity-requirement
+    description: Requires deployers of high-risk AI systems to protect consumers from algorithmic discrimination.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6120.pdf
+      locator: Sec. 3(1)
+      quote: A deployer of a high-risk artificial intelligence system shall use reasonable care to protect
+        consumers from any known or reasonably foreseeable risks of algorithmic discrimination.
+sponsors:
+  - name: Lisa Wellman
+    primary: true
+    party: D
+    chamber: upper
+  - name: Robert Hasegawa
+    primary: false
+    party: D
+    chamber: upper
+  - name: T'wina Nobles
+    primary: false
+    party: D
+    chamber: upper
+  - name: Yasmin Trudeau
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-14"
+    description: First reading, referred to Environment, Energy & Technology.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6120.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2073579
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=6120&Year=2025&Initiative=false
+    title: SB 6120 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6120.pdf
+    title: SB 6120 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

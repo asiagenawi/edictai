@@ -1,0 +1,122 @@
+id: us-nv-2025-sb-174
+jurisdiction: us-nv
+session: "2025"
+identifier: SB 174
+title: Revises provisions relating to pupils with disabilities. (BDR 34-53)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - equity-access
+  - instructional-use
+summary: Revises provisions on pupils with disabilities, including requiring individualized education
+  program teams for pupils with visual or hearing impairments to provide necessary assistive technology,
+  which the bill defines to include artificial intelligence.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines assistive technology that IEP teams must provide to pupils with visual or hearing
+      impairments to include artificial intelligence.
+    citation:
+      source_url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB174_R1.pdf
+      locator: Sec. 4.5(6)(a)
+      quote: Software that converts text to speech; and (7) Artificial intelligence.
+sponsors:
+  - name: James Ohrenschall
+    primary: true
+    party: D
+    chamber: upper
+  - name: Lisa Krasner
+    primary: true
+    party: R
+    chamber: upper
+  - name: Lori Rogich
+    primary: true
+    party: R
+    chamber: upper
+  - name: Marilyn Dondero Loop
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-03"
+    description: Prefiled. Referred to Committee on Education.
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-02-04"
+    description: To printer.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-05"
+    description: From printer.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-05"
+    description: Read first time. To committee.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-04-21"
+    description: 'From committee: Amend, and do pass as amended.'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-21"
+    description: Placed on Second Reading File.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-21"
+    description: Read second time. Amended. (Amend. No. 425.)
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-21"
+    description: Notice of eligibility for exemption.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-21"
+    description: Taken from General File. Re-referred to Committee on Finance. Exemption effective. To
+      printer.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-24"
+    description: From printer. To engrossment. Engrossed. First reprint. To committee.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-03"
+    description: (No further action taken.)
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB174.pdf
+    media_type: application/pdf
+  - note: Amended
+    url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB174_R1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1954479
+sources:
+  - url: https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12192/Overview
+    title: SB 174 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB174_R1.pdf
+    title: SB 174 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

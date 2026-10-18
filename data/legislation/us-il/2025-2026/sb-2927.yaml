@@ -1,0 +1,103 @@
+id: us-il-2025-2026-sb-2927
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 2927
+title: DCEO-AI IMPACT STUDY
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: Requires the Department of Commerce and Economic Opportunity, with the Department of Labor, to
+  study strategies to protect jobs at risk from artificial intelligence. The study must include proposed
+  policy changes related to workforce development, educational systems, and research opportunities for
+  colleges and universities.
+provisions:
+  - type: creates-task-force
+    description: The AI jobs study must propose policy changes for educational systems and colleges and
+      universities.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206650&DocName=10400SB2927&DocNum=2927&DocTypeID=SB&LegID=165303&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 605-1119(c)(6)
+      quote: (6) proposed policy changes related to workforce development, educational systems, and research
+        opportunities for colleges and universities in the State;
+sponsors:
+  - name: Mike Simmons
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-27"
+    description: Filed with Secretary by Sen. Mike Simmons
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-27"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-01-27"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-03"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-04"
+    description: To AI and Social Media
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Rule 2-10 Committee Deadline Established As March 27, 2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Rule 2-10 Committee Deadline Established As April 24, 2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-24"
+    description: Rule 2-10 Committee/3rd Reading Deadline Established As May 15, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-15"
+    description: Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-22"
+    description: Rule 3-9(a) / Re-referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-27"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206650&DocName=10400SB2927&DocNum=2927&DocTypeID=SB&LegID=165303&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2094294
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=2927&GAID=18&DocTypeID=SB&LegId=165303&SessionID=114
+    title: SB 2927 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206650&DocName=10400SB2927&DocNum=2927&DocTypeID=SB&LegID=165303&GAID=18&SessionID=114&SpecSess=&Session=
+    title: SB 2927 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

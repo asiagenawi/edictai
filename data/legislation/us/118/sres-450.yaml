@@ -1,0 +1,104 @@
+id: us-118-sres-450
+jurisdiction: us
+session: "118"
+identifier: S.Res. 450
+title: A resolution expressing the sense of the Senate that paraprofessionals and education support staff
+  should have fair compensation, benefits, and working conditions.
+classification: resolution
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+  - educator-training
+summary: Expresses the sense of the Senate that paraprofessionals and education support staff in schools
+  and public colleges should have fair compensation and working conditions, including input on the implementation
+  of artificial intelligence technology in their schools and professional development as new technologies
+  are introduced.
+provisions:
+  - type: educator-pd-requirement
+    description: States that paraprofessionals and support staff should have input on AI technology in
+      their schools and receive professional development as new technologies are introduced.
+    citation:
+      source_url: https://www.congress.gov/118/bills/sres450/BILLS-118sres450is.pdf
+      locator: Resolving clause, [Page 5]
+      quote: algorithms, and artificial intelligence technology in the applicable school and should receive
+        high- quality professional development as new tech- nologies are introduced;
+sponsors:
+  - name: Edward Markey
+    primary: true
+    party: D
+    chamber: upper
+  - name: Bernard Sanders
+    primary: false
+    party: I
+    chamber: upper
+  - name: Elizabeth Warren
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jeff Merkley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Alex Padilla
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jack Reed
+    primary: false
+    party: D
+    chamber: upper
+  - name: Laphonza Butler
+    primary: false
+    party: D
+    chamber: upper
+  - name: Peter Welch
+    primary: false
+    party: D
+    chamber: upper
+  - name: Sheldon Whitehouse
+    primary: false
+    party: D
+    chamber: upper
+  - name: Benjamin Cardin
+    primary: false
+    party: D
+    chamber: upper
+  - name: Sherrod Brown
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cory Booker
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2023-11-06"
+    description: 'Referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S5361-5362)'
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2023-11-07"
+    url: https://www.congress.gov/118/bills/sres450/BILLS-118sres450is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1782893
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/senate-resolution/450/all-info
+    title: S.Res. 450 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/sres450/BILLS-118sres450is.pdf
+    title: S.Res. 450 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

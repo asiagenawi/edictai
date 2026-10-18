@@ -1,0 +1,271 @@
+id: us-ca-2025-2026-ab-2504
+jurisdiction: us-ca
+session: 2025-2026
+identifier: AB 2504
+title: 'Community colleges: artificial intelligence: pilot program.'
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+summary: Requires the Chancellor of the California Community Colleges, upon appropriation, to establish
+  the Future of Creative Industries Pilot Program at up to 10 community colleges to reskill and upskill
+  creative-industry workers displaced or at risk of displacement by generative AI, and to report on outcomes
+  by January 1, 2032.
+provisions:
+  - type: ai-workforce-program
+    description: Creates a community college pilot program offering reskilling for creative workers displaced
+      by generative AI.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#92CHP
+      locator: Sec. 1, new 78026.2(a)(3)(A)
+      quote: who have been or are at risk of being displaced by generative artificial intelligence, including
+        sound engineers, voice actors, concept artists, and employees in entry-level positions, by providing
+        structured reskilling and upskilling opportunities through the California Community Colleges.
+sponsors:
+  - name: Rebecca Bauer-Kahan
+    primary: true
+    party: D
+    chamber: lower
+  - name: Michelle Rodriguez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Cottie Petrie-Norris
+    primary: false
+    party: D
+    chamber: lower
+  - name: LaShae Sharp-Collins
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-20"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-21"
+    description: From printer. May be heard in committee March 23.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: Referred to Com. on B. & P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-17"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on B. &
+      P. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2026-03-18"
+    description: Re-referred to Com. on B. & P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-19"
+    description: Re-referred to Coms. on HIGHER ED. and P. & C.P. pursuant to Assembly Rule 96.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-06"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on HIGHER
+      ED. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2026-04-07"
+    description: Re-referred to Com. on HIGHER ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-15"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on P. & C.P. (Ayes
+      9. Noes 0.) (April 14).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-16"
+    description: Read second time and amended.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-04-20"
+    description: Re-referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-22"
+    description: 'From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent
+      Calendar. (Ayes 15. Noes 0.) (April 21). Re-referred to Com. on APPR.'
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-05-06"
+    description: 'In committee: Set, first hearing. Referred to APPR. suspense file.'
+    actor: lower
+    classification:
+      - committee-hearing
+      - referral-committee
+  - date: "2026-05-14"
+    description: 'From committee: Do pass. (Ayes 15. Noes 0.) (May 14).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-05-18"
+    description: Read second time. Ordered to third reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-05-26"
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 78. Noes 0.)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-27"
+    description: In Senate. Read first time. To Com. on RLS. for assignment.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-06-10"
+    description: Referred to Coms. on ED. and P., D.T., & C.P.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-06-11"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to committee. Read
+      second time, amended, and re-referred to Com. on ED.'
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - committee-passage
+  - date: "2026-06-25"
+    description: 'From committee: Do pass and re-refer to Com. on P., D.T., & C.P. (Ayes 7. Noes 0.) (June
+      24). Re-referred to Com. on P., D.T., & C.P.'
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-06-29"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on APPR. with recommendation:
+      To Consent Calendar. (Ayes 9. Noes 0.) (June 29).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-06-30"
+    description: Read second time and amended. Re-referred to Com. on APPR.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-08-03"
+    description: 'In committee: Referred to APPR. suspense file.'
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-08-13"
+    description: 'From committee: Do pass. (Ayes 7. Noes 0.) (August 13).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-08-13"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-08-18"
+    description: Ordered to special consent calendar.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-08-20"
+    description: Read third time. Passed. Ordered to the Assembly. (Ayes 39. Noes 0.).
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-08-20"
+    description: In Assembly. Concurrence in Senate amendments pending.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-08-24"
+    description: Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 78. Noes 0. Page 6412.).
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-08-28"
+    description: Enrolled and presented to the Governor at 3:30 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-09-18"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-09-18"
+    description: Chaptered by Secretary of State - Chapter 305, Statutes of 2026.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2026-02-20"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-03-17"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2026-04-06"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#97AMD
+    media_type: text/html
+  - note: Amended
+    date: "2026-04-16"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#96AMD
+    media_type: text/html
+  - note: Amended
+    date: "2026-06-11"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#95AMD
+    media_type: text/html
+  - note: Amended
+    date: "2026-06-30"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#94AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-08-26"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#93ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2026-09-18"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#92CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2121581
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB2504
+    title: AB 2504 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2504#92CHP
+    title: AB 2504 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

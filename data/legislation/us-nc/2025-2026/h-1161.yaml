@@ -1,0 +1,178 @@
+id: us-nc-2025-2026-h-1161
+jurisdiction: us-nc
+session: 2025-2026
+identifier: H 1161
+title: Omnibus Artificial Intelligence Protections
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - academic-integrity
+  - instructional-use
+  - ai-literacy
+  - curriculum-standards
+  - funding
+summary: Authorizes local boards of education and other public school units to adopt policies on student
+  AI use, including blocking AI tools and disciplining unauthorized use, with exceptions for teacher-authorized
+  or IEP/504 use. Creates a middle school course covering proper uses of AI and identifying AI-generated
+  content, with $500,000 for implementation, and requires universities and community colleges to develop
+  standards for classroom AI use and discipline for misuse.
+provisions:
+  - type: academic-integrity-rules
+    description: Lets local boards adopt student AI policies that may block AI tools and discipline unauthorized
+      use.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1161v1.pdf
+      locator: Sec. 2.1.(a), new G.S. 115C-102.13(b)
+      quote: Disciplinary actions for unauthorized use of artificial intelligence, up to retaining the
+        student in the current grade for repeated violations.
+  - type: limits-ai-instructional-use
+    description: Allows schools to block student access to AI tools on devices and internet connections.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1161v1.pdf
+      locator: Sec. 2.1.(a), new G.S. 115C-102.13(b)(1)
+      quote: Allow schools to block access to AI tools on student electronic devices.
+  - type: requires-ai-literacy-instruction
+    description: Requires a middle school course to include proper uses of AI and identifying AI-generated
+      content.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1161v1.pdf
+      locator: Sec. 2.2
+      quote: Proper uses of artificial intelligence in an academic and professional setting. (4) Instruction
+        on identifying content generated using artificial intelligence.
+  - type: requires-local-ai-policy
+    description: Requires each community college to develop standards for classroom AI use, present them
+      to students and provide discipline for misuse.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1161v1.pdf
+      locator: Sec. 2.3.(b)
+      quote: The policy shall permit community colleges to set their own standards but shall ensure that
+        each community college (i) presents its standards to all students every year and (ii) provides
+        for appropriate disciplinary action in the event a student misuses artificial intelligence in
+        a class
+sponsors:
+  - name: Carolyn Logan
+    primary: true
+    party: D
+    chamber: lower
+  - name: Maria Cervania
+    primary: true
+    party: D
+    chamber: lower
+  - name: Julia Greenfield
+    primary: true
+    party: D
+    chamber: lower
+  - name: Zack Forde-Hawkins
+    primary: true
+    party: D
+    chamber: lower
+  - name: Cynthia Ball
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gloristine Brown
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kanika Brown
+    primary: false
+    party: D
+    chamber: lower
+  - name: Deb Butler
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tracy Clark
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Colvin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Allison Dahle
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Harrison
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frances Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Monika Johnson-Hostler
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marcia Morey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Renee Price
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Roberson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brian Turner
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-04-30"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-05-04"
+    description: Passed 1st Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-05-04"
+    description: Ref to the Com on Appropriations, if favorable, Rules, Calendar, and Operations of the
+      House
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-04-30"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1161v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-05-04"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1161v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2146882
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/H1161
+    title: H 1161 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1161v1.pdf
+    title: H 1161 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

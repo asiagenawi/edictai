@@ -1,0 +1,210 @@
+id: us-md-2026-sb-597
+jurisdiction: us-md
+session: "2026"
+identifier: SB 597
+title: Higher Education - Maryland Artificial Intelligence Partnership
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Alters the Cyber Warrior Diversity Program to include training students in artificial intelligence
+  and extends related scholarship terms to AI degree programs. Establishes the Maryland Artificial Intelligence
+  Partnership in the University System of Maryland, which provides free AI skills training including credit-bearing
+  credentials, and an Artificial Intelligence Public Service Fellowship matching public college students
+  with state agency AI projects.
+provisions:
+  - type: ai-workforce-program
+    description: Expands the Cyber Warrior Diversity Program to train students in AI.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_633_sb0597e.pdf
+      locator: Purpose paragraph
+      quote: altering the Cyber Warrior Diversity Program to include training students in artificial intelligence
+  - type: ai-workforce-program
+    description: Directs the AI Partnership to provide free AI skills training, including courses and
+      credit-bearing credentials.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_633_sb0597e.pdf
+      locator: Section 1, Maryland Artificial Intelligence Partnership duties
+      quote: PROVIDE ARTIFICIAL INTELLIGENCE SKILLS TRAINING TO INDIVIDUALS AT NO CHARGE, INCLUDING THROUGH
+        COURSES AND CREDIT–BEARING CREDENTIALS.
+  - type: ai-workforce-program
+    description: Creates an AI Public Service Fellowship placing public college students on state agency
+      AI projects.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_633_sb0597e.pdf
+      locator: Section 1, AI Public Service Fellowship (C)
+      quote: THE PURPOSE OF THE FELLOWSHIP IS TO MATCH STUDENTS ENROLLED IN PUBLIC INSTITUTIONS OF HIGHER
+        EDUCATION WITH STATE AGENCIES TO ADDRESS ARTIFICIAL INTELLIGENCE PROJECTS.
+  - type: appropriates-funding
+    description: Extends scholarship eligibility to students in degree or certificate programs relevant
+      to AI.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_633_sb0597e.pdf
+      locator: Section 1, scholarship provisions [Page 10]
+      quote: takes at least 6 semester hours of courses each semester leading to a degree or certificate
+        that is directly relevant to cybersecurity OR ARTIFICIAL INTELLIGENCE.
+sponsors:
+  - name: Katie Hester
+    primary: true
+    party: D
+    chamber: upper
+  - name: Dalya Attar
+    primary: false
+    party: D
+    chamber: upper
+  - name: Benjamin Brooks
+    primary: false
+    party: D
+    chamber: upper
+  - name: Brian Feldman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Kevin Harris
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cheryl Kagan
+    primary: false
+    party: D
+    chamber: upper
+  - name: Bryan Simonaire
+    primary: false
+    party: R
+    chamber: upper
+  - name: Ron Watson
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-02-05"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2026-02-10"
+    description: Hearing 3/11 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-20"
+    description: Favorable with Amendments Report by Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-20"
+    description: Favorable with Amendments {643822/1
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-20"
+    description: Motion Special Order until Later Today (Senator Feldman) Adopted
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-20"
+    description: Favorable with Amendments {643822/1 Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-20"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-23"
+    description: Third Reading Passed (44-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-23"
+    description: Referred Appropriations
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-26"
+    description: Hearing 3/31 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-11"
+    description: Favorable with Amendments Report by Appropriations
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-11"
+    description: Favorable with Amendments {543723/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-11"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-04-13"
+    description: Third Reading Passed (129-2)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-13"
+    description: Senate Concurs House Amendments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-13"
+    description: Third Reading Passed (46-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-13"
+    description: Passed Enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-05-26"
+    description: Approved by the Governor - Chapter 633
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2026-02-05"
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0597f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-03-20"
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0597t.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-04-14"
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0597e.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-06-03"
+    url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_633_sb0597e.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2108370
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0597?ys=2026RS
+    title: SB 597 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_633_sb0597e.pdf
+    title: SB 597 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

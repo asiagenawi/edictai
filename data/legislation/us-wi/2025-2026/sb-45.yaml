@@ -1,0 +1,635 @@
+id: us-wi-2025-2026-sb-45
+jurisdiction: us-wi
+session: 2025-2026
+identifier: SB 45
+title: State finances and appropriations, constituting the executive budget act of the 2025 legislature.
+  (FE)
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - workforce
+  - educator-training
+  - curriculum-standards
+summary: Executive budget that allows the Technical College System Board to award grants to technical
+  college districts for adopting and using artificial intelligence, including educator upskilling, curriculum
+  development, and stackable credentials. Also directs the Department of Workforce Development to allocate
+  $200,000 a year in grants to help school districts prepare students for a future that includes artificial
+  intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Authorizes grants to technical college district boards for AI adoption, including educator
+      upskilling and curriculum and credential development.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB45.pdf
+      locator: Section 647, new s. 38.04 (25)
+      quote: 'the board may award grants to district boards to support the district boards with the adoption
+        and use of artificial intelligence in areas including the following: (a) Educator recruitment,
+        retention, and upskilling. (b) Curriculum and resource development to meet employer demand.'
+  - type: appropriates-funding
+    description: Allocates $200,000 a year for grants helping school districts prepare students for a
+      future that includes AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB45.pdf
+      locator: Section 9150 (d)
+      quote: the department of workforce development shall allocate $200,000 for grants under s. 106.27
+        (1) to help school districts to prepare students for a future that includes artificial intelligence.
+sponsors:
+  - name: Finance
+    classification: committee
+    primary: true
+actions:
+  - date: "2025-02-18"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-18"
+    description: Read first time and referred to Joint Committee on Finance
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-04-01"
+    description: Agency briefing held
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-02"
+    description: Public hearing held
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2025-04-04"
+    description: Public hearing held
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2025-04-28"
+    description: Public hearing held
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2025-04-29"
+    description: Public hearing held
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2025-05-08"
+    description: Executive action taken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Senate Substitute Amendment 1 offered by Joint Committee on Finance
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-29"
+    description: Executive action taken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-05"
+    description: Executive action taken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-10"
+    description: Executive action taken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-12"
+    description: Executive action taken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-17"
+    description: Executive action taken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-27"
+    description: Report of Joint Survey Committee on Tax Exemptions requested
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-27"
+    description: Report of Joint Survey Committee on Retirement Systems requested
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-27"
+    description: Executive action taken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Report of Joint Survey Committee on Tax Exemptions received
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Report of Joint Survey Committee on Retirement Systems received
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Executive action taken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Senate Substitute Amendment 2 offered by Joint Committee on Finance
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Report adoption of Senate Substitute Amendment 2 recommended by Joint Committee on Finance,
+      Ayes 12, Noes 4
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Report passage as amended recommended by Joint Committee on Finance, Ayes 12, Noes 4
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-07-01"
+    description: Available for scheduling
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 1 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 2 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 3 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 4 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 5 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 6 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 7 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 8 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 9 to Senate Substitute Amendment 2 offered by Senators Hesselbein, Smith,
+      Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski, Larson,
+      Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 10 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, Roys, L. Johnson, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 11 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 12 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 13 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 14 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff and Ratcliff
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 15 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 16 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 17 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Roys, Habush Sinykin, Keyeski, Dassler-Alfheim, Wall, Ratcliff, Smith, Spreitzer, Pfaff, Drake,
+      L. Johnson and Larson
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 18 to Senate Substitute Amendment 2 offered by Senators Roys, Habush
+      Sinykin, Keyeski, Dassler-Alfheim, Wall, Ratcliff, Smith, Hesselbein, Spreitzer, Pfaff, Drake, L.
+      Johnson and Larson
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 19 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 20 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 21 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, Roys, L. Johnson, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 22 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 23 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 24 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 25 to Senate Substitute Amendment 2 offered by Senators Hesselbein,
+      Smith, Spreitzer, Drake, L. Johnson, Roys, Carpenter, Dassler-Alfheim, Habush Sinykin, Keyeski,
+      Larson, Pfaff, Ratcliff and Wall
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Read a second time
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 1 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 2 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 3 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 4 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 5 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 6 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 7 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 8 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 9 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 10 to Senate Substitute Amendment 2 rejected, Ayes 17, Noes 16
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 11 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 12 to Senate Substitute Amendment 2 rejected, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 26 to Senate Substitute Amendment 2 offered by Senator LeMahieu
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 13 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 14 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 15 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 16 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 17 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 18 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 19 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 20 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 21 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 22 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 23 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 24 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 25 to Senate Substitute Amendment 2 laid on table, Ayes 18, Noes 15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Senate Amendment 26 to Senate Substitute Amendment 2 adopted, Ayes 20, Noes 13
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2025-07-02"
+    description: Senate Substitute Amendment 2 adopted, Ayes 19, Noes 14
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-07-02"
+    description: Ordered to a third reading
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Rules suspended to give bill its third reading
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-07-02"
+    description: Read a third time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-07-02"
+    description: Move to call the question, Ayes 22, Noes 11
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Passed, Ayes 19, Noes 14
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-07-02"
+    description: Ordered immediately messaged
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Received from Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Read
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Rules suspended to withdraw from Senate message and take up
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Read a second time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Ordered to a third reading
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Rules suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Read a third time and concurred in, Ayes 59, Noes 39
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-07-02"
+    description: Ordered immediately messaged
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-03"
+    description: Received from Assembly concurred in
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-03"
+    description: LRB correction (Senate Amendment 26 to Senate Substitute Amendment 2)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-03"
+    description: LRB correction (Senate Substitute Amendment 2)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-03"
+    description: Report correctly enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2025-07-03"
+    description: Presented to the Governor on 7-3-2025
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-07-03"
+    description: Report approved by the Governor with partial veto on 7-3-2025. 2025 Wisconsin Act 15
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-07-03"
+    description: Published 7-3-2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-17"
+    description: LRB correction (Senate Amendment 2 to Senate Substitute Amendment 2)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Placed on calendar 5-12-2026 pursuant to Joint Rule 82 (2)(a)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-13"
+    description: Failed to pass partial veto notwithstanding the objections of the Governor pursuant to
+      Joint Rule 82
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Chaptered
+    url: https://docs.legis.wisconsin.gov/document/acts/2025/15.pdf
+    media_type: application/pdf
+  - note: Introduced
+    date: "2025-02-18"
+    url: https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB45.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1974279
+sources:
+  - url: https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb45
+    title: SB 45 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB45.pdf
+    title: SB 45 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -5,3 +5,26 @@ abbreviation: NE
 classification: state
 fips: "31"
 region: Midwest
+sessions:
+  - identifier: "2023-2024"
+    name: 108th Legislature
+    classification: primary
+    start_date: "2023-01-04"
+    legiscan_session_id: 2028
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:ne/government?include=legislative_sessions"
+        title: Open States API, Nebraska legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2025-2026"
+    name: 109th Legislature
+    classification: primary
+    start_date: "2025-01-08"
+    legiscan_session_id: 2185
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:ne/government?include=legislative_sessions"
+        title: Open States API, Nebraska legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

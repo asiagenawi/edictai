@@ -1,0 +1,87 @@
+id: us-il-2025-2026-hb-4945
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 4945
+title: SCH CD-TECHNOLOGY GUIDANCE
+classification: bill
+education_levels:
+  - k12
+topics:
+  - workforce
+  - curriculum-standards
+  - task-force
+summary: Authorizes the State Board of Education, subject to appropriation, to provide statewide guidance
+  to school districts on workforce development curriculum or programming with best practices for teaching
+  artificial intelligence, quantum computing, and other emerging technologies. Requires the State Board
+  to review technology-focused workforce curricula and programs in other states.
+provisions:
+  - type: issues-model-policy
+    description: The State Board may issue guidance on curriculum or programming for teaching AI and other
+      emerging technologies.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=207642&DocName=10400HB4945&DocNum=4945&DocTypeID=HB&LegID=166296&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.118b(b)
+      quote: provides best practices for teaching artificial intelligence, quantum computing, and other
+        types of rapidly growing technologies as deemed necessary, in a manner that prepares students
+        for workforce, job, and career competencies in the future
+  - type: creates-task-force
+    description: The State Board must review other states' technology workforce curricula, such as AI.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=207642&DocName=10400HB4945&DocNum=4945&DocTypeID=HB&LegID=166296&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.118b(d)
+      quote: The State Board shall prepare a comprehensive review of any workforce development preparation
+        curriculum and programming specifically designed around technology, such as artificial intelligence
+        and quantum computing
+sponsors:
+  - name: Joyce Mason
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-04"
+    description: Filed with the Clerk by Rep. Joyce Mason
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-06"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-02-06"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-12"
+    description: Assigned to Education Policy Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-27"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-04"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=207642&DocName=10400HB4945&DocNum=4945&DocTypeID=HB&LegID=166296&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2107339
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=4945&GAID=18&DocTypeID=HB&LegId=166296&SessionID=114
+    title: HB 4945 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=207642&DocName=10400HB4945&DocNum=4945&DocTypeID=HB&LegID=166296&GAID=18&SessionID=114&SpecSess=&Session=
+    title: HB 4945 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

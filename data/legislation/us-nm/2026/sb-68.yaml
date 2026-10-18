@@ -1,0 +1,73 @@
+id: us-nm-2026-sb-68
+jurisdiction: us-nm
+session: "2026"
+identifier: SB 68
+title: Artificial Intelligence Government Use Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - educator-training
+  - institutional-operations
+summary: Enacts the Artificial Intelligence Government Use Act, requiring public bodies, defined to include
+  school districts, charter schools, state schools for the deaf and blind, and public post-secondary institutions,
+  to adopt policies on employee use of artificial intelligence and automated decision tools, require a
+  human to make final consequential decisions, and train employees on those policies.
+provisions:
+  - type: requires-local-ai-policy
+    description: Each public body, including school districts, charter schools, and public post-secondary
+      institutions, must establish a policy on authorized employee use of AI and automated decision tools.
+    citation:
+      source_url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/senate/SB0068.pdf
+      locator: Sec. 3(A)
+      quote: A public body shall establish a policy regarding the authorized uses of artificial intelligence
+        and automated decision tools and technology resources by employees.
+  - type: educator-pd-requirement
+    description: Each public body must train its employees on its AI use policies and on appropriate use
+      of AI in decision-making.
+    citation:
+      source_url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/senate/SB0068.pdf
+      locator: Sec. 4(A)
+      quote: 'A public body shall train its employees on: A. its policies regarding cybersecurity and
+        employee use of artificial intelligence, automated decision tools and technology resources'
+sponsors:
+  - name: Heather Berghmans
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-22"
+    description: 'Sent to SCC - Referrals: SCC/SHPAC/SJC'
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-22"
+    description: Action Postponed Indefinitely
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-01-22"
+    url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/senate/SB0068.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2091342
+sources:
+  - url: https://www.nmlegis.gov/Legislation/Legislation?chamber=S&legtype=B&legno=68&year=26
+    title: SB 68 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/senate/SB0068.pdf
+    title: SB 68 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

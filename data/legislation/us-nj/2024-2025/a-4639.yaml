@@ -1,0 +1,104 @@
+id: us-nj-2024-2025-a-4639
+jurisdiction: us-nj
+session: 2024-2025
+identifier: A 4639
+title: Requires boards of education to adopt policy on use of surveillance systems with artificial intelligence
+  capabilities.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - local-policy-requirement
+  - student-privacy
+  - data-governance
+summary: Requires school district boards of education and charter or renaissance school boards that use
+  surveillance systems with artificial intelligence capabilities, including video surveillance, x-ray
+  machines or body scanners, to adopt a policy on their use. The policy must describe the information
+  collected, its use and access consistent with student records law, require signage where the systems
+  are used, and be distributed to parents and guardians.
+provisions:
+  - type: requires-local-ai-policy
+    description: Requires boards using AI-capable surveillance systems to adopt a policy on their use.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2024/A5000/4639_R2.HTM
+      locator: Sec. 1a.
+      quote: 'shall be required to adopt a policy regarding the use of the surveillance system. The policy,
+        at a minimum, shall:'
+  - type: requires-disclosure
+    description: Requires signage indicating that an AI-capable surveillance system is in use on school
+      buildings or grounds.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2024/A5000/4639_R2.HTM
+      locator: Sec. 1a.(5)
+      quote: signage shall indicate that a surveillance system with artificial intelligence capabilities
+        is in use in the building or on the school grounds.
+  - type: requires-disclosure
+    description: Requires the policy to be distributed to parents and guardians.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2024/A5000/4639_R2.HTM
+      locator: Sec. 1c.
+      quote: required to establish a policy pursuant to subsection a. of this section shall be required
+        to distribute the policy to the parents and guardians of students within the district
+sponsors:
+  - name: Cody Miller
+    primary: true
+    party: D
+    chamber: lower
+  - name: Carmen Morales
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Hutchison
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-06-25"
+    description: Introduced, Referred to Assembly Science, Innovation and Technology Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2024-10-21"
+    description: Reported out of Asm. Comm. with Amendments, and Referred to Assembly Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-12-18"
+    description: Reported out of Assembly Comm. with Amendments, 2nd Reading
+    actor: lower
+    classification:
+      - reading-2
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2024-06-26"
+    url: https://pub.njleg.gov/Bills/2024/A5000/4639_I1.HTM
+    media_type: text/html
+  - note: Amended
+    date: "2024-10-22"
+    url: https://pub.njleg.gov/Bills/2024/A5000/4639_R1.HTM
+    media_type: text/html
+  - note: Amended
+    date: "2025-12-19"
+    url: https://pub.njleg.gov/Bills/2024/A5000/4639_R2.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1883140
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2024/A4639
+    title: A 4639 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2024/A5000/4639_R2.HTM
+    title: A 4639 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

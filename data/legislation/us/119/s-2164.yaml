@@ -1,0 +1,87 @@
+id: us-119-s-2164
+jurisdiction: us
+session: "119"
+identifier: S. 2164
+title: Algorithmic Accountability Act of 2025
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Directs the Federal Trade Commission to require covered entities to perform impact assessments,
+  including evaluation of differential performance, of automated decision systems used to make decisions
+  with legal, material, or similarly significant effects on consumers, which include decisions on access
+  to education and vocational training, including assessment, accreditation, or certification.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Critical decisions subject to impact assessment include decisions on education and vocational
+      training, including assessment, accreditation, or certification.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s2164/BILLS-119s2164is.pdf
+      locator: Sec. 2(8)(A)
+      quote: consumer’s life relating to access to or the cost, terms, or availability of— (A) education
+        and vocational training, in- cluding assessment, accreditation, or certifi- cation;
+sponsors:
+  - name: Ron Wyden
+    primary: true
+    party: D
+    chamber: upper
+  - name: Elizabeth Warren
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cory Booker
+    primary: false
+    party: D
+    chamber: upper
+  - name: Martin Heinrich
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ben Lujan
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jeff Merkley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mazie Hirono
+    primary: false
+    party: D
+    chamber: upper
+  - name: Brian Schatz
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-06-25"
+    description: Read twice and referred to the Committee on Commerce, Science, and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-07-03"
+    url: https://www.congress.gov/119/bills/s2164/BILLS-119s2164is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2038257
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/2164/all-info
+    title: S. 2164 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s2164/BILLS-119s2164is.pdf
+    title: S. 2164 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,61 @@
+id: us-pa-2025-2026-hb-1448
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 1448
+title: In preliminary provisions, providing for financial transparency data and reporting system.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - data-governance
+  - institutional-operations
+summary: Directs the Department of Education to develop a basic education funding transparency data and
+  reporting system. The system must include data mining, machine learning, predictive analytics and natural
+  language processing capabilities while complying with federal student privacy law.
+sponsors:
+  - name: Jason Ortitay
+    primary: true
+    party: R
+    chamber: lower
+  - name: Michael Stender
+    primary: false
+    party: R
+    chamber: lower
+  - name: Andrew Kuzma
+    primary: false
+    party: R
+    chamber: lower
+  - name: Milou Mackenzie
+    primary: false
+    party: R
+    chamber: lower
+  - name: Joseph Ciresi
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-05-13"
+    description: Referred to Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1448/PN1693
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2030652
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb1448
+    title: HB 1448 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1448/PN1693
+    title: HB 1448 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

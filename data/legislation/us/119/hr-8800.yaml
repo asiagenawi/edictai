@@ -1,0 +1,576 @@
+id: us-119-hr-8800
+jurisdiction: us
+session: "119"
+identifier: H.R. 8800
+title: Military Chaplains Modernization Act of 2026 SHIPS for America Act of 2026 Shipbuilding and Harbor
+  Infrastructure for Prosperity and Security for America Act of 2026
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - academic-integrity
+  - task-force
+summary: Requires the Superintendent of the United States Air Force Academy to report a strategy to improve
+  academic outcomes, including an assessment of the Cadet Honor Code and recommendations to update it
+  to address artificial intelligence and large language models.
+provisions:
+  - type: creates-task-force
+    description: The Academy's academic outcomes report must assess the Cadet Honor Code and recommend
+      updates to address AI and large language models.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8800/BILLS-119hr8800eh.pdf
+      locator: Sec. 529F(1)
+      quote: an assessment of the Cadet Honor Code and any recommendations of the Superintendent to update
+        the Cadet Honor Code to address artificial intelligence, large language models, and other emerging
+        technology;
+sponsors:
+  - name: Mike D. Rogers
+    primary: true
+    party: R
+    chamber: lower
+  - name: Adam Smith
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-05-13"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-05-13"
+    description: Referred to the House Committee on Armed Services.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-04"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-04"
+    description: 'Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 12.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-06-15"
+    description: Reported (Amended) by the Committee on Armed Services. H. Rept. 119-698.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-15"
+    description: Placed on the Union Calendar, Calendar No. 606.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-30"
+    description: Rules Committee Resolution H. Res. 1398 Reported to House. Rule provides for consideration
+      of H.R. 8800, H.R. 8595, H.R. 8884 and H. Res. 1383. The resolution provides for consideration of
+      H.R. 8800 and H.R. 8595 under a structured rule, and H.R. 8884 and H. Res. 1383 under a closed rule.
+      The resolution provides for one hour of general debate on each measure and one motion to recommit
+      on H.R. 8800, H.R. 8595, and H.R. 8884.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-20"
+    description: Rules Committee Resolution H. Res. 1438 Reported to House. Rule provides for consideration
+      of H.R. 8800, H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955 and H.R. 9770. The resolution provides
+      for consideration of H.R. 8800 under a structured rule and for consideration of H.R. 8884, H. Con.
+      Res. 113, H.R. 7008, H.R. 6955, and H.R. 9770 under a closed rule, with one hour of debate on each
+      measure and one motion to recommit on H.R. 8800, H.R. 8884, H.R. 7008, H.R. 6955, and H.R. 9770.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: 'Considered under the provisions of rule H. Res. 1438. (consideration: CR H4736-5007;
+      text of amendment in the nature of a substitute: CR H4746-4967)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: Rule provides for consideration of H.R. 8800, H.R. 8884, H. Con. Res. 113, H.R. 7008,
+      H.R. 6955 and H.R. 9770. The resolution provides for consideration of H.R. 8800 under a structured
+      rule and for consideration of H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955, and H.R. 9770 under
+      a closed rule, with one hour of debate on each measure and one motion to recommit on H.R. 8800,
+      H.R. 8884, H.R. 7008, H.R. 6955, and H.R. 9770.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: House resolved itself into the Committee of the Whole House on the state of the Union
+      pursuant to H. Res. 1438 and Rule XVIII.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: The Speaker designated the Honorable Nathaniel Moran to act as Chairman of the Committee.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate
+      on H.R. 8800.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Boebert amendment No. 1.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Boebert amendment No. 1, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the noes had prevailed.
+      Ms. Boebert demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Boebert amendment No. 2.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Boebert amendment No. 2, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the noes had prevailed.
+      Ms. Boebert demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Boebert amendment No. 3.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Boebert amendment No. 3, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the noes had prevailed.
+      Ms. Boebert demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Boebert amendment No. 4.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Boebert amendment No. 4, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the noes had prevailed.
+      Ms. Boebert demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) en bloc amendment No. 1.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Hunt amendment No. 6.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Hunt amendment No. 6, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed.
+      Mr. Garamendi demanded a recorded vote, and the Chair postponed further proceedings until a time
+      to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Hunt amendment No. 7.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Hunt amendment No. 7, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed.
+      Mr. Carbajal demanded a recorded vote, and the Chair postponed further proceedings until a time
+      to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Gallagher amendment No. 8.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Gallagher amendment No. 8,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had
+      prevailed. Mr. Carbajal demanded a recorded vote, and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Carter (GA) amendment No. 9.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Carter (GA) amendment No.
+      9, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes
+      had prevailed. Mr. Carbajal demanded a recorded vote, and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Crane amendment No. 14.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Crane amendment No. 14, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the noes had prevailed.
+      Mr. Crane demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Crane amendment No. 15.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Crane amendment No. 15, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the noes had prevailed.
+      Mr. Crane demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Crank amendment No. 17.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Crank amendment No. 17, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed.
+      Ms. Tokuda demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Boebert amendment No. 18.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Boebert amendment No. 18,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had
+      prevailed. Mr. Takano demanded a recorded vote, and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Mace amendment No. 19.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Mace amendment No. 19, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed.
+      Mr. Cisneros demanded a recorded vote, and the Chair postponed further proceedings until a time
+      to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Mace amendment No. 20.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Mace amendment No. 20, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed.
+      Ms. Jacobs demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the McDowell amendment No. 26.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the McDowell amendment No. 26,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had
+      prevailed. Mr. Courtney demanded a recorded vote, and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-21"
+    description: Mr. Rogers (AL) moved that the committee rise.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: On motion that the committee rise Agreed to by voice vote.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: Committee of the Whole House on the state of the Union rises leaving H.R. 8800 as unfinished
+      business.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: 'Considered as unfinished business. (consideration: CR H5008-5018)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: The House resolved into Committee of the Whole House on the state of the Union for further
+      consideration.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: Mr. Rogers (AL) moved that the committee rise.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: On motion that the committee rise Agreed to by voice vote.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-21"
+    description: Committee of the Whole House on the state of the Union rises leaving H.R. 8800 as unfinished
+      business.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: 'Considered as unfinished business. (consideration: CR H5029-5127)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: The House resolved into Committee of the Whole House on the state of the Union for further
+      consideration.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Self amendment No. 28.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Self amendment No. 28, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed.
+      Ms. Houlahan demanded a recorded vote, and the Chair postponed further proceedings until a time
+      to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Issa amendment No. 30.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Issa amendment No. 30, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed.
+      Mr. Casten demanded a recorded vote, and the Chair postponed further proceedings until a time to
+      be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Hinson amendment No. 34.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Harrigan amendment No. 44.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Harrigan amendment No. 44,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had
+      prevailed. Mr. Cisneros demanded a recorded vote, and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 2.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 3.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 4.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 5.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1438, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Grothman amendment No. 316.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Grothman amendment No. 316,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced the noes had
+      prevailed. Mr. Grothman demanded a recorded vote, and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-22"
+    description: Mr. Rogers (AL) moved that the committee rise.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: On motion that the committee rise Agreed to by voice vote.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: Committee of the Whole House on the state of the Union rises leaving H.R. 8800 as unfinished
+      business.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: 'Considered as unfinished business. (consideration: CR H5153-5157)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: The House resolved into Committee of the Whole House on the state of the Union for further
+      consideration.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: The House rose from the Committee of the Whole House on the state of the Union to report
+      H.R. 8800.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: The previous question was ordered pursuant to the rule.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: The House adopted the amendments en gros as agreed to by the Committee of the Whole House
+      on the state of the Union.
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-07-22"
+    description: 'Mr. Ryan moved to recommit to the Committee on Armed Services. (text: CR H5156)'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-07-22"
+    description: The previous question on the motion to recommit was ordered pursuant to clause 2(b) of
+      rule XIX.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: 'On motion to recommit Failed by the Yeas and Nays: 213 - 216 (Roll no. 277).'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: 'On passage Passed by the Yeas and Nays: 216 - 212 (Roll no. 278).'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-22"
+    description: Motion to reconsider laid on the table Agreed to without objection.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-09-14"
+    description: Received in the Senate.
+    actor: upper
+    classification:
+      - passage
+versions:
+  - note: Introduced
+    date: "2026-05-14"
+    url: https://www.congress.gov/119/bills/hr8800/BILLS-119hr8800ih.pdf
+    media_type: application/pdf
+  - note: Introduced
+    date: "2026-06-16"
+    url: https://www.congress.gov/119/bills/hr8800/BILLS-119hr8800rh.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-08-25"
+    url: https://www.congress.gov/119/bills/hr8800/BILLS-119hr8800eh.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2149701
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/8800/all-info
+    title: H.R. 8800 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr8800/BILLS-119hr8800eh.pdf
+    title: H.R. 8800 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

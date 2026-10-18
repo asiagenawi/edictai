@@ -1,0 +1,83 @@
+id: us-ak-2025-2026-sb-2
+jurisdiction: us-ak
+session: 2025-2026
+identifier: SB 2
+title: Ai, Deepfakes, Cybersecurity, Data Xfers
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - procurement
+  - data-governance
+summary: Requires state agencies, defined to include the University of Alaska, that use generative artificial
+  intelligence for consequential decisions to complete impact assessments, notify affected individuals,
+  obtain consent before acquiring sensitive personal data, and provide an appeals process with human review,
+  and bars such systems that involve biometric identification, emotion recognition, cognitive behavioral
+  manipulation, or social scoring. Also requires disclosure statements on election-related deepfakes.
+provisions:
+  - type: requires-disclosure
+    description: Agencies using generative AI for consequential decisions must notify affected individuals.
+    citation:
+      source_url: https://www.akleg.gov/PDF/34/Bills/SB0002A.PDF
+      locator: Sec. 2, AS 44.99.720(a)
+      quote: A state agency that uses a system that employs generative artificial intelligence for consequential
+        decisions shall (1) notify each individual who may be legally or significantly affected by the
+        use of the system;
+  - type: procurement-standards
+    description: Agencies may contract for AI systems for consequential decisions only with vendors meeting
+      NIST security and privacy controls.
+    citation:
+      source_url: https://www.akleg.gov/PDF/34/Bills/SB0002A.PDF
+      locator: Sec. 2, AS 44.99.720(d)
+      quote: employs artificial intelligence for consequential decisions only if the person has implemented
+        security and privacy controls as specified by the National Institute of Standards and Technology
+sponsors:
+  - name: Shelley Hughes
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-22"
+    description: PREFILE RELEASED 1/10/25
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-01-22"
+    description: READ THE FIRST TIME - REFERRALS
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-01-22"
+    description: STA, JUD
+    actor: upper
+    classification:
+      - other
+  - date: "2025-01-22"
+    description: REFERRED TO STATE AFFAIRS
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-01-10"
+    url: https://www.akleg.gov/PDF/34/Bills/SB0002A.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1912439
+sources:
+  - url: https://www.akleg.gov/basis/Bill/Detail/34?Root=SB2
+    title: SB 2 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.akleg.gov/PDF/34/Bills/SB0002A.PDF
+    title: SB 2 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

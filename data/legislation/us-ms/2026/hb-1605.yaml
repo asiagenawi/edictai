@@ -1,0 +1,92 @@
+id: us-ms-2026-hb-1605
+jurisdiction: us-ms
+session: "2026"
+identifier: HB 1605
+title: MS Artifical Intelligence and Stem Eduaction Act; create.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+  - educator-training
+  - student-privacy
+  - equity-access
+  - employment-evaluation
+  - workforce
+summary: Authorizes the Department of Education to establish an AI and STEM Education Pilot Program letting
+  school districts use AI-assisted learning tools in grades 6-12 STEM subjects, with priority for underperforming,
+  rural and high-poverty schools. Requires educator professional development, bars use of the tools for
+  teacher evaluation or employment decisions, restricts use of student data, and directs guidelines on
+  algorithmic bias and human oversight.
+provisions:
+  - type: appropriates-funding
+    description: Authorizes a voluntary pilot program for AI-assisted learning tools in grades 6-12 STEM
+      subjects.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1605IN.htm
+      locator: Sec. 4(1)-(2)
+      quote: The program shall allow participating LEAs to implement AI-assisted learning tools in STEM
+        subjects for Grades 6 through 12
+  - type: educator-pd-requirement
+    description: Requires the department to provide or approve professional development on integrating
+      AI tools into instruction.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1605IN.htm
+      locator: Sec. 6(1)
+      quote: The department shall provide or approve professional development to ensure educators understand
+        how to effectively and ethically integrate AI tools into instruction.
+  - type: restricts-student-data-use
+    description: Requires AI tools to comply with FERPA and bars selling or noneducational use of student
+      data.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1605IN.htm
+      locator: Sec. 7(2)
+      quote: Student data shall not be sold, shared, or used for noneducational purposes.
+  - type: bias-or-equity-requirement
+    description: Directs the department to develop guidelines on algorithmic bias, transparency and human
+      oversight.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1605IN.htm
+      locator: Sec. 7(3)
+      quote: 'The department shall develop guidelines addressing: (a) Algorithmic bias; (b) Transparency
+        of AI systems; and (c) Appropriate human oversight of AI-generated recommendations.'
+sponsors:
+  - name: John Faulkner
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-19"
+    description: Referred To Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-03"
+    description: Died In Committee
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-21"
+    url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1605IN.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2088947
+sources:
+  - url: https://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB1605.xml
+    title: HB 1605 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1605IN.htm
+    title: HB 1605 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,109 @@
+id: us-ri-2026-h-8345
+jurisdiction: us-ri
+session: "2026"
+identifier: H 8345
+title: HOUSE RESOLUTION CREATING A SPECIAL LEGISLATIVE COMMISSION TO STUDY THE USE AND IMPACT OF DIGITAL
+  AND ELECTRONIC TECHNOLOGY IN PUBLIC EDUCATION AND ON MENTAL HEALTH (Creates a fourteen (14) member special
+  legislative study commission to study the use and impact of digital and electronic technology in public
+  education and on mental health.)
+classification: resolution
+education_levels:
+  - k12
+topics:
+  - task-force
+  - safety-wellbeing
+summary: Creates a 14-member special legislative commission to study the use and impact of digital and
+  electronic technology, including artificial intelligence, in Rhode Island public education and on mental
+  health. The study covers third-party platforms in schools, safe school software, AI in mental health
+  care and AI companion technology.
+provisions:
+  - type: creates-task-force
+    description: Creates a special legislative commission to study digital technology, including AI, in
+      public education and on mental health.
+    citation:
+      source_url: https://webserver.rilegislature.gov/BillText26/HouseText26/H8345A.pdf
+      locator: Resolution, first resolved clause
+      quote: 'That a special legislative commission to study the use and impact of digital and electronic
+        technology in public education and on mental health is hereby created consisting of fourteen (14)
+        members:'
+sponsors:
+  - name: Justine Caldwell
+    primary: true
+    party: D
+    chamber: lower
+  - name: Megan Cotter
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tina Spears
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-03-25"
+    description: Introduced, referred to House Education
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-03-27"
+    description: Scheduled for hearing and/or consideration (04/02/2026)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Committee recommended measure be held for further study
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-22"
+    description: Scheduled for consideration (05/26/2026)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-22"
+    description: Proposed Substitute
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: Committee recommends passage of Sub A
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-05-29"
+    description: Placed on House Calendar (06/02/2026)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-02"
+    description: House passed Sub A
+    actor: lower
+    classification:
+      - passage
+versions:
+  - note: Introduced
+    date: "2026-03-25"
+    url: https://webserver.rilegislature.gov/BillText26/HouseText26/H8345.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-05-26"
+    url: https://webserver.rilegislature.gov/BillText26/HouseText26/H8345A.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2138196
+sources:
+  - url: https://status.rilegislature.gov/
+    title: H 8345 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://webserver.rilegislature.gov/BillText26/HouseText26/H8345A.pdf
+    title: H 8345 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

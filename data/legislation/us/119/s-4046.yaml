@@ -1,0 +1,72 @@
+id: us-119-s-4046
+jurisdiction: us
+session: "119"
+identifier: S. 4046
+title: Economy of the Future Commission Act of 2026
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+summary: Establishes the Economy of the Future Commission to develop legislative recommendations on economic
+  changes caused by artificial intelligence adoption. The Commission must evaluate effects on K-12 public
+  education, career and technical education, and higher education, and its final report must include recommendations
+  on artificial intelligence education.
+provisions:
+  - type: creates-task-force
+    description: The Commission must evaluate the effects of AI adoption on K-12 education, career and
+      technical education, and higher education.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s4046/BILLS-119s4046is.pdf
+      locator: Sec. 2(g)(2)(C)
+      quote: (C) kindergarten through grade 12 public education, career and technical education, and higher
+        education; and
+  - type: creates-task-force
+    description: The Commission's final report must include legislative recommendations on artificial
+      intelligence education.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s4046/BILLS-119s4046is.pdf
+      locator: Sec. 2
+      quote: the Commission shall prepare and submit a final report regarding the impact of the adoption
+        of artificial intelligence that includes legislative recommendations on artificial intelligence
+        education
+sponsors:
+  - name: Mark Warner
+    primary: true
+    party: D
+    chamber: upper
+  - name: Mike Rounds
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-03-11"
+    description: Read twice and referred to the Committee on Commerce, Science, and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-03-20"
+    url: https://www.congress.gov/119/bills/s4046/BILLS-119s4046is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2132774
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/4046/all-info
+    title: S. 4046 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s4046/BILLS-119s4046is.pdf
+    title: S. 4046 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

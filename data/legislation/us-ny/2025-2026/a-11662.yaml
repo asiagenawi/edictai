@@ -1,0 +1,79 @@
+id: us-ny-2025-2026-a-11662
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 11662
+title: Prohibits humanoid robots and AI systems from being used in schools; provides limited exceptions;
+  provides for student privacy protections; makes related provisions.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+  - employment-evaluation
+summary: Bars schools, including school districts, BOCES, charter schools, and nonpublic schools, from
+  using humanoid robots in instructional settings and from using AI systems as the primary instructor,
+  limits AI to supplemental use under a certified educator's supervision, restricts collection and use
+  of student data by school AI systems, and requires annual compliance certification to the commissioner.
+provisions:
+  - type: limits-ai-instructional-use
+    description: Prohibits schools from purchasing, deploying, or using humanoid robots in instructional
+      settings, with limited exceptions.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11662&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11662
+      locator: Sec. 1, new Education Law 305-a(2)
+      quote: No school district, board of coop- erative educational services, charter school, nonpublic
+        school, or any employee, contractor, or agent thereof shall purchase, lease, deploy, employ, contract
+        for, or otherwise utilize a humanoid robot within an instructional setting.
+  - type: prohibits-ai-replacing-educators
+    description: Bars schools from using AI systems or chatbots as the primary instructor and keeps instructional
+      settings under a certified educator's control.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11662&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11662
+      locator: Sec. 1, new Education Law 305-a(4)(a)
+      quote: No school district, board of cooperative educational services, charter school, or nonpublic
+        school shall utilize an artificial intelligence system, chatbot, avatar, virtual assistant, or
+        substantially similar technology as the primary instructor in any instructional setting.
+  - type: restricts-student-data-use
+    description: Prohibits school AI systems from retaining student interactions or using them for advertising,
+      profiling, or model training.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11662&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11662
+      locator: Sec. 1, new Education Law 305-a(5)(b)
+      quote: Student prompts, conversations, audio recordings, written communi- cations, or other interactions
+        with an artificial intelligence system shall not be retained following completion of an instructional
+        session and shall not be used for advertising, profiling, commercialization
+sponsors:
+  - name: Yudelka Tapia
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-07-31"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-07-31"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11662&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11662
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2157340
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A11662
+    title: A 11662 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11662&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11662
+    title: A 11662 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

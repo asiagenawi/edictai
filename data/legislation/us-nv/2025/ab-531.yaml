@@ -1,0 +1,74 @@
+id: us-nv-2025-ab-531
+jurisdiction: us-nv
+session: "2025"
+identifier: AB 531
+title: Revises provisions relating to education. (BDR 34-525)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+  - academic-integrity
+  - student-privacy
+summary: Among other education changes, requires the Superintendent of Public Instruction to appoint a
+  committee on the use of artificial intelligence in education within the Department of Education. The
+  committee reviews AI uses and concerns, including bullying, pupil data, curricula, and academic honesty,
+  and submits legislative recommendations to the Joint Interim Standing Committee on Education.
+provisions:
+  - type: creates-task-force
+    description: The Superintendent of Public Instruction must appoint a committee on the use of AI in
+      education within the Department.
+    citation:
+      source_url: https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB531.pdf
+      locator: Sec. 5(1)
+      quote: The Superintendent of Public Instruction shall appoint a committee on the use of artificial
+        intelligence in education within the Department.
+sponsors:
+  - name: Education
+    classification: committee
+    primary: true
+actions:
+  - date: "2025-03-24"
+    description: Read first time. Referred to Committee on Education. To printer.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2025-03-26"
+    description: From printer. To committee.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Notice of eligibility for exemption.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-12"
+    description: (Pursuant to Joint Standing Rule No. 14.3.1, no further action allowed.)
+    actor: lower
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    url: https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB531.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2013451
+sources:
+  - url: https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12822/Overview
+    title: AB 531 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB531.pdf
+    title: AB 531 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

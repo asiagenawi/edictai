@@ -1,0 +1,179 @@
+id: us-pa-2023-2024-hr-170
+jurisdiction: us-pa
+session: 2023-2024
+identifier: HR 170
+title: Directing the Joint State Government Commission to establish an advisory committee to conduct a
+  study on the field of artificial intelligence and its impact and potential future impact in Pennsylvania.
+classification: resolution
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - academic-integrity
+summary: Directs the Joint State Government Commission to establish an advisory committee to study artificial
+  intelligence and its impact in Pennsylvania. The study includes an evaluation of how AI has affected
+  students' academic records and help for State-related university leaders in curbing student AI use.
+provisions:
+  - type: creates-task-force
+    description: The advisory committee's report must evaluate AI's effect on students' academic record
+      and help university leaders curb student AI use.
+    citation:
+      source_url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=H&billTyp=R&billNbr=0170&pn=3488
+      locator: Resolved clause, item (10)
+      quote: An evaluation of how AI has affected the academic track record of this Commonwealth's students,
+        and assist State-related university leaders with identifying solutions to curbing the usage of
+        AI by their students.
+sponsors:
+  - name: Robert Merski
+    primary: true
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maureen Madden
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ed Neilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Roni Green
+    primary: false
+    party: D
+    chamber: lower
+  - name: Arvind Venkat
+    primary: false
+    party: D
+    chamber: lower
+  - name: Paul Friel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Matthew Gergely
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brett Miller
+    primary: false
+    party: R
+    chamber: lower
+  - name: Michael Schlossberg
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steven Malagari
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert James
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kristine Howard
+    primary: false
+    party: D
+    chamber: lower
+  - name: Patrick Gallagher
+    primary: false
+    party: D
+    chamber: lower
+  - name: Timothy Brennan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carol Hill-Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Patrick Harkins
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tarik Khan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kyle Donahue
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer O'Mara
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Williams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Ciresi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Stephen Kinsey
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-06-29"
+    description: Referred to STATE GOVERNMENT
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2023-12-12"
+    description: Reported as committed
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Laid on the table (Pursuant to House Rule 71)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-07-02"
+    description: Removed from table
+    actor: lower
+    classification:
+      - other
+  - date: "2024-07-03"
+    description: Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2024-07-03"
+    description: Adopted (125-77)
+    actor: lower
+    classification:
+      - passage
+versions:
+  - note: Introduced
+    url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=H&billTyp=R&billNbr=0170&pn=1789
+    media_type: application/pdf
+  - note: Amended
+    url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=H&billTyp=R&billNbr=0170&pn=3488
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1773451
+sources:
+  - url: https://www.legis.state.pa.us/cfdocs/billinfo/bill_history.cfm?syear=2023&sind=0&body=H&type=R&bn=170
+    title: HR 170 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=H&billTyp=R&billNbr=0170&pn=3488
+    title: HR 170 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

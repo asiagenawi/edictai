@@ -1,0 +1,309 @@
+id: us-tx-2025-2026-sb-747
+jurisdiction: us-tx
+session: 2025-2026
+identifier: SB 747
+title: Relating to public school policies and programs regarding the production or distribution of certain
+  intimate visual material by public school students.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Allows removal or expulsion of students who release intimate visual material of another student,
+  including material created with artificial intelligence, defines such production or distribution as
+  cyberbullying, requires district bullying policies to address it, and directs development of programs
+  on the risks of AI-generated intimate images.
+provisions:
+  - type: addresses-deepfakes
+    description: Students who release or threaten to release intimate visual material of a student, including
+      AI-created material, may be placed in a disciplinary program or expelled.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00747H.htm
+      locator: Sec. 1, Education Code 37.0052(b)(3)
+      quote: releases or threatens to release intimate visual material of a minor or a student who is
+        18 years of age or older without the student's consent, including intimate visual material created
+        using artificial intelligence technology
+  - type: addresses-deepfakes
+    description: Agency standards must require district bullying policies to address intimate images of
+      students, including AI-created images.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00747H.htm
+      locator: Sec. 3, Education Code 37.0832(c-1)(7)
+      quote: require districts to include in the policy provisions specifically addressing incidents of
+        bullying that involve the production or distribution of a video or image
+  - type: addresses-deepfakes
+    description: The center must develop programs for districts on the risks of producing or distributing
+      AI-created intimate images of students.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00747H.htm
+      locator: Sec. 4, Education Code 37.218(b)(6)
+      quote: the specific risks of producing or distributing visual material created using artificial
+        intelligence technology that appears to depict a student with the student's intimate parts exposed
+        or engaged in sexual conduct
+sponsors:
+  - name: Phil King
+    primary: true
+    party: R
+    chamber: lower
+  - name: Adam Hinojosa
+    primary: false
+    party: R
+    chamber: upper
+  - name: Mayes Middleton
+    primary: false
+    party: R
+    chamber: upper
+  - name: Angela Paxton
+    primary: false
+    party: R
+    chamber: upper
+  - name: Royce West
+    primary: false
+    party: D
+    chamber: upper
+  - name: Giovanni Capriglione
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-08"
+    description: Received by the Secretary of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-01-08"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-07"
+    description: Read first time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-02-07"
+    description: Referred to Education K-16
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-08"
+    description: Scheduled for public hearing on . . .
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: Considered in public hearing
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: Testimony taken in committee
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: Left pending in committee
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-10"
+    description: Co-author authorized
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Considered in public hearing
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Vote taken in committee
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-14"
+    description: Reported favorably as substituted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-14"
+    description: Recommended for local & uncontested calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-14"
+    description: Committee report printed and distributed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-15"
+    description: Placed on intent calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Not again placed on intent calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Placed on local & uncontested calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Laid before the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Read 2nd time & passed to engrossment
+    actor: upper
+    classification:
+      - reading-2
+      - passage
+  - date: "2025-04-24"
+    description: Vote recorded in Journal
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Three day rule suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Record vote
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-04-24"
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-24"
+    description: Record vote
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Reported engrossed
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-25"
+    description: Received from the Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-28"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-04-28"
+    description: Referred to Public Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-05-19"
+    description: Posting rule suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Scheduled for public hearing on . . .
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Considered in public hearing
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Testimony taken/registration(s) recorded in committee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Left pending in committee
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-05-21"
+    description: Considered in formal meeting
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Reported favorably w/o amendment(s)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-22"
+    description: Comte report filed with Committee Coordinator
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-22"
+    description: Committee report distributed
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-23"
+    description: Committee report sent to Calendars
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-24"
+    description: Considered in Calendars
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-26"
+    description: Placed on General State Calendar
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-09"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00747I.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-04-14"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00747S.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-04-25"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00747E.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-05-22"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00747H.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1907668
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB747
+    title: SB 747 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00747H.htm
+    title: SB 747 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

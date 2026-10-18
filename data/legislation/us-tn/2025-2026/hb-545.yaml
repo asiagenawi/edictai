@@ -1,0 +1,215 @@
+id: us-tn-2025-2026-hb-545
+jurisdiction: us-tn
+session: 2025-2026
+identifier: HB 545
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - educator-training
+summary: Requires the Department of Education to provide at least one free asynchronous professional development
+  course on the use of artificial intelligence in the classroom for teachers in grades 6-12. Requires
+  those teachers to complete such a course by August 1, 2028, or within two years of becoming licensed,
+  and requires LEAs and public charter schools to award professional development points for it.
+provisions:
+  - type: educator-pd-requirement
+    description: The department must offer a free asynchronous professional development course on classroom
+      use of AI for grades 6-12 teachers.
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf
+      locator: Section 1(a)
+      quote: The department shall provide at least one (1) professional development course for teachers
+        that provides asynchronous instruction on the use of artificial intelligence in the classroom
+  - type: educator-pd-requirement
+    description: Teachers in grades 6-12 must complete a department-approved AI course by August 1, 2028,
+      or within two years of licensure.
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf
+      locator: Section 1(b)
+      quote: By August 1, 2028, or within two (2) years of becoming licensed as a teacher in this state,
+        whichever is later, teachers in grades six through twelve (6-12) must complete at least one (1)
+        professional development course approved by the department
+sponsors:
+  - name: Mark Cochran
+    primary: true
+    party: R
+    chamber: lower
+  - name: Scott Cepicky
+    primary: false
+    party: R
+    chamber: lower
+  - name: G.A. Hardaway
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-29"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-03"
+    description: Intro., P1C.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-05"
+    description: P2C, ref. to Education Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-05"
+    description: Assigned to s/c Education Administration Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-19"
+    description: Placed on s/c cal Education Administration Subcommittee for 2/25/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-25"
+    description: Rec. for pass by s/c ref. to Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-02-26"
+    description: Placed on cal. Education Committee for 3/4/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Action def. in Education Committee to 3/11/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Placed on cal. Education Committee for 3/11/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-11"
+    description: Action def. in Education Committee to 3/18/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-12"
+    description: Placed on cal. Education Committee for 3/18/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-18"
+    description: Action def. in Education Committee to 3/25/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-19"
+    description: Placed on cal. Education Committee for 3/25/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-25"
+    description: Rec. for pass; ref to Finance, Ways, and Means Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-03-26"
+    description: Assigned to s/c Finance, Ways, and Means Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Placed on s/c cal Finance, Ways, and Means Subcommittee for 4/2/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-02"
+    description: Placed behind the budget
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-09"
+    description: Placed on s/c cal Finance, Ways, and Means Subcommittee for 4/14/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-25"
+    description: Placed on s/c cal Finance, Ways, and Means Subcommittee for 4/1/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-01"
+    description: Rec for pass if am by s/c ref. to Finance, Ways, and Means Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-04-01"
+    description: Placed on cal. Finance, Ways, and Means Committee for 4/7/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-07"
+    description: Rec. for pass. if am., ref. to Calendar & Rules Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-04-14"
+    description: Placed on cal. Calendar & Rules Committee for 4/14/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-14"
+    description: H. Placed on Regular Calendar for 4/16/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Comp. SB subst.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Sponsor(s) Added.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: Comp. became Pub. Ch. 1056
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Draft
+    date: "2025-01-29"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/HB0545.pdf
+    media_type: application/pdf
+  - note: Draft
+    date: "2025-01-31"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/HB0545.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-05-26"
+    url: https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1946783
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=HB0545&ga=114
+    title: HB 545 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf
+    title: HB 545 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

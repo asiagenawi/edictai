@@ -1,0 +1,302 @@
+id: us-mi-2025-2026-hb-4706
+jurisdiction: us-mi
+session: 2025-2026
+identifier: HB 4706
+title: 'Appropriations: omnibus; appropriations for multiple departments and branches for the fiscal year
+  2025-2026 and supplemental appropriations for fiscal year 2024-2025; provide for. Creates appropriation
+  act.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - educator-training
+  - funding
+summary: Makes fiscal year 2025-2026 omnibus appropriations for Michigan state departments. Directs the
+  Department of Education to use media literacy training funds to design, implement, and evaluate professional
+  learning and optional curriculum modules for teaching artificial intelligence and media literacy.
+provisions:
+  - type: educator-pd-requirement
+    description: Directs funds for professional learning and optional curriculum modules on teaching AI
+      and media literacy.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0022.htm
+      locator: Sec. 1001
+      quote: From the funds appropriated in part 1 for media literacy training, the department shall design,
+        implement, and evaluate professional learning and optional curriculum modules for the purpose
+        of teaching artificial intelligence and media literacy in this state.
+sponsors:
+  - name: Ann Bollin
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-07-01"
+    description: Introduced By Representative Rep. Ann Bollin
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-07-01"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-07-15"
+    description: Bill Electronically Reproduced 07/01/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-26"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-26"
+    description: Motion To Discharge Committee Approved
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-26"
+    description: Placed On Second Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-26"
+    description: Read A Second Time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-26"
+    description: Substitute (h-1) Adopted And Amended
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-08-26"
+    description: Placed On Third Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-26"
+    description: Placed On Immediate Passage
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-26"
+    description: Read A Third Time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-08-26"
+    description: 'Passed; Given Immediate Effect Roll Call #181 Yeas 59 Nays 45 Excused 0 Not Voting 6'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-08-26"
+    description: Transmitted
+    actor: lower
+    classification:
+      - other
+  - date: "2025-09-04"
+    description: Passed By House With Immediate Effect
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-04"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-04"
+    description: Referred To Committee Of The Whole
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-10-01"
+    description: Reported By Committee Of The Whole Favorably With Substitute (s-1)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-10-01"
+    description: Substitute (s-1) Concurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Placed On Order Of Third Reading With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Placed On Immediate Passage
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: 'Passed Roll Call # 255 Yeas 21 Nays 10 Excused 6 Not Voting 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-10-01"
+    description: Returned From Senate With Substitute (s-1)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Laid Over One Day Under The Rules
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-10-01"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Senate Substitute (s-1) Nonconcurred In
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: 'Roll Call Roll Call #237 Yeas 2 Nays 107 Excused 0 Not Voting 1'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: 'House Conferees Named 10/01/2025: Reps. Ann Bollin Matt Maddock Alabas Farhat'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-01"
+    description: 'House Named Conferees 10/1/2025: Reps. Ann Bollin, Matt Maddock, Alabas Farhat'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-01"
+    description: 'Senate Named Conferees 10/1/2025: Sens. Sarah Anthony, Sean Mccann, Jon Bumstead'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: 'Senate Conferees Named 10/01/2025: Sens. Sarah Anthony Sean Mccann Jon Bumstead'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: Referred To Conference Committee 10/01/2025
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: Conference Report Received
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-02"
+    description: 'Conference Report Adopted Roll Call #240 Yeas 101 Nays 8 Excused 0 Not Voting 1'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: Retransmitted
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-10-03"
+    description: Conference Report Received In Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: 'Senate Adopted Conference Report With Immediate Effect Roll Call # 258 Yeas 31 Nays
+      5 Excused 1 Not Voting 0'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: Returned To House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-03"
+    description: Conference Report Adopted By Senate With Immediate Effect
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: Bill Ordered Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-10-07"
+    description: Presented To The Governor 10/04/2025 08:52 Am
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-10-08"
+    description: Approved By The Governor 10/07/2025 12:14 Pm
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-10-08"
+    description: Filed With Secretary Of State 10/07/2025 01:30 Pm
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-10-08"
+    description: Assigned Pa 22'25 With Immediate Effect
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-07-01"
+    url: https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2025-HIB-4706.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-08-26"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2025-HEBH-4706.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-10-01"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2025-HEBS-4706.htm
+    media_type: text/html
+  - note: Enrolled
+    date: "2025-10-04"
+    url: https://legislature.mi.gov/documents/2025-2026/billenrolled/House/htm/2025-HNB-4706.htm
+    media_type: text/html
+  - note: Chaptered
+    date: "2025-10-07"
+    url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0022.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2038856
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4706
+    title: HB 4706 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0022.htm
+    title: HB 4706 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

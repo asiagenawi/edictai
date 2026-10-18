@@ -1,0 +1,111 @@
+id: us-wv-2025-hcr-94
+jurisdiction: us-wv
+session: "2025"
+identifier: HCR 94
+title: Requesting a study regarding the creating of an artificial intelligence elective course to be offered
+  in high schools
+classification: concurrent-resolution
+education_levels:
+  - k12
+topics:
+  - task-force
+  - curriculum-standards
+  - ai-literacy
+summary: Requests the Joint Committee on Government and Finance to study establishing an Artificial Intelligence
+  Education Program offered as an elective course in public high schools, including current programs,
+  gaps, and funding. Asks for a report with recommendations to the 2026 regular session.
+provisions:
+  - type: creates-task-force
+    description: Requests a legislative study of establishing an AI elective course in public high schools.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hcr94%20intr.htm&yr=2025&sesstype=RS&i=94&houseorig=H&billtype=CR
+      locator: Resolved clause
+      quote: That the Joint Committee on Government and Finance is hereby requested to study establishing
+        an Artificial Intelligence Education Program in and for the State of West Virginia;
+sponsors:
+  - name: Jarred Cannon
+    primary: true
+    party: R
+    chamber: lower
+  - name: Josh Holstein
+    primary: false
+    party: R
+    chamber: lower
+  - name: Matthew Rohrbach
+    primary: false
+    party: R
+    chamber: lower
+  - name: Clay Riley
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jordan Maynor
+    primary: false
+    party: R
+    chamber: lower
+  - name: Roger Hanshaw
+    primary: false
+    party: R
+    chamber: lower
+  - name: Daniel Linville
+    primary: false
+    party: R
+    chamber: lower
+  - name: Michael Hornby
+    primary: false
+    party: R
+    chamber: lower
+  - name: Geno Chiarelli
+    primary: false
+    party: R
+    chamber: lower
+  - name: Joe Funkhouser
+    primary: false
+    party: R
+    chamber: lower
+  - name: George Street
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-03-18"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-18"
+    description: To Rules
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-18"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-18"
+    description: To House Rules
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hcr94%20intr.htm&yr=2025&sesstype=RS&i=94&houseorig=H&billtype=CR
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2009723
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Resolution_History.cfm?year=2025&sessiontype=RS&input4=94&billtype=CR&houseorig=H&btype=res
+    title: HCR 94 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hcr94%20intr.htm&yr=2025&sesstype=RS&i=94&houseorig=H&billtype=CR
+    title: HCR 94 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

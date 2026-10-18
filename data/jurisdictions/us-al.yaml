@@ -16,3 +16,15 @@ sessions:
     classification: primary
     start_date: '2026-01-13'
     end_date: '2026-04-09'
+  - identifier: "2024"
+    name: Regular Session 2024
+    classification: primary
+    start_date: "2024-02-06"
+    end_date: "2024-05-24"
+    legiscan_session_id: 2103
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:al/government?include=legislative_sessions"
+        title: Open States API, Alabama legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

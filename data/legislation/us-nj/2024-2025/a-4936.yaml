@@ -1,0 +1,100 @@
+id: us-nj-2024-2025-a-4936
+jurisdiction: us-nj
+session: 2024-2025
+identifier: A 4936
+title: Requires school districts to provide instruction on artificial intelligence; requires Secretary
+  of Higher Education to develop artificial intelligence model curricula.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - workforce
+summary: Requires each school district to incorporate AI instruction in the K-12 curriculum as part of
+  the computer science and design thinking standards, covering AI concepts, foundational user skills and
+  responsible, ethical use, with sample resources from the Commissioner of Education. Requires each public
+  institution of higher education to offer AI certificate and degree programs and the Secretary of Higher
+  Education to develop AI model curricula for four-year institutions and county colleges.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Requires school districts to incorporate AI instruction in the K-12 curriculum.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2024/A5000/4936_I1.HTM
+      locator: Sec. 1b.
+      quote: Each school district shall incorporate instruction on artificial intelligence in an appropriate
+        place in the curriculum of students in grades kindergarten through 12 as part of the district's
+        implementation of the New Jersey Student Learning Standards in Computer Science and Design Thinking.
+  - type: ai-workforce-program
+    description: Requires public institutions of higher education to offer AI certificate and degree programs.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2024/A5000/4936_I1.HTM
+      locator: Sec. 2a.
+      quote: Each public institution of higher education shall offer certificate and degree programs in
+        artificial intelligence.
+  - type: issues-model-policy
+    description: Directs the Secretary of Higher Education to develop AI model curricula for four-year
+      institutions and county colleges.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2024/A5000/4936_I1.HTM
+      locator: Sec. 2b.
+      quote: shall develop an artificial intelligence model curriculum for use by public four-year institutions
+        of higher education in the State and an artificial intelligence model curriculum for use by county
+        colleges in the State.
+sponsors:
+  - name: Reginald Atkins
+    primary: true
+    party: D
+    chamber: lower
+  - name: Barbara McCann Stamato
+    primary: true
+    party: D
+    chamber: lower
+  - name: Shanique Speight
+    primary: true
+    party: D
+    chamber: lower
+  - name: William Sampson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carmen Morales
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-10-21"
+    description: Introduced, Referred to Assembly Science, Innovation and Technology Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-10-22"
+    url: https://pub.njleg.gov/Bills/2024/A5000/4936_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1889335
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2024/A4936
+    title: A 4936 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2024/A5000/4936_I1.HTM
+    title: A 4936 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

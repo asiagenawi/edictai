@@ -1,0 +1,152 @@
+id: us-oh-2025-2026-sb-326
+jurisdiction: us-oh
+session: 2025-2026
+identifier: SB 326
+title: Require students complete a high school computer science course
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires school districts to offer at least one-half unit of computer science and, beginning
+  with students entering ninth grade on or after July 1, 2029, requires students to complete it; the unit
+  must include instruction in artificial intelligence, and students may be exempted by demonstrating competency
+  in computer science and AI.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: Requires a half unit of computer science for graduation that includes instruction in
+      AI, including what it is, how it works, and its impact on society.
+    citation:
+      source_url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/02_PS/pdf/
+      locator: Sec. 3313.603(C)(10)(a)
+      quote: The one-half unit of computer science shall include instruction in evolving areas of computer
+        science, such as artificial intelligence, including an understanding of what it is, how it works,
+        and its impact on society.
+  - type: ai-course-or-graduation-requirement
+    description: Allows exemption from the requirement for students who complete seventy-five hours of
+      structured computer science and AI instruction from an approved provider.
+    citation:
+      source_url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/02_PS/pdf/
+      locator: Sec. 3313.603(C)(10)(c)
+      quote: student from the requirement in division (C)(10) of this section if the student demonstrates
+        competency in computer science and artificial intelligence by completing seventy-five cumulative
+        hours of structured content in computer science and artificial intelligence instruction
+sponsors:
+  - name: Jerry Cirino
+    primary: true
+    party: R
+    chamber: upper
+  - name: Catherine Ingram
+    primary: true
+    party: D
+    chamber: upper
+  - name: Nickie Antonio
+    primary: true
+    party: D
+    chamber: upper
+  - name: Willis Blackshear
+    primary: true
+    party: D
+    chamber: upper
+  - name: Andrew Brenner
+    primary: true
+    party: R
+    chamber: upper
+  - name: Brian Chavez
+    primary: true
+    party: R
+    chamber: upper
+  - name: Hearcel Craig
+    primary: true
+    party: D
+    chamber: upper
+  - name: Theresa Gavarone
+    primary: true
+    party: R
+    chamber: upper
+  - name: Paula Hicks-Hudson
+    primary: true
+    party: D
+    chamber: upper
+  - name: Kyle Koehler
+    primary: true
+    party: R
+    chamber: upper
+  - name: George Lang
+    primary: true
+    party: R
+    chamber: upper
+  - name: Bill Reineke
+    primary: true
+    party: R
+    chamber: upper
+  - name: Michele Reynolds
+    primary: true
+    party: R
+    chamber: upper
+  - name: Kent Smith
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jane Timken
+    primary: true
+    party: R
+    chamber: upper
+  - name: Casey Weinstein
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-11-12"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-11-18"
+    description: 'Referred to committee: Education'
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-06-10"
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-06-10"
+    description: 'Reported - Substitute: Education'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-16"
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+versions:
+  - note: Introduced
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/00_IN/pdf/
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/01_RS/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/02_PS/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2052361
+sources:
+  - url: https://www.legislature.ohio.gov/legislation/136/sb326
+    title: SB 326 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/02_PS/pdf/
+    title: SB 326 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

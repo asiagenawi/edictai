@@ -1,0 +1,119 @@
+id: us-ia-2025-2026-hsb-609
+jurisdiction: us-ia
+session: 2025-2026
+identifier: HSB 609
+title: A bill for an act modifying the duties of the workforce development board, state board of education,
+  and department of education related to cyber and artificial intelligence.(See HF 2528.)
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - workforce
+  - funding
+summary: Requires the workforce development board to establish a cyber and artificial intelligence workforce
+  initiative, including support for K-12 cyber and AI literacy standards, higher education partnerships,
+  and, subject to appropriation, a grant program for AI training programs. Directs the state board of
+  education to oversee statewide cyber and AI education standards and frameworks from kindergarten through
+  higher education and a voluntary school certification program, and requires the department of education
+  to run a community cyber and AI awareness initiative.
+provisions:
+  - type: ai-in-standards
+    description: The workforce initiative must support standards for cyber and AI literacy in the K-12
+      public school curriculum.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HSB609.html
+      locator: Section 84A.1B, new subsection, par. a
+      quote: In conjunction with the department of education, support for the development and implementation
+        of standards for cyber and artificial intelligence literacy within the kindergarten through grade
+        twelve public school curriculum.
+  - type: ai-in-standards
+    description: The state board must oversee adoption of statewide cyber and AI education standards from
+      kindergarten through higher education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HSB609.html
+      locator: Section 256.7, new subsection, par. c
+      quote: Development and adoption of consistent statewide standards and frameworks for cyber and artificial
+        intelligence education, from kindergarten through higher education.
+  - type: appropriates-funding
+    description: Subject to appropriation, the initiative must include a grant program for cyber and AI
+      training programs at educational institutions.
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HSB609.html
+      locator: Section 84A.1B, new subsection, par. c
+      quote: A grant program to support educational institutions and private sector entities in developing
+        and expanding cyber and artificial intelligence training programs.
+sponsors:
+  - name: Economic Growth And Technology
+    classification: committee
+    primary: true
+actions:
+  - date: "2026-01-22"
+    description: By COMMITTEE ON ECONOMIC GROWTH AND TECHNOLOGY
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-22"
+    description: Introduced, referred to Economic Growth and Technology. H.J. 144.
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-01-22"
+    description: 'Subcommittee: Gehlbach, Matson and Sitzmann. H.J. 147.'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-26"
+    description: 'Subcommittee Meeting: 01/29/2026 12:00PM House Lounge.'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: Subcommittee recommends passage.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: Committee report, recommending passage. H.J. 264.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-11"
+    description: 'Committee vote: Yeas, 13. Nays, 6. Excused, 2. H.J. 265.'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-16"
+    description: Committee report approving bill, renumbered as HF 2528.
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2026-01-22"
+    url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HSB609.html
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2090504
+sources:
+  - url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HSB609
+    title: HSB 609 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HSB609.html
+    title: HSB 609 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

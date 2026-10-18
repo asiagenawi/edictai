@@ -1,0 +1,479 @@
+id: us-il-2025-2026-hb-862
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 862
+title: STATE GOVERNMENT-TECH
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Omnibus state government act that creates, dissolves, and renames funds and amends the Human
+  Rights Act and other laws. Among its changes, it amends the School Code bullying section to add definitions
+  of artificial intelligence and unauthorized digital replica.
+provisions:
+  - type: addresses-deepfakes
+    description: Adds AI and unauthorized digital replica definitions to the school bullying prevention
+      section.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=196306&DocName=10400HB0862enr&DocNum=862&DocTypeID=HB&LegID=156540&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 22-110(b)
+      quote: '"Unauthorized digital replica" means the use of a digital replica of an individual without
+        the consent of the depicted individual.'
+sponsors:
+  - name: Bob Morgan
+    primary: true
+    party: D
+    chamber: lower
+  - name: William Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michelle Mussman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sharon Chung
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julie Morrison
+    primary: true
+    party: D
+    chamber: upper
+  - name: Chris Balkema
+    primary: false
+    party: R
+    chamber: upper
+  - name: Adriane Johnson
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-12-17"
+    description: Prefiled with Clerk by Rep. Emanuel "Chris" Welch
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-09"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-01-09"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-04"
+    description: Assigned to Executive Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-12"
+    description: Do Pass / Short Debate Executive Committee; 012-000-000
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-12"
+    description: Placed on Calendar 2nd Reading - Short Debate **
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: Second Reading - Short Debate
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-27"
+    description: Held on Calendar Order of Second Reading - Short Debate **
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-11"
+    description: Third Reading Deadline Extended-Rule May 31, 2025
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-05-31"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-07"
+    description: Approved for Consideration Rules Committee; 003-000-000
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-04-08"
+    description: Placed on Calendar 2nd Reading - Short Debate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: Chief Sponsor Changed to Rep. Bob Morgan
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: House Floor Amendment No. 1 Filed with Clerk by Rep. Bob Morgan
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: House Floor Amendment No. 1 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: House Floor Amendment No. 1 Rules Refers to Judiciary - Civil Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-14"
+    description: House Floor Amendment No. 2 Filed with Clerk by Rep. Bob Morgan
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-14"
+    description: House Floor Amendment No. 2 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-15"
+    description: House Floor Amendment No. 2 Rules Refers to Judiciary - Civil Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-15"
+    description: House Floor Amendment No. 2 Recommends Be Adopted Judiciary - Civil Committee; 018-000-000
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-04-17"
+    description: Added Co-Sponsor Rep. Michelle Mussman
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-17"
+    description: Added Co-Sponsor Rep. Sharon Chung
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-17"
+    description: Added Chief Co-Sponsor Rep. William "Will" Davis
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-17"
+    description: House Floor Amendment No. 2 Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-04-17"
+    description: Placed on Calendar Order of 3rd Reading - Short Debate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-17"
+    description: Third Reading - Short Debate - Passed 100-002-001
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-17"
+    description: House Floor Amendment No. 1 Tabled
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Arrive in Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Placed on Calendar Order of First Reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Chief Senate Sponsor Sen. Don Harmon
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-04-21"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-27"
+    description: Rule 2-10 Committee/3rd Reading Deadline Established As May 31, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-27"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-27"
+    description: Alternate Chief Sponsor Changed to Sen. Julie A. Morrison
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Senate Committee Amendment No. 1 Filed with Secretary by Sen. Julie A. Morrison
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Senate Committee Amendment No. 1 Referred to Assignments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Senate Committee Amendment No. 2 Filed with Secretary by Sen. Julie A. Morrison
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Senate Committee Amendment No. 2 Referred to Assignments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Senate Committee Amendment No. 2 Assignments Refers to Executive
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Waive Posting Notice
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Senate Committee Amendment No. 2 Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-05-29"
+    description: Do Pass as Amended Executive; 009-004-000
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-05-29"
+    description: Placed on Calendar Order of 2nd Reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Second Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-05-29"
+    description: Placed on Calendar Order of 3rd Reading May 30, 2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Senate Floor Amendment No. 3 Filed with Secretary by Sen. Julie A. Morrison
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Senate Floor Amendment No. 3 Referred to Assignments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-30"
+    description: Senate Floor Amendment No. 3 Be Approved for Consideration Assignments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-30"
+    description: Added as Alternate Chief Co-Sponsor Sen. Chris Balkema
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Added as Alternate Co-Sponsor Sen. Adriane L. Johnson
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Recalled to Second Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-05-31"
+    description: Senate Floor Amendment No. 3 Adopted; Morrison
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-05-31"
+    description: Placed on Calendar Order of 3rd Reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Third Reading - Passed; 049-008-000
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-31"
+    description: Senate Committee Amendment No. 1 Tabled Pursuant to Rule 5-4(a)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Arrived in House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Placed on Calendar Order of Concurrence Senate Amendment(s) 2, 3
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Senate Committee Amendment No. 2 Motion Filed Concur Rep. Bob Morgan
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Senate Floor Amendment No. 3 Motion Filed Concur Rep. Bob Morgan
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Senate Committee Amendment No. 2 Motion to Concur Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Senate Floor Amendment No. 3 Motion to Concur Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Senate Committee Amendment No. 2 Motion to Concur Recommends Be Adopted Rules Committee;
+      005-000-000
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-05-31"
+    description: Senate Floor Amendment No. 3 Motion to Concur Recommends Be Adopted Rules Committee;
+      005-000-000
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-06-01"
+    description: Motion Filed to Suspend House Rule(s) for Immediate Consideration Rep. Maurice A. West,
+      II
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: 3/5 Vote Required
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: Motion Prevailed 074-039-000
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: Senate Committee Amendment No. 2 House Concurs 077-036-000
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: Senate Floor Amendment No. 3 House Concurs 077-036-000
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: House Concurs
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: 3/5 Vote Required
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-01"
+    description: Passed Both Houses
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-06-10"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-06-16"
+    description: Governor Approved
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-06-16"
+    description: Effective Date June 16, 2026; some provisions
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-16"
+    description: Effective Date July 1, 2026; some provisions
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-16"
+    description: Effective Date July 1, 2027; some provisions
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-16"
+    description: Public Act . . . . . . . . . 104-0465
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-08"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=196306&DocName=10400HB0862&DocNum=862&DocTypeID=HB&LegID=156540&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-04-20"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=196306&DocName=10400HB0862eng&DocNum=862&DocTypeID=HB&LegID=156540&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-06-05"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=196306&DocName=10400HB0862enr&DocNum=862&DocTypeID=HB&LegID=156540&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1907010
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=862&GAID=18&DocTypeID=HB&LegId=156540&SessionID=114
+    title: HB 862 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=196306&DocName=10400HB0862enr&DocNum=862&DocTypeID=HB&LegID=156540&GAID=18&SessionID=114&SpecSess=&Session=
+    title: HB 862 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

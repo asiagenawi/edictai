@@ -1,0 +1,87 @@
+id: us-il-2025-2026-hb-5113
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 5113
+title: SCH CD-AI USE IN EDUC COMM
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+  - local-policy-requirement
+  - safety-wellbeing
+summary: Requires the State Board of Education to establish an Artificial-Intelligence Use in Education
+  Commission to recommend best practices and policies for smartphone and AI use in schools, including
+  model policies on student use of generative AI in and out of the classroom. The commission files reports
+  twice a year and dissolves after its fourth report; the section is repealed January 1, 2030.
+provisions:
+  - type: creates-task-force
+    description: The State Board must establish an AI Use in Education Commission.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208017&DocName=10400HB5113&DocNum=5113&DocTypeID=HB&LegID=166671&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.214(a)
+      quote: The State Board of Education shall establish an Artificial-Intelligence Use in Education
+        Commission.
+  - type: issues-model-policy
+    description: The commission must draft model policy recommendations for schools on student use of
+      generative AI.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208017&DocName=10400HB5113&DocNum=5113&DocTypeID=HB&LegID=166671&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.214(d)(1)
+      quote: drafting model policy recommendations for schools to address the use of generative artificial
+        intelligence by students in and out of the classroom, emphasizing both learning outcomes and practical
+        implementation
+sponsors:
+  - name: Nabeela Syed
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-05"
+    description: Filed with the Clerk by Rep. Nabeela Syed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-10"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-02-10"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-18"
+    description: Assigned to Education Policy Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-27"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-05"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208017&DocName=10400HB5113&DocNum=5113&DocTypeID=HB&LegID=166671&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2108819
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=5113&GAID=18&DocTypeID=HB&LegId=166671&SessionID=114
+    title: HB 5113 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208017&DocName=10400HB5113&DocNum=5113&DocTypeID=HB&LegID=166671&GAID=18&SessionID=114&SpecSess=&Session=
+    title: HB 5113 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

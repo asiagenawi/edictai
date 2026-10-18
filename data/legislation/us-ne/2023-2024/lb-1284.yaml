@@ -1,0 +1,245 @@
+id: us-ne-2023-2024-lb-1284
+jurisdiction: us-ne
+session: 2023-2024
+identifier: LB 1284
+title: Provide for and change teacher incentive programs, provide for a pilot program to distribute menstrual
+  products in schools, a Dyslexia Research Grant Program, a professional learning system relating to instruction
+  in reading, and a statewide computer science education expansion program, create and change authorized
+  use of certain funds, and change provisions relating to school psychologists and certain scholarship
+  programs
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - funding
+  - equity-access
+summary: Changes teacher incentive programs and other education provisions, and creates a Dyslexia Research
+  Grant Program administered by the State Department of Education for Nebraska businesses researching
+  artificial-intelligence-based writing assistance for individuals with dyslexia.
+provisions:
+  - type: appropriates-funding
+    description: Creates a grant program for businesses researching AI-based writing assistance for individuals
+      with dyslexia.
+    citation:
+      source_url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Slip/LB1284.pdf
+      locator: Sec. 2(1)-(2)
+      quote: Eligible applicant means a privately owned business based in Nebraska that is in the process
+        of researching artificial-intelligence-based writing assistance that can be used to assist individuals
+        with dyslexia.
+sponsors:
+  - name: Lynne Walz
+    primary: true
+    party: N
+actions:
+  - date: "2024-01-16"
+    description: Date of introduction
+    actor: legislature
+    classification:
+      - introduction
+  - date: "2024-01-17"
+    description: Referred to Education Committee
+    actor: legislature
+    classification:
+      - referral-committee
+  - date: "2024-01-24"
+    description: Walz priority bill
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-01-30"
+    description: Notice of hearing for February 06, 2024
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-03-19"
+    description: Placed on General File with AM3061
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-03-19"
+    description: Education AM3061 filed
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: McDonnell name added
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-03-21"
+    description: Education AM3061 adopted
+    actor: legislature
+    classification:
+      - passage
+  - date: "2024-03-21"
+    description: Advanced to Enrollment and Review Initial
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2024-03-21"
+    description: Blood name added
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-03-21"
+    description: Vargas name added
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-03-27"
+    description: Dungan name added
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-02"
+    description: Placed on Select File with ER119
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-02"
+    description: Enrollment and Review ER119 filed
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2024-04-09"
+    description: Enrollment and Review ER119 adopted
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2024-04-09"
+    description: Walz AM3414 to AM3061 filed
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-09"
+    description: Walz AM3414 adopted
+    actor: legislature
+    classification:
+      - passage
+  - date: "2024-04-09"
+    description: Linehan FA415 to AM3414 filed
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-09"
+    description: Linehan FA415 adopted
+    actor: legislature
+    classification:
+      - passage
+  - date: "2024-04-09"
+    description: Advanced to Enrollment and Review for Engrossment
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2024-04-09"
+    description: Placed on Final Reading with ST71
+    actor: legislature
+    classification:
+      - reading-3
+  - date: "2024-04-09"
+    description: Enrollment and Review ST71 filed
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2024-04-09"
+    description: Enrollment and Review ST71 recorded
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2024-04-11"
+    description: Dispensing of reading at large approved
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-11"
+    description: Passed on Final Reading with Emergency Clause 42-0-7
+    actor: legislature
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-11"
+    description: President/Speaker signed
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-18"
+    description: Presented to Governor on April 11, 2024
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-04-18"
+    description: Approved by Governor on April 16, 2024
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-04-25"
+    description: Provisions/portions of LB985 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-25"
+    description: Provisions/portions of LB986 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-25"
+    description: Provisions/portions of LB1005 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-25"
+    description: Provisions/portions of LB1014 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-25"
+    description: Provisions/portions of LB1050 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-25"
+    description: Provisions/portions of LB1252 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-25"
+    description: Provisions/portions of LB1253 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-25"
+    description: Provisions/portions of LB1254 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-01-16"
+    url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Intro/LB1284.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2024-04-09"
+    url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Final/LB1284.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2024-04-18"
+    url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Slip/LB1284.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1814241
+sources:
+  - url: https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=55278
+    title: LB 1284 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Slip/LB1284.pdf
+    title: LB 1284 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

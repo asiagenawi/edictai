@@ -1,0 +1,93 @@
+id: us-119-hr-3210
+jurisdiction: us
+session: "119"
+identifier: H.R. 3210
+title: Artificial Intelligence Literacy and Inclusion Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - funding
+  - curriculum-standards
+  - task-force
+summary: Authorizes National Science Foundation awards to nonprofits and educational institutions for
+  community AI literacy programs and curricula, and directs federal agencies, including the Secretary
+  of Education, to report on strategies for incorporating AI literacy into K-12 and higher education curricula.
+provisions:
+  - type: appropriates-funding
+    description: NSF may make awards to educational institutions and others to develop and evaluate local
+      AI literacy programs.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr3210/BILLS-119hr3210ih.pdf
+      locator: Sec. 2(a)(1)
+      quote: may make awards to eli- gible entities, including nonprofit organizations, edu- cational
+        institutions, or consortiums of such entities, to develop, implement, and evaluate programs that
+        promote AI literacy at the local level
+  - type: creates-task-force
+    description: The Secretary of Education must identify strategies for incorporating AI literacy into
+      K-12 and higher education curricula.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr3210/BILLS-119hr3210ih.pdf
+      locator: Sec. 2(b)(1)(D)
+      quote: The Secretary of Education shall iden- tify strategies for incorporating AI literacy into
+        K–12 and higher education curricula, ensuring that all students have access to quality AI edu-
+        cation
+sponsors:
+  - name: Adriano Espaillat
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ted Lieu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Yvette Clarke
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josh Gottheimer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shri Thanedar
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-05-06"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-05-06"
+    description: Referred to the Committee on Science, Space, and Technology, and in addition to the Committees
+      on Education and Workforce, Small Business, and Energy and Commerce, for a period to be subsequently
+      determined by the Speaker, in each case for consideration of such provisions as fall within the
+      jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-05-13"
+    url: https://www.congress.gov/119/bills/hr3210/BILLS-119hr3210ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2029224
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/3210/all-info
+    title: H.R. 3210 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr3210/BILLS-119hr3210ih.pdf
+    title: H.R. 3210 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

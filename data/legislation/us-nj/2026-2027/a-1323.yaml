@@ -1,0 +1,100 @@
+id: us-nj-2026-2027-a-1323
+jurisdiction: us-nj
+session: 2026-2027
+identifier: A 1323
+title: Requires boards of education and boards of trustees to adopt policy on use of surveillance systems
+  with artificial intelligence capabilities.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - data-governance
+  - student-privacy
+summary: Requires school district boards of education and charter or renaissance school boards of trustees
+  that use surveillance systems with artificial intelligence capabilities to adopt a policy on the system's
+  use. The policy must describe the information collected, how it is used and accessed, and require signage,
+  and the board must distribute it to parents and guardians.
+provisions:
+  - type: requires-local-ai-policy
+    description: Boards that use a surveillance system with AI capabilities must adopt a policy on its
+      use covering the information collected and how it is used and accessed.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A1500/1323_R1.HTM
+      locator: Sec. 1(a)
+      quote: with artificial intelligence capabilities shall be required to adopt a policy regarding the
+        use of the surveillance system.
+  - type: requires-disclosure
+    description: Boards must post signage where an AI surveillance system is in use and distribute the
+      policy to parents and guardians.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A1500/1323_R1.HTM
+      locator: Sec. 1(a)(5), 1(c)
+      quote: The signage shall indicate that a surveillance system with artificial intelligence capabilities
+        is in use in the building or on the school grounds.
+sponsors:
+  - name: Cody Miller
+    primary: true
+    party: D
+    chamber: lower
+  - name: Vincent Kearney
+    primary: true
+    party: D
+    chamber: lower
+  - name: Carmen Morales
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Hutchison
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Introduced, Referred to Assembly Science, Innovation and Technology Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-02-19"
+    description: Reported out of Assembly Comm. with Amendments, 2nd Reading
+    actor: lower
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2026-02-24"
+    description: Passed by the Assembly (78-1-0)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-02"
+    description: Received in the Senate, Referred to Senate Education Committee
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-12-16"
+    url: https://pub.njleg.gov/Bills/2026/A1500/1323_I1.HTM
+    media_type: text/html
+  - note: Amended
+    date: "2026-02-20"
+    url: https://pub.njleg.gov/Bills/2026/A1500/1323_R1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2100103
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/A1323
+    title: A 1323 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/A1500/1323_R1.HTM
+    title: A 1323 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

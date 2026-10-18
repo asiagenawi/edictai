@@ -1,0 +1,143 @@
+id: us-fl-2024-hb-483
+jurisdiction: us-fl
+session: "2024"
+identifier: HB 483
+title: Computer Science Education
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+  - curriculum-standards
+summary: Creates an AI in Education Task Force within the Department of Education, chaired by the Commissioner
+  of Education, to evaluate AI applications in K-12 and higher education, assess ethical, legal, and data
+  privacy implications, identify AI workforce needs, and recommend policy; also requires a statewide computer
+  science education strategic plan, with computer science defined to include AI and machine learning.
+provisions:
+  - type: creates-task-force
+    description: Establishes a task force to evaluate AI uses in K-12 and higher education and recommend
+      policy for students and educators.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/483/BillText/c1/PDF
+      locator: Sec. 1, new 1003.4202(1)(a)
+      quote: force is to evaluate the potential applications of artificial intelligence in K-12 and higher
+        education and to develop policy recommendations for responsible and effective uses of artificial
+        intelligence by students and educators
+sponsors:
+  - name: Choice & Innovation Subcommittee
+    classification: committee
+    primary: true
+  - name: Karen Gonzalez Pittman
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-11-15"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-11-22"
+    description: Referred to Choice & Innovation Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-11-22"
+    description: Referred to Appropriations Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-11-22"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-11-22"
+    description: Now in Choice & Innovation Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-09"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-01-30"
+    description: PCS added to Choice & Innovation Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-01"
+    description: Favorable with CS by Choice & Innovation Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-02"
+    description: Reported out of Choice & Innovation Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-02"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-02-02"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-05"
+    description: 'Original reference removed: Appropriations Committee'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-05"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-05"
+    description: Now in Education & Employment Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-05"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2024-03-08"
+    description: Died in Education & Employment Committee
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2023-11-15"
+    url: https://www.flsenate.gov/Session/Bill/2024/483/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-02-02"
+    url: https://www.flsenate.gov/Session/Bill/2024/483/BillText/c1/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1784035
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2024/483
+    title: HB 483 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2024/483/BillText/c1/PDF
+    title: HB 483 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

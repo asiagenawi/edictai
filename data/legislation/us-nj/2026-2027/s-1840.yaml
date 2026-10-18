@@ -1,0 +1,72 @@
+id: us-nj-2026-2027-s-1840
+jurisdiction: us-nj
+session: 2026-2027
+identifier: S 1840
+title: Creates "New Jersey Responsible AI Advancement and Workforce Protection Act."
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - equity-access
+summary: Creates the New Jersey Responsible AI Advancement and Workforce Protection Act, establishing
+  an AI Horizon Fund for worker retraining and directing the Department of Labor and Workforce Development
+  to engage community colleges on AI certification curricula. Defines high-risk AI systems to include
+  those used in education and subjects them to impact assessments and ethical-use requirements.
+provisions:
+  - type: ai-workforce-program
+    description: The department is to engage with community colleges to develop curricula around AI certification.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/S2000/1840_I1.HTM
+      locator: Para. (3), department duties following Sec. 4(a)
+      quote: engage with community colleges to develop curricula around AI certification
+  - type: bias-or-equity-requirement
+    description: Defines high-risk AI systems, subject to impact assessment requirements, to include AI
+      used in education.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/S2000/1840_I1.HTM
+      locator: Sec. 3
+      quote: '"High-risk AI system" means any AI system used in employment, housing, healthcare, education,
+        criminal justice, or public services.'
+sponsors:
+  - name: Troy Singleton
+    primary: true
+    party: D
+    chamber: lower
+  - name: Nicholas Scutari
+    primary: true
+    party: D
+    chamber: lower
+  - name: Angela Mcknight
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Introduced in the Senate, Referred to Senate Labor Committee
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-02"
+    url: https://pub.njleg.gov/Bills/2026/S2000/1840_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2074558
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/S1840
+    title: S 1840 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/S2000/1840_I1.HTM
+    title: S 1840 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

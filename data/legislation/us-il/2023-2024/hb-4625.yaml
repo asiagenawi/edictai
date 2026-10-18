@@ -1,0 +1,84 @@
+id: us-il-2023-2024-hb-4625
+jurisdiction: us-il
+session: 2023-2024
+identifier: HB 4625
+title: SCH CD-DIGITAL LITERACY SKILLS
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires all school districts, with guidance and standards from the State Board of Education,
+  to give students developmentally appropriate digital literacy instruction beginning in elementary school,
+  including AI literacy. AI literacy instruction must cover what generative AI is, ethics and responsibilities
+  in its use, age-appropriate use, and how AI impacts the world.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Digital literacy instruction in all school districts must include AI literacy.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB4625.htm
+      locator: Sec. 27-20.07(b)
+      quote: Digital literacy instruction shall include developmentally appropriate instruction in digital
+        citizenship skills, media literacy, and AI literacy as provided in this Section.
+  - type: requires-ai-literacy-instruction
+    description: Sets minimum content for AI literacy instruction.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB4625.htm
+      locator: Sec. 27-20.07(f)
+      quote: '(f) At a minimum, AI literacy instruction shall include all of the following: (1) What constitutes
+        generative AI. (2) Ethics and responsibilities associated with the use of generative AI. (3) Instruction
+        on age-appropriate use of generative AI.'
+sponsors:
+  - name: Janet Yang Rohr
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-01-30"
+    description: Filed with the Clerk by Rep. Janet Yang Rohr
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-31"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-01-31"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-14"
+    description: 'Assigned to Elementary & Secondary Education: School Curriculum & Policies Committee'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-05"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-01-30"
+    url: https://www.ilga.gov/legislation/103/HB/10300HB4625.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1831619
+sources:
+  - url: https://www.ilga.gov/legislation/BillStatus.asp?DocNum=4625&GAID=17&DocTypeID=HB&SessionID=112&GA=103
+    title: HB 4625 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/legislation/103/HB/10300HB4625.htm
+    title: HB 4625 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

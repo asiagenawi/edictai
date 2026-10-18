@@ -1,0 +1,223 @@
+id: us-ok-2025-2026-hb-1782
+jurisdiction: us-ok
+session: 2025-2026
+identifier: HB 1782
+title: Artificial intelligence education; creating the AI Education Innovation Act, the AI Education Innovation
+  Revolving Fund and the AI Education Advisory Council; effective date.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - task-force
+  - educator-training
+  - ai-literacy
+  - workforce
+summary: Creates the Oklahoma AI Education Innovation Act, an AI Education Innovation Revolving Fund that
+  agencies may use for AI tools, educator professional development, curriculum, research, student AI literacy
+  and workforce programs, and infrastructure, and an Oklahoma AI Education Advisory Council that advises
+  the education, higher education, career technology, and library agencies on AI education.
+provisions:
+  - type: appropriates-funding
+    description: Lets agencies use the revolving fund for AI educational tools, educator professional
+      development, curriculum development, research, and student AI literacy programs.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/HB1782%20SFLR.PDF
+      locator: Section 2
+      quote: 2. Professional development and training for educators, administrators, librarians, and staff
+        on the effective and ethical use of artificial intelligence in educational settings; 3. Curriculum
+        development integrating artificial intelligence concepts, digital literacy, and computational
+        thinking;
+  - type: creates-task-force
+    description: Creates the Oklahoma AI Education Advisory Council, including K-12 and higher education
+      officials and educators, to advise education agencies.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/HB1782%20SFLR.PDF
+      locator: Section 3(A)
+      quote: There is hereby created, to continue until July 1, 2031, in accordance with the provisions
+        of the Oklahoma Sunset Law, the Oklahoma AI Education Advisory Council.
+  - type: ai-workforce-program
+    description: Allows fund use for student programs promoting AI literacy and workforce readiness.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/HB1782%20SFLR.PDF
+      locator: Section 2
+      quote: 5. Student programs and initiatives promoting artificial intelligence literacy and workforce
+        readiness;
+sponsors:
+  - name: Anthony Moore
+    primary: true
+    party: R
+    chamber: lower
+  - name: Ally Seifried
+    primary: true
+    party: R
+    chamber: upper
+  - name: Danny Williams
+    primary: false
+    party: R
+    chamber: lower
+  - name: Nick Archer
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-03"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: Authored by Representative Kerbs
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Second Reading referred to Rules
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-02-11"
+    description: Remove Representative Kerbs as principal House author and substitute with Representative
+      Moore
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: Withdrawn from Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: Referred to Appropriations and Budget
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-05"
+    description: CR; Do Pass, amended by committee substitute Appropriations and Budget Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-05"
+    description: Coauthored by Representative(s) Williams
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: Authored by Senator Seifried (principal Senate author)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: General Order
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: Coauthored by Representative(s) Archer
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: Title stricken
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: 'Third Reading, Measure passed: Ayes: 81 Nays: 9'
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-11"
+    description: Referred for engrossment
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Engrossed, signed, to Senate
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-12"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-04-01"
+    description: Second Reading referred to Technology and Telecommunications Committee then to Appropriations
+      Committee
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-04-16"
+    description: Reported Do Pass as amended Technology and Telecommunications committee; CR filed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-16"
+    description: Enacting clause stricken
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-16"
+    description: Referred to Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-20"
+    description: Withdrawn from Appropriations committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Placed on General Order
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-16"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1782%20INT.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-03-05"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20COMMITTEE%20SUBS/HCS/HB1782%20CS.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-03-09"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/HFLR/HB1782%20HFLR.PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-03-11"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/hB/HB1782%20ENGR.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-04-20"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/HB1782%20SFLR.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2049913
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=hb1782&Session=2600
+    title: HB 1782 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/HB1782%20SFLR.PDF
+    title: HB 1782 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,64 @@
+id: us-ny-2025-2026-a-9219
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 9219
+title: Requires experts in professional fields to be consulted when developing and maintaining artificial
+  intelligence technology for use in such fields.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - assessment
+  - curriculum-standards
+summary: Requires developers of AI technology used in professional fields, including educational curriculum
+  or assessment tools, to involve a credentialed professional domain expert in design, training, validation,
+  and ongoing risk assessment, and to document that involvement to the attorney general.
+provisions:
+  - type: regulates-ai-assessment
+    description: Applies the professional-expert involvement requirement to AI used in educational curriculum
+      or assessment tools.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09219&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09219
+      locator: Sec. 2, new GBL 1711(2)(d)
+      quote: (c) financial advising or lending tools; (d) educational curriculum or assessment tools;
+        (e) construction, architecture, or structural safety systems;
+sponsors:
+  - name: Brian Cunningham
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-11-03"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-11-03"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09219&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09219
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2051432
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A9219
+    title: A 9219 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09219&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09219
+    title: A 9219 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

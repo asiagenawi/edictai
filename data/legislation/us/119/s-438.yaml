@@ -1,0 +1,70 @@
+id: us-119-s-438
+jurisdiction: us
+session: "119"
+identifier: S. 438
+title: Cyber PIVOTT Act of 2025 Providing Individuals Various Opportunities for Technical Training to
+  Build a Skills-Based Cyber Workforce Act of 2025
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Creates a Cybersecurity and Infrastructure Security Agency program providing full-tuition scholarships
+  for students in two-year cyber or cyber-relevant associate degree and certificate programs at participating
+  institutions, in exchange for government service. The bill defines cyber-relevant areas to include artificial
+  intelligence.
+provisions:
+  - type: ai-workforce-program
+    description: Defines the cyber-relevant fields whose two-year degree and certificate programs qualify
+      for the program to include artificial intelligence.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s438/BILLS-119s438is.pdf
+      locator: Sec. 2, new section 1334(a)(3)
+      quote: means an area of national security that would impact the cyber resiliency of the United States,
+        in- cluding relating to operational technology, critical in- frastructure, artificial intelligence
+  - type: appropriates-funding
+    description: Program participants receive full-tuition scholarships for study at participating institutions.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s438/BILLS-119s438is.pdf
+      locator: Sec. 2, new section 1334, Scholarships
+      quote: participating in the Program with full tuition scholarships
+sponsors:
+  - name: Mike Rounds
+    primary: true
+    party: R
+    chamber: upper
+  - name: Gary Peters
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-05"
+    description: Read twice and referred to the Committee on Homeland Security and Governmental Affairs.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-03-11"
+    url: https://www.congress.gov/119/bills/s438/BILLS-119s438is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1961580
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/438/all-info
+    title: S. 438 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s438/BILLS-119s438is.pdf
+    title: S. 438 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,66 @@
+id: us-tx-2025-2026-hb-2400
+jurisdiction: us-tx
+session: 2025-2026
+identifier: HB 2400
+title: Relating to a prohibition on the use of artificial intelligence technology for classroom instruction.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+summary: Prohibits school districts and open-enrollment charter schools from using artificial intelligence
+  technology to provide instruction to students or to replace or supplement a teacher's role in instruction
+  or in interacting with students in a course, beginning in 2025-2026.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Bars districts and charter schools from using AI to provide instruction or replace or
+      supplement a teacher's instructional role.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB02400I.htm
+      locator: Sec. 28.0028
+      quote: 'A school district or open-enrollment charter school may not use artificial intelligence
+        technology to: (1) provide instruction to students; or (2) replace or supplement a teacher''s
+        role in providing instruction or interacting with students in a course of instruction.'
+sponsors:
+  - name: Terri Leo-Wilson
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-04"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-14"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-14"
+    description: Referred to Public Education
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-04"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB02400I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1954141
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2400
+    title: HB 2400 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB02400I.htm
+    title: HB 2400 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

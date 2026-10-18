@@ -1,0 +1,86 @@
+id: us-mo-2026-hb-3281
+jurisdiction: us-mo
+session: "2026"
+identifier: HB 3281
+title: Establishes provisions relating to software accountability for education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+  - student-privacy
+  - safety-wellbeing
+  - instructional-use
+summary: Enacts the PROTECT Students Act, requiring a statewide digital privacy agreement for software
+  used by students in Missouri schools. The agreement bars software from using student data to train machine-learning
+  models or employing AI systems that analyze or influence students' emotions, behavior, or attention,
+  applies content restrictions to AI-generated or AI-recommended content, and requires vendors to disclose
+  all AI components to the contracting school entity.
+provisions:
+  - type: restricts-student-data-use
+    description: Bars software from using student data to train machine-learning models or using AI to
+      analyze or influence students' emotions, behavior, or attention.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7041H.01I.pdf
+      locator: Section 160.071, statewide digital privacy agreement (6)(d)
+      quote: a. Use student data to train machine-learning models; b. Employ AI systems that analyze or
+        influence a student's emotions, behavior, or attention;
+  - type: procurement-standards
+    description: Requires vendors to disclose all AI components and functions to the contracting school
+      entity.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7041H.01I.pdf
+      locator: Section 160.071, statewide digital privacy agreement (6)(g)
+      quote: All AI components and functions;
+  - type: limits-ai-instructional-use
+    description: Applies sexual and health content restrictions to AI-generated or AI-recommended content
+      in school software.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7041H.01I.pdf
+      locator: Section 160.071, statewide digital privacy agreement (5)(b)
+      quote: Such requirement applies to core content, supplemental content, adaptive learning pathways,
+        embedded media, hyperlinks, and AI-generated or AI-recommended content.
+sponsors:
+  - name: Tricia Byrnes
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-11"
+    description: Introduced and Read First Time (H)
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-12"
+    description: Read Second Time (H)
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-05-15"
+    description: 'Referred: Emerging Issues(H)'
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-11"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7041H.01I.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2114226
+sources:
+  - url: https://house.mo.gov/Bill.aspx?bill=HB3281&year=2026&code=R
+    title: HB 3281 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7041H.01I.pdf
+    title: HB 3281 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

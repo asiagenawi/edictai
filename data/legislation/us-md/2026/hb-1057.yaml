@@ -1,0 +1,163 @@
+id: us-md-2026-hb-1057
+jurisdiction: us-md
+session: "2026"
+identifier: HB 1057
+title: Education - Artificial Intelligence - Guidelines, Professional Development, and Collaborative (Artificial
+  Intelligence Ready Schools Act)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - local-policy-requirement
+  - procurement
+  - educator-training
+  - ai-literacy
+  - task-force
+summary: Requires the State Department of Education to provide guidance on artificial intelligence to
+  local school systems, educators, parents, and students, and requires each local school system to have
+  an AI policy aligned with that guidance and to designate an AI coordinator. Requires the Department
+  to publish a rubric that local school systems must use to evaluate AI tools, provide AI professional
+  development to educators and school leaders, and establishes a Maryland AI Education Collaborative.
+provisions:
+  - type: issues-model-policy
+    description: Requires the Department to provide AI guidance to local school systems, educators, parents,
+      and students through an online platform.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb1057t.pdf
+      locator: Section 1, new Subtitle 22, section on Department guidance, (A)(1)
+      quote: 'THE DEPARTMENT SHALL PROVIDE GUIDANCE ON ARTIFICIAL INTELLIGENCE TO LOCAL SCHOOL SYSTEMS,
+        EDUCATORS, PARENTS, AND STUDENTS THROUGH AN ONLINE PLATFORM THAT:'
+  - type: requires-local-ai-policy
+    description: Requires each local school system to have an AI policy aligned with the state guidance.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb1057t.pdf
+      locator: Section 1, new Subtitle 22, section on Department guidance, (C)
+      quote: EACH LOCAL SCHOOL SYSTEM SHALL HAVE AN ARTIFICIAL INTELLIGENCE POLICY ALIGNED WITH THE GUIDANCE.
+  - type: procurement-standards
+    description: Requires local school systems to use a Department rubric when reviewing and selecting
+      AI tools.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb1057t.pdf
+      locator: Section 1, new Subtitle 22, section on Department guidance, rubric paragraph (3)
+      quote: EACH LOCAL SCHOOL SYSTEM SHALL USE THE RUBRIC AND OTHER EVALUATIVE TOOLS DEVELOPED BY THE
+        DEPARTMENT IN THE REVIEW AND SELECTION OF ARTIFICIAL INTELLIGENCE TOOLS FOR USE WITHIN THE LOCAL
+        SCHOOL SYSTEM.
+  - type: educator-pd-requirement
+    description: Requires the Department to provide AI professional development to educators and school
+      leaders.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb1057t.pdf
+      locator: Section 1, new Subtitle 22, section on professional development, (B)
+      quote: 'THE DEPARTMENT SHALL PROVIDE PROFESSIONAL DEVELOPMENT IN ARTIFICIAL INTELLIGENCE TO EDUCATORS
+        AND SCHOOL LEADERS THAT:'
+sponsors:
+  - name: Eric Ebersole
+    primary: true
+    party: D
+    chamber: lower
+  - name: Caylin Young
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kris Fair
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anne Healey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dana Stein
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chao Wu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Derrick Coley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bernice Mireku-North
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julie Palakovich Carr
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joe Vogel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Greg Wims
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-09"
+    description: First Reading Ways and Means
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2026-02-13"
+    description: Hearing 3/04 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-11"
+    description: Favorable with Amendments Report by Ways and Means
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-11"
+    description: Favorable with Amendments {373525/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-11"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-04-13"
+    description: Third Reading Passed (124-11)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-13"
+    description: Referred Rules
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-02-10"
+    url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb1057f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-04-11"
+    url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb1057t.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2112595
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1057?ys=2026RS
+    title: HB 1057 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb1057t.pdf
+    title: HB 1057 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

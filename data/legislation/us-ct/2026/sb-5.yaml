@@ -1,0 +1,547 @@
+id: us-ct-2026-sb-5
+jurisdiction: us-ct
+session: "2026"
+identifier: SB 5
+title: An Act Concerning Online Safety.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - educator-training
+  - ai-literacy
+  - workforce
+  - instructional-use
+summary: An online safety and artificial intelligence act that, among other provisions, establishes a
+  Connecticut AI Academy through the Board of Regents offering AI courses, career preparation, resources
+  for people aged 13 to 20, and courses and videos for K-12 teachers and administrators on appropriate
+  classroom AI use and teaching students about AI, with certificates and badges for completers.
+provisions:
+  - type: educator-pd-requirement
+    description: The AI Academy must develop courses and videos for K-12 teachers and administrators on
+      appropriate AI use in classrooms.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF
+      locator: Sec. 17(b)(7)
+      quote: develop and offer courses and videos for primary and secondary school teachers and administrators
+        (A) concerning the appropriate use of artificial intelligence in primary and secondary school
+        classrooms, (B) instructing such teachers how to use artificial intelligence
+  - type: ai-workforce-program
+    description: The AI Academy must prepare students for careers in fields involving AI.
+    citation:
+      source_url: https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF
+      locator: Sec. 17(b)(3)
+      quote: (3) Prepare students for careers in fields involving artificial intelligence;
+  - type: ai-workforce-program
+    description: The Board of Regents must develop certificates and badges for completing AI Academy courses.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF
+      locator: Sec. 17(c)
+      quote: The Board of Regents for Higher Education shall, in consultation with Charter Oak State College,
+        develop certificates and badges to be awarded to persons who successfully complete courses offered
+        by the Connecticut AI Academy.
+sponsors:
+  - name: General Law Committee
+    classification: committee
+    primary: true
+  - name: Martin Looney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Duff
+    primary: false
+    party: D
+    chamber: upper
+  - name: Saud Anwar
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jorge Cabrera
+    primary: false
+    party: D
+    chamber: upper
+  - name: Christine Cohen
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mae Flexer
+    primary: false
+    party: D
+    chamber: upper
+  - name: Sujata Gadkar-Wilcox
+    primary: false
+    party: D
+    chamber: upper
+  - name: Herron Gaston
+    primary: false
+    party: D
+    chamber: upper
+  - name: Joan Hartley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jan Hochadel
+    primary: false
+    party: D
+    chamber: upper
+  - name: Paul Honig
+    primary: false
+    party: D
+    chamber: upper
+  - name: Julie Kushner
+    primary: false
+    party: D
+    chamber: upper
+  - name: Matthew Lesser
+    primary: false
+    party: D
+    chamber: upper
+  - name: Rick Lopes
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cici Maher
+    primary: false
+    party: D
+    chamber: upper
+  - name: James Maroney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Martha Marx
+    primary: false
+    party: D
+    chamber: upper
+  - name: Douglas McCrory
+    primary: false
+    party: D
+    chamber: upper
+  - name: Patricia Miller
+    primary: false
+    party: D
+    chamber: upper
+  - name: Norman Needleman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Catherine Osten
+    primary: false
+    party: D
+    chamber: upper
+  - name: MD Rahman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Derek Slap
+    primary: false
+    party: D
+    chamber: upper
+  - name: Anne Hughes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rebecca Martinez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nick Menapace
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kenneth Gucker
+    primary: false
+    party: D
+    chamber: lower
+  - name: Hubert Delany
+    primary: false
+    party: D
+    chamber: lower
+  - name: William Heffernan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kaitlyn Shake
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lucy Dathan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer Leeper
+    primary: false
+    party: D
+    chamber: lower
+  - name: Renee LaMark Muir
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Shannon
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nick Gauthier
+    primary: false
+    party: D
+    chamber: lower
+  - name: Savet Constantine
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gary Turco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joshua Elliott
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kate Farrar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Iris Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laurie Sweet
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marcus Brown
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Jacobson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Welander
+    primary: false
+    party: D
+    chamber: lower
+  - name: Matt Blumenthal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Roland Lemar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kara Rochelle
+    primary: false
+    party: D
+    chamber: lower
+  - name: Cristin McCarthy Vahey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anthony Nolan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tom Delnicki
+    primary: false
+    party: R
+    chamber: lower
+  - name: Geraldo Reyes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eilish Collins Main
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brandon Chafee
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: John-Michael Parker
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jane Garibay
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jillian Gilchrest
+    primary: false
+    party: D
+    chamber: lower
+  - name: Moira Rader
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eleni Kavros DeGraw
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Quinn
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dominique Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bob Godfrey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Hector Arzeno
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maryam Khan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Hilda Santiago
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jaime Foster
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gregory Haddad
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bobby Gibson
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-04"
+    description: Referred to Joint Committee on General Law
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-11"
+    description: Vote to Draft
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Drafted by Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Referred to Joint Committee on General Law
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-27"
+    description: Public Hearing 03/04
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-16"
+    description: Joint Favorable Substitute
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-17"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-03-27"
+    description: Referred to Office of Legislative Research and Office of Fiscal Analysis 04/01/26 5:00
+      PM
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-02"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-02"
+    description: Favorable Report, Tabled for the Calendar, Senate
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-02"
+    description: Senate Calendar Number 224
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: File Number 338
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Immediate Transmittal to Committee on Judiciary
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-10"
+    description: Joint Favorable
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-13"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-04-13"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-13"
+    description: No New File by Committee on Judiciary
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-13"
+    description: Favorable Report, Tabled for the Calendar, Senate
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-15"
+    description: Referred by Senate to Committee on Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-15"
+    description: Immediate Transmittal
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-17"
+    description: Joint Favorable
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-17"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-04-17"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-20"
+    description: No New File by Committee on Appropriations
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-20"
+    description: Favorable Report, Tabled for the Calendar, Senate
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-21"
+    description: Senate Adopted Senate Amendment Schedule A 4418
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-21"
+    description: Senate Passed as Amended by Senate Amendment Schedule A
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-22"
+    description: Favorable Report, Tabled for the Calendar, House
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-22"
+    description: House Calendar Number 480
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-01"
+    description: House Adopted Senate Amendment Schedule A
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-01"
+    description: House Passed as Amended by Senate Amendment Schedule A
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-01"
+    description: In Concurrence
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-11"
+    description: Public Act 26-15
+    actor: executive
+    classification:
+      - became-law
+  - date: "2026-05-14"
+    description: Transmitted to the Secretary of State
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-05-14"
+    description: Transmitted by Secretary of the State to Governor
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: Signed by the Governor
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2026-02-03"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00005-R00-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-02-25"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00005-R01-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-04-02"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00005-R02-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-04-13"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00005-R03-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-04-20"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00005-R04-SB.PDF
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-05-11"
+    url: https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2106638
+sources:
+  - url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00005&which_year=2026
+    title: SB 5 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF
+    title: SB 5 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

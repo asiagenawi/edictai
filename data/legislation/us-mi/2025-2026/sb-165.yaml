@@ -1,0 +1,133 @@
+id: us-mi-2025-2026-sb-165
+jurisdiction: us-mi
+session: 2025-2026
+identifier: SB 165
+title: 'Appropriations: department of education; appropriations for fiscal year 2025-2026; provide for.
+  Creates appropriation act.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - educator-training
+  - funding
+summary: Makes fiscal year 2025-2026 appropriations for the Michigan Department of Education. Directs
+  the Department to use media literacy training funds to design, implement, and evaluate professional
+  learning and optional curriculum modules for teaching artificial intelligence and media literacy.
+provisions:
+  - type: educator-pd-requirement
+    description: Directs funds for professional learning and optional curriculum modules on teaching AI
+      and media literacy.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2025-SEBS-0165.htm
+      locator: Sec. 705
+      quote: From the funds appropriated in part 1 for media literacy training, the department shall design,
+        implement, and evaluate professional learning and optional curriculum modules for the purpose
+        of teaching artificial intelligence and media literacy in this state.
+sponsors:
+  - name: Rosemary Bayer
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-03-18"
+    description: Introduced By Senator Rosemary Bayer
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-18"
+    description: Referred To Committee On Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-05-08"
+    description: Reported Favorably With Substitute (s-2) 5/6/2025
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-05-08"
+    description: Committee Recommended Immediate Effect
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Referred To Committee Of The Whole With Substitute (s-2)
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-05-13"
+    description: Reported By Committee Of The Whole Favorably With Substitute (s-2)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Substitute (s-2) Concurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Placed On Order Of Third Reading With Substitute (s-2)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Placed On Immediate Passage
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Amendment(s) Defeated
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: 'Passed Roll Call # 106 Yeas 19 Nays 18 Excused 0 Not Voting 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-05-13"
+    description: Received On 05/13/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-18"
+    url: https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0165.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-05-13"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2025-SEBS-0165.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2009885
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0165
+    title: SB 165 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2025-SEBS-0165.htm
+    title: SB 165 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

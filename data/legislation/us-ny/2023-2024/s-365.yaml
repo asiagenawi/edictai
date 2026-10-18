@@ -1,0 +1,224 @@
+id: us-ny-2023-2024-s-365
+jurisdiction: us-ny
+session: 2023-2024
+identifier: S 365
+title: Enacts the New York privacy act to require companies to disclose their methods of de-identifying
+  personal information, to place special safeguards around data sharing and to allow consumers to obtain
+  the names of all entities with whom their information is shared.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: As introduced, would enact the New York privacy act, including a requirement that controllers
+  or processors engaged in automated decision-making affecting education enrollment and other areas annually
+  conduct an impact assessment testing for accuracy, fairness, bias, and discrimination. The AI provisions
+  were removed by amendment.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Requires annual impact assessments, including bias and discrimination testing, of automated
+      decision-making affecting education enrollment and other areas.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S00365&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S00365
+      locator: Introduced, § 1102(8)(c)(i)
+      quote: A controller or processor engaged in automated decision-making affecting financial or lending
+        services, housing, public accommodation, insurance, education enrollment, employment, health care
+        services, or access to basic necessities
+sponsors:
+  - name: Kevin Thomas
+    primary: true
+    party: D
+    chamber: upper
+  - name: Cordell Cleare
+    primary: false
+    party: D
+    chamber: upper
+  - name: Leroy Comrie
+    primary: false
+    party: D
+    chamber: upper
+  - name: Brad Hoylman-Sigal
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Jackson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Liz Krueger
+    primary: false
+    party: D
+    chamber: upper
+  - name: Rachel May
+    primary: false
+    party: D
+    chamber: upper
+  - name: Zellnor Myrie
+    primary: false
+    party: D
+    chamber: upper
+  - name: Kevin Parker
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jessica Ramos
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lea Webb
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2023-01-04"
+    description: REFERRED TO CONSUMER PROTECTION
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2023-04-25"
+    description: REPORTED AND COMMITTED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2023-05-18"
+    description: AMEND AND RECOMMIT TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-18"
+    description: PRINT NUMBER 365A
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-22"
+    description: REPORTED AND COMMITTED TO FINANCE
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2023-06-04"
+    description: AMEND AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2023-06-04"
+    description: PRINT NUMBER 365B
+    actor: upper
+    classification:
+      - other
+  - date: "2023-06-08"
+    description: COMMITTEE DISCHARGED AND COMMITTED TO RULES
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2023-06-08"
+    description: ORDERED TO THIRD READING CAL.1671
+    actor: upper
+    classification:
+      - other
+  - date: "2023-06-08"
+    description: PASSED SENATE
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-06-08"
+    description: DELIVERED TO ASSEMBLY
+    actor: upper
+    classification:
+      - other
+  - date: "2023-06-08"
+    description: referred to consumer affairs and protection
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-03"
+    description: died in assembly
+    actor: lower
+    classification:
+      - died-at-session-end
+  - date: "2024-01-03"
+    description: returned to senate
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-03"
+    description: REFERRED TO CONSUMER PROTECTION
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-02-06"
+    description: REPORTED AND COMMITTED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2024-05-21"
+    description: REPORTED AND COMMITTED TO FINANCE
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2024-05-30"
+    description: COMMITTEE DISCHARGED AND COMMITTED TO RULES
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-05-30"
+    description: ORDERED TO THIRD READING CAL.1550
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-03"
+    description: PASSED SENATE
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-06-03"
+    description: DELIVERED TO ASSEMBLY
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-03"
+    description: referred to consumer affairs and protection
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-01-04"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S00365&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S00365
+    media_type: text/html
+  - note: Amended
+    date: "2023-01-04"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S00365&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S00365A
+    media_type: text/html
+  - note: Amended
+    date: "2023-01-04"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S00365&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S00365B
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1641935
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2023/S365
+    title: S 365 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S00365&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S00365B
+    title: S 365 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S00365&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S00365
+    title: S 365 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

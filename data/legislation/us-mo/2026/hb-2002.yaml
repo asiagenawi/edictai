@@ -1,0 +1,403 @@
+id: us-mo-2026-hb-2002
+jurisdiction: us-mo
+session: "2026"
+identifier: HB 2002
+title: Appropriates money for the expenses, grants, refunds, and distributions of the State Board of Education
+  and Department of Elementary and Secondary Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - safety-wellbeing
+summary: Appropriates money for the Missouri State Board of Education and Department of Elementary and
+  Secondary Education. Includes funding for safe schools programs, distributed to a statewide school board
+  organization, that covers cyber and artificial intelligence threat management.
+provisions:
+  - type: appropriates-funding
+    description: Funds safe schools programs that include cyber and AI threat management.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002H.06T.pdf
+      locator: Section 2.101
+      quote: for providing incident command system and structure training; for cyber and artificial intelligence
+        (AI) threat management;
+sponsors:
+  - name: Dirk Deaton
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-21"
+    description: Introduced and Read First Time (H)
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-01-22"
+    description: Read Second Time (H)
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-01-22"
+    description: 'Referred: Budget(H)'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-03"
+    description: Public Hearing Scheduled, Bill not Heard (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: Public Hearing Completed (H)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2026-03-11"
+    description: Executive Session Completed (H)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2026-03-11"
+    description: HCS Voted Do Pass (H)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-12"
+    description: 'HCS Reported Do Pass (H) - with a time limit of five and a half hours of debate on Perfection
+      pursuant to Rule 24(4)(d) AYES: 21 NOES: 10 PRESENT: 0'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-23"
+    description: Taken Up for Perfection (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-23"
+    description: Title of Bill - Agreed To
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-23"
+    description: Laid Over (H)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-03-24"
+    description: Taken Up
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: Laid Over (H) - HA 1, HA 2, HA 3, HA 4, HA 5, adopted
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-03-24"
+    description: Taken Up
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: Laid Over (H) - HA 6, HA 7, HA 10, adopted
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-03-24"
+    description: Taken Up
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: Laid Over (H) - HA 13, adopted.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-03-24"
+    description: Taken Up
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: Laid Over (H) - HA 14, adopted
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-03-24"
+    description: Taken Up
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: HCS Adopted (H)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-24"
+    description: Perfected with Amendments (H) - HA 1, HA 2, HA 3, HA4, HA 5, HA 6, HA 7, HA 10, HA 13,
+      HA 14
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-26"
+    description: Taken Up for Third Reading (H)
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-26"
+    description: 'Third Read and Passed (H) - AYES: 85 NOES: 70 PRESENT: 0'
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-30"
+    description: Reported to the Senate and First Read (S)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-31"
+    description: 'Second read and referred: Appropriations(S)'
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-09"
+    description: Public Hearing Scheduled (S) - Tuesday, April 14, 2026, 8:30 a.m., Senate Committee Room
+      2 - 1st Floor
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: 'Public Hearing Scheduled (S) - AMENDED: Wednesday, April 15, 2026, 9:30 a.m., Senate
+      Committee Room 1 - 1st Floor'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: 'Public Hearing Scheduled (S) - CANCELLED: Thursday, April 16, 2026, 8:30 a.m., Senate
+      Committee Room 2 - 1st Floor'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: 'Public Hearing Scheduled (S) - CANCELLED: Friday, April 17, 2026, 8:30 a.m., Senate
+      Committee Room 2 - 1st Floor'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-15"
+    description: Public Hearing Held (S)
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2026-04-15"
+    description: Executive Session Held (S)
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2026-04-15"
+    description: SCS Voted Do Pass (S)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-20"
+    description: SCS Reported Do Pass (S)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-22"
+    description: Taken Up for Third Reading (S)
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-04-22"
+    description: SS Offered
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-22"
+    description: SS Adopted (S)
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-22"
+    description: 'Third Read and Passed (S) - AYES: 21 NOES: 11 PRESENT: 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-23"
+    description: Reported to the House with... (H) - SS SCS
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-23"
+    description: Taken Up
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-23"
+    description: House Refuses to Adopt, Requests Senate to Recede or Grant Conference (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-23"
+    description: House Message (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-23"
+    description: Senate Refuses to Recede, Grants Conference (S)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-23"
+    description: Senate Message (S)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-27"
+    description: House Conference Committee Appointed (H) - REPRESENTATIVES DEATON, DAVIDSON, CHAPPELL,
+      FOGLE, STEINHOFF
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-04-27"
+    description: House Message (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Senate Conference Committee Appointed (S) - SENATORS BLACK, HUDSON, HENDERSON, MAY, NURRENBERN
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-04-28"
+    description: Senate Message (S)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-05"
+    description: House Distributes Conference Committee Report (H)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-06"
+    description: House Submits Conference Committee Report (H)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-06"
+    description: Substitute Motion Offered - House refuses to adopt, request Senate grant further conference.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-06"
+    description: 'Substitute Motion Defeated - AYES: 62 NOES: 89 PRESENT: 0'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-06"
+    description: 'House Adopts Conference Committee Report (H) - AYES: 83 NOES: 66 PRESENT: 2'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-06"
+    description: 'Third Read and Passed (H) - AYES: 83 NOES: 68 PRESENT: 2'
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-06"
+    description: House Message (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-06"
+    description: Senate Submits Conference Committee Report (S)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-06"
+    description: 'Senate Adopts Conference Committee Report (S) - AYES: 20 NOES: 13 PRESENT: 0'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-06"
+    description: 'Truly Agreed To and Finally Passed - AYES: 20 NOES: 13 PRESENT: 0'
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-07"
+    description: Senate Message (S)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-28"
+    description: Signed by House Speaker (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-28"
+    description: Signed by President Pro Tem (S)
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-05-28"
+    description: Delivered to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-06-30"
+    description: Vetoed in Part by Governor (G)
+    actor: executive
+    classification:
+      - executive-veto
+  - date: "2026-06-30"
+    description: Delivered to Secretary of State (G)
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-21"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002H.01I.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-03-12"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002H.03C.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-03-25"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002H.03P.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-04-20"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002S.04C.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-04-21"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002S.05F.pdf
+    media_type: application/pdf
+  - note: Conference Sub
+    date: "2026-05-05"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002H.06S.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-05-07"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002H.06T.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2089158
+sources:
+  - url: https://house.mo.gov/Bill.aspx?bill=HB2002&year=2026&code=R
+    title: HB 2002 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002H.06T.pdf
+    title: HB 2002 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

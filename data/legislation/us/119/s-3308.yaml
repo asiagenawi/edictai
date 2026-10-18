@@ -1,0 +1,85 @@
+id: us-119-s-3308
+jurisdiction: us
+session: "119"
+identifier: S. 3308
+title: Artificial Intelligence Civil Rights Act of 2025
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+summary: Prohibits developers and deployers from using covered algorithms in ways that cause disparate
+  impact or discrimination in consequential actions, and requires pre-deployment evaluations and impact
+  assessments. Consequential actions include education decisions such as assessment, proctoring, academic
+  integrity, admissions, and financial aid.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Consequential actions governed by the Act include education decisions such as assessment,
+      proctoring, academic integrity, accreditation, admissions, and financial aid.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3308/BILLS-119s3308is.pdf
+      locator: Sec. 2(4)(B)
+      quote: (B) Education and career and technical education, including assessment, proctoring, promotion
+        of academic integrity, accreditation, certification, admissions, enrollment, discipli- nary actions
+        including suspension, expulsion, or referral to law enforcement,
+  - type: bias-or-equity-requirement
+    description: Bars developers and deployers from using covered algorithms in a manner that causes or
+      contributes to a disparate impact related to a consequential action.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3308/BILLS-119s3308is.pdf
+      locator: Sec. 101(a)
+      quote: shall not offer, license, promote, sell, or use a covered algorithm in a manner that
+sponsors:
+  - name: Edward Markey
+    primary: true
+    party: D
+    chamber: upper
+  - name: Cory Booker
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jeff Merkley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Elizabeth Warren
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mazie Hirono
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-12-02"
+    description: Read twice and referred to the Committee on Commerce, Science, and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-12-23"
+    url: https://www.congress.gov/119/bills/s3308/BILLS-119s3308is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2056116
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/3308/all-info
+    title: S. 3308 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s3308/BILLS-119s3308is.pdf
+    title: S. 3308 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

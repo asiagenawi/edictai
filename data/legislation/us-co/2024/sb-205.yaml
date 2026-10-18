@@ -1,0 +1,201 @@
+id: us-co-2024-sb-205
+jurisdiction: us-co
+session: "2024"
+identifier: SB 205
+title: Consumer Protections for Artificial Intelligence
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Requires developers and deployers of high-risk artificial intelligence systems to use reasonable
+  care to protect consumers from algorithmic discrimination in consequential decisions, which include
+  education enrollment or an education opportunity, with documentation, risk management, impact assessment,
+  and notice duties enforced by the attorney general.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Consequential decisions covered by the high-risk AI law include education enrollment
+      or an education opportunity.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_enr.pdf
+      locator: 6-1-1701(3), definition of consequential decision
+      quote: EDUCATION ENROLLMENT OR AN EDUCATION OPPORTUNITY; (b) EMPLOYMENT OR AN EMPLOYMENT OPPORTUNITY;
+  - type: bias-or-equity-requirement
+    description: Deployers of high-risk AI systems must use reasonable care to protect consumers from
+      algorithmic discrimination.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_enr.pdf
+      locator: 6-1-1703(1)
+      quote: A DEPLOYER OF A HIGH-RISK ARTIFICIAL INTELLIGENCE SYSTEM SHALL USE REASONABLE CARE TO PROTECT
+        CONSUMERS FROM ANY KNOWN OR REASONABLY FORESEEABLE RISKS OF ALGORITHMIC DISCRIMINATION.
+sponsors:
+  - name: Robert Rodriguez
+    primary: true
+    party: D
+    chamber: upper
+  - name: Manny Rutinel
+    primary: true
+    party: D
+    chamber: lower
+  - name: Brianna Titone
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lisa Cutter
+    primary: false
+    party: D
+    chamber: upper
+  - name: Steve Fenberg
+    primary: false
+    party: D
+    chamber: upper
+  - name: Dafna Michaelson Jenet
+    primary: false
+    party: D
+    chamber: upper
+  - name: Kevin Priola
+    primary: false
+    party: D
+    chamber: lower
+  - name: Faith Winter
+    primary: false
+    party: D
+    chamber: lower
+  - name: Monica Duran
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-04-10"
+    description: Introduced In Senate - Assigned to Judiciary
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2024-04-24"
+    description: Senate Committee on Judiciary Refer Amended to Senate Committee of the Whole
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-04-29"
+    description: Senate Second Reading Laid Over to 04/30/2024 - No Amendments
+    actor: upper
+    classification:
+      - reading-2
+      - deferral
+  - date: "2024-04-30"
+    description: Senate Second Reading Laid Over to 05/01/2024 - No Amendments
+    actor: upper
+    classification:
+      - reading-2
+      - deferral
+  - date: "2024-05-01"
+    description: Senate Second Reading Laid Over to 05/02/2024 - No Amendments
+    actor: upper
+    classification:
+      - reading-2
+      - deferral
+  - date: "2024-05-02"
+    description: Senate Second Reading Passed with Amendments - Committee, Floor
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-05-03"
+    description: Senate Third Reading Passed with Amendments - Floor
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-05-03"
+    description: Introduced In House - Assigned to State, Civic, Military, & Veterans Affairs
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2024-05-04"
+    description: House Committee on State, Civic, Military, & Veterans Affairs Refer Amended to House
+      Committee of the Whole
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-05-07"
+    description: House Second Reading Special Order - Passed with Amendments - Committee, Floor
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-05-08"
+    description: House Third Reading Passed with Amendments - Floor
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-05-08"
+    description: Senate Considered House Amendments - Result was to Concur - Repass
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-13"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-05-13"
+    description: Signed by the President of the Senate
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2024-05-13"
+    description: Signed by the Speaker of the House
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-05-17"
+    description: Governor Signed
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2024-04-10"
+    url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_01.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-05-02"
+    url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_eng.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-05-03"
+    url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_rn4.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2024-05-08"
+    url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_rev.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2024-05-08"
+    url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_rer.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2024-05-13"
+    url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_enr.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1871619
+sources:
+  - url: https://leg.colorado.gov/bills/sb24-205
+    title: SB 205 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leg.colorado.gov/sites/default/files/documents/2024A/bills/2024a_205_enr.pdf
+    title: SB 205 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

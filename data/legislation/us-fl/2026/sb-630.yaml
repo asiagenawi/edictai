@@ -1,0 +1,59 @@
+id: us-fl-2026-sb-630
+jurisdiction: us-fl
+session: "2026"
+identifier: SB 630
+title: Administrative Efficiency in Public Schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+summary: An administrative efficiency bill for public schools that, among many provisions, addresses use
+  of reserved Title I funds for STEM curricula and learning technologies in schools, including technologies
+  related to artificial intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Reserved Title I funds may support school technologies including AI.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/630/BillText/Filed/HTML
+      locator: Sec. 20
+      quote: technologies related to drones, coding, animation, artificial intelligence, cybersecurity,
+        data science, the engineering design process, mobile development, and robotics.
+sponsors:
+  - name: Corey Simon
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-11-20"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-12-01"
+    description: Withdrawn prior to introduction
+    actor: upper
+    classification:
+      - withdrawal
+versions:
+  - note: Introduced
+    date: "2025-11-20"
+    url: https://www.flsenate.gov/Session/Bill/2026/630/BillText/Filed/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2053446
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/630
+    title: SB 630 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/630/BillText/Filed/HTML
+    title: SB 630 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

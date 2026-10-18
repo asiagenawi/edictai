@@ -1,0 +1,88 @@
+id: us-il-2023-2024-hb-5322
+jurisdiction: us-il
+session: 2023-2024
+identifier: HB 5322
+title: ALGORITHMIC IMPACT ASSESSMENTS
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+summary: Creates the Illinois Commercial Algorithmic Impact Assessments Act, requiring deployers and developers
+  of AI-based automated decision tools used for consequential decisions, including education decisions
+  such as assessment, cheating detection, admissions, and financial aid, to complete annual impact assessments
+  that address risks of algorithmic discrimination.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Covers education and vocational training decisions, including assessment, cheating detection,
+      admissions, and financial aid, as consequential decisions.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5322.htm
+      locator: Sec. 5, definition of "Consequential decision"
+      quote: '(2) Education and vocational training, including, but not limited to: (A) Assessment, including,
+        but not limited to, detecting student cheating or plagiarism; (B) Accreditation; (C) Certification;
+        (D) Admissions; and (E) Financial aid or scholarships.'
+  - type: bias-or-equity-requirement
+    description: Requires deployers' annual impact assessments to assess reasonably foreseeable risks
+      of algorithmic discrimination.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5322.htm
+      locator: Sec. 10(a)(5)
+      quote: (5) An assessment of the reasonably foreseeable risks of algorithmic discrimination arising
+        from the use of the automated decision tool known to the deployer at the time of the impact assessment;
+sponsors:
+  - name: Abdelnasser Rashid
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-09"
+    description: Filed with the Clerk by Rep. Abdelnasser Rashid
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-09"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-02-09"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-12"
+    description: Assigned to Executive Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-05"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-02-09"
+    url: https://www.ilga.gov/legislation/103/HB/10300HB5322.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1842520
+sources:
+  - url: https://www.ilga.gov/legislation/BillStatus.asp?DocNum=5322&GAID=17&DocTypeID=HB&SessionID=112&GA=103
+    title: HB 5322 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/legislation/103/HB/10300HB5322.htm
+    title: HB 5322 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

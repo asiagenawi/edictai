@@ -1,0 +1,63 @@
+id: us-ny-2025-2026-a-5827
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 5827
+title: Establishes consumers' foundational data privacy rights; creates oversight mechanisms; establishes
+  enforcement mechanisms; establishes the privacy and security victims relief fund.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Establishes consumer data privacy rights and requires large data holders using covered algorithms
+  that pose a consequential risk of harm to conduct impact assessments describing steps to mitigate harms,
+  including harms in determining access to education opportunities.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Requires algorithm impact assessments to describe mitigation of harms, including harms
+      in determining access to education opportunities and disparate impact.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A05827&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A05827
+      locator: GBL 1626(3)(a)(ii)(F)
+      quote: (II) making or facilitating advertising for, or determining access to, or restrictions on
+        the use of housing, education, employment, health- care, insurance, or credit opportunities;
+sponsors:
+  - name: Michaelle Solages
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-20"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-20"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A05827&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A05827
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1977652
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A5827
+    title: A 5827 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A05827&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A05827
+    title: A 5827 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

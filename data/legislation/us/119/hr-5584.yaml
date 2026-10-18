@@ -1,0 +1,115 @@
+id: us-119-hr-5584
+jurisdiction: us
+session: "119"
+identifier: H.R. 5584
+title: LIFT AI Act Literacy in Future Technologies Artificial Intelligence Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - funding
+summary: Authorizes the National Science Foundation to make competitive awards to institutions of higher
+  education and nonprofits to develop K-12 AI literacy curricula, instructional materials, teacher professional
+  development, and evaluation methods.
+provisions:
+  - type: appropriates-funding
+    description: NSF may make merit-reviewed awards to develop K-12 AI literacy curricula, instructional
+      material, teacher professional development, and evaluation methods.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr5584/BILLS-119hr5584ih.pdf
+      locator: Sec. 2(b)
+      quote: The Director may make awards on a merit-reviewed, competitive basis to institutions of higher
+        education or nonprofit organizations (or a consortium thereof) to support research activities
+        to develop edu- cational curricula, instructional material, teacher profes- sional development,
+  - type: educator-pd-requirement
+    description: Award funds may support AI literacy professional development for state and local educational
+      agencies, principals, and educators.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr5584/BILLS-119hr5584ih.pdf
+      locator: Sec. 2(c)(4)
+      quote: Designing and implementing professional development courses and experiences in AI literacy,
+        including mentoring, for State and local educational agencies, principals, educators, or other
+        school lead- ers
+sponsors:
+  - name: Thomas Kean
+    primary: true
+    party: R
+    chamber: lower
+  - name: Gabe Amo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Gillen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eugene Vindman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josh Gottheimer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brittany Pettersen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Levin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Derek Tran
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shri Thanedar
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-09-26"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-09-26"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-25"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-25"
+    description: 'Ordered to be Reported (Amended) by the Yeas and Nays: 34 - 1.'
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2025-10-04"
+    url: https://www.congress.gov/119/bills/hr5584/BILLS-119hr5584ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2045181
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/5584/all-info
+    title: H.R. 5584 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr5584/BILLS-119hr5584ih.pdf
+    title: H.R. 5584 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

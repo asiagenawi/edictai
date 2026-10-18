@@ -1,0 +1,89 @@
+id: us-ut-2025-hb-121
+jurisdiction: us-ut
+session: "2025"
+identifier: HB 121
+title: Health Education Amendments
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - synthetic-media
+summary: Requires the State Board of Education to establish health curriculum requirements that include
+  sexual assault resource strategies, sexual violence behavior prevention, and the legal implications
+  of electronically distributing sexually explicit images, including images created with artificial intelligence.
+  Requires local education agencies to review local data to inform health education.
+provisions:
+  - type: ai-in-standards
+    description: State health curriculum requirements must include the legal implications of creating
+      or distributing sexually explicit images of an individual using AI.
+    citation:
+      source_url: https://le.utah.gov/Session/2025/bills/introduced/HB0121.pdf
+      locator: Sec. 1, 53G-10-402(2)(a)(vii)
+      quote: the legal implications of electronically distributing sexually explicit images of an individual,
+        including creating or distributing pornographic or sexually explicit images of an individual using
+        technology including artificial intelligence
+sponsors:
+  - name: Carol Moss
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-07"
+    description: Bill Numbered but not Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-01-07"
+    description: Numbered Bill Publicly Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-01-15"
+    description: House/ received bill from Legislative Research in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-21"
+    description: House/ received fiscal note from Fiscal Analyst in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-21"
+    description: House/ 1st reading (Introduced) in House Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-03-07"
+    description: House/ strike enacting clause in Clerk of the House
+    actor: lower
+    classification:
+      - failure
+  - date: "2025-03-07"
+    description: House/ filed in House file for bills not passed
+    actor: lower
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2025-01-07"
+    url: https://le.utah.gov/Session/2025/bills/introduced/HB0121.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1904576
+sources:
+  - url: https://le.utah.gov/~2025/bills/static/HB0121.html
+    title: HB 121 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://le.utah.gov/Session/2025/bills/introduced/HB0121.pdf
+    title: HB 121 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

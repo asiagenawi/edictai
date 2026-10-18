@@ -1,0 +1,160 @@
+id: us-ca-2025-2026-sb-241
+jurisdiction: us-ca
+session: 2025-2026
+identifier: SB 241
+title: 'Community colleges: personnel: qualifications.'
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - employment-evaluation
+summary: Requires the instructor of record for a community college course, and other community college
+  instructors and staff, to be persons who meet the minimum or alternative qualifications for their positions,
+  while stating that community college staff may still use artificial intelligence tools in operations
+  and student services.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: The instructor of record for a community college course must be a person meeting faculty
+      minimum qualifications.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB241#96CHP
+      locator: Sec. 1, amended 87359.2(a)
+      quote: The instructor of record for a course of instruction shall be a person who meets the minimum
+        qualifications to serve as a faculty member teaching credit instruction or a faculty member teaching
+        noncredit instruction
+sponsors:
+  - name: Sabrina Cervantes
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-01-30"
+    description: Introduced. Read first time. To Com. on RLS. for assignment. To print.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: From printer. May be acted upon on or after March 2.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-14"
+    description: Referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-11"
+    description: Set for hearing March 26.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: 'From committee: Do pass. Ordered to consent calendar. (Ayes 7. Noes 0. Page 565.) (March
+      26).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-27"
+    description: Read second time. Ordered to consent calendar.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-01"
+    description: Read third time. Passed. (Ayes 39. Noes 0. Page 604.) Ordered to the Assembly.
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-01"
+    description: In Assembly. Read first time. Held at Desk.
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-05-12"
+    description: Referred to Com. on HIGHER ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-06-25"
+    description: 'From committee: Do pass as amended. (Ayes 9. Noes 0.) (June 24).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-06-26"
+    description: Read second time and amended. Ordered to second reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-06-27"
+    description: Read second time. Ordered to third reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-09-08"
+    description: Read third time. Passed. (Ayes 78. Noes 1. Page 2976.) Ordered to the Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-09-08"
+    description: In Senate. Concurrence in Assembly amendments pending.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-10"
+    description: Assembly amendments concurred in. (Ayes 40. Noes 0. Page 2826.) Ordered to engrossing
+      and enrolling.
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-09-17"
+    description: Enrolled and presented to the Governor at 2 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-10-01"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-10-01"
+    description: Chaptered by Secretary of State. Chapter 214, Statutes of 2025.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2025-01-30"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB241#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2025-06-26"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB241#98AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2025-09-12"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB241#97ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2025-10-01"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB241#96CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1949685
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB241
+    title: SB 241 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB241#96CHP
+    title: SB 241 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

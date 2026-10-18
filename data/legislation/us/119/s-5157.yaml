@@ -1,0 +1,63 @@
+id: us-119-s-5157
+jurisdiction: us
+session: "119"
+identifier: S. 5157
+title: Reimagining Education and Skills through Unified Longitudinal Talent Systems (RESULTS) Act of 2026
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - data-governance
+  - funding
+summary: Rewrites the federal grant program for statewide longitudinal data systems that connect early
+  childhood, K-12, postsecondary, and workforce data. Allowable uses include exploring evidence-based,
+  innovative, and secure methods of leveraging artificial intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Grant funds may be used to explore secure methods of leveraging AI in statewide longitudinal
+      education data systems.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5157/BILLS-119s5157is.pdf
+      locator: Sec. 3, new Sec. 208
+      quote: Exploring evidence-based, innovative, and secure methods of leveraging artificial intelligence
+        in
+sponsors:
+  - name: Lisa Rochester
+    primary: true
+    party: D
+    chamber: upper
+  - name: Roger Marshall
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-07-29"
+    description: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-08-04"
+    url: https://www.congress.gov/119/bills/s5157/BILLS-119s5157is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2156582
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/5157/all-info
+    title: S. 5157 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s5157/BILLS-119s5157is.pdf
+    title: S. 5157 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

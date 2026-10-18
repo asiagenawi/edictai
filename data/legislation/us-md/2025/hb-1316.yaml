@@ -1,0 +1,148 @@
+id: us-md-2025-hb-1316
+jurisdiction: us-md
+session: "2025"
+identifier: HB 1316
+title: Primary and Secondary Education - Youth-Centric Technology and Social Media Resource Guide
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - ai-literacy
+summary: Requires the National Center for School Mental Health, in consultation with the State Department
+  of Education, to develop a youth-centric technology and social media resource guide for public school
+  students and families that covers safe use of technologies including artificial intelligence products,
+  and to post and distribute it to every public school.
+provisions:
+  - type: issues-model-policy
+    description: The guide distributed to public schools must include guidance on safe student use of
+      technologies including AI products.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1316t.pdf
+      locator: Sec. 1, new Education Subtitle 9B, (C)(2)
+      quote: 'INFORMATION AND GUIDANCE ON SAFE INTERNET, TECHNOLOGY, AND SOCIAL MEDIA USAGE BY STUDENTS
+        IN PREKINDERGARTEN THROUGH GRADE 12, INCLUDING: (I) SOCIAL MEDIA PLATFORMS; (II) ONLINE GAMES;
+        (III) ARTIFICIAL INTELLIGENCE PRODUCTS;'
+sponsors:
+  - name: Sarah Wolek
+    primary: true
+    party: D
+    chamber: lower
+  - name: Marc Korman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bernice Mireku-North
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jared Solomon
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-07"
+    description: First Reading Ways and Means
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-02-07"
+    description: Hearing 3/05 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Hearing canceled
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Hearing 3/05 at 1:15 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-15"
+    description: Favorable with Amendments Report by Ways and Means
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-15"
+    description: Favorable with Amendments {143428/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-15"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-17"
+    description: Third Reading Passed (137-1)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-17"
+    description: Referred Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Favorable Report by Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-07"
+    description: Favorable Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-07"
+    description: Second Reading Passed
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-07"
+    description: Third Reading Passed (46-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-07"
+    description: Returned Passed
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-16"
+    description: Vetoed by the Governor (Policy)
+    actor: executive
+    classification:
+      - executive-veto
+versions:
+  - note: Introduced
+    date: "2025-02-07"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1316f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-03-15"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1316t.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1961410
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1316?ys=2025RS
+    title: HB 1316 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1316t.pdf
+    title: HB 1316 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

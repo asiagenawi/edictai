@@ -1,0 +1,100 @@
+id: us-ca-2023-2024-sb-1235
+jurisdiction: us-ca
+session: 2023-2024
+identifier: SB 1235
+title: 'Public postsecondary education: Artificial Intelligence and Deepfake Working Group.'
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - synthetic-media
+summary: Requires California State University, Long Beach, in consultation with other public institutions
+  of higher education, to establish an Artificial Intelligence and Deepfake Working Group that reports
+  annually to the Legislature. Its scoping plan may address the impact of AI and deepfakes on elementary,
+  secondary, and postsecondary education, and its members may include education staff, teachers, faculty,
+  and students.
+provisions:
+  - type: creates-task-force
+    description: CSU Long Beach must establish an AI and deepfake working group in consultation with other
+      public institutions of higher education.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1235#98AMD
+      locator: Education Code 99501(a)
+      quote: The California State University, Long Beach, in consultation with other public institutions
+        of higher education, shall establish the Artificial Intelligence and Deepfake Working Group.
+  - type: creates-task-force
+    description: The scoping plan may address the impact of AI and deepfakes on elementary, secondary,
+      and postsecondary education.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1235#98AMD
+      locator: Education Code 99501(b)(1)
+      quote: The impact of the proliferation of artificial intelligence and deepfakes on state and local
+        government, California-based businesses and the workforce, elementary, secondary, and postsecondary
+        education, and residents of the state.
+sponsors:
+  - name: Lena Gonzalez
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-02-15"
+    description: Introduced. Read first time. To Com. on RLS. for assignment. To print.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-02-16"
+    description: From printer. May be acted upon on or after March 17.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-29"
+    description: Referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-04-05"
+    description: Set for hearing April 24.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-15"
+    description: From committee with author's amendments. Read second time and amended. Re-referred to
+      Com. on ED.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2024-04-24"
+    description: April 24 set for first hearing canceled at the request of author.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-15"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1235#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2024-04-15"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1235#98AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1848536
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240SB1235
+    title: SB 1235 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1235#98AMD
+    title: SB 1235 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

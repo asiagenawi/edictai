@@ -1,0 +1,71 @@
+id: us-wa-2025-2026-sb-6299
+jurisdiction: us-wa
+session: 2025-2026
+identifier: SB 6299
+title: Concerning artificial intelligence and instructional staff.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - employment-evaluation
+summary: Allows artificial intelligence to supplement or enhance instruction in public schools but prohibits
+  it from replacing certificated instructional staff or paraeducators.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: AI may not replace certificated instructional staff or paraeducators.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6299.pdf
+      locator: Sec. 1, new section in chapter 28A.400 RCW
+      quote: Artificial intelligence may supplement or enhance instruction. Artificial intelligence may
+        not replace certificated instructional staff or paraeducators.
+sponsors:
+  - name: James McCune
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jeff Wilson
+    primary: false
+    party: R
+    chamber: upper
+  - name: Phil Fortunato
+    primary: false
+    party: R
+    chamber: upper
+  - name: Nikki Torres
+    primary: false
+    party: R
+    chamber: upper
+  - name: Perry Dozier
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-23"
+    description: First reading, referred to Early Learning & K-12 Education.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6299.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2090962
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=6299&Year=2025&Initiative=false
+    title: SB 6299 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6299.pdf
+    title: SB 6299 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

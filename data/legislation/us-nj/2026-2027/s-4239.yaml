@@ -1,0 +1,58 @@
+id: us-nj-2026-2027-s-4239
+jurisdiction: us-nj
+session: 2026-2027
+identifier: S 4239
+title: Establishes Office of Algorithmic Civil Rights in DLPS to prevent discrimination in use of algorithms.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Establishes an Office of Algorithmic Civil Rights in the Department of Law and Public Safety
+  to audit high-risk algorithmic systems used by State entities, including systems affecting access to
+  education, for bias and discriminatory impacts, and to require corrective action plans.
+provisions:
+  - type: bias-or-equity-requirement
+    description: High-risk algorithmic systems subject to bias audits include systems affecting an individual's
+      access to education.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/S4500/4239_I1.HTM
+      locator: Sec. 1(a)
+      quote: '"High-risk algorithmic system" means any automated or semi-automated system used by a State
+        entity that may impact an individual''s ability to access housing, public benefits, employment,
+        healthcare, education, or involvement with the criminal justice system.'
+sponsors:
+  - name: Benjie Wimberly
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-05-14"
+    description: Introduced in the Senate, Referred to Senate Law and Public Safety Committee
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-05-15"
+    url: https://pub.njleg.gov/Bills/2026/S4500/4239_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2148950
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/S4239
+    title: S 4239 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/S4500/4239_I1.HTM
+    title: S 4239 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

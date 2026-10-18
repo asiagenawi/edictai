@@ -1,0 +1,86 @@
+id: us-nj-2026-2027-a-2069
+jurisdiction: us-nj
+session: 2026-2027
+identifier: A 2069
+title: Requires Commissioner of Labor and Workforce Development to conduct study and issue report on impact
+  of artificial intelligence on growth of State's economy.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: Requires the Commissioner of Labor and Workforce Development to study the impact of artificial
+  intelligence and automation on the State's economy and report to the Governor and Legislature, including
+  the implications for long-term plans to educate the next generation of highly skilled employees.
+provisions:
+  - type: creates-task-force
+    description: The commissioner must study AI's economic impact and report, including the implications
+      for educating highly skilled future employees.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A2500/2069_I1.HTM
+      locator: Sec. 1(c)
+      quote: the implications of these findings on the long-term plans for educating the next generation
+        of highly-skilled employees
+sponsors:
+  - name: Linda Carter
+    primary: true
+    party: D
+    chamber: lower
+  - name: Robert Karabinchak
+    primary: true
+    party: D
+    chamber: lower
+  - name: Clinton Calabrese
+    primary: true
+    party: D
+    chamber: lower
+  - name: Michael Venezia
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gerard Scharfenberger
+    primary: false
+    party: R
+    chamber: lower
+  - name: Victoria Flynn
+    primary: false
+    party: R
+    chamber: lower
+  - name: William Sampson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tennille McCoy
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Introduced, Referred to Assembly Science, Innovation and Technology Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-12-31"
+    url: https://pub.njleg.gov/Bills/2026/A2500/2069_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2095929
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/A2069
+    title: A 2069 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/A2500/2069_I1.HTM
+    title: A 2069 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,79 @@
+id: us-hi-2025-2026-scr-33
+jurisdiction: us-hi
+session: 2025-2026
+identifier: SCR 33
+title: Requesting The Department Of Education To Develop Artificial Intelligence Literacy Curricula Plans
+  And Programs For Use In Public Schools.
+classification: concurrent-resolution
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requests the Department of Education to develop artificial intelligence literacy curricula plans
+  and programs for public schools, covering AI concepts, machine learning and generative AI, best practices,
+  ethics, innovation, and AI in relation to Hawaii's history and culture. Requests that the department
+  submit the plans to the Legislature before the 2027 session.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Requests the Department of Education to develop AI literacy curricula plans and programs
+      for public schools.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SCR33_.HTM
+      locator: First resolved clause
+      quote: the Department of Education is requested to develop artificial intelligence literacy curricula
+        plans and programs for use in public schools
+sponsors:
+  - name: Stanley Chang
+    primary: true
+    party: D
+    chamber: upper
+  - name: Troy Hashimoto
+    primary: true
+    party: D
+    chamber: upper
+  - name: Angus McKelvey
+    primary: true
+    party: D
+    chamber: upper
+  - name: Les Ihara
+    primary: false
+    party: D
+    chamber: upper
+  - name: Glenn Wakai
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-03-10"
+    description: Offered.
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-03-19"
+    description: Referred to EDU/LBT.
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-03-09"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SCR33_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2130891
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SCR&billnumber=33&year=2026
+    title: SCR 33 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SCR33_.HTM
+    title: SCR 33 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

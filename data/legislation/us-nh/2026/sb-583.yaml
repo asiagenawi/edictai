@@ -1,0 +1,152 @@
+id: us-nh-2026-sb-583
+jurisdiction: us-nh
+session: "2026"
+identifier: SB 583
+title: Directing the department of education to create an education funding transparency data and reporting
+  system.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - data-governance
+  - institutional-operations
+summary: Directs the Department of Education to create an education funding transparency data and reporting
+  system with a longitudinal funding data system and dashboards. Requires the system to include data mining,
+  machine learning, predictive analytics and natural language processing capabilities, and restricted
+  dashboards for data protected under federal education privacy law, with appropriations of $900,000 and
+  $500,000 annually.
+sponsors:
+  - name: Timothy Lang
+    primary: true
+    party: R
+    chamber: upper
+  - name: Patrick Long
+    primary: false
+    party: D
+    chamber: upper
+  - name: Tim McGough
+    primary: false
+    party: R
+    chamber: upper
+  - name: David Watters
+    primary: false
+    party: D
+    chamber: upper
+  - name: Kevin Avard
+    primary: false
+    party: R
+    chamber: upper
+  - name: Daniel Innis
+    primary: false
+    party: R
+    chamber: upper
+  - name: Mark McConkey
+    primary: false
+    party: R
+    chamber: upper
+  - name: William Gannon
+    primary: false
+    party: R
+    chamber: upper
+  - name: Keith Murphy
+    primary: false
+    party: R
+    chamber: upper
+  - name: Howard Pearl
+    primary: false
+    party: R
+    chamber: upper
+  - name: David Rochefort
+    primary: false
+    party: R
+    chamber: upper
+  - name: Sharon Carson
+    primary: false
+    party: R
+    chamber: upper
+  - name: Cindy Rosenwald
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jess Edwards
+    primary: false
+    party: R
+    chamber: lower
+  - name: Michael Moffett
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-11-25"
+    description: Introduced 01/07/2026 and Referred to Education Finance; Senate Journal 1
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-12-22"
+    description: 'Hearing: 01/22/2026, Room 103, State House, 11:10 am; Senate Calendar 47A'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: 'Committee Report: Ought to Pass, 02/05/2026; Vote 6-0; Consent Calendar; Senate Calendar
+      4'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-05"
+    description: 'Ought to Pass: Motion Adopted, Voice Vote; Refer to Finance Rule 4-5; 02/05/2026; Senate
+      Journal 3'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-05"
+    description: 'Committee Report: Ought to Pass, 03/12/2026, Vote 7-0; Senate Calendar 9'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-12"
+    description: 'Sen. Prentiss Floor Amendment # 2026-1135s, Amendment Failed, Voice Vote; 03/12/2026;
+      Senate Journal 6'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: 'Ought to Pass: Motion Adopted, Voice Vote; 03/12/2026; Senate Journal 6'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-12"
+    description: Sen. Lang Moved Laid on Table, Motion Adopted, Voice Vote; 03/12/2026; Senate Journal
+      6
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-03-12"
+    description: Pending Motion OT3rdg; 03/12/2026; Senate Journal 6
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1423&txtFormat=html
+    media_type: text/html
+  - note: Introduced
+    date: "2026-03-12"
+    url: https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=SP&id=1423
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2053949
+sources:
+  - url: https://gc.nh.gov/bill_status/legacy/bs2016/bill_status.aspx?lsr=2224&sy=2026&sortoption=&txtsessionyear=2026&txtbillnumber=SB583
+    title: SB 583 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=SP&id=1423
+    title: SB 583 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

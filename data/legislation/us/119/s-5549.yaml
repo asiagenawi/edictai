@@ -1,0 +1,86 @@
+id: us-119-s-5549
+jurisdiction: us
+session: "119"
+identifier: S. 5549
+title: Quality Educator Partnership Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - educator-training
+summary: Supports educators through programs on educator preparation, recruitment, and retention. Directs
+  the Department of Education's educational technology office to support digital literacy skills, including
+  skills related to artificial intelligence, and to build the capacity of local educational agencies and
+  educator preparation programs to integrate emerging technologies; it also lists AI-driven tutoring platforms
+  among emerging technology tools.
+provisions:
+  - type: educator-prep-requirement
+    description: The educational technology office must build the capacity of local educational agencies
+      and educator preparation programs to integrate emerging technologies and support AI-related skills.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5549/BILLS-119s5549is.pdf
+      locator: Sec. 102, new (c)(3)
+      quote: building the capacity of local educational agencies and educator preparation programs to
+        integrate emerging technologies and support the development of digital literacy skills, including
+        skills related to Artificial Intelligence.
+  - type: educator-prep-requirement
+    description: Lists emerging technology tools such as AI-driven tutoring platforms alongside educator
+      preparation practices.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5549/BILLS-119s5549is.pdf
+      locator: Sec. 402(5)
+      quote: emerging technology tools, such as AI-driven tutoring platforms
+sponsors:
+  - name: Jack Reed
+    primary: true
+    party: D
+    chamber: upper
+  - name: Chris Van Hollen
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ron Wyden
+    primary: false
+    party: D
+    chamber: upper
+  - name: Martin Heinrich
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ben Lujan
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-09-24"
+    description: 'Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+      (Sponsor introductory remarks on measure: CR S5003-5004)'
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-10-06"
+    url: https://www.congress.gov/119/bills/s5549/BILLS-119s5549is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2159197
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/5549/all-info
+    title: S. 5549 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s5549/BILLS-119s5549is.pdf
+    title: S. 5549 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

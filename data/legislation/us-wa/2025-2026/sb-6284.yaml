@@ -1,0 +1,142 @@
+id: us-wa-2025-2026-sb-6284
+jurisdiction: us-wa
+session: 2025-2026
+identifier: SB 6284
+title: Providing consumer protections for artificial intelligence systems.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Regulates deployers of high-risk artificial intelligence systems used to make consequential decisions,
+  including decisions on education enrollment or opportunity, requiring them to protect consumers from
+  algorithmic discrimination, maintain risk management programs, and complete impact assessments.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Includes decisions about education enrollment or opportunity among the consequential
+      decisions the act covers.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6284-S.pdf
+      locator: Sec. 2(3)
+      quote: 'means any decision that has a material legal or similarly significant effect on the provision
+        or denial of any consumer to: (a) Pardon, parole, probation, or any other release from incarceration
+        or court supervision; (b) Education enrollment or an education opportunity;'
+  - type: bias-or-equity-requirement
+    description: Requires deployers of high-risk AI systems to protect consumers from algorithmic discrimination.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6284-S.pdf
+      locator: Sec. 3(1)(a)
+      quote: each deployer of a high-risk artificial intelligence system must use industry-standard means
+        to protect consumers from any known or reasonably foreseeable risks of algorithmic discrimination.
+sponsors:
+  - name: Marko Liias
+    primary: true
+    party: D
+    chamber: upper
+  - name: Matt Boehnke
+    primary: false
+    party: R
+    chamber: upper
+  - name: Sharon Shewmake
+    primary: false
+    party: D
+    chamber: upper
+  - name: Paul Harris
+    primary: false
+    party: R
+    chamber: upper
+  - name: Steven Conway
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Hasegawa
+    primary: false
+    party: D
+    chamber: upper
+  - name: T'wina Nobles
+    primary: false
+    party: D
+    chamber: upper
+  - name: Derek Stanford
+    primary: false
+    party: D
+    chamber: upper
+  - name: Keith Wagoner
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-22"
+    description: First reading, referred to Environment, Energy & Technology.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2026-01-27"
+    description: Public hearing in the Senate Committee on Environment, Energy & Technology at 1:30 PM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: Executive action taken in the Senate Committee on Environment, Energy & Technology at
+      1:30 PM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: ENET - Majority; 1st substitute bill be substituted, do pass.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-03"
+    description: And refer to Ways & Means.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: Minority; do not pass.
+    actor: upper
+    classification:
+      - committee-failure
+  - date: "2026-02-03"
+    description: Minority; without recommendation.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: Referred to Ways & Means.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-06"
+    description: Public hearing in the Senate Committee on Ways & Means at 1:30 PM.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6284.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6284-S.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2088980
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=6284&Year=2025&Initiative=false
+    title: SB 6284 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6284-S.pdf
+    title: SB 6284 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

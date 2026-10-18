@@ -1,0 +1,356 @@
+id: us-mo-2025-hb-2
+jurisdiction: us-mo
+session: "2025"
+identifier: HB 2
+title: Appropriates money for the expenses, grants, refunds, and distributions of the State Board of Education
+  and Department of Elementary and Secondary Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - safety-wellbeing
+summary: Appropriates money for the Missouri State Board of Education and Department of Elementary and
+  Secondary Education. Includes funding for safe schools programs, distributed to a statewide school board
+  organization, that covers cyber and artificial intelligence threat management.
+provisions:
+  - type: appropriates-funding
+    description: Funds safe schools programs that include cyber and AI threat management.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002H.06T.pdf
+      locator: Section 2.113
+      quote: for providing incident command system and structure training; for cyber and artificial intelligence
+        (AI) threat management;
+sponsors:
+  - name: Dirk Deaton
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-19"
+    description: Introduced and Read First Time (H)
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-20"
+    description: Read Second Time (H)
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-02-20"
+    description: 'Referred: Budget(H)'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-24"
+    description: Public Hearing Completed (H)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-03-24"
+    description: Executive Session Completed (H)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-03-24"
+    description: HCS Voted Do Pass (H)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-26"
+    description: 'HCS Reported Do Pass (H) - with a time limit of six hours of debate on Perfection pursuant
+      to Rule 24(4)(d) AYES: 29 NOES: 0 PRESENT: 1'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-31"
+    description: Taken Up for Perfection (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-31"
+    description: Title of Bill - Agreed To
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-03-31"
+    description: Laid Over (H)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-04-01"
+    description: Taken Up
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-01"
+    description: Laid Over (H) - HA 1, HA 2 adopted
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-04-01"
+    description: Taken Up
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-01"
+    description: HCS Adopted (H)
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-04-01"
+    description: Perfected with Amendments (H) - HA 1, HA 2
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-03"
+    description: Taken Up for Third Reading (H)
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-04-03"
+    description: 'Third Read and Passed (H) - AYES: 95 NOES: 34 PRESENT: 25'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-04-03"
+    description: Reported to the Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Reported to the Senate and First Read (S)
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-08"
+    description: 'Second read and referred: Appropriations(S)'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-14"
+    description: Public Hearing Scheduled (S) - Tuesday, April 15, 2025, 30 minutes upon adjournment,
+      Senate Committee Room 2 - 1st Floor
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-14"
+    description: Public Hearing Scheduled (S) - Wednesday, April 16, 2025, 9:00 AM, SCR-2, 1st floor
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-14"
+    description: 'Public Hearing Scheduled (S) - CANCELLED: Thursday, April 17, 2025, 8:30 a.m., Senate
+      Committee Room 2 - 1st Floor'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Public Hearing Held (S)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-04-16"
+    description: Executive Session Held (S)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-04-16"
+    description: SCS Voted Do Pass (S)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-24"
+    description: SCS Reported Do Pass (S)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-29"
+    description: Taken Up for Third Reading (S)
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-04-29"
+    description: SS Offered
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: SS Adopted (S)
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-04-29"
+    description: 'Third Read and Passed (S) - AYES: 26 NOES: 8 PRESENT: 0'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-04-30"
+    description: Reported to the House with... (H) - SS SCS
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: Taken Up
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: House Refuses to Adopt, Requests Senate to Recede or Grant Conference (H)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: House Message (H)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: Senate Refuses to Recede, Grants Conference (S)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: Senate Message (S)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-01"
+    description: House Conference Committee Appointed (H) - REPRESENTATIVES DEATON, DAVIDSON, FOGLE, CHAPPELL,
+      TERRY
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-01"
+    description: House Message (H)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-01"
+    description: Senate Conference Committee Appointed (S) - SENATORS NURRENBERN, MAY, HENDERSON, BLACK,
+      HOUGH
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-01"
+    description: Senate Message (S)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: House Distributes Conference Committee Report (H)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-09"
+    description: House Submits Conference Committee Report (H)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-09"
+    description: 'House Adopts Conference Committee Report (H) - AYES: 137 NOES: 8 PRESENT: 1'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-09"
+    description: 'Third Read and Passed (H) - AYES: 135 NOES: 9 PRESENT: 2'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-05-09"
+    description: House Message (H)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-09"
+    description: Senate Submits Conference Committee Report (S)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-09"
+    description: 'Senate Adopts Conference Committee Report (S) - AYES: 26 NOES: 8 PRESENT: 0'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-09"
+    description: 'Truly Agreed To and Finally Passed - AYES: 26 NOES: 8 PRESENT: 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-05-09"
+    description: Senate Message (S)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-29"
+    description: Signed by House Speaker (H)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-30"
+    description: Signed by President Pro Tem (S)
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2025-05-30"
+    description: Delivered to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-06-30"
+    description: Vetoed in Part by Governor (G)
+    actor: executive
+    classification:
+      - executive-veto
+  - date: "2025-06-30"
+    description: Delivered to Secretary of State (G)
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-02-12"
+    url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002H.01I.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2025-03-26"
+    url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002H.03C.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-04-02"
+    url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002H.03P.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2025-04-22"
+    url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002S.04C.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2025-04-29"
+    url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002S.05F.pdf
+    media_type: application/pdf
+  - note: Conference Sub
+    date: "2025-05-08"
+    url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002H.06S.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2025-05-13"
+    url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002H.06T.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1974757
+sources:
+  - url: https://house.mo.gov/Bill.aspx?bill=HB2&year=2025&code=R
+    title: HB 2 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002H.06T.pdf
+    title: HB 2 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

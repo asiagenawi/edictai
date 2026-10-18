@@ -1,0 +1,91 @@
+id: us-ny-2025-2026-s-10049
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 10049
+title: Updates the definition of cyberbullying in the dignity for all students act to include intentionally
+  using artificial intelligence to mimic or alter a person's likeness or voice without their consent.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Amends the Dignity for All Students Act definition of cyberbullying to include intentionally
+  using artificial intelligence to mimic or alter a person's likeness or voice without consent.
+provisions:
+  - type: addresses-deepfakes
+    description: Adds intentional use of AI to mimic or alter a person's likeness or voice without consent
+      to the definition of cyberbullying.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10049&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10049
+      locator: Sec. 1, Education Law 11(8)
+      quote: '"Cyberbullying" shall include, but not be limited to, intentionally using artificial intelli-
+        gence to mimic or alter a person''s likeness or voice without their consent.'
+sponsors:
+  - name: Robert Jackson
+    primary: true
+    party: D
+    chamber: upper
+  - name: Patricia Fahy
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-04-24"
+    description: REFERRED TO EDUCATION
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-05-05"
+    description: 1ST REPORT CAL.911
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-06"
+    description: 2ND REPORT CAL.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-07"
+    description: ADVANCED TO THIRD READING
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-28"
+    description: PASSED SENATE
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-28"
+    description: DELIVERED TO ASSEMBLY
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-28"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-04-24"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10049&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10049
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2145794
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S10049
+    title: S 10049 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10049&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10049
+    title: S 10049 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,82 @@
+id: us-tx-2025-2026-sb-2787
+jurisdiction: us-tx
+session: 2025-2026
+identifier: SB 2787
+title: Relating to digital citizenship and media literacy instruction in public schools and a public school
+  policy regarding Internet safety.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - safety-wellbeing
+summary: Requires districts to provide digital citizenship and media literacy instruction and directs
+  the State Board of Education to adopt essential knowledge and skills that include identifying credible
+  information by analyzing content created or modified by generative artificial intelligence. Also requires
+  districts and charter schools to adopt Internet safety policies.
+provisions:
+  - type: ai-in-standards
+    description: The State Board of Education must adopt digital citizenship standards that include analyzing
+      generative AI content to identify credible sources.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02787I.htm
+      locator: Sec. 1, Education Code 28.00215(c)(7)
+      quote: how to identify credible sources of information, including by analyzing content created or
+        modified by generative artificial intelligence technology
+  - type: requires-ai-literacy-instruction
+    description: Districts must incorporate digital citizenship instruction and require students in grades
+      6 through 12 to complete media literacy instruction.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02787I.htm
+      locator: Sec. 1, Education Code 28.00215(b)
+      quote: require students enrolled in grades 6 through 12 to complete instruction in media literacy
+        as part of the district's foundation curriculum
+sponsors:
+  - name: Jose Menendez
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-03-14"
+    description: Received by the Secretary of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-14"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-04-03"
+    description: Read first time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-04-03"
+    description: Referred to Education K-16
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-14"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02787I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2007449
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2787
+    title: SB 2787 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02787I.htm
+    title: SB 2787 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

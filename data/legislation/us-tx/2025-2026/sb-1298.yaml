@@ -1,0 +1,74 @@
+id: us-tx-2025-2026-sb-1298
+jurisdiction: us-tx
+session: 2025-2026
+identifier: SB 1298
+title: Relating to instruction in online safety for minors provided in public schools and by the Department
+  of Public Safety.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - safety-wellbeing
+summary: Adds online safety to the required enrichment curriculum, including instruction on the potential
+  dangers of applications that use artificial intelligence, and directs the State Board of Education to
+  adopt related essential knowledge and skills. Also adds AI applications to the Department of Public
+  Safety's online safety education for minors.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: The required curriculum includes online safety instruction on the potential dangers of
+      applications that use AI.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01298I.htm
+      locator: Sec. 1, Education Code 28.002(a)(2)(I)
+      quote: online safety, including instruction about the potential dangers of using Internet websites,
+        social media applications, and applications that use artificial intelligence
+sponsors:
+  - name: Phil King
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-14"
+    description: Received by the Secretary of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-14"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-28"
+    description: Read first time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-02-28"
+    description: Referred to Education K-16
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-14"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01298I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1971169
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1298
+    title: SB 1298 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01298I.htm
+    title: SB 1298 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,243 @@
+id: us-ut-2026-sb-322
+jurisdiction: us-ut
+session: "2026"
+identifier: SB 322
+title: Educational Technology Regulatory Sandbox
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+  - academic-integrity
+  - assessment
+  - educator-training
+  - safety-wellbeing
+summary: Creates an Educational Technology Regulatory Sandbox in public education for time-limited pilots
+  of artificial intelligence technologies, with parental notice and opt-out rights, limits on AI grading
+  and placement decisions without educator review, student disclosure of substantial AI use, and state
+  board training requirements for educators.
+provisions:
+  - type: requires-disclosure
+    description: Sandbox participants must give parents annual notice of AI use and disclose when students
+      will interact with conversational AI.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/introduced/SB0322S01.pdf
+      locator: 53E-11 (sandbox participant duties), (5)(a)-(b)
+      quote: annual written notice of artificial intelligence use in the parent's student's education;
+        (b) clear disclosure when the parent's student will interact with conversational artificial intelligence
+  - type: regulates-ai-assessment
+    description: Vendor AI systems may not assign final grades or make placement decisions without educator
+      review and approval.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/introduced/SB0322S01.pdf
+      locator: 53E-11 (vendor requirements), (2)(a)-(b)
+      quote: does not independently assign final grades without educator review and approval; (b) does
+        not make academic placement decisions without educator review and approval
+  - type: academic-integrity-rules
+    description: Sandbox participants must require students to disclose substantial use of AI.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/introduced/SB0322S01.pdf
+      locator: 53E-11 (vendor requirements), (5)
+      quote: A sandbox participant shall require a student to disclose use of substantial artificial
+  - type: educator-pd-requirement
+    description: The state board must develop educator training requirements and curricula covering AI
+      use, integrity, privacy, and bias.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/introduced/SB0322S01.pdf
+      locator: Section 15, new 53E-11-212(2)
+      quote: 'The state board shall develop training requirements and curricula in consultation with:
+        (a) classroom teachers with artificial intelligence experience in educational settings'
+sponsors:
+  - name: John Johnson
+    primary: true
+    party: R
+    chamber: upper
+  - name: Ryan Wilcox
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-23"
+    description: Bill Numbered but not Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: Numbered Bill Publicly Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: LFA/ bill assigned to staff for fiscal analysis for SB0322 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: LFA/ bill sent to agencies for fiscal input for SB0322 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-23"
+    description: Senate/ 1st reading (Introduced) in Senate Rules Committee
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-25"
+    description: Senate/ to standing committee in Senate Education Committee
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-25"
+    description: LFA/ fiscal note sent to sponsor for SB0322 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-27"
+    description: LFA/ fiscal note publicly available for SB0322 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: LFA/ bill assigned to staff for fiscal analysis for SB0322S01 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: LFA/ bill sent to agencies for fiscal input for SB0322S01 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: Senate Comm - Substitute Recommendation in Senate Education Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: Senate Comm - Favorable Recommendation in Senate Education Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-03"
+    description: LFA/ fiscal note sent to sponsor for SB0322S01 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Senate/ comm rpt/ substituted in Senate Education Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-03"
+    description: Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-03"
+    description: LFA/ fiscal note publicly available for SB0322S01 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-03"
+    description: Senate/ passed 2nd & 3rd readings/ suspension in Clerk of the House
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-03"
+    description: Senate/ to House in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: House/ received from Senate in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: House/ 1st reading (Introduced) in House Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-03-04"
+    description: House/ to standing committee in House Education Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: House Comm - Favorable Recommendation in House Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-04"
+    description: House/ committee report favorable in House Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-04"
+    description: House/ return to Rules due to fiscal impact in House Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House/ strike enacting clause in Clerk of the House
+    actor: lower
+    classification:
+      - failure
+  - date: "2026-03-06"
+    description: House/ to Senate in Senate Secretary
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ received from House in Senate Secretary
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ filed in Senate file for bills not passed
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2026-02-23"
+    url: https://le.utah.gov/Session/2026/bills/introduced/SB0322.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-03-02"
+    url: https://le.utah.gov/Session/2026/bills/introduced/SB0322S01.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2122567
+sources:
+  - url: https://le.utah.gov/~2026/bills/static/SB0322.html
+    title: SB 322 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://le.utah.gov/Session/2026/bills/introduced/SB0322S01.pdf
+    title: SB 322 text (Substitute)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,93 @@
+id: us-mn-2025-2026-hf-3753
+jurisdiction: us-mn
+session: 2025-2026
+identifier: HF 3753
+title: School safety threat assessment pilot project established, report required, and money appropriated.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+summary: Establishes a school safety threat assessment pilot project in which the Office of Justice Programs
+  contracts for threat monitoring and response services in selected school districts, which may use predictive
+  analytics and artificial intelligence-driven software. Appropriates $4,000,000 in fiscal year 2027 and
+  requires a report by January 15, 2027.
+provisions:
+  - type: appropriates-funding
+    description: Creates and funds a school safety pilot whose vendor services may use AI-driven software.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/94/2026/0/HF/3753/versions/0/pdf/
+      locator: Sec. 1, subd. 1(b)
+      quote: predictive analytics and artificial intelligence-driven software to accomplish these
+sponsors:
+  - name: Ben Bakeberg
+    primary: true
+    party: R
+    chamber: lower
+  - name: Erica Schwartz
+    primary: false
+    party: R
+    chamber: lower
+  - name: Cedrick Frazier
+    primary: false
+    party: D
+    chamber: lower
+  - name: Aaron Repinski
+    primary: false
+    party: R
+    chamber: lower
+  - name: Andrew Myers
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-26"
+    description: Introduction and first reading, referred to Public Safety Finance and Policy
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2026-03-18"
+    description: Author added Schwartz
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-25"
+    description: Author added Frazier
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: Author added Repinski
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-13"
+    description: Author added Myers
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-02-25"
+    url: https://www.revisor.mn.gov/bills/94/2026/0/HF/3753/versions/0/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2125554
+sources:
+  - url: https://www.revisor.mn.gov/bills/94/2026/0/HF/3753/
+    title: HF 3753 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/94/2026/0/HF/3753/versions/0/pdf/
+    title: HF 3753 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

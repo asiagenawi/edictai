@@ -1,0 +1,61 @@
+id: us-nj-2026-2027-a-3072
+jurisdiction: us-nj
+session: 2026-2027
+identifier: A 3072
+title: Establishes Artificial Intelligence Grant Program in Office of Secretary of Higher Education.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+summary: Establishes an Artificial Intelligence Grant Program and Artificial Intelligence Education Fund
+  in the Office of the Secretary of Higher Education to award up to four grants of $25,000 a year to nonprofit
+  entities that provide education and training in artificial intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Creates a higher education office grant program for nonprofits providing AI education
+      and training.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A3500/3072_I1.HTM
+      locator: Sec. 1(a)
+      quote: The purpose of the program shall be to make funds available to nonprofit entities providing
+        education and training in artificial intelligence.
+sponsors:
+  - name: Christopher Tully
+    primary: true
+    party: D
+    chamber: lower
+  - name: Linda Carter
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Introduced, Referred to Assembly Science, Innovation and Technology Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-06"
+    url: https://pub.njleg.gov/Bills/2026/A3500/3072_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2098195
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/A3072
+    title: A 3072 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/A3500/3072_I1.HTM
+    title: A 3072 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

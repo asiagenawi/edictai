@@ -226,3 +226,17 @@ def test_check_triage_reason_length_and_values():
     ]
     items = check_triage(rows).by_key()
     assert items["a"].errors and items["b"].errors and items["c"].ok
+
+
+def test_check_full_accepts_quotes_from_the_earlier_version(tmp_path, vocab):
+    s = TextStore(tmp_path / "texts")
+    key = "us-tx-2025-hb-12"
+    s.store(key, {"doc_id": 20, "key": key, "status": "ok"}, "SECTION 1. Districts shall report.\n")
+    s.store_earlier(key, {"doc_id": 19, "key": key, "status": "ok", "type": "Introduced"}, TEXT)
+    s.save_index()
+    store = TextStore(tmp_path / "texts")
+    report = check_full([good(key=key)], vocab, store)
+    assert report.ok, report.lines()
+    missing = dict(good()["provisions"][0], quote="Each school district shall report weekly.")
+    item = check_full([good(key=key, provisions=[missing])], vocab, store).items[0]
+    assert item.quote_failures == [0]

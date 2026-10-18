@@ -1,0 +1,77 @@
+id: us-tx-2025-2026-hb-4448
+jurisdiction: us-tx
+session: 2025-2026
+identifier: HB 4448
+title: Relating to an automated artificial intelligence review of library material purchased by public
+  schools; providing an administrative penalty.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+  - institutional-operations
+  - equity-access
+summary: Requires school districts and charter schools to submit library materials to an agency-approved
+  third party for automated artificial intelligence review of sexually explicit or sexually relevant content
+  before purchase. Sets standards for approved reviewers, including bias mitigation and accuracy audits,
+  and imposes penalties for violations.
+provisions:
+  - type: procurement-standards
+    description: Districts must have library materials reviewed by an approved AI review vendor before
+      purchase.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB04448I.htm
+      locator: Sec. 35.0022(a)
+      quote: a school district or open-enrollment charter school must ensure the material is submitted
+        to a third party approved by the agency to conduct an automated artificial intelligence review
+        of the material
+  - type: bias-or-equity-requirement
+    description: Approved AI review vendors must use bias mitigation protocols and cultural competency
+      testing.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB04448I.htm
+      locator: Sec. 35.0022(f)(2)
+      quote: must require bias mitigation protocols and cultural competency testing;
+sponsors:
+  - name: Hillary Hickland
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-03-11"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-04-02"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-04-02"
+    description: Referred to Public Education
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-11"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB04448I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2000200
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB4448
+    title: HB 4448 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB04448I.htm
+    title: HB 4448 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

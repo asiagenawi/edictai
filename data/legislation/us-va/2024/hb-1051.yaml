@@ -1,0 +1,75 @@
+id: us-va-2024-hb-1051
+jurisdiction: us-va
+session: "2024"
+identifier: HB 1051
+title: Public education; dual enrollment and concurrent enrollment, high school graduation.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+summary: Revises high school graduation requirements and dual and concurrent enrollment provisions, and
+  directs the Board of Education to develop guidelines on how computer science and artificial intelligence
+  courses can satisfy graduation requirements.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: The Board of Education must develop guidelines on how computer science and AI courses
+      can satisfy graduation requirements.
+    citation:
+      source_url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1051+hil
+      locator: §22.1-253.13:4, item 14
+      quote: The Board shall develop guidelines addressing how computer science and artificial intelligence
+        courses can satisfy graduation requirements.
+sponsors:
+  - name: Amanda Batten
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-01-10"
+    description: Prefiled and ordered printed; offered 01/10/24 24104493D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-10"
+    description: Referred to Committee on Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-04"
+    description: 'Assigned Education sub: Higher Education'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-05"
+    description: Subcommittee recommends continuing to 2025 by voice vote
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-07"
+    description: Continued to 2025 in Education by voice vote
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Prefiled
+    date: "2024-01-10"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1051+hil
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1809026
+sources:
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB1051
+    title: HB 1051 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1051+hil
+    title: HB 1051 text (Prefiled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

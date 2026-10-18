@@ -1,0 +1,124 @@
+id: us-pa-2025-2026-hb-2787
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 2787
+title: In school safety and security, providing for prohibition of artificial intelligence for school-based
+  mental health and counseling.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - procurement
+summary: Prohibits school entities from using artificial intelligence to provide services that would constitute
+  the practice of a school-based mental health professional, such as diagnosis or counseling. Bars AI
+  suppliers from contracting with school entities for such systems, while allowing school mental health
+  professionals to use AI for administrative support.
+provisions:
+  - type: chatbot-minor-protections
+    description: School entities may not use AI or AI chatbots to provide services constituting the practice
+      of a school-based mental health professional.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2787/PN3918
+      locator: Section 1323-B(a)
+      quote: a school entity may not utilize artificial intelligence, artificial intelligence chatbots
+        or generative artificial intelligence, including synthetic content, to provide a service or experience
+        to a student that would constitute the practice of a school-based mental health professional.
+  - type: procurement-standards
+    description: AI suppliers may not contract with school entities to provide AI programmed to deliver
+      school mental health services.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2787/PN3918
+      locator: Section 1323-B(b)
+      quote: An artificial intelligence supplier shall not enter into a contract with a school entity
+        to provide an artificial intelligence system, artificial intelligence technology or any generative
+        artificial intelligence, including synthetic content,
+sponsors:
+  - name: Melissa Shusterman
+    primary: true
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Webster
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lisa Borowski
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Inglis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Liz Hanbidge
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carol Hill-Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Peter Schweyer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Benjamin Waxman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Williams
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-09-24"
+    description: Referred to Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-10-06"
+    description: Reported as committed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-10-06"
+    description: First consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2026-10-06"
+    description: Laid on the table
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-09-24"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2787/PN3918
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2158920
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb2787
+    title: HB 2787 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2787/PN3918
+    title: HB 2787 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

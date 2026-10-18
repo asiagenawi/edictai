@@ -1,0 +1,90 @@
+id: us-hi-2025-2026-sb-59
+jurisdiction: us-hi
+session: 2025-2026
+identifier: SB 59
+title: Relating To Algorithmic Discrimination.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Bars covered entities from making algorithmic eligibility or information availability determinations,
+  based on machine learning or artificial intelligence, that discriminate on protected characteristics
+  in access to credit, insurance, education, employment, housing, or public accommodation. Requires notices
+  to affected individuals and annual reports to the Department of the Attorney General.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines important life opportunities covered by the algorithmic discrimination rules
+      to include education.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB59_.HTM
+      locator: Sec. -1, definition of "Important life opportunities"
+      quote: '"Important life opportunities" means access to, approval for, or offer of credit, insurance,
+        education, employment, housing, or place of public accommodation as defined in section 489-2.'
+  - type: bias-or-equity-requirement
+    description: Prohibits covered entities from making algorithmic determinations that discriminate on
+      protected characteristics.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB59_.HTM
+      locator: Sec. -2(a)
+      quote: A covered entity shall not make an algorithmic eligibility determination or an algorithmic
+        information availability determination on the basis of an individual's or class of individuals'
+        actual or perceived race, color, religion, national origin, sex
+sponsors:
+  - name: Karl Rhoads
+    primary: true
+    party: D
+    chamber: upper
+  - name: Stanley Chang
+    primary: true
+    party: D
+    chamber: upper
+  - name: Chris Lee
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-01-08"
+    description: Pending Introduction.
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-01-15"
+    description: Introduced and passed First Reading.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-01-16"
+    description: Referred to LBT, CPN/JDC.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-12-08"
+    description: Carried over to 2026 Regular Session.
+    actor: legislature
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2025-01-08"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB59_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2063263
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=59&year=2026
+    title: SB 59 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB59_.HTM
+    title: SB 59 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

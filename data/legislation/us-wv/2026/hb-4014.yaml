@@ -1,0 +1,99 @@
+id: us-wv-2026-hb-4014
+jurisdiction: us-wv
+session: "2026"
+identifier: HB 4014
+title: Workforce Readiness and Opportunity Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+summary: Establishes the West Virginia Micro-Credential Program within the Higher Education Policy Commission
+  to set standards for micro-credentials that document student and employee skills. Authorizes the commission
+  to use digital, web-based, and artificial intelligence-based micro-credentials to meet workforce demands.
+provisions:
+  - type: ai-workforce-program
+    description: Authorizes the commission to use AI-based micro-credentials within the statewide micro-credential
+      program.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4014%20sub1.htm&yr=2026&sesstype=RS&i=4014
+      locator: §18B-3D-8(d)(4)
+      quote: Utilize digital, web-based, artificial intelligence-based, hands-on, or on-the-job micro-credentials
+        as needed to meet workforce and market demands;
+sponsors:
+  - name: Roger Hanshaw
+    primary: true
+    party: R
+    chamber: lower
+  - name: Sean Hornbuckle
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bob Fehrenbacher
+    primary: false
+    party: R
+    chamber: lower
+  - name: Gary Howell
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-15"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-15"
+    description: To Education then Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-15"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-15"
+    description: To House Education
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-20"
+    description: Markup Discussion
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-28"
+    description: By substitute, do pass, but first to Finance
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-28"
+    description: To House Finance
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4014%20intr.htm&yr=2026&sesstype=RS&i=4014
+    media_type: text/html
+  - note: Comm Sub
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4014%20sub1.htm&yr=2026&sesstype=RS&i=4014
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2081092
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4014&year=2026&sessiontype=RS&btype=bill
+    title: HB 4014 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4014%20sub1.htm&yr=2026&sesstype=RS&i=4014
+    title: HB 4014 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

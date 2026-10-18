@@ -1,0 +1,89 @@
+id: us-il-2025-2026-sb-2117
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 2117
+title: USE OF AI BY STATE GOVERNMENT
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - instructional-use
+  - local-policy-requirement
+summary: Adds duties to the Generative AI and Natural Language Processing Task Force on State agency procurement
+  and use of generative AI, adds the Chief Procurement Officer as a member, and requires a report addendum
+  by December 31, 2026. The task force, whose members include education officials, teachers, and principals,
+  also recommends model policies for schools on student use of generative AI.
+provisions:
+  - type: creates-task-force
+    description: The task force includes the State Superintendent and higher education board leaders among
+      its members.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=201440&DocName=10400SB2117&DocNum=2117&DocTypeID=SB&LegID=161652&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 1-80(c)
+      quote: (6) The State Superintendent of Education or his or her designee. (7) The Executive Director
+        of the Illinois Community College Board or his or her designee. (8) The Executive Director of
+        the Board of Higher Education or his or her designee.
+  - type: issues-model-policy
+    description: The task force must recommend model policies for schools on student use of generative
+      AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=201440&DocName=10400SB2117&DocNum=2117&DocTypeID=SB&LegID=161652&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 1-80(e)(2)
+      quote: recommending model policies for schools to address the use of generative artificial intelligence
+        by students in the classroom
+sponsors:
+  - name: Sally Turner
+    primary: true
+    party: R
+    chamber: upper
+  - name: Terri Bryant
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-07"
+    description: Filed with Secretary by Sen. Sally J. Turner
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-07"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-02-07"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-26"
+    description: Added as Co-Sponsor Sen. Terri Bryant
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-02-07"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=201440&DocName=10400SB2117&DocNum=2117&DocTypeID=SB&LegID=161652&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1961963
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=2117&GAID=18&DocTypeID=SB&LegId=161652&SessionID=114
+    title: SB 2117 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=201440&DocName=10400SB2117&DocNum=2117&DocTypeID=SB&LegID=161652&GAID=18&SessionID=114&SpecSess=&Session=
+    title: SB 2117 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,194 @@
+id: us-wa-2025-2026-hb-2157
+jurisdiction: us-wa
+session: 2025-2026
+identifier: HB 2157
+title: Regulating high-risk artificial intelligence system development, deployment, and use.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Regulates developers and deployers of high-risk artificial intelligence systems used to make
+  consequential decisions, including decisions on education enrollment or education opportunity, and requires
+  them to protect consumers from algorithmic discrimination.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Includes decisions about education enrollment or opportunity among the consequential
+      decisions the act covers.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2157-S.pdf
+      locator: Sec. 1(3)
+      quote: 'effect on the provision or denial to any consumer of: (a) Parole, probation, a pardon, or
+        any other release from incarceration or court supervision; (b) Education enrollment or an education
+        opportunity;'
+  - type: bias-or-equity-requirement
+    description: Requires deployers of high-risk AI systems to protect consumers from algorithmic discrimination.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2157-S.pdf
+      locator: Sec. 3(1)
+      quote: A deployer of a high-risk artificial intelligence system shall use reasonable care to protect
+        consumers from any known or reasonably foreseeable risks of algorithmic discrimination.
+sponsors:
+  - name: Cindy Ryu
+    primary: true
+    party: D
+    chamber: lower
+  - name: Chris Stearns
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alex Ramel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lisa Parshley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kristine Reeves
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julia Reed
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sharon Santos
+    primary: false
+    party: D
+    chamber: lower
+  - name: Janice Zahn
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chipalo Street
+    primary: false
+    party: D
+    chamber: lower
+  - name: Davina Duerr
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mia Gregerson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Timm Ormsby
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shaun Scott
+    primary: false
+    party: D
+    chamber: lower
+  - name: Clyde Shavers
+    primary: false
+    party: D
+    chamber: lower
+  - name: My-Linh Thai
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nicole Macri
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Fosse
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gerry Pollet
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brandy Donaghy
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-12-16"
+    description: Prefiled for introduction.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-12"
+    description: First reading, referred to Technology, Economic Development, & Veterans.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2026-01-14"
+    description: Public hearing in the House Committee on Technology, Economic Development, & Veterans
+      at 8:00 AM.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-23"
+    description: Executive session scheduled, but no action was taken in the House Committee on Technology,
+      Economic Development, & Veterans at 10:30 AM.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-27"
+    description: Executive action taken in the House Committee on Technology, Economic Development, &
+      Veterans at 10:30 AM.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-27"
+    description: TEDV - Majority; 1st substitute bill be substituted, do pass.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-27"
+    description: Minority; do not pass.
+    actor: lower
+    classification:
+      - committee-failure
+  - date: "2026-01-30"
+    description: Referred to Rules 2 Review.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-13"
+    description: Rules Committee relieved of further consideration. Placed on second reading.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Returned to Rules Committee for second reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-19"
+    description: House Rules "X" file.
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2157.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2157-S.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2059113
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=2157&Year=2025&Initiative=false
+    title: HB 2157 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2157-S.pdf
+    title: HB 2157 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

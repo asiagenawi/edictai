@@ -1,0 +1,244 @@
+id: us-va-2025-hb-2046
+jurisdiction: us-va
+session: "2025"
+identifier: HB 2046
+title: High-risk artificial intelligence; development, deployment, and use by public bodies, report.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Sets requirements for state public bodies that develop, deploy, or integrate high-risk artificial
+  intelligence systems used in consequential decisions, defined to include education enrollment or an
+  education opportunity, including documentation, acceptable use policies, and measures against algorithmic
+  discrimination, and directs the Chief Information Officer to adopt related policies.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Covers high-risk AI used by public bodies in consequential decisions, including education
+      enrollment or opportunity, and requires measures against algorithmic discrimination.
+    citation:
+      source_url: https://lis.virginia.gov/bill-details/20251/HB2046/text/HB2046S1
+      locator: Definitions, "consequential decision"
+      quote: effect on the provision or denial to any consumer of, or the cost or terms of, (i) education
+        enrollment or an education opportunity
+sponsors:
+  - name: Bonita Anthony
+    primary: true
+    party: D
+    chamber: lower
+  - name: Debra Gardner
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Helmer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Jones
+    primary: false
+    party: D
+    chamber: lower
+  - name: Karen Keys-Gamarra
+    primary: false
+    party: D
+    chamber: lower
+  - name: Destiny LeVere Bolling
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michelle Maldonado
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joshua Thomas
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-07"
+    description: Prefiled and ordered printed; Offered 01-13-2025 25102638D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-07"
+    description: Referred to Committee on Communications, Technology and Innovation
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-01-20"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2046)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-23"
+    description: 'Assigned CT & I sub: Communications'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-27"
+    description: Subcommittee recommends reporting with substitute and referring to Appropriations (5-Y
+      4-N 1-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-27"
+    description: Reported from Communications, Technology and Innovation with substitute and referred
+      to Appropriations (12-Y 10-N)
+    actor: lower
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2025-01-27"
+    description: Committee substitute printed 25106183D-H1
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-01-27"
+    description: 'Assigned Approps sub: General Government and Capital Outlay'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-28"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2046)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-31"
+    description: Reported from Appropriations (12-Y 10-N)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-02"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-02-03"
+    description: Read second time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-02-03"
+    description: Communications, Technology and Innovation Substitute agreed to
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-02-03"
+    description: Engrossed by House - committee substitute
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-02-04"
+    description: Read third time and passed House (51-Y 47-N)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-02-05"
+    description: Constitutional reading dispensed (on 1st reading)
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-02-05"
+    description: Referred to Committee on General Laws and Technology
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-12"
+    description: Reported from General Laws and Technology with substitute and rereferred to Finance and
+      Appropriations (15-Y 0-N)
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2025-02-12"
+    description: Committee substitute printed 25107107D-S1
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-02-14"
+    description: Reported from Finance and Appropriations (14-Y 0-N)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-17"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2046)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-17"
+    description: Rules suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-17"
+    description: Constitutional reading dispensed (on 2nd reading) (39-Y 0-N)
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-02-17"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-02-18"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-02-19"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-02-20"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-02-22"
+    description: No further action taken
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-22"
+    description: Failed to pass
+    actor: lower
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2025-01-07"
+    url: https://lis.virginia.gov/bill-details/20251/HB2046/text/HB2046
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-01-27"
+    url: https://lis.virginia.gov/bill-details/20251/HB2046/text/HB2046H1
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-11"
+    url: https://lis.virginia.gov/bill-details/20251/HB2046/text/HB2046SC1
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-13"
+    url: https://lis.virginia.gov/bill-details/20251/HB2046/text/HB2046S1
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1904674
+sources:
+  - url: https://lis.virginia.gov/bill-details/20251/HB2046
+    title: HB 2046 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/bill-details/20251/HB2046/text/HB2046S1
+    title: HB 2046 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

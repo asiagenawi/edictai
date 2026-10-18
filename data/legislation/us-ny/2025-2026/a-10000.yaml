@@ -1,0 +1,207 @@
+id: us-ny-2025-2026-a-10000
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 10000
+title: Makes appropriations for the support of government - State Operations Budget.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+summary: Makes state operations appropriations, including funds for City University of New York artificial
+  intelligence initiatives, the Education Department's Empire AI Student Challenge program, State University
+  of New York AI and society departments and a natural language processing AI program, and opportunity
+  promise scholarships for associate's degrees in high-demand fields including artificial intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Appropriates $7,500,000 for CUNY artificial intelligence initiatives under a plan approved
+      by the budget director.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10000D
+      locator: City University of New York appropriations, item 15557
+      quote: For services and expenses of artificial intelligence initiatives, provided that such funds
+        shall be allocated pursuant to a plan approved by the director of the budget (15557)
+  - type: appropriates-funding
+    description: Appropriates $750,000 to the Education Department for the Empire AI Student Challenge
+      program.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10000D
+      locator: Education Department appropriations, Empire AI Student Challenge item
+      quote: For services and expenses of the Empire AI Student Challenge program, pursuant to a plan
+        developed by the commissioner of education and approved by the director of the budget.
+  - type: ai-workforce-program
+    description: Funds opportunity promise scholarships for SUNY associate's degree programs in high-demand
+      fields that include artificial intelligence.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10000D
+      locator: State University of New York appropriations, opportunity promise scholarship item
+      quote: in an approved program directly leading to an associate's degree in a high-demand field including
+        but not limited to advanced manufacturing, technology, cybersecurity, engineering, artificial
+        intelligence
+sponsors:
+  - name: Budget
+    classification: committee
+    primary: true
+actions:
+  - date: "2026-01-21"
+    description: referred to ways and means
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-20"
+    description: amend and recommit to ways and means
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: print number 10000a
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: amend and recommit to ways and means
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: print number 10000b
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: amend and recommit to ways and means
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: print number 10000c
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: amend and recommit to ways and means
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: print number 10000d
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: reported referred to rules
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-05-27"
+    description: reported
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: rules report cal.212
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: ordered to third reading rules cal.212
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: message of necessity - 3 day message
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: passed assembly
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-27"
+    description: delivered to senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: REFERRED TO FINANCE
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-27"
+    description: SUBSTITUTED FOR S9000D
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-05-27"
+    description: 3RD READING CAL.1329
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-27"
+    description: MESSAGE OF NECESSITY - 3 DAY MESSAGE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: PASSED SENATE
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-27"
+    description: RETURNED TO ASSEMBLY
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-28"
+    description: delivered to governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-06-09"
+    description: signed chap.50
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-09"
+    description: line veto memo.1
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-10"
+    description: tabled line veto memo.1
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Amended
+    date: "2026-01-20"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10000A
+    media_type: text/html
+  - note: Amended
+    date: "2026-01-20"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10000B
+    media_type: text/html
+  - note: Amended
+    date: "2026-01-20"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10000D
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2088651
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A10000
+    title: A 10000 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10000D
+    title: A 10000 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

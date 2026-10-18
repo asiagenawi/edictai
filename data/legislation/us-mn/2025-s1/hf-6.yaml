@@ -1,0 +1,61 @@
+id: us-mn-2025-s1-hf-6
+jurisdiction: us-mn
+session: 2025-s1
+identifier: HF 6
+title: Higher education finance and policy bill.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Provides higher education funding and policy changes for the Office of Higher Education, Minnesota
+  State Colleges and Universities, and the University of Minnesota. Its campus sexual misconduct provisions
+  define sexual misconduct, which institutional policies and grievance procedures must address, to include
+  nonconsensual dissemination of a deepfake depicting intimate parts or sexual acts.
+provisions:
+  - type: addresses-deepfakes
+    description: Includes deepfake dissemination in the sexual misconduct definition governing postsecondary
+      institution policies.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/text.php?number=HF6&version=0&session=ls94&session_year=2025&session_number=1&format=pdf
+      locator: 135A.15 definitions, paragraph (n) [Page 34]
+      quote: of sexual images, sexual extortion, nonconsensual dissemination of a deepfake depicting
+sponsors:
+  - name: Dan Wolgamott
+    primary: true
+    party: D
+    chamber: lower
+  - name: Marion Rarick
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-06-09"
+    description: Introduction and first reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-06-09"
+    url: https://www.revisor.mn.gov/bills/text.php?number=HF6&version=0&session=ls94&session_year=2025&session_number=1&format=pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2036216
+sources:
+  - url: https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF0006&ssn=1&y=2025
+    title: HF 6 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/text.php?number=HF6&version=0&session=ls94&session_year=2025&session_number=1&format=pdf
+    title: HF 6 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

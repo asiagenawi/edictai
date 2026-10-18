@@ -1,0 +1,196 @@
+id: us-wi-2023-2024-sb-523
+jurisdiction: us-wi
+session: 2023-2024
+identifier: SB 523
+title: Grants to schools to acquire proactive firearm detection software and making an appropriation.
+  (FE)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - safety-wellbeing
+  - procurement
+summary: Requires the Department of Justice to award grants of up to $325,000 to school boards and private
+  school governing bodies to acquire proactive firearm detection software, including artificial intelligence
+  software that integrates with school security cameras. Appropriates $4,000,000 for the grants.
+provisions:
+  - type: appropriates-funding
+    description: Creates a DOJ grant program for schools to acquire firearm detection software.
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB523.pdf
+      locator: s. 165.88 (3p) (a)
+      quote: the department of justice shall award grants to school boards and governing bodies of private
+        schools to acquire proactive firearm detection software.
+  - type: procurement-standards
+    description: Sets requirements the funded software must meet, including AI software that follows authorized
+      protocol autonomously or is vendor-monitored.
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB523.pdf
+      locator: s. 165.88 (3p) (c) 4.
+      quote: The artificial intelligence software is written and programmable to follow authorized protocol
+        autonomously
+sponsors:
+  - name: Van Wanggaard
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jesse James
+    primary: true
+    party: R
+    chamber: upper
+  - name: Rachael Cabral-Guevara
+    primary: true
+    party: R
+    chamber: upper
+  - name: Dan Feyen
+    primary: true
+    party: R
+    chamber: upper
+  - name: LaTonya Johnson
+    primary: true
+    party: D
+    chamber: lower
+  - name: Romaine Quinn
+    primary: true
+    party: R
+    chamber: upper
+  - name: Calvin Callahan
+    primary: false
+    party: R
+    chamber: lower
+  - name: John Spiros
+    primary: false
+    party: R
+    chamber: lower
+  - name: Scott Allen
+    primary: false
+    party: R
+    chamber: lower
+  - name: David Armstrong
+    primary: false
+    party: R
+    chamber: lower
+  - name: Janel Brandtjen
+    primary: false
+    party: R
+    chamber: lower
+  - name: Barbara Dittrich
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bob Donovan
+    primary: false
+    party: R
+    chamber: lower
+  - name: James Edming
+    primary: false
+    party: R
+    chamber: lower
+  - name: Joy Goeben
+    primary: false
+    party: R
+    chamber: lower
+  - name: Chanz Green
+    primary: false
+    party: R
+    chamber: lower
+  - name: Tom Michalski
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jeffrey Mursau
+    primary: false
+    party: R
+    chamber: lower
+  - name: Amanda Nedweski
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jerry O'Connor
+    primary: false
+    party: R
+    chamber: lower
+  - name: Sylvia Ortiz-Velez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nik Rettinger
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jessie Rodriguez
+    primary: false
+    party: R
+    chamber: lower
+  - name: Peter Schmidt
+    primary: false
+    party: R
+    chamber: lower
+  - name: David Steffen
+    primary: false
+    party: R
+    chamber: lower
+  - name: Rob Summerfield
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-10-16"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2023-10-16"
+    description: Read first time and referred to Committee on Education
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2024-01-09"
+    description: Representative Stubbs added as a cosponsor
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Senate Substitute Amendment 1 offered by Senator Wanggaard
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Senate Amendment 1 to Senate Substitute Amendment 1 offered by Senator Wanggaard
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Public hearing held
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2024-04-15"
+    description: Failed to pass pursuant to Senate Joint Resolution 1
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2023-10-16"
+    url: https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB523.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1780646
+sources:
+  - url: https://docs.legis.wisconsin.gov/2023/proposals/reg/sen/bill/sb523
+    title: SB 523 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB523.pdf
+    title: SB 523 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

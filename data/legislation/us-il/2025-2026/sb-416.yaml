@@ -1,0 +1,333 @@
+id: us-il-2025-2026-sb-416
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 416
+title: EDUCATION-TECH
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - assessment
+  - procurement
+  - employment-evaluation
+summary: Requires each school board to adopt, by the 2027-2028 school year, an AI technology policy that
+  prohibits teachers from using AI tools to assign scores or grades for tasks requiring professional judgment
+  and requires district approval of any AI model used with students or student work, with a list of approved
+  models provided to schools each year.
+provisions:
+  - type: requires-local-ai-policy
+    description: Each school board must adopt an AI technology policy by the 2027-2028 school year.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=197854&DocName=10400SB0416eng&DocNum=416&DocTypeID=SB&LegID=158064&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Section 10
+      quote: 'By the 2027-2028 school year, the school board of each school district shall adopt a policy
+        that, at a minimum:'
+  - type: regulates-ai-assessment
+    description: The policy must bar teachers from using AI to grade tasks requiring professional judgment.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=197854&DocName=10400SB0416eng&DocNum=416&DocTypeID=SB&LegID=158064&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Section 10(1)
+      quote: prohibits teachers from using an artificial intelligence tool to assign a numerical score
+        or a grade for any task that requires professional judgment
+  - type: procurement-standards
+    description: AI models used with students or student work must be approved by the district.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=197854&DocName=10400SB0416eng&DocNum=416&DocTypeID=SB&LegID=158064&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Section 10(2)
+      quote: requires that any artificial intelligence model used in relation to students or student work
+        be approved by the school district
+sponsors:
+  - name: Robert Martwick
+    primary: true
+    party: D
+    chamber: upper
+  - name: Rachel Ventura
+    primary: false
+    party: D
+    chamber: upper
+  - name: Li Arellano
+    primary: false
+    party: R
+    chamber: upper
+  - name: Lakesia Collins
+    primary: false
+    party: D
+    chamber: upper
+  - name: Javier Cervantes
+    primary: false
+    party: D
+    chamber: upper
+  - name: Meg Loughran Cappel
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mark Walker
+    primary: false
+    party: D
+    chamber: upper
+  - name: Donald DeWitte
+    primary: false
+    party: R
+    chamber: upper
+  - name: Sally Turner
+    primary: false
+    party: R
+    chamber: upper
+  - name: Maurice West
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-24"
+    description: Filed with Secretary by Sen. Don Harmon
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-01-24"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-01-24"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-12"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-19"
+    description: Do Pass Executive; 011-000-000
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-19"
+    description: Placed on Calendar Order of 2nd Reading March 20, 2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-20"
+    description: Second Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-03-20"
+    description: Placed on Calendar Order of 3rd Reading April 1, 2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-11"
+    description: Rule 3-9(a) / Re-referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-07"
+    description: Rule 2-10 Third Reading Deadline Established As May 15, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-07"
+    description: Approved for Consideration Assignments
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-07"
+    description: Placed on Calendar Order of 3rd Reading May 12, 2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-11"
+    description: Senate Floor Amendment No. 1 Filed with Secretary by Sen. Robert F. Martwick
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-11"
+    description: Senate Floor Amendment No. 1 Referred to Assignments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Senate Floor Amendment No. 1 Assignments Refers to Executive
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Chief Sponsor Changed to Sen. Robert F. Martwick
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-13"
+    description: Added as Co-Sponsor Sen. Rachel Ventura
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-13"
+    description: Senate Floor Amendment No. 1 Recommend Do Adopt Executive; 013-000-000
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-15"
+    description: Rule 2-10 Third Reading Deadline Established As May 22, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-19"
+    description: Senate Floor Amendment No. 2 Filed with Secretary by Sen. Robert F. Martwick
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-19"
+    description: Senate Floor Amendment No. 2 Referred to Assignments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-20"
+    description: Senate Floor Amendment No. 2 Assignments Refers to Executive
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-20"
+    description: Senate Floor Amendment No. 2 Recommend Do Adopt Executive; 011-000-000
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: Recalled to Second Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-05-21"
+    description: Senate Floor Amendment No. 1 Adopted; Martwick
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-05-21"
+    description: Senate Floor Amendment No. 2 Adopted; Martwick
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-05-21"
+    description: Placed on Calendar Order of 3rd Reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: Third Reading - Passed; 057-000-000
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-21"
+    description: Added as Co-Sponsor Sen. Li Arellano, Jr.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: Added as Co-Sponsor Sen. Lakesia Collins
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: Added as Co-Sponsor Sen. Javier L. Cervantes
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: Added as Co-Sponsor Sen. Meg Loughran Cappel
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: Arrived in House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: Chief House Sponsor Rep. Emanuel "Chris" Welch
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-05-21"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-05-21"
+    description: Alternate Chief Sponsor Changed to Rep. Maurice A. West, II
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-21"
+    description: Assigned to Executive Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-05-21"
+    description: Committee/Final Action Deadline Extended-9(b) May 31, 2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-25"
+    description: Added as Co-Sponsor Sen. Mark L. Walker
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-25"
+    description: Moved to Suspend Rule 21 Rep. Elizabeth "Lisa" Hernandez
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-25"
+    description: Suspend Rule 21 - Prevailed 066-029-000
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Added as Co-Sponsor Sen. Donald P. DeWitte
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Added as Co-Sponsor Sen. Sally J. Turner
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-31"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-01-24"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=197854&DocName=10400SB0416&DocNum=416&DocTypeID=SB&LegID=158064&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-05-21"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=197854&DocName=10400SB0416eng&DocNum=416&DocTypeID=SB&LegID=158064&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1940278
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=416&GAID=18&DocTypeID=SB&LegId=158064&SessionID=114
+    title: SB 416 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=197854&DocName=10400SB0416eng&DocNum=416&DocTypeID=SB&LegID=158064&GAID=18&SessionID=114&SpecSess=&Session=
+    title: SB 416 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

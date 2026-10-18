@@ -1,0 +1,75 @@
+id: us-tx-2025-2026-hb-4390
+jurisdiction: us-tx
+session: 2025-2026
+identifier: HB 4390
+title: Relating to parental rights regarding the use of machine grading to score certain portions of assessment
+  instruments administered to public school students in this state.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - assessment
+summary: Requires the Texas Education Agency to notify parents when machine grading, including artificial
+  intelligence, is used to score a student's constructed response on a state assessment. Lets parents
+  of students who did not perform satisfactorily request rescoring by a traditional method at no cost.
+provisions:
+  - type: requires-disclosure
+    description: The agency must notify parents when AI or computer software scores a student's constructed
+      response.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB04390I.htm
+      locator: Sec. 39.023(q)
+      quote: The agency shall provide written notice to a student's parent if machine grading, including
+        artificial intelligence or computer software, is used to score a constructed response provided
+        by a student as part of an assessment instrument administered under this section.
+  - type: regulates-ai-assessment
+    description: Parents may request traditional rescoring of machine-graded responses for students who
+      did not perform satisfactorily.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB04390I.htm
+      locator: Sec. 39.023(r)
+      quote: that portion of the student's assessment instrument must be rescored using a traditional
+        scoring method that does not include machine grading, at no cost to the parent.
+sponsors:
+  - name: Aicha Davis
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-11"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-04-01"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-04-01"
+    description: Referred to Public Education
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-11"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB04390I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1999872
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB4390
+    title: HB 4390 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB04390I.htm
+    title: HB 4390 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

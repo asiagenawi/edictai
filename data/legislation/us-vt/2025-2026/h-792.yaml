@@ -1,0 +1,117 @@
+id: us-vt-2025-2026-h-792
+jurisdiction: us-vt
+session: 2025-2026
+identifier: H 792
+title: An act relating to liability standards for developers and deployers of artificial intelligence
+  systems
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Sets products liability standards for developers and deployers of high-impact and generative
+  artificial intelligence systems, including design defect, failure to warn, and safe harbor rules. High-impact
+  systems include those used as a controlling factor in consequential decisions, defined to include decisions
+  affecting access to education.
+sponsors:
+  - name: Monique Priestley
+    primary: true
+    party: D
+    chamber: lower
+  - name: Daisy Berbeco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Elizabeth Burrows
+    primary: false
+    party: D
+    chamber: lower
+  - name: Esme Cole
+    primary: false
+    party: D
+    chamber: lower
+  - name: Edye Graning
+    primary: false
+    party: D
+    chamber: lower
+  - name: Troy Headrick
+    primary: false
+    party: I
+    chamber: lower
+  - name: Rebecca Holcombe
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kate McCann
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jubilee McGill
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Mrowicki
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kate Nugent
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carol Ode
+    primary: false
+    party: D
+    chamber: lower
+  - name: Phil Pouech
+    primary: false
+    party: D
+    chamber: lower
+  - name: Barbara Rachelson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robin Scheu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shawn Sweeney
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chloe Tomlinson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dara Torre
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-28"
+    description: Read first time and referred to the Committee on Commerce and Economic Development
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-01-27"
+    url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0792/H-0792%20As%20Introduced.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2094379
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2026/H.792
+    title: H 792 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0792/H-0792%20As%20Introduced.pdf
+    title: H 792 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

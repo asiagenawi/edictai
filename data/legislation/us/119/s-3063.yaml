@@ -1,0 +1,98 @@
+id: us-119-s-3063
+jurisdiction: us
+session: "119"
+identifier: S. 3063
+title: LIFE with AI Act Learning Innovation and Family Empowerment with AI Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - student-privacy
+  - educator-training
+  - instructional-use
+  - funding
+  - academic-integrity
+summary: Amends federal education law to condition funding on educational agencies and institutions prohibiting
+  the use of student photographs to train facial recognition systems, including AI systems, without parental
+  consent. Directs the Education Department to develop teacher resources on integrating AI into instruction,
+  adds AI to allowable teacher training uses of Title II funds, and sets a priority for AI-enabled personalized
+  learning projects.
+provisions:
+  - type: restricts-student-data-use
+    description: Educational agencies and institutions must prohibit using student photographs to train
+      facial recognition systems, including AI systems, without prior parental consent, as a condition
+      of funding.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3063/BILLS-119s3063is.pdf
+      locator: Sec. 5(a), new FERPA 444(k)(1)
+      quote: the use of student photographs for training facial recognition systems, including those using
+        artificial intelligence, without prior parental consent
+  - type: educator-pd-requirement
+    description: The Secretary must develop resources and training guides for K-12 teachers on integrating
+      AI into instruction while protecting student data privacy.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3063/BILLS-119s3063is.pdf
+      locator: Sec. 9(a)
+      quote: shall develop resources and training guides for elementary school and secondary school teachers
+        on integrating artificial intelligence technologies into instruction, including methods of use
+        that protect student data privacy.
+  - type: educator-pd-requirement
+    description: Title II funds may train teachers on using AI for personalized learning and on improper
+      student use of AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3063/BILLS-119s3063is.pdf
+      locator: Sec. 9(b)
+      quote: effectively integrate existing and emerging technology into curricula and instruction (including
+        education about how to use artificial intelligence to enhance personalized learning, in addition
+        to the harms of copyright piracy and improper student use of artificial intelligence);
+  - type: appropriates-funding
+    description: Sets an AI-in-education priority for projects integrating AI into classrooms for personalized
+      learning.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3063/BILLS-119s3063is.pdf
+      locator: Sec. 10(a)
+      quote: Projects that demonstrate a clear strategy for integrating artificial intelligence into classroom
+        settings for efficiency and personalized learning, including training resources for teachers and
+        administrators
+sponsors:
+  - name: Bill Cassidy
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-10-28"
+    description: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-11-06"
+    url: https://www.congress.gov/119/bills/s3063/BILLS-119s3063is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2047752
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/3063/all-info
+    title: S. 3063 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s3063/BILLS-119s3063is.pdf
+    title: S. 3063 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

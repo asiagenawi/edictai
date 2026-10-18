@@ -1,0 +1,97 @@
+id: us-pa-2025-2026-hb-1188
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 1188
+title: Providing for protection of State-owned electronic devices and networks from applications controlled
+  by foreign adversaries.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+summary: Prohibits AI and AI platforms operated by companies controlled by foreign adversaries from being
+  installed on, or accessed through, devices and wireless networks owned by the Commonwealth, political
+  subdivisions, and local education agencies.
+provisions:
+  - type: procurement-standards
+    description: Bars foreign-adversary-controlled AI from devices owned or operated by entities including
+      local education agencies.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1188/PN1338
+      locator: Sec. 1, new 71 Pa.C.S. § 7302(a)
+      quote: On device.--A State-owned electronic device may not have an unauthorized foreign adversary
+        controlled artificial intelligence or unauthorized foreign adversary controlled artificial intelligence
+        platform downloaded or installed on the device.
+sponsors:
+  - name: Napoleon Nelson
+    primary: true
+    party: D
+    chamber: lower
+  - name: Carol Hill-Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Charity Grimm Krupa
+    primary: false
+    party: R
+    chamber: lower
+  - name: Nancy Guenst
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: Malcolm Kenyatta
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Johanny Cepeda-Freytiz
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gregory Scott
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mandy Steele
+    primary: false
+    party: D
+    chamber: lower
+  - name: Roni Green
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-04-10"
+    description: Referred to Communications & Technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1188/PN1338
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2022168
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb1188
+    title: HB 1188 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1188/PN1338
+    title: HB 1188 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

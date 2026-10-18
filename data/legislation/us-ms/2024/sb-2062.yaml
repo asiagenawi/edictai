@@ -1,0 +1,136 @@
+id: us-ms-2024-sb-2062
+jurisdiction: us-ms
+session: "2024"
+identifier: SB 2062
+title: Artificial Intelligence in Education Task Force Act; enact.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - curriculum-standards
+  - educator-training
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - workforce
+summary: Creates an Artificial Intelligence in Education Task Force chaired by the State Superintendent
+  of Education to evaluate AI applications in K-12 and develop policy recommendations for responsible
+  use by students and educators. The task force must address academic integrity, acceptable use, data
+  privacy, AI in K-12 standards and higher education curricula, educator training guidelines, and common
+  procurement requirements for AI software.
+provisions:
+  - type: creates-task-force
+    description: Establishes an AI in Education Task Force to evaluate AI in K-12 and develop policy recommendations.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2024/html/SB/2001-2099/SB2062PS.htm
+      locator: Sec. 2
+      quote: The purpose of this act is to establish an Artificial Intelligence ("AI") in Education Task
+        Force within the state to evaluate the potential applications of artificial intelligence in K-12
+        and to develop policy recommendations for responsible and effective uses by students and educators.
+  - type: creates-task-force
+    description: Directs the task force to recommend how to incorporate AI into K-12 standards and higher
+      education curricula.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2024/html/SB/2001-2099/SB2062PS.htm
+      locator: Task force activities, subsec. (2)(d)
+      quote: Provide recommendations for incorporating AI into K-12 educational standards and higher education
+        curricula, including general education courses as well as career and technical courses that align
+        with evolving industry demands
+  - type: creates-task-force
+    description: Directs the task force to develop guidelines for training K-12 educators to use AI tools.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2024/html/SB/2001-2099/SB2062PS.htm
+      locator: Task force activities, subsec. (2)(e)
+      quote: Develop guidelines for training K-12 educators to effectively use AI tools, especially to
+        support personalized learning
+sponsors:
+  - name: Chris Johnson
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-01-18"
+    description: Referred To Technology;Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2024-03-05"
+    description: 'DR - TSDPCS: TE To ED'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-05"
+    description: Title Suff Do Pass Comm Sub
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-11"
+    description: Committee Substitute Adopted
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-03-11"
+    description: Amended
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-11"
+    description: Passed As Amended
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-03-13"
+    description: Transmitted To House
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-14"
+    description: Referred To Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-27"
+    description: Title Suff Do Pass
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-10"
+    description: Died On Calendar
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2024-01-18"
+    url: https://billstatus.ls.state.ms.us/documents/2024/html/SB/2001-2099/SB2062IN.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2024-03-05"
+    url: https://billstatus.ls.state.ms.us/documents/2024/html/SB/2001-2099/SB2062CS.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2024-03-13"
+    url: https://billstatus.ls.state.ms.us/documents/2024/html/SB/2001-2099/SB2062PS.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1820844
+sources:
+  - url: https://billstatus.ls.state.ms.us/2024/pdf/history/SB/SB2062.xml
+    title: SB 2062 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://billstatus.ls.state.ms.us/documents/2024/html/SB/2001-2099/SB2062PS.htm
+    title: SB 2062 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

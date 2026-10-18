@@ -1,0 +1,246 @@
+id: us-nc-2023-2024-h-97
+jurisdiction: us-nc
+session: 2023-2024
+identifier: H 97
+title: Various Education Changes
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+  - procurement
+summary: Amends the AI School Safety Pilot Program so that New Hanover and Davidson County Schools contract
+  with a named vendor for a school safety system integrating AI with cameras, video management and alerting
+  protocols. Requires the system to offer capabilities including threatening object detection, intruder
+  detection, facial recognition and license plate reading.
+provisions:
+  - type: appropriates-funding
+    description: Directs grants to two school districts to contract for an AI School Safety Pilot Program.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H97v3.pdf
+      locator: Sec. 6.1, amending Sec. 7.36.(h) of S.L. 2023-134
+      quote: the Department shall allocate (i) three million two hundred thousand dollars ($3,200,000)
+        as a directed grant to New Hanover County Schools and (ii) two million dollars ($2,000,000) as
+        a directed grant to Davidson County Schools
+  - type: procurement-standards
+    description: Specifies required performance capabilities for the AI school safety solution.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H97v3.pdf
+      locator: Sec. 6.1, amending Sec. 7.36.(h)(1a)
+      quote: 'The proposed school safety solution must offer the following performance capabilities: a.
+        Threatening Objection Detection. b. Intruder Detection. c. Person Down Detection. d. Door Open
+        Detection. e. Tag and Track. f. Facial Recognition.'
+sponsors:
+  - name: Karl Gillespie
+    primary: true
+    party: R
+    chamber: lower
+  - name: David Willis
+    primary: true
+    party: R
+    chamber: lower
+  - name: John Torbett
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jonathan Hardister
+    primary: true
+    party: R
+    chamber: lower
+  - name: Mike Clampitt
+    primary: false
+    party: R
+    chamber: lower
+  - name: Mary Harrison
+    primary: false
+    party: D
+    chamber: lower
+  - name: Zack Forde-Hawkins
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frances Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jeffrey McNeely
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bill Ward
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jeff Zenger
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-02-13"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-02-14"
+    description: Passed 1st Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2023-02-14"
+    description: Ref to the Com on Education - Community Colleges, if favorable, Rules, Calendar, and
+      Operations of the House
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-16"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-16"
+    description: Re-ref Com On Rules, Calendar, and Operations of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-21"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-03-21"
+    description: Cal Pursuant Rule 36(b)
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-21"
+    description: Placed On Cal For 03/22/2023
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-22"
+    description: Passed 2nd Reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-03-22"
+    description: Passed 3rd Reading
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2023-03-23"
+    description: Regular Message Sent To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-23"
+    description: Regular Message Received From House
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-23"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2023-03-23"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-24"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-24"
+    description: Re-ref to Education/Higher Education. If fav, re-ref to Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-06-13"
+    description: Reptd Fav Com Substitute
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: Com Substitute Adopted
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-06-13"
+    description: Re-ref Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Reptd Fav
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-06-18"
+    description: Placed on Today's Calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Passed 2nd Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-06-18"
+    description: Passed 3rd Reading
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-06-18"
+    description: Special Message Sent To House
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Special Message Received For Concurrence in S Com Sub
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Ref To Com On Rules, Calendar, and Operations of the House
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-02-13"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H97v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-02-14"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H97v1.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2024-06-13"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H97v2.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2024-06-14"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H97v3.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1704591
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2023/H97
+    title: H 97 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H97v3.pdf
+    title: H 97 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

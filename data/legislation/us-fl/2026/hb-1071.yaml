@@ -1,0 +1,347 @@
+id: us-fl-2026-hb-1071
+jurisdiction: us-fl
+session: "2026"
+identifier: HB 1071
+title: Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+summary: An education bill that, among many provisions, allows a district to reserve up to 1 percent of
+  Title I funds for eligible schools to provide STEM curricula, instructional materials, and related learning
+  technologies, including technologies related to artificial intelligence, in Title I schools.
+provisions:
+  - type: appropriates-funding
+    description: Up to 1 percent of Title I funds may be reserved for STEM curricula and technologies,
+      including AI, in Title I schools.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1071/BillText/e1/PDF
+      locator: Sec. 30
+      quote: related learning technologies that support academic achievement in science, technology, engineering,
+        and mathematics in Title I schools, including, but not limited to, technologies related to drones,
+        coding, animation, artificial intelligence
+sponsors:
+  - name: Education & Employment Committee
+    classification: committee
+    primary: true
+  - name: PreK-12 Budget Subcommittee
+    classification: committee
+    primary: true
+  - name: Student Academic Success Subcommittee
+    classification: committee
+    primary: true
+  - name: Dana Trabulsy
+    primary: true
+    party: R
+    chamber: lower
+  - name: Hillary Cassel
+    primary: true
+    party: R
+    chamber: lower
+  - name: Alejandro Rizo
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-06"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-12"
+    description: Referred to Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Referred to PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Now in Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-13"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-01-16"
+    description: Added to Student Academic Success Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: Favorable with CS by Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-23"
+    description: Reported out of Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-23"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-01-23"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-23"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-01-26"
+    description: Referred to PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-26"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-26"
+    description: Now in PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-26"
+    description: Added to PreK-12 Budget Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-28"
+    description: Favorable with CS by PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-29"
+    description: Reported out of PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-29"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-01-29"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: 1st Reading (Committee Substitute 2)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-01-30"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-30"
+    description: Now in Education & Employment Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: Added to Education & Employment Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-10"
+    description: Favorable with CS by Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-10"
+    description: Reported out of Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-11"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-02-11"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: 1st Reading (Committee Substitute 3)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-02-12"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-12"
+    description: Added to Second Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Bill added to Special Order Calendar (2/25/2026)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-25"
+    description: Amendment 190461 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment 473897 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment 514487 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment 340635 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment 656553 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment 243621 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Amendment 369401 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment 759139 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment 298571 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment 406043 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Amendment 497431 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Amendment 126073 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-25"
+    description: CS passed as amended; YEAS 82, NAYS 31
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-26"
+    description: In Messages
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Referred to Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-26"
+    description: Received
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Died in Rules
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-06"
+    url: https://www.flsenate.gov/Session/Bill/2026/1071/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-01-23"
+    url: https://www.flsenate.gov/Session/Bill/2026/1071/BillText/c1/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-01-29"
+    url: https://www.flsenate.gov/Session/Bill/2026/1071/BillText/c2/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-02-11"
+    url: https://www.flsenate.gov/Session/Bill/2026/1071/BillText/c3/PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-02-25"
+    url: https://www.flsenate.gov/Session/Bill/2026/1071/BillText/e1/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2065951
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/1071
+    title: HB 1071 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1071/BillText/e1/PDF
+    title: HB 1071 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

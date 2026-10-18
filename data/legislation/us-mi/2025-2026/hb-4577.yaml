@@ -1,0 +1,139 @@
+id: us-mi-2025-2026-hb-4577
+jurisdiction: us-mi
+session: 2025-2026
+identifier: HB 4577
+title: 'Appropriations: school aid; appropriations for K-12 school aid; provide for. Amends secs. 11 &
+  17b of 1979 PA 94 (MCL 388.1611 & 388.1617b).'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - funding
+  - instructional-use
+summary: Amends Michigan school aid appropriations. Directs Michigan Virtual University, from its section
+  98 school aid allocation, to operate a statewide laboratory for research, best practices, policy formulation,
+  and awareness about responsible use of artificial intelligence in schools.
+provisions:
+  - type: appropriates-funding
+    description: Directs school aid funds allocated to Michigan Virtual University to operate a statewide
+      lab on responsible AI use in schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2025-HEBH-4577.htm
+      locator: Sec. 98(5)
+      quote: the identification and dissemination of best practices, rigorous experimentation, policy
+        formulation, and proactive efforts to enhance awareness about the responsible utilization of artificial
+        intelligence in schools.
+sponsors:
+  - name: Tim Kelly
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-06-05"
+    description: Introduced By Representative Rep. Tim Kelly
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-06-05"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-05"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-06-10"
+    description: Bill Electronically Reproduced 06/05/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-11"
+    description: Reported With Recommendation With Substitute (h-3)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-06-11"
+    description: Referred To Second Reading
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-06-11"
+    description: Read A Second Time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-11"
+    description: Substitute (h-3) Adopted
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-06-11"
+    description: Placed On Third Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-11"
+    description: Placed On Immediate Passage
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-11"
+    description: Read A Third Time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-06-11"
+    description: 'Passed; Given Immediate Effect Roll Call #149 Yeas 56 Nays 53 Excused 0 Not Voting 1'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-06-11"
+    description: Title Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-11"
+    description: Transmitted
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-12"
+    description: Passed By House With Immediate Effect
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-12"
+    description: Referred To Committee On Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-06-05"
+    url: https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2025-HIB-4577.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-06-11"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2025-HEBH-4577.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2035768
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4577
+    title: HB 4577 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2025-HEBH-4577.htm
+    title: HB 4577 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,96 @@
+id: us-nm-2025-hm-2
+jurisdiction: us-nm
+session: "2025"
+identifier: HM 2
+title: Lesc Artificial Intelligence Work Group
+classification: resolution
+education_levels:
+  - k12
+topics:
+  - task-force
+  - data-governance
+  - student-privacy
+  - instructional-use
+summary: Requests the Legislative Education Study Committee to convene an education data governance and
+  artificial intelligence working group during the 2025 interim. The group is to study education data
+  systems, current uses of AI by students and educators, and policies to guide AI use in public schools,
+  and recommend policies by October 31, 2025.
+provisions:
+  - type: creates-task-force
+    description: Requests the Legislative Education Study Committee to convene an education data governance
+      and AI working group.
+    citation:
+      source_url: https://www.nmlegis.gov/Sessions/25%20Regular/final/HM002.pdf
+      locator: '[Page 4]'
+      quote: the legislative education study committee be requested to convene an education data governance
+        and artificial intelligence working group throughout the 2025 legislative interim
+  - type: creates-task-force
+    description: The working group is to study policies to guide AI use in public schools, including access,
+      sensitive data, and human connection in classrooms.
+    citation:
+      source_url: https://www.nmlegis.gov/Sessions/25%20Regular/final/HM002.pdf
+      locator: '[Page 6], study topic H'
+      quote: current and potential policies to guide the use of artificial intelligence in public schools,
+        including policies to promote access to artificial intelligence, protect sensitive data, protect
+        data sovereignty and maintain meaningful human connection in classrooms
+sponsors:
+  - name: Brian Baca
+    primary: true
+    party: R
+    chamber: lower
+  - name: Joy Garratt
+    primary: true
+    party: D
+    chamber: lower
+  - name: Yanira Gurrola
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-22"
+    description: 'Sent to HEC - Referrals: HEC'
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-02-04"
+    description: 'HEC: Reported by committee with Do Pass recommendation'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-19"
+    description: Passed in the House of Representatives - Y:63 N:0
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-03-19"
+    description: Signed by one or both houses (for legislation not requiring Governor's signature)
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-22"
+    url: https://www.nmlegis.gov/Sessions/25%20Regular/memorials/house/HM002.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2025-04-08"
+    url: https://www.nmlegis.gov/Sessions/25%20Regular/final/HM002.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1935448
+sources:
+  - url: https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legtype=M&legno=2&year=25
+    title: HM 2 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.nmlegis.gov/Sessions/25%20Regular/final/HM002.pdf
+    title: HM 2 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

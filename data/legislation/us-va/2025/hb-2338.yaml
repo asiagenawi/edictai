@@ -1,0 +1,80 @@
+id: us-va-2025-hb-2338
+jurisdiction: us-va
+session: "2025"
+identifier: HB 2338
+title: Public education; changes relating to graduation from a public high school, etc.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+summary: Revises high school graduation and concurrent enrollment requirements, and directs the Board
+  of Education to develop guidelines on how computer science and artificial intelligence courses can satisfy
+  graduation requirements.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: The Board of Education must develop guidelines on how AI courses can satisfy graduation
+      requirements.
+    citation:
+      source_url: https://lis.virginia.gov/bill-details/20251/HB2338/text/HB2338
+      locator: Sec. 22.1-253.13:4, subdivision 14
+      quote: The Board shall develop guidelines addressing how computer science and artificial intelligence
+        courses can satisfy graduation requirements.
+sponsors:
+  - name: Amanda Batten
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-08"
+    description: Prefiled and ordered printed; Offered 01-08-2025 25102028D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-08"
+    description: Referred to Committee on Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-01-24"
+    description: 'Assigned Educ sub: K-12 Subcommittee'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-28"
+    description: Subcommittee recommends striking from the docket (8-Y 0-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-29"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2338)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Left in Education
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-08"
+    url: https://lis.virginia.gov/bill-details/20251/HB2338/text/HB2338
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1905982
+sources:
+  - url: https://lis.virginia.gov/bill-details/20251/HB2338
+    title: HB 2338 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/bill-details/20251/HB2338/text/HB2338
+    title: HB 2338 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

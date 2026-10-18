@@ -1,0 +1,418 @@
+id: us-wa-2025-2026-hb-1622
+jurisdiction: us-wa
+session: 2025-2026
+identifier: HB 1622
+title: Allowing bargaining over matters related to the use of artificial intelligence.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - employment-evaluation
+summary: Requires public employers under the state's public employee bargaining laws to bargain over decisions
+  to adopt or modify artificial intelligence technology when the change affects employees' wages or performance
+  evaluations. Makes the management right of institutions of higher education over the use of technology
+  subject to this duty for their covered employees.
+sponsors:
+  - name: Lisa Parshley
+    primary: true
+    party: D
+    chamber: lower
+  - name: Beth Doglio
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Fosse
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alex Ramel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lillian Ortiz-Self
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steve Bergquist
+    primary: false
+    party: D
+    chamber: lower
+  - name: Travis Couture
+    primary: false
+    party: R
+    chamber: lower
+  - name: Joe Timmons
+    primary: false
+    party: D
+    chamber: lower
+  - name: Edwin Obras
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julia Reed
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Bronoske
+    primary: false
+    party: D
+    chamber: lower
+  - name: Adam Bernbaum
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sam Low
+    primary: false
+    party: R
+    chamber: lower
+  - name: Greg Nance
+    primary: false
+    party: D
+    chamber: lower
+  - name: Suzanne Schmidt
+    primary: false
+    party: R
+    chamber: lower
+  - name: Tarra Simmons
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julio Cortes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Monica Stonier
+    primary: false
+    party: D
+    chamber: lower
+  - name: Darya Farivar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shaun Scott
+    primary: false
+    party: D
+    chamber: lower
+  - name: Strom Peterson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nicole Macri
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dave Paul
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sharlett Mena
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steve Tharinger
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chris Stearns
+    primary: false
+    party: D
+    chamber: lower
+  - name: Liz Berry
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brandy Donaghy
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mia Gregerson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jamila Taylor
+    primary: false
+    party: D
+    chamber: lower
+  - name: Roger Goodman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Natasha Hill
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shelley Kloba
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joe Fitzgibbon
+    primary: false
+    party: D
+    chamber: lower
+  - name: Osman Salahuddin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michelle Valdez
+    primary: false
+    party: R
+    chamber: lower
+  - name: My-Linh Thai
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jake Fey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lauren Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Clyde Shavers
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sharon Santos
+    primary: false
+    party: D
+    chamber: lower
+  - name: Victoria Hunt
+    primary: false
+    party: D
+    chamber: lower
+  - name: Daniel Griffey
+    primary: false
+    party: R
+    chamber: lower
+  - name: Adison Richards
+    primary: false
+    party: D
+    chamber: lower
+  - name: Davina Duerr
+    primary: false
+    party: D
+    chamber: lower
+  - name: Janice Zahn
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brianna Thomas
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-27"
+    description: First reading, referred to Labor & Workplace Standards.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2025-02-05"
+    description: Public hearing in the House Committee on Labor & Workplace Standards at 8:00 AM.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-18"
+    description: Executive action taken in the House Committee on Labor & Workplace Standards at 10:30
+      AM.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-18"
+    description: LAWS - Majority; do pass.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-18"
+    description: Minority; without recommendation.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-20"
+    description: Referred to Appropriations.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-24"
+    description: Public hearing in the House Committee on Appropriations at 1:30 PM.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-27"
+    description: Executive action taken in the House Committee on Appropriations at 9:00 AM.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-27"
+    description: APP - Majority; 1st substitute bill be substituted, do pass.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-27"
+    description: Minority; do not pass.
+    actor: lower
+    classification:
+      - committee-failure
+  - date: "2025-02-27"
+    description: Minority; without recommendation.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-28"
+    description: Referred to Rules 2 Review.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-04"
+    description: Rules Committee relieved of further consideration. Placed on second reading.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-08"
+    description: 1st substitute bill substituted
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-03-08"
+    description: Floor amendment
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-08"
+    description: Rules suspended. Placed on Third Reading.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-08"
+    description: Third reading, passed; yeas, 58; nays, 38; absent, 0; excused, 2.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-11"
+    description: First reading, referred to Labor & Commerce.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-03-28"
+    description: Public hearing in the Senate Committee on Labor & Commerce at 8:00 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-31"
+    description: Public hearing in the Senate Committee on Labor & Commerce at 10:30 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-01"
+    description: Executive action taken in the Senate Committee on Labor & Commerce at 10:30 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-01"
+    description: LC - Majority; do pass with amendment
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-01"
+    description: Minority; do not pass.
+    actor: upper
+    classification:
+      - committee-failure
+  - date: "2025-04-01"
+    description: And refer to Ways & Means.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-02"
+    description: Referred to Ways & Means.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-05"
+    description: Public hearing in the Senate Committee on Ways & Means at 12:00 PM.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: Executive session scheduled, but no action was taken in the Senate Committee on Ways
+      & Means at 1:30 PM.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-27"
+    description: By resolution, returned to House Rules Committee for third reading.
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-01-12"
+    description: By resolution, reintroduced and retained in present status.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-12"
+    description: Rules Committee relieved of further consideration.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-12"
+    description: Referred to Appropriations.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-28"
+    description: Executive action taken in the House Committee on Appropriations at 4:00 PM.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-28"
+    description: APP - Majority; 2nd substitute bill be substituted, do pass.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-28"
+    description: Minority; do not pass.
+    actor: lower
+    classification:
+      - committee-failure
+  - date: "2026-01-28"
+    description: Minority; without recommendation.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: Referred to Rules 2 Review.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/1622.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/1622-S.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/1622-S.E.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/1622-S2.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1941657
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=1622&Year=2025&Initiative=false
+    title: HB 1622 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/1622-S2.pdf
+    title: HB 1622 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

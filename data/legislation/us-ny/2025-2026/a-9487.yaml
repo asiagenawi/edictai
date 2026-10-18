@@ -1,0 +1,108 @@
+id: us-ny-2025-2026-a-9487
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 9487
+title: Provides for the use of automated employment decision-making tools and artificial intelligence
+  systems by a county, city, town, village, school district, board of cooperative educational services,
+  county vocational education and extension board, district corporation, the state university of New York,
+  the city university of New York, or community college; amends the effectiveness thereof.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+summary: Governs use of automated employment decision tools and AI systems by local governments, school
+  districts, BOCES, SUNY, CUNY, and community colleges, and amends the education law so that AI use cannot
+  displace school district, SUNY, CUNY, or community college employees, transfer their duties to AI, or
+  impair collective bargaining rights.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Bars use of AI systems by boards of education from displacing school district employees
+      or impairing collective bargaining agreements.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09487&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09487
+      locator: Sec. 9, Education Law 2585(5)(b)
+      quote: (i) discharge, displace- ment or loss of position, including partial displacement such as
+        a reduction in the hours of non-overtime work, wages, or employment bene- fits, or result in the
+        impairment of existing collective bargaining agreements
+  - type: prohibits-ai-replacing-educators
+    description: Bars AI use from transferring SUNY employees' duties to an AI system.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09487&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09487
+      locator: Sec. 13
+      quote: (ii) transfer of duties and functions currently performed by employees of the state university
+        of New York to an artificial intelligence system.
+  - type: prohibits-ai-replacing-educators
+    description: Bars AI use from transferring duties of community college employees to an AI system and
+      preserves their employment rights.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09487&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09487
+      locator: Sec. 15
+      quote: (ii) transfer of existing duties and functions currently performed by employees of each community
+        college to an artificial intelligence system.
+sponsors:
+  - name: Steven Otis
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-07"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-21"
+    description: reported referred to rules
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-21"
+    description: reported
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: rules report cal.51
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: ordered to third reading rules cal.51
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: substituted by s8831
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-07"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09487&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09487
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2067545
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A9487
+    title: A 9487 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09487&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09487
+    title: A 9487 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

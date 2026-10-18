@@ -1,0 +1,326 @@
+id: us-ca-2025-2026-sb-638
+jurisdiction: us-ca
+session: 2025-2026
+identifier: SB 638
+title: 'California Education Interagency Council: California Career Technical Education Incentive Grant
+  Program.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - workforce
+  - funding
+summary: Revises the California Career Technical Education Incentive Grant Program and related interagency
+  council duties; among other changes, eligible programs may document postsecondary partnerships for career
+  pathways including artificial intelligence, and grant recipients are encouraged to develop pathway programs
+  leading to in-demand careers including artificial intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Grant recipients are encouraged to use funds to develop pathway programs into high-demand
+      careers, including AI.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#92CHP
+      locator: Sec. 53075(c)
+      quote: to develop pathway programs that lead into careers that are in high demand in the state,
+        including, but not limited to, green technology, health care, information technology, education,
+        and artificial intelligence.
+  - type: ai-workforce-program
+    description: Eligibility standards include partnerships with postsecondary institutions to establish
+      or expand career pathways, including in AI.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#92CHP
+      locator: Sec. 53071(c)(4)
+      quote: partnerships to establish new or expand existing career pathways, including, but not limited
+        to, green technology, health care, information technology, education, and artificial intelligence.
+sponsors:
+  - name: Mike Fong
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steve Padilla
+    primary: true
+    party: D
+    chamber: upper
+  - name: Bob Archuleta
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jesse Arreguin
+    primary: true
+    party: D
+    chamber: upper
+  - name: Josh Becker
+    primary: true
+    party: D
+    chamber: upper
+  - name: Dave Cortese
+    primary: true
+    party: D
+    chamber: upper
+  - name: Tim Grayson
+    primary: true
+    party: D
+    chamber: upper
+  - name: Melissa Hurtado
+    primary: true
+    party: D
+    chamber: upper
+  - name: Mike McGuire
+    primary: true
+    party: D
+    chamber: upper
+  - name: Sasha Renee Perez
+    primary: true
+    party: D
+    chamber: upper
+  - name: Susan Rubio
+    primary: true
+    party: D
+    chamber: upper
+  - name: Lola Smallwood-Cuevas
+    primary: true
+    party: D
+    chamber: upper
+  - name: Akilah Weber Pierson
+    primary: true
+    party: D
+    chamber: upper
+  - name: Al Muratsuchi
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-20"
+    description: Introduced. Read first time. To Com. on RLS. for assignment. To print.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-21"
+    description: From printer. May be acted upon on or after March 23.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Referred to Com. on RLS.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-26"
+    description: From committee with author's amendments. Read second time and amended. Re-referred to
+      Com. on RLS.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-04-02"
+    description: Re-referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-09"
+    description: Set for hearing April 30.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-22"
+    description: From committee with author's amendments. Read second time and amended. Re-referred to
+      Com. on ED.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-04-30"
+    description: 'From committee: Do pass and re-refer to Com. on APPR. (Ayes 7. Noes 0. Page 961.) (April
+      30). Re-referred to Com. on APPR.'
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-05-02"
+    description: Set for hearing May 12.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-12"
+    description: 'May 12 hearing: Placed on APPR. suspense file.'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-16"
+    description: Set for hearing May 23.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-23"
+    description: 'From committee: Do pass as amended. (Ayes 5. Noes 0. Page 1207.) (May 23).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-05-23"
+    description: Read second time and amended. Ordered to second reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-05-27"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-06-04"
+    description: Read third time. Passed. (Ayes 30. Noes 3. Page 1500.) Ordered to the Assembly.
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-06-05"
+    description: In Assembly. Read first time. Held at Desk.
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-06-16"
+    description: Referred to Coms. on ED., HIGHER ED. , and L. & E.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-07-03"
+    description: Assembly Rule 56 suspended.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-03"
+    description: 'From committee: Do pass as amended and re-refer to Com. on HIGHER ED. (Ayes 7. Noes
+      0.) (July 2).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-07-07"
+    description: Read second time and amended. Re-referred to Com. on HIGHER ED.
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-07-09"
+    description: July 8 hearing postponed by committee.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-07-17"
+    description: 'From committee: Do pass and re-refer to Com. on APPR. (Ayes 6. Noes 3.) (July 17). Re-referred
+      to Com. on APPR.'
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-08-20"
+    description: August 20 set for first hearing. Placed on APPR. suspense file.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-29"
+    description: 'From committee: Do pass. (Ayes 11. Noes 4.) (August 29).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-09-02"
+    description: Read second time. Ordered to third reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-09-05"
+    description: Assembly Rule 69(b)(1) suspended.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-09-05"
+    description: Read third time and amended.
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-09-05"
+    description: Ordered to third reading.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-09-12"
+    description: Read third time. Passed. (Ayes 72. Noes 6. Page 3425.) Ordered to the Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-09-13"
+    description: In Senate. Concurrence in Assembly amendments pending.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-13"
+    description: Assembly amendments concurred in. (Ayes 37. Noes 0. Page 3035.) Ordered to engrossing
+      and enrolling.
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-09-23"
+    description: Enrolled and presented to the Governor at 2 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-10-07"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-10-07"
+    description: Chaptered by Secretary of State. Chapter 457, Statutes of 2025.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2025-02-20"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2025-03-26"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-04-22"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#97AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-23"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#96AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-07-07"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#95AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-09-05"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#94AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2025-09-18"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#93ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2025-10-07"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#92CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1978871
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB638
+    title: SB 638 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB638#92CHP
+    title: SB 638 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

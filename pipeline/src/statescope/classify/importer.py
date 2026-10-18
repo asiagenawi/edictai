@@ -5,7 +5,9 @@ the reviewer's scope call, codes, summary, and provisions comes from the
 cached LegiScan bill: actions (mapped from the recorded history, never
 inferred), sponsors, versions (the legislature's own `state_link` URLs, never
 legiscan.com), and sources. A record is `machine-verified` only when its text
-was retrieved and every provision quote was found verbatim in it.
+was retrieved and every provision quote was found verbatim in it. A quote found
+only in the earlier version stored beside the latest (AI language later
+amended out) cites that version's URL.
 """
 
 from __future__ import annotations
@@ -27,6 +29,7 @@ from .actions import map_history
 from .common import BillStore, ClassifyPaths, latest_text, real_date, slug_for
 from .judgments import CheckReport
 from .texts import TextStore
+from .textutil import quote_in_text
 from .yamlwrite import dump
 
 METHOD = "legiscan-text+classifier"
@@ -141,11 +144,24 @@ def build_record(
 
     failures = set(quote_failures)
     provisions = []
-    cite_url = text_url or bill_url
+    versions_with_text = store.texts_for_key(key)
+    earlier_cited: dict[str, Mapping[str, Any]] = {}  # url -> metadata of an earlier version
     for i, p in enumerate(judgment.get("provisions") or []):
-        if i in failures or text is None:
+        # Cite the version the quote was found in: the latest first, else the earlier one.
+        found = (
+            None
+            if i in failures
+            else next((m for m, t in versions_with_text if quote_in_text(p["quote"], t)), None)
+        )
+        if found is None:
             built.dropped_provisions.append(i)
             continue
+        cite_url = bill_url or text_url
+        if found.get("doc_id") == (meta or {}).get("doc_id"):
+            cite_url = text_url or bill_url
+        elif earlier_url := _official(found.get("state_link")):
+            cite_url = earlier_url
+            earlier_cited[earlier_url] = found
         prov: dict[str, Any] = {"type": p["type"], "description": p["description"].strip()}
         if p.get("education_levels"):
             prov["education_levels"] = list(p["education_levels"])
@@ -172,19 +188,33 @@ def build_record(
         if meta and meta.get("type"):
             title += f" ({meta['type']})"
         sources.append({"url": text_url, "title": title, "kind": "official", "accessed": accessed})
+    for url, emeta in earlier_cited.items():
+        if url in (bill_url, text_url):
+            continue
+        title = f"{identifier} text ({emeta.get('type') or 'earlier version'})"
+        sources.append({"url": url, "title": title, "kind": "official", "accessed": accessed})
 
     notes = [ATTRIBUTION_NOTE]
     verified = (
-        text is not None and not failures and bool(provisions) and not built.dropped_provisions
+        bool(versions_with_text)
+        and not failures
+        and bool(provisions)
+        and not built.dropped_provisions
     )
     if text is None:
         reason = (meta or {}).get("reason") or "text not fetched"
-        notes.append(f"Bill text unavailable ({reason}); classified from metadata.")
+        if earlier_cited:
+            notes.append(f"Latest bill text unavailable ({reason}).")
+        else:
+            notes.append(f"Bill text unavailable ({reason}); classified from metadata.")
+    if earlier_cited:
+        kinds = sorted({str(m.get("type") or "earlier") for m in earlier_cited.values()})
+        notes.append(f"Some provisions quote an earlier version ({', '.join(kinds)}).")
     if built.dropped_provisions:
         notes.append(
             f"{len(built.dropped_provisions)} provision(s) dropped: quote not verified in the text."
         )
-    if text is not None and not judgment.get("provisions"):
+    if versions_with_text and not judgment.get("provisions"):
         notes.append("No quoted provisions.")
     verification: dict[str, Any] = {"status": "machine-verified" if verified else "unverified"}
     if verified:

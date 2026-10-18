@@ -1,0 +1,106 @@
+id: us-118-hr-1050
+jurisdiction: us
+session: "118"
+identifier: H.R. 1050
+title: Data Science and Literacy Act of 2023
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - curriculum-standards
+summary: Directs the Secretary of Education to make grants to states, local educational agencies, Tribal
+  schools, and institutions of higher education to expand data literacy and data science education, defined
+  to include artificial intelligence and machine learning.
+provisions:
+  - type: appropriates-funding
+    description: Grant-funded data science education is defined to include artificial intelligence and
+      machine learning.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr1050/BILLS-118hr1050ih.pdf
+      locator: Sec. 105(3)
+      quote: 'The term ‘‘data science education’’ includes education in any of the following subjects:
+        (A) Analytics. (B) Applied statistics and data science. (C) Artificial intelligence.'
+sponsors:
+  - name: Haley Stevens
+    primary: true
+    party: D
+    chamber: lower
+  - name: James Baird
+    primary: false
+    party: R
+    chamber: lower
+  - name: Don Beyer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Young Kim
+    primary: false
+    party: R
+    chamber: lower
+  - name: Danny Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frederica Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jahana Hayes
+    primary: false
+    party: D
+    chamber: lower
+  - name: William Keating
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jamie Raskin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brian Fitzpatrick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Christopher Pappas
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Trone
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-02-14"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-02-14"
+    description: Referred to the House Committee on Education and the Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-03-13"
+    url: https://www.congress.gov/118/bills/hr1050/BILLS-118hr1050ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1707867
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/1050/all-info
+    title: H.R. 1050 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr1050/BILLS-118hr1050ih.pdf
+    title: H.R. 1050 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

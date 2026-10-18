@@ -1,0 +1,69 @@
+id: us-ny-2025-2026-a-8947
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 8947
+title: Enacts the "youth & teen internet safety and social media literacy act"; directs the commissioner
+  of education to provide technical assistance to school districts for the development of curricula for
+  such study of courses which shall be age appropriate and developed according to the needs and abilities
+  of pupils at successive grade levels in order to provide awareness, skills, information, and support
+  to aid in the safe usage of the internet, social media, and artificial intelligence.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - safety-wellbeing
+summary: Enacts the youth and teen internet safety and social media literacy act, which allows school
+  districts to offer K-12 instruction on the safe use of the internet, social media, and artificial intelligence,
+  and requires the commissioner to provide curriculum assistance and age-appropriate resources on safe
+  and responsible AI use.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Requires the commissioner to develop age-appropriate resources for schools to give students
+      in grades six through twelve on the safe and responsible use of AI, and allows districts to offer
+      such instruction.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08947&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08947
+      locator: Sec. 2, new Education Law 814(3)(a)
+      quote: The commissioner shall develop age-appropriate resources and technical assistance for schools
+        to provide to students in grades six through twelve and their parents or legal guardians concerning
+        the safe and responsible use of the internet, social media, and artificial intel- ligence.
+sponsors:
+  - name: Rebecca Seawright
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-07-16"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-07-16"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08947&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08947
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2039479
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A8947
+    title: A 8947 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08947&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08947
+    title: A 8947 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

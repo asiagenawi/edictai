@@ -1,0 +1,170 @@
+id: us-ar-2025-sb-258
+jurisdiction: us-ar
+session: "2025"
+identifier: SB 258
+title: To Create The Arkansas Digital Responsibility, Safety, And Trust Act.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - admissions
+summary: Creates the Arkansas Digital Responsibility, Safety, and Trust Act, which regulates developers
+  and deployers of high-risk artificial intelligence systems that make or substantially factor into consequential
+  decisions, including education enrollment, with documentation, impact assessment, and disclosure duties.
+  State agencies covered include public university systems and institutions of higher education.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines consequential decisions subject to high-risk AI requirements to include education
+      enrollment.
+    citation:
+      source_url: https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FSB258.pdf
+      locator: Section 1, definitions (15)
+      quote: 'results in the provision or denial by the controller of: (A) Financial and lending services;
+        (B) Housing, insurance, or healthcare services; (C) Education enrollment;'
+sponsors:
+  - name: Clint Penzo
+    primary: true
+    party: R
+    chamber: upper
+  - name: Stephen Meeks
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-19"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-19"
+    description: Read first time, rules suspended, read second time, referred to TRANSPORTATION, TECHNOLOGY
+      & LEGISLATIVE AFFAIRS - SENATE
+    actor: upper
+    classification:
+      - reading-1
+      - reading-2
+      - referral-committee
+  - date: "2025-02-27"
+    description: Rules suspended.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-27"
+    description: 'Withdrawn from Committee and placed on 2nd reading for purpose of amendment # 1'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-27"
+    description: 'Amendment # 1 read the first time, rules suspended, read the second time and adopted,
+      ordered engrossed.'
+    actor: upper
+    classification:
+      - reading-1
+      - reading-2
+      - amendment-passage
+  - date: "2025-02-27"
+    description: REPORTED CORRECTLY ENGROSSED
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-27"
+    description: Re-referred to TRANSPORTATION, TECHNOLOGY & LEGISLATIVE AFFAIRS - SENATE
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-13"
+    description: Rules suspended.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-13"
+    description: 'Withdrawn from Committee and placed on 2nd reading for purpose of amendment # 2'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-13"
+    description: 'Amendment # 2 read the first time, rules suspended, read the second time and adopted,
+      ordered engrossed.'
+    actor: upper
+    classification:
+      - reading-1
+      - reading-2
+      - amendment-passage
+  - date: "2025-03-13"
+    description: REPORTED CORRECTLY ENGROSSED
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-13"
+    description: Re-referred to TRANSPORTATION, TECHNOLOGY & LEGISLATIVE AFFAIRS - SENATE
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-02"
+    description: 'Returned by the Committee with the recommendation that it Do Pass as amended, Amendment
+      # 3'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-07"
+    description: Placed on second reading for purpose of amendment.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: 'Amendment # 3 read the first time, rules suspended, read the second time and adopted,
+      ordered engrossed.'
+    actor: upper
+    classification:
+      - reading-1
+      - reading-2
+      - amendment-passage
+  - date: "2025-04-07"
+    description: REPORTED CORRECTLY ENGROSSED
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: Read the third time and failed.
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-04-10"
+    description: Rules suspended.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Read the third time and failed.
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-05-05"
+    description: Died on Senate Calendar at Sine Die adjournment.
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Draft
+    date: "2025-02-19"
+    url: https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FSB258.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1975090
+sources:
+  - url: https://arkleg.state.ar.us/Bills/Detail?id=sb258&ddBienniumSession=2025%2F2025R
+    title: SB 258 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FSB258.pdf
+    title: SB 258 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

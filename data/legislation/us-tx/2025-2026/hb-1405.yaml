@@ -1,0 +1,126 @@
+id: us-tx-2025-2026-hb-1405
+jurisdiction: us-tx
+session: 2025-2026
+identifier: HB 1405
+title: Relating to bullying and cyberbullying in public schools.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - synthetic-media
+summary: Revises school bullying law, requiring district bullying policies with investigation procedures
+  and supportive measures for affected students. Defines cyberbullying to include bullying through an
+  application using artificial intelligence.
+sponsors:
+  - name: Ron Reynolds
+    primary: true
+    party: D
+    chamber: lower
+  - name: Alma Allen
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jon Rosenthal
+    primary: true
+    party: D
+    chamber: lower
+  - name: Suleman Lalani
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-11-19"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-11"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-11"
+    description: Referred to Public Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-29"
+    description: Scheduled for public hearing on . . .
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Considered in public hearing
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Testimony taken/registration(s) recorded in committee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Left pending in committee
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-05-09"
+    description: Considered in formal meeting
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-09"
+    description: Reported favorably w/o amendment(s)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-09"
+    description: Vote reconsidered in committee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-09"
+    description: Reported favorably w/o amendment(s)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-13"
+    description: Comte report filed with Committee Coordinator
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Committee report distributed
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-14"
+    description: Committee report sent to Calendars
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2024-11-19"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01405I.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-05-13"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01405H.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1892428
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB1405
+    title: HB 1405 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01405H.htm
+    title: HB 1405 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

@@ -1,0 +1,87 @@
+id: us-ia-2025-2026-hf-252
+jurisdiction: us-ia
+session: 2025-2026
+identifier: HF 252
+title: A bill for an act incorporating preparation in computer science, artificial intelligence, and computational
+  thinking into the preparation required in approved practitioner preparation programs, and including
+  applicability provisions.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - educator-training
+summary: Requires approved practitioner preparation programs to include preparation in computer science,
+  artificial intelligence, and computational thinking appropriate to the grade level and subject the candidate
+  will teach, through a dedicated course or module or integration into the program. Requires the state
+  board of regents to develop and distribute guidance to institutions on incorporating this preparation.
+provisions:
+  - type: educator-prep-requirement
+    description: Teacher preparation programs must include preparation in computer science, AI, and computational
+      thinking.
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF252.html
+      locator: Section 256.16, new paragraph o
+      quote: include preparation in computer science, artificial intelligence, and computational thinking
+        that is appropriate to the grade level and subject area in which the practitioner preparation
+        student will teach.
+  - type: issues-model-policy
+    description: The state board of regents must develop and distribute guidance on incorporating AI preparation
+      into practitioner programs.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF252.html
+      locator: New subsection on guidance to practitioner preparation programs
+      quote: Develop and distribute to all higher education institutions in this state that provide approved
+        practitioner preparation programs guidance related to how to incorporate preparation related to
+        computer science, artificial intelligence, and computational thinking
+sponsors:
+  - name: Chad Ingels
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-06"
+    description: Introduced, referred to Education. H.J. 259.
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-02-11"
+    description: 'Subcommittee: Ingels, Kurth and Weldon. H.J. 291.'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-17"
+    description: 'Subcommittee Meeting: 02/20/2025 8:00AM RM 19.'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-20"
+    description: Subcommittee recommends passage.
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-02-06"
+    url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF252.html
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1958795
+sources:
+  - url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF252
+    title: HF 252 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF252.html
+    title: HF 252 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

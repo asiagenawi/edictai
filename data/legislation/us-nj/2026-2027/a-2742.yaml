@@ -1,0 +1,69 @@
+id: us-nj-2026-2027-a-2742
+jurisdiction: us-nj
+session: 2026-2027
+identifier: A 2742
+title: Amends public school laws on harassment, intimidation, and bullying to apply to certain acts against
+  teachers and staff members; revises definition of "harassment, intimidation, or bullying" in "Anti-Bullying
+  Bill of Rights Act."
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Amends New Jersey's public school harassment, intimidation, and bullying law to cover acts of
+  fraudulent impersonation or false depiction by artificial intelligence or deepfake technology, and extends
+  the law to protect teachers and staff members. School district anti-bullying policies apply to these
+  acts.
+provisions:
+  - type: addresses-deepfakes
+    description: Extends the school harassment, intimidation, and bullying law to impersonation or false
+      depiction using AI or deepfake technology.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A3000/2742_I1.HTM
+      locator: Statement
+      quote: This bill extends the public school law on harassment, intimidation, and bullying to apply
+        to certain acts of fraudulent impersonation or false depiction by means of artificial intelligence
+        or deepfake technology.
+sponsors:
+  - name: Andrea Katz
+    primary: true
+    party: D
+    chamber: lower
+  - name: Luanne Peterpaul
+    primary: true
+    party: D
+    chamber: lower
+  - name: Rosy Bagolie
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Introduced, Referred to Assembly Education Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-08"
+    url: https://pub.njleg.gov/Bills/2026/A3000/2742_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2096272
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/A2742
+    title: A 2742 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/A3000/2742_I1.HTM
+    title: A 2742 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

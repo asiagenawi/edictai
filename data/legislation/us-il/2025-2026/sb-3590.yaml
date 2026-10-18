@@ -1,0 +1,105 @@
+id: us-il-2025-2026-sb-3590
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 3590
+title: AI PRODUCT LIABILITY ACT
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - admissions
+  - institutional-operations
+summary: Creates product liability rules for developers and deployers of high-impact and generative artificial
+  intelligence systems, covering defective design, inadequate warnings, and breach of express warranty.
+  High-impact systems are tied to consequential decisions, defined to include decisions significantly
+  affecting an individual's access to education.
+provisions:
+  - type: ai-in-admissions
+    description: Defines consequential decisions to include decisions with significant effects on access
+      to education.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208023&DocName=10400SB3590&DocNum=3590&DocTypeID=SB&LegID=166677&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Section 10, definition of "consequential decision"
+      quote: has a legal or similarly significant effect on an individual's access to the criminal justice
+        system, housing, employment, credit, education, health care, or insurance
+sponsors:
+  - name: Mary Edly-Allen
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-02-05"
+    description: Filed with Secretary by Sen. Mary Edly-Allen
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-05"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-05"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-17"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-18"
+    description: To AI and Social Media
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Rule 2-10 Committee Deadline Established As March 27, 2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Rule 2-10 Committee Deadline Established As April 24, 2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-24"
+    description: Rule 2-10 Committee/3rd Reading Deadline Established As May 15, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-15"
+    description: Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-22"
+    description: Rule 3-9(a) / Re-referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-06"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208023&DocName=10400SB3590&DocNum=3590&DocTypeID=SB&LegID=166677&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2109570
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=3590&GAID=18&DocTypeID=SB&LegId=166677&SessionID=114
+    title: SB 3590 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208023&DocName=10400SB3590&DocNum=3590&DocTypeID=SB&LegID=166677&GAID=18&SessionID=114&SpecSess=&Session=
+    title: SB 3590 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

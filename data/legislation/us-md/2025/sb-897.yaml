@@ -1,0 +1,80 @@
+id: us-md-2025-sb-897
+jurisdiction: us-md
+session: "2025"
+identifier: SB 897
+title: Primary and Secondary Education - Student Technology and Social Media Resource Guide
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - ai-literacy
+summary: Requires the National Center for School Mental Health, in consultation with the State Department
+  of Education, to develop a student technology and social media resource guide covering safe use of products
+  including artificial intelligence products by prekindergarten through grade 12 students. The guide must
+  be posted by the Department and county boards and distributed to each public school.
+provisions:
+  - type: issues-model-policy
+    description: Requires a resource guide with guidance on safe use of technology, including AI products,
+      by PreK-12 students.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0897f.pdf
+      locator: Section 1, new Subtitle 22, section on the resource guide, (C)(2)
+      quote: 'INFORMATION AND GUIDANCE ON SAFE INTERNET, TECHNOLOGY, AND SOCIAL MEDIA USAGE BY STUDENTS
+        IN PREKINDERGARTEN THROUGH GRADE 12, INCLUDING: (I) SOCIAL MEDIA PLATFORMS; (II) ONLINE GAMES;
+        (III) ARTIFICIAL INTELLIGENCE PRODUCTS;'
+sponsors:
+  - name: Sara Love
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-03"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-02-05"
+    description: Hearing 3/07 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Hearing canceled
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Hearing 3/07 at 9:00 a.m.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Favorable with Amendments Report by Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2025-02-04"
+    url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0897f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1953214
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0897?ys=2025RS
+    title: SB 897 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0897f.pdf
+    title: SB 897 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

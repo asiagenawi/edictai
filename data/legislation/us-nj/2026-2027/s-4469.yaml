@@ -1,0 +1,77 @@
+id: us-nj-2026-2027-s-4469
+jurisdiction: us-nj
+session: 2026-2027
+identifier: S 4469
+title: Requires boards of education to adopt policy on use of artificial intelligence; requires DOE to
+  establish model policy.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - equity-access
+  - instructional-use
+summary: Requires each school district board of education to adopt, annually review, and post a policy
+  on the responsible use of artificial intelligence in its schools, including a process for questions
+  or concerns, equity of student access, and standards and approval processes for AI implementation. Directs
+  the Commissioner of Education to develop a model policy.
+provisions:
+  - type: requires-local-ai-policy
+    description: Each board of education must adopt and annually review a policy on responsible AI use
+      in district schools.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/S4500/4469_I1.HTM
+      locator: Sec. 1(b)
+      quote: The board of education of a school district shall adopt a policy concerning the responsible
+        use of artificial intelligence in the schools of the district.
+  - type: bias-or-equity-requirement
+    description: The district policy must address equity in student access to AI, including for students
+      with disabilities and English language learners.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/S4500/4469_I1.HTM
+      locator: Sec. 1(b)(2)
+      quote: address potential equity issues concerning student access to artificial intelligence systems,
+        including accessibility for students with limited access to technology, students with disabilities,
+        and English language learners
+  - type: issues-model-policy
+    description: The Commissioner of Education must develop a model policy on responsible AI use in school
+      districts.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/S4500/4469_I1.HTM
+      locator: Sec. 1(d)
+      quote: the Commissioner of Education shall develop and make available a model policy concerning
+        the responsible use of artificial intelligence in school districts.
+sponsors:
+  - name: Andrew Zwicker
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-06-15"
+    description: Introduced in the Senate, Referred to Senate Education Committee
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-06-16"
+    url: https://pub.njleg.gov/Bills/2026/S4500/4469_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2153682
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/S4469
+    title: S 4469 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/S4500/4469_I1.HTM
+    title: S 4469 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

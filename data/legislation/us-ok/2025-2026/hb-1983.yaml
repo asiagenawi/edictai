@@ -1,0 +1,95 @@
+id: us-ok-2025-2026-hb-1983
+jurisdiction: us-ok
+session: 2025-2026
+identifier: HB 1983
+title: Schools; media literacy and cybersecurity to be taught in sixth, seventh, or eighth grades; State
+  Department of Education to adopt curriculum standards; effective date.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - synthetic-media
+  - curriculum-standards
+  - educator-training
+summary: Requires public schools to teach a half-unit media literacy and cybersecurity course in grades
+  six through eight, beginning with students entering sixth grade in 2027-2028, that includes identifying
+  deepfake images, video, and audio and identifying artificial intelligence, and directs the State Board
+  and Department of Education to adopt standards and provide guidelines, materials, and teacher professional
+  development.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: Requires a middle school media literacy and cybersecurity course whose content includes
+      identifying deepfakes and artificial intelligence.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1983%20INT.PDF
+      locator: Section 1(A)(6)
+      quote: 6. Identifying deepfake images, videos, and audio and identifying artificial intelligence
+        (AI).
+  - type: educator-pd-requirement
+    description: Directs the Department to develop professional development programs to help teachers
+      provide the media literacy and cybersecurity instruction.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1983%20INT.PDF
+      locator: Section 1(F)(2)
+      quote: Develop professional development programs that are designed to help teachers provide instruction
+        in media literacy and cybersecurity.
+sponsors:
+  - name: Trish Ranson
+    primary: true
+    party: D
+    chamber: lower
+  - name: Darrell Weaver
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-03"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: Authored by Representative Ranson
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Second Reading referred to Appropriations and Budget
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-04"
+    description: Referred to Appropriations and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-10"
+    description: Recommendation to the full committee; Do Pass Appropriations and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2025-01-16"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1983%20INT.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2048638
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=hb1983&Session=2600
+    title: HB 1983 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1983%20INT.PDF
+    title: HB 1983 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

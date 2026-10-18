@@ -1,0 +1,97 @@
+id: us-nc-2025-2026-s-787
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 787
+title: AI Ethics and Literacy Across Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - funding
+summary: Requires the State Board of Education to adopt standards for age-appropriate AI instruction for
+  kindergarten through grade 12, covering AI concepts, real-world applications, economic, legal and social
+  issues, and responsible, ethical use. Appropriates $100,000 in recurring funds to the Department of
+  Public Instruction to support schools providing the instruction.
+provisions:
+  - type: ai-in-standards
+    description: Requires the State Board to adopt K-12 AI instruction standards.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S787v1.pdf
+      locator: Sec. 1, new G.S. 115C-81.66(a)
+      quote: The State Board of Education shall adopt standards for age-appropriate instruction on artificial
+        intelligence (AI) for kindergarten through grade 12.
+  - type: appropriates-funding
+    description: Appropriates funds distributed to public school units to support AI instruction.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S787v1.pdf
+      locator: Sec. 2
+      quote: There is appropriated from the General Fund to the Department of Public Instruction the sum
+        of one hundred thousand dollars ($100,000) in recurring funds for the 2026-2027 fiscal year to
+        be used to provide support to schools providing instruction pursuant to G.S. 115C-81.66
+sponsors:
+  - name: Woodson Bradley
+    primary: true
+    party: D
+    chamber: upper
+  - name: Michael Garrett
+    primary: false
+    party: D
+    chamber: upper
+  - name: Joyce Waddell
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-04-21"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-04-22"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-04-22"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-23"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-23"
+    description: Re-ref Com On Appropriations/Base Budget
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-04-21"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S787v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-04-22"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S787v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2144441
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S787
+    title: S 787 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S787v1.pdf
+    title: S 787 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

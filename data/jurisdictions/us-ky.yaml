@@ -5,3 +5,15 @@ abbreviation: KY
 classification: state
 fips: "21"
 region: Southeast
+sessions:
+  - identifier: "2024"
+    name: 2024 Regular Session
+    classification: primary
+    start_date: "2024-01-02"
+    legiscan_session_id: 2120
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:ky/government?include=legislative_sessions"
+        title: Open States API, Kentucky legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

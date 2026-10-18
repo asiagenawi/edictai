@@ -1,0 +1,75 @@
+id: us-119-hr-10315
+jurisdiction: us
+session: "119"
+identifier: H.R. 10315
+title: AI LABS Act AI Learning, Advancement, and Building Skills Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+summary: Directs the Secretary of Education to make competitive grants to states to establish or expand
+  educational programs on artificial intelligence in elementary and secondary schools, including dedicated
+  AI curricula and professional education for teachers, and to study the program.
+provisions:
+  - type: appropriates-funding
+    description: The Secretary must make competitive grants to states for AI educational programs in elementary
+      and secondary schools.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10315/BILLS-119hr10315ih.pdf
+      locator: Sec. 2(a)
+      quote: the Secretary makes grants to States, on a competitive basis, to support the establish- ment
+        and expansion of educational programs on artificial intelligence in elementary and secondary schools
+  - type: educator-pd-requirement
+    description: Grant funds support professional education for teachers to understand AI and incorporate
+      it into teaching workflows.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10315/BILLS-119hr10315ih.pdf
+      locator: Sec. 2(c)(2)
+      quote: professional education for teachers to help teachers better understand artificial intelligence
+        and incorporate it into teaching workflows.
+sponsors:
+  - name: Josh Gottheimer
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jay Obernolte
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-09-08"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-09-08"
+    description: Referred to the House Committee on Education and Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-09-10"
+    url: https://www.congress.gov/119/bills/hr10315/BILLS-119hr10315ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2157967
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/10315/all-info
+    title: H.R. 10315 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr10315/BILLS-119hr10315ih.pdf
+    title: H.R. 10315 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

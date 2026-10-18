@@ -1,0 +1,763 @@
+id: us-118-hr-8070
+jurisdiction: us
+session: "118"
+identifier: H.R. 8070
+title: Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year
+  2025
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Among many defense provisions, requires the Secretary of Defense, through the Department of Defense
+  Education Activity, to ensure each student of a high school operated by the Activity receives instruction
+  in artificial intelligence and machine learning, including foundational concepts, definitions, and responsible
+  and ethical use. The instruction may be incorporated into existing courses.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Each student of a DoDEA-operated high school must receive instruction in artificial intelligence
+      and machine learning.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr8070/BILLS-118hr8070eh.pdf
+      locator: Sec. 579(a)
+      quote: shall require that each student of a high school operated by the Activity receives instruction
+        in arti- ficial intelligence and machine learning
+sponsors:
+  - name: Mike D. Rogers
+    primary: true
+    party: R
+    chamber: lower
+  - name: Adam Smith
+    primary: false
+    party: D
+    chamber: lower
+  - name: Don Bacon
+    primary: false
+    party: R
+    chamber: lower
+  - name: Chrissy Houlahan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nancy Mace
+    primary: false
+    party: R
+    chamber: lower
+  - name: Veronica Escobar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Morgan Luttrell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Sara Jacobs
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer Kiggans
+    primary: false
+    party: R
+    chamber: lower
+  - name: Marilyn Strickland
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Moylan
+    primary: false
+    party: R
+    chamber: lower
+  - name: Donald Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mark Alford
+    primary: false
+    party: R
+    chamber: lower
+  - name: Andy Kim
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jim Banks
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-04-18"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-04-18"
+    description: Referred to the House Committee on Armed Services.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-05-22"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: 'Ordered to be Reported (Amended) by the Yeas and Nays: 57 - 1.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-05-31"
+    description: Reported (Amended) by the Committee on Armed Services. H. Rept. 118-529.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-31"
+    description: Placed on the Union Calendar, Calendar No. 440.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-11"
+    description: Rules Committee Resolution H. Res. 1287 Reported to House. Rule provides for consideration
+      of H.R. 8070. The resolution provides for consideration of H.R. 8070 under a structured rule and
+      the resolution accompanying House Report 118-527 under a closed rule. The resolution provides for
+      one hour of general debate on each measure and one motion to recommit on H.R. 8070.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: Rule H. Res. 1287 passed House.
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-12"
+    description: 'Considered under the provisions of rule H. Res. 1287. (consideration: CR H3767-3970;
+      text: CR H3777-3938)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: Rule provides for consideration of H.R. 8070. The resolution provides for consideration
+      of H.R. 8070 under a structured rule and the resolution accompanying House Report 118-527 under
+      a closed rule. The resolution provides for one hour of general debate on each measure and one motion
+      to recommit on H.R. 8070.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: The Speaker designated the Honorable Tom McClintock to act as Chairman of the Committee.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: House resolved itself into the Committee of the Whole House on the state of the Union
+      pursuant to H. Res. 1287 and Rule XVIII.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate
+      on H.R. 8070.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Rogers (AL) amendment No. 1.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 1.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Mast amendment No. 5.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Ogles amendment No. 6.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Mast amendment No. 8.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Mast amendment No. 8, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Mast amendment No. 14.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Roy amendment No. 21.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Greene (GA) amendment No. 22.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Greene (GA) amendment No.
+      22, the Chair put the question on agreeing to the amendment and by voice vote, announced that the
+      ayes had prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Biggs amendment No. 23.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Biggs amendment No. 23, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Beyer demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Roy amendment No. 24.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Roy amendment No. 24, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Ms. McClellan demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Mace amendment No. 28.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Mace amendment No. 28, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Crenshaw amendment No. 34.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Waltz amendment No. 35.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Waltz amendment No. 35, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-12"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Biggs amendment No. 36.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Biggs amendment No. 36, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had
+      prevailed. Mr. Biggs demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-12"
+    description: Mr. Rogers (AL) moved that the committee rise.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: On motion that the committee rise Agreed to by voice vote.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-12"
+    description: Committee of the Whole House on the state of the Union rises leaving H.R. 8070 as unfinished
+      business.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: 'Considered as unfinished business. (consideration: CR H3990-4036)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: The House resolved into Committee of the Whole House on the state of the Union for further
+      consideration.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Greene (GA) amendment No. 37.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Greene (GA) amendment No.
+      37, the Chair put the question on agreeing to the amendment and by voice vote, announced that the
+      noes had prevailed. Ms. Greene (GA) demanded a recorded vote and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Gaetz amendment No. 40.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Gaetz amendment No. 40, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had
+      prevailed. Mr. Gaetz demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Grothman amendment No. 41.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Grothman amendment No. 41,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes
+      had prevailed. Ms. McClellan demanded a recorded vote and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Norman amendment No. 42.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Norman amendment No. 42, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Ms. McClellan demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Higgins (LA) amendment No. 43.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Higgins (LA) amendment No.
+      43, the Chair put the question on agreeing to the amendment and by voice vote, announced that the
+      ayes had prevailed. Ms. McClellan demanded a recorded vote and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Clyde amendment No. 44.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Clyde amendment No. 44, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Ms. McClellan demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Williams (TX) amendment No. 45.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Williams (TX) amendment No.
+      45, the Chair put the question on agreeing to the amendment and by voice vote, announced that the
+      ayes had prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Steube amendment No. 46.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Steube amendment No. 46, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Luna amendment No. 47.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Luna amendment No. 47, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Boebert amendment No. 48.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Boebert amendment No. 48,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes
+      had prevailed. Ms. Tokuda demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Mills amendment No. 49.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Mills amendment No. 49, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Waltz amendment No. 50.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Waltz amendment No. 50, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Ogles amendment No. 51.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Rosendale amendment No. 52.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Rosendale amendment No. 52,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes
+      had prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Norman amendment No. 53.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Norman amendment No. 53, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Smith (WA) demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Brecheen amendment No. 54.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Van Duyne amendment No. 55.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Van Duyne amendment No. 55,
+      the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes
+      had prevailed. Ms. Van Duyne demanded a recorded vote and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 2.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 3.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: UNANIMOUS CONSENT REQUEST - Mr. Smith (WA) asked unanimous consent that the request for
+      a recorded vote on amendment No. 47 be withdrawn to the end and that the amendment stand disposed
+      of by the earlier voice vote theron. Agreed to without objection.
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-06-13"
+    description: Mr. Rogers (AL) moved that the committee rise.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: On motion that the committee rise Agreed to by voice vote.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: Committee of the Whole House on the state of the Union rises leaving H.R. 8070 as unfinished
+      business.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: 'Considered as unfinished business. (consideration: CR H4036-4047)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: The House resolved into Committee of the Whole House on the state of the Union for further
+      consideration.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: Pursuant to clause 6(h) of rule XVIII, the Committee rose.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: Pursuant to clause 6(h) of rule XVIII, the Committee of the Whole resumed its sitting.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: Mr. Rogers (AL) moved that the committee rise.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: On motion that the Committee rise Agreed to by voice vote.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-13"
+    description: Committee of the Whole House on the state of the Union rises leaving H.R. 8070 as unfinished
+      business.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: 'Considered as unfinished business. (consideration: CR H4067-4097)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: The House resolved into Committee of the Whole House on the state of the Union for further
+      consideration.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 4.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 40 minutes of debate on the Rogers (AL) amendment en bloc No. 5.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Perry amendment No. 56.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 56, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Mr. Norcross demanded a recorded vote and the Chair postponed further proceedings until
+      a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-14"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the Doggett amendment No. 134.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: DEBATE - Pursuant to the provisions of H. Res. 1287, the Committee of the Whole proceeded
+      with 10 minutes of debate on the James amendment No. 228.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: POSTPONED PROCEEDINGS - At the conclusion of debate on the James amendment No. 228, the
+      Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had
+      prevailed. Ms. Kamlager-Dove demanded a recorded vote and the Chair postponed further proceedings
+      until a time to be announced.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-14"
+    description: The House rose from the Committee of the Whole House on the state of the Union to report
+      H.R. 8070.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: The previous question was ordered pursuant to the rule.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: The House adopted the amendments en gros as agreed to by the Committee of the Whole House
+      on the state of the Union.
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-06-14"
+    description: Ms. Sherrill moved to recommit to the Committee on Armed Services.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-06-14"
+    description: 'The previous question on the motion to recommit was ordered pursuant to clause 2(b)
+      of rule XIX. (text: CR H4095)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: 'On motion to recommit Failed by the Yeas and Nays: 202 - 214 (Roll no. 278).'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: 'On passage Passed by recorded vote: 217 - 199 (Roll no. 279).'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-14"
+    description: Motion to reconsider laid on the table Agreed to without objection.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-06-14"
+    description: The Clerk was authorized to correct section numbers, punctuation, and cross references,
+      and to make other necessary technical and conforming corrections in the engrossment of H.R. 8070.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-07-08"
+    description: Received in the Senate.
+    actor: upper
+    classification:
+      - passage
+versions:
+  - note: Introduced
+    date: "2024-05-03"
+    url: https://www.congress.gov/118/bills/hr8070/BILLS-118hr8070ih.pdf
+    media_type: application/pdf
+  - note: Introduced
+    date: "2024-06-01"
+    url: https://www.congress.gov/118/bills/hr8070/BILLS-118hr8070rh.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-06-26"
+    url: https://www.congress.gov/118/bills/hr8070/BILLS-118hr8070eh.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1873661
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/8070/all-info
+    title: H.R. 8070 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr8070/BILLS-118hr8070eh.pdf
+    title: H.R. 8070 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

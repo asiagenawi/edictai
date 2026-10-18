@@ -1,0 +1,69 @@
+id: us-nj-2026-2027-a-5316
+jurisdiction: us-nj
+session: 2026-2027
+identifier: A 5316
+title: Establishes five-year "New Jersey Artificial Intelligence Workforce Transition Act."
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Establishes the New Jersey Artificial Intelligence Workforce Transition Act, with supports for
+  workers displaced by AI. Directs the Council of County Colleges to develop stackable credentials prioritizing
+  fields such as AI systems oversight, and directs the Secretary of Higher Education to recommend performance
+  supplements for county colleges, including for graduates who were AI-displaced workers.
+provisions:
+  - type: ai-workforce-program
+    description: County colleges are to develop a modular credential framework prioritizing shortage fields
+      including AI systems oversight.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A5500/5316_I1.HTM
+      locator: Sec. 20(b)
+      quote: including, but not limited to advanced manufacturing, healthcare technology, cybersecurity,
+        data analysis, AI systems oversight, and green infrastructure.
+  - type: appropriates-funding
+    description: The Secretary of Higher Education must recommend a performance supplement to county college
+      aid, with an added amount per graduate who was an AI-displaced worker.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A5500/5316_I1.HTM
+      locator: Sec. 21(a)(2)
+      quote: an additional supplement of $1,500 per graduate who was an AI-displaced worker prior to enrollment.
+sponsors:
+  - name: William Moen
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mitchelle Drulis
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-06-23"
+    description: Introduced, Referred to Assembly Science, Innovation and Technology Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-06-25"
+    url: https://pub.njleg.gov/Bills/2026/A5500/5316_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2154116
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/A5316
+    title: A 5316 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/A5500/5316_I1.HTM
+    title: A 5316 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

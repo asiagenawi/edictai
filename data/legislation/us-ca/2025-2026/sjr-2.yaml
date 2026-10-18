@@ -1,0 +1,377 @@
+id: us-ca-2025-2026-sjr-2
+jurisdiction: us-ca
+session: 2025-2026
+identifier: SJR 2
+title: Classified workers’ rights.
+classification: joint-resolution
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+summary: Urges the President and Congress to enact federal legislation guaranteeing rights to classified
+  school and college workers, including notification and input on the implementation of electronic monitoring,
+  algorithms, and artificial intelligence technology in their workplaces and training as new technologies
+  are introduced.
+sponsors:
+  - name: Sabrina Cervantes
+    primary: true
+    party: D
+    chamber: upper
+  - name: Dave Cortese
+    primary: true
+    party: D
+    chamber: upper
+  - name: Dawn Addis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Cecilia Aguiar-Curry
+    primary: false
+    party: D
+    chamber: lower
+  - name: Patrick Ahrens
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Alvarez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joaquin Arambula
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jesse Arreguin
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jasmeet Bains
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rebecca Bauer-Kahan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steve Bennett
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marc Berman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Blanca Rubio
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tasha Boerner Horvath
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mia Bonta
+    primary: false
+    party: D
+    chamber: lower
+  - name: Isaac Bryan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lisa Calderon
+    primary: false
+    party: D
+    chamber: lower
+  - name: Juan Carrillo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Celeste Rodriguez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Damon Connolly
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sade Elhawary
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Fong
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jesse Gabriel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Garcia
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Gipson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lena Gonzalez
+    primary: false
+    party: D
+    chamber: upper
+  - name: Matt Haney
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Harabedian
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gregg Hart
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jacqui Irwin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Corey Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ash Kalra
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maggy Krell
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josh Lowenthal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mark Gonzalez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tina McKinnor
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michelle Rodriguez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Al Muratsuchi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Stephanie Nguyen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Liz Ortega
+    primary: false
+    party: D
+    chamber: lower
+  - name: Blanca Pacheco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Diane Papan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Darshana Patel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gail Pellerin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Cottie Petrie-Norris
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Ramos
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rhodesia Ransom
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Rivas
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chris Rogers
+    primary: false
+    party: D
+    chamber: lower
+  - name: Pilar Schiavo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nick Schultz
+    primary: false
+    party: D
+    chamber: lower
+  - name: LaShae Sharp-Collins
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jose Solache
+    primary: false
+    party: D
+    chamber: lower
+  - name: Esmeralda Soria
+    primary: false
+    party: D
+    chamber: lower
+  - name: Catherine Stefani
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tom Umberg
+    primary: false
+    party: D
+    chamber: upper
+  - name: Avelino Valencia
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chris Ward
+    primary: false
+    party: D
+    chamber: lower
+  - name: Akilah Weber Pierson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Buffy Wicks
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lori Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rick Zbur
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anamarie Farias
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-03"
+    description: Introduced. Referred to Com. on RLS.
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-03-12"
+    description: Re-referred to Com. on L., P.E. & R.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-18"
+    description: Set for hearing March 26.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: 'From committee: Be adopted as amended. (Ayes 4. Noes 1. Page 568.) (March 26).'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-03-27"
+    description: Read second time and amended. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-07"
+    description: Read. Adopted. (Ayes 29. Noes 7. Page 675.) Ordered to the Assembly.
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-07"
+    description: In Assembly. Held at Desk.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-05"
+    description: Referred to Com. on P. E. & R.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-06-25"
+    description: Coauthors revised.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-25"
+    description: 'From committee: Be adopted. Ordered to third reading. (Ayes 5. Noes 0.) (June 25).'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-07-03"
+    description: Coauthors revised.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-03"
+    description: Read. Adopted. (Ayes 57. Noes 7. Page 2426.) Ordered to the Senate.
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-07-07"
+    description: In Senate. Ordered to engrossing and enrolling.
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2025-07-10"
+    description: Enrolled and filed with the Secretary of State at 2 p.m.
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2025-07-10"
+    description: Chaptered by Secretary of State. Res. Chapter 141, Statutes of 2025.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2025-03-03"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SJR2#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2025-03-27"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SJR2#98AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2025-07-08"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SJR2#97ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2025-07-10"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SJR2#96CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1990396
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SJR2
+    title: SJR 2 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SJR2#96CHP
+    title: SJR 2 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

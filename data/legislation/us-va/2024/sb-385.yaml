@@ -1,0 +1,82 @@
+id: us-va-2024-sb-385
+jurisdiction: us-va
+session: "2024"
+identifier: SB 385
+title: Artificial intelligence technology; use in education.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - academic-integrity
+  - equity-access
+  - educator-training
+  - ai-literacy
+summary: Directs the Board of Education, with the State Council of Higher Education for Virginia, to convene
+  a work group to study and recommend guidelines on AI in public schools and public higher education,
+  including academic dishonesty, equity, educator training, acceptable use policies, and AI literacy,
+  and to report by November 1, 2024.
+provisions:
+  - type: creates-task-force
+    description: Requires a work group to develop recommendations for guidelines on AI use in public schools
+      and public institutions of higher education.
+    citation:
+      source_url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+SB385+hil
+      locator: Sec. 1
+      quote: shall convene a work group for the purpose of developing recommendations for guidelines on
+        the use of artificial intelligence (AI) technology in education in public schools and in public
+        institutions of higher education
+sponsors:
+  - name: Stella Pekarsky
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-01-09"
+    description: Prefiled and ordered printed; offered 01/10/24 24105013D
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-09"
+    description: Referred to Committee on Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-02-06"
+    description: Rereferred from Rules (10-Y 0-N)
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-02-06"
+    description: Rereferred to Finance and Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-02-07"
+    description: Stricken at request of Patron in Finance and Appropriations (15-Y 0-N)
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Prefiled
+    date: "2024-01-09"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+SB385+hil
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1808295
+sources:
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+sum+SB385
+    title: SB 385 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+SB385+hil
+    title: SB 385 text (Prefiled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

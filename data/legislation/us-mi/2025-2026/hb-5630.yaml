@@ -1,0 +1,317 @@
+id: us-mi-2025-2026-hb-5630
+jurisdiction: us-mi
+session: 2025-2026
+identifier: HB 5630
+title: 'Appropriations: school aid omnibus; fiscal year 2026-2027 appropriations for K-12 school aid,
+  higher education, and community colleges; provide for. Amends, adds & repeals (See bill).'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - funding
+  - instructional-use
+summary: Makes fiscal year 2026-2027 omnibus appropriations for Michigan K-12 school aid, higher education,
+  and community colleges. Directs Michigan Virtual University, from its section 98 school aid allocation,
+  to operate a statewide laboratory for research, best practices, policy formulation, and awareness about
+  responsible use of artificial intelligence in schools.
+provisions:
+  - type: appropriates-funding
+    description: Directs school aid funds allocated to Michigan Virtual University to operate a statewide
+      lab on responsible AI use in schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0025.htm
+      locator: Sec. 98(5)
+      quote: the identification and dissemination of best practices, rigorous experimentation, policy
+        formulation, and proactive efforts to enhance awareness about the responsible utilization of artificial
+        intelligence in schools.
+sponsors:
+  - name: Ann Bollin
+    primary: true
+    party: R
+    chamber: lower
+  - name: Tim Kelly
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-26"
+    description: Introduced By Representative Rep. Ann Bollin
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-26"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-03"
+    description: Bill Electronically Reproduced 02/26/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-22"
+    description: Reported With Recommendation With Substitute (h-1)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-22"
+    description: Referred To Second Reading
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-04-22"
+    description: Read A Second Time
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-22"
+    description: Substitute (h-1) Adopted
+    actor: lower
+    classification:
+      - substitution
+  - date: "2026-04-22"
+    description: Placed On Third Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-22"
+    description: Placed On Immediate Passage
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-22"
+    description: Read A Third Time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-04-22"
+    description: Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-22"
+    description: 'Passed; Given Immediate Effect Roll Call #123 Yeas 56 Nays 49 Excused 0 Not Voting 5'
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-04-22"
+    description: Title Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-22"
+    description: Transmitted
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Referred To Committee Of The Whole
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-07-01"
+    description: Reported By Committee Of The Whole Favorably With Substitute (s-1)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-07-01"
+    description: Substitute (s-1) Concurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Placed On Order Of Third Reading With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Placed On Immediate Passage
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: 'Passed Roll Call # 166 Yeas 34 Nays 0 Excused 4 Not Voting 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-07-01"
+    description: Inserted Full Title
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Returned From Senate With Substitute (s-1) With Title Amendment
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Laid Over One Day Under The Rules
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-01"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Senate Substitute (s-1) Nonconcurred In
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: 'Roll Call Roll Call #287 Yeas 1 Nays 105 Excused 0 Not Voting 4'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: 'House Conferees Named 07/01/2026: Reps. Ann Bollin Tim Kelly Joe Tate'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-01"
+    description: 'Senate Named Conferees 7/1/2026: Sens. Darrin Camilleri, Sarah Anthony, Rick Outman'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-01"
+    description: 'House Named Conferees 7/1/2026: Reps. Ann Bollin, Tim Kelly, Joe Tate'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-01"
+    description: Referred To Conference Committee 7/1/2026
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-01"
+    description: 'Senate Conferees Named 07/01/2026: Sens. Darrin Camilleri Sarah Anthony Rick Outman'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-01"
+    description: Referred To Conference Committee 07/01/2026
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Conference Report Received
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-03"
+    description: 'Conference Report Adopted Roll Call #330 Yeas 99 Nays 8 Excused 0 Not Voting 3'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Retransmitted
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-03"
+    description: Conference Report Received In Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: 'Senate Adopted Conference Report With Immediate Effect Roll Call # 228 Yeas 25 Nays
+      11 Excused 2 Not Voting 0'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Returned To House
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-03"
+    description: Conference Report Adopted By Senate With Immediate Effect
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Bill Ordered Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-07-14"
+    description: Presented To The Governor 07/14/2026 11:28 Am
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-07-29"
+    description: Approved By The Governor 07/21/2026 01:48 Pm
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-07-29"
+    description: Filed With Secretary Of State 07/21/2026 02:28 Pm
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-07-29"
+    description: Assigned Pa 25'26 With Immediate Effect
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-02-26"
+    url: https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-5630.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-04-23"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2026-HEBH-5630.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-07-01"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2026-HEBS-5630.htm
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-07-08"
+    url: https://legislature.mi.gov/documents/2025-2026/billenrolled/House/htm/2026-HNB-5630.htm
+    media_type: text/html
+  - note: Chaptered
+    date: "2026-07-22"
+    url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0025.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2125515
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-5630
+    title: HB 5630 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0025.htm
+    title: HB 5630 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

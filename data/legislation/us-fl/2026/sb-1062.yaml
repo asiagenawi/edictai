@@ -1,0 +1,402 @@
+id: us-fl-2026-sb-1062
+jurisdiction: us-fl
+session: "2026"
+identifier: SB 1062
+title: Speech and Debate Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+summary: As introduced, would have required an Institute for Speech and Debate Innovation within the Florida
+  Virtual School to create artificial intelligence-based coaching tools, digital judging tutorials, and
+  analytics dashboards for speech and debate instruction, and appropriated $750,000 to support the institute.
+  The AI provisions were removed by amendment.
+provisions:
+  - type: appropriates-funding
+    description: Appropriates $750,000 in recurring funds to the Florida Virtual School institute that
+      is directed to create AI-based coaching tools.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1062/BillText/Filed/HTML
+      locator: Introduced, Section 9(4)
+      quote: (4) $750,000 in recurring funds is appropriated from the General Revenue Fund to the Florida
+        Virtual School to support the Institute for Speech and Debate Innovation pursuant to s. 1002.37(11),
+        Florida Statutes.
+sponsors:
+  - name: Senate Appropriations Committee on Pre-K - 12 Education
+    classification: committee
+    primary: true
+  - name: Education Pre-K - 12
+    classification: committee
+    primary: true
+  - name: Jason Brodeur
+    primary: true
+    party: R
+    chamber: upper
+  - name: Daniel Burgess
+    primary: false
+    party: R
+    chamber: upper
+  - name: Don Gaetz
+    primary: false
+    party: R
+    chamber: upper
+  - name: Rosalind Osgood
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ralph Massullo
+    primary: false
+    party: R
+    chamber: upper
+  - name: Ben Albritton
+    primary: false
+    party: R
+    chamber: upper
+  - name: Kristen Arrington
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lori Berman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mackenson Bernard
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jim Boyd
+    primary: false
+    party: R
+    chamber: upper
+  - name: LaVon Bracy Davis
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jennifer Bradley
+    primary: false
+    party: R
+    chamber: upper
+  - name: Colleen Burton
+    primary: false
+    party: R
+    chamber: upper
+  - name: Alexis Calatayud
+    primary: false
+    party: R
+    chamber: upper
+  - name: Nick DiCeglie
+    primary: false
+    party: R
+    chamber: upper
+  - name: Ileana Garcia
+    primary: false
+    party: R
+    chamber: upper
+  - name: Erin Grall
+    primary: false
+    party: R
+    chamber: upper
+  - name: Joe Gruters
+    primary: false
+    party: R
+    chamber: upper
+  - name: Gayle Harrell
+    primary: false
+    party: R
+    chamber: upper
+  - name: Ed Hooper
+    primary: false
+    party: R
+    chamber: upper
+  - name: Shevrin Jones
+    primary: false
+    party: D
+    chamber: upper
+  - name: Tom Leek
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jonathan Martin
+    primary: false
+    party: R
+    chamber: upper
+  - name: Debbie Mayfield
+    primary: false
+    party: R
+    chamber: upper
+  - name: Stan McClain
+    primary: false
+    party: R
+    chamber: upper
+  - name: Kathleen Passidomo
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jason Pizzo
+    primary: false
+    party: N
+    chamber: upper
+  - name: Tina Polsky
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ana Rodriguez
+    primary: false
+    party: R
+    chamber: upper
+  - name: Darryl Rouson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Barbara Sharief
+    primary: false
+    party: D
+    chamber: upper
+  - name: Corey Simon
+    primary: false
+    party: R
+    chamber: upper
+  - name: Carlos Smith
+    primary: false
+    party: D
+    chamber: upper
+  - name: Keith Truenow
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jay Trumbull
+    primary: false
+    party: R
+    chamber: upper
+  - name: Tommy Wright
+    primary: false
+    party: R
+    chamber: upper
+  - name: Clay Yarborough
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-05"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-12"
+    description: Referred to Education Pre-K - 12; Appropriations Committee on Pre-K - 12 Education; Fiscal
+      Policy
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-01-13"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-22"
+    description: On Committee agenda-- Education Pre-K - 12, 01/27/26, 3:30 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-27"
+    description: CS by Education Pre-K - 12; YEAS 6 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: Pending reference review under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-01-29"
+    description: Now in Appropriations Committee on Pre-K - 12 Education
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: CS by Education Pre-K - 12 read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-13"
+    description: On Committee agenda-- Appropriations Committee on Pre-K - 12 Education, 02/18/26, 8:30
+      am, 37 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-18"
+    description: CS/CS by Appropriations Committee on Pre-K - 12 Education; YEAS 9 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Pending reference review under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-02-19"
+    description: Now in Fiscal Policy
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: On Committee agenda-- Fiscal Policy, 02/24/26, 9:00 am, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: CS/CS by Appropriations Committee on Pre-K - 12 Education read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-24"
+    description: Favorable by- Fiscal Policy; YEAS 19 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-24"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: Placed on Special Order Calendar, 03/04/26
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-04"
+    description: Amendment(s) adopted (634444)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-04"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-04"
+    description: CS passed as amended; YEAS 37 NAYS 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-03-04"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-10"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-10"
+    description: Bill added to Special Order Calendar (3/11/2026)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-10"
+    description: 1st Reading (Engrossed 1)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-03-11"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-11"
+    description: Amendment 240687 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-11"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-11"
+    description: CS passed as amended; YEAS 112, NAYS 0
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-11"
+    description: In returning messages
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Amendment(s) to House amendment(s) adopted (483934)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-12"
+    description: Concurred in House amendment(s) as amended (240687)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: CS passed as amended; YEAS 39 NAYS 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-03-12"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Died in returning Messages
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-05"
+    url: https://www.flsenate.gov/Session/Bill/2026/1062/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-01-29"
+    url: https://www.flsenate.gov/Session/Bill/2026/1062/BillText/c1/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-02-19"
+    url: https://www.flsenate.gov/Session/Bill/2026/1062/BillText/c2/HTML
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-03-04"
+    url: https://www.flsenate.gov/Session/Bill/2026/1062/BillText/e1/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2065094
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/1062
+    title: SB 1062 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1062/BillText/e1/HTML
+    title: SB 1062 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1062/BillText/Filed/HTML
+    title: SB 1062 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

@@ -1,0 +1,86 @@
+id: us-119-s-3319
+jurisdiction: us
+session: "119"
+identifier: S. 3319
+title: Workforce of the Future Act of 2025
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+  - funding
+summary: Requires a joint federal report on the impact of artificial intelligence on jobs, including the
+  resources institutions of higher education need to deliver AI-related skills. Authorizes Department
+  of Education grants to expand prekindergarten through grade 12 and postsecondary emerging and advanced
+  technology education, which the bill defines to include artificial intelligence.
+provisions:
+  - type: creates-task-force
+    description: The AI jobs report must identify the resources institutions of higher education, including
+      community and technical colleges, need to deliver AI-related skills and education.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3319/BILLS-119s3319is.pdf
+      locator: Sec. 103(b)(10)
+      quote: Identification of the resources and oppor- tunities required for labor organizations and
+        institu- tions of higher education, including community col- leges, technical colleges
+  - type: appropriates-funding
+    description: Directs the Secretary of Education to award grants to expand emerging and advanced technology
+      education.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3319/BILLS-119s3319is.pdf
+      locator: Sec. 203(a)(1)
+      quote: The Secretary shall award grants to eligible entities to support the expansion of emerging
+        and advanced technology education.
+  - type: appropriates-funding
+    description: Defines the emerging and advanced technology education funded by the grants to include
+      artificial intelligence.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3319/BILLS-119s3319is.pdf
+      locator: Sec. 202(4)
+      quote: the relationship between computing and mathe- matics; artificial intelligence; quantum computing;
+sponsors:
+  - name: Lisa Rochester
+    primary: true
+    party: D
+    chamber: upper
+  - name: Mazie Hirono
+    primary: false
+    party: D
+    chamber: upper
+  - name: Adam Schiff
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-12-03"
+    description: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-12-23"
+    url: https://www.congress.gov/119/bills/s3319/BILLS-119s3319is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2056781
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/3319/all-info
+    title: S. 3319 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s3319/BILLS-119s3319is.pdf
+    title: S. 3319 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

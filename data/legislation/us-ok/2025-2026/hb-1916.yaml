@@ -1,0 +1,79 @@
+id: us-ok-2025-2026-hb-1916
+jurisdiction: us-ok
+session: 2025-2026
+identifier: HB 1916
+title: Artificial intelligence; Responsible Deployment of AI Systems Act; AI Council; AI Regulatory Sandbox
+  Program; Artificial Intelligence Workforce Development Program; effective date.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Creates the Responsible Deployment of AI Systems Act with risk classifications and deployer duties,
+  establishes an AI Council, and directs the Council to run an AI Workforce Development Program that awards
+  grants to small businesses and educational institutions offering AI training, prioritizing rural AI
+  literacy and partnerships with local schools on AI-focused STEM pathways.
+provisions:
+  - type: ai-workforce-program
+    description: Directs the AI Council to develop an AI Workforce Development Program with grants for
+      educational institutions offering AI training or certification.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1916%20INT.PDF
+      locator: Section 10(C)(2)
+      quote: 2. Educational institutions offering AI-related training or certification programs targeting
+        underserved populations.
+  - type: appropriates-funding
+    description: Sets program priorities that include partnerships with local schools to create AI-focused
+      STEM pathways.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1916%20INT.PDF
+      locator: Section 10(D)
+      quote: 2. Partnerships with local schools to create STEM pathways focused on AI; and 3. Affordable
+        training opportunities for individuals from low- income backgrounds.
+sponsors:
+  - name: Arturo Alonso-Sandoval
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-03"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: Authored by Representative Alonso-Sandoval
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Second Reading referred to Rules
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-01-16"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1916%20INT.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2049185
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=hb1916&Session=2600
+    title: HB 1916 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1916%20INT.PDF
+    title: HB 1916 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

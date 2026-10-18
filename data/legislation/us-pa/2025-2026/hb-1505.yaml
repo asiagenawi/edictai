@@ -1,0 +1,339 @@
+id: us-pa-2025-2026-hb-1505
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 1505
+title: In preliminary provisions, providing for standardized testing study; in grounds and buildings,
+  repealing provisions relating to lead testing and providing for lead testing; providing for school facilities;
+  in certification of teachers, further providing for special education certificate grade spans and age
+  levels and duties of department, for program of continuing professional and paraprofessional education,
+  for continuing professional education for school or system leaders and for Pennsylvania school leadership
+  standards, repealing provisions relating to permit for classroom monitors and providing for permit for
+  classroom monitors; in pupils and attendance, further providing for attendance policy at charter, regional
+  charter and cyber charter schools, providing for school district enrollee wellness checks and further
+  providing for procedure when child is truant and for procedure upon filing of citation; in student supports,
+  further providing for policy relating to bullying; in school safety and security, further providing
+  for definitions, for School Safety and Security Grant Program, for school safety and security coordinator
+  and for school safety and security training, providing for school safety and mental health grants for
+  2026-2027 school year, further providing for school safety and security coordinator training and for
+  reporting and memorandum of understanding and providing for school mapping services; in school health
+  services, further providing for health services and for reports and providing for eating disorder awareness
+  and education; in terms and courses of study, providing for use of funds for implementing later school
+  start times, further providing for flexible instructional days and for physical education, providing
+  for recess periods, further providing for economic education and personal financial literacy programs
+  and providing for social media literacy education; in early learning programs, further providing for
+  definitions and for duties of approved providers; in high schools, further providing for attendance
+  in other districts; in charter schools, further providing for enrollment, for cyber charter school requirements
+  and prohibitions, for enrollment and notification and for enrollee wellness checks; in disability inclusive
+  curriculum, further providing for pilot program; in career and technical education, providing for temporary
+  waiver; in community colleges, further providing for financial program and reimbursement of payments;
+  in Thaddeus Stevens College of Technology, further providing for individuals eligible for admission;
+  in the State System of Higher Education, further providing for definitions and for Grow Pennsylvania
+  Tuition Waiver Program; in institutions of higher education, further providing for definitions and for
+  agency duties, providing for institution duties and further providing for report; in Ready-to-Succeed
+  Scholarship, further providing for agency; in funding for public libraries, providing for State aid
+  for fiscal year 2026-2027; in reimbursements by Commonwealth and between school districts, further providing
+  for student-weighted basic education funding beginning with 2023-2024 school year and for extraordinary
+  special education program expenses, providing for temporary assistance program and further providing
+  for assistance to school districts declared to be in financial recovery status or identified for financial
+  watch status and for Ready-to-Learn Block Grant; and, in construction and renovation of buildings by
+  school entities, further providing for applicability.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Amends the Public School Code on several topics, including defining cyberbullying to include
+  the use of artificial intelligence-generated or modified media. Requires school entity safety reports
+  to count cyberbullying incidents suspected to involve AI-generated or modified media.
+provisions:
+  - type: addresses-deepfakes
+    description: Defines cyberbullying to include conduct using AI-generated or modified media.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1505/PN3764
+      locator: Section 1303.1-A(e)
+      quote: USING A DEVICE, SYSTEM, NETWORK, INTERNET SERVICE, EMAIL, SOCIAL MEDIA OR OTHER DIGITAL MEANS,
+        INCLUDING ARTIFICIAL INTELLIGENCE- GENERATED OR MODIFIED MEDIA, WHEN THE CONDUCT MEETS THE CRITERIA
+        IN PARAGRAPHS (1), (3) AND (4) OF THE DEFINITION OF "BULLYING."
+  - type: addresses-deepfakes
+    description: School safety reports must include the number of cyberbullying incidents suspected to
+      involve AI-generated or modified media.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1505/PN3764
+      locator: Section 1319-B(b)
+      quote: INCLUDING THE NUMBER OF CYBERBULLYING INCIDENTS SUSPECTED TO INVOLVE ARTIFICIAL INTELLIGENCE-GENERATED
+        OR MODIFIED MEDIA.
+sponsors:
+  - name: Liz Hanbidge
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tarah Probst
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nancy Guenst
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jeanne McNeill
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Merski
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Freeman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carol Hill-Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: La'Tasha Mayes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steven Malagari
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Keith Harris
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gregory Scott
+    primary: false
+    party: D
+    chamber: lower
+  - name: Timothy Briggs
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maureen Madden
+    primary: false
+    party: D
+    chamber: lower
+  - name: Johanny Cepeda-Freytiz
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kristine Howard
+    primary: false
+    party: D
+    chamber: lower
+  - name: Danielle Otten
+    primary: false
+    party: D
+    chamber: lower
+  - name: Melissa Cerrato
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer O'Mara
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tarik Khan
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Madsen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Webster
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tina Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikki Rivera
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Ciresi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jacklyn Rusnock
+    primary: false
+    party: D
+    chamber: lower
+  - name: Justin Fleming
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gina Curry
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-05-28"
+    description: Referred to Children & Youth
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-06-17"
+    description: Reported as committed
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-17"
+    description: First consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-17"
+    description: Re-committed to Rules
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-07-01"
+    description: Re-reported as committed
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Second consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Re-committed to Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-07-07"
+    description: Re-reported as committed
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-07"
+    description: Third consideration and final passage (202-1)
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-07-07"
+    description: In the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-14"
+    description: Referred to Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-06-23"
+    description: Reported as committed
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-23"
+    description: First consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-24"
+    description: Second consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-24"
+    description: Re-referred to Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-07-11"
+    description: Re-reported as amended
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-07-12"
+    description: Third consideration and final passage (45-5)
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-07-12"
+    description: In the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-12"
+    description: Referred to Rules
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-07-12"
+    description: Re-reported on concurrence, as committed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-12"
+    description: House concurred in Senate amendments (172-30)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-07-12"
+    description: Signed in House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-12"
+    description: Signed in Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-12"
+    description: Presented to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-07-12"
+    description: Approved by the Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-07-12"
+    description: Act No. 20 of 2026
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1505/PN1760
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-07-11"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1505/PN3764
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2033920
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb1505
+    title: HB 1505 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1505/PN3764
+    title: HB 1505 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

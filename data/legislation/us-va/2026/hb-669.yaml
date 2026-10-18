@@ -1,0 +1,145 @@
+id: us-va-2026-hb-669
+jurisdiction: us-va
+session: "2026"
+identifier: HB 669
+title: Impersonation of certain licensed professionals by chatbot; definitions, notice, civil liability.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - employment-evaluation
+summary: Bars deployers from making available an artificial intelligence system that falsely presents
+  itself as a licensed professional or provides individualized professional services that would violate
+  licensure laws, including the Title 22.1 provisions cited in the bill (§§ 22.1-292 and 22.1-299), and
+  requires notice to users that they are interacting with an AI system. The Attorney General enforces
+  the section with civil penalties.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: AI systems may not provide individualized services that would violate the cited Title
+      22.1 licensure provisions if provided by an unlicensed person.
+    citation:
+      source_url: https://lis.virginia.gov/bill-details/20261/HB669/text/HB669H1
+      locator: § 54.1-111.1(B)(2)
+      quote: (ii) would violate the provisions of § 22.1-292, 22.1-299, 54.1-2902, or 54.1-3904; or 3.
+        Engages in conduct that would constitute the unlicensed practice of a profession or occupation
+        requiring licensure
+sponsors:
+  - name: Michelle Maldonado
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jackie Glass
+    primary: false
+    party: D
+    chamber: lower
+  - name: Irene Shin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bonita Anthony
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Prefiled and ordered printed; Offered 01-14-2026 26104752D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-13"
+    description: Referred to Committee on Communications, Technology and Innovation
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-26"
+    description: 'Assigned HST sub: Communications'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: Subcommittee recommends continuing to (Voice Vote)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: Reconsidered by Communications, Technology and Innovation (Voice Vote)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB669)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-09"
+    description: House subcommittee offered
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-09"
+    description: Subcommittee recommends reporting with substitute (9-Y 0-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-09"
+    description: Reported from Communications, Technology and Innovation with substitute and referred
+      to Appropriations (20-Y 1-N 1-A)
+    actor: lower
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2026-02-09"
+    description: Committee substitute printed 26106823D-H1
+    actor: lower
+    classification:
+      - substitution
+  - date: "2026-02-10"
+    description: 'Assigned HAPP sub: General Government and Capital Outlay'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: Subcommittee recommends laying on the table (5-Y 0-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-18"
+    description: Left in Committee Appropriations
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-13"
+    url: https://lis.virginia.gov/bill-details/20261/HB669/text/HB669
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-02-09"
+    url: https://lis.virginia.gov/bill-details/20261/HB669/text/HB669HC1
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-02-09"
+    url: https://lis.virginia.gov/bill-details/20261/HB669/text/HB669HC2
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-02-09"
+    url: https://lis.virginia.gov/bill-details/20261/HB669/text/HB669H1
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2073427
+sources:
+  - url: https://lis.virginia.gov/bill-details/20261/HB669
+    title: HB 669 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/bill-details/20261/HB669/text/HB669H1
+    title: HB 669 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

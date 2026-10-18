@@ -1,0 +1,81 @@
+id: us-mn-2025-2026-sf-3870
+jurisdiction: us-mn
+session: 2025-2026
+identifier: SF 3870
+title: Omnibus Education policy bill
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - employment-evaluation
+summary: Makes prekindergarten through grade 12 education policy changes in Minnesota. Amends the definition
+  of a qualified teacher to provide that an artificial intelligence model is not a qualified teacher and
+  may not perform the service for which a teacher is employed in a public school, while allowing licensed
+  teachers to use AI as a tool.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Provides that an AI model is not a qualified teacher and may not perform a public school
+      teacher's service.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3870/versions/1/pdf/
+      locator: Sec. 6, 122A.16
+      quote: is not an artificial intelligence model and it must not perform the service for which a teacher
+sponsors:
+  - name: Steve Cwodzinski
+    primary: true
+    party: D
+    chamber: upper
+  - name: Mary Kunesh-Podein
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-02-26"
+    description: Introduction and first reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-26"
+    description: Referred to Education Policy
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-07"
+    description: 'Comm report: To pass as amended'
+    actor: upper
+    classification:
+      - passage
+      - committee-passage
+  - date: "2026-04-07"
+    description: Second reading
+    actor: upper
+    classification:
+      - reading-2
+versions:
+  - note: Introduced
+    date: "2026-02-23"
+    url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3870/versions/0/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-04-07"
+    url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3870/versions/1/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2124259
+sources:
+  - url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3870/
+    title: SF 3870 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3870/versions/1/pdf/
+    title: SF 3870 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,231 @@
+id: us-wv-2024-hb-5690
+jurisdiction: us-wv
+session: "2024"
+identifier: HB 5690
+title: Creating a West Virginia Task Force on Artificial Intelligence
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+  - local-policy-requirement
+summary: Creates a state task force on artificial intelligence, with the State Superintendent of Schools
+  and the higher education chancellor among its members, whose duties include recommending model policies
+  for schools on student use of AI in the classroom. Requires a report to the Governor and Legislature
+  by July 1, 2025.
+provisions:
+  - type: creates-task-force
+    description: Charges the task force with recommending model school policies on student classroom use
+      of AI.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5690%20enr.htm&yr=2024&sesstype=RS&i=5690
+      locator: §5A-6-9(e)(6)
+      quote: (6) Recommending model policies for schools to address the use of artificial intelligence
+        by students in the classroom;
+sponsors:
+  - name: Jarred Cannon
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jordan Maynor
+    primary: false
+    party: R
+    chamber: lower
+  - name: Elias Coop-Gonzalez
+    primary: false
+    party: R
+    chamber: lower
+  - name: Laura Kimble
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jeffrey Stephens
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-02-20"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-20"
+    description: Originating in House Artificial Intelligence
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-20"
+    description: Do pass
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-21"
+    description: On 1st reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-02-21"
+    description: Read 1st time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-02-22"
+    description: On 2nd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-02-22"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-02-23"
+    description: On 3rd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-02-23"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-02-23"
+    description: Passed House (Roll No. 284)
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-02-23"
+    description: Communicated to Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-26"
+    description: Introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-02-26"
+    description: To Government Organization
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-26"
+    description: To Government Organization
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-29"
+    description: Reported do pass
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-02-29"
+    description: Immediate consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-29"
+    description: Read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-03-01"
+    description: On 2nd reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-03-01"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-03-04"
+    description: On 3rd reading
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2024-03-04"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2024-03-04"
+    description: Passed Senate (Roll No. 345)
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-03-04"
+    description: Communicated to House
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-04"
+    description: Completed legislative action
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-05"
+    description: House received Senate message
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-09"
+    description: To Governor 3/13/2024 - House Journal
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-09"
+    description: To Governor 3/13/2024 - Senate Journal
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-09"
+    description: Approved by Governor 3/27/2024 - Senate Journal
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-03-09"
+    description: Approved by Governor 3/27/24 - House Journal
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-03-13"
+    description: To Governor 3/13/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-27"
+    description: Approved by Governor 3/27/24
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-04-22"
+    description: Chapter 43, Acts, Regular Session, 2024
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5690%20org.htm&yr=2024&sesstype=RS&i=5690
+    media_type: text/html
+  - note: Enrolled
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5690%20enr.htm&yr=2024&sesstype=RS&i=5690
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1850601
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5690&year=2024&sessiontype=RS&btype=bill
+    title: HB 5690 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5690%20enr.htm&yr=2024&sesstype=RS&i=5690
+    title: HB 5690 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

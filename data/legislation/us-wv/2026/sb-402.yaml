@@ -1,0 +1,267 @@
+id: us-wv-2026-sb-402
+jurisdiction: us-wv
+session: "2026"
+identifier: SB 402
+title: Workforce Readiness and Opportunity Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+summary: Establishes the West Virginia Micro-Credential Program within the Higher Education Policy Commission
+  to set standards for micro-credentials that document student and employee skills. Authorizes the commission
+  to use digital, web-based, and artificial intelligence-based micro-credentials to meet workforce demands.
+provisions:
+  - type: ai-workforce-program
+    description: Authorizes the commission to use AI-based micro-credentials within the statewide micro-credential
+      program.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb402%20sub2%20enr.htm&yr=2026&sesstype=RS&i=402
+      locator: §18B-3D-8(d)(4)
+      quote: Utilize digital, web-based, artificial intelligence-based, hands-on, or on-the-job micro-credentials
+        as needed to meet workforce and market demands;
+sponsors:
+  - name: Randy Smith
+    primary: true
+    party: R
+    chamber: upper
+  - name: Mike Woelfel
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-15"
+    description: Filed for introduction
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-15"
+    description: To Workforce then Finance
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-15"
+    description: Introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-15"
+    description: To Workforce
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-28"
+    description: Committee substitute reported, but first to Finance
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-01-28"
+    description: To Finance
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-20"
+    description: Com. sub. for com. sub. reported
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-21"
+    description: On 1st reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-21"
+    description: Read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-23"
+    description: On 2nd reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-02-23"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-02-24"
+    description: On 3rd reading
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-02-24"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-02-24"
+    description: Passed Senate (Roll No. 209)
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-02-24"
+    description: Ordered to House
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: House received Senate message
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-25"
+    description: To Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: To House Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: With amendment, do pass
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-09"
+    description: Immediate consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: Read 1st time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-03-10"
+    description: On 2nd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-10"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-10"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-10"
+    description: Committee amendment adopted (Voice vote)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-11"
+    description: On 3rd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-11"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-11"
+    description: Passed House (Roll No. 389)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-11"
+    description: Title amendment adopted (Voice vote)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-11"
+    description: Communicated to Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-14"
+    description: House Message received
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-14"
+    description: Senate concurred in House amendments and passed bill (Roll No. 656)
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-03-14"
+    description: Communicated to House
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-14"
+    description: Completed legislative action
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-14"
+    description: To Governor 3/18/2026 - Senate Journal
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-14"
+    description: Approved by Governor 4/1/2026 - Senate Journal
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-03-14"
+    description: Approved by Governor 4/1/2026 - House Journal
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-03-18"
+    description: To Governor 3/18/2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-01"
+    description: Approved by Governor 4/1/2026
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-06-25"
+    description: Chapter 293, Acts, Regular Session, 2026
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb402%20intr.htm&yr=2026&sesstype=RS&i=402
+    media_type: text/html
+  - note: Comm Sub
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb402%20sub1.htm&yr=2026&sesstype=RS&i=402
+    media_type: text/html
+  - note: Comm Sub
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb402%20sub2.htm&yr=2026&sesstype=RS&i=402
+    media_type: text/html
+  - note: Enrolled
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb402%20sub2%20enr.htm&yr=2026&sesstype=RS&i=402
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2081253
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=402&year=2026&sessiontype=RS&btype=bill
+    title: SB 402 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb402%20sub2%20enr.htm&yr=2026&sesstype=RS&i=402
+    title: SB 402 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,268 @@
+id: us-md-2025-hb-504
+jurisdiction: us-md
+session: "2025"
+identifier: HB 504
+title: Excellence in Maryland Public Schools Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+  - instructional-use
+summary: Revises public school funding and educator workforce programs. Among its changes, it provides
+  that, for the 2025-2026 through 2027-2028 school years, an existing Education Article section on digital
+  tools does not apply to the procurement and use of digital tools that use artificial intelligence to
+  support student learning.
+provisions:
+  - type: procurement-standards
+    description: Exempts the procurement and use of digital tools that use AI to support student learning
+      from the digital tool section's requirements for the 2025-2026 through 2027-2028 school years.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_237_hb0504e.pdf
+      locator: Section 4, Article – Education, new subsection (A–1)
+      quote: BEGINNING WITH THE 2025–2026 SCHOOL YEAR THROUGH THE 2027–2028 SCHOOL YEAR, THIS SECTION
+        DOES NOT APPLY TO THE PROCUREMENT AND USE OF A DIGITAL TOOL THAT UTILIZES ARTIFICIAL INTELLIGENCE
+sponsors:
+  - name: Kevin Hornberger
+    primary: true
+    party: R
+    chamber: lower
+  - name: Susan McComas
+    primary: false
+    party: R
+    chamber: lower
+  - name: Chris Tomlinson
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-22"
+    description: First Reading Appropriations and Ways and Means
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-02-11"
+    description: Hearing 2/19 at 1:00 p.m. (Appropriations)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-13"
+    description: Hearing 2/19 at 1:00 p.m. (Appropriations) and Hearing 2/19 at 1:00 p.m. (Ways and Means)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-03"
+    description: Favorable with Amendments Report by Appropriations
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-04"
+    description: Favorable with Amendments {363624/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-04"
+    description: Motion Special Order until 03/05 (Delegate Adams) Adopted
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Motion Special Order until Later This Session (Delegate Adams) Adopted
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Floor Amendment {123026/1 (Delegate Adams) Rejected (37-98)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Floor Amendment {793326/1 (Delegate Nkongolo) Rejected (40-95)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Floor Amendment {733422/1 (Delegate Fisher)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Motion Vote Previous Question (Delegate J. Lewis) Adopted (109-22)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Floor Amendment (Delegate Fisher) Rejected (39-97)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-11"
+    description: Third Reading Passed (100-39)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-12"
+    description: Referred Budget and Taxation Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-28"
+    description: Favorable with Amendments Report by Budget and Taxation
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-28"
+    description: Favorable with Amendments {573327/1
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-28"
+    description: Motion Laid Over (Senator Guzzone) Adopted
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-03-31"
+    description: Favorable with Amendments {573327/1 Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-31"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-01"
+    description: Floor Amendment {773521/1 (Senator Ready) Rejected (17-27)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-01"
+    description: Third Reading Passed (33-13)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-04"
+    description: House Refuses Concur Senate Amendments
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-04"
+    description: House Requests Senate Recede
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-04"
+    description: House Conference Committee Appointed (Delegates Barnes, Atterbeary and Smith)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-04-05"
+    description: House Refuses Concur Senate Amendments
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-05"
+    description: House Requests Senate Recede
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-05"
+    description: House Conference Committee Appointed (Delegates Barnes, Atterbeary and Smith)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-04-05"
+    description: Senate Refuses Recede
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-05"
+    description: Senate Conference Committee Appointed (Senators Guzzone, King, Watson and Salling)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-04-05"
+    description: Senate Refuses Recede
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-05"
+    description: Senate Conference Committee Appointed (Senators Guzzone, King, Watson and Salling)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-04-07"
+    description: Conference Committee Report {463129/1 Adopted
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-04-07"
+    description: Third Reading Passed (101-38)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-07"
+    description: Conference Committee Report {463129/1 Adopted
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-04-07"
+    description: Third Reading Passed (34-13)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-07"
+    description: Passed Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-05-06"
+    description: Approved by the Governor - Chapter 237
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2025-01-22"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0504f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-03-05"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0504t.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2025-04-10"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0504e.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2025-05-08"
+    url: https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_237_hb0504e.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1933670
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0504?ys=2025RS
+    title: HB 504 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_237_hb0504e.pdf
+    title: HB 504 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

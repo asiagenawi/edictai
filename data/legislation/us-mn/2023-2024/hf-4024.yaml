@@ -1,0 +1,261 @@
+id: us-mn-2023-2024-hf-4024
+jurisdiction: us-mn
+session: 2023-2024
+identifier: HF 4024
+title: Higher education policy and finance bill.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Makes higher education policy and finance changes in Minnesota, including student sexual misconduct,
+  admissions, and student aid provisions. Adds nonconsensual dissemination of a deepfake depicting intimate
+  parts or sexual acts to the definition of sexual misconduct covered by the sexual misconduct policies
+  of Minnesota postsecondary institutions.
+provisions:
+  - type: addresses-deepfakes
+    description: Includes deepfake dissemination in the sexual misconduct definition governing postsecondary
+      institution policies.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/text.php?number=HF4024&version=3&session=ls93&session_year=2024&session_number=0&format=pdf
+      locator: Sexual misconduct definition, paragraph (m) [Page 12]
+      quote: nonconsensual dissemination of a deepfake depicting intimate
+sponsors:
+  - name: Gene Pelowski
+    primary: true
+    party: D
+    chamber: lower
+  - name: Dan Wolgamott
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-19"
+    description: Introduction and first reading, referred to Higher Education Finance and Policy
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-03-25"
+    description: Committee report, to adopt as amended
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-25"
+    description: Second reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-04-02"
+    description: House rule 1.21, placed on Calendar for the Day Thursday, April 4, 2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-04"
+    description: Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-04"
+    description: Third reading as amended
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-04-04"
+    description: Bill was passed as amended
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-04-08"
+    description: Received from House
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-08"
+    description: Introduction and first reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-04-08"
+    description: Referred to Rules and Administration for comparison with SF4003, now on General Orders
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-04-09"
+    description: 'Comm report: Rule 45-amend, subst. General Orders SF4003'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-09"
+    description: Second reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-04-15"
+    description: 'Special Order: Amended'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-15"
+    description: Third reading Passed
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-15"
+    description: Returned from Senate with amendment
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-15"
+    description: House refuses to concur, conference committee of 3 requested
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-04-15"
+    description: House conferees Pelowski, Wolgamott, McDonald
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-04-18"
+    description: Senate accedes, conference committee of 3 be appointed
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-04-18"
+    description: Senate conferees Fateh; Putnam; Duckworth
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-04-18"
+    description: House not concur, conference committee of 3 requested
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-04-18"
+    description: House conferees Pelowski; Wolgamott; McDonald
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-04-18"
+    description: Senate accedes, CC of 3 be appointed
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-18"
+    description: Senate conferees Fateh; Putnam; Duckworth
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-05-13"
+    description: Author added Wolgamott
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-17"
+    description: Conference committee report, delete everything
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-05-17"
+    description: House adopted conference committee report
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-05-17"
+    description: Third reading as amended by Conference
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-05-17"
+    description: Bill was repassed as amended by Conference
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-19"
+    description: Senate adopted conference committee report, bill repassed
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-05-19"
+    description: House adopted HCC report and repassed bill
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-05-19"
+    description: Conference committee report, delete everything
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-05-19"
+    description: Senate adopted CC report and repassed bill
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-05-19"
+    description: Third reading
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2024-05-22"
+    description: Presented to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-05-24"
+    description: Governor approval
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-05-24"
+    description: Secretary of State, Filed
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-05-24"
+    description: Governor's action Approval
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-05-24"
+    description: Secretary of State Chapter 124
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-19"
+    url: https://www.revisor.mn.gov/bills/text.php?number=HF4024&version=0&session=ls93&session_year=2024&session_number=0&format=pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-03-25"
+    url: https://www.revisor.mn.gov/bills/text.php?number=HF4024&version=1&session=ls93&session_year=2024&session_number=0&format=pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-04-04"
+    url: https://www.revisor.mn.gov/bills/text.php?number=HF4024&version=2&session=ls93&session_year=2024&session_number=0&format=pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-05-20"
+    url: https://www.revisor.mn.gov/bills/text.php?number=HF4024&version=3&session=ls93&session_year=2024&session_number=0&format=pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1850204
+sources:
+  - url: https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF4024&ssn=0&y=2023
+    title: HF 4024 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/text.php?number=HF4024&version=3&session=ls93&session_year=2024&session_number=0&format=pdf
+    title: HF 4024 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

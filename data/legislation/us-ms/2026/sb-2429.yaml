@@ -1,0 +1,88 @@
+id: us-ms-2026-sb-2429
+jurisdiction: us-ms
+session: "2026"
+identifier: SB 2429
+title: Artificial Intelligence in Education Task Force Act; enact.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - curriculum-standards
+  - educator-training
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - equity-access
+  - workforce
+summary: Creates an Artificial Intelligence in Education Task Force chaired by the State Superintendent
+  of Education to evaluate AI applications in K-12 and develop policy recommendations for responsible
+  use by students and educators. The task force must address academic integrity, acceptable use, data
+  privacy, AI in K-12 standards and higher education curricula, educator training guidelines, procurement
+  requirements for AI software, and equitable access.
+provisions:
+  - type: creates-task-force
+    description: Establishes an AI in Education Task Force to evaluate AI in K-12 and develop policy recommendations.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2429IN.htm
+      locator: Purpose section
+      quote: The purpose of this act is to establish an Artificial Intelligence ("AI") in Education Task
+        Force within the state to evaluate the potential applications of artificial intelligence in K-12
+        and to develop policy recommendations for responsible and effective uses by students and educators.
+  - type: creates-task-force
+    description: Directs the task force to recommend how to incorporate AI into K-12 standards and higher
+      education curricula.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2429IN.htm
+      locator: Sec. 4(2)(d)
+      quote: Provide recommendations for incorporating AI into K-12 educational standards and higher education
+        curricula, including general education courses as well as career and technical courses that align
+        with evolving industry demands
+  - type: creates-task-force
+    description: Directs the task force to recommend common procurement requirements for AI-powered software
+      used by districts and institutions.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2429IN.htm
+      locator: Sec. 4(2)(h)
+      quote: Recommend a set of common requirements for state and district/institution procurement of
+        AI-powered software
+sponsors:
+  - name: Chris Johnson
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-19"
+    description: Referred To Technology;Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-03"
+    description: Died In Committee
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-19"
+    url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2429IN.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2086185
+sources:
+  - url: https://billstatus.ls.state.ms.us/2026/pdf/history/SB/SB2429.xml
+    title: SB 2429 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2429IN.htm
+    title: SB 2429 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

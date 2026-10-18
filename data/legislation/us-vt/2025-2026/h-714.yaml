@@ -1,0 +1,65 @@
+id: us-vt-2025-2026-h-714
+jurisdiction: us-vt
+session: 2025-2026
+identifier: H 714
+title: An act relating to automated employment decision making and State employees
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+  - task-force
+summary: Requires state agencies to disclose to employees their use of automated employment decision-making
+  tools, including AI, and creates a study committee to examine extending the disclosure requirement and
+  protections to teachers and other public school employees and to employees of public institutions of
+  higher education.
+provisions:
+  - type: creates-task-force
+    description: Creates a study committee on extending automated employment decision-making tool disclosures
+      to teachers, public school employees, and public higher education employees.
+    citation:
+      source_url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0714/H-0714%20As%20Introduced.pdf
+      locator: Sec. 2(a)
+      quote: the feasibility of extending the disclosure requirement and protections for unionized employees
+        to municipal employees, teachers and other public school employees, and employees of public institutions
+        of higher education
+sponsors:
+  - name: Conor Casey
+    primary: true
+    party: D
+    chamber: lower
+  - name: Monique Priestley
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-16"
+    description: Read first time and referred to the Committee on General and Housing
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-01-15"
+    url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0714/H-0714%20As%20Introduced.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2082585
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2026/H.714
+    title: H 714 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0714/H-0714%20As%20Introduced.pdf
+    title: H 714 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

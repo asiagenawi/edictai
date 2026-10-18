@@ -1,0 +1,73 @@
+id: us-nc-2025-2026-s-624
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 624
+title: AI Chatbots - Licensing/Safety/Privacy
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - data-governance
+  - student-privacy
+  - safety-wellbeing
+summary: Creates chatbot licensing, safety and privacy requirements for covered platforms, including de-identification
+  of conversation data and encryption. Applies a 30-day message destruction requirement to chatbots employed
+  in fields that include education.
+provisions:
+  - type: restricts-student-data-use
+    description: Applies a 30-day data destruction requirement to chatbots used in education and other
+      sensitive domains.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S624v1.pdf
+      locator: New G.S. 170-6(c)
+      quote: 'The requirements of subsection (b) of this section shall apply to all chatbots which are
+        employed in: healthcare, financial services, the legal field, government services, mental health
+        support, and education.'
+sponsors:
+  - name: Jim Burgin
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-03-25"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-26"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-03-26"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-25"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S624v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-03-26"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S624v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2014322
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S624
+    title: S 624 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S624v1.pdf
+    title: S 624 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

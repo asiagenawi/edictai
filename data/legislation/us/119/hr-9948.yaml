@@ -1,0 +1,89 @@
+id: us-119-hr-9948
+jurisdiction: us
+session: "119"
+identifier: H.R. 9948
+title: Addictive Design Act of 2026
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - educator-training
+  - research
+summary: Creates an interagency task force on addictive design features and youth mental health, with
+  a focus on AI chatbots. Directs HHS to fund research by institutions of higher education on AI chatbots
+  and youth mental health, and outreach grants that train parents and elementary and secondary school
+  teachers to recognize and respond to warning signs of mental health risks from AI chatbot use.
+provisions:
+  - type: educator-pd-requirement
+    description: HHS must make grants for outreach, including training, to parents and K-12 teachers.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr9948/BILLS-119hr9948ih.pdf
+      locator: Sec. 4(b)(1)
+      quote: The Secretary shall make grants to eligible entities to provide outreach to parents, legal
+        guardians, and covered teachers in the form of training or any such other activity determined
+        appropriate by the Secretary.
+  - type: chatbot-minor-protections
+    description: Outreach must cover how to identify and respond to warning signs of unhealthy attachment
+      to AI chatbots in youth.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr9948/BILLS-119hr9948ih.pdf
+      locator: Sec. 4(b)(2)(A)
+      quote: a method for identifying, and responding to, any warning sign of a mental health risk, including
+        unhealthy emotional attachment and addiction to use of an AI chatbot, in youth who use an AI chatbot
+sponsors:
+  - name: Becca Balint
+    primary: true
+    party: D
+    chamber: lower
+  - name: Christopher Deluzio
+    primary: false
+    party: D
+    chamber: lower
+  - name: Thomas Suozzi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bonnie Coleman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Adelita Grijalva
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-07-27"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-07-27"
+    description: Referred to the Committee on Energy and Commerce, and in addition to the Committee on
+      Education and Workforce, for a period to be subsequently determined by the Speaker, in each case
+      for consideration of such provisions as fall within the jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-07-31"
+    url: https://www.congress.gov/119/bills/hr9948/BILLS-119hr9948ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2156498
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/9948/all-info
+    title: H.R. 9948 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr9948/BILLS-119hr9948ih.pdf
+    title: H.R. 9948 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

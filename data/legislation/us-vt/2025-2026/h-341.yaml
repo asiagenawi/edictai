@@ -1,0 +1,82 @@
+id: us-vt-2025-2026-h-341
+jurisdiction: us-vt
+session: 2025-2026
+identifier: H 341
+title: An act relating to creating oversight and safety standards for developers and deployers of inherently
+  dangerous artificial intelligence systems
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - institutional-operations
+  - equity-access
+summary: Creates oversight and safety standards for developers and deployers of high-risk, dual-use foundation,
+  and generative artificial intelligence systems, with high-risk systems including those used in consequential
+  decisions defined to include access to education, and requires safety and impact assessments submitted
+  to the Division of Artificial Intelligence.
+sponsors:
+  - name: Monique Priestley
+    primary: true
+    party: D
+    chamber: lower
+  - name: Angela Arsenault
+    primary: false
+    party: D
+    chamber: lower
+  - name: Daisy Berbeco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Esme Cole
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kate Logan
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Masland
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jubilee McGill
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Sibilia
+    primary: false
+    party: I
+    chamber: lower
+  - name: Kirk White
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-25"
+    description: Read first time and referred to the Committee on Commerce and Economic Development
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-02-24"
+    url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0341/H-0341%20As%20Introduced.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1981655
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2026/H.341
+    title: H 341 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0341/H-0341%20As%20Introduced.pdf
+    title: H 341 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

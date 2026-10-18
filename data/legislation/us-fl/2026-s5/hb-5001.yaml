@@ -1,0 +1,292 @@
+id: us-fl-2026-s5-hb-5001
+jurisdiction: us-fl
+session: 2026-s5
+identifier: HB 5001
+title: General Appropriations Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+summary: Makes the state's 2026-2027 appropriations, including Department of Education school and instructional
+  enhancement projects for ZeroEyes AI firearm detection in Franklin, Hernando, Miami-Dade, and Seminole.
+provisions:
+  - type: appropriates-funding
+    description: Funds ZeroEyes AI firearm detection projects in four counties from the Department of
+      Education's school and instructional enhancements appropriation.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026E/5001E/BillText/er/HTML
+      locator: Department of Education, Grants and Aids - School and Instructional Enhancements, Specific
+        Appropriation 108
+      quote: ZeroEyes AI Firearm Detection - Franklin (HF 3642) (SF ZeroEyes AI Firearm Detection - Hernando
+        (HF 1681) (SF ZeroEyes AI Firearm Detection - Miami Dade (HF 1964) (SF ZeroEyes AI Firearm Detection
+        - Seminole (HF 1203) (SF
+sponsors:
+  - name: Lawrence McClure
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-05-05"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-05-05"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-05-12"
+    description: Read 1st time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-05-12"
+    description: Added to Second Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-05-12"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-05-12"
+    description: Passed; YEAS 98, NAYS 8
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-12"
+    description: Requests that the Senate pass the bill as passed by the House or agree to include the
+      bill in the Budget Conference
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: In Messages
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Received
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Referred to Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-12"
+    description: Withdrawn from Appropriations
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Substituted for SB 2500-E
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-05-12"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-05-12"
+    description: Amendment(s) adopted (302688)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-05-12"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-12"
+    description: Passed as amended; YEAS 32 NAYS 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-12"
+    description: The Senate having refused to pass the bill as passed by the House, acceded to the request
+      for a conference
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Bill placed in Conference (Appropriations Conference Committee/Budget)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-12"
+    description: Conference Committee appointed
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-12"
+    description: Bill placed in Conference (Appropriations Conference Committee/Budget)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-05-12"
+    description: 'Conference Committee appointed: Appropriations Conference Committee/Budget: Senator
+      Hooper, Chair; Senators Berman, Boyd, Brodeur, Gruters, Passidomo, and Rouson, At Large; Appropriations
+      Conference Committee on Agriculture, Environment, and General Government/Agriculture & Natural Resources:
+      Senator Brodeur, Chair; Senators Arrington, Berman, DiCeglie, Grall, Massullo, McClain, Nathan,
+      Pizzo, Rodriguez, Sharief, and Truenow; Appropriations Conference Committee on Agriculture, Environment,
+      and General Government/State Administration: Senator Brodeur, Chair; Senators Arrington, Berman,
+      DiCeglie, Grall, Massullo, McClain, Nathan, Pizzo, Rodriguez, Sharief, and Truenow; Appropriations
+      Conference Committee on Criminal and Civil Justice/Justice: Senator Garcia, Chair; Senators Martin,
+      Osgood, Polsky, Simon, Smith, Wright, and Yarborough; Appropriations Conference Committee on Health
+      and Human Services/Health Care: Senator Trumbull, Chair; Senators Brodeur, Burton, Davis, Garcia,
+      Harrell, Rodriguez, Rouson, and Sharief; Appropriations Conference Committee on Higher Education/Higher
+      Education: Senator Harrell, Chair; Senators Bracy Davis, Bradley, Burgess, Calatayud, Davis, and
+      Leek; Appropriations Conference Committee on Pre-K – 12 Education/Pre-K – 12: Senator Burgess, Chair;
+      Senators Bradley, Calatayud, Gaetz, Jones, Massullo, Nathan, Osgood, Pizzo, Simon, and Yarborough;
+      Appropriations Conference Committee on Transportation, Tourism, and Economic Development/Transportation
+      & Economic Development: Senator DiCeglie, Chair; Senators Arrington, Avila, Bernard, Bracy Davis,
+      Grall, Leek, Martin, Mayfield, McClain, Polsky, Smith, Truenow, and Wright.'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-05-28"
+    description: Added to Conference Report Calendar
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-29"
+    description: Conference Committee Report considered
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-29"
+    description: Amendment 385885 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-05-29"
+    description: Conference Committee Report adopted
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-29"
+    description: Passed as amended by Conference Committee Report; YEAS 99, NAYS 6
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-29"
+    description: In returning messages
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Conference Committee Report received
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-05-29"
+    description: Conference Committee Report adopted (385885)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-05-29"
+    description: Passed as amended by Conference Committee Report; YEAS 35 NAYS 0
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-05-29"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: Ordered engrossed, then enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-06-23"
+    description: Signed by Officers and presented to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-06-29"
+    description: Governor vetoed specific Line Item(s)
+    actor: executive
+    classification:
+      - executive-veto
+  - date: "2026-06-29"
+    description: Approved by Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-07-01"
+    description: Chapter No. 2026-232; Companion bill(s) passed, see HB 5003E (Ch. 2026-233), HB 5201E
+      (Ch. 2026-234), HB 5205E (Ch. 2026-235), HB 5301E (Ch. 2026-236), HB 5601E (Ch. 2026-237), HB 5701E
+      (Ch. 2026-238), SB 2506-E (Ch. 2026-230), SB 2508-E (Ch. 2026-231)
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-05-05"
+    url: https://www.flsenate.gov/Session/Bill/2026E/5001E/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Introduced
+    date: "2026-05-05"
+    url: https://www.flsenate.gov/Session/Bill/2026E/5001E/BillText/Filed/HTML
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-06-01"
+    url: https://www.flsenate.gov/Session/Bill/2026E/5001E/BillText/e1/PDF
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-06-01"
+    url: https://www.flsenate.gov/Session/Bill/2026E/5001E/BillText/er/PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-06-01"
+    url: https://www.flsenate.gov/Session/Bill/2026E/5001E/BillText/e1/HTML
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-06-01"
+    url: https://www.flsenate.gov/Session/Bill/2026E/5001E/BillText/er/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2148556
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026E/5001E
+    title: HB 5001 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026E/5001E/BillText/er/HTML
+    title: HB 5001 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

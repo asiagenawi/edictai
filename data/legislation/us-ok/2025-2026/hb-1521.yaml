@@ -1,0 +1,257 @@
+id: us-ok-2025-2026-hb-1521
+jurisdiction: us-ok
+session: 2025-2026
+identifier: HB 1521
+title: Schools; subject matter standards; personal financial literacy; AP courses; updating references;
+  permitting alternate diploma for certain students; repealer; effective date; emergency.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Revises Oklahoma subject matter standards and graduation requirements, including a personal financial
+  literacy unit. As introduced, would require the State Department of Education to adopt rules making
+  all levels of the computer science standards include instruction on what artificial intelligence is
+  and how it works. The AI provisions were removed by amendment.
+provisions:
+  - type: ai-in-standards
+    description: Would require computer science standards at all grades to include instruction on fundamental
+      concepts of AI.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1521%20INT.PDF
+      locator: Introduced, Section 1, 70 O.S. § 11-103.6(Y)
+      quote: The State Department of Education shall promulgate rules reflecting that all levels and grades
+        of the Oklahoma Academic Standards for Computer Science shall include instruction on the fundamental
+        concepts of emerging computer science technologies such as artificial intelligence (AI)
+sponsors:
+  - name: Dick Lowe
+    primary: true
+    party: R
+    chamber: lower
+  - name: Adam Pugh
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-03"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: Authored by Representative Lowe (Dick)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Second Reading referred to Education Oversight
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-04"
+    description: Referred to Common Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-17"
+    description: Policy recommendation to the Education Oversight committee; Do Pass, amended by committee
+      substitute Common Education
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-05"
+    description: CR; Do Pass, amended by committee substitute Education Oversight Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-05"
+    description: Authored by Senator Pugh (principal Senate author)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: General Order
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: Amended by floor substitute
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: Title stricken
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: 'Third Reading, Measure and Emergency passed: Ayes: 85 Nays: 4'
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-27"
+    description: Referred for engrossment
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-31"
+    description: Engrossed, signed, to Senate
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-03-31"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-04-01"
+    description: Second Reading referred to Education
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-04-22"
+    description: Reported Do Pass as amended Education committee; CR filed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-24"
+    description: Placed on General Order
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-07"
+    description: General Order, Amended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-07"
+    description: Title restored
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-07"
+    description: 'Measure and Emergency passed: Ayes: 45 Nays: 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-05-07"
+    description: Referred for engrossment
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Engrossed to House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: SA's received
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: SA's read, adopted
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-21"
+    description: 'Fourth Reading, Measure and Emergency Passed: Ayes: 88 Nays: 0'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-21"
+    description: Referred for enrollment
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-05-22"
+    description: Enrolled measure signed, returned to House
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2025-05-22"
+    description: Enrolled, signed, to Senate
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-05-22"
+    description: Sent to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-05-28"
+    description: Vetoed 05/28/2025
+    actor: executive
+    classification:
+      - executive-veto
+  - date: "2025-05-29"
+    description: 'Veto overridden: Ayes: 78 Nays: 0'
+    actor: lower
+    classification:
+      - veto-override-passage
+  - date: "2025-05-29"
+    description: To Senate
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-16"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1521%20INT.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2025-03-05"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20COMMITTEE%20SUBS/HCS/HB1521%20CS.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-03-07"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/HFLR/HB1521%20HFLR.PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-03-31"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/hB/HB1521%20ENGR.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-04-23"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/HB1521%20SFLR.PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-05-08"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20AMENDMENTS/Amendment%20and%20Engr/HB1521%20SAHB%20AND%20ENGR.PDF
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2025-05-22"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB1521%20ENR.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2049961
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=hb1521&Session=2600
+    title: HB 1521 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB1521%20ENR.PDF
+    title: HB 1521 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1521%20INT.PDF
+    title: HB 1521 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

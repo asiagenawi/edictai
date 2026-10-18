@@ -1,0 +1,130 @@
+id: us-de-2025-2026-hb-404
+jurisdiction: us-de
+session: 2025-2026
+identifier: HB 404
+title: An Act To Amend Title 14 Of The Delaware Code Relating To The Artificial Intelligence And Extended
+  Reality In Schools Pilot Program.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - procurement
+  - funding
+  - student-privacy
+summary: Establishes a three-year Artificial Intelligence and Extended Reality in Schools Pilot Program
+  in which the Department of Education funds and supports 6 to 12 selected schools to procure and implement
+  AI and XR products, forms a committee to study best practices and recommend products that safeguard
+  student and educator data, and finalizes contracts with state technology and legal staff.
+provisions:
+  - type: appropriates-funding
+    description: The Department must establish and fund a pilot program helping schools procure and implement
+      AI and XR products.
+    citation:
+      source_url: https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143513&legislationTypeId=6&docTypeId=2&legislationName=HS1forHB404
+      locator: Sec. 1, new 4902(a)
+      quote: The Department, in collaboration with local education agencies, shall establish and administer
+        the Artificial Intelligence and Extended Reality in Schools Pilot Program to help schools procure
+        and safely implement AI and XR products that improve student outcomes and engagement
+  - type: procurement-standards
+    description: A committee must recommend AI and XR products that safeguard student and educator information
+      and follow privacy and security guidelines.
+    citation:
+      source_url: https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143513&legislationTypeId=6&docTypeId=2&legislationName=HS1forHB404
+      locator: Sec. 1, new 4902(b)(2)b.
+      quote: The recommended AI and XR products must safeguard student and educator information, including
+        taking measures to prevent data breach, and follow state and federal guidelines for security and
+        privacy.
+sponsors:
+  - name: Jeff Hilovsky
+    primary: true
+    party: R
+    chamber: lower
+  - name: Eric Buckson
+    primary: false
+    party: R
+    chamber: upper
+  - name: Daniel Short
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kamela Smith
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Smith
+    primary: false
+    party: R
+    chamber: lower
+  - name: Sherae'a Moore
+    primary: false
+    party: D
+    chamber: lower
+  - name: DeShanna Neal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josue Ortega
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Wilson
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-06-11"
+    description: was introduced and adopted in lieu of HB 404
+    actor: lower
+    classification:
+      - substitution
+  - date: "2026-06-11"
+    description: Assigned to Appropriations Committee in House
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-06-23"
+    description: Reported Out of Committee (Appropriations) in House with 5 On Its Merits
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-06-23"
+    description: Amendment HA 1 to HS 1 - Introduced and Placed With Bill
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-30"
+    description: Amendment HA 1 to HS 1 - Passed In House by Voice Vote
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-06-30"
+    description: 'Passed By House. Votes: 36 YES 4 NO 1 ABSENT'
+    actor: lower
+    classification:
+      - passage
+versions:
+  - note: Draft
+    url: https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143237&legislationTypeId=1&docTypeId=2&legislationName=HB404
+    media_type: text/html
+  - note: Draft
+    url: https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143513&legislationTypeId=6&docTypeId=2&legislationName=HS1forHB404
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2148684
+sources:
+  - url: https://legis.delaware.gov/BillDetail?LegislationId=143513
+    title: HB 404 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143513&legislationTypeId=6&docTypeId=2&legislationName=HS1forHB404
+    title: HB 404 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,106 @@
+id: us-il-2025-2026-hb-4674
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 4674
+title: SCH CD-STUDENT SUICIDE
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Amends the School Code's bullying provisions to require escalating interventions for persistent
+  bullying and investigations after a student's death by suicide. Adds definitions of artificial intelligence
+  and unauthorized digital replica to the school bullying section.
+provisions:
+  - type: addresses-deepfakes
+    description: Adds AI and unauthorized digital replica definitions to the school bullying prevention
+      section.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206988&DocName=10400HB4674&DocNum=4674&DocTypeID=HB&LegID=165641&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 22-110(b)
+      quote: '"Unauthorized digital replica" means the use of a digital replica of an individual without
+        the consent of the depicted individual.'
+sponsors:
+  - name: Maurice West
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jehan Gordon-Booth
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-29"
+    description: Filed with the Clerk by Rep. Maurice A. West, II
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-03"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-02-03"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-17"
+    description: 'Assigned to Elementary & Secondary Education: Administration, Licensing & Charter Schools'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-23"
+    description: House Committee Amendment No. 1 Filed with Clerk by Rep. Maurice A. West, II
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: House Committee Amendment No. 1 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-18"
+    description: 'House Committee Amendment No. 1 Rules Refers to Elementary & Secondary Education: Administration,
+      Licensing & Charter Schools'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-19"
+    description: Added Chief Co-Sponsor Rep. Jehan Gordon-Booth
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-27"
+    description: House Committee Amendment No. 1 Rule 19(c) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-29"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206988&DocName=10400HB4674&DocNum=4674&DocTypeID=HB&LegID=165641&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2101392
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=4674&GAID=18&DocTypeID=HB&LegId=165641&SessionID=114
+    title: HB 4674 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206988&DocName=10400HB4674&DocNum=4674&DocTypeID=HB&LegID=165641&GAID=18&SessionID=114&SpecSess=&Session=
+    title: HB 4674 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

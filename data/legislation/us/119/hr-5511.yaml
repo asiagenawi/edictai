@@ -1,0 +1,190 @@
+id: us-119-hr-5511
+jurisdiction: us
+session: "119"
+identifier: H.R. 5511
+title: Algorithmic Accountability Act of 2025
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Directs the Federal Trade Commission to require covered entities to perform impact assessments
+  of covered algorithms, derived from machine learning, artificial intelligence, or similar techniques,
+  used to make decisions with legal, material, or similarly significant effects on consumers, which include
+  decisions on access to education and vocational training, including assessment, accreditation, or certification.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Critical decisions subject to impact assessment include decisions on education and vocational
+      training, including assessment, accreditation, or certification.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr5511/BILLS-119hr5511ih.pdf
+      locator: Sec. 2(7)(A)
+      quote: (A) education and vocational training, in- cluding assessment, accreditation, or certifi-
+        cation; (B) employment, workers management, or self-employment;
+sponsors:
+  - name: Yvette Clarke
+    primary: true
+    party: D
+    chamber: lower
+  - name: Becca Balint
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nanette Barragan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Wesley Bell
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shontel Brown
+    primary: false
+    party: D
+    chamber: lower
+  - name: Danny Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Deluzio
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dwight Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shomari Figures
+    primary: false
+    party: D
+    chamber: lower
+  - name: Valerie Foushee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jesus Garcia
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eleanor Norton
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jared Huffman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sara Jacobs
+    primary: false
+    party: D
+    chamber: lower
+  - name: Pramila Jayapal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robin Kelly
+    primary: false
+    party: D
+    chamber: lower
+  - name: Summer Lee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Delia Ramirez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rashida Tlaib
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marc Veasey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frederica Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Adriano Espaillat
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steve Cohen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lori Trahan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ayanna Pressley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andrea Salinas
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alexandria Ocasio-Cortez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ilhan Omar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer McClellan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jahana Hayes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kathy Castor
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mark DeSaulnier
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-09-19"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-09-19"
+    description: Referred to the House Committee on Energy and Commerce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-10-04"
+    url: https://www.congress.gov/119/bills/hr5511/BILLS-119hr5511ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2044841
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/5511/all-info
+    title: H.R. 5511 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr5511/BILLS-119hr5511ih.pdf
+    title: H.R. 5511 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

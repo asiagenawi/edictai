@@ -1,0 +1,172 @@
+id: us-118-hr-4174
+jurisdiction: us
+session: "118"
+identifier: H.R. 4174
+title: Computer Science for All Act of 2023
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - curriculum-standards
+summary: Authorizes the Secretary of Education to make grants to states, local educational agencies, and
+  Tribal schools to expand prekindergarten through grade 12 computer science education, which the bill
+  defines to include artificial intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Grant-funded computer science education is defined to include artificial intelligence.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr4174/BILLS-118hr4174ih.pdf
+      locator: Sec. 3(2)
+      quote: the relationship between computing and mathe- matics; artificial intelligence; applications
+        of com- puting across a broad range of disciplines and prob- lems;
+sponsors:
+  - name: Barbara Lee
+    primary: true
+    party: D
+    chamber: lower
+  - name: Charles Fleischmann
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jamaal Bowman
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Larson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Suzan DelBene
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dwight Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Judy Chu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robin Kelly
+    primary: false
+    party: D
+    chamber: lower
+  - name: Henry Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kathy Castor
+    primary: false
+    party: D
+    chamber: lower
+  - name: Yvette Clarke
+    primary: false
+    party: D
+    chamber: lower
+  - name: James McGovern
+    primary: false
+    party: D
+    chamber: lower
+  - name: Colin Allred
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jahana Hayes
+    primary: false
+    party: D
+    chamber: lower
+  - name: William Keating
+    primary: false
+    party: D
+    chamber: lower
+  - name: Elizabeth Fletcher
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Morelle
+    primary: false
+    party: D
+    chamber: lower
+  - name: Paul Tonko
+    primary: false
+    party: D
+    chamber: lower
+  - name: Susan Wild
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dina Titus
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alma Adams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Deborah Ross
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Quigley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nanette Barragan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikki Budzinski
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eleanor Norton
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sylvia Garcia
+    primary: false
+    party: D
+    chamber: lower
+  - name: Melanie Stansbury
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gabe Amo
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-06-15"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-06-15"
+    description: Referred to the House Committee on Education and the Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-07-24"
+    url: https://www.congress.gov/118/bills/hr4174/BILLS-118hr4174ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1772204
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/4174/all-info
+    title: H.R. 4174 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr4174/BILLS-118hr4174ih.pdf
+    title: H.R. 4174 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

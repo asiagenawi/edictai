@@ -1,0 +1,115 @@
+id: us-co-2025-s1-hb-1008
+jurisdiction: us-co
+session: 2025-s1
+identifier: HB 1008
+title: Consumer Protections for Artificial Intelligence Interactions
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+summary: Moves the start date of developer and deployer duties for high-risk artificial intelligence systems
+  under Colorado's AI consumer protection law. As introduced, it would also have voided public school
+  contract terms that waive or limit the bill's AI consumer protection and anti-discrimination provisions.
+  The AI provisions on public school contracts were removed by amendment.
+provisions:
+  - type: procurement-standards
+    description: As introduced, a public school contract term that waives or limits the AI provisions
+      of part 17 of article 1 of title 6 would be void.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1008_01.pdf
+      locator: Introduced, Section 3, 22-1-135(2)(a)(V)(E)
+      quote: THE PROVISIONS OF PART 17 OF ARTICLE 1 OF TITLE 6 RELATING TO THE USE AND DEPLOYMENT OF ARTIFICIAL
+        INTELLIGENCE SYSTEMS
+  - type: procurement-standards
+    description: The introduced bill's summary states that public school contracts must comply with consumer
+      protection and anti-discrimination law for AI systems.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1008_eng.pdf
+      locator: Introduced, Bill Summary
+      quote: The bill requires that contracts entered into by a Colorado public school, a state agency,
+        or other public entity comply with the provisions of the "Colorado Consumer Protection Act" or
+        the "Colorado Anti-discrimination Act" in relation to the use and deployment of artificial intelligence
+        systems
+sponsors:
+  - name: Michael Carter
+    primary: true
+    party: D
+    chamber: lower
+  - name: William Lindstedt
+    primary: true
+    party: D
+    chamber: lower
+  - name: Judith Amabile
+    primary: true
+    party: D
+    chamber: upper
+  - name: Lisa Frizell
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-08-21"
+    description: Introduced In House - Assigned to Business Affairs & Labor
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-08-21"
+    description: House Committee on Business Affairs & Labor Refer Amended to Appropriations
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-22"
+    description: House Committee on Appropriations Refer Amended to House Committee of the Whole
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-08-23"
+    description: House Second Reading Special Order - Laid Over Daily - No Amendments
+    actor: lower
+    classification:
+      - reading-2
+      - deferral
+  - date: "2025-08-24"
+    description: House Second Reading Special Order - Passed with Amendments - Committee
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-08-25"
+    description: House Third Reading Laid Over Daily - No Amendments
+    actor: lower
+    classification:
+      - reading-3
+      - deferral
+versions:
+  - note: Introduced
+    date: "2025-08-21"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1008_01.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-08-25"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1008_eng.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2042502
+sources:
+  - url: https://leg.colorado.gov/bills/hb25b-1008
+    title: HB 1008 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1008_eng.pdf
+    title: HB 1008 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1008_01.pdf
+    title: HB 1008 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

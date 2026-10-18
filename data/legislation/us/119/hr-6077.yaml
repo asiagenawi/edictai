@@ -1,0 +1,72 @@
+id: us-119-hr-6077
+jurisdiction: us
+session: "119"
+identifier: H.R. 6077
+title: HEAL-AI Act Healthcare Education in AI Literacy Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - ai-literacy
+  - funding
+  - curriculum-standards
+  - educator-training
+summary: Creates a Health Resources and Services Administration grant program for medical schools and
+  residency sponsoring institutions to educate and train medical students, residents, and faculty in the
+  deployment of artificial intelligence in medicine, including its ethical implications.
+provisions:
+  - type: appropriates-funding
+    description: HRSA must make competitive grants to medical schools and residency sponsors for AI education
+      and training of students, residents, and faculty.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr6077/BILLS-119hr6077ih.pdf
+      locator: Sec. 2, new 749E(a)
+      quote: the Secretary makes grants, on a competitive basis, to qualified medical schools or residency
+        sponsoring institutions for the edu- cation and training of medical students, medical residents,
+        and medical faculty of such schools or institutions in the
+sponsors:
+  - name: Nanette Barragan
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ted Lieu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josh Gottheimer
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-11-18"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-11-18"
+    description: Referred to the House Committee on Energy and Commerce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-11-26"
+    url: https://www.congress.gov/119/bills/hr6077/BILLS-119hr6077ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2053144
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/6077/all-info
+    title: H.R. 6077 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr6077/BILLS-119hr6077ih.pdf
+    title: H.R. 6077 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

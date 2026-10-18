@@ -1,0 +1,104 @@
+id: us-az-2026-hb-4040
+jurisdiction: us-az
+session: "2026"
+identifier: HB 4040
+title: Public schools; universities; AI policies
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - academic-integrity
+  - assessment
+  - educator-training
+summary: Requires school district and charter school governing bodies, and state universities, to adopt
+  policies and procedures to detect and prevent unauthorized student use of artificial intelligence to
+  complete coursework, with human review, appeals, bias mitigation, and privacy safeguards for any detection
+  system, and guidelines on authorized use. Requires training for teachers and staff and annual reports
+  to the Department of Education.
+provisions:
+  - type: requires-local-ai-policy
+    description: School district and charter school governing bodies must adopt AI policies and procedures
+      by July 1, 2027.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.azleg.gov/legtext/57leg/2r/bills/hb4040p.htm
+      locator: Section 1, new 15-120.08(A)
+      quote: each school district governing board and charter school governing body shall adopt policies
+        and procedures relating to artificial intelligence that include the following
+  - type: academic-integrity-rules
+    description: Policies must be designed to detect and prevent unauthorized student use of AI to complete
+      coursework.
+    citation:
+      source_url: https://www.azleg.gov/legtext/57leg/2r/bills/hb4040p.htm
+      locator: Section 1, new 15-120.08(A)(1)
+      quote: Policies and procedures that are designed to detect and prevent the unauthorized use of artificial
+        intelligence by students to complete coursework
+  - type: regulates-ai-assessment
+    description: An AI detection system must include human review of flagged assignments.
+    citation:
+      source_url: https://www.azleg.gov/legtext/57leg/2r/bills/hb4040p.htm
+      locator: Section 1, new 15-120.08(A)(1)(a)(i)
+      quote: A natural person who reviews each assignment that the system identifies as content generated
+        by artificial intelligence.
+  - type: educator-pd-requirement
+    description: Schools must train teachers and personnel who implement the AI policies, including on
+      integrating AI into curricula.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.azleg.gov/legtext/57leg/2r/bills/hb4040p.htm
+      locator: Section 1, new 15-120.08(B)
+      quote: Each school district and charter school shall provide training to all teachers and school
+        personnel who are responsible for implementing the requirements prescribed by this section
+  - type: academic-integrity-rules
+    description: Universities must adopt parallel policies, including an appeals process for students
+      whose work is flagged as AI-generated.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.azleg.gov/legtext/57leg/2r/bills/hb4040p.htm
+      locator: Sec. 2, new 15-1626.02
+      quote: process for any student who submits an assignment that is identified as content generated
+        by artificial intelligence in violation of the university's policies.
+sponsors:
+  - name: Nickolas Kupper
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-06-13"
+    description: Introduced in House and read first time
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-06-13"
+    description: Assigned to House RULES Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-05"
+    url: https://www.azleg.gov/legtext/57leg/2r/bills/hb4040p.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2109776
+sources:
+  - url: https://apps.azleg.gov/BillStatus/BillOverview/85556
+    title: HB 4040 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.azleg.gov/legtext/57leg/2r/bills/hb4040p.htm
+    title: HB 4040 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

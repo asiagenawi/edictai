@@ -1,0 +1,62 @@
+id: us-md-2024-sb-1089
+jurisdiction: us-md
+session: "2024"
+identifier: SB 1089
+title: Education - Student and School Employee Data Privacy - Protections
+classification: bill
+education_levels:
+  - k12
+topics:
+  - student-privacy
+summary: Extends Maryland's student data privacy law to school employee information and defines covered
+  operators to include websites, services, and applications that use artificial intelligence under contract
+  with public schools for PreK-12 purposes, subjecting them to data protection, security, and deletion
+  requirements.
+provisions:
+  - type: restricts-student-data-use
+    description: Operators of school-contracted services that use AI are covered by student and employee
+      data privacy restrictions.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb1089f.pdf
+      locator: Sec. 1, Education §4-131(a), definition of operator
+      quote: INCLUDING A WEBSITE , A SERVICE, OR AN APPLICATION THAT UTILIZES ARTIFICIAL INTELLIGENCE
+sponsors:
+  - name: Mary Washington
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-02-02"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-02-09"
+    description: Hearing 2/23 at 9:00 a.m.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-07"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb1089f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1837995
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB1089?ys=2024RS
+    title: SB 1089 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb1089f.pdf
+    title: SB 1089 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

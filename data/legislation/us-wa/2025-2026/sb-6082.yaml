@@ -1,0 +1,120 @@
+id: us-wa-2025-2026-sb-6082
+jurisdiction: us-wa
+session: 2025-2026
+identifier: SB 6082
+title: Safeguarding student financial aid from fraud.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - admissions
+summary: Directs the joint legislative audit and review committee to audit financial aid fraud at institutions
+  of higher education, including systemic weaknesses that allow fictitious student enrollment through
+  the use of artificial intelligence. Requires a report with findings and recommendations by December
+  1, 2027.
+provisions:
+  - type: creates-task-force
+    description: Requires an audit that identifies weaknesses exploited to enroll fictitious students,
+      including through AI.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6082.pdf
+      locator: Sec. 1(1)(d)
+      quote: Identify systemic weaknesses that may be exploited to enroll fictitious students, including
+        the use of artificial intelligence for such purposes;
+sponsors:
+  - name: Matt Boehnke
+    primary: true
+    party: R
+    chamber: upper
+  - name: Perry Dozier
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-13"
+    description: First reading, referred to Higher Education & Workforce Development.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2026-01-19"
+    description: Public hearing in the Senate Committee on Higher Education & Workforce Development at
+      10:30 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-22"
+    description: Executive action taken in the Senate Committee on Higher Education & Workforce Development
+      at 1:30 PM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-22"
+    description: HEWD - Majority; do pass.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-01-22"
+    description: And refer to Ways & Means.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-23"
+    description: Referred to Ways & Means.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-05"
+    description: Public hearing in the Senate Committee on Ways & Means at 1:30 PM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-09"
+    description: Executive action taken in the Senate Committee on Ways & Means at 10:30 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-09"
+    description: WM - Majority; do pass.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-09"
+    description: Passed to Rules Committee for second reading.
+    actor: upper
+    classification:
+      - reading-2
+      - passage
+  - date: "2026-02-12"
+    description: Placed on second reading by Rules Committee.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Senate Rules "X" file.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6082.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2071706
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=6082&Year=2025&Initiative=false
+    title: SB 6082 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/6082.pdf
+    title: SB 6082 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

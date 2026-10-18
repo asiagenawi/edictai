@@ -1,0 +1,111 @@
+id: us-ky-2024-sb-52
+jurisdiction: us-ky
+session: "2024"
+identifier: SB 52
+title: AN ACT relating to technology in education and declaring an emergency.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - instructional-use
+  - local-policy-requirement
+  - educator-training
+  - curriculum-standards
+  - task-force
+  - institutional-operations
+summary: Establishes the Artificial Intelligence in Kentucky's Schools project under the Department of
+  Education, which must issue and regularly update guidelines on AI in school administration, instruction,
+  academic standards, local policies, and teacher preparation, and requires annual AI training for certified
+  school employees and school council and board members. Establishes the Artificial Intelligence in Higher
+  Education project, under which the Council on Postsecondary Education creates an AI working group and
+  guidelines, and institutions form working groups, maintain AI policies, and report annually.
+provisions:
+  - type: issues-model-policy
+    description: The Department of Education must issue recommended guidelines on AI in school administration,
+      instruction, standards, policies, and teacher preparation.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://apps.legislature.ky.gov/recorddocuments/bill/24RS/sb52/orig_bill.pdf
+      locator: Section 1(3)
+      quote: 'By July 1, 2024 , the Kentucky Department of Education shall establish recommended initial
+        guidelines for: (a) The use of artificial intelligence in school administration; (b) The use of
+        artificial intelligence in instruction and classroom management;'
+  - type: educator-pd-requirement
+    description: Each certified school employee must complete an annual AI training starting in 2024-2025.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://apps.legislature.ky.gov/recorddocuments/bill/24RS/sb52/orig_bill.pdf
+      locator: Section 1, professional development subsection, par. (c)
+      quote: Starting with the 2024 -2025 school year, each certified school employee shall complete one
+        (1) of the annual trainings established in this subsection.
+  - type: creates-task-force
+    description: The Council on Postsecondary Education must establish an AI working group to advise institutions.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://apps.legislature.ky.gov/recorddocuments/bill/24RS/sb52/orig_bill.pdf
+      locator: Section 2(3)
+      quote: The Council on Postsecondary Education shall establish an Artificial Intelligence Working
+        Group to examine and provide advice and information to the state's postsecondary institutions
+  - type: requires-local-ai-policy
+    description: Each postsecondary institution must maintain AI policies.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://apps.legislature.ky.gov/recorddocuments/bill/24RS/sb52/orig_bill.pdf
+      locator: Section 2(5)
+      quote: Each institution shall maintain artificial intelligence policies to ensure the responsible
+        use of the technology.
+sponsors:
+  - name: Reginald Thomas
+    primary: true
+    party: D
+    chamber: upper
+  - name: Amanda Mays Bledsoe
+    primary: false
+    party: R
+    chamber: upper
+  - name: David Yates
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-01-02"
+    description: introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-02"
+    description: to Committee on Committees (S)
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-01-03"
+    description: to Education (S)
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://apps.legislature.ky.gov/recorddocuments/bill/24RS/sb52/orig_bill.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1795473
+sources:
+  - url: https://apps.legislature.ky.gov/record/24RS/sb52.html
+    title: SB 52 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://apps.legislature.ky.gov/recorddocuments/bill/24RS/sb52/orig_bill.pdf
+    title: SB 52 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

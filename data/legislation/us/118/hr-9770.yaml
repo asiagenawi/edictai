@@ -1,0 +1,116 @@
+id: us-118-hr-9770
+jurisdiction: us
+session: "118"
+identifier: H.R. 9770
+title: Cyber PIVOTT Act Providing Individuals Various Opportunities for Technical Training to Build a
+  Skills-Based Cyber Workforce Act of 2024
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Creates a Cybersecurity and Infrastructure Security Agency program providing full-tuition scholarships
+  for students in two-year cyber or cyber-relevant associate degree and certificate programs at participating
+  institutions, in exchange for government service. The bill defines cyber-relevant areas to include artificial
+  intelligence.
+provisions:
+  - type: ai-workforce-program
+    description: Defines the cyber-relevant fields whose two-year degree and certificate programs qualify
+      for the program to include artificial intelligence.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9770/BILLS-118hr9770ih.pdf
+      locator: Sec. 2, new section 1334(i)(1)
+      quote: means areas of national security that would impact the cyber resiliency of the United States,
+        in- cluding relating to operational technology, critical in- frastructure, artificial intelligence
+  - type: appropriates-funding
+    description: Program participants receive full-tuition scholarships for study at participating institutions.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9770/BILLS-118hr9770ih.pdf
+      locator: Sec. 2, new section 1334, Scholarships
+      quote: shall provide students participating in the Program with full tuition scholarships, including
+        academic fees, lab fees
+sponsors:
+  - name: Mark Green
+    primary: true
+    party: R
+    chamber: lower
+  - name: Michael Guest
+    primary: false
+    party: R
+    chamber: lower
+  - name: Carlos Gimenez
+    primary: false
+    party: R
+    chamber: lower
+  - name: Dale Strong
+    primary: false
+    party: R
+    chamber: lower
+  - name: Mike Ezell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Clay Higgins
+    primary: false
+    party: R
+    chamber: lower
+  - name: Harold Rogers
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-09-24"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-09-24"
+    description: Referred to the Committee on Homeland Security, and in addition to the Committee on Education
+      and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration
+      of such provisions as fall within the jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-09-25"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2024-09-25"
+    description: Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-09-25"
+    description: Subcommittee on Cybersecurity and Infrastructure Protection Discharged
+    actor: lower
+    classification:
+      - other
+  - date: "2024-09-25"
+    description: 'Ordered to be Reported by the Yeas and Nays: 27 - 0.'
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-09-25"
+    url: https://www.congress.gov/118/bills/hr9770/BILLS-118hr9770ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1887915
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/9770/all-info
+    title: H.R. 9770 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr9770/BILLS-118hr9770ih.pdf
+    title: H.R. 9770 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

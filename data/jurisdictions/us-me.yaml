@@ -5,3 +5,14 @@ abbreviation: ME
 classification: state
 fips: "23"
 region: Northeast
+sessions:
+  - identifier: "2023-2024"
+    name: 131st Legislature
+    classification: primary
+    start_date: "2023-01-04"
+    legiscan_session_id: 2013
+  - identifier: "2025-2026"
+    name: 132nd Legislature
+    classification: primary
+    start_date: "2025-01-06"
+    legiscan_session_id: 2181

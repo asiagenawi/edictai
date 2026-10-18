@@ -1,0 +1,190 @@
+id: us-119-hr-6356
+jurisdiction: us
+session: "119"
+identifier: H.R. 6356
+title: Artificial Intelligence Civil Rights Act of 2025
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+summary: Prohibits developers and deployers from using covered algorithms in ways that cause disparate
+  impact or discrimination in consequential actions, and requires pre-deployment evaluations and impact
+  assessments. Consequential actions include education decisions such as assessment, proctoring, academic
+  integrity, admissions, and financial aid.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Consequential actions governed by the Act include education decisions such as assessment,
+      proctoring, academic integrity, accreditation, admissions, and financial aid.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr6356/BILLS-119hr6356ih.pdf
+      locator: Sec. 2(4)(B)
+      quote: (B) Education and career and technical education, including assessment, proctoring, promotion
+        of academic integrity, accreditation, certification, admissions, enrollment, discipli- nary actions
+        including suspension, expulsion, or referral to law enforcement,
+  - type: bias-or-equity-requirement
+    description: Bars developers and deployers from using covered algorithms in a manner that causes or
+      contributes to a disparate impact related to a consequential action.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr6356/BILLS-119hr6356ih.pdf
+      locator: Sec. 101(a)
+      quote: shall not offer, license, promote, sell, or use a covered algorithm in a manner that
+sponsors:
+  - name: Yvette Clarke
+    primary: true
+    party: D
+    chamber: lower
+  - name: Summer Lee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ayanna Pressley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Pramila Jayapal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Wesley Bell
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andre Carson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Judy Chu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Danny Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Deluzio
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robin Kelly
+    primary: false
+    party: D
+    chamber: lower
+  - name: James McGovern
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eleanor Norton
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alexandria Ocasio-Cortez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mark Pocan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Delia Ramirez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bennie Thompson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rashida Tlaib
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bonnie Coleman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frederica Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jesus Garcia
+    primary: false
+    party: D
+    chamber: lower
+  - name: Valerie Foushee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shontel Brown
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kweisi Mfume
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jahana Hayes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mark DeSaulnier
+    primary: false
+    party: D
+    chamber: lower
+  - name: Al Green
+    primary: false
+    party: D
+    chamber: lower
+  - name: Adelita Grijalva
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer McClellan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joyce Beatty
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-12-02"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-12-02"
+    description: Referred to the Committee on Energy and Commerce, and in addition to the Committee on
+      Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each
+      case for consideration of such provisions as fall within the jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-12-09"
+    url: https://www.congress.gov/119/bills/hr6356/BILLS-119hr6356ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2056153
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/6356/all-info
+    title: H.R. 6356 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr6356/BILLS-119hr6356ih.pdf
+    title: H.R. 6356 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

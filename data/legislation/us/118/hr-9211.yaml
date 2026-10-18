@@ -1,0 +1,134 @@
+id: us-118-hr-9211
+jurisdiction: us
+session: "118"
+identifier: H.R. 9211
+title: LIFT AI Act Literacy in Future Technologies Artificial Intelligence Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - funding
+summary: Authorizes the National Science Foundation to make competitive awards to institutions of higher
+  education and nonprofits to develop K-12 AI literacy curricula, evaluation tools, and professional development
+  for educators.
+provisions:
+  - type: appropriates-funding
+    description: NSF may make merit-reviewed awards to develop K-12 AI literacy curricula and evaluation
+      methods.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9211/BILLS-118hr9211ih.pdf
+      locator: Sec. 2(b)
+      quote: The Director may make awards on a merit-reviewed, competitive basis to institutions of higher
+        education or nonprofit organizations (or a consortium thereof) to support research activities
+        to develop edu- cational curricula and evaluation methods for AI literacy at the K–12 level.
+  - type: educator-pd-requirement
+    description: Award funds may support AI literacy professional development for state and local educational
+      agencies, principals, and educators.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9211/BILLS-118hr9211ih.pdf
+      locator: Sec. 2(c)(4)
+      quote: Designing and implementing professional development courses and experiences in AI literacy,
+        including mentoring, for State and local educational
+sponsors:
+  - name: Thomas Kean
+    primary: true
+    party: R
+    chamber: lower
+  - name: Gabe Amo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Donald Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Yadira Caraveo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anna Eshoo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Claudia Tenney
+    primary: false
+    party: R
+    chamber: lower
+  - name: Brittany Pettersen
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Baird
+    primary: false
+    party: R
+    chamber: lower
+  - name: Suzanne Bonamici
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dean Phillips
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bill Foster
+    primary: false
+    party: D
+    chamber: lower
+  - name: Abigail Spanberger
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Levin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Neguse
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-07-30"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-07-30"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-09-11"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2024-09-11"
+    description: Ordered to be Reported (Amended) by Voice Vote.
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2024-09-04"
+    url: https://www.congress.gov/118/bills/hr9211/BILLS-118hr9211ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1885274
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/9211/all-info
+    title: H.R. 9211 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr9211/BILLS-118hr9211ih.pdf
+    title: H.R. 9211 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,88 @@
+id: us-ok-2025-2026-hb-2371
+jurisdiction: us-ok
+session: 2025-2026
+identifier: HB 2371
+title: Schools; mental health; pilot programs; revolving fund; effective date.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+  - student-privacy
+summary: Directs the Department of Mental Health and Substance Abuse Services, with the State Department
+  of Education, to solicit proposals and award grants to local boards of education for pilot programs
+  that use AI software to monitor school-issued devices for student safety and readiness to learn without
+  direct surveillance, and creates the AI School Safety Pilot Programs Revolving Fund.
+provisions:
+  - type: appropriates-funding
+    description: Creates grants for school pilot programs that use AI software as a safety tool to monitor
+      school-issued devices.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB2371%20INT.PDF
+      locator: Section 1(A)
+      quote: make grants to local boards of education for the establishment of pilot programs that utilize
+        artificial intelligence (AI) software as
+  - type: appropriates-funding
+    description: Creates the AI School Safety Pilot Programs Revolving Fund.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB2371%20INT.PDF
+      locator: Section 2
+      quote: There is hereby created in the State Treasury a revolving fund for the Oklahoma Department
+        of Mental Health and Substance Abuse Services to be designated the “AI School Safety Pilot Programs
+        Revolving Fund”.
+sponsors:
+  - name: Brian Hill
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-03"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: Authored by Representative Hill
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Second Reading referred to Appropriations and Budget
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-04"
+    description: Referred to Appropriations and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-17"
+    description: Recommendation to the full committee; Do Pass Appropriations and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2025-01-16"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB2371%20INT.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2048922
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=hb2371&Session=2600
+    title: HB 2371 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB2371%20INT.PDF
+    title: HB 2371 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

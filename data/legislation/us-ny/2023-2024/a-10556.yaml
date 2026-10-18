@@ -1,0 +1,84 @@
+id: us-ny-2023-2024-a-10556
+jurisdiction: us-ny
+session: 2023-2024
+identifier: A 10556
+title: Establishes the Artificial Intelligence Literacy Act which establishes an artificial intelligence
+  literacy in the digital equity competitive grant program.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - funding
+  - educator-training
+  - equity-access
+summary: Enacts the Artificial Intelligence Literacy Act of 2024, creating a competitive grant program
+  under the education law for AI literacy. Grants go to public schools for teacher AI training and professional
+  development, labs, and learning platforms; to community colleges and other higher education institutions
+  for AI literacy programs, labs, and tools; and to community organizations.
+provisions:
+  - type: appropriates-funding
+    description: Creates a competitive grant program for AI literacy, with grants to public elementary
+      and secondary schools, community colleges, institutions of higher education, and community organizations.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10556&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10556
+      locator: § 3, new Educ. Law § 115
+      quote: 'provide grants to public elementary and secondary schools to be used for:'
+  - type: educator-pd-requirement
+    description: School grants may fund teacher attendance at AI education professional development.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10556&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10556
+      locator: § 3, new Educ. Law § 115, para. a(ii)
+      quote: facilitating attendance of teachers at professional development courses, workshops, and conferences
+        related to artificial intelligence education
+  - type: appropriates-funding
+    description: Community college grants fund interdisciplinary AI literacy programs, labs, and virtual
+      learning platforms.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10556&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10556
+      locator: § 3, new Educ. Law § 115, para. b
+      quote: 'provide grants to community colleges to be used for:'
+sponsors:
+  - name: Kenneth Burgos
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-06-03"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2024-07-22"
+    description: enacting clause stricken
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-06-03"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10556&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10556
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1881403
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2023/A10556
+    title: A 10556 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A10556&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A10556
+    title: A 10556 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

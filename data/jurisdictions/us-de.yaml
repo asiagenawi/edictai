@@ -5,3 +5,15 @@ abbreviation: DE
 classification: state
 fips: "10"
 region: Northeast
+sessions:
+  - identifier: "2025-2026"
+    name: 153rd General Assembly
+    classification: primary
+    start_date: "2025-01-14"
+    legiscan_session_id: 2163
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:de/government?include=legislative_sessions"
+        title: Open States API, Delaware legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

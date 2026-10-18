@@ -1,0 +1,203 @@
+id: us-ms-2026-sb-2294
+jurisdiction: us-ms
+session: "2026"
+identifier: SB 2294
+title: Education; institute initiatives to promote literacy in math, reading, finance, computer science,
+  and civics.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Enacts multiple K-12 literacy initiatives, including a requirement that public high school students
+  earn a unit of computer science or CTE with embedded computer science credit before graduation. The
+  qualifying course must include instruction on emerging technologies such as artificial intelligence,
+  including what AI is, how it works, and its impact on society.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: Creates a computer science graduation requirement whose qualifying course must cover
+      AI concepts.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2200-2299/SB2294SG.htm
+      locator: New Section 37-13-215(4)
+      quote: The computer science course or courses fulfilling this graduation requirement must include
+        instruction on the fundamental concepts of emerging computer science technologies, such as artificial
+        intelligence (AI), including an understanding of what AI is, how it works, and its impact on society.
+  - type: requires-ai-literacy-instruction
+    description: Requires instruction on what AI is, how it works and its impact on society.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2200-2299/SB2294SG.htm
+      locator: New Section 37-13-215(4)
+      quote: including an understanding of what AI is, how it works, and its impact on society
+sponsors:
+  - name: Chris Johnson
+    primary: true
+    party: R
+    chamber: upper
+  - name: Sarita Simmons
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-19"
+    description: Referred To Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-02"
+    description: Title Suff Do Pass
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-05"
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-02-05"
+    description: Immediate Release
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: Transmitted To House
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: Referred To Education;Accountability, Efficiency, Transparency
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-18"
+    description: 'DR - TSDPAA: ED To AC'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: 'DR - TSDPAA: AC To ED'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Title Suff Do Pass As Amended
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-19"
+    description: Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Passed As Amended
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-23"
+    description: Returned For Concurrence
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Decline to Concur/Invite Conf
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-17"
+    description: Conferees Named DeBar,Boyd,Hill
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-03-23"
+    description: Conferees Named Roberson,McCarty,Felsher
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-03-30"
+    description: Conference Report Filed
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-03-30"
+    description: Conference Report Filed
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-03-31"
+    description: Recommitted For Further Conf
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-31"
+    description: Recommitted For Further Conf
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-31"
+    description: Conference Report Filed
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-03-31"
+    description: Conference Report Filed
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-04-01"
+    description: Conference Report Adopted
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-04-01"
+    description: Conference Report Adopted
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-04-06"
+    description: Enrolled Bill Signed
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-04-06"
+    description: Enrolled Bill Signed
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-04-08"
+    description: Approved by Governor
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2026-01-19"
+    url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2200-2299/SB2294IN.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-02-06"
+    url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2200-2299/SB2294PS.htm
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-04-06"
+    url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2200-2299/SB2294SG.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2085758
+sources:
+  - url: https://billstatus.ls.state.ms.us/2026/pdf/history/SB/SB2294.xml
+    title: SB 2294 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://billstatus.ls.state.ms.us/documents/2026/html/SB/2200-2299/SB2294SG.htm
+    title: SB 2294 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

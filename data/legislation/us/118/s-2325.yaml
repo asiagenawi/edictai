@@ -1,0 +1,67 @@
+id: us-118-s-2325
+jurisdiction: us
+session: "118"
+identifier: S. 2325
+title: Algorithmic Justice and Online Platform Transparency Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Prohibits online platforms from using algorithmic processes that discriminate in offering housing,
+  employment, credit, insurance, healthcare, or education opportunities, and requires platforms to assess
+  whether such processes produce disparate outcomes.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Platforms using algorithmic processes relating to education opportunities must assess
+      whether they produce disparate outcomes.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s2325/BILLS-118s2325is.pdf
+      locator: Sec. 4(a)(2)(A)(iv)
+      quote: if the online platform (except for a small business) utilizes an algorithmic process that
+        relates to opportunities for housing, education, employment, insurance, credit, or the access
+        to or terms of use of any place of public accommodations
+sponsors:
+  - name: Edward Markey
+    primary: true
+    party: D
+    chamber: upper
+  - name: Sheldon Whitehouse
+    primary: false
+    party: D
+    chamber: upper
+  - name: Elizabeth Warren
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2023-07-13"
+    description: Read twice and referred to the Committee on Commerce, Science, and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2023-08-08"
+    url: https://www.congress.gov/118/bills/s2325/BILLS-118s2325is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1774405
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/senate-bill/2325/all-info
+    title: S. 2325 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/s2325/BILLS-118s2325is.pdf
+    title: S. 2325 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,153 @@
+id: us-nc-2025-2026-s-579
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 579
+title: Transforming the High School Experience
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - instructional-use
+  - workforce
+summary: Establishes a North Carolina High School Redesign Commission that must consider uses of artificial
+  intelligence to expand student career exploration and work-based learning. Creates a Lighthouse Math
+  Project in which Wake County schools and Wake Technical Community College contract for the Khanmigo
+  AI tutoring program and develop Khanmigo-centered college math courses for high school students.
+provisions:
+  - type: creates-task-force
+    description: Directs the High School Redesign Commission to consider AI uses for student career exploration.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S579v2.pdf
+      locator: Commission duties, subdivision (9)
+      quote: Uses of artificial intelligence to expand student opportunities to engage in career exploration
+        and work-based learning experiences.
+  - type: appropriates-funding
+    description: Requires the school district and Wake Tech to contract for the Khanmigo AI tutoring program.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S579v2.pdf
+      locator: Sec. 3.(c)
+      quote: WCPSS, in collaboration with Wake Tech, shall contract with Khan Academy, Inc. (Khan), for
+        use of the artificial intelligence student tutoring program, Khanmigo.
+  - type: ai-workforce-program
+    description: Requires development of a Khanmigo-centered gateway college math course for high school
+      students.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S579v2.pdf
+      locator: Sec. 3.(c)(1)
+      quote: Develop and deliver at least one Khanmigo-centered gateway college math course to be offered
+        to high school students at participating high schools to be completed as a college level math
+        course.
+sponsors:
+  - name: Michael Lee
+    primary: true
+    party: R
+    chamber: upper
+  - name: Vickie Sawyer
+    primary: true
+    party: R
+    chamber: upper
+  - name: Eddie Settle
+    primary: true
+    party: R
+    chamber: upper
+  - name: Val Applewhite
+    primary: false
+    party: D
+    chamber: upper
+  - name: Woodson Bradley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jay Chaudhuri
+    primary: false
+    party: D
+    chamber: upper
+  - name: Kandie Smith
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-03-25"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-26"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-03-26"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-01"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-01"
+    description: Re-ref Com On Appropriations/Base Budget
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-28"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-28"
+    description: Re-ref to Education/Higher Education. If fav, re-ref to Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-30"
+    description: Reptd Fav Com Substitute
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: Com Substitute Adopted
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-04-30"
+    description: Re-ref Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-03-25"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S579v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-03-26"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S579v1.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-04-30"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S579v2.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2014312
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S579
+    title: S 579 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S579v2.pdf
+    title: S 579 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

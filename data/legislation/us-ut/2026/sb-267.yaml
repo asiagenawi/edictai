@@ -1,0 +1,506 @@
+id: us-ut-2026-sb-267
+jurisdiction: us-ut
+session: "2026"
+identifier: SB 267
+title: Software in Education Amendments
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - student-privacy
+  - data-governance
+  - procurement
+summary: Requires the State Board of Education to study best practices for software used in public schools,
+  including student data practices, algorithmic systems that may prioritize engagement over learning,
+  and transparency about embedded analytics or artificial intelligence systems, and to publish and distribute
+  guidance to local education agencies before July 1, 2027.
+provisions:
+  - type: creates-task-force
+    description: The state board must study software practices in schools, including transparency about
+      embedded AI systems and algorithmic systems that may prioritize engagement over learning.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/SB0267.pdf
+      locator: Sec. 2, (3)(a)(ix)-(xi)
+      quote: 'transparency regarding: (A) data the software collects; (B) third-party service providers
+        or sub-processors; and (C) embedded analytics or artificial intelligence systems'
+  - type: issues-model-policy
+    description: The state board must publish guidance and best practices from the study and distribute
+      them to each LEA.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/SB0267.pdf
+      locator: Sec. 2, (4)
+      quote: publish on the state board's website guidance and best practices identified through the study
+        described in this section; and (b) distribute the guidance and best practices to each LEA
+sponsors:
+  - name: Kirk Cullimore
+    primary: true
+    party: R
+    chamber: upper
+  - name: Doug Fiefia
+    primary: false
+    party: R
+    chamber: lower
+  - name: Brady Brammer
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-02-06"
+    description: Bill Numbered but not Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: Numbered Bill Publicly Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: LFA/ bill assigned to staff for fiscal analysis for SB0267 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: LFA/ bill sent to agencies for fiscal input for SB0267 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: Senate/ received bill from Legislative Research in Waiting for Introduction in the Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-06"
+    description: Senate/ 1st reading (Introduced) in Senate Rules Committee
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-09"
+    description: Senate/ to standing committee in Senate Education Committee
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-11"
+    description: LFA/ fiscal note sent to sponsor for SB0267 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: LFA/ fiscal note publicly available for SB0267 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-13"
+    description: Senate/ received fiscal note from Fiscal Analyst in Senate Education Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: LFA/ bill assigned to staff for fiscal analysis for SB0267S01 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: LFA/ bill sent to agencies for fiscal input for SB0267S01 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Senate Comm - Substitute Recommendation in Senate Education Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Senate Comm - Favorable Recommendation in Senate Education Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-20"
+    description: LFA/ fiscal note sent to sponsor for SB0267S01 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: Senate/ comm rpt/ substituted in Senate Education Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-20"
+    description: Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-02-23"
+    description: LFA/ fiscal note publicly available for SB0267S01 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Senate/ 2nd reading in Senate 2nd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-02-26"
+    description: Senate/ passed 2nd reading in Senate 3rd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+      - reading-3
+  - date: "2026-02-27"
+    description: Senate/ 3rd reading in Senate 3rd Reading Calendar
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-02-27"
+    description: Senate/ circled in Senate 3rd Reading Calendar
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-02"
+    description: LFA/ bill assigned to staff for fiscal analysis for SB0267S02 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: LFA/ bill sent to agencies for fiscal input for SB0267S02 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Senate/ uncircled in Senate 3rd Reading Calendar
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-03"
+    description: Senate/ substituted in Senate 3rd Reading Calendar
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-03"
+    description: Senate/ passed 3rd reading in Clerk of the House
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-03"
+    description: Senate/ to House in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: LFA/ fiscal note sent to sponsor for SB0267S02 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: LFA/ fiscal note publicly available for SB0267S02 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: House/ received from Senate in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: House/ 1st reading (Introduced) in House Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-03-04"
+    description: House/ to standing committee in House Education Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: House Comm - Amendment Recommendation in House Education Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: House Comm - Favorable Recommendation in House Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-04"
+    description: House/ comm rpt/ amended in House Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-04"
+    description: House/ return to Rules due to fiscal impact in House Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ bill assigned to staff for fiscal analysis for SB0267S03 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ bill sent to agencies for fiscal input for SB0267S03 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ bill assigned to staff for fiscal analysis for SB0267S04 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ bill sent to agencies for fiscal input for SB0267S04 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ fiscal note sent to sponsor for SB0267S03 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ fiscal note publicly available for SB0267S03 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ fiscal note sent to sponsor for SB0267S04 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ bill assigned to staff for fiscal analysis for SB0267S05 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ bill sent to agencies for fiscal input for SB0267S05 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House/ Rules to 3rd Reading Calendar in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: House/ comm rpt/ amended in House Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-05"
+    description: House/ 2nd reading in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-2
+      - reading-3
+  - date: "2026-03-05"
+    description: House/ 3rd reading in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: House/ circled in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: LFA/ fiscal note sent to sponsor for SB0267S05 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House/ uncircled in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: House/ substituted in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: House/ passed 3rd reading in Senate Secretary
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-05"
+    description: House/ to Senate in Senate Secretary
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House/ motion to reconsider in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House/ circled in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: House/ uncircled in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: House/ floor amendment in House 3rd Reading Calendar for Senate bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: LFA/ fiscal note publicly available for SB0267S05 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: LFA/ fiscal note publicly available for SB0267S04 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House/ passed 3rd reading in Senate Secretary
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-05"
+    description: House/ to Senate in Senate Secretary
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ received from House in Senate Secretary
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ placed on Concurrence Calendar in Senate Concurrence Calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ concurs with House amendment in House Speaker
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ to House in House Speaker
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House/ signed by Speaker/ returned to Senate in Senate President
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-03-06"
+    description: House/ to Senate in Senate President
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ received from House in Senate President
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ signed by President/ sent for enrolling in Legislative Research and General Counsel
+      / Enrolling
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2026-03-10"
+    description: Bill Received from Senate for Enrolling in Legislative Research and General Counsel /
+      Enrolling
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2026-03-10"
+    description: Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2026-03-12"
+    description: Enrolled Bill Returned to House or Senate in Senate Secretary
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-03-12"
+    description: Senate/ enrolled bill to Printing in Senate Secretary
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-03-13"
+    description: Senate/ received enrolled bill from Printing in Senate Secretary
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-03-13"
+    description: Senate/ to Governor in Executive Branch - Governor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-18"
+    description: Governor Signed in Lieutenant Governor's office for filing
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2026-02-06"
+    url: https://le.utah.gov/Session/2026/bills/introduced/SB0267.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-02-19"
+    url: https://le.utah.gov/Session/2026/bills/introduced/SB0267S01.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-03-02"
+    url: https://le.utah.gov/Session/2026/bills/introduced/SB0267S02.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-03-05"
+    url: https://le.utah.gov/Session/2026/bills/introduced/SB0267S03.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-03-05"
+    url: https://le.utah.gov/Session/2026/bills/introduced/SB0267S04.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-03-05"
+    url: https://le.utah.gov/Session/2026/bills/amended/AV_SB0267S02_2026-03-05_15-48-20.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-03-05"
+    url: https://le.utah.gov/Session/2026/bills/introduced/SB0267S05.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-03-05"
+    url: https://le.utah.gov/Session/2026/bills/amended/AV_SB0267S05_2026-03-05_20-55-26.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-03-12"
+    url: https://le.utah.gov/Session/2026/bills/enrolled/SB0267.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2111144
+sources:
+  - url: https://le.utah.gov/~2026/bills/static/SB0267.html
+    title: SB 267 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://le.utah.gov/Session/2026/bills/enrolled/SB0267.pdf
+    title: SB 267 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -5,3 +5,31 @@ abbreviation: MN
 classification: state
 fips: "27"
 region: Midwest
+sessions:
+  - identifier: "2023-2024"
+    name: 93rd Legislature 2023-2024
+    classification: primary
+    start_date: "2023-01-03"
+    legiscan_session_id: 1986
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:mn/government?include=legislative_sessions"
+        title: Open States API, Minnesota legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2025-2026"
+    name: 94th Legislature 2025-2026
+    classification: primary
+    start_date: "2025-01-14"
+    legiscan_session_id: 2151
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:mn/government?include=legislative_sessions"
+        title: Open States API, Minnesota legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2025-s1"
+    name: 94th Legislature 2025 1st Special Session
+    classification: special
+    start_date: "2025-06-09"
+    legiscan_session_id: 2217

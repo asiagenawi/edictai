@@ -1,0 +1,143 @@
+id: us-mn-2025-s1-sf-1
+jurisdiction: us-mn
+session: 2025-s1
+identifier: SF 1
+title: Omnibus Higher Education policy and appropriations
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Provides higher education funding and policy changes for the Office of Higher Education, Minnesota
+  State Colleges and Universities, and the University of Minnesota. Its campus sexual misconduct provisions
+  define sexual misconduct, which institutional policies and grievance procedures must address, to include
+  nonconsensual dissemination of a deepfake depicting intimate parts or sexual acts.
+provisions:
+  - type: addresses-deepfakes
+    description: Includes deepfake dissemination in the sexual misconduct definition governing postsecondary
+      institution policies.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/text.php?number=SF1&version=0&session=ls94&session_year=2025&session_number=1&format=pdf
+      locator: 135A.15 definitions, paragraph (n) [Page 34]
+      quote: of sexual images, sexual extortion, nonconsensual dissemination of a deepfake depicting
+sponsors:
+  - name: Omar Fateh
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-06-09"
+    description: Introduction and first reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-06-09"
+    description: Laid on table
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-06-09"
+    description: Taken from table
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-09"
+    description: Urgency declared rules suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-09"
+    description: Second reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-06-09"
+    description: Third reading Passed
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-06-09"
+    description: Returned from House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-09"
+    description: Received from Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-09"
+    description: Senate file first reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-06-09"
+    description: Rules suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-09"
+    description: Second reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-06-09"
+    description: Third reading
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-06-09"
+    description: Bill was passed
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-06-12"
+    description: Presented to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-06-14"
+    description: Governor's action Approval
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-06-14"
+    description: Secretary of State Chapter 5
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-06-14"
+    description: Governor approval
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-06-14"
+    description: Secretary of State, Filed
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-06-08"
+    url: https://www.revisor.mn.gov/bills/text.php?number=SF1&version=0&session=ls94&session_year=2025&session_number=1&format=pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2036179
+sources:
+  - url: https://www.revisor.mn.gov/bills/bill.php?b=Senate&f=SF0001&ssn=1&y=2025
+    title: SF 1 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/text.php?number=SF1&version=0&session=ls94&session_year=2025&session_number=1&format=pdf
+    title: SF 1 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

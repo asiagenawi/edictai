@@ -1,0 +1,103 @@
+id: us-fl-2026-hb-899
+jurisdiction: us-fl
+session: "2026"
+identifier: HB 899
+title: Task Force on Artificial Intelligence in Public Postsecondary Education
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - academic-integrity
+  - instructional-use
+  - educator-training
+  - student-privacy
+summary: Creates the Task Force on Artificial Intelligence in Public Postsecondary Education, adjunct
+  to the Department of Education, to review AI in instruction, research, and student conduct in the State
+  University System and Florida College System, examine academic integrity, privacy, and faculty training
+  needs, recommend model institutional policies, and report by December 1, 2026.
+provisions:
+  - type: creates-task-force
+    description: Creates a task force to review AI opportunities, risks, and best practices in public
+      higher education.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/899/BillText/Filed/PDF
+      locator: Sec. 1(1)
+      quote: to review and make recommendations on the opportunities, risks, and best practices presented
+        by artificial intelligence in academic instruction, research, and student conduct within the State
+        University System and Florida College System
+  - type: issues-model-policy
+    description: The task force must recommend model policies for institutions on ethical and effective
+      AI use.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/899/BillText/Filed/PDF
+      locator: Sec. 1(3)(g)
+      quote: Recommend model policies for institutions to adopt regarding the ethical and effective use
+        of artificial intelligence.
+sponsors:
+  - name: Leonard Spencer
+    primary: true
+    party: D
+    chamber: lower
+  - name: Daryl Campbell
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-12-23"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-05"
+    description: Referred to Education Administration Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-05"
+    description: Referred to Higher Education Budget Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-05"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-05"
+    description: Now in Education Administration Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-13"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-03-13"
+    description: Died in Education Administration Subcommittee
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2025-12-23"
+    url: https://www.flsenate.gov/Session/Bill/2026/899/BillText/Filed/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2060846
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/899
+    title: HB 899 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/899/BillText/Filed/PDF
+    title: HB 899 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

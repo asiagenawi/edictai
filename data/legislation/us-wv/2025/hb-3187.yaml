@@ -1,0 +1,258 @@
+id: us-wv-2025-hb-3187
+jurisdiction: us-wv
+session: "2025"
+identifier: HB 3187
+title: Relating to the West Virginia Task Force on Artificial Intelligence
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+  - local-policy-requirement
+summary: Amends the West Virginia Task Force on Artificial Intelligence, whose duties include recommending
+  model policies for schools on student use of AI in the classroom, to add identifying AI economic opportunities,
+  require annual reports, and extend the task force to July 1, 2027.
+provisions:
+  - type: creates-task-force
+    description: Keeps the task force duty to recommend model school policies on student classroom use
+      of AI.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb3187%20enr.htm&yr=2025&sesstype=RS&i=3187
+      locator: §5A-6-9(e)(6)
+      quote: (6) Recommending model policies for schools to address the use of artificial intelligence
+        by students in the classroom;
+sponsors:
+  - name: Jarred Cannon
+    primary: true
+    party: R
+    chamber: lower
+  - name: Roger Hanshaw
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jordan Maynor
+    primary: false
+    party: R
+    chamber: lower
+  - name: Daniel Linville
+    primary: false
+    party: R
+    chamber: lower
+  - name: Michael Hornby
+    primary: false
+    party: R
+    chamber: lower
+  - name: Matthew Rohrbach
+    primary: false
+    party: R
+    chamber: lower
+  - name: Laura Kimble
+    primary: false
+    party: R
+    chamber: lower
+  - name: Josh Holstein
+    primary: false
+    party: R
+    chamber: lower
+  - name: Clay Riley
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kayla Young
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-06"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-06"
+    description: To Energy and Public Works
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-06"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-06"
+    description: To House Energy and Public Works
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-14"
+    description: Markup Discussion
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-18"
+    description: Do pass
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-19"
+    description: On 1st reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-19"
+    description: Read 1st time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-20"
+    description: On 2nd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-20"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-21"
+    description: On 3rd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-03-21"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-03-21"
+    description: Passed House (Roll No. 145)
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-03-21"
+    description: Communicated to Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-24"
+    description: Introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-24"
+    description: To Economic Development
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-24"
+    description: To Economic Development
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: Reported do pass
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-08"
+    description: Immediate consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: Read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-04-09"
+    description: On 2nd reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-09"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-10"
+    description: On 3rd reading
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-04-10"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-04-10"
+    description: Passed Senate (Roll No. 442)
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-10"
+    description: Communicated to House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Completed legislative action
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-12"
+    description: To Governor 4/21/2025 - House Journal
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-12"
+    description: To Governor 4/21/2025 - Senate Journal
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-12"
+    description: Approved by Governor 4/25/2025 - House Journal
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-04-12"
+    description: Approved by Governor 4/25/2025 - Senate Journal
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-04-21"
+    description: To Governor 4/21/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-25"
+    description: Approved by Governor 4/25/2025
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb3187%20intr.htm&yr=2025&sesstype=RS&i=3187
+    media_type: text/html
+  - note: Engrossed
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb3187%20eng.htm&yr=2025&sesstype=RS&i=3187
+    media_type: text/html
+  - note: Enrolled
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb3187%20enr.htm&yr=2025&sesstype=RS&i=3187
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1993190
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=3187&year=2025&sessiontype=RS&btype=bill
+    title: HB 3187 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb3187%20enr.htm&yr=2025&sesstype=RS&i=3187
+    title: HB 3187 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

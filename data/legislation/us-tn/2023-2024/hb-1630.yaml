@@ -1,0 +1,176 @@
+id: us-tn-2023-2024-hb-1630
+jurisdiction: us-tn
+session: 2023-2024
+identifier: HB 1630
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - academic-integrity
+summary: Requires the University of Tennessee board, the board of regents and each state university board
+  to adopt a policy on the use of artificial intelligence by students, faculty and staff for instruction
+  and assignments by July 1, 2025. Requires local boards of education and public charter school governing
+  bodies to adopt such policies for the 2024-2025 school year and report compliance to the Department
+  of Education.
+provisions:
+  - type: requires-local-ai-policy
+    description: Public university governing boards must adopt policies on AI use by students, faculty
+      and staff for instructional and assignment purposes.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/113/pub/pc0550.pdf
+      locator: Section 1(b)
+      quote: The board of trustees of the University of Tennessee, the board of regents, and each local
+        governing board of trustees of a state university shall adopt a policy regarding the use of artificial
+        intelligence technology by students, faculty, and staff for instructional and assignment purposes.
+  - type: requires-local-ai-policy
+    description: Local boards of education must adopt policies on AI use by students, teachers and staff
+      for instructional and assignment purposes.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/113/pub/pc0550.pdf
+      locator: Section 2, amending 49-2-203(a)
+      quote: Adopt a policy regarding the use of artificial intelligence by students, teachers, and staff
+        for instructional and assignment purposes. The policy must be implemented in schools no later
+        than the 2024-2025 school year.
+  - type: requires-local-ai-policy
+    description: Public charter school governing bodies must adopt AI use policies and report compliance.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/113/pub/pc0550.pdf
+      locator: Section 3(b)
+      quote: The governing body of a public charter school shall adopt a policy regarding the use of artificial
+        intelligence by students, teachers, and staff for instructional and assignment purposes.
+sponsors:
+  - name: Scott Cepicky
+    primary: true
+    party: R
+    chamber: lower
+  - name: G.A. Hardaway
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rusty Grills
+    primary: false
+    party: R
+    chamber: lower
+  - name: Dale Carr
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-01-02"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-09"
+    description: Intro., P1C.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-10"
+    description: P2C, ref. to Education Administration - Government Operations for Review
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-10"
+    description: Assigned to s/c K-12 Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Placed on s/c cal K-12 Subcommittee for 1/23/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-23"
+    description: Rec for pass if am by s/c ref. to Education Administration
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-01-24"
+    description: Placed on cal. Education Administration for 1/31/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-31"
+    description: Rec. for pass. if am., ref. to Government Operations Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-02-07"
+    description: Placed on cal. Government Operations Committee for 2/12/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-12"
+    description: Rec. for pass; ref to Calendar & Rules Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-02-14"
+    description: Placed on cal. Calendar & Rules Committee for 2/15/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-15"
+    description: H. Placed on Regular Calendar for 2/22/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Sponsor(s) Added.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Comp. SB subst.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-19"
+    description: Comp. became Pub. Ch. 550
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Draft
+    date: "2024-01-02"
+    url: https://www.capitol.tn.gov/Bills/113/Bill/HB1630.pdf
+    media_type: application/pdf
+  - note: Draft
+    date: "2024-01-10"
+    url: https://www.capitol.tn.gov/Bills/113/Bill/HB1630.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2024-03-15"
+    url: https://publications.tnsosfiles.com/acts/113/pub/pc0550.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1795187
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/default.aspx?BillNumber=HB1630&ga=113
+    title: HB 1630 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://publications.tnsosfiles.com/acts/113/pub/pc0550.pdf
+    title: HB 1630 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

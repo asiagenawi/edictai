@@ -1,0 +1,79 @@
+id: us-ny-2025-2026-s-10025
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 10025
+title: Requires state-level public employers that intend to begin any procurement process or plan to acquire
+  or deploy any new application or technology that utilizes an artificial intelligence model or artificial
+  intelligence system to notify any duly recognized and certified employee representative of such intention
+  no less than twelve months before commencing such process.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - procurement
+  - employment-evaluation
+summary: Requires public employers, including school districts, BOCES, SUNY, CUNY, and community colleges,
+  to notify recognized employee representatives at least twelve months before procuring or deploying new
+  AI applications that change or eliminate jobs, and to bargain collectively over implementation, transition,
+  and training.
+provisions:
+  - type: procurement-standards
+    description: Public employers, including school districts, BOCES, SUNY, CUNY, and community colleges,
+      must notify employee representatives twelve months before starting procurement or deployment of
+      AI technology.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10025&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10025
+      locator: Sec. 1, new Civil Service Law 216(2)(a)
+      quote: A public employer shall notify any duly recognized and certified employee representative
+        of its intention to begin any procurement process or plan to acquire or deploy any new application
+        or technology that utilizes an artificial intelligence model
+  - type: procurement-standards
+    description: Defines covered public employers to include school districts, BOCES, SUNY, CUNY, and
+      community colleges.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10025&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10025
+      locator: Sec. 1, new Civil Service Law 216(1)(c)
+      quote: (iv) a school district, board of cooperative educational services, vocational education and
+        extension board or a school district enumerated in section one of chapter five hundred sixty-six
+        of the laws of nineteen hundred sixty-seven as amended; (v) the State University of New York
+sponsors:
+  - name: Michelle Hinchey
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-04-23"
+    description: REFERRED TO CIVIL SERVICE AND PENSIONS
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-05-18"
+    description: REPORTED AND COMMITTED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2026-04-23"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10025&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10025
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2145316
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S10025
+    title: S 10025 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10025&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10025
+    title: S 10025 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

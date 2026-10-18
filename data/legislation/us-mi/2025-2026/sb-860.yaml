@@ -1,0 +1,155 @@
+id: us-mi-2025-2026-sb-860
+jurisdiction: us-mi
+session: 2025-2026
+identifier: SB 860
+title: 'Appropriations: school aid omnibus; fiscal year 2026-2027 appropriations for K-12 school aid,
+  higher education, and community colleges; provide for. Amends secs. 11, 201 & 236 of 1979 PA 94 (MCL
+  388.1611 et seq.). TIE BAR WITH: SB 0903''26'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - funding
+  - instructional-use
+summary: Makes fiscal year 2026-2027 omnibus appropriations for Michigan K-12 school aid, higher education,
+  and community colleges. Directs Michigan Virtual University, from its section 98 school aid allocation,
+  to operate a statewide laboratory for research, best practices, policy formulation, and awareness about
+  responsible use of artificial intelligence in schools.
+provisions:
+  - type: appropriates-funding
+    description: Directs school aid funds allocated to Michigan Virtual University to operate a statewide
+      lab on responsible AI use in schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2026-SEBS-0860.htm
+      locator: Sec. 98(5)
+      quote: the identification and dissemination of best practices, rigorous experimentation, policy
+        formulation, and proactive efforts to enhance awareness about the responsible utilization of artificial
+        intelligence in schools.
+sponsors:
+  - name: Darrin Camilleri
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-03-18"
+    description: Introduced By Senator Darrin Camilleri
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-03-18"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-18"
+    description: Referred To Committee Of The Whole
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-14"
+    description: Referred To Committee On Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-28"
+    description: Discharge Committee Approved
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Placed On Order Of General Orders
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Rules Suspended For Immediate Consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Reported By Committee Of The Whole Favorably With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Substitute (s-1) Concurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Placed On Order Of Third Reading With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Placed On Immediate Passage
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Amendment(s) Postponed
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Amendment(s) Defeated
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Amendment(s) Withdrawn
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: 'Passed Roll Call # 90 Yeas 19 Nays 18 Excused 0 Not Voting 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-30"
+    description: Received On 04/30/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-03-18"
+    url: https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-0860.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-04-30"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2026-SEBS-0860.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2135454
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0860
+    title: SB 860 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2026-SEBS-0860.htm
+    title: SB 860 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

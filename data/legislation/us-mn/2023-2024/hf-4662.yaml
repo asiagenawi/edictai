@@ -1,0 +1,84 @@
+id: us-mn-2023-2024-hf-4662
+jurisdiction: us-mn
+session: 2023-2024
+identifier: HF 4662
+title: Minnesota State Colleges and Universities faculty academic freedom protections established, artificial
+  intelligence working group created, and report required.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - institutional-operations
+  - task-force
+  - local-policy-requirement
+  - employment-evaluation
+summary: Bars Minnesota State Colleges and Universities institutions from using artificial or generative
+  intelligence as the primary instructor for a credit-bearing course or to provide library, counseling
+  and crisis intervention, athletic coaching, and training services, while preserving faculty use of AI.
+  Requires AI use by faculty or staff to be cited and made clear to students, and directs the Board of
+  Trustees to convene a work group to develop policies for safe and ethical AI use.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Bars AI from serving as the primary instructor for credit-bearing courses.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/text.php?number=HF4662&version=0&session=ls93&session_year=2024&session_number=0&format=pdf
+      locator: Sec. 1, new 136F.405, subd. 3(a)
+      quote: institutions may not use artificial or generative intelligence as the primary instructor
+        for a
+  - type: limits-ai-instructional-use
+    description: Bars AI from providing library, counseling and crisis intervention, coaching, and training
+      services.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/text.php?number=HF4662&version=0&session=ls93&session_year=2024&session_number=0&format=pdf
+      locator: Sec. 1, new 136F.405, subd. 3(b)
+      quote: generative intelligence to provide library services, counseling and crisis intervention services,
+  - type: requires-disclosure
+    description: Requires faculty and staff AI use to be cited and made clear to students.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/text.php?number=HF4662&version=0&session=ls93&session_year=2024&session_number=0&format=pdf
+      locator: Sec. 1, new 136F.405, subd. 3(d)
+      quote: State Colleges and Universities institution, it must be cited and made clear to students
+        as
+  - type: creates-task-force
+    description: Directs the Board of Trustees to convene an AI work group to develop policies and report
+      by May 1, 2025.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/text.php?number=HF4662&version=0&session=ls93&session_year=2024&session_number=0&format=pdf
+      locator: Sec. 2
+      quote: a work group to develop policies and procedures for the safe and ethical use of artificial
+sponsors:
+  - name: Dan Wolgamott
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-03-07"
+    description: Introduction and first reading, referred to Higher Education Finance and Policy
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-03-06"
+    url: https://www.revisor.mn.gov/bills/text.php?number=HF4662&version=0&session=ls93&session_year=2024&session_number=0&format=pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1861260
+sources:
+  - url: https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF4662&ssn=0&y=2023
+    title: HF 4662 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/text.php?number=HF4662&version=0&session=ls93&session_year=2024&session_number=0&format=pdf
+    title: HF 4662 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

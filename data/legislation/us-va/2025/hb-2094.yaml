@@ -1,0 +1,406 @@
+id: us-va-2025-hb-2094
+jurisdiction: us-va
+session: "2025"
+identifier: HB 2094
+title: High-risk artificial intelligence; definitions, development, deployment, and use, civil penalties.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Creates requirements for developers and deployers of high-risk artificial intelligence systems
+  used in consequential decisions, defined to include education enrollment or an education opportunity,
+  including disclosures, impact assessments, and measures against algorithmic discrimination, enforced
+  by the Attorney General with civil penalties.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Covers high-risk AI used in consequential decisions, including education enrollment or
+      opportunity, and requires developers to document and mitigate algorithmic discrimination risks.
+    citation:
+      source_url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094ER
+      locator: Sec. 59.1-607 (definition of consequential decision)
+      quote: effect on the provision or denial to any consumer of (i) parole, probation, a pardon, or
+        any other release from incarceration or court supervision; (ii) education enrollment or an education
+        opportunity
+sponsors:
+  - name: Michelle Maldonado
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jackie Glass
+    primary: false
+    party: D
+    chamber: lower
+  - name: C.E. Hayes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Irene Shin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bonita Anthony
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alex Askew
+    primary: false
+    party: D
+    chamber: lower
+  - name: Katrina Callsen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nadarius Clark
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Jane Cohen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joshua Cole
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kelly Convirs-Fowler
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Feggans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rozia Henson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Phil Hernandez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Charniele Herring
+    primary: false
+    party: D
+    chamber: lower
+  - name: Karen Keys-Gamarra
+    primary: false
+    party: D
+    chamber: lower
+  - name: Amy Laufer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Destiny LeVere Bolling
+    primary: false
+    party: D
+    chamber: lower
+  - name: Adele McClure
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marcia Price
+    primary: false
+    party: D
+    chamber: lower
+  - name: Holly Seibold
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shelly Simonds
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kathy Tran
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rodney Willett
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-07"
+    description: Prefiled and ordered printed; Offered 01-13-2025 25104439D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-07"
+    description: Referred to Committee on Communications, Technology and Innovation
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-01-22"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2094)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-23"
+    description: 'Assigned CT & I sub: Communications'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-27"
+    description: Subcommittee recommends reporting with substitute and referring to Appropriations (6-Y
+      4-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-27"
+    description: Reported from Communications, Technology and Innovation with substitute and referred
+      to Appropriations (12-Y 10-N)
+    actor: lower
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2025-01-27"
+    description: Committee substitute printed 25105027D-H1
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-01-27"
+    description: 'Assigned Approps sub: General Government and Capital Outlay'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-31"
+    description: Reported from Appropriations with substitute (12-Y 10-N)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-01-31"
+    description: Committee substitute printed 25106626D-H2
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-02-02"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-02-03"
+    description: Read second time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-02-03"
+    description: Passed by temporarily
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-03"
+    description: Read second time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-02-03"
+    description: Communications, Technology and Innovation Substitute rejected
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-03"
+    description: Appropriations Substitute agreed to
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-02-03"
+    description: Delegate Maldonado Amendments agreed to
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2025-02-03"
+    description: Engrossed by House - committee substitute as amended
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-02-03"
+    description: Printed as engrossed 25106626D-EH2
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Read third time and passed House (51-Y 47-N)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-02-05"
+    description: Constitutional reading dispensed (on 1st reading)
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-02-05"
+    description: Referred to Committee on General Laws and Technology
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-06"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2094)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-12"
+    description: Reported from General Laws and Technology with substitute and rereferred to Finance and
+      Appropriations (9-Y 3-N 3-A)
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2025-02-12"
+    description: Committee substitute printed 25107123D-S1
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-02-14"
+    description: Reported from Finance and Appropriations (9-Y 4-N)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-17"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2094)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-17"
+    description: Rules suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-17"
+    description: Constitutional reading dispensed (on 2nd reading) (39-Y 0-N)
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-02-17"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-02-18"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-02-19"
+    description: Read third time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-02-19"
+    description: Reading of substitute waived
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-19"
+    description: General Laws and Technology Substitute agreed to
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-19"
+    description: Engrossed by Senate - committee substitute
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-02-19"
+    description: Passed Senate with substitute (21-Y 19-N)
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-20"
+    description: Senate substitute agreed to by House (52-Y 46-N)
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-03-07"
+    description: Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-03-07"
+    description: Bill text as passed House and Senate (HB2094ER)
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-03-07"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2094)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-07"
+    description: Signed by Speaker
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-03-10"
+    description: Signed by President
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2025-03-11"
+    description: Enrolled Bill communicated to Governor on March 11, 2025
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-03-11"
+    description: Governor's Action Deadline 11:59 p.m., March 24, 2025
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-03-24"
+    description: Vetoed by Governor
+    actor: executive
+    classification:
+      - executive-veto
+  - date: "2025-04-02"
+    description: House sustained Governor's veto
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-07"
+    url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-01-27"
+    url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094H1
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-01-31"
+    url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094H2
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-02-03"
+    url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094EH2
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-12"
+    url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094SC1
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-13"
+    url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094S1
+    media_type: text/html
+  - note: Enrolled
+    date: "2025-03-07"
+    url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094ER
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1904645
+sources:
+  - url: https://lis.virginia.gov/bill-details/20251/HB2094
+    title: HB 2094 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/bill-details/20251/HB2094/text/HB2094ER
+    title: HB 2094 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

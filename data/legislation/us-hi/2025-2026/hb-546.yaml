@@ -1,0 +1,239 @@
+id: us-hi-2025-2026-hb-546
+jurisdiction: us-hi
+session: 2025-2026
+identifier: HB 546
+title: Relating To Artificial Intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - workforce
+  - educator-training
+  - research
+summary: Establishes the Aloha Intelligence Institute at the University of Hawaii to conduct AI research
+  and to foster AI-related degree programs, faculty and staff training, workforce initiatives, K-12 educational
+  programs, and student pathways aligned with the Department of Education. The institute must also develop
+  ethical guidelines for AI use in the State.
+provisions:
+  - type: ai-workforce-program
+    description: The institute must foster AI-related degree programs and training for faculty and staff.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB546_SD1_.HTM
+      locator: Section 2, new 304A- (b)(2)
+      quote: 'Foster training and education programs, including but not limited to: (A) Artificial intelligence-related
+        undergraduate and graduate degree programs; (B) Artificial intelligence-related training for university
+        faculty and staff;'
+  - type: ai-workforce-program
+    description: The institute must support K-12 educational programs and student pathways in AI-related
+      fields.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB546_SD1_.HTM
+      locator: Section 2, new 304A- (b)(2)(D)-(E)
+      quote: (D) Community outreach and K-12 educational programs; and (E) Creation of student pathways
+        in artificial intelligence-related fields that align with efforts from the department of education;
+sponsors:
+  - name: Andrew Garrett
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jeanne Kapela
+    primary: true
+    party: D
+    chamber: lower
+  - name: Darius Kila
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ikaika Olds
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jackson Sayama
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-17"
+    description: Pending introduction.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-21"
+    description: Introduced and Pass First Reading.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-01-21"
+    description: Referred to HED, ECD, FIN, referral sheet 2
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-01-28"
+    description: Bill scheduled to be heard by HED on Friday, 01-31-25 2:00PM in House conference room
+      309 VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-28"
+    description: Bill re-scheduled to be heard by HED on Friday, 01-31-25 2:15PM in conference room 309
+      VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-31"
+    description: 'The committee on HED recommend that the measure be PASSED, WITH AMENDMENTS. The votes
+      were as follows: 11 Ayes: Representative(s) Garrett, Amato, Evslin, Kapela, Kila, La Chica, Olds,
+      Sayama, Woodson, Muraoka, Souza; Ayes with reservations: none; 0 Noes: none; and 0 Excused: none.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-04"
+    description: Reported from HED (Stand. Com. Rep. No. 148) as amended in HD 1, recommending passage
+      on Second Reading and referral to ECD.
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-04"
+    description: Passed Second Reading as amended in HD 1 and referred to the committee(s) on ECD with
+      none voting aye with reservations; Representative(s) Pierick voting no (1) and Representative(s)
+      Cochran, Kong, Ward excused (3).
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-04"
+    description: Bill scheduled to be heard by ECD on Friday, 02-07-25 10:15AM in House conference room
+      423 VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-07"
+    description: 'The committee on ECD recommend that the measure be PASSED, UNAMENDED. The votes were
+      as follows: 7 Ayes: Representative(s) Ilagan, Hussey, Holt, Tam, Templo, Todd, Matsumoto; Ayes with
+      reservations: none; Noes: none; and Excused: none.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-11"
+    description: Reported from ECD (Stand. Com. Rep. No. 336), recommending referral to FIN.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-11"
+    description: Report adopted; referred to the committee(s) on FIN with none voting aye with reservations;
+      Representative(s) Pierick voting no (1) and Representative(s) Cochran, Ward excused (2).
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-19"
+    description: Bill scheduled to be heard by FIN on Friday, 02-21-25 10:00AM in House conference room
+      308 VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-21"
+    description: 'The committee on FIN recommend that the measure be PASSED, UNAMENDED. The votes were
+      as follows: 12 Ayes: Representative(s) Yamashita, Takenouchi, Grandinetti, Holt, Hussey, Keohokapu-Lee
+      Loy, Kitagawa, Kusch, Lamosao, Miyake, Templo, Reyes Oda; Ayes with reservations: none; 0 Noes:
+      none; and 4 Excused: Representative(s) Lee, M., Morikawa, Alcos, Ward.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-28"
+    description: Reported from FIN (Stand. Com. Rep. No. 916), recommending passage on Third Reading.
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-02-28"
+    description: Passed Third Reading with none voting aye with reservations; none voting no (0) and Representative(s)
+      Cochran, Pierick, Templo, Ward excused (4). Transmitted to Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-04"
+    description: Received from House (Hse. Com. No. 109).
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Passed First Reading.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-03-04"
+    description: Referred to HRE/LBT, WAM.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-14"
+    description: The committee(s) on HRE/LBT has scheduled a public hearing on 03-18-25 3:25PM; Conference
+      Room 229 &amp; Videoconference.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-18"
+    description: 'The committee(s) on HRE recommend(s) that the measure be PASSED, WITH AMENDMENTS. The
+      votes in HRE were as follows: 4 Aye(s): Senator(s) Kim, Kidani, Hashimoto, Fevella; Aye(s) with
+      reservations: none ; 0 No(es): none; and 1 Excused: Senator(s) Fukunaga.'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-03-18"
+    description: 'The committee(s) on LBT recommend(s) that the measure be PASSED, WITH AMENDMENTS. The
+      votes in LBT were as follows: 5 Aye(s): Senator(s) Aquino, Lee, C., Ihara, Moriwaki, Fevella; Aye(s)
+      with reservations: none ; 0 No(es): none; and 0 Excused: none.'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-03-20"
+    description: Reported from HRE/LBT (Stand. Com. Rep. No. 1207) with recommendation of passage on Second
+      Reading, as amended (SD 1) and referral to WAM.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-03-20"
+    description: Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.
+    actor: upper
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2025-12-08"
+    description: Carried over to 2026 Regular Session.
+    actor: legislature
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2025-01-17"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB546_.HTM
+    media_type: text/html
+  - note: Amended
+    date: "2025-02-04"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB546_HD1_.HTM
+    media_type: text/html
+  - note: Amended
+    date: "2025-03-20"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB546_SD1_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2064276
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=546&year=2026
+    title: HB 546 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB546_SD1_.HTM
+    title: HB 546 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

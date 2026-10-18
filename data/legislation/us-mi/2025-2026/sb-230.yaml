@@ -1,0 +1,63 @@
+id: us-mi-2025-2026-sb-230
+jurisdiction: us-mi
+session: 2025-2026
+identifier: SB 230
+title: 'Appropriations: school aid; appropriations for K-12 school aid; provide for. Amends & adds (See
+  bill).'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - funding
+  - instructional-use
+summary: Amends Michigan K-12 school aid appropriations. Directs Michigan Virtual University, from its
+  section 98 school aid allocation, to operate a statewide laboratory for research, best practices, policy
+  formulation, and awareness about responsible use of artificial intelligence in schools.
+provisions:
+  - type: appropriates-funding
+    description: Directs school aid funds allocated to Michigan Virtual University to operate a statewide
+      lab on responsible AI use in schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0230.htm
+      locator: Sec. 98(5)
+      quote: proactive efforts to enhance awareness about the responsible utilization of artificial intelligence
+        in schools.
+sponsors:
+  - name: Thomas Albert
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-04-22"
+    description: Introduced By Senator Thomas Albert
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-04-22"
+    description: Referred To Committee On Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-04-22"
+    url: https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0230.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2025453
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0230
+    title: SB 230 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0230.htm
+    title: SB 230 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

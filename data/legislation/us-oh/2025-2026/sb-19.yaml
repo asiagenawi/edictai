@@ -1,0 +1,236 @@
+id: us-oh-2025-2026-sb-19
+jurisdiction: us-oh
+session: 2025-2026
+identifier: SB 19
+title: Regards academic intervention, math improvement and intervention
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+summary: Revises academic intervention, mathematics improvement, and related school requirements, and
+  directs the Department of Education and Workforce to promote innovative educational programs, including
+  by publicizing model projects that use artificial intelligence in instruction.
+provisions:
+  - type: issues-model-policy
+    description: Directs the department to publicize model projects of educational innovation, including
+      projects that use AI in instruction.
+    citation:
+      source_url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/07_EN/pdf/
+      locator: Sec. 3302.07(D)(2)
+      quote: Publicize model projects of educational innovation, including projects that use artificial
+        intelligence in instruction;
+sponsors:
+  - name: Andrew Brenner
+    primary: true
+    party: R
+    chamber: upper
+  - name: Brian Chavez
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jerry Cirino
+    primary: true
+    party: R
+    chamber: upper
+  - name: Theresa Gavarone
+    primary: true
+    party: R
+    chamber: upper
+  - name: Stephen Huffman
+    primary: true
+    party: R
+    chamber: upper
+  - name: Catherine Ingram
+    primary: true
+    party: D
+    chamber: upper
+  - name: Terry Johnson
+    primary: true
+    party: R
+    chamber: upper
+  - name: Kyle Koehler
+    primary: true
+    party: R
+    chamber: upper
+  - name: George Lang
+    primary: true
+    party: R
+    chamber: upper
+  - name: Thomas Patton
+    primary: true
+    party: R
+    chamber: upper
+  - name: Bill Reineke
+    primary: true
+    party: R
+    chamber: upper
+  - name: Michele Reynolds
+    primary: true
+    party: R
+    chamber: upper
+  - name: Kristina Roegner
+    primary: true
+    party: R
+    chamber: upper
+  - name: Mark Romanchuk
+    primary: true
+    party: R
+    chamber: upper
+  - name: Timothy Schaffer
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jane Timken
+    primary: true
+    party: R
+    chamber: upper
+  - name: Shane Wilkin
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jack Daniels
+    primary: true
+    party: R
+    chamber: lower
+  - name: Michael Dovilla
+    primary: true
+    party: R
+    chamber: lower
+  - name: Sarah Fowler Arthur
+    primary: true
+    party: R
+    chamber: lower
+  - name: Mark Johnson
+    primary: true
+    party: R
+    chamber: lower
+  - name: Monica Robb Blasdel
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jason Stephens
+    primary: true
+    party: R
+    chamber: lower
+  - name: Josh Williams
+    primary: true
+    party: R
+    chamber: lower
+  - name: Tom Young
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-22"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-01-29"
+    description: 'Referred to committee: Education'
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-11-05"
+    description: 'Reported - Substitute: Education'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-11-12"
+    description: 'Recommitted: Education'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-11-18"
+    description: 'Reported - Substitute: Education'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-11-19"
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-11-25"
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-04"
+    description: 'Referred to committee: Education'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-09"
+    description: 'Reported - Substitute: Education'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-09"
+    description: Passed
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-06-10"
+    description: Concurred in House amendments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-12"
+    description: Sent To The Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-06-24"
+    description: Signed By The Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-09-23"
+    description: Effective
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/00_IN/pdf/
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/01_RS/pdf/
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/02_RCS/pdf/
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/03_RRS/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/04_PS/pdf/
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/05_RH/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/06_PH/pdf/
+    media_type: application/pdf
+  - note: Enrolled
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/07_EN/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1937109
+sources:
+  - url: https://www.legislature.ohio.gov/legislation/136/sb19
+    title: SB 19 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb19/07_EN/pdf/
+    title: SB 19 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

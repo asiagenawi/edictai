@@ -1,0 +1,95 @@
+id: us-119-s-3957
+jurisdiction: us
+session: "119"
+identifier: S. 3957
+title: NSF AI Education Act of 2026
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - workforce
+  - educator-training
+  - ai-literacy
+  - local-policy-requirement
+  - instructional-use
+summary: Directs the National Science Foundation to award scholarships for students studying artificial
+  intelligence, including the teaching of AI in schools and colleges, and fellowships for students, teachers,
+  and faculty in AI. Creates community college and vocational school Centers of AI Excellence and requires
+  guidance on the introduction and use of AI in elementary and secondary education.
+provisions:
+  - type: appropriates-funding
+    description: Directs NSF to award scholarships to undergraduates to study the teaching of AI and AI
+      skills at schools and institutions of higher education.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.pdf
+      locator: Sec. 3(c)(1)
+      quote: in order to enable such students to study the teaching of artificial intelligence and artifi-
+        cial intelligence skills at elementary schools
+  - type: educator-pd-requirement
+    description: Establishes an NSF program with AI fellowships for students, teachers, and faculty at
+      institutions of higher education.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.pdf
+      locator: Sec. 5(a)
+      quote: includ- ing through fellowships for students, teachers, faculty at institutions of higher
+        education, and industry profes- sionals.
+  - type: ai-workforce-program
+    description: Centers of AI Excellence at community colleges and vocational schools may focus on AI
+      education and training, including AI literacy.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.pdf
+      locator: Sec. 9(d)(3)
+      quote: (3) AI education and training related to appli- cations of AI-based technology and AI literacy.
+  - type: issues-model-policy
+    description: Directs NSF, with the Secretary of Education and others, to develop public guidance on
+      introducing and using AI in elementary and secondary education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.pdf
+      locator: Sec. 12(a)
+      quote: shall develop and make publicly available guidance for the intro- duction and use of artificial
+        intelligence in elementary and secondary education.
+sponsors:
+  - name: Jerry Moran
+    primary: true
+    party: R
+    chamber: upper
+  - name: Maria Cantwell
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-03-02"
+    description: Read twice and referred to the Committee on Commerce, Science, and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-03-18"
+    url: https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2127974
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/3957/all-info
+    title: S. 3957 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s3957/BILLS-119s3957is.pdf
+    title: S. 3957 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

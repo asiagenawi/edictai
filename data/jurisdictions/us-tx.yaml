@@ -5,3 +5,29 @@ abbreviation: TX
 classification: state
 fips: "48"
 region: Southwest
+sessions:
+  - identifier: "2023-s3"
+    name: 88th Legislature 3rd Special Session
+    classification: special
+    start_date: "2023-10-05"
+    legiscan_session_id: 2102
+  - identifier: "2023-s4"
+    name: 88th Legislature 4th Special Session
+    classification: special
+    start_date: "2023-11-07"
+    legiscan_session_id: 2108
+  - identifier: "2025-2026"
+    name: 89th Legislature Regular Session
+    classification: primary
+    start_date: "2025-01-02"
+    legiscan_session_id: 2160
+  - identifier: "2025-s1"
+    name: 89th Legislature 1st Special Session
+    classification: special
+    start_date: "2025-07-14"
+    legiscan_session_id: 2221
+  - identifier: "2025-s2"
+    name: 89th Legislature 2nd Special Session
+    classification: special
+    start_date: "2025-08-15"
+    legiscan_session_id: 2223

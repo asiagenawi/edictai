@@ -1,0 +1,985 @@
+id: us-nc-2025-2026-s-257
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 257
+title: 2026 Appropriations Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - local-policy-requirement
+  - educator-training
+  - instructional-use
+  - funding
+  - student-privacy
+  - academic-integrity
+summary: The Current Operations Appropriations Act of 2026 funds AI programs letting public school units
+  buy Khanmigo and MagicSchool licenses for grades 6-12 and a Wake County-Wake Tech math project using
+  Khanmigo. It requires K-12 AI literacy standards in the computer science course of study, a Department
+  of Public Instruction model AI policy, local AI policies, and AI training modules for educators.
+provisions:
+  - type: ai-in-standards
+    description: Requires the State Board to revise the K-12 computer science standards to include AI
+      literacy.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v8.pdf
+      locator: Sec. 7.39.(b)
+      quote: the State Board of Education shall revise the standard course of study for computer science
+        for grades kindergarten through 12 to include artificial intelligence literacy in accordance with
+        G.S. 115C-81.90(a1), as enacted by this section.
+  - type: issues-model-policy
+    description: Requires DPI to develop a model AI policy for public school units.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v8.pdf
+      locator: Sec. 7.39, new G.S. 115C-102.13
+      quote: The Department of Public Instruction shall develop a model artificial intelligence (AI) policy
+        to serve as guidance to public school units when developing their AI policies.
+  - type: appropriates-funding
+    description: Funds public school unit licenses for the Khanmigo AI academic support tool in grades
+      6-12.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v8.pdf
+      locator: Sec. 7.15, new G.S. 115C-238.90(a)
+      quote: for use of the academic support service Khanmigo, in grades six through 12. Khanmigo is an
+        application that uses artificial intelligence to support teachers with lesson plan development
+        and to support students with lesson comprehension.
+  - type: educator-pd-requirement
+    description: Specifies educator AI training content including responsible instructional use and verification.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v8.pdf
+      locator: Sec. 7.39, training modules
+      quote: '(2) Responsible instructional use of AI, such as the following: a. Lesson planning. b. Differentiated
+        instruction. c. Student feedback.'
+sponsors:
+  - name: William Jackson
+    primary: true
+    party: R
+    chamber: upper
+  - name: Ralph Hise
+    primary: true
+    party: R
+    chamber: upper
+  - name: Michael Lee
+    primary: true
+    party: R
+    chamber: upper
+  - name: Norman Sanderson
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-03-10"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-11"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-03-11"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-11"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-11"
+    description: Re-ref Com On Appropriations/Base Budget
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Re-ref to Appropriations/Base Budget. If fav, re-ref to Finance. If fav, re-ref to Pensions
+      and Retirement and Aging
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-15"
+    description: Reptd Fav Com Sub with Unengrossed Amend
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-15"
+    description: Com Amend Adopted A1
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-15"
+    description: Com Amend Adopted A2
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-15"
+    description: Re-ref Com On Finance
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-15"
+    description: Reptd Fav
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-15"
+    description: Re-ref Com On Pensions and Retirement and Aging
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-15"
+    description: Reptd Fav Com Substitute
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-15"
+    description: Com Substitute Adopted
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-04-16"
+    description: Amend Adopted A2
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A1
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A3
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Tabled A4
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Adopted A6
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A5
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A8
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A7
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amendment Withdrawn A9
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Tabled A10
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Adopted A12
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A11
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A14
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A13
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A16
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A15
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A18
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A17
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A20
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A19
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amendment Ruled Out-of-Order A21
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A23
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A22
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A25
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A24
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Tabled A26
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Tabled A27
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Tabled A28
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Tabled A29
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amendment Withdrawn A30
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A32
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A31
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Tabled A33
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Tabled A34
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Tabled A35
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amendment Withdrawn A36
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A38
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A37
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A40
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A39
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Tabled A41
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amendment Withdrawn A42
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Tabled A43
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amendment Withdrawn A44
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Tabled A45
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Tabled A46
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Tabled A47
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-16"
+    description: Amend Adopted A49
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A48
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Amend Adopted A51
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-16"
+    description: Amend Failed A50
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-16"
+    description: Passed 2nd Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-17"
+    description: Passed 3rd Reading
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-17"
+    description: Engrossed
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-28"
+    description: Regular Message Sent To House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-28"
+    description: Regular Message Received From Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Passed 1st Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-04-29"
+    description: Ref to the Com on Appropriations, if favorable, Finance, if favorable, Pensions and Retirement
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-05-14"
+    description: Serial Referral To Pensions and Retirement Stricken
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-05-14"
+    description: Withdrawn From Com
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-14"
+    description: Re-ref to the Com on Finance, if favorable, Appropriations, if favorable, Pensions and
+      Retirement
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-15"
+    description: Serial Referral To Appropriations Stricken
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-05-15"
+    description: Serial Referral To Pensions and Retirement Stricken
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-05-15"
+    description: Withdrawn From Com
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-15"
+    description: Re-ref to the Com on Rules, Calendar, and Operations of the House, if favorable, Finance,
+      if favorable, Appropriations, if favorable, Pensions and Retirement
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-19"
+    description: Reptd Fav Com Substitute
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-19"
+    description: Ruled Material
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-19"
+    description: Re-ref Com On Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Re-ref Com On Appropriations
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Reptd Fav Com Sub 2
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Re-ref Com On Pensions and Retirement
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-21"
+    description: Cal Pursuant Rule 36(b)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Added to Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A1
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A2
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A3
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A4
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A5
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A6
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A7
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A8
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A9
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Adopted A10
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-21"
+    description: Amend Failed A12
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A13
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A14
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A15
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A17
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A11
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A16
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A18
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A19
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A20
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A21
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amendment Withdrawn A22
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A24
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A25
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A26
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A27
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A28
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A29
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A30
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A31
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A32
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A33
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A34
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A35
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A36
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A37
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Adopted A38
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-21"
+    description: Amend Failed A39
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Failed A40
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Tabled A41
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-05-21"
+    description: Amend Tabled A42
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-05-21"
+    description: Amend Adopted A43
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-21"
+    description: Amend Failed A44
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Amend Tabled A45
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-05-21"
+    description: Amend Adopted A23
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-21"
+    description: Passed 2nd Reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-05-22"
+    description: Amend Adopted A46
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-22"
+    description: Passed 3rd Reading
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-05-22"
+    description: Ordered Engrossed
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-23"
+    description: Regular Message Sent To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-27"
+    description: Regular Message Received For Concurrence in H Com Sub
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-27"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-06-02"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-02"
+    description: Placed On Cal For 06/03/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-03"
+    description: Failed Concur In H Com Sub
+    actor: upper
+    classification:
+      - failure
+  - date: "2025-06-03"
+    description: Conf Com Appointed
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-05"
+    description: Conf Com Appointed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Conf Com Dismissed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Conferees Reappointed
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-06-29"
+    description: Conferees Changed
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-06-29"
+    description: Conf Com Dismissed
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Conferees Reappointed
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-06-30"
+    description: Conf Com Reported
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-30"
+    description: Held As Material
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-30"
+    description: Placed On Cal For 07/01/2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-30"
+    description: Conf Com Reported
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-30"
+    description: Ruled Material
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-30"
+    description: Re-ref Com On Rules, Calendar, and Operations of the House
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-30"
+    description: Withdrawn From Com
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-30"
+    description: Placed On Cal For 07/01/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Conf Report Passed 2nd
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-07-01"
+    description: Conf Report Adopted 2nd
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-07-02"
+    description: Conf Report Adopted 3rd
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-07-02"
+    description: Conf Report Adopted 3rd
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-07-02"
+    description: Ordered Enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-07-02"
+    description: Ratified
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-07-02"
+    description: Pres. To Gov. 7/2/2026
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-07-07"
+    description: Signed by Gov. 7/7/2026
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-07-07"
+    description: Ch. SL 2026-41
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-03-10"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-03-11"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v1.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-04-15"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v2.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-04-17"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v3.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-05-19"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v4.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-05-20"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v5.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-05-22"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v6.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-07-02"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v7.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-07-07"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v8.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1996111
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S257
+    title: S 257 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v8.pdf
+    title: S 257 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

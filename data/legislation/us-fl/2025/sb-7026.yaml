@@ -1,0 +1,131 @@
+id: us-fl-2025-sb-7026
+jurisdiction: us-fl
+session: "2025"
+identifier: SB 7026
+title: Information Technology
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+summary: Reorganizes state information technology governance and moves the Government Technology Modernization
+  Council into the new agency, amending the council's duties, which include studying artificial intelligence
+  in state government and evaluating the need for curriculum to prepare school age audiences with digital
+  media and visual literacy skills.
+provisions:
+  - type: creates-task-force
+    description: As amended, the council must evaluate the need for curriculum to prepare school age audiences
+      with digital media and visual literacy skills.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2025/7026/BillText/Filed/HTML
+      locator: Section 28, s. 282.802(7)(g)
+      quote: (g) Evaluate the need for curriculum to prepare school age audiences with the digital media
+        and visual literacy skills needed to navigate the digital information landscape.
+sponsors:
+  - name: Appropriations
+    classification: committee
+    primary: true
+actions:
+  - date: "2025-03-17"
+    description: Submitted for consideration by Appropriations
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-17"
+    description: On Committee agenda-- Appropriations, 03/20/25, 9:00 am, 110 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-20"
+    description: Submitted as Committee Bill and Reported Favorably by Appropriations; YEAS 18 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-24"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-24"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-04-03"
+    description: Placed on Special Order Calendar, 04/09/25
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-09"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-09"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-04-09"
+    description: Passed; YEAS 36 NAYS 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-09"
+    description: The Senate requests that the House pass the bill as passed by the Senate or agree to
+      include the bill in the Budget Conference
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-09"
+    description: Immediately certified
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-09"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-03"
+    description: Indefinitely postponed and withdrawn from consideration
+    actor: lower
+    classification:
+      - withdrawal
+  - date: "2025-06-16"
+    description: Died in Messages, companion bill(s) passed, see SB 2500 (Ch. 2025-198), SB 2502 (Ch.
+      2025-199)
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Prefiled
+    date: "2025-03-17"
+    url: https://www.flsenate.gov/Session/Bill/2025/7026/BillText/pb/HTML
+    media_type: text/html
+  - note: Introduced
+    date: "2025-03-24"
+    url: https://www.flsenate.gov/Session/Bill/2025/7026/BillText/Filed/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2009168
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2025/7026
+    title: SB 7026 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2025/7026/BillText/Filed/HTML
+    title: SB 7026 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

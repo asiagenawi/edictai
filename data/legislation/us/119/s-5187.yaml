@@ -1,0 +1,69 @@
+id: us-119-s-5187
+jurisdiction: us
+session: "119"
+identifier: S. 5187
+title: PHD Talent Act of 2026 Promoting High-skilled Doctoral Talent Act of 2026
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Requires the Secretary of Energy to establish a program supporting accelerated doctoral programs
+  at institutions of higher education in specified technology areas, including artificial intelligence.
+  Participating institutions must provide education and training to develop dual competency, defined to
+  include applying AI and related computational methods to research in a discipline.
+provisions:
+  - type: ai-workforce-program
+    description: Defines dual competency to include applying AI and related computational methods to research
+      in a discipline.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5187/BILLS-119s5187is.pdf
+      locator: Sec. 3(3)(B)
+      quote: the application of artificial intelligence, advanced computing, data science, machine learning,
+        or related computational methods to research in that discipline.
+  - type: ai-workforce-program
+    description: Participating institutions must provide education and training to develop dual competency.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5187/BILLS-119s5187is.pdf
+      locator: Sec. 4(e)(3)
+      quote: provide education and training to develop dual competency;
+sponsors:
+  - name: Mark Warner
+    primary: true
+    party: D
+    chamber: upper
+  - name: Todd Young
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-07-30"
+    description: Read twice and referred to the Committee on Energy and Natural Resources.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-08-05"
+    url: https://www.congress.gov/119/bills/s5187/BILLS-119s5187is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2156688
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/5187/all-info
+    title: S. 5187 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s5187/BILLS-119s5187is.pdf
+    title: S. 5187 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

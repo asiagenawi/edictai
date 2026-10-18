@@ -1,0 +1,211 @@
+id: us-va-2025-sb-1214
+jurisdiction: us-va
+session: "2025"
+identifier: SB 1214
+title: High-risk artificial intelligence; development, deployment, and use by public bodies, report.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Sets requirements for state public bodies that develop, deploy, or integrate high-risk artificial
+  intelligence systems used in consequential decisions, defined to include education enrollment or an
+  education opportunity, including documentation, acceptable use policies, and measures against algorithmic
+  discrimination, and directs the Chief Information Officer to adopt related policies.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Covers high-risk AI used by public bodies in consequential decisions, including education
+      enrollment or opportunity, and requires measures against algorithmic discrimination.
+    citation:
+      source_url: https://lis.virginia.gov/bill-details/20251/SB1214/text/SB1214S2
+      locator: Definitions, "consequential decision"
+      quote: effect on the provision or denial to any consumer of, or the cost or terms of, (i) education
+        enrollment or an education opportunity
+sponsors:
+  - name: Lashrecse Aird
+    primary: true
+    party: D
+    chamber: upper
+  - name: Michelle Maldonado
+    primary: false
+    party: D
+    chamber: lower
+  - name: Elizabeth Bennett-Parker
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marcia Price
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-08"
+    description: Prefiled and ordered printed; Offered 01-08-2025 25102954D
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-01-08"
+    description: Referred to Committee on General Laws and Technology
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-01-24"
+    description: Reported from General Laws and Technology with substitute and rereferred to Finance and
+      Appropriations (14-Y 0-N)
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2025-01-24"
+    description: Committee substitute printed 25106036D-S1
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-01-28"
+    description: Fiscal Impact Statement from Department of Planning and Budget (SB1214)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-01-30"
+    description: Reported from Finance and Appropriations with substitute (15-Y 0-N)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-01-30"
+    description: Committee substitute printed 25106630D-S2
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-02-03"
+    description: Fiscal Impact Statement from Department of Planning and Budget (SB1214)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-03"
+    description: Rules suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-03"
+    description: Constitutional reading dispensed (on 1st reading) (40-Y 0-N)
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-02-03"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-02-04"
+    description: Read second time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-02-04"
+    description: General Laws and Technology Substitute rejected
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Reading of substitute waived
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Finance and Appropriations Substitute agreed to
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-04"
+    description: Engrossed by Senate - committee substitute
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-02-04"
+    description: Rules suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Constitutional reading dispensed (on 3rd reading) (39-Y 0-N)
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-02-04"
+    description: Passed Senate (40-Y 0-N)
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-07"
+    description: Placed on Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-07"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-02-07"
+    description: Referred to Committee on Communications, Technology and Innovation
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-07"
+    description: 'Assigned CT & I sub: Communications'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-10"
+    description: Subcommittee recommends reporting and referring to Appropriations (7-Y 3-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-10"
+    description: Reported from Communications, Technology and Innovation and referred to Appropriations
+      (13-Y 8-N)
+    actor: lower
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2025-02-18"
+    description: Left in Appropriations
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-08"
+    url: https://lis.virginia.gov/bill-details/20251/SB1214/text/SB1214
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-01-24"
+    url: https://lis.virginia.gov/bill-details/20251/SB1214/text/SB1214SC1
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-01-27"
+    url: https://lis.virginia.gov/bill-details/20251/SB1214/text/SB1214S1
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-03"
+    url: https://lis.virginia.gov/bill-details/20251/SB1214/text/SB1214S2
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1911036
+sources:
+  - url: https://lis.virginia.gov/bill-details/20251/SB1214
+    title: SB 1214 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/bill-details/20251/SB1214/text/SB1214S2
+    title: SB 1214 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

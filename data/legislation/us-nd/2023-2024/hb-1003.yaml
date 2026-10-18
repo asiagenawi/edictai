@@ -1,0 +1,523 @@
+id: us-nd-2023-2024-hb-1003
+jurisdiction: us-nd
+session: 2023-2024
+identifier: HB 1003
+title: Matching grants for legal education and the workforce education advisory council; to provide for
+  a transfer; to provide for a legislative management study; to provide loan authorization for the Mayville
+  state university old main project; to provide for a report; to provide an exemption; to provide legislative
+  intent; and to declare an emergency.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+summary: Appropriates funds for the North Dakota University System and directs the legislative management
+  to consider studying the impacts of artificial intelligence, including its effects on student learning,
+  and to report findings and recommendations to the next legislative assembly.
+provisions:
+  - type: creates-task-force
+    description: Directs an interim legislative management study of AI impacts that must include effects
+      on student learning.
+    citation:
+      source_url: https://ndlegis.gov/assembly/68-2023/regular/documents/23-0232-05000.pdf
+      locator: Sec. 44
+      quote: The study must include a review of the effect of artificial intelligence on the provision
+        of health care, effects on student learning
+sponsors:
+  - name: Appropriations
+    classification: committee
+    primary: true
+actions:
+  - date: "2023-01-03"
+    description: Introduced, first reading, referred to Appropriations
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2023-01-05"
+    description: Committee Hearing 10:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-10"
+    description: Committee Hearing 10:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-10"
+    description: Committee Hearing 01:45
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-10"
+    description: Committee Hearing 02:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-10"
+    description: Committee Hearing 03:15
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-11"
+    description: Committee Hearing 08:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-11"
+    description: Committee Hearing 09:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-11"
+    description: Committee Hearing 10:15
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-11"
+    description: Committee Hearing 11:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-11"
+    description: Committee Hearing 01:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-11"
+    description: Committee Hearing 02:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-11"
+    description: Committee Hearing 03:15
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-12"
+    description: Committee Hearing 08:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-12"
+    description: Committee Hearing 09:15
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-12"
+    description: Committee Hearing 10:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-18"
+    description: Committee Hearing 03:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-20"
+    description: Committee Hearing 08:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-23"
+    description: Committee Hearing 08:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-23"
+    description: Committee Hearing 02:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-24"
+    description: Committee Hearing 08:30
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-25"
+    description: Committee Hearing 02:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-26"
+    description: Committee Hearing 02:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-30"
+    description: Committee Hearing 10:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-01-31"
+    description: Committee Hearing 03:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-02-03"
+    description: Committee Hearing 10:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-02-06"
+    description: Committee Hearing 02:52
+    actor: lower
+    classification:
+      - other
+  - date: "2023-02-07"
+    description: Committee Hearing 09:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-02-10"
+    description: Committee Hearing 09:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-02-13"
+    description: Committee Hearing 09:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-02-14"
+    description: Committee Hearing 09:00
+    actor: lower
+    classification:
+      - other
+  - date: "2023-02-17"
+    description: Committee Hearing 08:45
+    actor: lower
+    classification:
+      - other
+  - date: "2023-02-20"
+    description: Reported back amended, do pass, amendment placed on calendar 20 2 1
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-02-21"
+    description: Amendment adopted, placed on calendar
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2023-02-21"
+    description: Second reading, passed, yeas 78 nays 15, Emergency clause carried
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-03-03"
+    description: Received from House
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-03"
+    description: Introduced, first reading, (emergency), referred to Appropriations
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2023-03-03"
+    description: Committee Hearing 08:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: Committee Hearing 08:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: Committee Hearing 09:15
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: Committee Hearing 10:15
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: Committee Hearing 11:15
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: Committee Hearing 02:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: Committee Hearing 02:45
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: Committee Hearing 03:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-08"
+    description: Committee Hearing 08:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-08"
+    description: Committee Hearing 09:15
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-08"
+    description: Committee Hearing 10:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-08"
+    description: Committee Hearing 11:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-09"
+    description: Committee Hearing 08:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-09"
+    description: Committee Hearing 09:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-13"
+    description: Committee Hearing 08:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-13"
+    description: Committee Hearing 09:15
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-16"
+    description: Committee Hearing 08:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-21"
+    description: Committee Hearing 09:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-22"
+    description: Committee Hearing 02:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-23"
+    description: Committee Hearing 09:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-29"
+    description: Committee Hearing 08:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-29"
+    description: Committee Hearing 02:30
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-30"
+    description: Committee Hearing 09:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-03"
+    description: Committee Hearing 10:15
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-03"
+    description: Committee Hearing 03:19
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Committee Hearing 08:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Committee Hearing 03:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-06"
+    description: Committee Hearing 10:10
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-06"
+    description: Committee Hearing 02:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-07"
+    description: Committee Hearing 11:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-10"
+    description: Committee Hearing 09:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-11"
+    description: Committee Hearing 11:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-11"
+    description: Committee Hearing 03:00
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-12"
+    description: Reported back amended, do pass, amendment placed on calendar 13 2 1
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2023-04-12"
+    description: Amendment adopted, placed on calendar
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2023-04-12"
+    description: Second reading, passed as amended, yeas 40 nays 6
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2023-04-12"
+    description: Emergency clause carried
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-12"
+    description: Returned to House (12)
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-13"
+    description: Refused to concur
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-13"
+    description: Conference committee appointed Sanford Swiontek Martinson
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2023-04-17"
+    description: Conference committee appointed Sorvaag Schaible Krebsbach
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2023-04-25"
+    description: Reported back from conference committee, amend, placed on calendar
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2023-04-26"
+    description: Conference committee report adopted
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2023-04-26"
+    description: Second reading, passed, yeas 69 nays 23, Emergency clause carried
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-04-26"
+    description: Reported back from conference committee, amend, placed on calendar
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2023-04-26"
+    description: Conference committee report adopted
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2023-04-26"
+    description: Second reading, passed as amended, yeas 45 nays 2
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2023-04-26"
+    description: Emergency clause carried
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-27"
+    description: Signed by President
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2023-04-28"
+    description: Signed by Speaker
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2023-04-28"
+    description: Sent to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2023-05-18"
+    description: Signed by Governor 05/08
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2023-05-18"
+    description: Filed with Secretary Of State 05/09
+    actor: lower
+    classification:
+      - introduction
+versions:
+  - note: Prefiled
+    date: "2022-12-28"
+    url: https://ndlegis.gov/assembly/68-2023/regular/documents/23-0232-01000.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2023-02-20"
+    url: https://ndlegis.gov/assembly/68-2023/regular/documents/23-0232-02000.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-04-12"
+    url: https://ndlegis.gov/assembly/68-2023/regular/documents/23-0232-03000.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-04-26"
+    url: https://ndlegis.gov/assembly/68-2023/regular/documents/23-0232-04000.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2023-04-28"
+    url: https://ndlegis.gov/assembly/68-2023/regular/documents/23-0232-05000.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1640560
+sources:
+  - url: https://ndlegis.gov/assembly/68-2023/regular/bill-overview/bo1003.html
+    title: HB 1003 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://ndlegis.gov/assembly/68-2023/regular/documents/23-0232-05000.pdf
+    title: HB 1003 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

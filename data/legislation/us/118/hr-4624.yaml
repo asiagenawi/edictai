@@ -1,0 +1,123 @@
+id: us-118-hr-4624
+jurisdiction: us
+session: "118"
+identifier: H.R. 4624
+title: Algorithmic Justice and Online Platform Transparency Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Prohibits online platforms from using algorithmic processes that discriminate in offering housing,
+  employment, credit, insurance, healthcare, or education opportunities, and requires platforms to assess
+  whether such processes produce disparate outcomes.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Platforms using algorithmic processes relating to education opportunities must assess
+      whether they produce disparate outcomes.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr4624/BILLS-118hr4624ih.pdf
+      locator: Sec. 4(a)(2)(A)(iv)
+      quote: if the online platform (except for a small business) utilizes an algorithmic process that
+        relates to opportunities for housing, education, employment, insurance, credit, or the access
+        to or terms of use of any place of public accommodations
+sponsors:
+  - name: Doris Matsui
+    primary: true
+    party: D
+    chamber: lower
+  - name: Kweisi Mfume
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Gay Scanlon
+    primary: false
+    party: D
+    chamber: lower
+  - name: Pramila Jayapal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maxwell Frost
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rashida Tlaib
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andre Carson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anna Eshoo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Raul Grijalva
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sheila Jackson-Lee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jamaal Bowman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mark DeSaulnier
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steve Cohen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jamie Raskin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Summer Lee
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-07-13"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-07-13"
+    description: Referred to the House Committee on Energy and Commerce.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-07-14"
+    description: Referred to the Subcommittee on Communications and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-08-04"
+    url: https://www.congress.gov/118/bills/hr4624/BILLS-118hr4624ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1774448
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/4624/all-info
+    title: H.R. 4624 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr4624/BILLS-118hr4624ih.pdf
+    title: H.R. 4624 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

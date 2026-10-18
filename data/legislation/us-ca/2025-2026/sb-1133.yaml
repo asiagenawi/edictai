@@ -1,0 +1,173 @@
+id: us-ca-2025-2026-sb-1133
+jurisdiction: us-ca
+session: 2025-2026
+identifier: SB 1133
+title: 'Pupil instruction: preventative health instruction.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Enacts the Ready to Learn, Ready for Health Act, requiring the Instructional Quality Commission,
+  when the Health Education Framework is next revised on or after January 1, 2027, to consider including
+  preventative health information, including the impacts and responsible use of social media, artificial
+  intelligence, and digital platforms.
+provisions:
+  - type: ai-in-standards
+    description: When the health framework is next revised, the commission must consider including information
+      on the impacts and responsible use of AI.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1133#96CHP
+      locator: Sec. 2, new 33546.7(d)
+      quote: The impacts and responsible use of social media, artificial intelligence, and digital platforms.
+sponsors:
+  - name: Tony Strickland
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-02-17"
+    description: Introduced. Read first time. To Com. on RLS. for assignment. To print.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-18"
+    description: From printer. May be acted upon on or after March 20.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-23"
+    description: From committee with author's amendments. Read second time and amended. Re-referred to
+      Com. on ED.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-04-02"
+    description: Set for hearing April 15.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-15"
+    description: 'From committee: Do pass and re-refer to Com. on APPR. with recommendation: To consent
+      calendar. (Ayes 7. Noes 0. Page 3899.) (April 15). Re-referred to Com. on APPR.'
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-04-17"
+    description: Set for hearing April 27.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-27"
+    description: 'From committee: Be ordered to second reading pursuant to Senate Rule 28.8 and ordered
+      to consent calendar.'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Read second time. Ordered to consent calendar.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-04-30"
+    description: Read third time. Passed. (Ayes 36. Noes 0. Page 4114.) Ordered to the Assembly.
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-30"
+    description: In Assembly. Read first time. Held at Desk.
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-05-11"
+    description: Referred to Com. on ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-18"
+    description: 'From committee: Do pass and re-refer to Com. on APPR. with recommendation: To consent
+      calendar. (Ayes 8. Noes 0.) (June 17). Re-referred to Com. on APPR.'
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-07-01"
+    description: 'From committee: Do pass. Ordered to consent calendar. (Ayes 11. Noes 0.) (July 1).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-07-02"
+    description: Read second time. Ordered to consent calendar.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-08-06"
+    description: Read third time. Passed. (Ayes 61. Noes 0. Page 6085.) Ordered to the Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-08-06"
+    description: In Senate. Ordered to engrossing and enrolling.
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-08-11"
+    description: Enrolled and presented to the Governor at 3 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-08-22"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-08-22"
+    description: Chaptered by Secretary of State. Chapter 120, Statutes of 2026.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2026-02-17"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1133#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-03-23"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1133#98AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-08-07"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1133#97ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2026-08-22"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1133#96CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2118691
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1133
+    title: SB 1133 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1133#96CHP
+    title: SB 1133 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,121 @@
+id: us-119-hr-7757
+jurisdiction: us
+session: "119"
+identifier: H.R. 7757
+title: SCREEN Act Shielding Children’s Retinas from Egregious Exposure on the Net Act Safeguarding Adolescents
+  From Exploitative BOTs Act SAFE BOTs Act Kids Online Safety Act Stop Profiling Youth and Kids Act SPY
+  Kids Act Kids Internet Safety Partnership Act Safe Social Media Act No Fentanyl on Social Media Act
+  Assessing Safety Tools for Parents and Minors Act Promoting a Safe Internet for Minors Act AI Warnings
+  And Resources for Education Act AWARE Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - ai-literacy
+summary: Requires the Federal Trade Commission to develop and publish educational resources for parents,
+  educators, and minors on the safe and responsible use of chatbots by minors, covering risks and benefits
+  and privacy practices. The bill also regulates chatbot providers' statements and disclosures to minors.
+provisions:
+  - type: chatbot-minor-protections
+    description: Directs the FTC to develop public educational resources for parents, educators, and minors
+      on safe chatbot use by minors.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr7757/BILLS-119hr7757eh.pdf
+      locator: Sec. 524(a)
+      quote: sources for parents, educators, and minors with respect to the safe and responsible use of
+        chatbots by minors.
+sponsors:
+  - name: Brett Guthrie
+    primary: true
+    party: R
+    chamber: lower
+  - name: Frank Pallone
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-03-03"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-03-03"
+    description: Referred to the Committee on Energy and Commerce, and in addition to the Committee on
+      the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration
+      of such provisions as fall within the jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-29"
+    description: Mr. Guthrie moved to suspend the rules and pass the bill, as amended.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: 'Considered under suspension of the rules. (consideration: CR H4280-4296)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: DEBATE - The House proceeded with forty minutes of debate on H.R. 7757.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to
+      the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion
+      would be postponed.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-06-29"
+    description: 'Considered as unfinished business. (consideration: CR H4302)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: 'On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and
+      Nays: (2/3 required): 267 - 117 (Roll no. 228). (text: CR H4280-4292)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Motion to reconsider laid on the table Agreed to without objection.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-07-13"
+    description: Received in the Senate and Read twice and referred to the Committee on Commerce, Science,
+      and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - passage
+versions:
+  - note: Introduced
+    date: "2026-03-03"
+    url: https://www.congress.gov/119/bills/hr7757/BILLS-119hr7757ih.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-06-30"
+    url: https://www.congress.gov/119/bills/hr7757/BILLS-119hr7757eh.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2128711
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/7757/all-info
+    title: H.R. 7757 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr7757/BILLS-119hr7757eh.pdf
+    title: H.R. 7757 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

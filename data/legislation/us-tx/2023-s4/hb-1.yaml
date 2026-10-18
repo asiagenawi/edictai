@@ -1,0 +1,279 @@
+id: us-tx-2023-s4-hb-1
+jurisdiction: us-tx
+session: 2023-s4
+identifier: HB 1
+title: Relating to primary and secondary education, including the certification, compensation, and health
+  coverage of certain public school employees, the public school finance system, special education in
+  public schools, the establishment of an education savings account program, measures to support the education
+  of public school students that include certain educational grant programs, reading instruction, and
+  early childhood education, the provision of virtual education, and public school accountability.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - assessment
+  - task-force
+summary: Omnibus public education bill addressing educator certification and pay, school finance, special
+  education, education savings accounts and other topics. In Sec. 39.456, it calls for review of the statewide
+  assessment and accountability system, including grading systems and the use of artificial intelligence
+  in grading.
+provisions:
+  - type: regulates-ai-assessment
+    description: Requires the assessment and accountability review to address grading systems, including
+      the use of AI in grading.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/884/billtext/html/HB00001H.htm
+      locator: Sec. 39.456
+      quote: grading systems and the impact that those systems will have on the assessment and accountability
+        system, including the use of artificial intelligence in grading systems;
+sponsors:
+  - name: Brad Buckley
+    primary: true
+    party: R
+    chamber: lower
+  - name: Charles Anderson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Briscoe Cain
+    primary: false
+    party: R
+    chamber: lower
+  - name: James Frank
+    primary: false
+    party: R
+    chamber: lower
+  - name: Carrie Isaac
+    primary: false
+    party: R
+    chamber: lower
+  - name: Stephanie Klick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jeff Leach
+    primary: false
+    party: R
+    chamber: lower
+  - name: Terri Leo-Wilson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Janie Lopez
+    primary: false
+    party: R
+    chamber: lower
+  - name: J.M. Lozano
+    primary: false
+    party: R
+    chamber: lower
+  - name: Candy Noble
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jared Patterson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Dennis Paul
+    primary: false
+    party: R
+    chamber: lower
+  - name: Valoree Swanson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Carl Tepper
+    primary: false
+    party: R
+    chamber: lower
+  - name: Cody Vasut
+    primary: false
+    party: R
+    chamber: lower
+  - name: Terry Wilson
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-11-07"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-11-07"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2023-11-07"
+    description: Referred to Educational Opportunity & Enrichment, Select
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-11-09"
+    description: Scheduled for public hearing on . . .
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-09"
+    description: Considered in public hearing
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-09"
+    description: Testimony taken/registration(s) recorded in committee
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-09"
+    description: Left pending in committee
+    actor: lower
+    classification:
+      - deferral
+  - date: "2023-11-10"
+    description: Considered in public hearing
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-10"
+    description: Reported favorably w/o amendment(s)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-11-15"
+    description: Comte report filed with Committee Coordinator
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-16"
+    description: Committee report distributed
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-11-16"
+    description: Committee report sent to Calendars
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-11-16"
+    description: Considered in Calendars
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Placed on General State Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-11-17"
+    description: Postponed
+    actor: lower
+    classification:
+      - deferral
+  - date: "2023-11-17"
+    description: Laid out as postponed business
+    actor: lower
+    classification:
+      - deferral
+  - date: "2023-11-17"
+    description: Amendment(s) offered 1-Buckley
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Amendment to amendment offered 2-Raney, Darby, Allison, Dean, and Shine
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Point of order overruled (amendment) Rule 11, Section 2, and Rule 11, Section 3
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Point of order withdrawn (amendment) Article III, Section 40
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Amendment amended 2-Raney, Darby, Allison, Dean, and Shine
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Record vote RV#56
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Motion to reconsider and table prevails
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Record vote RV#57
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Amendment adopted as amended 1-Buckley
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2023-11-17"
+    description: Record vote RV#58
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Motion to reconsider and table prevails
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Record vote RV#59
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Statement(s) of vote recorded in Journal
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-17"
+    description: Recommitted to committee
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-11-07"
+    url: https://capitol.texas.gov/tlodocs/884/billtext/html/HB00001I.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2023-11-16"
+    url: https://capitol.texas.gov/tlodocs/884/billtext/html/HB00001H.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1782999
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB1
+    title: HB 1 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/884/billtext/html/HB00001H.htm
+    title: HB 1 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

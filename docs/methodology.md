@@ -21,8 +21,9 @@ education technology or data-privacy measures that do not address AI.
 
 ### Borderline cases
 
-These rules settle measures that sit near the edge of scope. A measure is judged on its
-latest version: if AI provisions were amended out, it is out of scope.
+These rules settle measures that sit near the edge of scope. A measure is judged on every
+version it has had: if an earlier version met the definition and its AI provisions were
+later amended out, it is still in scope, and its record says the AI language was removed.
 
 | Situation | Treatment |
 |---|---|
@@ -36,6 +37,9 @@ latest version: if AI provisions were amended out, it is out of scope.
 | Education-code measures whose AI provisions sit in a definition but have operative effect | In scope |
 | Matches on "AI" that do not mean artificial intelligence | Out of scope |
 | Resolutions that request a specific education agency to act | In scope; purely commemorative or honorary resolutions are out |
+| Budget or appropriations items that fund AI work at one named campus | Out of scope; in scope when the money goes to a public college or university system, a state agency, or a statewide program |
+| General AI or automated-decision laws whose only mention of education is in passing (for example, "education assistance" in a list of public benefits) with no duty on, or effect particular to, schools or colleges | Out of scope |
+| AI weapon or threat detection for schools: grants, procurement criteria, studies, or requirements | In scope, under safety and wellbeing |
 
 ### Education levels
 

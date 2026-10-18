@@ -1,0 +1,189 @@
+id: us-md-2025-sb-429
+jurisdiction: us-md
+session: "2025"
+identifier: SB 429
+title: Excellence in Maryland Public Schools Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+  - instructional-use
+summary: Revises public school funding and educator workforce programs. Among its changes, it provides
+  that, for the 2025-2026 through 2027-2028 school years, an existing Education Article section on digital
+  tools does not apply to the procurement and use of digital tools that use artificial intelligence to
+  support student learning.
+provisions:
+  - type: procurement-standards
+    description: Exempts the procurement and use of digital tools that use AI to support student learning
+      from the digital tool section's requirements for the 2025-2026 through 2027-2028 school years.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0429t.pdf
+      locator: Section 6, Article – Education, new subsection (A–1)
+      quote: BEGINNING WITH THE 2025–2026 SCHOOL YEAR THROUGH THE 2027–2028 SCHOOL YEAR, THIS SECTION
+        DOES NOT APPLY TO THE PROCUREMENT AND USE OF A DIGITAL TOOL THAT UTILIZES ARTIFICIAL INTELLIGENCE
+sponsors:
+  - name: Nick Charles
+    primary: true
+    party: D
+    chamber: upper
+  - name: Cheryl Kagan
+    primary: false
+    party: D
+    chamber: upper
+  - name: Nancy King
+    primary: false
+    party: D
+    chamber: upper
+  - name: Clarence Lam
+    primary: false
+    party: D
+    chamber: upper
+  - name: Chris West
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-01-21"
+    description: First Reading Budget and Taxation and Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-01-23"
+    description: Hearing 2/12 at 1:00 p.m. (Budget and Taxation)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-01-23"
+    description: Hearing 2/12 at 1:00 p.m. (Budget and Taxation) and Hearing 2/12 at 1:00 p.m. (Education,
+      Energy, and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-01-23"
+    description: Hearing 2/12 at 1:00 p.m. (Budget and Taxation) and Hearing canceled (Education, Energy,
+      and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-01-23"
+    description: Hearing 2/12 at 1:00 p.m. (Budget and Taxation) and Hearing 2/12 at 1:00 p.m. (Education,
+      Energy, and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-05"
+    description: Hearing canceled (Budget and Taxation) and Hearing 2/12 at 1:00 p.m. (Education, Energy,
+      and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-05"
+    description: Hearing 2/19 at 1:00 p.m. (Budget and Taxation) and Hearing 2/12 at 1:00 p.m. (Education,
+      Energy, and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-06"
+    description: Hearing 2/19 at 1:00 p.m. (Budget and Taxation) and Hearing canceled (Education, Energy,
+      and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-06"
+    description: Hearing 2/19 at 1:00 p.m. (Budget and Taxation) and Hearing 2/19 at 1:00 p.m. (Education,
+      Energy, and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-11"
+    description: Hearing canceled (Budget and Taxation) and Hearing 2/19 at 1:00 p.m. (Education, Energy,
+      and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-11"
+    description: Hearing 2/19 at 1:00 p.m. (Budget and Taxation) and Hearing 2/19 at 1:00 p.m. (Education,
+      Energy, and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-28"
+    description: Favorable with Amendments Report by Budget and Taxation
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-28"
+    description: Favorable with Amendments {543528/1
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-28"
+    description: Motion Laid Over (Senator Guzzone) Adopted
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-03-31"
+    description: Favorable with Amendments {543528/1 Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-31"
+    description: Floor Amendment {423922/1 (Senator Bailey) Rejected
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-31"
+    description: Floor Amendment {893126/1 (Senator Carozza) Rejected
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-31"
+    description: Floor Amendment {553728/1 (Senator Gallion) Rejected (14-30)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-31"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-01"
+    description: Third Reading Passed (33-13)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-02"
+    description: Referred Rules and Executive Nominations
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-01-21"
+    url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0429f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-04-01"
+    url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0429t.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1933460
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0429?ys=2025RS
+    title: SB 429 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0429t.pdf
+    title: SB 429 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

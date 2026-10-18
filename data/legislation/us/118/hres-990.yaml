@@ -1,0 +1,209 @@
+id: us-118-hres-990
+jurisdiction: us
+session: "118"
+identifier: H.Res. 990
+title: Expressing the sense of the House of Representatives that paraprofessionals and education support
+  staff should have fair compensation, benefits, and working conditions.
+classification: resolution
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+  - educator-training
+summary: Expresses the sense of the House that paraprofessionals and education support staff in schools
+  and public colleges should have fair compensation and working conditions, including input on the implementation
+  of artificial intelligence technology in their schools and professional development as new technologies
+  are introduced.
+provisions:
+  - type: educator-pd-requirement
+    description: States that paraprofessionals and support staff should have input on AI technology in
+      their schools and receive professional development as new technologies are introduced.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hres990/BILLS-118hres990ih.pdf
+      locator: Resolving clause, [Page 5]
+      quote: implementation of electronic monitoring, data, algorithms, and artificial intelligence technology
+        in the applicable school and should receive high- quality professional development as new tech-
+        nologies are introduced;
+sponsors:
+  - name: Jahana Hayes
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ann Kuster
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eleanor Norton
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jamaal Bowman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Raul Grijalva
+    primary: false
+    party: D
+    chamber: lower
+  - name: Adam Schiff
+    primary: false
+    party: D
+    chamber: upper
+  - name: Bonnie Coleman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Angela Craig
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shri Thanedar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josh Gottheimer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ilhan Omar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gwen Moore
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brian Fitzpatrick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Danny Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Trone
+    primary: false
+    party: D
+    chamber: lower
+  - name: Janice Schakowsky
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikema Williams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rashida Tlaib
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ro Khanna
+    primary: false
+    party: D
+    chamber: lower
+  - name: Suzanne Bonamici
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikki Budzinski
+    primary: false
+    party: D
+    chamber: lower
+  - name: Barbara Lee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julia Brownley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kevin Mullin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jill Tokuda
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chellie Pingree
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eric Sorensen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marie Gluesenkamp Perez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Seth Magaziner
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maxine Waters
+    primary: false
+    party: D
+    chamber: lower
+  - name: Becca Balint
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer McClellan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lisa Rochester
+    primary: false
+    party: D
+    chamber: lower
+  - name: Katie Porter
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marcy Kaptur
+    primary: false
+    party: D
+    chamber: lower
+  - name: Donald Norcross
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-01-31"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-31"
+    description: Referred to the House Committee on Education and the Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-02-01"
+    url: https://www.congress.gov/118/bills/hres990/BILLS-118hres990ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1834554
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-resolution/990/all-info
+    title: H.Res. 990 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hres990/BILLS-118hres990ih.pdf
+    title: H.Res. 990 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

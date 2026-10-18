@@ -202,6 +202,58 @@ def test_full_item_and_prep_full(cp):
     assert result.items == 1 and not result.without_text
 
 
+def test_full_item_includes_earlier_version_and_excerpt_cap(cp):
+    row = {**candidate(), "key": "us-tx-2025-hb-10"}
+    store = TextStore(cp.texts)
+    store.store(
+        row["key"],
+        {"doc_id": 102, "key": row["key"], "status": "ok", "type": "Enrolled"},
+        "AN ACT relating to faculty.\nSECTION 1. Instructors shall meet minimum qualifications.\n",
+    )
+    filler = "The board shall adopt rules regarding fees for licenses. " * 40
+    early = (
+        "AN ACT relating to faculty.\n"
+        + filler
+        + "\nSECTION 1. Artificial intelligence shall not replace faculty in instruction.\n"
+        + filler
+        + "\nSECTION 2. Each college may use artificial intelligence for tutoring of students.\n"
+    )
+    store.store_earlier(
+        row["key"],
+        {
+            "doc_id": 101,
+            "key": row["key"],
+            "status": "ok",
+            "type": "Introduced",
+            "date": "2025-02-01",
+            "state_link": "https://capitol.texas.gov/x/HB00010I.htm",
+        },
+        early,
+    )
+    store.save_index()
+    small = full_item(row, None, TextStore(cp.texts), excerpt_cap=1000)
+    earlier = small["text"]["earlier"]
+    assert small["text"]["type"] == "Enrolled"
+    assert earlier["type"] == "Introduced" and earlier["date"] == "2025-02-01"
+    assert earlier["url"] == "https://capitol.texas.gov/x/HB00010I.htm"
+    assert earlier["truncated"] and earlier["excerpt_chars"] <= 1000
+    big = full_item(row, None, TextStore(cp.texts), excerpt_cap=100_000)
+    assert big["text"]["earlier"]["complete"] and not big["text"]["earlier"]["truncated"]
+
+
+def test_prep_full_rejudge_batches_judged_keys_again(cp):
+    row = {**candidate(), "key": "us-tx-2025-hb-10"}
+    write_jsonl(cp.stage_dir("full") / "batch-001.jsonl", [{"key": row["key"]}])
+    write_jsonl(
+        cp.out_dir("full") / "batch-001.jsonl",
+        [{"key": row["key"], "in_scope": False, "confidence": "low", "reasons": "x"}],
+    )
+    skipped = prep_full(cp, {row["key"]: row}, batch_size=10, keys=[row["key"]])
+    assert skipped.items == 0 and skipped.skipped_judged == 1
+    again = prep_full(cp, {row["key"]: row}, batch_size=10, keys=[row["key"]], rejudge=True)
+    assert again.items == 1 and again.batches[0].name == "batch-002.jsonl"
+
+
 def test_instructions_follow_methodology():
     paths = Paths(REPO)
     vocab = Vocab.load(paths.vocab)

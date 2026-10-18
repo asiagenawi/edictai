@@ -1,0 +1,84 @@
+id: us-md-2023-hb-1034
+jurisdiction: us-md
+session: "2023"
+identifier: HB 1034
+title: Public Safety - Artificial Intelligence Impact Advisory Board - Establishment
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+summary: Establishes the Artificial Intelligence Impact Advisory Board to study the impact of artificial
+  intelligence in the health care, education, transportation, and criminal justice sectors and its economic,
+  social, and ethical implications, and to report findings and recommendations annually.
+provisions:
+  - type: creates-task-force
+    description: Creates an advisory board required to study AI's impact in sectors including education
+      and report annually.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2023RS/bills/hb/hb1034f.pdf
+      locator: Public Safety §16-102(I)(1)
+      quote: STUDY THE IMPACT OF ARTIFICIAL INTELLIGENCE IN THE STATE IN THE HEALTH CARE, EDUCATION, TRANSPORTATION,
+        AND CRIMINAL JUSTICE SECTORS;
+sponsors:
+  - name: Caylin Young
+    primary: true
+    party: D
+    chamber: lower
+  - name: Sandy Bartlett
+    primary: false
+    party: D
+    chamber: lower
+  - name: Charlotte Crutchfield
+    primary: false
+    party: D
+    chamber: lower
+  - name: Debra Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Scott Phillips
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-02-10"
+    description: First Reading Health and Government Operations
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2023-02-14"
+    description: Hearing 3/08 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-27"
+    description: Withdrawn by Sponsor
+    actor: lower
+    classification:
+      - withdrawal
+versions:
+  - note: Introduced
+    date: "2023-02-11"
+    url: https://mgaleg.maryland.gov/2023RS/bills/hb/hb1034f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1703326
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1034?ys=2023RS
+    title: HB 1034 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2023RS/bills/hb/hb1034f.pdf
+    title: HB 1034 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

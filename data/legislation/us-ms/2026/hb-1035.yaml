@@ -1,0 +1,113 @@
+id: us-ms-2026-hb-1035
+jurisdiction: us-ms
+session: "2026"
+identifier: HB 1035
+title: MS Future Innovators Act; enact to require high school computer science or CTE with embedded computer
+  science course.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Enacts the Mississippi Future Innovators Act, requiring public high school students, beginning
+  with the 2029-2030 ninth-grade class, to earn one unit of credit in computer science or a CTE course
+  with embedded computer science. The qualifying course must include instruction on emerging technologies
+  such as artificial intelligence, including what AI is, how it works, and its impact on society.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: Creates a computer science graduation requirement whose qualifying course must cover
+      AI concepts.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1000-1099/HB1035PS.htm
+      locator: Section 2, new 37-13-215(3)
+      quote: The computer science course or courses fulfilling this graduation requirement must include
+        instruction on the fundamental concepts of emerging computer science technologies, such as artificial
+        intelligence (AI), including an understanding of what AI is, how it works, and its impact on society.
+  - type: requires-ai-literacy-instruction
+    description: Requires instruction on what AI is, how it works and its impact on society.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1000-1099/HB1035PS.htm
+      locator: Section 2, new 37-13-215(3)
+      quote: including an understanding of what AI is, how it works, and its impact on society
+sponsors:
+  - name: Kevin Felsher
+    primary: true
+    party: R
+    chamber: lower
+  - name: Fabian Nelson
+    primary: true
+    party: D
+    chamber: lower
+  - name: Omeria Scott
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-16"
+    description: Referred To Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-21"
+    description: Title Suff Do Pass
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-11"
+    description: Passed
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-11"
+    description: Motion to Reconsider Entered (Faulkner, Roberson, McCarty)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: Motion to Reconsider Tabled
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-02-13"
+    description: Transmitted To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-17"
+    description: Referred To Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-03"
+    description: Died In Committee
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-16"
+    url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1000-1099/HB1035IN.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-02-13"
+    url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1000-1099/HB1035PS.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2084187
+sources:
+  - url: https://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB1035.xml
+    title: HB 1035 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1000-1099/HB1035PS.htm
+    title: HB 1035 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

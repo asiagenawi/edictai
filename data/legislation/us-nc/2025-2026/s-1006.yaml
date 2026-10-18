@@ -1,0 +1,150 @@
+id: us-nc-2025-2026-s-1006
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 1006
+title: K-12 Innovation and Transformation Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - instructional-use
+  - funding
+  - task-force
+  - workforce
+  - assessment
+summary: Funds and changes K-12 education programs, including an AI Academic Support Program letting public
+  school units contract for the AI tool Khanmigo in grades 6-12 and a project in which Wake County schools
+  and Wake Tech use Khanmigo for college math courses. Creates a High School Redesign Commission that
+  must consider AI uses for career exploration, defines high-tech learning accelerators including AI,
+  and lists AI learning tools in a competency-based education grant objective.
+provisions:
+  - type: appropriates-funding
+    description: Establishes an AI Academic Support Program for public school units to contract for Khanmigo
+      in grades 6-12.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v2.pdf
+      locator: Sec. 1.12.(a), new G.S. 115C-650(a)
+      quote: There is established the AI Academic Support Program (Program) to allow public school units
+        to contract with Khan Academy, Inc., (Khan Academy)
+  - type: appropriates-funding
+    description: Requires a school district and community college to contract for the Khanmigo AI tutoring
+      program for a math project.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v2.pdf
+      locator: Sec. 2.3.(c)
+      quote: WCPSS, in collaboration with Wake Tech, shall contract with Khan Academy, Inc., (Khan) for
+        use of the artificial intelligence student tutoring program, Khanmigo.
+  - type: creates-task-force
+    description: Directs the High School Redesign Commission to consider AI uses for student career exploration.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v2.pdf
+      locator: Commission duties, subdivision (9)
+      quote: Uses of artificial intelligence to expand student opportunities to engage in career exploration
+        and work-based learning experiences.
+  - type: ai-workforce-program
+    description: Defines high-tech learning accelerators to include AI topics.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v2.pdf
+      locator: Learning accelerator definitions, subdivision (3)
+      quote: 'High-tech learning accelerator. – A learning accelerator focused on topics related to science,
+        technology, engineering, and mathematics (STEM) , including any of the following: a. Artificial
+        Intelligence.'
+sponsors:
+  - name: Michael Lee
+    primary: true
+    party: R
+    chamber: upper
+  - name: Dana Jones
+    primary: true
+    party: R
+    chamber: upper
+  - name: Kevin Corbin
+    primary: true
+    party: R
+    chamber: upper
+  - name: Timothy Moffitt
+    primary: false
+    party: R
+    chamber: upper
+  - name: Brad Overcash
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-04-30"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-05-04"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-05-04"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-18"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-18"
+    description: Re-ref to Education/Higher Education. If fav, re-ref to Appropriations/Base Budget
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-06-03"
+    description: Reptd Fav Com Substitute
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-03"
+    description: Com Substitute Adopted
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-06-03"
+    description: Re-ref Com On Appropriations/Base Budget
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-04-30"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-05-04"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v1.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-06-03"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v2.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2147041
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S1006
+    title: S 1006 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v2.pdf
+    title: S 1006 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

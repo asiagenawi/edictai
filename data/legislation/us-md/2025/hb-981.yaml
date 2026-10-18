@@ -1,0 +1,104 @@
+id: us-md-2025-hb-981
+jurisdiction: us-md
+session: "2025"
+identifier: HB 981
+title: State Department of Education and Department of Information Technology - Evaluation on Artificial
+  Intelligence in Public Schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+  - local-policy-requirement
+  - assessment
+summary: Requires the State Department of Education to evaluate the use and potential use of artificial
+  intelligence in public schools through a survey of local school systems' AI policies, tools, and readiness
+  and a review of AI systems for learning, curriculum, grading, and administration, with Department of
+  Information Technology help on costs and benefits and interim and final reports.
+provisions:
+  - type: creates-task-force
+    description: The State Department of Education must evaluate AI use in public schools.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0981f.pdf
+      locator: Sec. 1(b)
+      quote: The State Department of Education shall conduct an evaluation of the use and potential use
+        of artificial intelligence in public schools.
+  - type: creates-task-force
+    description: The evaluation's survey must ask whether districts have AI use policies for students.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0981f.pdf
+      locator: Sec. 1(c)(1)(i)
+      quote: whether the local school system has a policy for the use of artificial intelligence by students,
+        and if so, how the policy differs by student age, disability status, and English language learning
+        status;
+sponsors:
+  - name: Eric Ebersole
+    primary: true
+    party: D
+    chamber: lower
+  - name: Caylin Young
+    primary: false
+    party: D
+    chamber: lower
+  - name: Aaron Kaufman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Cheryl Pasteur
+    primary: false
+    party: D
+    chamber: lower
+  - name: Edith Patterson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jared Solomon
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-31"
+    description: First Reading Ways and Means
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-02-06"
+    description: Hearing 2/24 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-07"
+    description: Hearing canceled
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-07"
+    description: Hearing 2/24 at 11:00 a.m.
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-31"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0981f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1949746
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0981?ys=2025RS
+    title: HB 981 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0981f.pdf
+    title: HB 981 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,118 @@
+id: us-nc-2025-2026-h-1004
+jurisdiction: us-nc
+session: 2025-2026
+identifier: H 1004
+title: UNC AI & Technology Hubs
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - research
+  - workforce
+summary: Appropriates funds to establish AI Hubs at up to eight UNC constituent institutions and technology
+  hubs at each institution for innovation, workforce upskilling, entrepreneurship and manufacturing. Creates
+  a $30 million NC Collaboratory grant fund for AI research projects, with education listed as a priority
+  area for applied AI research.
+provisions:
+  - type: appropriates-funding
+    description: Creates an AI research grant fund that lists education among priority areas for applied
+      AI applications.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1004v1.pdf
+      locator: Sec. 2.(b)
+      quote: 'Involve applied AI research to develop an application in one of the following priority areas:
+        a. Education. b. Workforce development. c. Healthcare. d. Government.'
+  - type: appropriates-funding
+    description: Funds technology hubs or AI Hubs at each UNC institution, including workforce upskilling
+      and programming.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1004v1.pdf
+      locator: Sec. 2.(a)
+      quote: to establish a technology hub or support previously designated Artificial Intelligence (AI)
+        Hub at the institution to encourage (i) technology innovation, (ii) workforce upskilling, (iii)
+        entrepreneurship, and (iv) advanced manufacturing
+sponsors:
+  - name: Zack Forde-Hawkins
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jarrod Lowery
+    primary: true
+    party: R
+    chamber: lower
+  - name: Robert Reives
+    primary: true
+    party: D
+    chamber: lower
+  - name: Eric Ager
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Belk
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Colvin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Harrison
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carolyn Logan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nasif Majeed
+    primary: false
+    party: D
+    chamber: lower
+  - name: Phil Rubin
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-04-10"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-04-14"
+    description: Passed 1st Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-04-14"
+    description: Ref to the Com on Appropriations, if favorable, Rules, Calendar, and Operations of the
+      House
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-04-10"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1004v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-04-14"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1004v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2022881
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/H1004
+    title: H 1004 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1004v1.pdf
+    title: H 1004 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

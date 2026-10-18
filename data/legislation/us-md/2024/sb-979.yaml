@@ -1,0 +1,102 @@
+id: us-md-2024-sb-979
+jurisdiction: us-md
+session: "2024"
+identifier: SB 979
+title: Education - Artificial Intelligence - Guidelines and Pilot Program
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - procurement
+  - equity-access
+  - curriculum-standards
+  - student-privacy
+  - educator-training
+summary: Requires the State Department of Education to develop guidelines and best practices on artificial
+  intelligence for county boards, including professional development, and to recommend integrating AI
+  into college and career readiness standards. Requires each county board to designate an employee to
+  facilitate ethical AI use, and requires the department to adopt policies governing county boards' procurement
+  and use of AI systems so they do not cause unlawful discrimination, harm student well-being, or collect
+  personal information without approval.
+provisions:
+  - type: issues-model-policy
+    description: The department must develop and update AI guidelines, standards, and best practices for
+      county boards, including on professional development.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0979f.pdf
+      locator: Subtitle 22, Artificial Intelligence in Education, (A)
+      quote: THE DEPARTMENT, IN CONSULTATION WITH THE AI SUBCABINET OF THE GOVERNOR’S EXECUTIVE COUNCIL,
+        SHALL DEVELOP AND UPDATE GUIDELINES, STANDARDS, AND BEST PRACTICES FOR COUNTY BOARDS
+  - type: requires-local-ai-policy
+    description: Each county board must designate an employee to facilitate productive and ethical AI
+      use.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0979f.pdf
+      locator: Subtitle 22, Artificial Intelligence in Education, (C)
+      quote: EACH COUNTY BOARD SHALL DESIGNATE AN EMPLOYEE TO FACILITATE THE PRODUCTIVE AND ETHICAL USE
+        OF SYSTEMS OF ARTIFICIAL INTELLIGENCE IN ELEMENTARY AND SECONDARY EDUCATION.
+  - type: ai-in-standards
+    description: The department must recommend integrating AI into college and career readiness standards.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0979f.pdf
+      locator: Subtitle 22, Artificial Intelligence in Education, (D)
+      quote: TO PROVIDE RECOMMENDATIONS FOR INTEGRATING ARTIFICIAL INTELLIGENCE INTO THE COLLEGE AND CAREER
+        READINESS STANDARDS
+  - type: procurement-standards
+    description: The department must adopt policies governing county boards' development, procurement,
+      use, and assessment of AI systems.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0979f.pdf
+      locator: Subtitle 22, Artificial Intelligence in Education, page 4, (A)
+      quote: THE DEPARTMENT SHALL ADOPT POLICIES AND PROCEDURES REGARDING THE DEVELOPMENT, PROCUREMENT,
+        IMPLEMENTATION, UTILIZATION, AND ONGOING ASSESSMENT OF SYSTEMS THAT EMPLOY ARTIFICIAL INTELLIGENCE
+        BY A COUNTY BOARD.
+  - type: bias-or-equity-requirement
+    description: Those policies must ensure county board AI systems do not cause unlawful discrimination
+      or disparate impact on students or staff.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0979f.pdf
+      locator: Subtitle 22, Artificial Intelligence in Education, page 5, (B)(2)
+      quote: HAVE AN UNLAWFUL DISPARATE IMPACT ON ANY STUDENTS, GROUP OF STUDENTS, PRINCIPAL, TEACHER,
+        OR STAFF
+sponsors:
+  - name: Katie Hester
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-02-02"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-02-08"
+    description: Hearing 3/06 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-06"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0979f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1838035
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0979?ys=2024RS
+    title: SB 979 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0979f.pdf
+    title: SB 979 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

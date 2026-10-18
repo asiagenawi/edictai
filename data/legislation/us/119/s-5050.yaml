@@ -1,0 +1,71 @@
+id: us-119-s-5050
+jurisdiction: us
+session: "119"
+identifier: S. 5050
+title: Expanding AI Voices Act Expanding AI Voices through Capacity Building Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+  - educator-training
+summary: Directs the National Science Foundation to make competitive awards that broaden participation
+  in artificial intelligence research, education, and workforce development, including at institutions
+  with limited AI capacity. Funds may support AI research programs, faculty recruitment and professional
+  development in AI, bridge programs preparing students for AI graduate programs, and integration of safe
+  and reliable practices into AI education programs.
+provisions:
+  - type: educator-pd-requirement
+    description: Award funds may support faculty recruitment and professional development in AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5050/BILLS-119s5050is.pdf
+      locator: Sec. 2, new 5401(g)(3)(B)
+      quote: Faculty recruitment and professional development in artificial intelligence and related disciplines.
+  - type: ai-workforce-program
+    description: Award funds may support bridge programs preparing post-baccalaureate students for graduate
+      programs in AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5050/BILLS-119s5050is.pdf
+      locator: Sec. 2, new 5401(g)(3)(C)
+      quote: Bridge programs focused on preparing post-baccalaureate students for graduate programs in
+        artificial intelligence and related disciplines.
+sponsors:
+  - name: Lisa Rochester
+    primary: true
+    party: D
+    chamber: upper
+  - name: Tim Sheehy
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-07-21"
+    description: Read twice and referred to the Committee on Commerce, Science, and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-07-27"
+    url: https://www.congress.gov/119/bills/s5050/BILLS-119s5050is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2156192
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/5050/all-info
+    title: S. 5050 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s5050/BILLS-119s5050is.pdf
+    title: S. 5050 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

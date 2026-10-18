@@ -5,3 +5,26 @@ abbreviation: NM
 classification: state
 fips: "35"
 region: Southwest
+sessions:
+  - identifier: "2025"
+    name: 2025 Regular Session
+    classification: primary
+    start_date: "2025-01-21"
+    legiscan_session_id: 2187
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:nm/government?include=legislative_sessions"
+        title: Open States API, New Mexico legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2026"
+    name: 2026 Regular Session
+    classification: primary
+    start_date: "2026-01-20"
+    legiscan_session_id: 2251
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:nm/government?include=legislative_sessions"
+        title: Open States API, New Mexico legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

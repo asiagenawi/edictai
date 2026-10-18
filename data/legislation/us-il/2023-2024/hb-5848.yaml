@@ -1,0 +1,158 @@
+id: us-il-2023-2024-hb-5848
+jurisdiction: us-il
+session: 2023-2024
+identifier: HB 5848
+title: SCH CD-BULLYING-DEEPFAKE
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Amends the School Code's bullying prevention provisions so that, beginning with the 2025-2026
+  school year, cyber-bullying includes distributing or posting a digital replica of an individual engaged
+  in an activity they did not engage in, including sexually explicit depictions. Defines artificial intelligence,
+  digital replica, and generative artificial intelligence.
+provisions:
+  - type: addresses-deepfakes
+    description: Cyber-bullying under school bullying policies includes distributing or posting digital
+      replicas.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5848.htm
+      locator: Sec. 27-23.7(b)
+      quote: Beginning with the 2025-2026 school year, "cyber-bullying" also includes bullying through
+        the distribution by electronic means or the posting of a digital replica of an individual who
+        is engaged in an activity in which the depicted individual did not engage in
+sponsors:
+  - name: Janet Yang Rohr
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jennifer Gong-Gershowitz
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gregg Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Barbara Hernandez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Rita
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joyce Mason
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maura Hirschauer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Faver Dias
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anne Stava-Murray
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dave Vella
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kimberly Du Buclet
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-05-14"
+    description: Filed with the Clerk by Rep. Janet Yang Rohr
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Joyce Mason
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Maura Hirschauer
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Laura Faver Dias
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Anne Stava-Murray
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Dave Vella
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Kimberly Du Buclet
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Chief Co-Sponsor Rep. Jennifer Gong-Gershowitz
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Chief Co-Sponsor Rep. Gregg Johnson
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Chief Co-Sponsor Rep. Barbara Hernández
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Chief Co-Sponsor Rep. Robert "Bob" Rita
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-05-15"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-05-14"
+    url: https://www.ilga.gov/legislation/103/HB/10300HB5848.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1878243
+sources:
+  - url: https://www.ilga.gov/legislation/BillStatus.asp?DocNum=5848&GAID=17&DocTypeID=HB&SessionID=112&GA=103
+    title: HB 5848 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/legislation/103/HB/10300HB5848.htm
+    title: HB 5848 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

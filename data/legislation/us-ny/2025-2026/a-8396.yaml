@@ -1,0 +1,113 @@
+id: us-ny-2025-2026-a-8396
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 8396
+title: Enacts the student suicide prevention act; requires the governing board or body of every local
+  educational agency serving students in grades seven to twelve, to adopt policies, procedures and guidelines
+  on student suicide prevention, intervention and postvention for students in such grades.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Enacts the student suicide prevention act requiring local educational agencies serving grades
+  seven to twelve to adopt suicide prevention policies, and expands the education law definition of bullying
+  to include intentionally using artificial intelligence to mimic or alter a person's likeness or voice
+  without consent.
+provisions:
+  - type: addresses-deepfakes
+    description: Adds intentionally using AI to mimic or alter a person's likeness or voice without consent
+      to the definition of bullying that school anti-bullying policies address.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08396&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08396B
+      locator: Sec. 4 (definition of bullying, subd. 11)
+      quote: intentionally using artificial intelligence to mimic or alter a person's likeness or voice
+        without their consent
+sponsors:
+  - name: Carrie Woerner
+    primary: true
+    party: D
+    chamber: lower
+  - name: Dana Levenberg
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nily Rozic
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maryjane Shimsky
+    primary: false
+    party: D
+    chamber: lower
+  - name: Emerita Torres
+    primary: false
+    party: D
+    chamber: lower
+  - name: Harry Bronson
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-05-13"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-06"
+    description: amend and recommit to education
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: print number 8396a
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: amend and recommit to education
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: print number 8396b
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-05-13"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08396&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08396
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-13"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08396&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08396A
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-13"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08396&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08396B
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2031000
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A8396
+    title: A 8396 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08396&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08396B
+    title: A 8396 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

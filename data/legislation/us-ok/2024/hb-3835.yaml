@@ -1,0 +1,72 @@
+id: us-ok-2024-hb-3835
+jurisdiction: us-ok
+session: "2024"
+identifier: HB 3835
+title: Technology; title; Ethical Artificial Intelligence Act; deployers; developers; algorithmic discrimination;
+  attorney general; effective date.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+summary: Creates the Ethical Artificial Intelligence Act, which requires developers and deployers of automated
+  decision tools to complete impact assessments and bars deployers from algorithmic discrimination. Consequential
+  decisions covered include education and vocational training decisions such as assessment, cheating or
+  plagiarism detection, admissions, and financial aid.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines consequential decisions to include education decisions, bringing automated decision
+      tools used for them under the act's impact assessment and anti-discrimination rules.
+    citation:
+      source_url: http://webserver1.lsb.state.ok.us/cf_pdf/2023-24%20INT/hB/HB3835%20INT.PDF
+      locator: Section 3, 75A O.S. § 1001(4)(b)
+      quote: 'b. education and vocational training, including, but not limited to: (1) assessment, including,
+        but not limited to, detecting student cheating or plagiarism, (2) accreditation,'
+sponsors:
+  - name: Arturo Alonso-Sandoval
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-05"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-02-05"
+    description: Authored by Representative Alonso-Sandoval
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-06"
+    description: Second Reading referred to Rules
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-01-18"
+    url: http://webserver1.lsb.state.ok.us/cf_pdf/2023-24%20INT/hB/HB3835%20INT.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1821348
+sources:
+  - url: http://www.oklegislature.gov/BillInfo.aspx?Bill=hb3835&Session=2400
+    title: HB 3835 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://webserver1.lsb.state.ok.us/cf_pdf/2023-24%20INT/hB/HB3835%20INT.PDF
+    title: HB 3835 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

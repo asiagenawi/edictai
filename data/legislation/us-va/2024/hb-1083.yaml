@@ -1,0 +1,347 @@
+id: us-va-2024-hb-1083
+jurisdiction: us-va
+session: "2024"
+identifier: HB 1083
+title: VA Longitudinal Data System & VA Workforce Data Trust; work group to review current capabilities.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - data-governance
+summary: Directs the Secretary of Education to convene a work group to review the Virginia Longitudinal
+  Data System and the Virginia Workforce Data Trust and develop a work plan for improving the system.
+  As prefiled, would have placed administration of a Virginia Education and Workforce Longitudinal Data
+  System with the Office of Education Economics and required the system to include machine learning and
+  predictive analytics capabilities for analyzing student and workforce data. The AI provisions were removed
+  by amendment.
+provisions:
+  - type: issues-model-policy
+    description: Would require the statewide education and workforce longitudinal data system to include
+      machine learning capabilities to analyze longitudinal student data and apply predictive analytics.
+    citation:
+      source_url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1083+hil
+      locator: Prefiled, new § 2.2-2238.2(E)
+      quote: advanced analytics functionality, including data mining and machine learning capabilities
+        to analyze the longitudinal data for program evaluation and apply predictive analytics for forecasting
+        and projections into the future
+sponsors:
+  - name: Carrie Coyner
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-01-10"
+    description: Prefiled and ordered printed; offered 01/10/24 24104188D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-10"
+    description: Referred to Committee on Communications, Technology and Innovation
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-26"
+    description: 'Assigned CT & I sub: Communications'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-29"
+    description: Subcommittee recommends reporting with substitute (10-Y 0-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-29"
+    description: Subcommittee recommends referring to Committee on Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-05"
+    description: Reported from Communications, Technology and Innovation with substitute (22-Y 0-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-05"
+    description: Committee substitute printed 24106598D-H1
+    actor: lower
+    classification:
+      - substitution
+  - date: "2024-02-05"
+    description: Referred to Committee on Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-05"
+    description: 'Assigned Education sub: K-12 Subcommittee'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-06"
+    description: Subcommittee recommends reporting (8-Y 0-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-06"
+    description: Subcommittee recommends referring to Committee on Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-07"
+    description: Reported from Education (22-Y 0-N)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-09"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-02-12"
+    description: Read second time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-02-12"
+    description: Committee substitute agreed to 24106598D-H1
+    actor: lower
+    classification:
+      - substitution
+  - date: "2024-02-12"
+    description: Engrossed by House - committee substitute HB1083H1
+    actor: lower
+    classification:
+      - substitution
+      - passage
+  - date: "2024-02-13"
+    description: Read third time and passed House BLOCK VOTE (99-Y 0-N)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-02-13"
+    description: 'VOTE: Block Vote Passage (99-Y 0-N)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-14"
+    description: Constitutional reading dispensed
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-14"
+    description: Referred to Committee on General Laws and Technology
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-02-21"
+    description: Reported from General Laws and Technology (15-Y 0-N)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-02-21"
+    description: Rereferred to Finance and Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-02-27"
+    description: Committee substitute printed 24108355D-S1
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-02-27"
+    description: Constitutional reading dispensed (39-Y 0-N)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-27"
+    description: Reported from Finance and Appropriations with substitute (15-Y 0-N)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-02-28"
+    description: Read third time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2024-02-28"
+    description: Reading of substitute waived
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-28"
+    description: Committee substitute agreed to 24108355D-S1
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-02-28"
+    description: Engrossed by Senate - committee substitute HB1083S1
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-02-28"
+    description: Passed Senate with substitute (39-Y 0-N)
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-03-01"
+    description: Senate substitute rejected by House 24108355D-S1 (1-Y 94-N 1-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-01"
+    description: 'VOTE: REJECTED (1-Y 94-N 1-A)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-04"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2024-03-05"
+    description: Senate insisted on substitute (40-Y 0-N)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-05"
+    description: Senate requested conference committee
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-03-06"
+    description: House acceded to request
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-06"
+    description: Conferees appointed by House
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-03-06"
+    description: 'Delegates: Askew, Sewell, Coyner'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-07"
+    description: Conferees appointed by Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-03-07"
+    description: 'Senators: VanValkenburg, Hashmi, Jordan'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-09"
+    description: 'Conference: Amended by conference committee'
+    actor: legislature
+    classification:
+      - conference-committee
+  - date: "2024-03-09"
+    description: Conference substitute printed 24109159D-H2
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-09"
+    description: Conference report agreed to by House (98-Y 0-N)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-03-09"
+    description: 'VOTE: Adoption (98-Y 0-N)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-09"
+    description: Conference report agreed to by Senate (40-Y 0-N)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-03-25"
+    description: Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-03-25"
+    description: Bill text as passed House and Senate (HB1083ER)
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-03-25"
+    description: Signed by President
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2024-03-26"
+    description: Signed by Speaker
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-03-27"
+    description: Enrolled Bill communicated to Governor on March 27, 2024
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-03-27"
+    description: 'Governor: Governor''s Action Deadline 11:59 p.m., April 8, 2024'
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-04"
+    description: 'Governor: Approved by Governor-Chapter 410 (effective 7/1/24)'
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-04-04"
+    description: 'Governor: Acts of Assembly Chapter text (CHAP0410)'
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Prefiled
+    date: "2024-01-10"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1083+hil
+    media_type: text/html
+  - note: Comm Sub
+    date: "2024-02-05"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1083H1+hil
+    media_type: text/html
+  - note: Comm Sub
+    date: "2024-02-27"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1083S1+hil
+    media_type: text/html
+  - note: Conference Sub
+    date: "2024-03-09"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1083H2+hil
+    media_type: text/html
+  - note: Enrolled
+    date: "2024-03-25"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1083ER+hil
+    media_type: text/html
+  - note: Chaptered
+    date: "2024-04-04"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+CHAP0410+hil
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1809694
+sources:
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB1083
+    title: HB 1083 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+CHAP0410+hil
+    title: HB 1083 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB1083+hil
+    title: HB 1083 text (Prefiled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Prefiled).

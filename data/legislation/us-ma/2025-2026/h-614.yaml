@@ -1,0 +1,85 @@
+id: us-ma-2025-2026-h-614
+jurisdiction: us-ma
+session: 2025-2026
+identifier: H 614
+title: Relative to issuing guidance regarding setting policies for the use of AI in schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - equity-access
+summary: Requires the commissioner of elementary and secondary education to issue and annually publish
+  guidelines for school districts and charter schools on student and educator use of artificial intelligence,
+  covering benefits and limitations, safe use, equity implications, and factors for setting local AI policies,
+  after at least three public hearings.
+provisions:
+  - type: issues-model-policy
+    description: The commissioner must issue guidelines for districts and charter schools on AI use by
+      students and educators.
+    citation:
+      source_url: https://malegislature.gov/Bills/194/H614.pdf
+      locator: Sec. 1, G.L. c. 69, §1A
+      quote: The commissioner shall issue guidelines, based off of available best practices, for school
+  - type: issues-model-policy
+    description: The guidance must address factors schools should weigh when setting AI use policies.
+    citation:
+      source_url: https://malegislature.gov/Bills/194/H614.pdf
+      locator: Sec. 1, G.L. c. 69, §1A
+      quote: what factors schools should consider when setting policies concerning the use of AI.
+  - type: bias-or-equity-requirement
+    description: The guidance must cover the equity implications of classroom AI use.
+    citation:
+      source_url: https://malegislature.gov/Bills/194/H614.pdf
+      locator: Sec. 1, G.L. c. 69, §1A
+      quote: the equity implications of the use of AI in the classroom;
+sponsors:
+  - name: Bradley Jones
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-27"
+    description: Referred to the Joint Committee on Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-02-27"
+    description: Senate concurred
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-29"
+    description: Hearing scheduled for 11/12/2025 from 11:00 AM-05:00 PM in Gardner Auditorium
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-09"
+    description: Reporting date extended to Wednesday, March 18, 2026
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-02-27"
+    url: https://malegislature.gov/Bills/194/H614.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2001175
+sources:
+  - url: https://malegislature.gov/Bills/194/H614
+    title: H 614 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://malegislature.gov/Bills/194/H614.pdf
+    title: H 614 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

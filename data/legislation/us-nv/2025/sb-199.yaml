@@ -1,0 +1,125 @@
+id: us-nv-2025-sb-199
+jurisdiction: us-nv
+session: "2025"
+identifier: SB 199
+title: Enacts provisions relating to artificial intelligence systems. (BDR 52-583)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - local-policy-requirement
+  - academic-integrity
+  - student-privacy
+  - procurement
+summary: Regulates artificial intelligence companies and, in Section 26, creates a working group appointed
+  by the Superintendent of Public Instruction, including teachers and pupils, to assess AI use in education
+  and develop guidance and a model policy for school districts and charter schools. The model policy must
+  address academic integrity, acceptable uses, pupil and teacher data privacy, procurement, equity, and
+  teacher professional development.
+provisions:
+  - type: creates-task-force
+    description: A working group must assess the current and future use of AI systems in education.
+    citation:
+      source_url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB199_R1.pdf
+      locator: Sec. 26(4)(a)
+      quote: Conduct an assessment of the current and future state of the use of artificial intelligence
+        systems in education
+  - type: issues-model-policy
+    description: The working group must develop guidance and a model policy for school districts and charter
+      schools on safe and effective AI use.
+    citation:
+      source_url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB199_R1.pdf
+      locator: Sec. 26(4)(c)
+      quote: Develop a model policy for school districts and charter schools regarding the safe and effective
+        use of artificial intelligence systems in a manner that benefits and does not negatively impact
+        pupils and teachers.
+  - type: academic-integrity-rules
+    description: The model policy must address academic integrity and plagiarism among other AI subjects.
+    citation:
+      source_url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB199_R1.pdf
+      locator: Sec. 26(7)(a)
+      quote: Academic integrity and plagiarism
+sponsors:
+  - name: Dina Neal
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-11"
+    description: Read first time. Referred to Committee on Commerce and Labor. To printer.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2025-02-12"
+    description: From printer. To committee.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Notice of eligibility for exemption.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-21"
+    description: 'From committee: Amend, and do pass as amended.'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-21"
+    description: Placed on Second Reading File.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-21"
+    description: Read second time. Amended. (Amend. No. 304.)
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-21"
+    description: Taken from General File. Re-referred to Committee on Finance. Exemption effective. To
+      printer.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-23"
+    description: From printer. To engrossment. Engrossed. First reprint.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-23"
+    description: To committee.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-03"
+    description: (No further action taken.)
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB199.pdf
+    media_type: application/pdf
+  - note: Amended
+    url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB199_R1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1965229
+sources:
+  - url: https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12246/Overview
+    title: SB 199 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB199_R1.pdf
+    title: SB 199 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

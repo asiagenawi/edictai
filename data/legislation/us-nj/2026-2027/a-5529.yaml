@@ -1,0 +1,64 @@
+id: us-nj-2026-2027-a-5529
+jurisdiction: us-nj
+session: 2026-2027
+identifier: A 5529
+title: Requires public school employee to be natural person.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - employment-evaluation
+  - instructional-use
+summary: Requires public school employees and contractors performing services in public schools, including
+  charter and renaissance schools, to be natural persons, covering positions such as teachers, administrators,
+  counselors, and aides. The sponsor's statement says the intent is that interactions between students
+  and school personnel be conducted by human beings rather than artificial intelligence.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Public school employees and contractors in positions such as teacher and counselor must
+      be natural persons, which the statement says is meant to keep these roles filled by humans rather
+      than AI.
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A6000/5529_I1.HTM
+      locator: Sec. 1
+      quote: A public school employee or an individual performing services in a public school pursuant
+        to a contract with a board of education or board of trustees of a charter school or renaissance
+        school project shall be a natural person.
+sponsors:
+  - name: Heather Simmons
+    primary: true
+    party: D
+    chamber: lower
+  - name: Rosy Bagolie
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-09-17"
+    description: Introduced, Referred to Assembly Education Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-09-18"
+    url: https://pub.njleg.gov/Bills/2026/A6000/5529_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2158154
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/A5529
+    title: A 5529 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/A6000/5529_I1.HTM
+    title: A 5529 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

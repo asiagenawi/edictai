@@ -1,0 +1,123 @@
+id: us-fl-2024-sb-1344
+jurisdiction: us-fl
+session: "2024"
+identifier: SB 1344
+title: Computer Science Education
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+  - curriculum-standards
+summary: Creates an AI in Education Task Force within the Department of Education, chaired by the Commissioner
+  of Education, to evaluate AI applications in K-12 and higher education, assess ethical, legal, and data
+  privacy implications, identify AI workforce needs, and recommend policy; also requires a statewide computer
+  science education strategic plan, with computer science defined to include AI and machine learning.
+provisions:
+  - type: creates-task-force
+    description: Establishes a task force to evaluate AI uses in K-12 and higher education and recommend
+      policy for students and educators.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/1344/BillText/c1/HTML
+      locator: Sec. 1, new 1003.4202(1)(a)
+      quote: The purpose of the task force is to evaluate the potential applications of artificial intelligence
+        in K-12 and higher education and to develop policy recommendations for responsible and effective
+        uses of artificial intelligence by students and educators
+sponsors:
+  - name: Education Pre-K -12
+    classification: committee
+    primary: true
+  - name: Alexis Calatayud
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-01-04"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-10"
+    description: Referred to Education Pre-K -12; Appropriations Committee on Education; Fiscal Policy
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-01-10"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-18"
+    description: On Committee agenda-- Education Pre-K -12, 01/23/24, 3:30 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-23"
+    description: CS by Education Pre-K -12; YEAS 9 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-24"
+    description: Pending reference review under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-01-24"
+    description: CS by Education Pre-K -12 read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-01-25"
+    description: Now in Appropriations Committee on Education
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-05"
+    description: On Committee agenda-- Appropriations Committee on Education, 02/08/24, 2:00 pm, 412 Knott
+      Building
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-08"
+    description: Favorable by Appropriations Committee on Education; YEAS 8 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-02-08"
+    description: Now in Fiscal Policy
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-08"
+    description: Died in Fiscal Policy
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2024-01-04"
+    url: https://www.flsenate.gov/Session/Bill/2024/1344/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2024-01-24"
+    url: https://www.flsenate.gov/Session/Bill/2024/1344/BillText/c1/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1797287
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2024/1344
+    title: SB 1344 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2024/1344/BillText/c1/HTML
+    title: SB 1344 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

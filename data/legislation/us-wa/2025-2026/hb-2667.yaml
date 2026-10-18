@@ -1,0 +1,74 @@
+id: us-wa-2025-2026-hb-2667
+jurisdiction: us-wa
+session: 2025-2026
+identifier: HB 2667
+title: Providing consumer protections for artificial intelligence systems.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Regulates deployers of high-risk artificial intelligence systems used to make consequential decisions,
+  including decisions on education enrollment or opportunity, requiring them to protect consumers from
+  algorithmic discrimination, maintain risk management programs, and complete impact assessments.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Includes decisions about education enrollment or opportunity among the consequential
+      decisions the act covers.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2667.pdf
+      locator: Sec. 2(3)
+      quote: 'means any decision that has a material legal or similarly significant effect on the provision
+        or denial of any consumer''s access to: (a) Pardon, parole, probation, or release; (b) Education
+        enrollment or opportunity;'
+  - type: bias-or-equity-requirement
+    description: Requires deployers of high-risk AI systems to protect consumers from algorithmic discrimination.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2667.pdf
+      locator: Sec. 3(1)(a)
+      quote: each deployer of a high-risk artificial intelligence system must use industry-standard means
+        to protect consumers from any known or reasonably foreseeable risks of algorithmic discrimination.
+sponsors:
+  - name: Clyde Shavers
+    primary: true
+    party: D
+    chamber: lower
+  - name: Stephanie Barnard
+    primary: false
+    party: R
+    chamber: lower
+  - name: Natasha Hill
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-26"
+    description: First reading, referred to Technology, Economic Development, & Veterans.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2667.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2092630
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=2667&Year=2025&Initiative=false
+    title: HB 2667 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/House%20Bills/2667.pdf
+    title: HB 2667 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

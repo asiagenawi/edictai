@@ -1,0 +1,87 @@
+id: us-119-hr-10530
+jurisdiction: us
+session: "119"
+identifier: H.R. 10530
+title: Quality Educator Partnership Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - educator-training
+  - ai-literacy
+  - research
+summary: Supports educators through multiple programs and directs the Department of Education's educational
+  technology office to support research on digital literacy skills, including AI skills, and to build
+  the capacity of local educational agencies and educator preparation programs to integrate emerging technologies
+  and develop AI-related skills.
+provisions:
+  - type: educator-prep-requirement
+    description: The Office of Educational Technology must build the capacity of local educational agencies
+      and educator preparation programs to develop skills related to AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10530/BILLS-119hr10530ih.pdf
+      locator: Sec. 102 (new (c)(3))
+      quote: building the capacity of local educational agencies and educator preparation programs to
+        inte- grate emerging technologies and support the devel- opment of digital literacy skills, including
+        skills re- lated to Artificial Intelligence.
+  - type: appropriates-funding
+    description: Grant partnerships describe how they will integrate technology, including AI, into funded
+      strategies to support learning.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10530/BILLS-119hr10530ih.pdf
+      locator: Sec. 212
+      quote: cluding Artificial Intelligence, into the strategies and initiatives carried out with funds
+        under this subtitle to—
+sponsors:
+  - name: Alma Adams
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jahana Hayes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Suzanne Bonamici
+    primary: false
+    party: D
+    chamber: lower
+  - name: Emilia Sykes
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-09-24"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-09-24"
+    description: Referred to the House Committee on Education and Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-09-26"
+    url: https://www.congress.gov/119/bills/hr10530/BILLS-119hr10530ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2159124
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/10530/all-info
+    title: H.R. 10530 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr10530/BILLS-119hr10530ih.pdf
+    title: H.R. 10530 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,106 @@
+id: us-ga-2025-2026-sb-167
+jurisdiction: us-ga
+session: 2025-2026
+identifier: SB 167
+title: Commerce and Trade; private entities that employ certain AI systems to guard against discrimination
+  caused by such systems; provide
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - admissions
+summary: Regulates private entities' use of automated decision systems in consequential decisions, including
+  education enrollment or education opportunities, requiring developers and deployers to evaluate systems
+  for algorithmic discrimination, disclose risks, and notify consumers when such systems are used.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Consequential decisions regulated by the chapter include education enrollment or opportunities.
+    citation:
+      source_url: https://www.legis.ga.gov/api/legislation/document/20252026/232350
+      locator: Section 1, new chapter of Title 10, definition of consequential decision
+      quote: (A) Education enrollment or education opportunities; (B) Employment or employment opportunities;
+  - type: bias-or-equity-requirement
+    description: Developers must disclose known or foreseeable risks of algorithmic discrimination to
+      the Attorney General and deployers.
+    citation:
+      source_url: https://www.legis.ga.gov/api/legislation/document/20252026/232350
+      locator: Sec. 1, new Ch. 16 (developer disclosure)
+      quote: A developer of an automated decision system shall disclose to the Attorney General, in a
+        form and manner prescribed by the Attorney General, and to all known deployers or other developers
+        of the automated decision system, any known or reasonably foreseeable risks of algorithmic discrimination
+sponsors:
+  - name: Nikki Merritt
+    primary: true
+    party: D
+    chamber: upper
+  - name: Harold Jones
+    primary: true
+    party: D
+    chamber: upper
+  - name: RaShaun Kemp
+    primary: true
+    party: D
+    chamber: upper
+  - name: Nabilah Islam Parkes
+    primary: true
+    party: D
+    chamber: upper
+  - name: Michael Rhett
+    primary: true
+    party: D
+    chamber: upper
+  - name: Donzella James
+    primary: true
+    party: D
+    chamber: upper
+  - name: Elena Parent
+    primary: true
+    party: D
+    chamber: upper
+  - name: Kenya Wicks
+    primary: true
+    party: D
+    chamber: upper
+  - name: Sally Harrell
+    primary: true
+    party: D
+    chamber: upper
+  - name: Randal Mangham
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-12"
+    description: Senate Hopper
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-13"
+    description: Senate Read and Referred
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-13"
+    url: https://www.legis.ga.gov/api/legislation/document/20252026/232350
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1968119
+sources:
+  - url: https://www.legis.ga.gov/legislation/70305
+    title: SB 167 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.ga.gov/api/legislation/document/20252026/232350
+    title: SB 167 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

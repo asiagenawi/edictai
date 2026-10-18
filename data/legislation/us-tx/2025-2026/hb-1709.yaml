@@ -1,0 +1,80 @@
+id: us-tx-2025-2026-hb-1709
+jurisdiction: us-tx
+session: 2025-2026
+identifier: HB 1709
+title: Relating to the regulation and reporting on the use of artificial intelligence systems by certain
+  business entities and state agencies; providing civil penalties.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - workforce
+  - funding
+  - curriculum-standards
+summary: Enacts a version of the Texas Responsible Artificial Intelligence Governance Act that, among
+  other provisions, creates the Texas Artificial Intelligence Workforce Development Grant Program. The
+  program provides grants to public school districts, charter schools, community colleges and technical
+  institutes for AI-related career and technical education, curricula and training.
+provisions:
+  - type: ai-workforce-program
+    description: Establishes an AI workforce development grant program including career and technical
+      education in community colleges and high schools.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01709I.htm
+      locator: Sec. 319.051(a)
+      quote: provide grants to local community colleges and public high schools to implement or expand
+        career and technical education programs focused on artificial intelligence readiness and skill
+        development;
+  - type: appropriates-funding
+    description: Makes school districts, charter schools, community colleges and technical institutes
+      eligible for AI curriculum and training grants.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01709I.htm
+      locator: Sec. 319.053(a)
+      quote: public school districts and charter schools offering or seeking to offer career and technical
+        education programs in artificial intelligence-related fields or to update existing curricula to
+        address these fields;
+sponsors:
+  - name: Giovanni Capriglione
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-12-23"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-14"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-14"
+    description: Referred to Delivery of Government Efficiency
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-12-31"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01709I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1898826
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB1709
+    title: HB 1709 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB01709I.htm
+    title: HB 1709 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

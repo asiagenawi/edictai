@@ -1,0 +1,84 @@
+id: us-va-2024-hb-747
+jurisdiction: us-va
+session: "2024"
+identifier: HB 747
+title: Artificial Intelligence Developer Act; established, civil penalty.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Creates operating standards for developers and deployers of high-risk artificial intelligence
+  systems used to make consequential decisions, defined to include decisions affecting access to education,
+  including disclosures, protection against algorithmic discrimination, and impact assessments, with Attorney
+  General enforcement.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Covers high-risk AI used in consequential decisions, defined to include access to education,
+      and requires developers to disclose foreseeable risks of algorithmic discrimination.
+    citation:
+      source_url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB747H1+hil
+      locator: Sec. 59.1-603 (definition of consequential decision)
+      quote: '"Consequential decision" means any decision that has a material legal, or similarly significant,
+        effect on a consumer''s access to credit, criminal justice, education, employment, health care,
+        housing, or insurance.'
+sponsors:
+  - name: Michelle Maldonado
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-01-09"
+    description: Prefiled and ordered printed; offered 01/10/24 24105096D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-09"
+    description: Referred to Committee on Communications, Technology and Innovation
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-26"
+    description: 'Assigned CT & I sub: Technology and Innovation'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-05"
+    description: Committee substitute posted to LIS only 24105785D-H1
+    actor: lower
+    classification:
+      - substitution
+  - date: "2024-02-05"
+    description: Continued to 2025 with substitute in Communications, Technology and Innovation by voice
+      vote
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Prefiled
+    date: "2024-01-09"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB747+hil
+    media_type: text/html
+  - note: Comm Sub
+    date: "2024-02-05"
+    url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB747H1+hil
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1809843
+sources:
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB747
+    title: HB 747 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB747H1+hil
+    title: HB 747 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

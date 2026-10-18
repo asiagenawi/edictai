@@ -1,0 +1,127 @@
+id: us-ca-2025-2026-sb-126
+jurisdiction: us-ca
+session: 2025-2026
+identifier: SB 126
+title: 'Education finance: education omnibus trailer bill.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - instructional-use
+  - funding
+summary: Appropriates $600,000 to the State Department of Education to contract with a county office of
+  education to maintain the California Educators Together online repository, which must include guidance
+  and resources for educators and pupils on safeguards for use of new and emerging technology in schools,
+  including artificial intelligence. It also creates a statewide subject matter transcript review service
+  for the Commission on Teacher Credentialing that must comply with applicable AI governance standards.
+provisions:
+  - type: issues-model-policy
+    description: The state-funded California Educators Together repository must include guidance and resources
+      for educators and pupils on safeguards for AI use in schools.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB126#98AMD
+      locator: Section on California Educators Together repository, subd. (c)(3)
+      quote: Guidance and resources for educators and pupils dedicated towards protecting pupils online,
+        cultivating media and digital literacy, and establishing safeguards for use of new and emerging
+        technology in schools, including artificial intelligence.
+sponsors:
+  - name: Budget and Fiscal Review
+    classification: committee
+    primary: true
+actions:
+  - date: "2025-01-23"
+    description: Introduced. Read first time. To Com. on RLS. for assignment. To print.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-01-24"
+    description: From printer. May be acted upon on or after February 23.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-05"
+    description: Referred to Com. on B. & F. R.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-17"
+    description: Withdrawn from committee. (Ayes 27. Noes 10. Page 384.)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-17"
+    description: Ordered to second reading.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-18"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-03-20"
+    description: Read third time. Passed. (Ayes 28. Noes 10. Page 439.) Ordered to the Assembly.
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-20"
+    description: In Assembly. Read first time. Held at Desk.
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-24"
+    description: Referred to Com. on BUDGET.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-26"
+    description: From committee with author's amendments. Read second time and amended. Re-referred to
+      Com. on BUDGET.
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-06-29"
+    description: Withdrawn from committee pursuant to Asssembly Rule 96.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Assembly Rule 63 suspended. (Ayes 53. Noes 14. Page 5891.)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-02"
+    description: Re-referred to Com. on BUDGET pursuant to Assembly Rule 97.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-01-23"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB126#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-06-26"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB126#98AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1939223
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB126
+    title: SB 126 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB126#98AMD
+    title: SB 126 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

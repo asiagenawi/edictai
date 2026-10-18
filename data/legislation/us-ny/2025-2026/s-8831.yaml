@@ -1,0 +1,132 @@
+id: us-ny-2025-2026-s-8831
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 8831
+title: Provides for the use of automated employment decision-making tools and artificial intelligence
+  systems by a county, city, town, village, school district, board of cooperative educational services,
+  county vocational education and extension board, district corporation, the state university of New York,
+  the city university of New York, or community college; amends the effectiveness thereof.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+summary: Governs use of automated employment decision tools and AI systems by local governments, school
+  districts, BOCES, SUNY, CUNY, and community colleges, and amends the education law so that AI use cannot
+  displace school district, SUNY, CUNY, or community college employees, transfer their duties to AI, or
+  impair collective bargaining rights.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Bars use of AI systems by boards of education from displacing school district employees
+      or impairing collective bargaining agreements.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08831&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08831
+      locator: Sec. 9, Education Law 2585(5)(b)
+      quote: (i) discharge, displace- ment or loss of position, including partial displacement such as
+        a reduction in the hours of non-overtime work, wages, or employment bene- fits, or result in the
+        impairment of existing collective bargaining agreements
+  - type: prohibits-ai-replacing-educators
+    description: Bars AI use from transferring SUNY employees' duties to an AI system.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08831&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08831
+      locator: Sec. 13, Education Law 355-a(14)(b)
+      quote: (ii) transfer of duties and functions currently performed by employees of the state university
+        of New York to an artificial intelligence system.
+  - type: prohibits-ai-replacing-educators
+    description: Bars AI use from transferring community college employees' duties to an AI system.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08831&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08831
+      locator: Sec. 15
+      quote: (ii) transfer of existing duties and functions currently performed by employees of each community
+        college to an artificial intelligence system.
+sponsors:
+  - name: Kristen Gonzalez
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-08"
+    description: REFERRED TO RULES
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-12"
+    description: ORDERED TO THIRD READING CAL.46
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: PASSED SENATE
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-01-21"
+    description: DELIVERED TO ASSEMBLY
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-21"
+    description: substituted for a9487
+    actor: lower
+    classification:
+      - substitution
+  - date: "2026-01-21"
+    description: ordered to third reading rules cal.51
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: passed assembly
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-01-21"
+    description: returned to senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-13"
+    description: DELIVERED TO GOVERNOR
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-02-13"
+    description: SIGNED CHAP.86
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-08"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08831&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08831
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2068608
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S8831
+    title: S 8831 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S08831&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08831
+    title: S 8831 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

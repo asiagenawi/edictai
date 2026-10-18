@@ -1,0 +1,156 @@
+id: us-or-2025-hb-3592
+jurisdiction: us-or
+session: "2025"
+identifier: HB 3592
+title: Relating to artificial intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+summary: Creates the Senator Aaron Woods Commission on Artificial Intelligence within the Department of
+  Justice to monitor AI use in Oregon and report to the Legislative Assembly. Among its duties, the commission
+  reviews how AI is taught at the primary, secondary and post-secondary levels and recommends education
+  policies.
+provisions:
+  - type: creates-task-force
+    description: Directs the AI commission to review the state of education around AI at the primary,
+      secondary and post-secondary levels.
+    citation:
+      source_url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3592/A-Engrossed
+      locator: Section 1(2)(i)
+      quote: Review the state of education in this state around the uses of artificial intelligence systems
+        at the primary, secondary and post-secondary education levels
+sponsors:
+  - name: Daniel Nguyen
+    primary: true
+    party: D
+    chamber: lower
+  - name: Aaron Woods
+    primary: true
+    party: D
+    chamber: upper
+  - name: Ben Bowman
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tom Andersen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Farrah Chaichi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lisa Fragala
+    primary: false
+    party: D
+    chamber: lower
+  - name: Zach Hudson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shannon Isadore
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kevin Mannix
+    primary: false
+    party: R
+    chamber: lower
+  - name: Pam Marsh
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sarah Finger McDonald
+    primary: false
+    party: D
+    chamber: lower
+  - name: Susan McLain
+    primary: false
+    party: D
+    chamber: lower
+  - name: Hoa Nguyen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Nosse
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jules Walters
+    primary: false
+    party: D
+    chamber: lower
+  - name: Courtney Neron Misslin
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-18"
+    description: First reading. Referred to Speaker's desk.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2025-02-20"
+    description: Referred to Information Management and Technology with subsequent referral to Ways and
+      Means.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-11"
+    description: Public Hearing held.
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-06-11"
+    description: Work Session held.
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-06-12"
+    description: Without recommendation as to passage, with amendments, be printed A-Engrossed, and be
+      referred to Ways and Means by prior reference.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-06-12"
+    description: Referred to Ways and Means by prior reference.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-06-27"
+    description: In committee upon adjournment.
+    actor: lower
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3592/Introduced
+    media_type: application/pdf
+  - note: Introduced
+    url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3592/House%20Amendments%20to%20Introduced
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3592/A-Engrossed
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1973003
+sources:
+  - url: https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/HB3592
+    title: HB 3592 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3592/A-Engrossed
+    title: HB 3592 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

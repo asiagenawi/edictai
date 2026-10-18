@@ -1,0 +1,84 @@
+id: us-ny-2025-2026-a-4947
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 4947
+title: Enacts the NY privacy act to require companies to disclose their methods of de-identifying personal
+  information, to place special safeguards around data sharing and to allow consumers to obtain the names
+  of all entities with whom their information is shared.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - admissions
+  - equity-access
+summary: Enacts the New York privacy act, which gives consumers rights over their personal data and requires
+  controllers and processors that use automated decision-making affecting education enrollment, among
+  other fields, to conduct annual impact assessments.
+provisions:
+  - type: ai-in-admissions
+    description: Requires annual impact assessments of automated decision-making that affects education
+      enrollment and other listed fields.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A04947&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A04947
+      locator: Sec. 3, new GBL 1202(c)(i)
+      quote: A controller or processor engaged in automated decision-making affecting financial or lending
+        services, housing, public accommodation, insurance, education enrollment, employment, health care
+        services, or access to basic necessities
+sponsors:
+  - name: Linda Rosenthal
+    primary: true
+    party: D
+    chamber: lower
+  - name: David Weprin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jo Simon
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jeffrey Dinowitz
+    primary: false
+    party: D
+    chamber: lower
+  - name: Amy Paulin
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-10"
+    description: referred to consumer affairs and protection
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to consumer affairs and protection
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-10"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A04947&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A04947
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1963704
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A4947
+    title: A 4947 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A04947&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A04947
+    title: A 4947 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

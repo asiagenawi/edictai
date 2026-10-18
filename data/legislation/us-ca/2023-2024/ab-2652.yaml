@@ -1,0 +1,141 @@
+id: us-ca-2023-2024-ab-2652
+jurisdiction: us-ca
+session: 2023-2024
+identifier: AB 2652
+title: 'State Department of Education: artificial intelligence working group.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - local-policy-requirement
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - educator-training
+  - equity-access
+summary: Requires the Superintendent of Public Instruction to convene a working group of teachers, staff,
+  administrators, faculty, industry, and pupils to assess the use of artificial intelligence in education,
+  develop guidance for local educational agencies and charter schools on its safe use by January 1, 2026,
+  and develop a model policy by July 1, 2026, covering academic integrity, acceptable uses, data privacy,
+  procurement, equity, and professional development.
+provisions:
+  - type: creates-task-force
+    description: The Superintendent must convene a working group on safe and effective uses of AI in education.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2652#97AMD
+      locator: Education Code 33328.5(b)
+      quote: The Superintendent, in consultation with the state board, shall convene a working group for
+        all of the following purposes
+  - type: issues-model-policy
+    description: The working group must develop guidance for local educational agencies on the safe use
+      of AI, addressing academic integrity, data privacy, and procurement.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2652#97AMD
+      locator: Education Code 33328.5(d)(3)
+      quote: On or before January 1, 2026, develop guidance for local educational agencies and charter
+        schools on the safe use of artificial intelligence in education that addresses all of the following
+  - type: issues-model-policy
+    description: The working group must develop a model AI policy for local educational agencies and charter
+      schools.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2652#97AMD
+      locator: Education Code 33328.5(d)(4)
+      quote: On or before July 1, 2026, develop a model policy for local educational agencies and charter
+        schools regarding the safe and effective use of artificial intelligence in ways that benefit,
+        and do not harm, pupils and educators.
+sponsors:
+  - name: Al Muratsuchi
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-14"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-02-15"
+    description: From printer. May be heard in committee March 16.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-04"
+    description: Referred to Coms. on ED. and P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-04"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on P. & C.P. (Ayes
+      7. Noes 0.) (April 3).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-08"
+    description: Read second time and amended.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-04-09"
+    description: Re-referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-17"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on APPR. with recommendation:
+      To Consent Calendar. (Ayes 11. Noes 0.) (April 16).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-18"
+    description: Read second time and amended.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-04-22"
+    description: Re-referred to Com. on APPR.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-05-08"
+    description: 'In committee: Set, first hearing. Referred to APPR. suspense file.'
+    actor: lower
+    classification:
+      - committee-hearing
+      - referral-committee
+  - date: "2024-05-16"
+    description: 'In committee: Held under submission.'
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-14"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2652#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2024-04-08"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2652#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2024-04-18"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2652#97AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1847401
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240AB2652
+    title: AB 2652 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2652#97AMD
+    title: AB 2652 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

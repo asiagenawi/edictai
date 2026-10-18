@@ -1,0 +1,84 @@
+id: us-ia-2025-2026-hf-2153
+jurisdiction: us-ia
+session: 2025-2026
+identifier: HF 2153
+title: A bill for an act requiring community colleges, school districts, and institutions under the control
+  of the state board of regents to adopt policies related to the use of artificial intelligence by students
+  and employees.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - academic-integrity
+summary: Requires community colleges, school districts, and Board of Regents institutions to adopt policies
+  describing when students may use artificial intelligence in class and coursework, when employees may
+  use it for work duties, and what AI uses are prohibited. Requires the policies to be published online
+  and sent to the Department of Education or the Board of Regents, which must post them.
+provisions:
+  - type: requires-local-ai-policy
+    description: Each community college must adopt an AI policy covering student and employee use and
+      prohibitions.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF2153.html
+      locator: Section 260C.14, new subsection
+      quote: 'adopt a policy related to artificial intelligence that describes all of the following: (a)
+        When a student attending the community college may utilize artificial intelligence during classroom
+        instructional time and during the completion of course or program work.'
+  - type: requires-local-ai-policy
+    description: The Board of Regents must direct its institutions to adopt AI policies.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF2153.html
+      locator: Section 262.9, new subsection
+      quote: 'Direct the institutions of higher education under its control to, on or before July adopt
+        a policy related to artificial intelligence that describes all of the following:'
+  - type: requires-local-ai-policy
+    description: Each school district board must adopt an AI policy covering student and employee use
+      and prohibitions.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF2153.html
+      locator: New section 279.89
+      quote: 'The board of directors of each school district shall do all of the following: a. On or before
+        July adopt a policy related to artificial intelligence that describes all of the following:'
+sponsors:
+  - name: Aime Wichtendahl
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-26"
+    description: Introduced, referred to Education. H.J. 150.
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-26"
+    url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF2153.html
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2093438
+sources:
+  - url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF2153
+    title: HF 2153 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF2153.html
+    title: HF 2153 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

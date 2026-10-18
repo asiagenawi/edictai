@@ -1,0 +1,105 @@
+id: us-119-hr-5360
+jurisdiction: us
+session: "119"
+identifier: H.R. 5360
+title: AWARE Act AI Warnings And Resources for Education Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - ai-literacy
+summary: Directs the Federal Trade Commission to develop public educational resources for parents, educators,
+  and minors on the safe and responsible use of AI chatbots by minors, covering safe and unsafe use, privacy
+  and data collection, and parental supervision.
+provisions:
+  - type: chatbot-minor-protections
+    description: The FTC must develop educational resources for parents, educators, and minors on safe
+      use of AI chatbots by minors.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr5360/BILLS-119hr5360ih.pdf
+      locator: Sec. 2(a)
+      quote: shall develop and make available to the public educational resources for parents, educators,
+        and minors with respect to the safe and responsible use of AI chatbots by minors.
+sponsors:
+  - name: Erin Houchin
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jake Auchincloss
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mariannette Miller-Meeks
+    primary: false
+    party: R
+    chamber: lower
+  - name: Eugene Vindman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Craig Goldman
+    primary: false
+    party: R
+    chamber: lower
+  - name: Josh Harder
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sarah McBride
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lloyd Doggett
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-09-15"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-09-15"
+    description: Referred to the House Committee on Energy and Commerce.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-09-15"
+    description: Referred to the Subcommittee on Commerce, Manufacturing, and Trade.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-12-11"
+    description: Subcommittee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2025-12-11"
+    description: Forwarded by Subcommittee to Full Committee in the Nature of a Substitute (Amended) by
+      Voice Vote.
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-09-24"
+    url: https://www.congress.gov/119/bills/hr5360/BILLS-119hr5360ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2044138
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/5360/all-info
+    title: H.R. 5360 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr5360/BILLS-119hr5360ih.pdf
+    title: H.R. 5360 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

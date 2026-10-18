@@ -1,0 +1,116 @@
+id: us-hi-2025-2026-hb-2466
+jurisdiction: us-hi
+session: 2025-2026
+identifier: HB 2466
+title: Relating To Education.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - safety-wellbeing
+summary: Bans student use of electronic telecommunication devices during instructional hours and requires
+  the Department of Education to develop and administer a K-12 social media and artificial intelligence
+  literacy curriculum. Requires the department to review the restrictions and the literacy curriculum
+  and report to the legislature.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: The Department of Education must develop and administer a K-12 social media and AI literacy
+      curriculum.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2466_.HTM
+      locator: Section 3, new 302A- (a)
+      quote: The department shall develop and administer a comprehensive age-appropriate and developmentally
+        appropriate K-12 social media and artificial intelligence literacy education curriculum.
+  - type: creates-task-force
+    description: The department must evaluate the effectiveness of the AI literacy curriculum and report.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2466_.HTM
+      locator: Section 4(b)(2)
+      quote: The effectiveness of the social media and artificial intelligence literacy curriculum in
+        improving students’ understanding of digital risks, critical thinking skills, and online safety;
+sponsors:
+  - name: Joe Gedeon
+    primary: true
+    party: R
+    chamber: lower
+  - name: David Alcos
+    primary: true
+    party: R
+    chamber: lower
+  - name: Diamond Garcia
+    primary: true
+    party: R
+    chamber: lower
+  - name: Kirstin Kahaloa
+    primary: true
+    party: D
+    chamber: lower
+  - name: Sue Keohokapu-Lee Loy
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lauren Matsumoto
+    primary: true
+    party: R
+    chamber: lower
+  - name: Chris Muraoka
+    primary: true
+    party: R
+    chamber: lower
+  - name: Elijah Pierick
+    primary: true
+    party: R
+    chamber: lower
+  - name: Mahina Poepoe
+    primary: true
+    party: D
+    chamber: lower
+  - name: Garner Shimizu
+    primary: true
+    party: R
+    chamber: lower
+  - name: Darius Kila
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-27"
+    description: Pending introduction.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-28"
+    description: Introduced and Pass First Reading.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-02"
+    description: Referred to EDN, JHA, FIN, referral sheet 6
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-27"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2466_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2095373
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2466&year=2026
+    title: HB 2466 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2466_.HTM
+    title: HB 2466 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

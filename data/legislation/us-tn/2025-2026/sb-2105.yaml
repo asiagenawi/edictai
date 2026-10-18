@@ -1,0 +1,78 @@
+id: us-tn-2025-2026-sb-2105
+jurisdiction: us-tn
+session: 2025-2026
+identifier: SB 2105
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to education.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+summary: Requires each public charter school to publish its governing board's policy on the use of artificial
+  intelligence by students, teachers and staff on its website. Retains the requirement that local boards
+  of education adopt such AI policies and directs them to have each school publish the policy on its website.
+provisions:
+  - type: requires-local-ai-policy
+    description: Local boards of education must adopt AI use policies for instruction and assignments
+      and report compliance.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/SB2105.pdf
+      locator: Section 2, amending 49-2-203(a)(16)(A)
+      quote: Adopt a policy regarding the use of artificial intelligence by students, teachers, and staff
+        for instructional and assignment purposes.
+  - type: requires-disclosure
+    description: Public charter schools must publish their AI use policy on their websites.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/SB2105.pdf
+      locator: Section 1, new 49-13-118(c)
+      quote: Each public charter school shall publish the policy adopted by its governing board on the
+        use of artificial intelligence by students, teachers, and staff for instructional and assignment
+        purposes on the public charter school's website.
+sponsors:
+  - name: Dawn White
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-22"
+    description: Filed for introduction
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-02"
+    description: Introduced, Passed on First Consideration
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-02-05"
+    description: Passed on Second Consideration, refer to Senate Education Committee
+    actor: upper
+    classification:
+      - passage
+versions:
+  - note: Draft
+    date: "2026-01-22"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/SB2105.pdf
+    media_type: application/pdf
+  - note: Draft
+    date: "2026-02-03"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/SB2105.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2090607
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=SB2105&ga=114
+    title: SB 2105 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.tn.gov/Bills/114/Bill/SB2105.pdf
+    title: SB 2105 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

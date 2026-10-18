@@ -1,0 +1,495 @@
+id: us-ct-2024-sb-2
+jurisdiction: us-ct
+session: "2024"
+identifier: SB 2
+title: An Act Concerning Artificial Intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - workforce
+  - ai-literacy
+  - equity-access
+summary: A comprehensive artificial intelligence bill that regulates high-risk AI systems making consequential
+  decisions, including education enrollment or opportunity, directs the Board of Regents to offer AI courses
+  with certificates and badges and to establish community-technical college certificate programs in prompt
+  engineering and AI for small businesses, and creates related economic development measures.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Consequential decisions regulated by the AI provisions include education enrollment or
+      opportunity.
+    citation:
+      source_url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R03-SB.PDF
+      locator: Sec. 1(3)
+      quote: '"Consequential decision" means any decision that has a material legal or similarly significant
+        effect on any consumer''s access to, or availability, cost or terms of, any criminal justice remedy,
+        education enrollment or opportunity'
+  - type: ai-workforce-program
+    description: The Board of Regents must develop certificates and badges for completing AI courses.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R03-SB.PDF
+      locator: Sec. 23
+      quote: The board shall, in consultation with Charter Oak State College, develop certificates and
+        badges to be awarded to persons who successfully complete such courses.
+  - type: ai-workforce-program
+    description: The Board of Regents must establish community-technical college certificate programs
+      in prompt engineering and AI for small businesses.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R03-SB.PDF
+      locator: Sec. 23
+      quote: the Board of Regents for Higher Education shall establish, on behalf of the regional community-technical
+        colleges, certificate programs in prompt engineering, artificial intelligence marketing for small
+        businesses and artificial intelligence for small business operations.
+sponsors:
+  - name: General Law Committee
+    classification: committee
+    primary: true
+  - name: Martin Looney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Duff
+    primary: false
+    party: D
+    chamber: upper
+  - name: Saud Anwar
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jorge Cabrera
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mae Flexer
+    primary: false
+    party: D
+    chamber: upper
+  - name: Herron Gaston
+    primary: false
+    party: D
+    chamber: upper
+  - name: Joan Hartley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jan Hochadel
+    primary: false
+    party: D
+    chamber: upper
+  - name: Julie Kushner
+    primary: false
+    party: D
+    chamber: upper
+  - name: Matthew Lesser
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cici Maher
+    primary: false
+    party: D
+    chamber: upper
+  - name: James Maroney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Martha Marx
+    primary: false
+    party: D
+    chamber: upper
+  - name: Douglas McCrory
+    primary: false
+    party: D
+    chamber: upper
+  - name: Patricia Miller
+    primary: false
+    party: D
+    chamber: upper
+  - name: Marilyn Moore
+    primary: false
+    party: D
+    chamber: upper
+  - name: Norman Needleman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Catherine Osten
+    primary: false
+    party: D
+    chamber: upper
+  - name: MD Rahman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Derek Slap
+    primary: false
+    party: D
+    chamber: upper
+  - name: Gary Winfield
+    primary: false
+    party: D
+    chamber: upper
+  - name: Aundre Bumgardner
+    primary: false
+    party: R
+    chamber: lower
+  - name: Hubert Delany
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christine Cohen
+    primary: false
+    party: D
+    chamber: upper
+  - name: Tom Delnicki
+    primary: false
+    party: R
+    chamber: lower
+  - name: Anthony Nolan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christine Palm
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maria Horn
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marcus Brown
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Rosario
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gary Turco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Welander
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eleni Kavros DeGraw
+    primary: false
+    party: D
+    chamber: lower
+  - name: Patricia Dillon
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Michel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Fred Gee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julio Concepcion
+    primary: false
+    party: D
+    chamber: lower
+  - name: Minnie Gonzalez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anabel Figueroa
+    primary: false
+    party: D
+    chamber: lower
+  - name: Corey Paris
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joshua Elliott
+    primary: false
+    party: D
+    chamber: lower
+  - name: Geraldo Reyes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Juan Candelaria
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jason Doucette
+    primary: false
+    party: D
+    chamber: lower
+  - name: Larry Butler
+    primary: false
+    party: D
+    chamber: lower
+  - name: Farley Santos
+    primary: false
+    party: D
+    chamber: lower
+  - name: Hilda Santiago
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anne Hughes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Fazzino
+    primary: false
+    party: D
+    chamber: lower
+  - name: Trenee McGee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maryam Khan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sarah Keitt
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kai Belton
+    primary: false
+    party: D
+    chamber: lower
+  - name: William Heffernan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kadeem Roberts
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kate Farrar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Matt Blumenthal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frank Smith
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Gresko
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tammy Exum
+    primary: false
+    party: D
+    chamber: lower
+  - name: Emmanuel Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Derell Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jillian Gilchrest
+    primary: false
+    party: D
+    chamber: lower
+  - name: Hector Arzeno
+    primary: false
+    party: D
+    chamber: lower
+  - name: Susan Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Mushinsky
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bobby Gibson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dominique Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Aimee Berger-Girvalo
+    primary: false
+    party: D
+    chamber: lower
+  - name: John-Michael Parker
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lucy Dathan
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-07"
+    description: Referred to Joint Committee on General Law
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2024-02-13"
+    description: Vote to Draft
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-21"
+    description: Drafted by Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Referred to Joint Committee on General Law
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-02-23"
+    description: Public Hearing 02/29
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-12"
+    description: Joint Favorable Substitute
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-14"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-03-25"
+    description: Referred to Office of Legislative Research and Office of Fiscal Analysis 04/02/24 12:00
+      PM
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-04-02"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-02"
+    description: Favorable Report, Tabled for the Calendar, Senate
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-02"
+    description: Senate Calendar Number 132
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-02"
+    description: File Number 188
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Senate Adopted Senate Amendment Schedule A 3940
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-04-17"
+    description: Referred by Senate to Committee on Judiciary
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-04-22"
+    description: Joint Favorable
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-23"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-04-23"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-23"
+    description: No New File by Committee on Judiciary
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-23"
+    description: Favorable Report, Tabled for the Calendar, Senate
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-24"
+    description: Senate Adopted Senate Amendment Schedule B 4463
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-04-24"
+    description: Senate Passed as Amended by Senate Amendment Schedule A,B
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-04-25"
+    description: Favorable Report, Tabled for the Calendar, House
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-25"
+    description: House Calendar Number 426
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-06"
+    url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R00-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-02-21"
+    url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R01-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-04-02"
+    url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R02-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-04-23"
+    url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R03-SB.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1839016
+sources:
+  - url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00002&which_year=2024
+    title: SB 2 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00002-R03-SB.PDF
+    title: SB 2 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,223 @@
+id: us-wa-2025-2026-sb-5956
+jurisdiction: us-wa
+session: 2025-2026
+identifier: SB 5956
+title: Addressing artificial intelligence, student discipline, and surveillance in public schools.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - institutional-operations
+  - student-privacy
+  - equity-access
+  - local-policy-requirement
+  - safety-wellbeing
+summary: Restricts the use of artificial intelligence, automated decision systems, and surveillance technologies
+  in K-12 student discipline and school safety, and limits disclosure of student information generated
+  by such systems to law enforcement. Directs the superintendent of public instruction to update its AI
+  guidance and the school directors' association to develop a model policy.
+provisions:
+  - type: restricts-student-data-use
+    description: Limits disclosure to law enforcement of student information obtained or generated through
+      AI, automated decision, or surveillance systems.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5956-S.pdf
+      locator: Sec. 6(1)
+      quote: 'Student personal information obtained or generated through an artificial intelligence system,
+        automated decision system, or school surveillance technology may be disclosed to law enforcement
+        only:'
+  - type: issues-model-policy
+    description: Directs the superintendent of public instruction to update its human-centered AI guidance
+      to address discipline and surveillance.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5956-S.pdf
+      locator: Sec. 9
+      quote: update its guidance on human-centered artificial intelligence in K–12 education
+  - type: issues-model-policy
+    description: Requires the school directors' association to develop a model policy and procedure for
+      schools to implement the act.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5956-S.pdf
+      locator: Sec. 10(1)
+      quote: By February 1, 2027, the Washington state school directors' association must develop, and
+        periodically update, a model policy and procedure that school districts, charter schools, and
+        state-tribal education compact schools may adopt or adapt
+  - type: bias-or-equity-requirement
+    description: Requires the model policy to address avoiding discriminatory impacts of AI systems on
+      protected students.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5956-S.pdf
+      locator: Sec. 10(3)(b)
+      quote: Strategies to avoid discriminatory or disproportionately harmful impacts on students with
+        protected class status under chapters 49.60, 28A.640, and 28A.642 RCW
+sponsors:
+  - name: T'wina Nobles
+    primary: true
+    party: D
+    chamber: upper
+  - name: Lisa Wellman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mike Chapman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Noel Frame
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Hasegawa
+    primary: false
+    party: D
+    chamber: upper
+  - name: Tina Orwall
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jesse Salomon
+    primary: false
+    party: D
+    chamber: upper
+  - name: Sharon Shewmake
+    primary: false
+    party: D
+    chamber: upper
+  - name: Vandana Slatter
+    primary: false
+    party: D
+    chamber: upper
+  - name: Javier Valdez
+    primary: false
+    party: D
+    chamber: upper
+  - name: Claire Wilson
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-12-31"
+    description: Prefiled for introduction.
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-12"
+    description: First reading, referred to Early Learning & K-12 Education.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2026-01-14"
+    description: Public hearing in the Senate Committee on Early Learning & K-12 Education at 10:30 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-22"
+    description: Executive action taken in the Senate Committee on Early Learning & K-12 Education at
+      10:30 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-22"
+    description: EDU - Majority; 1st substitute bill be substituted, do pass.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-01-22"
+    description: Minority; without recommendation.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-23"
+    description: Passed to Rules Committee for second reading.
+    actor: upper
+    classification:
+      - reading-2
+      - passage
+  - date: "2026-02-04"
+    description: Placed on second reading by Rules Committee.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-10"
+    description: 1st substitute bill substituted
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-02-10"
+    description: Rules suspended. Placed on Third Reading.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-10"
+    description: Third reading, passed; yeas, 35; nays, 13; absent, 0; excused, 1.
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-02-12"
+    description: First reading, referred to Education.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-02-18"
+    description: Public hearing in the House Committee on Education at 10:30 AM.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: Executive action taken in the House Committee on Education at 4:00 PM.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: ED - Majority; do pass with amendment
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-24"
+    description: Minority; do not pass.
+    actor: lower
+    classification:
+      - committee-failure
+  - date: "2026-02-24"
+    description: Minority; without recommendation.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Referred to Rules 2 Review.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-12"
+    description: By resolution, returned to Senate Rules Committee for third reading.
+    actor: upper
+    classification:
+      - reading-3
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5956.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5956-S.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2064805
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=5956&Year=2025&Initiative=false
+    title: SB 5956 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5956-S.pdf
+    title: SB 5956 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

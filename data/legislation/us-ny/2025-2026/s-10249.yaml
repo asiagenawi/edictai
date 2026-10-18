@@ -1,0 +1,122 @@
+id: us-ny-2025-2026-s-10249
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 10249
+title: Enacts the student suicide prevention act; requires the governing board or body of every local
+  educational agency serving students in grades seven to twelve, to adopt policies, procedures and guidelines
+  on student suicide prevention, intervention and postvention for students in such grades.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Enacts the student suicide prevention act requiring local educational agencies serving grades
+  seven to twelve to adopt suicide prevention policies, and expands the education law definition of bullying
+  to include intentionally using artificial intelligence to mimic or alter a person's likeness or voice
+  without consent.
+provisions:
+  - type: addresses-deepfakes
+    description: Adds intentionally using AI to mimic or alter a person's likeness or voice without consent
+      to the definition of bullying that school anti-bullying policies address.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10249&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10249A
+      locator: Sec. 4 (definition of bullying)
+      quote: intentionally using artificial intelligence to mimic or alter a person's likeness or voice
+        without their consent
+sponsors:
+  - name: Erik Bottcher
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jabari Brisport
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cordell Cleare
+    primary: false
+    party: D
+    chamber: upper
+  - name: Nathalia Fernandez
+    primary: false
+    party: D
+    chamber: upper
+  - name: Andrew Gounardes
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Jackson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Zellnor Myrie
+    primary: false
+    party: D
+    chamber: upper
+  - name: Anthony Palumbo
+    primary: false
+    party: R
+    chamber: upper
+  - name: Kevin Parker
+    primary: false
+    party: D
+    chamber: upper
+  - name: Julia Salazar
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jessica Scarcella-Spanton
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jose Serrano
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lea Webb
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-05-08"
+    description: REFERRED TO EDUCATION
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-05-12"
+    description: AMEND AND RECOMMIT TO EDUCATION
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: PRINT NUMBER 10249A
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-05-08"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10249&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10249
+    media_type: text/html
+  - note: Amended
+    date: "2026-05-08"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10249&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10249A
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2148757
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S10249
+    title: S 10249 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10249&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10249A
+    title: S 10249 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

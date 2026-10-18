@@ -1,0 +1,201 @@
+id: us-hi-2025-2026-sb-1622
+jurisdiction: us-hi
+session: 2025-2026
+identifier: SB 1622
+title: Relating To Artificial Intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - workforce
+  - educator-training
+  - research
+  - funding
+summary: Establishes the Aloha Intelligence Institute at the University of Hawaii to conduct AI research
+  and to foster AI-related degree programs, faculty and staff training, workforce initiatives, K-12 educational
+  programs, and student pathways aligned with the Department of Education. Appropriates funds for institute
+  positions and start-up costs.
+provisions:
+  - type: ai-workforce-program
+    description: The institute must foster AI-related degree programs and training for faculty and staff.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB1622_SD1_.HTM
+      locator: Section 2, new 304A- (b)(2)
+      quote: 'Foster training and education programs, including but not limited to: (A) Artificial intelligence-related
+        undergraduate and graduate degree programs; (B) Artificial intelligence-related training for university
+        faculty and staff;'
+  - type: ai-workforce-program
+    description: The institute must support K-12 educational programs and student pathways in AI-related
+      fields.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB1622_SD1_.HTM
+      locator: Section 2, new 304A- (b)(2)(D)-(E)
+      quote: (D) Community outreach and K-12 educational programs; and (E) Creation of student pathways
+        in artificial intelligence-related fields that align with efforts from the department of education;
+  - type: appropriates-funding
+    description: Appropriates funds for positions and start-up expenses of the institute.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB1622_SD1_.HTM
+      locator: Section 4
+      quote: to establish faculty of practice and administrative professional technical positions within
+        the aloha intelligence institute and to develop, support, and advance artificial intelligence
+        initiatives statewide
+sponsors:
+  - name: Donna Kim
+    primary: true
+    party: D
+    chamber: upper
+  - name: Stanley Chang
+    primary: true
+    party: D
+    chamber: upper
+  - name: Lorraine Inouye
+    primary: true
+    party: D
+    chamber: upper
+  - name: Angus McKelvey
+    primary: true
+    party: D
+    chamber: upper
+  - name: Tim Richards
+    primary: true
+    party: D
+    chamber: upper
+  - name: Joy San Buenaventura
+    primary: true
+    party: D
+    chamber: upper
+  - name: Glenn Wakai
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-01-23"
+    description: Introduced.
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-01-27"
+    description: Passed First Reading.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-01-27"
+    description: Referred to HRE/LBT, WAM.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-07"
+    description: The committee(s) on HRE/LBT has scheduled a public hearing on 02-11-25 3:05PM; Conference
+      Room 229 &amp; Videoconference.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-11"
+    description: 'The committee(s) on HRE recommend(s) that the measure be PASSED, WITH AMENDMENTS. The
+      votes in HRE were as follows: 5 Aye(s): Senator(s) Kim, Kidani, Fukunaga, Hashimoto, Fevella; Aye(s)
+      with reservations: none ; 0 No(es): none; and 0 Excused: none.'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-11"
+    description: 'The committee(s) on LBT recommend(s) that the measure be PASSED, WITH AMENDMENTS. The
+      votes in LBT were as follows: 3 Aye(s): Senator(s) Aquino, Lee, C., Fevella; Aye(s) with reservations:
+      none ; 0 No(es): none; and 2 Excused: Senator(s) Ihara, Moriwaki.'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-14"
+    description: Reported from HRE/LBT (Stand. Com. Rep. No. 518) with recommendation of passage on Second
+      Reading, as amended (SD 1) and referral to WAM.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-14"
+    description: Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.
+    actor: upper
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2025-02-20"
+    description: The committee(s) on WAM will hold a public decision making on 02-26-25 10:03AM; Conference
+      Room 211 &amp; Videoconference.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-26"
+    description: 'The committee(s) on WAM recommend(s) that the measure be PASSED, UNAMENDED. The votes
+      in WAM were as follows: 13 Aye(s): Senator(s) Dela Cruz, Moriwaki, Aquino, DeCoite, Elefante, Hashimoto,
+      Inouye, Kanuha, Kidani, Kim, Lee, C., Wakai, Fevella; Aye(s) with reservations: none ; 0 No(es):
+      none; and 0 Excused: none.'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-28"
+    description: Reported from WAM (Stand. Com. Rep. No. 867) with recommendation of passage on Third
+      Reading.
+    actor: upper
+    classification:
+      - reading-3
+      - committee-passage
+  - date: "2025-02-28"
+    description: One Day Notice 03-04-25.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: 'Report adopted; Passed Third Reading. Ayes, 25; Aye(s) with reservations: none . Noes,
+      0 (none). Excused, 0 (none). Transmitted to House.'
+    actor: upper
+    classification:
+      - reading-3
+      - committee-passage
+      - passage
+  - date: "2025-03-04"
+    description: Received from Senate (Sen. Com. No. 381) in amended form (SD 1).
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-06"
+    description: Pass First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-06"
+    description: Referred to HED, ECD, FIN, referral sheet 19
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-12-08"
+    description: Carried over to 2026 Regular Session.
+    actor: legislature
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2025-01-23"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB1622_.HTM
+    media_type: text/html
+  - note: Amended
+    date: "2025-02-13"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB1622_SD1_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2062268
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=1622&year=2026
+    title: SB 1622 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB1622_SD1_.HTM
+    title: SB 1622 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

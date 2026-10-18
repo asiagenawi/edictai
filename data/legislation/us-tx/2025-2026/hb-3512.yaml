@@ -1,0 +1,349 @@
+id: us-tx-2025-2026-hb-3512
+jurisdiction: us-tx
+session: 2025-2026
+identifier: HB 3512
+title: Relating to artificial intelligence training programs for certain employees and officials of state
+  agencies and local governments.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - educator-training
+summary: Requires state and local government employees and officials who use computers for a substantial
+  share of their duties to complete state-certified artificial intelligence training as well as cybersecurity
+  training. Provides that school district cybersecurity coordinators complete the AI training annually
+  and other district employees complete it as the district determines.
+provisions:
+  - type: educator-pd-requirement
+    description: School district employees required to take the AI training complete it as determined
+      by the district.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03512F.htm
+      locator: Section 1, amending Education Code 11.175(h-1)
+      quote: Any other school district employee required to complete the cybersecurity training and the
+        artificial intelligence training shall complete the training as determined by the district, in
+        consultation with the district's cybersecurity coordinator.
+sponsors:
+  - name: Giovanni Capriglione
+    primary: true
+    party: R
+    chamber: lower
+  - name: Angelia Orr
+    primary: true
+    party: R
+    chamber: lower
+  - name: Cesar Blanco
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-28"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-24"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-24"
+    description: Referred to Delivery of Government Efficiency
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-02"
+    description: Scheduled for public hearing on . . .
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-02"
+    description: Considered in public hearing
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-02"
+    description: Testimony taken/registration(s) recorded in committee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-02"
+    description: Left pending in committee
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-04-07"
+    description: Considered in formal meeting
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Reported favorably w/o amendment(s)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-17"
+    description: Comte report filed with Committee Coordinator
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-17"
+    description: Committee report distributed
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-22"
+    description: Committee report sent to Calendars
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-30"
+    description: Considered in Calendars
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-02"
+    description: Placed on General State Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-05"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-05-05"
+    description: Passed to engrossment
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-06"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-05-06"
+    description: Passed
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-05-06"
+    description: Record vote RV#1418
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-06"
+    description: Statement(s) of vote recorded in Journal
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-06"
+    description: Reported engrossed
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-06"
+    description: Received from the House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-07"
+    description: Read first time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-05-07"
+    description: Referred to Business & Commerce
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-05-20"
+    description: Scheduled for public hearing on . . .
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Considered in public hearing
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-20"
+    description: Left pending in committee
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-05-22"
+    description: Considered in public hearing
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-22"
+    description: Vote taken in committee
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-22"
+    description: Reported favorably as substituted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-05-22"
+    description: Recommended for local & uncontested calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-22"
+    description: Committee report printed and distributed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-05-25"
+    description: Placed on intent calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-25"
+    description: Rules suspended-Regular order of business
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-25"
+    description: Read 2nd time & passed to 3rd reading
+    actor: upper
+    classification:
+      - reading-2
+      - reading-3
+      - passage
+  - date: "2025-05-25"
+    description: Vote recorded in Journal
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-25"
+    description: Three day rule suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-25"
+    description: Record vote
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-25"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-05-25"
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-05-25"
+    description: Record vote
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-26"
+    description: Senate passage as amended reported
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-26"
+    description: Senate Amendments distributed
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-26"
+    description: Senate Amendments Analysis distributed
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-28"
+    description: House concurs in Senate amendment(s)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-28"
+    description: Record vote RV#3980
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-28"
+    description: Text of Senate Amendment(s)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-28"
+    description: House concurs in Senate amendment(s)-reported
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-29"
+    description: Reported enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-05-30"
+    description: Signed in the House
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-31"
+    description: Signed in the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-31"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-06-20"
+    description: Signed by the Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-06-20"
+    description: Effective on 9/1/25
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-02-28"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03512I.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-04-17"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03512H.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-05-06"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03512E.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-05-22"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03512S.htm
+    media_type: text/html
+  - note: Enrolled
+    date: "2025-05-29"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03512F.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1988473
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3512
+    title: HB 3512 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03512F.htm
+    title: HB 3512 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

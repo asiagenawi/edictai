@@ -1,0 +1,115 @@
+id: us-ak-2023-2024-sb-177
+jurisdiction: us-ak
+session: 2023-2024
+identifier: SB 177
+title: Ai, Deepfakes, Cybersecurity, Data Xfers
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+  - equity-access
+summary: Sets rules for state agency use of artificial intelligence in consequential decisions, including
+  inventories, impact assessments, notice to affected individuals, consent, and human appeal, and bars
+  certain uses. The definition of state agency includes the University of Alaska. The bill also requires
+  disclosure of deepfakes in campaign communications.
+provisions:
+  - type: requires-disclosure
+    description: A state agency, including the University of Alaska, using generative AI for consequential
+      decisions must notify affected individuals.
+    citation:
+      source_url: https://www.akleg.gov/PDF/33/Bills/SB0177B.PDF
+      locator: Sec. 2, new AS 44.99.720(a)(1)
+      quote: (1) notify each individual who may be legally or significantly affected by the use of the
+        system;
+  - type: bias-or-equity-requirement
+    description: Impact assessments must analyze unlawful discrimination or disparate impact resulting
+      from the agency's AI system.
+    citation:
+      source_url: https://www.akleg.gov/PDF/33/Bills/SB0177B.PDF
+      locator: Sec. 2, new AS 44.99.710
+      quote: any unlawful discrimination against or unlawful disparate impact on an individual or a group
+        of individuals
+sponsors:
+  - name: Shelley Hughes
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-01-16"
+    description: PREFILE RELEASED 1/12/24
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-16"
+    description: READ THE FIRST TIME - REFERRALS
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2024-01-16"
+    description: STA, JUD
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: STA RPT CS 2DP 1NR 1AM NEW TITLE
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-24"
+    description: 'AM: KAWASAKI'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: 'DP: WIELECHOWSKI, BJORKMAN'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-24"
+    description: 'NR: MERRICK'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: 'FN1: (ADM)'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: REFERRED TO JUDICIARY
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-04-24"
+    description: FIN REFERRAL ADDED AFTER JUD
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-01-16"
+    url: https://www.akleg.gov/PDF/33/Bills/SB0177A.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-04-24"
+    url: https://www.akleg.gov/PDF/33/Bills/SB0177B.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1813560
+sources:
+  - url: https://www.akleg.gov/basis/Bill/Detail/33?Root=SB177
+    title: SB 177 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.akleg.gov/PDF/33/Bills/SB0177B.PDF
+    title: SB 177 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,621 @@
+id: us-va-2026-s1-hb-30
+jurisdiction: us-va
+session: 2026-s1
+identifier: HB 30
+title: Budget Bill.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - workforce
+summary: Enacts the 2026-2028 budget, which includes $2,000,000 for an AI Innovation in Education Pilot
+  Program administered by the Department of Education to support adoption of artificial intelligence software,
+  programs, and training, and $500,000 for a pilot providing internships and apprenticeships in artificial
+  intelligence, data science, and cybersecurity for Virginia Community College System students and graduates.
+provisions:
+  - type: appropriates-funding
+    description: Funds an AI Innovation in Education Pilot Program administered by the Department of Education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://budget.lis.virginia.gov/get/budget/5311/HB30/
+      locator: Department of Education item, paragraph HHH
+      quote: $2,000,000 the first year from the general fund is provided to support the AI Innovation
+        in Education Pilot Program. The Department shall administer the Program and develop guidelines.
+        Funding may be used to support the adoption of artificial intelligence software, programs, and
+        training.
+  - type: ai-workforce-program
+    description: Funds a pilot of AI, data science, and cybersecurity internships and apprenticeships
+      for community college students and recent graduates.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://budget.lis.virginia.gov/get/budget/5311/HB30/
+      locator: Virginia Economic Development Partnership item, paragraph S.6
+      quote: to develop and implement a pilot program to provide internship and apprenticeship opportunities
+        with existing Virginia businesses for at least 1,000 students and recent graduates of the Virginia
+        Community College System in Artificial Intelligence, Data Science, and Cybersecurity
+sponsors:
+  - name: Luke Torian
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-12-17"
+    description: Prefiled and ordered printed; Offered 01-14-2026 26104427D (HB30)
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-12-17"
+    description: Referred to Committee on Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-22"
+    description: Budget amendments available (HB30)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-22"
+    description: Reported from Appropriations with amendment(s) (22-Y 0-N)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-24"
+    description: Budget amendments available (HB30)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-02-25"
+    description: Motion for Special and Continuing Order for Thursday, February 26, 2026 (93-Y 0-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Budget amendments available (HB30)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Read second time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-26"
+    description: Uncontested committee amendments agreed to (89-Y 9-N 0-A)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 1 #8h agreed to (65-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 50 #1h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 50 #2h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 50 #3h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 54 #1h agreed to (63-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 60 #1h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 77 #4h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 102 #6h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 125 #1h agreed to (95-Y 1-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 243 #1h agreed to (63-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 278 #3h agreed to (92-Y 5-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 290 #1h agreed to (64-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 328 #1h agreed to (91-Y 5-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 352 #1h agreed to (63-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 352 #3h agreed to (66-Y 31-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 359 #1h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 369 #1h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 399 #2h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 419 #1h agreed to (64-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 419 #2h agreed to (64-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 420 #3h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 471 #1h agreed to (65-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 471 #2h agreed to (64-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 471 #3h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 471 #4h agreed to (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 471 #5h agreed to (95-Y 2-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 491 #1h agreed to (64-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item C-18 #1h agreed to (68-Y 29-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 4-5.04 #1h agreed to (64-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Contested committee amendment Item 4-14 #2h agreed to (64-Y 32-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Floor Amendment Item 109 #1h offered by Delegate McNamara passed by (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Floor Amendment Item 3-5.24 #1h offered by Delegate Webert passed by (73-Y 22-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Floor Amendment Item 4-14 #1h offered by Delegate McNamara passed by (62-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: 'Floor Amendment Item 4-14 #2h offered by Delegate McNamara passed by (64-Y 33-N 0-A)'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-26"
+    description: Constitutional reading dispensed (on 3rd reading) (95-Y 0-N 0-A)
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-26"
+    description: Passed House (83-Y 14-N 0-A)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-26"
+    description: Budget amendments available (HB30)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-27"
+    description: Constitutional reading dispensed (on 1st reading)
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-27"
+    description: Referred to Committee on Finance and Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-03"
+    description: Reported from Finance and Appropriations with Senate Amendments Substituted for House
+      Amendments (9-Y 3-N)
+    actor: upper
+    classification:
+      - substitution
+      - committee-passage
+  - date: "2026-03-03"
+    description: Rules suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Constitutional reading dispensed (on 2nd reading) (40-Y 0-N 0-A)
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-03"
+    description: Passed by for the day (Voice Vote)
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-03-04"
+    description: Read third time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-04"
+    description: Committee amendments agreed to (Voice Vote)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-04"
+    description: Engrossed by Senate as amended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Passed Senate with amendments (24-Y 16-N 0-A)
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-03-04"
+    description: Senate amendments rejected by House (0-Y 92-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Senate insisted on substitute Block Vote (39-Y 0-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Senate requested conference committee
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-03-04"
+    description: House acceded to request
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Conferees appointed by House
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-03-04"
+    description: House Conferees:Torian, Carr, McQuinn, Krizek, Austin, Bloxom
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-03-04"
+    description: Conferees appointed by Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-03-04"
+    description: 'Senate Conferees: Lucas, Deeds, Locke, Pillion, Stuart'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-03-14"
+    description: Continued to 2026 Sp. Sess. 1 pursuant to HJR 316
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-22"
+    description: Continued from last session
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-19"
+    description: Budget amendments available (HB30)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-22"
+    description: Conference report agreed to by Senate (23-Y 16-N 0-A)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-06-22"
+    description: Conference report agreed to by House (71-Y 22-N 0-A)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-06-22"
+    description: Enrolled Bill communicated to Governor on June 22, 2026
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-06-22"
+    description: Signed by Speaker
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-06-22"
+    description: Signed by President
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-06-22"
+    description: Governor's Action Deadline 11:59 p.m., June 29, 2026
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-06-22"
+    description: Enrolled (HB30ER)
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-06-26"
+    description: Governor's recommendation received by House (HB30AG)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 3, 4, and 5 (88-Y 0-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 1 (57-Y 33-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 2 (65-Y 25-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 6.1 (65-Y 23-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 7 (63-Y 24-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 8 (90-Y 0-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 9 (62-Y 28-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 10 (74-Y 14-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 11 (76-Y 9-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 12 (62-Y 28-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 13 (57-Y 33-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: House concurred in Governor's recommendation No. 14 (56-Y 34-N 0-A)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 1 (20-Y 18-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 2 (26-Y 12-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 3 (38-Y 0-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 4 (38-Y 0-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 5 (28-Y 10-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 6 (25-Y 12-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 7 (37-Y 0-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 8 (38-Y 0-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 9 (20-Y 18-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 10 (31-Y 7-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 11 (36-Y 2-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 12 (21-Y 17-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 13 (20-Y 18-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Senate concurred in Governor's recommendation No. 14 (20-Y 18-N 0-A)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Governor's recommendation adopted
+    actor: legislature
+    classification:
+      - passage
+  - date: "2026-06-29"
+    description: Signed by Speaker
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-06-29"
+    description: Signed by President
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-06-29"
+    description: Reenrolled (HB30ER2)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-29"
+    description: Approved by Governor-Chapter 1 (effective 7/1/2026)
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-06-29"
+    description: Acts of Assembly Chapter text (CHAP0001)
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-12-17"
+    url: https://budget.lis.virginia.gov/get/budget/5163/HB30/1081890.PDF
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-06-25"
+    url: https://budget.lis.virginia.gov/get/budget/5268/HB30/1227395.PDF
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-06-29"
+    url: https://budget.lis.virginia.gov/get/budget/5277/HB30/1228309.PDF
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-06-29"
+    url: https://budget.lis.virginia.gov/get/budget/5311/HB30/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2145152
+sources:
+  - url: https://lis.virginia.gov/bill-details/20262/HB30
+    title: HB 30 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://budget.lis.virginia.gov/get/budget/5311/HB30/
+    title: HB 30 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

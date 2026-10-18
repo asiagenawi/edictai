@@ -1,0 +1,69 @@
+id: us-mo-2025-hb-1331
+jurisdiction: us-mo
+session: "2025"
+identifier: HB 1331
+title: Establishes the Educational Technology Impact Advisory Council
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+summary: Directs the Missouri commissioner of education to establish an educational technology impact
+  advisory council of educators, parents, and specialists to review best practices in the use of technology
+  in instruction, including the inclusion of artificial intelligence. The council must submit and periodically
+  update recommendations and policy proposals to the State Board of Education and legislative education
+  committees.
+provisions:
+  - type: creates-task-force
+    description: Creates an advisory council that must review technology use in instruction, including
+      AI.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/2848H.01I.pdf
+      locator: Section 186.095.3(1)(e)
+      quote: (d) Impacts on early childhood brain development, including reading and writing skills; (e)
+        The inclusion of artificial intelligence;
+sponsors:
+  - name: Tricia Byrnes
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-17"
+    description: Introduced and Read First Time (H)
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-18"
+    description: Read Second Time (H)
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-05-15"
+    description: 'Referred: Emerging Issues(H)'
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-17"
+    url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/2848H.01I.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1972401
+sources:
+  - url: https://house.mo.gov/Bill.aspx?bill=HB1331&year=2025&code=R
+    title: HB 1331 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/2848H.01I.pdf
+    title: HB 1331 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

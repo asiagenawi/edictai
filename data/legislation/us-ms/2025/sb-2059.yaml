@@ -1,0 +1,122 @@
+id: us-ms-2025-sb-2059
+jurisdiction: us-ms
+session: "2025"
+identifier: SB 2059
+title: Artificial Intelligence in Education Task Force Act; enact.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - curriculum-standards
+  - educator-training
+  - academic-integrity
+  - student-privacy
+  - procurement
+  - workforce
+summary: Creates an Artificial Intelligence in Education Task Force chaired by the State Superintendent
+  of Education to evaluate AI applications in K-12 and develop policy recommendations for responsible
+  use by students and educators. The task force must address academic integrity, acceptable use, data
+  privacy, AI in K-12 standards and higher education curricula, educator training guidelines, and common
+  procurement requirements for AI software.
+provisions:
+  - type: creates-task-force
+    description: Establishes an AI in Education Task Force to evaluate AI in K-12 and develop policy recommendations.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059PS.htm
+      locator: Sec. 2
+      quote: The purpose of this act is to establish an Artificial Intelligence ("AI") in Education Task
+        Force within the state to evaluate the potential applications of artificial intelligence in K-12
+        and to develop policy recommendations for responsible and effective uses by students and educators.
+  - type: creates-task-force
+    description: Directs the task force to recommend how to incorporate AI into K-12 standards and higher
+      education curricula.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059PS.htm
+      locator: Task force activities, subsec. (2)(d)
+      quote: Provide recommendations for incorporating AI into K-12 educational standards and higher education
+        curricula, including general education courses as well as career and technical courses that align
+        with evolving industry demands
+  - type: creates-task-force
+    description: Directs the task force to develop guidelines for training K-12 educators to use AI tools.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059PS.htm
+      locator: Task force activities, subsec. (2)(e)
+      quote: Develop guidelines for training K-12 educators to effectively use AI tools, especially to
+        support personalized learning
+sponsors:
+  - name: Chris Johnson
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-01-17"
+    description: Referred To Technology;Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-01-30"
+    description: 'DR - TSDP: TE To ED'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-01-31"
+    description: Title Suff Do Pass
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-10"
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-11"
+    description: Transmitted To House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-13"
+    description: Referred To Technology;Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-26"
+    description: 'DR - TSDP: TE To ED'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Died In Committee
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2025-01-17"
+    url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059IN.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-02-11"
+    url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059PS.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1927333
+sources:
+  - url: https://billstatus.ls.state.ms.us/2025/pdf/history/SB/SB2059.xml
+    title: SB 2059 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059PS.htm
+    title: SB 2059 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

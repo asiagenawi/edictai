@@ -1,0 +1,116 @@
+id: us-ri-2025-s-627
+jurisdiction: us-ri
+session: "2025"
+identifier: S 627
+title: Establishes regulations to ensure the ethical development, integration, and deployment of high-risk
+  AI systems, particularly those influencing consequential decisions.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+summary: Enacts the Artificial Intelligence Act, which requires developers, integrators, and deployers
+  of high-risk AI systems to use reasonable care against algorithmic discrimination, keep risk management
+  policies, and complete impact assessments. Consequential decisions covered include education decisions
+  on assessments, cheating or plagiarism detection, accreditation, admissions, and financial aid.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines consequential decisions to include education decisions, bringing high-risk AI
+      systems used for them under the act's duties.
+    citation:
+      source_url: https://webserver.rilegislature.gov/BillText25/SenateText25/S0627.pdf
+      locator: § 6-61-2(3)(ii)
+      quote: '(ii) Education or vocational training, including any such decision or judgment made concerning:
+        (A) Assessments; (B) Student cheating or plagiarism detection; (C) Accreditation; (D) Certification;
+        (E) Admissions; or (F) Financial aid or scholarships;'
+sponsors:
+  - name: Louis Dipalma
+    primary: true
+    party: D
+    chamber: upper
+  - name: Victoria Gu
+    primary: false
+    party: D
+    chamber: upper
+  - name: John Burke
+    primary: false
+    party: D
+    chamber: upper
+  - name: Thomas Paolino
+    primary: false
+    party: R
+    chamber: upper
+  - name: Lori Urso
+    primary: false
+    party: D
+    chamber: upper
+  - name: Samuel Zurier
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ryan Pearson
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-03-07"
+    description: Introduced, referred to Senate Artificial Intelligence & Emerging Technol
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-04-04"
+    description: Scheduled for hearing and/or consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-05"
+    description: Committee postponed at request of sponsor (04/07/2025)
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-04-17"
+    description: Scheduled for hearing and/or consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-21"
+    description: Meeting postponed (04/21/2025)
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-05-09"
+    description: Scheduled for hearing and/or consideration (05/12/2025)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-12"
+    description: Committee recommended measure be held for further study
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-03-07"
+    url: https://webserver.rilegislature.gov/BillText25/SenateText25/S0627.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1994761
+sources:
+  - url: https://status.rilegislature.gov/
+    title: S 627 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://webserver.rilegislature.gov/BillText25/SenateText25/S0627.pdf
+    title: S 627 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

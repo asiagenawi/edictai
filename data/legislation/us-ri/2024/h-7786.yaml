@@ -1,0 +1,80 @@
+id: us-ri-2024-h-7786
+jurisdiction: us-ri
+session: "2024"
+identifier: H 7786
+title: Requires companies that develop or deploy high-risk AI systems to conduct impact assessments and
+  adopt risk management programs, would apply to both developers and deployers of AI systems with different
+  obligations based on their role in AI ecosystem.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Requires developers and deployers of consequential artificial intelligence decision systems to
+  conduct impact assessments and maintain risk management programs. Consequential decisions include those
+  determining eligibility for or denial of education, and impact assessments must address disproportionate
+  impacts on protected groups.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Deployer impact assessments must document the potential for AI-driven denials of education
+      and other services to disproportionately affect protected groups.
+    citation:
+      source_url: https://webserver.rilegislature.gov/BillText24/HouseText24/H7786.pdf
+      locator: Sec. 1, new chapter 6-60, impact assessment (c)(3)
+      quote: The potential for denials of housing, employment, credit, education, access to physical places
+        of public accommodation, healthcare, or insurance resulting from use of the CAIDS to disproportionately
+        impact people on the basis of protected characteristics,
+sponsors:
+  - name: Jacquelyn Baginski
+    primary: true
+    party: D
+    chamber: lower
+  - name: Alex Finkelman
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jennifer Boylan
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-29"
+    description: Introduced, referred to House Innovation, Internet, & Technology
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2024-03-22"
+    description: Scheduled for hearing and/or consideration (03/28/2024)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-28"
+    description: Committee recommended measure be held for further study
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-29"
+    url: https://webserver.rilegislature.gov/BillText24/HouseText24/H7786.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1857154
+sources:
+  - url: https://status.rilegislature.gov/
+    title: H 7786 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://webserver.rilegislature.gov/BillText24/HouseText24/H7786.pdf
+    title: H 7786 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

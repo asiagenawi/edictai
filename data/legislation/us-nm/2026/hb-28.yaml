@@ -1,0 +1,70 @@
+id: us-nm-2026-hb-28
+jurisdiction: us-nm
+session: "2026"
+identifier: HB 28
+title: Artificial Intelligence Transparency Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - admissions
+summary: Enacts the Artificial Intelligence Transparency Act, requiring deployers to notify consumers
+  before an AI system is used in consequential decisions, including education enrollment, and to explain
+  adverse decisions and offer an appeal. Also requires companion products to disclose that they are not
+  human.
+provisions:
+  - type: requires-disclosure
+    description: Deployers must notify consumers before AI is used in consequential decisions, which include
+      education enrollment.
+    citation:
+      source_url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/house/HB0028.pdf
+      locator: Sec. 3(A)
+      quote: Before an artificial intelligence system is used to generate a substantial factor or make
+        a consequential decision concerning a consumer, a deployer shall provide notice directly to the
+        consumer
+sponsors:
+  - name: Christine Chandler
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-20"
+    description: 'Sent to HPREF - Referrals: HPREF'
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-21"
+    description: Not Printed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-21"
+    description: Action Postponed Indefinitely
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-01-05"
+    url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/house/HB0028.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2065007
+sources:
+  - url: https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legtype=B&legno=28&year=26
+    title: HB 28 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/house/HB0028.pdf
+    title: HB 28 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,483 @@
+id: us-ak-2025-2026-hb-47
+jurisdiction: us-ak
+session: 2025-2026
+identifier: HB 47
+title: Chld Sex Abuse Mat; Gen Images; Soc Media
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - employment-evaluation
+summary: Creates crimes of distributing and possessing generated obscene child sexual abuse material that
+  depicts a child who, by manipulation, creation, or modification, appears to engage in sexual conduct,
+  regardless of whether an actual child was used. Requires lifetime revocation of the teaching certificate
+  of a person convicted of these crimes.
+provisions:
+  - type: addresses-deepfakes
+    description: Teaching certificates are revoked for life upon conviction for generated child sexual
+      abuse material offenses.
+    citation:
+      source_url: https://www.akleg.gov/PDF/34/Bills/HB0047E.PDF
+      locator: Sec. 22, AS 14.20.030(b)
+      quote: The commissioner or the Professional Teaching Practices Commission shall revoke for life
+        the certificate of a person who has been convicted of a crime, or an attempt, solicitation, or
+        conspiracy to commit a crime, involving a minor under AS 11.41.410 - 11.41.460, AS 11.61.121,
+        11.61.122, 11.61.125
+sponsors:
+  - name: Sarah Vance
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jubilee Underwood
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jamie Allard
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kevin McCabe
+    primary: false
+    party: R
+    chamber: lower
+  - name: Mia Costello
+    primary: false
+    party: R
+    chamber: lower
+  - name: Steve St. Clair
+    primary: false
+    party: R
+    chamber: lower
+  - name: Mike Prax
+    primary: false
+    party: R
+    chamber: lower
+  - name: DeLena Johnson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Julie Coulombe
+    primary: false
+    party: R
+    chamber: lower
+  - name: Frank Tomaszewski
+    primary: false
+    party: R
+    chamber: lower
+  - name: Ashley Carrick
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alyse Galvin
+    primary: false
+    party: I
+    chamber: lower
+  - name: Andrew Josephson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jesse Bjorkman
+    primary: false
+    party: R
+    chamber: upper
+  - name: Cathy Tilton
+    primary: false
+    party: R
+    chamber: upper
+  - name: Kelly Merrick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bert Stedman
+    primary: false
+    party: R
+    chamber: upper
+  - name: Catherine Giessel
+    primary: false
+    party: R
+    chamber: upper
+  - name: Elvi Gray-Jackson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Myers
+    primary: false
+    party: R
+    chamber: upper
+  - name: Scott Kawasaki
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Yundt
+    primary: false
+    party: R
+    chamber: upper
+  - name: Mike Cronk
+    primary: false
+    party: R
+    chamber: lower
+  - name: James Kaufman
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-22"
+    description: PREFILE RELEASED 1/17/25
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-22"
+    description: READ THE FIRST TIME - REFERRALS
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-01-22"
+    description: CRA, JUD
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-19"
+    description: 'COSPONSOR(S): ALLARD, MCCABE'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-11"
+    description: 'COSPONSOR(S): COSTELLO'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: CRA RPT CS(CRA) NEW TITLE 3DP 3NR
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-30"
+    description: 'DP: PRAX, HALL, RUFFRIDGE'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-30"
+    description: 'NR: HOLLAND, HIMSCHOOT, MEARS'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: 'FN1: ZERO(ADM)'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: 'FN2: ZERO(ADM)'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: 'FN3: ZERO(EED)'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: 'FN4: ZERO(LAW)'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: 'FN5: ZERO(DPS)'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-30"
+    description: 'FN6: ZERO(AJS)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: JUD RPT CS(JUD) NEW TITLE 7DP
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-02"
+    description: 'DP: UNDERWOOD, EISCHEID, VANCE, COSTELLO, MINA, KOPP, GRAY'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-02"
+    description: 'FN7: ZERO(DPS)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: 'FN8: ZERO(LAW)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: 'FN9: ZERO(DFC)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: 'FN10: ZERO(EED)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: 'FN11: ZERO(ADM)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: 'FN12: ZERO(AJS)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: 'FN13: ZERO(ADM)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: 'COSPONSOR(S): ST. CLAIR'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: 'COSPONSOR(S): PRAX'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: WAIVE FROM RLS, RULE 18, FAILED Y19 N21
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: RULES TO CALENDAR 2/25/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: MOVED TO BOTTOM OF CALENDAR
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: READ THE SECOND TIME
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-25"
+    description: JUD CS ADOPTED UC
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-25"
+    description: AM NOS 1 AND 2 NOT OFFERED
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: AM NO 3 ADOPTED UC
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-25"
+    description: '...CHANGES TITLE OF LEGISLATION'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: AM NO 4 ADOPTED UC
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-25"
+    description: '...CHANGES TITLE OF LEGISLATION'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: AM NO 5 ADOPTED Y28 N12
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-25"
+    description: '...CHANGES TITLE OF LEGISLATION'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: AM NO 6 ADOPTED UC
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-25"
+    description: '...CHANGES TITLE OF LEGISLATION'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: ADVANCED TO THIRD READING 2/27 CALENDAR
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-25"
+    description: 'COSPONSOR(S): JOHNSON, COULOMBE, TOMASZEWSKI, CARRICK'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-27"
+    description: READ THE THIRD TIME CSHB 47(JUD) AM
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-27"
+    description: PASSED Y39 E1
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-27"
+    description: EFFECTIVE DATE(S) SAME AS PASSAGE
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-27"
+    description: 'COSPONSOR(S): GALVIN, JOSEPHSON'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-27"
+    description: TRANSMITTED TO (S)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-27"
+    description: 'VERSION: CSHB 47(JUD) AM'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: READ THE FIRST TIME - REFERRALS
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-03-02"
+    description: CRA, JUD
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: 'CROSS SPONSOR(S): BJORKMAN, TILTON'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: CRA RPT SCS 3DP NEW TITLE
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-10"
+    description: 'TITLE CHANGE: SCR 20'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: 'DP: DUNBAR, GRAY-JACKSON, YUNDT'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-10"
+    description: 'FN7: ZERO(DPS)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: 'FN8: ZERO(LAW)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: 'FN9: ZERO(DFC)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: 'FN10: ZERO(EED)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: 'FN11: ZERO(ADM)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: 'FN12: ZERO(AJS)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: 'FN13: ZERO(ADM)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-10"
+    description: REFERRED TO JUDICIARY
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-13"
+    description: 'CROSS SPONSOR(S): MERRICK, STEDMAN, GIESSEL, GRAY-JACKSON, MYERS, KAWASAKI,'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-13"
+    description: YUNDT, CRONK, KAUFMAN
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-17"
+    url: https://www.akleg.gov/PDF/34/Bills/HB0047A.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2025-04-30"
+    url: https://www.akleg.gov/PDF/34/Bills/HB0047B.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2025-04-30"
+    url: https://www.akleg.gov/PDF/34/F/HB0047-1-2-043025-ADM-N.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-02-02"
+    url: https://www.akleg.gov/PDF/34/Bills/HB0047C.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-02-25"
+    url: https://www.akleg.gov/PDF/34/Bills/HB0047D.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-04-10"
+    url: https://www.akleg.gov/PDF/34/Bills/HB0047E.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1928274
+sources:
+  - url: https://www.akleg.gov/basis/Bill/Detail/34?Root=HB47
+    title: HB 47 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.akleg.gov/PDF/34/Bills/HB0047E.PDF
+    title: HB 47 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

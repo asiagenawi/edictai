@@ -1,0 +1,54 @@
+id: us-119-hr-9323
+jurisdiction: us
+session: "119"
+identifier: H.R. 9323
+title: Department of Advanced Technology and Artificial Intelligence Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - workforce
+summary: Establishes a federal Department of Advanced Technology and Artificial Intelligence to coordinate
+  federal AI standards and policy. Among its functions, the Secretary must provide strategies on promoting
+  AI literacy in schools and AI workforce programs.
+sponsors:
+  - name: Luz Rivas
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ro Khanna
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-06-15"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-06-15"
+    description: Referred to the House Committee on Oversight and Government Reform.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-06-23"
+    url: https://www.congress.gov/119/bills/hr9323/BILLS-119hr9323ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2153934
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/9323/all-info
+    title: H.R. 9323 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr9323/BILLS-119hr9323ih.pdf
+    title: H.R. 9323 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

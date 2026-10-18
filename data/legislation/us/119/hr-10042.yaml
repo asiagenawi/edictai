@@ -1,0 +1,71 @@
+id: us-119-hr-10042
+jurisdiction: us
+session: "119"
+identifier: H.R. 10042
+title: Understanding AI in the Classroom Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - safety-wellbeing
+  - task-force
+summary: Directs the National Science Foundation to hold workshops identifying gaps in data and research
+  on the effects and harms to children of integrating artificial intelligence into classrooms, with participation
+  from researchers, educators, school leaders, and parent groups, and to report the findings.
+provisions:
+  - type: creates-task-force
+    description: NSF must complete workshops identifying research gaps on harms to children from integrating
+      AI into classrooms and report to Congress.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10042/BILLS-119hr10042ih.pdf
+      locator: Sec. 2(a)
+      quote: the Director shall complete workshops to identify any gaps in relevant data and published
+        findings related to any effect on or harm to children as a result of the integration of artificial
+        intel- ligence into classrooms
+sponsors:
+  - name: George Whitesides
+    primary: true
+    party: D
+    chamber: lower
+  - name: April McClain-Delaney
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andrea Salinas
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-08-03"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-08-03"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-08-05"
+    url: https://www.congress.gov/119/bills/hr10042/BILLS-119hr10042ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2156798
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/10042/all-info
+    title: H.R. 10042 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr10042/BILLS-119hr10042ih.pdf
+    title: H.R. 10042 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

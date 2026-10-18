@@ -1,0 +1,84 @@
+id: us-ny-2025-2026-a-6972
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 6972
+title: Creates an artificial intelligence working group within the department of education for the purpose
+  of developing guidance and a model policy on the safe and effective use of artificial intelligence in
+  ways that benefit, and do not harm, pupils and educators.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - local-policy-requirement
+  - academic-integrity
+  - student-privacy
+  - procurement
+summary: Creates an AI working group in the state education department to assess current and projected
+  AI use in education, develop guidance for school districts and charter schools on safe AI use, and develop
+  a model AI policy covering academic integrity, acceptable uses, data privacy, parent access, and procurement.
+provisions:
+  - type: creates-task-force
+    description: Creates a working group to assess current and projected uses of AI in education and make
+      recommendations.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A06972&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A06972
+      locator: Sec. 2, new Education Law 115(4)(b)
+      quote: (b) to assess the projected state of artificial intelligence use in education, including
+        anticipated and potential developments in artifi- cial intelligence technology in education.
+  - type: issues-model-policy
+    description: Directs the working group to develop guidance for school districts and charter schools
+      on safe AI use, covering academic integrity, acceptable uses, data privacy, and procurement.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A06972&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A06972
+      locator: Sec. 2, new Education Law 115(5)(a)
+      quote: On or before January first, two thousand twenty-six, the work- ing group shall develop guidance
+        for school districts and charter schools on the safe use of artificial intelligence in education.
+  - type: issues-model-policy
+    description: Directs the working group to develop a model AI policy for school districts and charter
+      schools.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A06972&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A06972
+      locator: Sec. 2, new Education Law 115(5)(b)
+      quote: the working group shall develop a model policy for school districts and charter schools regarding
+        the safe and effective use of artificial intelligence in ways that benefit, and do not negatively
+        impact, pupils and educa- tors.
+sponsors:
+  - name: Michaelle Solages
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-18"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-18"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A06972&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A06972
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2010112
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A6972
+    title: A 6972 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A06972&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A06972
+    title: A 6972 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

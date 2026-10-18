@@ -1,0 +1,119 @@
+id: us-ca-2025-2026-ab-2291
+jurisdiction: us-ca
+session: 2025-2026
+identifier: AB 2291
+title: 'Pupil safety: nonconsensual artificial intimate images: study.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - task-force
+summary: Requires the State Department of Education to study nonconsensual artificial intimate images
+  involving K-12 pupils, including school resources, reported incidents, effects on pupils, and recommended
+  policy revisions, and to report to the Legislature by January 1, 2028.
+provisions:
+  - type: creates-task-force
+    description: The department must conduct a study of nonconsensual artificial intimate images involving
+      K-12 pupils.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2291#97AMD
+      locator: Sec. 1, new 33319.7(a)
+      quote: The department shall conduct a study on nonconsensual artificial intimate images involving
+        pupils in kindergarten and grades 1 to 12, inclusive.
+  - type: addresses-deepfakes
+    description: The study must summarize current school policies and procedures for responding to such
+      incidents.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2291#97AMD
+      locator: Sec. 1, new 33319.7(a)(5)
+      quote: A summary of current policies and procedures used by schools to respond to incidents involving
+        nonconsensual artificial intimate images.
+sponsors:
+  - name: Juan Alanis
+    primary: true
+    party: R
+    chamber: lower
+  - name: Blanca Rubio
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tom Lackey
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-19"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-20"
+    description: From printer. May be heard in committee March 22.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-19"
+    description: Referred to Com. on ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-19"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on ED.
+      Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-23"
+    description: Re-referred to Com. on ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-06"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on ED.
+      Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2026-04-07"
+    description: Re-referred to Com. on ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-09"
+    description: 'In committee: Set, first hearing. Hearing canceled at the request of author.'
+    actor: lower
+    classification:
+      - committee-hearing
+versions:
+  - note: Introduced
+    date: "2026-02-19"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2291#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-03-19"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2291#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2026-04-06"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2291#97AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2120765
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB2291
+    title: AB 2291 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2291#97AMD
+    title: AB 2291 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

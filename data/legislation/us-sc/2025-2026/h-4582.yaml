@@ -1,0 +1,95 @@
+id: us-sc-2025-2026-h-4582
+jurisdiction: us-sc
+session: 2025-2026
+identifier: H 4582
+title: Artificial Intelligence Electives
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - educator-training
+  - curriculum-standards
+summary: Allows school districts, beginning in 2026-2027, to provide age-appropriate instruction on how
+  to access, use and critically evaluate artificial intelligence tools. Directs the Department of Education
+  to issue guidance on that instruction and, subject to funding, to provide professional development in
+  AI education for educators.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Permits school districts to provide age-appropriate instruction on accessing, using and
+      evaluating AI tools, aligned with department guidance.
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/prever/4582_20251217.htm
+      locator: Section 59-59-260(A)
+      quote: each school district may provide age-appropriate instruction to students on how to access,
+        utilize, and critically evaluate various artificial intelligence tools within the curriculum taught
+        by the educator.
+  - type: issues-model-policy
+    description: Directs the Department of Education to issue guidance to districts on implementing AI
+      instruction.
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/prever/4582_20251217.htm
+      locator: Section 59-59-260(B)
+      quote: The Department of Education shall issue guidance to school districts on how to implement
+        the provisions of subsection (A).
+  - type: educator-pd-requirement
+    description: Directs the Department of Education, subject to funding, to provide AI professional development
+      for educators.
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/prever/4582_20251217.htm
+      locator: Section 59-59-260(C)
+      quote: Subject to available funding, the Department of Education shall provide a professional development
+        program in artificial intelligence education for educators.
+sponsors:
+  - name: William Clyburn
+    primary: true
+    party: D
+    chamber: lower
+  - name: Bill Taylor
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-12-16"
+    description: Prefiled
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-12-16"
+    description: Referred to Committee on Education and Public Works
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-13"
+    description: Introduced and read first time
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-01-13"
+    description: Referred to Committee on Education and Public Works
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-12-17"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/4582_20251217.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2059905
+sources:
+  - url: https://www.scstatehouse.gov/billsearch.php?billnumbers=4582&session=126&summary=B
+    title: H 4582 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.scstatehouse.gov/sess126_2025-2026/prever/4582_20251217.htm
+    title: H 4582 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

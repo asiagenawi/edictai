@@ -1,0 +1,75 @@
+id: us-mn-2025-2026-sf-2888
+jurisdiction: us-mn
+session: 2025-2026
+identifier: SF 2888
+title: Authority to offer doctoral degrees at state universities expansion
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - curriculum-standards
+summary: Amends the statutory mission of Minnesota state universities to allow them to offer applied doctoral
+  degrees in additional fields, including cybersecurity and artificial intelligence.
+provisions:
+  - type: ai-workforce-program
+    description: Authorizes state universities to offer applied doctoral degrees in artificial intelligence.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2888/versions/0/pdf/
+      locator: Sec. 1, 135A.052, subd. 1(a)(4)
+      quote: psychology, physical therapy, audiology, and nursing, cybersecurity, artificial intelligence,
+sponsors:
+  - name: Eric Lucero
+    primary: true
+    party: R
+    chamber: upper
+  - name: Omar Fateh
+    primary: false
+    party: D
+    chamber: upper
+  - name: Foung Hawj
+    primary: false
+    party: D
+    chamber: upper
+  - name: Zach Duckworth
+    primary: false
+    party: R
+    chamber: upper
+  - name: Sandra Pappas
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-03-24"
+    description: Introduction and first reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-03-24"
+    description: Referred to Higher Education
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-20"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2888/versions/0/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2012661
+sources:
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2888/
+    title: SF 2888 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2888/versions/0/pdf/
+    title: SF 2888 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

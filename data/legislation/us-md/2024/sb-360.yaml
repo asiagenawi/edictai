@@ -1,0 +1,402 @@
+id: us-md-2024-sb-360
+jurisdiction: us-md
+session: "2024"
+identifier: SB 360
+title: Budget Bill (Fiscal Year 2025)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+  - procurement
+summary: Appropriates the Maryland State budget for fiscal year 2025, including School Safety Grant Program
+  funds with legislative intent that local education agencies use a portion to study and procure artificial
+  intelligence technologies that identify guns in and around school property.
+provisions:
+  - type: appropriates-funding
+    description: States intent that local education agencies use part of the School Safety Grant Program
+      appropriation to study and procure AI gun-detection technology for school property.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_716_sb0360e.pdf
+      locator: Sec. 1, D25E03.03 School Safety Grant Program, page 22
+      quote: it is the intent of the Maryland General Assembly that local education agencies use a portion
+        of the funding appropriated for the School Safety Grant Program for the purpose of studying and
+        procuring potential artificial intelligence technologies that identify guns in and around school
+        property
+actions:
+  - date: "2024-01-17"
+    description: First Reading Budget and Taxation
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-03-11"
+    description: Favorable with Amendments Report by Budget and Taxation
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-11"
+    description: Favorable with Amendments
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-11"
+    description: Motion Laid Over (Senator Guzzone) Adopted
+    actor: upper
+    classification:
+      - deferral
+  - date: "2024-03-12"
+    description: Favorable with Amendments
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-12"
+    description: Motion Special Order until 3/13 (Senator Guzzone) Adopted
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-13"
+    description: Favorable with Amendments
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-13"
+    description: Motion Special Order until Later Today (Senator Kagan) Adopted
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-13"
+    description: Favorable with Amendments
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#1-8) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#9-18) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#19-24) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#25-37) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#38-46) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#47-73) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#74-91) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#92-107) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#108-115) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#116-124) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Committee Amendment (#125-147) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Favorable with Amendments Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-13"
+    description: Floor Amendment {743026/1 (Senator Ready) Rejected (6-39)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-13"
+    description: Floor Amendment {733425/1 (Senator Carozza) Rejected (12-34)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-13"
+    description: Floor Amendment {593121/1 (Budget and Taxation Committee) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-03-13"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-03-14"
+    description: Third Reading Passed (46-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-03-15"
+    description: Referred Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-18"
+    description: Favorable with Amendments Report by Appropriations
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-18"
+    description: Favorable with Amendments
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-18"
+    description: Motion Special Order until 3/20 (Delegate Barnes) Adopted
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Favorable with Amendments
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-20"
+    description: Committee Amendment (#1-6) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-03-20"
+    description: Committee Amendment (#7-10) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-03-20"
+    description: Committee Amendment (#11-19) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-03-20"
+    description: Committee Amendment (#20-29) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-03-20"
+    description: Committee Amendment (#30-33) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-03-20"
+    description: Committee Amendment (#34-38)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Committee Amendment (#34-35) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-03-20"
+    description: Committee Amendment (#36) Adopted (103-31)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-03-20"
+    description: Committee Amendment (#37-38) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-03-20"
+    description: Favorable with Amendments Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-20"
+    description: Floor Amendment {633222/1 (Delegate Buckel) Rejected (34-100)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Floor Amendment {323321/1 (Delegate Rose) Rejected (37-96)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Floor Amendment {793624/1 (Delegate Miller) Rejected (35-96)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Floor Amendment {983928/1 (Delegate Wivell) Rejected (33-96)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-03-21"
+    description: Third Reading Passed (122-8)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-03-25"
+    description: Senate Refuses Concur House Amendments
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-25"
+    description: Senate Requests House Recede
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-25"
+    description: Senate Conference Committee Appointed (Senators Guzzone, Rosapepe, McCray, King and Corderman)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-03-25"
+    description: 'Senate advisors: (Senators Bailey, Jackson and Zucker)'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-26"
+    description: Senate Refuses Concur House Amendments
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-26"
+    description: Senate Requests House Recede
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-26"
+    description: Senate Conference Committee Appointed (Senators Guzzone, Rosapepe, McCray, King and Corderman)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-03-26"
+    description: 'Senate advisors: (Senators Bailey, Jackson and Zucker)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-26"
+    description: House Refuses Recede
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-26"
+    description: House Conference Committee Appointed (Delegates Barnes, Chang, J. Lewis, Smith and Ghrist)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-03-26"
+    description: 'House advisors: (Delegates Shetty, Watson and Metzgar)'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-27"
+    description: House Refuses Recede
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-27"
+    description: House Conference Committee Appointed (Delegates Barnes, Chang, J. Lewis, Smith and Ghrist)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-03-27"
+    description: 'House advisors: (Delegates Shetty, Watson and Metzgar)'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-05"
+    description: Conference Committee Report Adopted
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-04-05"
+    description: Third Reading Passed (44-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-05"
+    description: Conference Committee Report Adopted
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-04-05"
+    description: Third Reading Passed (124-9)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-05"
+    description: Passed Enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2024-05-16"
+    description: Approved by the Governor - Chapter 716
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2024-01-17"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0360f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-03-13"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0360t.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2024-04-11"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0360e.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2024-05-22"
+    url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_716_sb0360e.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1817737
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0360?ys=2024RS
+    title: SB 360 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_716_sb0360e.pdf
+    title: SB 360 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

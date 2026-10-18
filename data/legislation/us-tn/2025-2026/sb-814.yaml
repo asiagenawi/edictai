@@ -1,0 +1,125 @@
+id: us-tn-2025-2026-sb-814
+jurisdiction: us-tn
+session: 2025-2026
+identifier: SB 814
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to school safety.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - safety-wellbeing
+  - procurement
+summary: Directs the Department of Education to establish a three-year grant pilot program, subject to
+  appropriations, for eligible school districts to purchase artificial intelligence weapons detection
+  systems for schools. Systems must identify weapons on school grounds and notify law enforcement and
+  school administrators, and the department must report annually on the program.
+provisions:
+  - type: appropriates-funding
+    description: Creates a three-year grant pilot for eligible districts to buy AI weapons detection systems
+      for schools.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/SB0814.pdf
+      locator: Section 1(b)
+      quote: The department of education shall establish and administer a three-year artificial intelligence
+        weapons detection system grant pilot program to award grants to eligible LEAs for the purchase
+        of artificial intelligence weapons detection systems for
+  - type: procurement-standards
+    description: AI weapons detection systems purchased must identify weapons and immediately notify law
+      enforcement and school administration.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/SB0814.pdf
+      locator: Section 1(c)
+      quote: Each artificial intelligence weapons detection system purchased for purposes of this section
+        must be capable of identifying weapons, including knives and firearms, on school grounds
+sponsors:
+  - name: Todd Gardenhire
+    primary: true
+    party: R
+    chamber: upper
+  - name: Raumesh Akbari
+    primary: false
+    party: D
+    chamber: upper
+  - name: Bill Powers
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-04"
+    description: Filed for introduction
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-10"
+    description: Introduced, Passed on First Consideration
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-12"
+    description: Passed on Second Consideration, refer to Senate Education Committee
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-12"
+    description: Placed on Senate Education Committee calendar for 2/19/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-14"
+    description: Placed on Senate Education Committee calendar for 2/19/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-19"
+    description: Recommended for passage with amendment/s, refer to Senate Calendar Committee Ayes 9,
+      Nays 0 PNV 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-20"
+    description: Placed on Senate Regular Calendar for 2/24/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-20"
+    description: Sponsor(s) Added.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-24"
+    description: Re-refer to S. Cal Comm
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-24"
+    description: Sponsor(s) Added.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Draft
+    date: "2025-02-04"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/SB0814.pdf
+    media_type: application/pdf
+  - note: Draft
+    date: "2025-02-04"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/SB0814.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1953992
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=SB0814&ga=114
+    title: SB 814 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.tn.gov/Bills/114/Bill/SB0814.pdf
+    title: SB 814 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

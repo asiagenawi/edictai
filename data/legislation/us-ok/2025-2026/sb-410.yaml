@@ -1,0 +1,143 @@
+id: us-ok-2025-2026-sb-410
+jurisdiction: us-ok
+session: 2025-2026
+identifier: SB 410
+title: Schools; requiring students beginning certain school year to complete a computer science unit to
+  graduate with standard diploma. Effective date. Emergency.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Adds a computer science unit or career technology program option to graduation requirements and
+  requires the State Board of Education to adopt rules so that all levels and grades of the Oklahoma Academic
+  Standards for Computer Science include instruction on emerging technologies such as artificial intelligence,
+  including what AI is and how it works.
+provisions:
+  - type: ai-in-standards
+    description: Requires rules so that all grades of the state computer science standards include instruction
+      on AI, including what it is and how it works.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/SB/SB410%20ENGR.PDF
+      locator: Sec. 1, 70 O.S. 11-103.6(S)
+      quote: The State Board of Education shall promulgate rules to reflect that all levels and grades
+        of the Oklahoma Academic Standards for Computer Science shall include instruction on the fundamental
+        concepts of emerging computer science technologies such as artificial intelligence (AI)
+sponsors:
+  - name: Brenda Stanley
+    primary: true
+    party: R
+    chamber: upper
+  - name: Dick Lowe
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-03"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: Authored by Senator Stanley
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Second Reading referred to Education
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-25"
+    description: Reported Do Pass, amended by committee substitute Education committee; CR filed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-27"
+    description: Placed on General Order
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-13"
+    description: Coauthored by Representative Lowe (Dick) (principal House author)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-25"
+    description: General Order, Considered
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-25"
+    description: 'Measure and Emergency passed: Ayes: 44 Nays: 2'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-03-25"
+    description: Referred for engrossment
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Engrossed to House
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-03-26"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-04-01"
+    description: Second Reading referred to Education Oversight
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-04-01"
+    description: Referred to Common Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-10"
+    description: Policy recommendation to the Education Oversight committee; Do Pass Common Education
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2025-01-07"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/SB/SB410%20INT.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2025-02-25"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20COMMITTEE%20SUBS/SCS/SB410%20CS.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-02-26"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/SB410%20SFLR.PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-03-26"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/SB/SB410%20ENGR.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2047868
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=sb410&Session=2600
+    title: SB 410 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/SB/SB410%20ENGR.PDF
+    title: SB 410 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

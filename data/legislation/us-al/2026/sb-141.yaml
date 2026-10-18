@@ -1,0 +1,62 @@
+id: us-al-2026-sb-141
+jurisdiction: us-al
+session: "2026"
+identifier: SB 141
+title: Appropriations from Education Trust Fund for the support, maintenance, and development of public
+  education for fiscal year ending September 30, 2027
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - funding
+summary: Appropriates Education Trust Fund money for fiscal year 2027, including $1,000,000 to the Alabama
+  Community College System for Cyber Technology and AI Expansion.
+provisions:
+  - type: appropriates-funding
+    description: Allocates $1,000,000 to the Alabama Community College System for Cyber Technology and
+      AI Expansion.
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB141-int.pdf
+      locator: Section 3, Community College System Board of Trustees, item (z)
+      quote: (z) Cyber Technology and AI Expansion 1,000,000 1,000,000
+sponsors:
+  - name: Arthur Orr
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-14"
+    description: Read for the first time and referred to the Senate Committee on Finance and Taxation
+      Education
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2026-01-14"
+    description: Pending Senate Finance and Taxation Education
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-14"
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB141-int.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2080152
+sources:
+  - url: https://alison.legislature.state.al.us/bill-search
+    title: SB 141 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB141-int.pdf
+    title: SB 141 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

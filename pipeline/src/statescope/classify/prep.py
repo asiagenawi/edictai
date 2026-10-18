@@ -235,12 +235,29 @@ def excerpts(text: str, cap: int = EXCERPT_CAP) -> Excerpts:
     return result
 
 
+def _excerpt_fields(text: str, cap: int) -> dict[str, Any]:
+    ex = excerpts(text, cap)
+    return {
+        "chars": len(collapse(text)),
+        "excerpt_chars": ex.excerpt_chars,
+        "complete": ex.complete,
+        "truncated": ex.truncated,
+        "ai_hits": ex.ai_hits,
+        "education_hits": ex.education_hits,
+        "excerpts": ex.excerpts,
+    }
+
+
 def full_item(
     row: Mapping[str, Any],
     bill: Mapping[str, Any] | None,
     store: TextStore,
     triage: Mapping[str, Any] | None = None,
+    *,
+    excerpt_cap: int = EXCERPT_CAP,
 ) -> dict[str, Any]:
+    """One full-stage batch line. An earlier version stored for the bill goes under
+    `text.earlier`, with its own excerpts (each version gets `excerpt_cap`)."""
     source = bill or row
     meta, text = store.for_key(row["key"])
     history = [
@@ -288,18 +305,15 @@ def full_item(
     elif latest:
         text_block.update({"type": latest.get("type"), "date": latest.get("date")})
     if text:
-        ex = excerpts(text)
-        text_block.update(
-            {
-                "chars": len(collapse(text)),
-                "excerpt_chars": ex.excerpt_chars,
-                "complete": ex.complete,
-                "truncated": ex.truncated,
-                "ai_hits": ex.ai_hits,
-                "education_hits": ex.education_hits,
-                "excerpts": ex.excerpts,
-            }
-        )
+        text_block.update(_excerpt_fields(text, excerpt_cap))
+    earlier_meta, earlier_text = store.earlier_for_key(row["key"])
+    if earlier_meta and earlier_text:
+        text_block["earlier"] = {
+            "type": earlier_meta.get("type"),
+            "date": earlier_meta.get("date"),
+            "url": earlier_meta.get("state_link"),
+            **_excerpt_fields(earlier_text, excerpt_cap),
+        }
     item = {
         "key": row["key"],
         "jurisdiction": row["jurisdiction"],
@@ -459,7 +473,15 @@ def prep_full(
     keys: Iterable[str] | None = None,
     rebuild: bool = False,
     require_text: bool = False,
+    excerpt_cap: int = EXCERPT_CAP,
+    rejudge: bool = False,
 ) -> PrepResult:
+    """Batch bills for the full stage.
+
+    With `rejudge`, the given keys are batched again even when already judged
+    or in a batch (for re-reading them with fuller text, e.g. a larger
+    `excerpt_cap`); the new judgments replace the old ones once checked.
+    """
     result = PrepResult("full")
     stage_dir = cp.stage_dir("full")
     if rebuild:
@@ -483,10 +505,10 @@ def prep_full(
             if row.get("existing_record"):
                 result.skipped_existing += 1
                 continue
-            if key in judged:
+            if key in judged and not rejudge:
                 result.skipped_judged += 1
                 continue
-            if key in assigned:
+            if key in assigned and not rejudge:
                 result.skipped_assigned += 1
                 continue
             meta, _text = store.for_key(key)
@@ -498,7 +520,15 @@ def prep_full(
             triage_view = (
                 {"decision": triage["decision"], "reason": triage.get("reason")} if triage else None
             )
-            items.append(full_item(row, bills.get(int(row["bill_id"])), store, triage_view))
+            items.append(
+                full_item(
+                    row,
+                    bills.get(int(row["bill_id"])),
+                    store,
+                    triage_view,
+                    excerpt_cap=excerpt_cap,
+                )
+            )
     finally:
         bills.close()
     write_batches(cp, "full", items, batch_size, result)

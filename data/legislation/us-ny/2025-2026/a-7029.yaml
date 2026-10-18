@@ -1,0 +1,81 @@
+id: us-ny-2025-2026-a-7029
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 7029
+title: Directs the commissioner of education to make recommendations to the board of regents regarding
+  the incorporation of instruction in artificial intelligence system literacy into the school curriculum
+  at the elementary, junior high and senior high levels; directs the board of regents to adopt guidelines
+  if the curriculum is adopted.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+summary: Directs the commissioner of education to recommend to the board of regents whether to add AI
+  literacy content to the curriculum at each elementary and secondary grade level, requires the regents
+  to vote on it, and, if adopted, requires guidelines on grade-level content, integration into subjects,
+  teacher professional development resources, and assessment of student AI literacy.
+provisions:
+  - type: ai-in-standards
+    description: Directs the commissioner to recommend incorporating AI literacy content into the curriculum
+      at each grade level, covering AI concepts, evaluation of AI output, limitations, ethics, and safe
+      use.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A07029&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A07029
+      locator: Sec. 2, new Education Law 305(33)(a)
+      quote: The commissioner shall make recommendations to the board of regents relating to the incorporation
+        of artificial intelligence system literacy content into the curriculum at each grade level in
+        elementary schools, junior high schools, and senior high schools.
+  - type: educator-pd-requirement
+    description: If the curriculum is adopted, the regents must develop guidelines that include professional
+      development resources for teachers.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A07029&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A07029
+      locator: Sec. 2, new Education Law 305(33)(d)
+      quote: (ii) integration of AI literacy into existing subject areas; (iii) professional development
+        resources for teachers; and (iv) assessment of student AI literacy competencies.
+sponsors:
+  - name: Michaelle Solages
+    primary: true
+    party: D
+    chamber: lower
+  - name: Harry Bronson
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-18"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-18"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A07029&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A07029
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2010242
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A7029
+    title: A 7029 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A07029&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A07029
+    title: A 7029 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

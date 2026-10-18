@@ -1,0 +1,64 @@
+id: us-119-s-5648
+jurisdiction: us
+session: "119"
+identifier: S. 5648
+title: TAG Act Transparent Automated Governance Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - institutional-operations
+summary: Directs federal agencies to be transparent when using automated systems that use artificial intelligence
+  to make covered decisions about individuals or interact with the public, including public inventories
+  and guidance. Covered decisions include agency determinations affecting access to or the cost or availability
+  of education and vocational training.
+provisions:
+  - type: requires-disclosure
+    description: Defines critical decisions subject to the transparency requirements to include agency
+      determinations affecting education and vocational training.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5648/BILLS-119s5648is.pdf
+      locator: Sec. 2(4)(A)
+      quote: related to the status, rights, property, or wellbeing of specific individuals or groups,
+        the outcome of which meaningfully affects access to, or the cost, terms, or availability of— (A)
+        education and vocational training;
+sponsors:
+  - name: Gary Peters
+    primary: true
+    party: D
+    chamber: upper
+  - name: James Lankford
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-09-30"
+    description: Read twice and referred to the Committee on Homeland Security and Governmental Affairs.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-10-10"
+    url: https://www.congress.gov/119/bills/s5648/BILLS-119s5648is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2159661
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/5648/all-info
+    title: S. 5648 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s5648/BILLS-119s5648is.pdf
+    title: S. 5648 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,95 @@
+id: us-pa-2025-2026-hb-1857
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 1857
+title: Requiring business entities to disclose the use of artificial intelligence in certain consumer
+  interactions; establishing the right of consumers to human review in high-impact decisions; and providing
+  for enforcement by Attorney General.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - institutional-operations
+  - equity-access
+summary: Requires business entities that use artificial intelligence in consumer interactions to disclose
+  that use and to provide access to a human representative on request. Gives consumers a right to human
+  review of high-impact decisions, defined to include decisions affecting education.
+provisions:
+  - type: requires-disclosure
+    description: Defines high-impact decisions, which carry a right to human review of AI-involved interactions,
+      to include education.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1857/PN2298
+      locator: Section 2
+      quote: '"High-impact decision." A decision or determination that materially affects an individual''s
+        legal rights, employment, housing, credit, education, health care or access to government benefits.'
+sponsors:
+  - name: Benjamin Waxman
+    primary: true
+    party: D
+    chamber: lower
+  - name: Carol Hill-Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Freeman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kyle Donahue
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tarah Probst
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Inglis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Frankel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Johanny Cepeda-Freytiz
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-09-10"
+    description: Referred to Communications & Technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1857/PN2298
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2043639
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb1857
+    title: HB 1857 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1857/PN2298
+    title: HB 1857 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

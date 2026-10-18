@@ -1,0 +1,106 @@
+id: us-ny-2025-2026-s-10685
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 10685
+title: Enacts the "fostering optimal classroom use of screens (FOCUS) act" to limit use of internet enabled
+  and electronic devices and prioritize non-digital teaching methods; prohibits use by younger students;
+  limits and restricts certain uses by older students; requires written policies for opting in for the
+  school issued devices; prohibits social media applications, gaming and AI in school issued devices;
+  requires registration by educational technology providers.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - safety-wellbeing
+summary: Enacts the FOCUS act, which requires schools to adopt written policies limiting student device
+  use, requires school-issued devices to block AI companions, generative AI, and conversational AI (except
+  conversational AI used as assistive technology), and requires schools to share department findings on
+  educational technology and AI with families.
+provisions:
+  - type: limits-ai-instructional-use
+    description: Requires schools to ensure school-issued devices cannot download or integrate AI companions,
+      generative AI, or conversational AI, except conversational AI used as assistive technology.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10685&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10685
+      locator: Sec. 2, new Education Law 33(1)
+      quote: 'be downloaded onto or integrated with such device: (a) A social media platform; (b) A gaming
+        platform; (c) A messaging platform; (d) An AI companion; (e) Generative artificial intelligence;'
+  - type: requires-disclosure
+    description: Requires the school's written policy to include department findings on educational technology,
+      AI companions, generative AI, and conversational AI, published on the school's website.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10685&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10685
+      locator: Sec. 2, new Education Law 32
+      quote: educational technology, AI companions, generative AI, conversational AI, and other relevant
+        information, as such findings have been provided to the school by the department.
+sponsors:
+  - name: Andrew Gounardes
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jamaal Bailey
+    primary: false
+    party: D
+    chamber: upper
+  - name: Erik Bottcher
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jeremy Cooney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Michelle Hinchey
+    primary: false
+    party: D
+    chamber: upper
+  - name: Liz Krueger
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jack Martins
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jessica Scarcella-Spanton
+    primary: false
+    party: D
+    chamber: upper
+  - name: Luis Sepulveda
+    primary: false
+    party: D
+    chamber: upper
+  - name: Sam Sutton
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-08-21"
+    description: REFERRED TO RULES
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-08-21"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10685&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10685
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2158654
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S10685
+    title: S 10685 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10685&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10685
+    title: S 10685 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

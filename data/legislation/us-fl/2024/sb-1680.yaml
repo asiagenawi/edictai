@@ -1,0 +1,227 @@
+id: us-fl-2024-sb-1680
+jurisdiction: us-fl
+session: "2024"
+identifier: SB 1680
+title: Advanced Technology
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+summary: Creates the Government Technology Modernization Council, which must study artificial intelligence
+  in state government, AI safety standards, and misuse of AI, and evaluate the need for curriculum to
+  prepare school-age audiences with digital media and visual literacy skills.
+provisions:
+  - type: creates-task-force
+    description: The council must evaluate the need for curriculum to prepare school-age audiences with
+      digital media and visual literacy skills.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/HTML
+      locator: Section 1, new s. 282.802(7)(a)7.
+      quote: Evaluate the need for curriculum to prepare school-age audiences with the digital media and
+        visual literacy skills needed to navigate the digital information landscape.
+sponsors:
+  - name: Rules
+    classification: committee
+    primary: true
+  - name: Judiciary
+    classification: committee
+    primary: true
+  - name: Jennifer Bradley
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-01-05"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-11"
+    description: Referred to Judiciary; Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-01-11"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-24"
+    description: On Committee agenda-- Judiciary, 01/29/24, 4:00 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-29"
+    description: CS by Judiciary; YEAS 10 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-30"
+    description: Pending reference review under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-01-30"
+    description: Now in Rules
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-01"
+    description: CS by Judiciary read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-02-09"
+    description: On Committee agenda-- Rules, 02/14/24, 9:00 am, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-14"
+    description: CS/CS by- Rules; YEAS 18 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-15"
+    description: Pending reference review -under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-02-15"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-15"
+    description: CS/CS by Rules read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-02-26"
+    description: Placed on Special Order Calendar, 02/28/24
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-28"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-02-28"
+    description: Amendment(s) adopted (238796, 906120)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2024-02-28"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2024-02-28"
+    description: CS passed as amended; YEAS 40 NAYS 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-02-28"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-04"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-04"
+    description: Bill added to Special Order Calendar (3/5/2024)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-04"
+    description: 1st Reading (Engrossed 1)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-03-05"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-03-05"
+    description: Placed on 3rd reading
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-05"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-06"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-03-06"
+    description: CS passed; YEAS 114, NAYS 0
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-03-06"
+    description: Ordered enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2024-04-16"
+    description: Signed by Officers and presented to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-04-26"
+    description: Approved by Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-04-29"
+    description: Chapter No. 2024-118
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-01-05"
+    url: https://www.flsenate.gov/Session/Bill/2024/1680/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2024-01-30"
+    url: https://www.flsenate.gov/Session/Bill/2024/1680/BillText/c1/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2024-02-15"
+    url: https://www.flsenate.gov/Session/Bill/2024/1680/BillText/c2/HTML
+    media_type: text/html
+  - note: Engrossed
+    date: "2024-02-28"
+    url: https://www.flsenate.gov/Session/Bill/2024/1680/BillText/e1/HTML
+    media_type: text/html
+  - note: Enrolled
+    date: "2024-03-06"
+    url: https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1799058
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2024/1680
+    title: SB 1680 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2024/1680/BillText/er/HTML
+    title: SB 1680 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

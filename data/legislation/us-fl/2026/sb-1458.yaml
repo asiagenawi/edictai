@@ -1,0 +1,83 @@
+id: us-fl-2026-sb-1458
+jurisdiction: us-fl
+session: "2026"
+identifier: SB 1458
+title: Artificial Intelligence in Higher Education
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - academic-integrity
+  - instructional-use
+  - educator-training
+  - student-privacy
+summary: Creates the Artificial Intelligence in Higher Education Study Group to review AI in instruction,
+  research, and student conduct in the State University System and Florida College System, examine academic
+  integrity, privacy, and faculty training needs, recommend model institutional policies, and report by
+  December 1, 2026.
+provisions:
+  - type: creates-task-force
+    description: Creates a study group on AI opportunities, risks, and best practices in public higher
+      education.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1458/BillText/Filed/HTML
+      locator: Sec. 1(1)
+      quote: There is created the Artificial Intelligence in Higher Education Study Group to review and
+        make recommendations on the opportunities and risks presented by, and best practices for managing,
+        artificial intelligence in academic instruction, research, and student conduct
+  - type: issues-model-policy
+    description: The study group must recommend model policies for institutions on AI use.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1458/BillText/Filed/HTML
+      locator: Sec. 1(3)(g)
+      quote: Recommend model policies for institutions to adopt regarding the ethical and effective use
+        of artificial intelligence.
+sponsors:
+  - name: Tracie Davis
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-08"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-16"
+    description: Referred to Education Postsecondary; Commerce and Tourism; Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-01-22"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-03-13"
+    description: Died in Education Postsecondary
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-08"
+    url: https://www.flsenate.gov/Session/Bill/2026/1458/BillText/Filed/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2068792
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/1458
+    title: SB 1458 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1458/BillText/Filed/HTML
+    title: SB 1458 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,150 @@
+id: us-tx-2025-2026-hb-5118
+jurisdiction: us-tx
+session: 2025-2026
+identifier: HB 5118
+title: Relating to a study on employer and state agency use of automated employment decision tools in
+  assessing an applicant's suitability for a position.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - employment-evaluation
+  - task-force
+  - equity-access
+summary: Directs the Texas Workforce Commission to study the use of artificial intelligence systems and
+  automated employment decision tools in hiring by employers and state agencies, defined to include university
+  systems and institutions of higher education. The study must address bias detection, transparency and
+  oversight and lead to a report with recommendations.
+provisions:
+  - type: creates-task-force
+    description: Requires a study of AI hiring tools used by employers and state agencies, which include
+      institutions of higher education.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB05118H.htm
+      locator: Section 1(b)
+      quote: The commission, in consultation and collaboration with the department, shall conduct a study
+        on the use of artificial intelligence systems and automated employment decision tools in employment
+        and hiring practices of employers, including state agencies.
+sponsors:
+  - name: Salman Bhojani
+    primary: true
+    party: D
+    chamber: lower
+  - name: Claudia Ordaz Perez
+    primary: true
+    party: D
+    chamber: lower
+  - name: John Lujan
+    primary: true
+    party: R
+    chamber: lower
+  - name: Caroline Harris Davila
+    primary: true
+    party: R
+    chamber: lower
+  - name: Oscar Longoria
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-13"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-04-07"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-04-07"
+    description: Referred to s/c on Workforce by Speaker
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-29"
+    description: Scheduled for public hearing in s/c on . . .
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Considered by s/c in public hearing
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Left pending in subcommittee
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-05-07"
+    description: Recalled from subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-07"
+    description: Considered in public hearing
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-07"
+    description: Committee substitute considered in committee
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-05-07"
+    description: Reported favorably as substituted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-12"
+    description: Comte report filed with Committee Coordinator
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-12"
+    description: Committee report distributed
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-12"
+    description: Committee report sent to Calendars
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-13"
+    description: Considered in Calendars
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-15"
+    description: Placed on General State Calendar
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-03-13"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB05118I.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-05-12"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB05118H.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2006851
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB5118
+    title: HB 5118 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB05118H.htm
+    title: HB 5118 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

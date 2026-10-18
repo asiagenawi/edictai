@@ -1,0 +1,69 @@
+id: us-ny-2025-2026-a-11693
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 11693
+title: Provides that each school district, charter school, and board of cooperative educational services
+  shall adopt and implement a written policy governing the use of humanoid robots in schools and that
+  such policy shall prohibit the use of an artificial intelligence-enabled humanoid robot in an instructional
+  capacity; defines terms.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - instructional-use
+  - employment-evaluation
+summary: Requires each school district, charter school, and BOCES to adopt a written policy on humanoid
+  robots that prohibits AI-enabled humanoid robots from delivering instruction, tutoring, grading student
+  work, or performing duties ordinarily performed by certified school staff.
+provisions:
+  - type: requires-local-ai-policy
+    description: Requires each school district, charter school, and BOCES to adopt and implement a written
+      policy on humanoid robots.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11693&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11693
+      locator: Sec. 1, new Education Law 3039(2)
+      quote: Each school district, charter school, and board of cooperative educational services shall
+        adopt and implement a written policy govern- ing the use of humanoid robots in schools.
+  - type: prohibits-ai-replacing-educators
+    description: The policy must prohibit AI-enabled humanoid robots from serving in an instructional
+      capacity, including duties ordinarily performed by certified teachers.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11693&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11693
+      locator: Sec. 1, new Education Law 3039(3)
+      quote: The policy adopted and implemented pursuant to subdivision two of this section shall prohibit
+        the use of an artificial intelligence-ena- bled humanoid robot in an instructional capacity.
+sponsors:
+  - name: Carrie Woerner
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-09-02"
+    description: referred to education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-09-02"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11693&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11693
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2158641
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A11693
+    title: A 11693 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A11693&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A11693
+    title: A 11693 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

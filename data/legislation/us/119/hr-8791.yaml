@@ -1,0 +1,220 @@
+id: us-119-hr-8791
+jurisdiction: us
+session: "119"
+identifier: H.R. 8791
+title: IGNITE HBCU Excellence Act Institutional Grants for New Infrastructure, Technology, and Education
+  for HBCU Excellence Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Creates a competitive grant program for long-term facility improvements at Historically Black
+  Colleges and Universities. Allowable uses include workforce development hubs focused on fields such
+  as artificial intelligence that support education, training, and career placement for students, and
+  research equipment for emerging fields such as AI.
+provisions:
+  - type: ai-workforce-program
+    description: Grant funds may develop workforce development hubs focused on fields such as AI that
+      support student education, training, and career placement.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8791/BILLS-119hr8791ih.pdf
+      locator: Sec. 3(a)(1)(G)
+      quote: establishing workforce development hubs that— (i) are aligned with regional labor market
+        needs; (ii) focus on fields such as artificial intelligence; and (iii) support education, training,
+        and career placement for students.
+sponsors:
+  - name: French Hill
+    primary: true
+    party: R
+    chamber: lower
+  - name: Alma Adams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Turner
+    primary: false
+    party: R
+    chamber: lower
+  - name: Terri Sewell
+    primary: false
+    party: D
+    chamber: lower
+  - name: Richard McCormick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Shomari Figures
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Rouzer
+    primary: false
+    party: R
+    chamber: lower
+  - name: LaMonica McIver
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Lawler
+    primary: false
+    party: R
+    chamber: lower
+  - name: James Clyburn
+    primary: false
+    party: D
+    chamber: lower
+  - name: Stephanie Bice
+    primary: false
+    party: R
+    chamber: lower
+  - name: Sanford Bishop
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bruce Westerman
+    primary: false
+    party: R
+    chamber: lower
+  - name: Eleanor Norton
+    primary: false
+    party: D
+    chamber: lower
+  - name: Byron Donalds
+    primary: false
+    party: R
+    chamber: lower
+  - name: Joyce Beatty
+    primary: false
+    party: D
+    chamber: lower
+  - name: Garland Barr
+    primary: false
+    party: R
+    chamber: lower
+  - name: Janelle Bynum
+    primary: false
+    party: D
+    chamber: lower
+  - name: Richard Hudson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Donald Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tim Moore
+    primary: false
+    party: R
+    chamber: lower
+  - name: Lloyd Doggett
+    primary: false
+    party: D
+    chamber: lower
+  - name: Glenn Thompson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Ayanna Pressley
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Kustoff
+    primary: false
+    party: R
+    chamber: lower
+  - name: Nikema Williams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rick Allen
+    primary: false
+    party: R
+    chamber: lower
+  - name: Morgan McGarvey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nathaniel Moran
+    primary: false
+    party: R
+    chamber: lower
+  - name: Valerie Foushee
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Baird
+    primary: false
+    party: R
+    chamber: lower
+  - name: Lucy McBath
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ryan Mackenzie
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jahana Hayes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Greg Murphy
+    primary: false
+    party: R
+    chamber: lower
+  - name: Adelita Grijalva
+    primary: false
+    party: D
+    chamber: lower
+  - name: Derrick Van Orden
+    primary: false
+    party: R
+    chamber: lower
+  - name: Ted Lieu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carol Miller
+    primary: false
+    party: R
+    chamber: lower
+  - name: Yvette Clarke
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-05-13"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-05-13"
+    description: Referred to the House Committee on Education and Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-05-28"
+    url: https://www.congress.gov/119/bills/hr8791/BILLS-119hr8791ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2149733
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/8791/all-info
+    title: H.R. 8791 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr8791/BILLS-119hr8791ih.pdf
+    title: H.R. 8791 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

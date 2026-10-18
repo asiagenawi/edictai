@@ -1,0 +1,123 @@
+id: us-ca-2025-2026-sb-539
+jurisdiction: us-ca
+session: 2025-2026
+identifier: SB 539
+title: School facilities.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - institutional-operations
+summary: Extends school facility hardship provisions to wildfire, flood, and other emergencies, and authorizes
+  the State Department of Education, the State Architect, and the State Allocation Board to use machine
+  learning to automate nondiscretionary permitting steps for these school projects, and school districts
+  to use machine learning to prepare permitting documents.
+sponsors:
+  - name: Christopher Cabaldon
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-20"
+    description: Introduced. Read first time. To Com. on RLS. for assignment. To print.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-21"
+    description: From printer. May be acted upon on or after March 23.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-11"
+    description: Set for hearing March 26.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-13"
+    description: March 26 set for first hearing canceled at the request of author.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: From committee with author's amendments. Read second time and amended. Re-referred to
+      Com. on ED.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-03-28"
+    description: Set for hearing April 9.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-09"
+    description: 'From committee: Do pass as amended and re-refer to Com. on APPR. (Ayes 7. Noes 0. Page
+      735.) (April 9).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-10"
+    description: Read second time and amended. Re-referred to Com. on APPR.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-04-17"
+    description: Set for hearing April 28.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-28"
+    description: 'April 28 hearing: Placed on APPR. suspense file.'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-16"
+    description: Set for hearing May 23.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-23"
+    description: 'May 23 hearing: Held in committee and under submission.'
+    actor: upper
+    classification:
+      - committee-failure
+  - date: "2026-02-02"
+    description: Returned to Secretary of Senate pursuant to Joint Rule 56.
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2025-02-20"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB539#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2025-03-27"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB539#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-04-10"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB539#97AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1978772
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB539
+    title: SB 539 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB539#97AMD
+    title: SB 539 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

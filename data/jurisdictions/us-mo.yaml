@@ -5,3 +5,37 @@ abbreviation: MO
 classification: state
 fips: "29"
 region: Midwest
+sessions:
+  - identifier: "2024"
+    name: 2024 Regular Session
+    classification: primary
+    start_date: "2024-01-03"
+    legiscan_session_id: 2122
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:mo/government?include=legislative_sessions"
+        title: Open States API, Missouri legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2025"
+    name: 2025 Regular Session
+    classification: primary
+    start_date: "2025-01-08"
+    legiscan_session_id: 2169
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:mo/government?include=legislative_sessions"
+        title: Open States API, Missouri legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2026"
+    name: 2026 Regular Session
+    classification: primary
+    start_date: "2026-01-07"
+    legiscan_session_id: 2239
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:mo/government?include=legislative_sessions"
+        title: Open States API, Missouri legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

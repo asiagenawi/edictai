@@ -1,0 +1,73 @@
+id: us-md-2025-sb-936
+jurisdiction: us-md
+session: "2025"
+identifier: SB 936
+title: Consumer Protection - High-Risk Artificial Intelligence - Developer and Deployer Requirements
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - admissions
+summary: Requires developers and deployers of high-risk artificial intelligence systems to use reasonable
+  care to protect consumers from algorithmic discrimination and sets documentation and disclosure requirements.
+  Consequential decisions covered by the bill include education enrollment or education opportunity.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines consequential decisions subject to the algorithmic discrimination duties to include
+      education enrollment or opportunity.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0936f.pdf
+      locator: Section 1, definition (D)
+      quote: '“CONSEQUENTIAL DECISION” MEANS A DECISION THAT HAS A MATERIALLY LEGAL OR SIMILARLY SIGNIFICANT
+        EFFECT ON THE PROVISION OR DENIAL TO A CONSUMER OF: (1) PAROLE, PROBATION, A PARDON, OR ANY OTHER
+        RELEASE FROM INCARCERATION OR COURT SUPERVISION; (2) EDUCATION ENROLLMENT OR EDUCATION OPPORTUNITY;'
+sponsors:
+  - name: Katie Hester
+    primary: true
+    party: D
+    chamber: upper
+  - name: Dawn Gile
+    primary: false
+    party: D
+    chamber: upper
+  - name: Sara Love
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-03"
+    description: First Reading Finance
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-02-06"
+    description: Hearing 2/27 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-02-05"
+    url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0936f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1953268
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0936?ys=2025RS
+    title: SB 936 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0936f.pdf
+    title: SB 936 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

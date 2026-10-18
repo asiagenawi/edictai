@@ -1,0 +1,82 @@
+id: us-118-s-3392
+jurisdiction: us
+session: "118"
+identifier: S. 3392
+title: AREA Act Advancing Research in Education Act Educational Technical Assistance Act of 2002
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - research
+summary: Reauthorizes the Education Sciences Reform Act and related education research and assessment
+  laws, adding educational technology, including artificial intelligence and digital literacy, to the
+  research topics the Institute of Education Sciences must support.
+provisions:
+  - type: appropriates-funding
+    description: Educational technology including AI is listed among the research topics the Secretary
+      must support through national research and development centers or other means.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s3392/BILLS-118s3392rs.pdf
+      locator: Amended Section 133, topic (xiii)
+      quote: Educational technology, includ- ing artificial intelligence and digital lit- eracy.
+sponsors:
+  - name: Bernard Sanders
+    primary: true
+    party: I
+    chamber: upper
+  - name: Bill Cassidy
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2023-12-04"
+    description: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+  - date: "2023-12-12"
+    description: Committee on Health, Education, Labor, and Pensions. Ordered to be reported with an amendment
+      in the nature of a substitute favorably.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-01-22"
+    description: Committee on Health, Education, Labor, and Pensions. Reported by Senator Sanders with
+      an amendment in the nature of a substitute. Without written report.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-22"
+    description: Placed on Senate Legislative Calendar under General Orders. Calendar No. 309.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-12-12"
+    url: https://www.congress.gov/118/bills/s3392/BILLS-118s3392is.pdf
+    media_type: application/pdf
+  - note: Introduced
+    date: "2024-01-23"
+    url: https://www.congress.gov/118/bills/s3392/BILLS-118s3392rs.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1789291
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/senate-bill/3392/all-info
+    title: S. 3392 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/s3392/BILLS-118s3392rs.pdf
+    title: S. 3392 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

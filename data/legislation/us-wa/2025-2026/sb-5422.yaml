@@ -1,0 +1,144 @@
+id: us-wa-2025-2026-sb-5422
+jurisdiction: us-wa
+session: 2025-2026
+identifier: SB 5422
+title: 'Revised for 1st substitute: Allowing bargaining over matters related to certain uses of artificial
+  intelligence.'
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - employment-evaluation
+summary: Requires public employers under the state's public employee bargaining laws to bargain over decisions
+  to adopt or modify artificial intelligence technology when the change affects employees' wages or performance
+  evaluations. Makes the management right of institutions of higher education over the use of technology
+  subject to this duty for their covered employees.
+sponsors:
+  - name: Jessica Bateman
+    primary: true
+    party: D
+    chamber: upper
+  - name: Steven Conway
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mike Chapman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Annette Cleveland
+    primary: false
+    party: D
+    chamber: upper
+  - name: Noel Frame
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Hasegawa
+    primary: false
+    party: D
+    chamber: upper
+  - name: T'wina Nobles
+    primary: false
+    party: D
+    chamber: upper
+  - name: Tina Orwall
+    primary: false
+    party: D
+    chamber: upper
+  - name: Rebecca Saldana
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jesse Salomon
+    primary: false
+    party: D
+    chamber: upper
+  - name: Derek Stanford
+    primary: false
+    party: D
+    chamber: upper
+  - name: Yasmin Trudeau
+    primary: false
+    party: D
+    chamber: upper
+  - name: Javier Valdez
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-01-22"
+    description: First reading, referred to Labor & Commerce.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2025-02-17"
+    description: Public hearing in the Senate Committee on Labor & Commerce at 10:30 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-21"
+    description: Executive action taken in the Senate Committee on Labor & Commerce at 8:00 AM.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-21"
+    description: LC - Majority; 1st substitute bill be substituted, do pass.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-21"
+    description: Minority; do not pass.
+    actor: upper
+    classification:
+      - committee-failure
+  - date: "2025-02-21"
+    description: And refer to Ways & Means.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-21"
+    description: Referred to Ways & Means.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-25"
+    description: Public hearing in the Senate Committee on Ways & Means at 1:30 PM.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-28"
+    description: Executive session scheduled, but no action was taken in the Senate Committee on Ways
+      & Means at 1:30 PM.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-12"
+    description: By resolution, reintroduced and retained in present status.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5422.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5422-S.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1932498
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=5422&Year=2025&Initiative=false
+    title: SB 5422 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Senate%20Bills/5422-S.pdf
+    title: SB 5422 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

@@ -1,0 +1,196 @@
+id: us-ny-2025-2026-a-8295
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 8295
+title: Regulates automated decision-making by government agencies; requires agencies to conduct impact
+  assessments; requires disclosure of automated decision-making tools utilized by governmental agencies.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+summary: Regulates automated decision-making by government agencies with impact assessments and disclosure,
+  and amends the education law so that use of AI systems and automated decision-making tools by boards
+  of education, BOCES, SUNY, CUNY, and community colleges cannot displace employees, impair collective
+  bargaining agreements, or transfer employees' duties to AI.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Bars use of AI systems by boards of education from displacing employees or transferring
+      their duties to AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08295&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08295D
+      locator: Sec. 5, Education Law 2585(5)(b)
+      quote: 'The use of such artificial intelligence systems and automated decision-making tools shall
+        not result in the: (i) discharge, displace- ment or loss of position'
+  - type: prohibits-ai-replacing-educators
+    description: Protects the employment rights and status of SUNY, CUNY, and community college employees
+      when AI systems are used.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08295&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08295D
+      locator: Sec. 8, new Education Law 115(3)
+      quote: including but not limited to terms and conditions of employment, civil service status, and
+        collective bargaining unit membership status of all existing employees of the state university
+        of New York, the city univer- sity of New York, or community colleges shall be preserved and protected.
+sponsors:
+  - name: Steven Otis
+    primary: true
+    party: D
+    chamber: lower
+  - name: John McDonald
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jo Simon
+    primary: false
+    party: D
+    chamber: lower
+  - name: William Colton
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jessica Gonzalez-Rojas
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sarahana Shrestha
+    primary: false
+    party: D
+    chamber: lower
+  - name: Doug Smith
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jennifer Lunsford
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dana Levenberg
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maryjane Shimsky
+    primary: false
+    party: D
+    chamber: lower
+  - name: Amy Paulin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rebecca Kassay
+    primary: false
+    party: D
+    chamber: lower
+  - name: Karen McMahon
+    primary: false
+    party: D
+    chamber: lower
+  - name: Angelo Santabarbara
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-05-12"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-05-14"
+    description: amend and recommit to science and technology
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-14"
+    description: print number 8295a
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-23"
+    description: amend (t) and recommit to science and technology
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-23"
+    description: print number 8295b
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-29"
+    description: reported referred to rules
+    actor: lower
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2025-06-04"
+    description: reported
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-06-04"
+    description: rules report cal.406
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-04"
+    description: ordered to third reading rules cal.406
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-04"
+    description: amended on third reading 8295c
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-06-09"
+    description: amended on third reading 8295d
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-06-16"
+    description: substituted by s7599c
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-05-12"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08295&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08295
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-12"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08295&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08295A
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-12"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08295&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08295B
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-12"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08295&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08295C
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-12"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08295&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08295D
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2030449
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A8295
+    title: A 8295 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A08295&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A08295D
+    title: A 8295 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

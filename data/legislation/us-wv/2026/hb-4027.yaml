@@ -1,0 +1,125 @@
+id: us-wv-2026-hb-4027
+jurisdiction: us-wv
+session: "2026"
+identifier: HB 4027
+title: Budget Bill
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - instructional-use
+summary: Makes appropriations for the 2027 fiscal year. As introduced, would direct $3,000,000 of the
+  State Department of Education's Mountain State Digital Literacy Program appropriation to digital artificial
+  intelligence tutoring; the later version directs that amount to tutoring and support resources for digital
+  literacy, math, career-technical education, and internet safety. The AI provisions were removed by amendment.
+provisions:
+  - type: appropriates-funding
+    description: Would direct $3,000,000 of the statewide Mountain State Digital Literacy Program appropriation
+      to digital AI tutoring.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4027%20intr.htm&yr=2026&sesstype=RS&i=4027
+      locator: Introduced, State Department of Education, Mountain State Digital Literacy Program (fund
+        0313, appropriation 86401)
+      quote: From the above appropriation for Mountain State Digital Literacy Program (fund 0313, appropriation
+        86401), $3,000,000 shall be used for digital artificial intelligence tutoring.
+sponsors:
+  - name: Roger Hanshaw
+    primary: true
+    party: R
+    chamber: lower
+  - name: Sean Hornbuckle
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-14"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-14"
+    description: To Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-14"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-14"
+    description: To House Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: By substitute, do pass
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-23"
+    description: On 1st reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-02-23"
+    description: Read 1st time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-02-24"
+    description: On 2nd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-24"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-24"
+    description: Postponed on 2nd reading, Special Calendar, until 2/25/2026
+    actor: lower
+    classification:
+      - reading-2
+      - deferral
+  - date: "2026-02-25"
+    description: Placed on House Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: On 2nd reading, House Calendar
+    actor: lower
+    classification:
+      - reading-2
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4027%20intr.htm&yr=2026&sesstype=RS&i=4027
+    media_type: text/html
+  - note: Comm Sub
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4027%20sub1.htm&yr=2026&sesstype=RS&i=4027
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2080467
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4027&year=2026&sessiontype=RS&btype=bill
+    title: HB 4027 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4027%20sub1.htm&yr=2026&sesstype=RS&i=4027
+    title: HB 4027 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4027%20intr.htm&yr=2026&sesstype=RS&i=4027
+    title: HB 4027 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

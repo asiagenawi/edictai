@@ -1,0 +1,454 @@
+id: us-nc-2025-2026-h-268
+jurisdiction: us-nc
+session: 2025-2026
+identifier: H 268
+title: 2026 Budget Technical Corrections - II
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - workforce
+  - educator-training
+  - funding
+summary: Makes technical and other changes to the 2026 budget, including creating a North Carolina High
+  School Redesign Commission that must consider uses of artificial intelligence to expand student career
+  exploration and work-based learning. Also allows the Friday Institute to carry forward nonrecurring
+  funds for AI professional development modules.
+provisions:
+  - type: creates-task-force
+    description: Requires the High School Redesign Commission to consider uses of AI to expand student
+      career exploration and work-based learning.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H268v4.pdf
+      locator: Sec. 3.12.(e)(9)
+      quote: Uses of artificial intelligence to expand student opportunities to engage in career exploration
+        and work-based learning experiences.
+  - type: educator-pd-requirement
+    description: Lets the Friday Institute carry forward funds for AI professional development modules.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H268v4.pdf
+      locator: Sec. 3.13
+      quote: ALLOW FRIDAY INSTITUTE TO CARRYFORWARD NONRECURRING FUNDS FOR AI PROFESSIONAL DEVELOPMENT
+        MODULES
+sponsors:
+  - name: Kelly Hastings
+    primary: true
+    party: R
+    chamber: lower
+  - name: Ray Pickett
+    primary: true
+    party: R
+    chamber: lower
+  - name: Vernetta Alston
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dean Arp
+    primary: false
+    party: R
+    chamber: lower
+  - name: Cynthia Ball
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Bell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Brian Biggs
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jerry Branson
+    primary: false
+    party: R
+    chamber: lower
+  - name: William Brisson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Celeste Cairns
+    primary: false
+    party: R
+    chamber: lower
+  - name: Grant Campbell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Tracy Clark
+    primary: false
+    party: D
+    chamber: lower
+  - name: Patricia Cotham
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kyle Hall
+    primary: false
+    party: R
+    chamber: lower
+  - name: Mary Harrison
+    primary: false
+    party: D
+    chamber: lower
+  - name: Zack Forde-Hawkins
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frances Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jake Johnson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Brenden Jones
+    primary: false
+    party: R
+    chamber: lower
+  - name: Keith Kidwell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Donny Lambeth
+    primary: false
+    party: R
+    chamber: lower
+  - name: Tim Longest
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jarrod Lowery
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jeffrey McNeely
+    primary: false
+    party: R
+    chamber: lower
+  - name: Charles Miller
+    primary: false
+    party: R
+    chamber: lower
+  - name: Dante Pittman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lindsey Prather
+    primary: false
+    party: D
+    chamber: lower
+  - name: Reece Pyrtle
+    primary: false
+    party: R
+    chamber: lower
+  - name: Timothy Reeder
+    primary: false
+    party: R
+    chamber: lower
+  - name: Heather Rhyne
+    primary: false
+    party: R
+    chamber: lower
+  - name: Carson Smith
+    primary: false
+    party: R
+    chamber: lower
+  - name: Charles Smith
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bill Ward
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-03-03"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-05"
+    description: Passed 1st Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-05"
+    description: Ref to the Com on Higher Education, if favorable, Rules, Calendar, and Operations of
+      the House
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-19"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-19"
+    description: Re-ref Com On Rules, Calendar, and Operations of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-24"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-24"
+    description: Cal Pursuant Rule 36(b)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-24"
+    description: Placed On Cal For 03/26/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Passed 2nd Reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-26"
+    description: Withdrawn From Cal
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Placed On Cal For 04/01/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-01"
+    description: Passed 3rd Reading
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-02"
+    description: Regular Message Sent To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-03"
+    description: Regular Message Received From House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-03"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-04-03"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-22"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-22"
+    description: Re-ref Com On Appropriations/Base Budget
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-22"
+    description: Reptd Fav Com Substitute
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-22"
+    description: Com Substitute Adopted
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-09-22"
+    description: Placed on Today's Calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-22"
+    description: Passed 2nd Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-09-22"
+    description: Passed 3rd Reading
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-09-22"
+    description: Special Message Sent To House
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-22"
+    description: Special Message Received For Concurrence in S Com Sub
+    actor: lower
+    classification:
+      - other
+  - date: "2025-09-22"
+    description: Re-ref to the Com on Appropriations, if favorable, Rules, Calendar, and Operations of
+      the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Serial Referral To Rules, Calendar, and Operations of the House Stricken
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-21"
+    description: Withdrawn From Com
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Added to Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Failed Concur In S Com Sub
+    actor: lower
+    classification:
+      - failure
+  - date: "2026-07-01"
+    description: Conf Com Appointed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-27"
+    description: Conferees Changed
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-27"
+    description: Conf Com Appointed
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-27"
+    description: Conf Com Reported
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-27"
+    description: Ruled Material
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-27"
+    description: Cal Pursuant Rule 44(d)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-27"
+    description: Placed On Cal For 08/04/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-27"
+    description: Conf Com Reported
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-27"
+    description: Held As Material
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-27"
+    description: Placed On Cal For 07/28/2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-28"
+    description: Conf Report Passed 2nd
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-07-29"
+    description: Conf Report Adopted 3rd
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-08-04"
+    description: Conf Report Adopted 2nd
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-08-05"
+    description: Conf Report Adopted 3rd
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-08-05"
+    description: Ordered Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-08-06"
+    description: Ratified
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-08-07"
+    description: Pres. To Gov. 8/7/2026
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-08-11"
+    description: Signed by Gov. 8/11/2026
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-08-11"
+    description: Ch. SL 2026-61
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-03-03"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H268v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-03-05"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H268v1.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-09-22"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H268v2.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-08-06"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H268v3.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-08-11"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H268v4.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1990237
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/H268
+    title: H 268 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H268v4.pdf
+    title: H 268 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

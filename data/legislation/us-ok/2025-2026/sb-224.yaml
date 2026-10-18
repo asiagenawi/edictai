@@ -1,0 +1,263 @@
+id: us-ok-2025-2026-sb-224
+jurisdiction: us-ok
+session: 2025-2026
+identifier: SB 224
+title: Student data; creating the Oklahoma Education and Workforce Statewide Longitudinal Data System.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - data-governance
+summary: Creates the Oklahoma Education and Workforce Efficiency Data System to de-identify, exchange,
+  and match early childhood, K-12, postsecondary, and workforce data among state agencies, requires the
+  system to support advanced analytics including artificial intelligence and machine learning while complying
+  with FERPA, and creates a governance council.
+sponsors:
+  - name: Ally Seifried
+    primary: true
+    party: R
+    chamber: upper
+  - name: Chad Caldwell
+    primary: true
+    party: R
+    chamber: lower
+  - name: John Waldron
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-03"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: Authored by Senator Seifried
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Second Reading referred to Economic Development, Workforce and Tourism Committee then
+      to Appropriations Committee
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-19"
+    description: Reported Do Pass Economic Development, Workforce and Tourism committee; CR filed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-19"
+    description: Referred to Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-24"
+    description: Coauthored by Representative Caldwell (Chad) (principal House author)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Reported Do Pass as amended Appropriations committee; CR filed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-05"
+    description: Title stricken
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-10"
+    description: Placed on General Order
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-25"
+    description: General Order, Amended by Floor Substitute
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-25"
+    description: 'Measure and Emergency passed: Ayes: 33 Nays: 13'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-03-25"
+    description: Referred for engrossment
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Engrossed to House
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-03-26"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-04-01"
+    description: Second Reading referred to Appropriations and Budget
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-04-02"
+    description: Referred to Appropriations and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-08"
+    description: Recommendation to the full committee; Do Pass Appropriations and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-17"
+    description: CR; Do Pass, as amended, Appropriations and Budget Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-17"
+    description: Enacting clause stricken
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-17"
+    description: Coauthored by Representative(s) Waldron
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: General Order
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Title restored
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: Enacting clause restored
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-29"
+    description: 'Third Reading, Measure failed: Ayes: 35 Nays: 56'
+    actor: lower
+    classification:
+      - reading-3
+      - failure
+  - date: "2025-04-29"
+    description: Notice served to reconsider vote by Representative Caldwell (Chad)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-01"
+    description: 'Motion to reconsider adopted: Ayes: 51 Nays: 34'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-01"
+    description: 'Third Reading, Measure failed: Ayes: 46 Nays: 37'
+    actor: lower
+    classification:
+      - reading-3
+      - failure
+  - date: "2025-05-01"
+    description: Motion to Rescind vote on Third Reading Adopted
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-05-01"
+    description: 'Ayes: 51 Nays: 32'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-01"
+    description: 'Third Reading, Measure passed and Emergency failed: Ayes: 51 Nays: 36; Ayes: 51 Nays:
+      36'
+    actor: lower
+    classification:
+      - reading-3
+      - failure
+  - date: "2025-05-01"
+    description: Referred for engrossment
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-05"
+    description: Engrossed, signed, to Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-05"
+    description: HAs read
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: HAs adopted
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-05-21"
+    description: 'Measure failed: Ayes: 23 Nays: 21'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-21"
+    description: Notice served to reconsider vote on measure Seifried
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-29"
+    description: Motion expired
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-12-30"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/SB/SB224%20INT.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-03-06"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/SB224%20SFLR.PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-03-26"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/SB/SB224%20ENGR.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-04-21"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/HFLR/SB224%20HFLR.PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-05-05"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20AMENDMENTS/Amendment%20and%20Engr/SB224%20HASB%20AND%20ENGR.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2048221
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=sb224&Session=2600
+    title: SB 224 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20AMENDMENTS/Amendment%20and%20Engr/SB224%20HASB%20AND%20ENGR.PDF
+    title: SB 224 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

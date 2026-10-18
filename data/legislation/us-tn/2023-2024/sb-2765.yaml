@@ -1,0 +1,88 @@
+id: us-tn-2023-2024-sb-2765
+jurisdiction: us-tn
+session: 2023-2024
+identifier: SB 2765
+title: AN ACT to amend Tennessee Code Annotated, Title 12 and Title 49, relative to school safety.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+  - safety-wellbeing
+summary: Enacts the Protecting Tennessee Schools and Events Act, directing the Department of Education,
+  subject to appropriations, to contract for walk-through metal detectors for school districts. Contract
+  evaluation criteria favor systems able to integrate an artificial intelligence-powered camera array
+  for detecting exposed weapons.
+provisions:
+  - type: procurement-standards
+    description: The department must evaluate school metal detector proposals on their ability to integrate
+      AI-powered weapon detection cameras.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/113/Bill/SB2765.pdf
+      locator: Section 1, contract evaluation criteria (c)(2)(A)
+      quote: The system's ability to integrate an artificial intelligence (AI) powered camera array capable
+        of accurately detecting exposed weapons within its field of view in order to provide an additional
+        layer of security beyond metal detection,
+sponsors:
+  - name: Janince Bowling
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-01-31"
+    description: Filed for introduction
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-02-01"
+    description: Introduced, Passed on First Consideration
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-02-05"
+    description: Passed on Second Consideration, refer to Senate Education Committee
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-03-06"
+    description: Placed on Senate Education Committee calendar for 3/13/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-13"
+    description: Recommended for passage, refer to Senate Finance, Ways, and Means Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-11"
+    description: Placed on Senate Finance, Ways, and Means Committee calendar for 4/15/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-19"
+    description: Placed on Senate Finance, Ways, and Means Committee calendar for 4/23/2024
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Draft
+    date: "2024-01-31"
+    url: https://www.capitol.tn.gov/Bills/113/Bill/SB2765.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1834106
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/default.aspx?BillNumber=SB2765&ga=113
+    title: SB 2765 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.tn.gov/Bills/113/Bill/SB2765.pdf
+    title: SB 2765 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

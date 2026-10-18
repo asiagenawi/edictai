@@ -1,0 +1,89 @@
+id: us-118-hr-4498
+jurisdiction: us
+session: "118"
+identifier: H.R. 4498
+title: Jobs of the Future Act of 2023
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: Directs a federal report on artificial intelligence's effects on the workforce, including the
+  skills and education needed and the resources institutions of higher education need to deliver that
+  education, with recommendations.
+provisions:
+  - type: creates-task-force
+    description: The report must identify resources institutions of higher education, including two-year
+      and rural institutions, need to deliver AI-related skills and education.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr4498/BILLS-118hr4498ih.pdf
+      locator: Sec. 3(b)(8)
+      quote: Identification of the resources and opportu- nities required for institutions of higher education,
+        including two year institutions, minority-serving in- stitutions, and institutions of higher education
+        serv- ing rural areas to deliver skills, expertise, and edu- cation identified in paragraph (5).
+sponsors:
+  - name: Darren Soto
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lori Chavez-DeRemer
+    primary: false
+    party: R
+    chamber: lower
+  - name: Lisa Rochester
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andrew Garbarino
+    primary: false
+    party: R
+    chamber: lower
+  - name: Marcus Molinaro
+    primary: false
+    party: R
+    chamber: lower
+  - name: Brian Fitzpatrick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Zachary Nunn
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-07-06"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-07-06"
+    description: Referred to the Committee on Education and the Workforce, and in addition to the Committee
+      on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in
+      each case for consideration of such provisions as fall within the jurisdiction of the committee
+      concerned.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-08-04"
+    url: https://www.congress.gov/118/bills/hr4498/BILLS-118hr4498ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1773844
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/4498/all-info
+    title: H.R. 4498 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr4498/BILLS-118hr4498ih.pdf
+    title: H.R. 4498 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,150 @@
+id: us-119-hr-6591
+jurisdiction: us
+session: "119"
+identifier: H.R. 6591
+title: Computer Science for All Act of 2025
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - curriculum-standards
+summary: Authorizes the Secretary of Education to make grants to states, local educational agencies, and
+  Tribal schools to expand prekindergarten through grade 12 computer science education, which the bill
+  defines to include artificial intelligence, and asks applicants to describe preparing students to apply
+  computer science to technologies such as AI.
+provisions:
+  - type: appropriates-funding
+    description: Grant applications must describe preparing students to apply computer science knowledge
+      to rapidly evolving technologies such as AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr6591/BILLS-119hr6591ih.pdf
+      locator: Sec. 4(b)(6)
+      quote: Preparing the students for application of computer science knowledge in rapidly evolving
+        tech- nologies, such as artificial intelligence.
+sponsors:
+  - name: Luz Rivas
+    primary: true
+    party: D
+    chamber: lower
+  - name: Gabe Amo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joyce Beatty
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikki Budzinski
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andre Carson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Suzan DelBene
+    primary: false
+    party: D
+    chamber: lower
+  - name: Daniel Goldman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eleanor Norton
+    primary: false
+    party: D
+    chamber: lower
+  - name: Glenn Ivey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robin Kelly
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ted Lieu
+    primary: false
+    party: D
+    chamber: lower
+  - name: LaMonica McIver
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Quigley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dina Titus
+    primary: false
+    party: D
+    chamber: lower
+  - name: Zoe Lofgren
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frederica Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Emily Randall
+    primary: false
+    party: D
+    chamber: lower
+  - name: Deborah Ross
+    primary: false
+    party: D
+    chamber: lower
+  - name: Judy Chu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bill Foster
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nydia Velazquez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jared Huffman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Grace Meng
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-12-10"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-12-10"
+    description: Referred to the House Committee on Education and Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-12-11"
+    url: https://www.congress.gov/119/bills/hr6591/BILLS-119hr6591ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2058207
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/6591/all-info
+    title: H.R. 6591 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr6591/BILLS-119hr6591ih.pdf
+    title: H.R. 6591 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

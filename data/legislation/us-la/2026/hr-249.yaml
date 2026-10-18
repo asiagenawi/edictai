@@ -1,0 +1,97 @@
+id: us-la-2026-hr-249
+jurisdiction: us-la
+session: "2026"
+identifier: HR 249
+title: Requests the State Board of Elementary and Secondary Education to incorporate artificial intelligence
+  into content standards
+classification: resolution
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Urges and requests the State Board of Elementary and Secondary Education to incorporate artificial
+  intelligence into content standards.
+provisions:
+  - type: ai-in-standards
+    description: Requests the state board to add AI to K-12 content standards.
+    citation:
+      source_url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1477129
+      locator: Resolving clause
+      quote: does hereby urge and request the State Board of Elementary and Secondary Education to incorporate
+        artificial intelligence into content standards.
+sponsors:
+  - name: Adrian Fisher
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-05-06"
+    description: Read by title. Lies over under the rules.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-05-07"
+    description: Read by title, under the rules, referred to the Committee on Education.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-05-19"
+    description: Reported favorably (11-0).
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-05-20"
+    description: Read by title, ordered engrossed, passed to 3rd reading.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-25"
+    description: Scheduled for floor debate on 05/26/2026.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: Read by title, roll called, yeas 90, nays 0. The resolution was adopted.
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-27"
+    description: Enrolled and signed by the Speaker of the House.
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-05-28"
+    description: Taken by the Clerk of the House and presented to the Secretary of State in accordance
+      with the Rules of the House.
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1469365
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1474203
+    media_type: application/pdf
+  - note: Enrolled
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1477129
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2148374
+sources:
+  - url: https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=HR249&sbi=y
+    title: HR 249 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1477129
+    title: HR 249 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

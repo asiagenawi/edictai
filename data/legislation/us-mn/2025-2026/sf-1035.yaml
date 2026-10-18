@@ -1,0 +1,103 @@
+id: us-mn-2025-2026-sf-1035
+jurisdiction: us-mn
+session: 2025-2026
+identifier: SF 1035
+title: Provisions modification related to campus sexual misconduct
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Modifies Minnesota campus sexual misconduct law, including definitions and the sexual misconduct
+  grievance process postsecondary institutions must establish. The amended definition of sexual misconduct,
+  which institutions' policies and grievance processes must address, includes nonconsensual dissemination
+  of a deepfake depicting intimate parts or sexual acts.
+provisions:
+  - type: addresses-deepfakes
+    description: Includes deepfake dissemination in the sexual misconduct definition governing postsecondary
+      grievance processes.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/94/2025/0/SF/1035/versions/2/pdf/
+      locator: Sec. 1, 135A.15, subd. 1a(n)
+      quote: of sexual images, sexual extortion, nonconsensual dissemination of a deepfake depicting
+sponsors:
+  - name: Lindsey Port
+    primary: true
+    party: D
+    chamber: upper
+  - name: Clare Oumou Verbeten
+    primary: false
+    party: D
+    chamber: upper
+  - name: Zaynab Mohamed
+    primary: false
+    party: D
+    chamber: upper
+  - name: Erin Maye Quade
+    primary: false
+    party: D
+    chamber: upper
+  - name: Zach Duckworth
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-06"
+    description: Introduction and first reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-06"
+    description: Referred to Higher Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-06"
+    description: 'Comm report: To pass as amended and re-refer to Judiciary and Public Safety'
+    actor: upper
+    classification:
+      - passage
+      - referral-committee
+  - date: "2025-03-06"
+    description: Author added Duckworth
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: 'Comm report: To pass as amended and re-refer to Higher Education'
+    actor: upper
+    classification:
+      - passage
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-03"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/SF/1035/versions/0/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-03-06"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/SF/1035/versions/1/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-04-07"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/SF/1035/versions/2/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1957982
+sources:
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/SF/1035/
+    title: SF 1035 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/SF/1035/versions/2/pdf/
+    title: SF 1035 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

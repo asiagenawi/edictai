@@ -1,0 +1,530 @@
+id: us-ut-2026-hb-44
+jurisdiction: us-ut
+session: "2026"
+identifier: HB 44
+title: School Security Personnel Standards
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - local-policy-requirement
+summary: Revises school safety personnel standards and adds AI glasses to the devices students may not
+  use at school during classroom hours, with local education agency policies required to permit use for
+  emergencies, accommodations, and medical needs.
+provisions:
+  - type: limits-ai-instructional-use
+    description: Students may not use AI glasses at school during classroom hours except as LEA policy
+      allows.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0044.pdf
+      locator: Section 7, 53G-7-227(3)
+      quote: Except as provided in Subsection (2), a student may not use a cellphone, smart watch, AI
+        glasses, or emerging technology at a school during classroom hours.
+  - type: requires-local-ai-policy
+    description: Each LEA must adopt a policy permitting student use of AI glasses and other devices in
+      emergencies and for accommodations or medical necessity.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/enrolled/HB0044.pdf
+      locator: Section 7, 53G-7-227(2)(a)
+      quote: shall establish a policy that allows a student to use a cellphone, smart watch, AI
+sponsors:
+  - name: Ryan Wilcox
+    primary: true
+    party: R
+    chamber: lower
+  - name: Ann Millner
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-12-18"
+    description: Bill Numbered but not Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-12-18"
+    description: Numbered Bill Publicly Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-12-18"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0044 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-12-18"
+    description: LFA/ bill sent to agencies for fiscal input for HB0044 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-14"
+    description: House/ received bill from Legislative Research in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-18"
+    description: LFA/ fiscal note sent to sponsor for HB0044 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-20"
+    description: LFA/ fiscal note publicly available for HB0044 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-20"
+    description: House/ 1st reading (Introduced) in House Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-01-20"
+    description: House/ Rules to 3rd Reading Calendar in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-01-20"
+    description: House/ 2nd reading in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-2
+      - reading-3
+  - date: "2026-01-20"
+    description: House/ received fiscal note from Fiscal Analyst in House 3rd Reading Calendar for House
+      bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-01-21"
+    description: House/ 3rd reading in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-01-21"
+    description: House/ circled in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-01-23"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0044S01 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-23"
+    description: LFA/ bill sent to agencies for fiscal input for HB0044S01 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-28"
+    description: LFA/ fiscal note sent to sponsor for HB0044S01 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0044S02 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: LFA/ bill sent to agencies for fiscal input for HB0044S02 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-30"
+    description: LFA/ fiscal note sent to sponsor for HB0044S02 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-30"
+    description: LFA/ fiscal note publicly available for HB0044S01 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-30"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0044S03 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-30"
+    description: LFA/ bill sent to agencies for fiscal input for HB0044S03 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-30"
+    description: LFA/ fiscal note publicly available for HB0044S02 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: LFA/ fiscal note sent to sponsor for HB0044S03 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0044S04 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: LFA/ bill sent to agencies for fiscal input for HB0044S04 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: House/ lifted from calendar sent to standing comm in House Law Enforcement and Criminal
+      Justice Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: LFA/ fiscal note publicly available for HB0044S03 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-05"
+    description: LFA/ fiscal note sent to sponsor for HB0044S04 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-05"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0044S05 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-05"
+    description: LFA/ bill sent to agencies for fiscal input for HB0044S05 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-05"
+    description: House Comm - Substitute Recommendation in House Law Enforcement and Criminal Justice
+      Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-05"
+    description: House Comm - Favorable Recommendation in House Law Enforcement and Criminal Justice Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-06"
+    description: House/ 2nd reading in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-2
+      - reading-3
+  - date: "2026-02-09"
+    description: LFA/ fiscal note sent to sponsor for HB0044S05 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: LFA/ fiscal note publicly available for HB0044S04 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: LFA/ fiscal note publicly available for HB0044S05 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-17"
+    description: House/ circled in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-19"
+    description: LFA/ fiscal note publicly available for HB0044S05 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0044S06 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: LFA/ bill sent to agencies for fiscal input for HB0044S06 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: LFA/ fiscal note sent to sponsor for HB0044S06 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: LFA/ fiscal note publicly available for HB0044S06 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: House/ uncircled in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-26"
+    description: House/ substituted in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-26"
+    description: House/ floor amendment in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-26"
+    description: House/ passed 3rd reading in Senate Secretary
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-02-26"
+    description: House/ to Senate in Senate Secretary
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-27"
+    description: Senate/ received from House in Waiting for Introduction in the Senate
+    actor: upper
+    classification:
+      - introduction
+      - passage
+  - date: "2026-02-27"
+    description: Senate/ 1st reading (Introduced) in Senate Rules Committee
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-03-02"
+    description: Senate/ to standing committee in Senate Economic Development and Workforce Services Committee
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-03"
+    description: Senate Comm - Amendment Recommendation in Senate Economic Development and Workforce Services
+      Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Senate Comm - Amendment Recommendation in Senate Economic Development and Workforce Services
+      Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Senate Comm - Favorable Recommendation in Senate Economic Development and Workforce Services
+      Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-04"
+    description: Senate/ comm rpt/ amended in Senate Economic Development and Workforce Services Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-04"
+    description: Senate/ placed on 2nd Reading Calendar in Senate 2nd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-04"
+    description: Senate/ 2nd Reading Calendar to Rules in Senate Rules Committee
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-06"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0044S07 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: LFA/ bill sent to agencies for fiscal input for HB0044S07 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: LFA/ fiscal note sent to sponsor for HB0044S07 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: LFA/ fiscal note publicly available for HB0044S07 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Senate/ Rules to 2nd Reading Calendar in Senate 2nd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-06"
+    description: Senate/ 2nd & 3rd readings/ suspension in Senate 2nd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-06"
+    description: Senate/ substituted in Senate 2nd Reading Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-06"
+    description: Senate/ passed 2nd & 3rd readings/ suspension in Clerk of the House
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-06"
+    description: Senate/ to House with amendments in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House/ received from Senate in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House/ placed on Concurrence Calendar in House Concurrence Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House/ concurs with Senate amendment in Senate President
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House/ to Senate in Senate President
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-10"
+    description: Senate/ received from House in Senate President
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-10"
+    description: Senate/ signed by President/ returned to House in House Speaker
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-03-10"
+    description: Senate/ to House in House Speaker
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: House/ received from Senate in House Speaker
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: House/ signed by Speaker/ sent for enrolling in Legislative Research and General Counsel
+      / Enrolling
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2026-03-11"
+    description: Bill Received from House for Enrolling in Legislative Research and General Counsel /
+      Enrolling
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2026-03-11"
+    description: Draft of Enrolled Bill Prepared in Legislative Research and General Counsel / Enrolling
+    actor: legislature
+    classification:
+      - enrollment
+  - date: "2026-03-12"
+    description: Enrolled Bill Returned to House or Senate in Clerk of the House
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-03-12"
+    description: House/ enrolled bill to Printing in Clerk of the House
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-03-16"
+    description: House/ received enrolled bill from Printing in Clerk of the House
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-03-16"
+    description: House/ to Governor in Executive Branch - Governor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-03-19"
+    description: Governor Signed in Lieutenant Governor's office for filing
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2025-12-18"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0044.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-01-23"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0044S01.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-01-29"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0044S02.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-01-30"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0044S03.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-02-04"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0044S04.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-02-05"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0044S05.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-02-24"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0044S06.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-02-26"
+    url: https://le.utah.gov/Session/2026/bills/amended/AV_HB0044S06_2026-02-26_18-51-45.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-03-03"
+    url: https://le.utah.gov/Session/2026/bills/amended/AV_HB0044S06_2026-03-03_19-28-26.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-03-03"
+    url: https://le.utah.gov/Session/2026/bills/amended/AV_HB0044S06_2026-03-03_19-29-34.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-03-06"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0044S07.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-03-12"
+    url: https://le.utah.gov/Session/2026/bills/enrolled/HB0044.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2060251
+sources:
+  - url: https://le.utah.gov/~2026/bills/static/HB0044.html
+    title: HB 44 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://le.utah.gov/Session/2026/bills/enrolled/HB0044.pdf
+    title: HB 44 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

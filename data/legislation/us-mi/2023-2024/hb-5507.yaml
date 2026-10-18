@@ -1,0 +1,276 @@
+id: us-mi-2023-2024-hb-5507
+jurisdiction: us-mi
+session: 2023-2024
+identifier: HB 5507
+title: 'Appropriations: school aid; fiscal year 2024-2025 omnibus appropriations for K-12 school aid,
+  higher education, and community colleges; provide for. Amends, adds & repeals (See bill).'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - funding
+  - instructional-use
+summary: Makes fiscal year 2024-2025 omnibus appropriations for Michigan K-12 school aid, higher education,
+  and community colleges. Directs Michigan Virtual University, from its section 98 school aid allocation,
+  to operate a statewide laboratory for research, best practices, policy formulation, and awareness about
+  responsible use of artificial intelligence in schools.
+provisions:
+  - type: appropriates-funding
+    description: Directs school aid funds allocated to Michigan Virtual University to operate a statewide
+      lab on responsible AI use in schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2023-2024/publicact/htm/2024-PA-0120.htm
+      locator: Sec. 98(5)
+      quote: proactive efforts to enhance awareness about the responsible utilization of artificial intelligence
+        in schools.
+sponsors:
+  - name: Regina Weiss
+    primary: true
+    party: D
+    chamber: lower
+  - name: Angela Witwer
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-22"
+    description: Introduced By Representative Regina Weiss
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-22"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-22"
+    description: Bill Electronically Reproduced 02/22/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-02"
+    description: Reported With Recommendation Without Amendment
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-05-02"
+    description: Referred To Second Reading
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2024-05-08"
+    description: Read A Second Time
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-08"
+    description: Placed On Third Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-08"
+    description: Placed On Immediate Passage
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-08"
+    description: Read A Third Time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-05-08"
+    description: 'Passed; Given Immediate Effect Roll Call # 57 Yeas 56 Nays 50 Excused 0 Not Voting 4'
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-05-08"
+    description: Transmitted
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-14"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-14"
+    description: Referred To Committee Of The Whole
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-05-14"
+    description: Reported By Committee Of The Whole Favorably With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-14"
+    description: Substitute (s-1) Concurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-14"
+    description: Placed On Order Of Third Reading With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: 'Passed Roll Call # 181 Yeas 20 Nays 16 Excused 2 Not Voting 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-05-15"
+    description: Inserted Full Title
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Returned From Senate With Substitute (s-1) With Full Title
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Laid Over One Day Under The Rules
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-05-22"
+    description: Senate Substitute (s-1) Nonconcurred In
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: 'Roll Call Roll Call # 137 Yeas 47 Nays 56 Excused 0 Not Voting 7'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-04"
+    description: 'House Conferees Named 06/04/2024: Reps. Regina Weiss Jason Morgan Nancy Deboer'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-06-05"
+    description: 'Senate Named Conferees 06/05/2024: Sens. Darrin Camilleri, Sarah Anthony, Jon C. Bumstead'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-06-05"
+    description: 'Senate Conferees Named 06/05/2024: Sens. Darrin Camilleri Sarah Anthony Jon Bumstead'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-06-05"
+    description: Referred To Conference Committee 06/05/2024
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-06-27"
+    description: Conference Report Received
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-06-27"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-27"
+    description: 'Conference Report Adopted Roll Call # 269 Yeas 56 Nays 54 Excused 0 Not Voting 0'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-06-27"
+    description: Given Immediate Effect
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-27"
+    description: Retransmitted
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-27"
+    description: Conference Report Received In Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-06-27"
+    description: 'Senate Adopted Conference Report With Immediate Effect Roll Call # 331 Yeas 20 Nays
+      18 Excused 0 Not Voting 0'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-06-27"
+    description: Conference Report Adopted By Senate With Immediate Effect
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-06-27"
+    description: Bill Ordered Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-07-30"
+    description: Presented To The Governor 07/11/2024 01:38 Pm
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-07-30"
+    description: Approved By The Governor 07/23/2024 02:45 Pm
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-07-30"
+    description: Filed With Secretary Of State 07/23/2024 04:30 Pm
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-07-30"
+    description: Assigned Pa 120'24 With Immediate Effect
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-22"
+    url: https://legislature.mi.gov/documents/2023-2024/billintroduced/House/htm/2024-HIB-5507.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2024-05-08"
+    url: https://legislature.mi.gov/documents/2023-2024/billengrossed/House/htm/2024-HEBH-5507.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2024-05-15"
+    url: https://legislature.mi.gov/documents/2023-2024/billengrossed/House/htm/2024-HEBS-5507.htm
+    media_type: text/html
+  - note: Enrolled
+    date: "2024-07-08"
+    url: https://legislature.mi.gov/documents/2023-2024/billenrolled/House/htm/2024-HNB-5507.htm
+    media_type: text/html
+  - note: Chaptered
+    date: "2024-07-25"
+    url: https://legislature.mi.gov/documents/2023-2024/publicact/htm/2024-PA-0120.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1852813
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2024-HB-5507
+    title: HB 5507 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2023-2024/publicact/htm/2024-PA-0120.htm
+    title: HB 5507 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

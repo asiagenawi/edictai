@@ -1,0 +1,68 @@
+id: us-co-2025-s1-hb-1009
+jurisdiction: us-co
+session: 2025-s1
+identifier: HB 1009
+title: Artificial Intelligence Systems
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Revises Colorado's high-risk artificial intelligence law, keeping consequential decisions that
+  include education enrollment or an education opportunity, and delaying developer and deployer duties
+  to avoid algorithmic discrimination to August 1, 2027.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Consequential decisions covered by the AI law include education enrollment or an education
+      opportunity.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1009_01.pdf
+      locator: Sec. 1, 6-1-1701 (consequential decision)
+      quote: (a) Education enrollment or an education opportunity; (b) Employment or an employment opportunity;
+  - type: bias-or-equity-requirement
+    description: Deployers of high-risk AI systems must use reasonable care to protect consumers from
+      algorithmic discrimination.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1009_01.pdf
+      locator: Sec. 3, 6-1-1703(1)
+      quote: a deployer of a high-risk artificial intelligence system shall use reasonable care to protect
+        consumers from any known or reasonably foreseeable risks of algorithmic discrimination
+sponsors:
+  - name: Ron Weinberg
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-08-21"
+    description: Introduced In House - Assigned to Business Affairs & Labor
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-08-21"
+    description: House Committee on Business Affairs & Labor Postpone Indefinitely
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-08-21"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1009_01.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2042540
+sources:
+  - url: https://leg.colorado.gov/bills/hb25b-1009
+    title: HB 1009 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leg.colorado.gov/sites/default/files/documents/2025B/bills/2025b_1009_01.pdf
+    title: HB 1009 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

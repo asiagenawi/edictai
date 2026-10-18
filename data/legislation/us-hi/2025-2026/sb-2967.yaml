@@ -1,0 +1,101 @@
+id: us-hi-2025-2026-sb-2967
+jurisdiction: us-hi
+session: 2025-2026
+identifier: SB 2967
+title: Relating To Artificial Intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - admissions
+  - equity-access
+  - institutional-operations
+summary: Establishes consumer protection requirements for AI systems used in consumer interactions and
+  consequential decisions, which include education admissions and educational opportunities. Requires
+  disclosures, a duty of reasonable care against algorithmic discrimination, risk management programs
+  and impact assessments for high-risk AI systems, and rights to correction, appeal, and human review.
+provisions:
+  - type: ai-in-admissions
+    description: Defines consequential decisions covered by the law to include education admissions and
+      educational opportunities.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB2967_.HTM
+      locator: §480-A, definition of "consequential decision"
+      quote: (5) Education admissions or educational opportunities;
+  - type: bias-or-equity-requirement
+    description: Deployers and vendors must use reasonable care to protect consumers from algorithmic
+      discrimination.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB2967_.HTM
+      locator: §480-F(a)
+      quote: 'A deployer and vendor shall use reasonable care to protect consumers from any known or reasonably
+        foreseeable material risks of: (1) Algorithmic discrimination;'
+sponsors:
+  - name: Angus McKelvey
+    primary: true
+    party: D
+    chamber: upper
+  - name: Stanley Chang
+    primary: true
+    party: D
+    chamber: upper
+  - name: Troy Hashimoto
+    primary: true
+    party: D
+    chamber: upper
+  - name: Tim Richards
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-23"
+    description: Introduced.
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-26"
+    description: Passed First Reading.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-01-30"
+    description: Referred to LBT, CPN.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-06"
+    description: The committee(s) on LBT has scheduled a public hearing on 02-11-26 3:00PM; Conference
+      Room 225 &amp; Videoconference.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: The committee on LBT deferred the measure.
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-01-24"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB2967_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2093027
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2967&year=2026
+    title: SB 2967 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/SB2967_.HTM
+    title: SB 2967 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

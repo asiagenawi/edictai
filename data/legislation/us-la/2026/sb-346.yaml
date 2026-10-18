@@ -1,0 +1,184 @@
+id: us-la-2026-sb-346
+jurisdiction: us-la
+session: "2026"
+identifier: SB 346
+title: Prohibits the use of deepfake material against students enrolled in K-12. (8/1/26)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+summary: Prohibits students, faculty, administrative staff, and other employees at elementary and secondary
+  schools from using deepfake material against K-12 students to coerce, harass, intimidate, or maliciously
+  disseminate or sell it. Directs the State Board of Elementary and Secondary Education and the Department
+  of Education to adopt implementing rules.
+provisions:
+  - type: addresses-deepfakes
+    description: Bars school students and staff from using deepfakes against K-12 students with intent
+      to coerce, harass, intimidate, or maliciously disseminate or sell.
+    citation:
+      source_url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480196
+      locator: Sec. 1, new R.S. 17:416.14.1(A)
+      quote: No student, faculty member, member of the administrative staff, or other employee at an elementary
+        or secondary school shall use material considered to be a deepfake against a student enrolled
+        in kindergarten through grade twelve
+sponsors:
+  - name: Regina Barrow
+    primary: true
+    party: D
+    chamber: upper
+  - name: Tehmi Chassion
+    primary: false
+    party: D
+    chamber: lower
+  - name: Barbara Freiberg
+    primary: false
+    party: R
+    chamber: lower
+  - name: Terry Landry Jr.
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chasity Martinez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laurie Schlegel
+    primary: false
+    party: R
+    chamber: lower
+  - name: Sylvia Taylor
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-27"
+    description: Prefiled and under the rules provisionally referred to the Committee on Education.
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-03-09"
+    description: Introduced in the Senate; read by title. Rules suspended. Read second time and referred
+      to the Committee on Education.
+    actor: upper
+    classification:
+      - reading-2
+      - introduction
+      - referral-committee
+  - date: "2026-04-22"
+    description: Rules suspended. Reported with amendments.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-27"
+    description: Read by title. Committee amendments read and adopted. Ordered engrossed and passed to
+      third reading and final passage.
+    actor: upper
+    classification:
+      - reading-3
+      - amendment-passage
+  - date: "2026-05-05"
+    description: Read by title, passed by a vote of 35 yeas and 0 nays, and sent to the House. Motion
+      to reconsider tabled.
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-05-06"
+    description: Received in the House from the Senate, read by title, lies over under the rules.
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-07"
+    description: Read by title, under the rules, referred to the Committee on Education.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-05-12"
+    description: Reported favorably (10-0). Referred to the Legislative Bureau.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-05-13"
+    description: Reported without Legislative Bureau amendments.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-05-18"
+    description: Read by title, passed to 3rd reading.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-18"
+    description: Scheduled for floor debate on 05/19/2026.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-19"
+    description: Read third time by title, roll called on final passage, yeas 96, nays 0. Finally passed,
+      ordered to the Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-19"
+    description: Received from the House without amendments.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-20"
+    description: Enrolled. Signed by the President of the Senate.
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-05-21"
+    description: Sent to the Governor by the Secretary of the Senate.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-05-25"
+    description: Signed by the Speaker of the House.
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-05-29"
+    description: Signed by the Governor. Becomes Act No. 496.
+    actor: executive
+    classification:
+      - became-law
+  - date: "2026-05-29"
+    description: Effective date 8/1/2026.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1447658
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1465174
+    media_type: application/pdf
+  - note: Enrolled
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1474557
+    media_type: application/pdf
+  - note: Chaptered
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480196
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2127071
+sources:
+  - url: https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=SB346&sbi=y
+    title: SB 346 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480196
+    title: SB 346 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

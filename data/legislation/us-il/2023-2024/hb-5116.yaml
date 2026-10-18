@@ -1,0 +1,85 @@
+id: us-il-2023-2024-hb-5116
+jurisdiction: us-il
+session: 2023-2024
+identifier: HB 5116
+title: AUTOMATED DECISION TOOLS
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+summary: Creates the Automated Decision Tools Act, requiring deployers of AI-based automated decision
+  tools used for consequential decisions, including education decisions such as assessment, cheating detection,
+  admissions, and financial aid, to perform annual impact assessments, notify affected persons, and maintain
+  governance programs. Bars deployers from using tools that result in algorithmic discrimination.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Covers education and vocational training decisions, including assessment, cheating detection,
+      admissions, and financial aid, as consequential decisions.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5116.htm
+      locator: Sec. 5, definition of "Consequential decision"
+      quote: '(2) education and vocational training, including, but not limited to, all of the following:
+        (A) assessment, including, but not limited to, detecting student cheating or plagiarism; (B) accreditation;
+        (C) certification; (D) admissions; and (E) financial aid or scholarships;'
+  - type: bias-or-equity-requirement
+    description: Bars deployers from using an automated decision tool that results in algorithmic discrimination.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5116.htm
+      locator: Sec. 30(a)
+      quote: A deployer shall not use an automated decision tool that results in algorithmic discrimination.
+  - type: requires-disclosure
+    description: Requires deployers to notify the person who is the subject of a consequential decision
+      that an automated decision tool is being used.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5116.htm
+      locator: Sec. 15(a)
+      quote: A deployer shall, at or before the time an automated decision tool is used to make a consequential
+        decision, notify any natural person who is the subject of the consequential decision that an automated
+        decision tool is being used
+sponsors:
+  - name: Daniel Didech
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-08"
+    description: Filed with the Clerk by Rep. Daniel Didech
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-08"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-02-08"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-02-08"
+    url: https://www.ilga.gov/legislation/103/HB/10300HB5116.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1840824
+sources:
+  - url: https://www.ilga.gov/legislation/BillStatus.asp?DocNum=5116&GAID=17&DocTypeID=HB&SessionID=112&GA=103
+    title: HB 5116 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/legislation/103/HB/10300HB5116.htm
+    title: HB 5116 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

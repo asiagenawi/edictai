@@ -1,0 +1,152 @@
+id: us-pa-2023-2024-sb-913
+jurisdiction: us-pa
+session: 2023-2024
+identifier: SB 913
+title: Providing for parental consent for virtual mental health services provided by a school entity.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - instructional-use
+summary: Requires school entities to obtain annual parental consent before providing or coordinating virtual
+  mental health services for students under 18. Defines virtual mental health services to include behavioral
+  health support provided by artificial intelligence.
+provisions:
+  - type: requires-disclosure
+    description: School entities must obtain annual parental consent before providing virtual mental health
+      services, which include AI-provided behavioral health support.
+    citation:
+      source_url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=S&billTyp=B&billNbr=0913&pn=1788
+      locator: Section 3(c)
+      quote: a school entity providing or coordinating virtual mental health services shall annually obtain
+        a completed form with the consent of the parent or guardian of a student who is under 18 years
+        of age prior to providing or coordinating virtual mental health services to the student.
+sponsors:
+  - name: Wayne Langerholc
+    primary: true
+    party: R
+    chamber: upper
+  - name: Lisa Baker
+    primary: false
+    party: R
+    chamber: upper
+  - name: David Argall
+    primary: false
+    party: R
+    chamber: upper
+  - name: Scott Martin
+    primary: false
+    party: R
+    chamber: upper
+  - name: Cris Dush
+    primary: false
+    party: R
+    chamber: upper
+  - name: Kristin Phillips-Hill
+    primary: false
+    party: R
+    chamber: upper
+  - name: Doug Mastriano
+    primary: false
+    party: R
+    chamber: upper
+  - name: Greg Rothman
+    primary: false
+    party: R
+    chamber: upper
+  - name: Judith Ward
+    primary: false
+    party: R
+    chamber: upper
+  - name: Scott Hutchinson
+    primary: false
+    party: R
+    chamber: upper
+  - name: Chris Gebhard
+    primary: false
+    party: R
+    chamber: upper
+  - name: Ryan Aument
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-04-22"
+    description: Referred to EDUCATION
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2024-06-12"
+    description: Reported as amended
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-06-12"
+    description: First consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-24"
+    description: Second consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-24"
+    description: Re-referred to APPROPRIATIONS
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-06-26"
+    description: Re-reported as committed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-06-26"
+    description: Amended on third consideration (28-22)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-27"
+    description: Third consideration and final passage (28-21)
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-06-27"
+    description: In the House
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-27"
+    description: Referred to EDUCATION
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=S&billTyp=B&billNbr=0913&pn=1541
+    media_type: application/pdf
+  - note: Amended
+    url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=S&billTyp=B&billNbr=0913&pn=1727
+    media_type: application/pdf
+  - note: Amended
+    url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=S&billTyp=B&billNbr=0913&pn=1788
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1873862
+sources:
+  - url: https://www.legis.state.pa.us/cfdocs/billinfo/bill_history.cfm?syear=2023&sind=0&body=S&type=B&bn=913
+    title: SB 913 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=S&billTyp=B&billNbr=0913&pn=1788
+    title: SB 913 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

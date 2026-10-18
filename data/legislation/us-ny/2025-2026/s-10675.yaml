@@ -1,0 +1,59 @@
+id: us-ny-2025-2026-s-10675
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 10675
+title: Imposes liability for damages caused by a chatbot impersonating certain licensed professionals.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+summary: Bars chatbot operators from knowingly letting a chatbot impersonate a practitioner of a covered
+  profession, including professions certified under article 61 of the education law, in a way that would
+  be unlawful if done by a person, including a violation of the education law bar on paying an unqualified
+  teacher from school moneys. Requires operators to give notice that users are interacting with an artificial
+  intelligence chatbot.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Bars operators from letting a chatbot impersonate a teacher in a way that would violate
+      education law limits on paying unqualified teachers from school moneys.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10675&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10675
+      locator: Sec. 1, new § 390-f(2)(a)(ii)
+      quote: would constitute (A) a violation of subdivision one of section three thousand nine of the
+        education law prohibiting the application of school moneys to pay the salary of an unqualified
+        teacher
+sponsors:
+  - name: Kristen Gonzalez
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-08-05"
+    description: REFERRED TO RULES
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-08-05"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10675&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10675
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2157228
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S10675
+    title: S 10675 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S10675&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S10675
+    title: S 10675 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

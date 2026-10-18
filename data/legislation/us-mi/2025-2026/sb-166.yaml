@@ -1,0 +1,317 @@
+id: us-mi-2025-2026-sb-166
+jurisdiction: us-mi
+session: 2025-2026
+identifier: SB 166
+title: 'Appropriations: school aid; fiscal year 2025-2026 appropriations for K-12 school aid; provide
+  for. Amends, adds & repeals (See bill).'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - funding
+  - instructional-use
+summary: Makes fiscal year 2025-2026 appropriations for Michigan K-12 school aid. Directs Michigan Virtual
+  University, from its section 98 school aid allocation, to operate a statewide laboratory for research,
+  best practices, policy formulation, and awareness about responsible use of artificial intelligence in
+  schools.
+provisions:
+  - type: appropriates-funding
+    description: Directs school aid funds allocated to Michigan Virtual University to operate a statewide
+      lab on responsible AI use in schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0015.htm
+      locator: Sec. 98(5)
+      quote: the identification and dissemination of best practices, rigorous experimentation, policy
+        formulation, and proactive efforts to enhance awareness about the responsible utilization of artificial
+        intelligence in schools.
+sponsors:
+  - name: Darrin Camilleri
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-03-18"
+    description: Introduced By Senator Darrin Camilleri
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-18"
+    description: Referred To Committee On Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-05-08"
+    description: Reported Favorably With Substitute (s-3) 5/6/2025
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-05-08"
+    description: Committee Recommended Immediate Effect
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Referred To Committee Of The Whole With Substitute (s-3)
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-05-13"
+    description: Reported By Committee Of The Whole Favorably With Substitute (s-3) And Amendment(s)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-05-13"
+    description: Substitute (s-3) As Amended Concurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Placed On Order Of Third Reading With Substitute (s-3) As Amended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-14"
+    description: Amendment(s) Defeated
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-14"
+    description: Amendment(s) Withdrawn
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-14"
+    description: 'Passed Roll Call # 127 Yeas 19 Nays 17 Excused 1 Not Voting 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-05-14"
+    description: Received On 05/14/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-14"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-14"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-06-26"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-26"
+    description: Motion To Discharge Committee Approved
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-26"
+    description: Placed On Second Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Read A Second Time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Substitute (h-5) Adopted
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-10-01"
+    description: Placed On Third Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Placed On Immediate Passage
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Read A Third Time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-10-01"
+    description: 'Passed; Given Immediate Effect Roll Call #236 Yeas 108 Nays 1 Excused 0 Not Voting 1'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-10-01"
+    description: Title Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Returned To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Passed By House With Substitute (h-5)
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: House Amended Title
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: Rules Suspended For Immediate Consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: House Substitute (h-5) Nonconcurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-01"
+    description: 'Senate Named Conferees 10/1/2025: Sens. Darrin Camilleri, Sarah Anthony, Jon Bumstead'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: Re-received From Senate With Notice Of Nonconcurrence In House Substitute (h-5)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-02"
+    description: 'Senate Conferees Named 10/01/2025: Sens. Darrin Camilleri Sarah Anthony Jon Bumstead'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: 'House Conferees Named 10/01/2025: Reps. Ann Bollin Tim Kelly Carol Glanville'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: 'House Named Conferees 10/1/2025: Reps. Ann Bollin, Tim Kelly, Carol Glanville'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-02"
+    description: Referred To Conference Committee
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: Conference Report Received In Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: 'Senate Adopted Conference Report With Immediate Effect Roll Call # 257 Yeas 31 Nays
+      5 Excused 1 Not Voting 0'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: Conference Report Received
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: Conference Report Adopted By Senate With Immediate Effect
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-03"
+    description: 'Conference Report Adopted Roll Call #247 Yeas 104 Nays 5 Excused 0 Not Voting 1'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: Re-returned To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-03"
+    description: House Adopted Conference Report With Immediate Effect
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-10-03"
+    description: Ordered Enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2025-10-03"
+    description: For Final Disposition Of Budget, See Hb 4706
+    actor: upper
+    classification:
+      - other
+  - date: "2025-10-07"
+    description: Presented To Governor 10/4/2025 8:50 Am
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-10-08"
+    description: Approved By Governor 10/7/2025 12:00 Pm
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-10-08"
+    description: Filed With Secretary Of State 10/7/2025 1:16 Pm
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-10-08"
+    description: Assigned Pa 0015'25 With Immediate Effect
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-03-18"
+    url: https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0166.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-05-14"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2025-SEBS-0166.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-10-01"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2025-SEBH-0166.htm
+    media_type: text/html
+  - note: Enrolled
+    date: "2025-10-03"
+    url: https://legislature.mi.gov/documents/2025-2026/billenrolled/Senate/htm/2025-SNB-0166.htm
+    media_type: text/html
+  - note: Chaptered
+    date: "2025-10-07"
+    url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0015.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2009892
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0166
+    title: SB 166 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0015.htm
+    title: SB 166 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

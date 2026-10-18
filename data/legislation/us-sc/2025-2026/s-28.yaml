@@ -1,0 +1,392 @@
+id: us-sc-2025-2026-s-28
+jurisdiction: us-sc
+session: 2025-2026
+identifier: S 28
+title: AI Child Abuse
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+summary: Creates the offense of producing, distributing, soliciting, or possessing obscene visual depictions
+  of minors, including computer-generated images, without requiring that the minor depicted actually exists,
+  and adds it to the sex offender registry. Directs the State Department of Education, with state law
+  enforcement and the Attorney General, to develop and implement a policy to educate and notify students
+  of the act, and to report on it by July 1, 2026.
+provisions:
+  - type: addresses-deepfakes
+    description: Directs the State Department of Education, with law enforcement and the Attorney General,
+      to adopt a policy to educate and notify students about the new offense.
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250508.htm
+      locator: SECTION 4
+      quote: The State Department of Education, the South Carolina Law Enforcement Division, and the Attorney
+        General's Office, as appropriate, shall develop and implement a policy to educate and notify students
+        of the provision of this act.
+sponsors:
+  - name: Bradley Hutto
+    primary: true
+    party: D
+    chamber: upper
+  - name: Mike Reichenbach
+    primary: false
+    party: R
+    chamber: upper
+  - name: Stephen Goldfinch
+    primary: false
+    party: R
+    chamber: upper
+  - name: Matthew Leber
+    primary: false
+    party: R
+    chamber: upper
+  - name: Darrell Jackson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Thomas Alexander
+    primary: false
+    party: R
+    chamber: upper
+  - name: Rex Rice
+    primary: false
+    party: R
+    chamber: upper
+  - name: Tom Fernandez
+    primary: false
+    party: R
+    chamber: upper
+  - name: George Campsen
+    primary: false
+    party: R
+    chamber: upper
+  - name: JD Chaplin
+    primary: false
+    party: R
+    chamber: upper
+  - name: Tameika Devine
+    primary: false
+    party: D
+    chamber: upper
+  - name: Brian Adams
+    primary: false
+    party: R
+    chamber: upper
+  - name: Thomas Young
+    primary: false
+    party: R
+    chamber: upper
+  - name: Billy Garrett
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jason Elliott
+    primary: false
+    party: R
+    chamber: upper
+  - name: Ross Turner
+    primary: false
+    party: R
+    chamber: upper
+  - name: Russell Ott
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jeffrey Graham
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ed Sutton
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ronnie Cromer
+    primary: false
+    party: R
+    chamber: upper
+  - name: Danny Verdin
+    primary: false
+    party: R
+    chamber: upper
+  - name: Carlisle Kennedy
+    primary: false
+    party: R
+    chamber: upper
+  - name: Wes Climer
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jeff Zell
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-12-11"
+    description: Prefiled
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-12-11"
+    description: Referred to Committee on Judiciary
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-01-14"
+    description: Introduced and read first time
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-01-14"
+    description: Referred to Committee on Judiciary
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-01-17"
+    description: 'Referred to Subcommittee: Adams (ch), Reichenbach, Devine, Kennedy, Stubbs'
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-05"
+    description: 'Committee report: Favorable with amendment Judiciary'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-06"
+    description: Scrivener's error corrected
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-02-11"
+    description: Committee Amendment Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2025-02-11"
+    description: Amended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-12"
+    description: Amended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-13"
+    description: Amended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-13"
+    description: Read second time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-02-13"
+    description: Roll call Ayes-39 Nays-0
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-18"
+    description: Read third time and sent to House
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-02-18"
+    description: Roll call Ayes-40 Nays-0
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-19"
+    description: Introduced and read first time
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-19"
+    description: Referred to Committee on Judiciary
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-30"
+    description: 'Committee report: Favorable with amendment Judiciary'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-01"
+    description: Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-01"
+    description: Read second time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-05-01"
+    description: Roll call Yeas-106 Nays-0
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-01"
+    description: Unanimous consent for third reading on next legislative day
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-05-02"
+    description: Scrivener's error corrected
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-05-02"
+    description: Read third time and returned to Senate with amendments
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-05-06"
+    description: House amendment amended
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-06"
+    description: Returned to House with amendments
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-06"
+    description: Roll call Ayes-45 Nays-0
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Non-concurrence in Senate amendment
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Roll call Yeas-0 Nays-107
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Senate insists upon amendment and conference committee appointed Hutto, Kimbrell, Adams
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-08"
+    description: Conference committee appointed T Moore, Wetmore, McCabe
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-05-08"
+    description: Conference report adopted
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2025-05-08"
+    description: Roll call Yeas-105 Nays-1
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Conference report adopted
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2025-05-08"
+    description: Roll call Ayes-43 Nays-0
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Ordered enrolled for ratification
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-05-20"
+    description: Ratified R 82
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-05-22"
+    description: Signed By Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2025-05-27"
+    description: Effective date 05/22/25
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-05-27"
+    description: Act No. 57
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2024-12-11"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20241211.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-05"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250205.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-05"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250205A.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-06"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250206.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-02-11"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250211.htm
+    media_type: text/html
+  - note: Amended
+    date: "2025-02-12"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250212.htm
+    media_type: text/html
+  - note: Amended
+    date: "2025-02-13"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250213.htm
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-04-30"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250430.htm
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-01"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250501.htm
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-02"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250502.htm
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-06"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250506.htm
+    media_type: text/html
+  - note: Introduced
+    date: "2025-05-08"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250508.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1896119
+sources:
+  - url: https://www.scstatehouse.gov/billsearch.php?billnumbers=0028&session=126&summary=B
+    title: S 28 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.scstatehouse.gov/sess126_2025-2026/prever/28_20250508.htm
+    title: S 28 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

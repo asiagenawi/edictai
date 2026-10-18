@@ -11,3 +11,14 @@ sessions:
     classification: primary
     start_date: "2025-01-15"
     end_date: "2026-05-08"
+  - identifier: "2024"
+    name: 2024 Regular Session
+    classification: primary
+    start_date: "2024-01-17"
+    legiscan_session_id: 2118
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:hi/government?include=legislative_sessions"
+        title: Open States API, Hawaii legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

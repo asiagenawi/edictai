@@ -1,0 +1,382 @@
+id: us-md-2026-sb-282
+jurisdiction: us-md
+session: "2026"
+identifier: SB 282
+title: Budget Bill (Fiscal Year 2027)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - instructional-use
+summary: Enacts the Maryland fiscal year 2027 state budget. Adds $500,000 to the State Department of Education
+  for Artificial Intelligence Ready Schools Act initiatives, such as an AI Education Collaborative to
+  monitor and evaluate AI implementation in schools, contingent on enactment of SB 720 or HB 1057.
+provisions:
+  - type: appropriates-funding
+    description: Adds $500,000 to the State Department of Education for AI Ready Schools Act initiatives.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_4_sb0282e.pdf
+      locator: Section 39(41)
+      quote: $500,000 in general funds is added to the appropriation for program R00A01.01 Office of the
+        State Superintendent within Headquarters within the Maryland State Department of Education (MSDE)
+        for the purpose of supporting costs associated with Artificial Intelligence Ready Schools Act
+        initiatives
+actions:
+  - date: "2026-01-21"
+    description: First Reading Budget and Taxation
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2026-03-16"
+    description: Favorable with Amendments Report by Budget and Taxation
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-16"
+    description: Favorable with Amendments
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-16"
+    description: Motion Laid Over (Senator Guzzone) Adopted
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-03-17"
+    description: Favorable with Amendments
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#1-14) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#15-29) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#30-44) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#45-64) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#65-98) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#99-126) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#127-146) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#147-159) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#160-168) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Committee Amendment (#169-199) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-17"
+    description: Favorable with Amendments Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-17"
+    description: Floor Amendment {133129/1 (Senator Corderman) Rejected (13-31)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-17"
+    description: Floor Amendment {203228/1 (Senator Salling) Rejected
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-17"
+    description: Floor Amendment {593429/1 (Senator Mautz) Rejected
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-17"
+    description: Floor Amendment {453920/1 (Senator Jennings) Rejected
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-17"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-18"
+    description: Third Reading Passed (40-6)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-18"
+    description: Referred Appropriations
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-23"
+    description: Favorable with Amendments Report by Appropriations
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-23"
+    description: Favorable with Amendments
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-23"
+    description: Motion Special Order until 03/25 (Delegate Barnes) Adopted
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-25"
+    description: Favorable with Amendments
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-25"
+    description: Committee Amendment (#1-7)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-25"
+    description: Committee Amendment (#1-4) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Committee Amendment (#5) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Committee Amendment (#6-7) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Committee Amendment (#8-17) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Committee Amendment (#18-29) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Committee Amendment (#30-38) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Committee Amendment (#39-48) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Committee Amendment (#49-56) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Favorable with Amendments Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-25"
+    description: Floor Amendment {573227/1 (Delegate Buckel) Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-25"
+    description: Floor Amendment {853927/1 (Delegate Hartman) Rejected (32-97)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-25"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-26"
+    description: Floor Amendment {633124/1 (Delegate Arikan) Rejected (23-97)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-26"
+    description: Floor Amendment {843724/1 (Delegate Chisholm) Rejected (36-97)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-26"
+    description: Third Reading Passed (114-22)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-27"
+    description: Senate Refuses Concur House Amendments
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Senate Requests House Recede
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Senate Conference Committee Appointed (Senators Guzzone, McCray, King, Hettleman and
+      Corderman)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-03-27"
+    description: 'Senate advisors: (Senators Bailey, Zucker and Augustine)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Senate Refuses Concur House Amendments
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Senate Requests House Recede
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Senate Conference Committee Appointed (Senators Guzzone, McCray, King, Hettleman and
+      Corderman)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-03-27"
+    description: 'Senate advisors: (Senators Bailey, Zucker and Augustine)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: House Refuses Recede
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: House Conference Committee Appointed (Delegates Barnes, Kaiser, Smith, Watson and Shetty)
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-03-27"
+    description: 'House advisors: (Delegates Ghrist and Acevero)'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: House Refuses Recede
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: House Conference Committee Appointed (Delegates Barnes, Kaiser, Smith, Watson and Shetty)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-03-30"
+    description: 'House advisors: (Delegates Ghrist and Acevero)'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: Conference Committee Report Adopted (38-6)
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-03-30"
+    description: Third Reading Passed (38-6)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-30"
+    description: Conference Committee Report Adopted
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-03-30"
+    description: Third Reading Passed (102-13)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-30"
+    description: Passed Enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-04-08"
+    description: Approved by the Governor - Chapter 4
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2026-01-21"
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0282f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-03-17"
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0282t.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-04-02"
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0282e.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-04-15"
+    url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_4_sb0282e.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2087664
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0282?ys=2026RS
+    title: SB 282 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_4_sb0282e.pdf
+    title: SB 282 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

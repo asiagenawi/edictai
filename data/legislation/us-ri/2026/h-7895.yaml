@@ -1,0 +1,115 @@
+id: us-ri-2026-h-7895
+jurisdiction: us-ri
+session: "2026"
+identifier: H 7895
+title: Establishes the Safe School Technology Act of 2026.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - procurement
+  - safety-wellbeing
+summary: Establishes the Safe School Technology Act, setting rules for school-issued devices and instructional
+  technology. To be certified, an instructional technology tool must be designed for instruction, meet
+  curriculum standards, and exclude features such as generative or conversational artificial intelligence,
+  targeted advertising and addictive design.
+provisions:
+  - type: limits-ai-instructional-use
+    description: Certified instructional technology tools must not include generative or conversational
+      AI features.
+    citation:
+      source_url: https://webserver.rilegislature.gov/BillText26/HouseText26/H7895.pdf
+      locator: Section 4, certification of instructional technology tools, (b)(3)
+      quote: 'Prohibit the following design features: (i) Geolocation; (ii) Generative or conversational
+        artificial intelligence; (iii) Targeted advertisements;'
+sponsors:
+  - name: Justine Caldwell
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jason Knight
+    primary: false
+    party: D
+    chamber: lower
+  - name: Earl Read
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julie Casimiro
+    primary: false
+    party: D
+    chamber: lower
+  - name: Megan Cotter
+    primary: false
+    party: D
+    chamber: lower
+  - name: William O'Brien
+    primary: false
+    party: D
+    chamber: lower
+  - name: June Speakman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Susan Donovan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rebecca Kislak
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tina Spears
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-27"
+    description: Introduced, referred to House Education
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-03-13"
+    description: Scheduled for hearing and/or consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-16"
+    description: Committee postponed at request of sponsor (03/17/2026)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-03-27"
+    description: Scheduled for hearing and/or consideration (04/02/2026)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Committee recommended measure be held for further study
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-02-27"
+    url: https://webserver.rilegislature.gov/BillText26/HouseText26/H7895.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2126196
+sources:
+  - url: https://status.rilegislature.gov/
+    title: H 7895 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://webserver.rilegislature.gov/BillText26/HouseText26/H7895.pdf
+    title: H 7895 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

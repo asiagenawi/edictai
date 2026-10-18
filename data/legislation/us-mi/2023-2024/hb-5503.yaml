@@ -1,0 +1,316 @@
+id: us-mi-2023-2024-hb-5503
+jurisdiction: us-mi
+session: 2023-2024
+identifier: HB 5503
+title: 'Appropriations: school aid; fiscal year 2024-2025 appropriations for K-12 school aid; provide
+  for. Amends secs. 11 & 31aa of 1979 PA 94 (MCL 388.1611 & 388.1631aa).'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - research
+  - instructional-use
+summary: As engrossed in May 2024, would direct the Michigan Virtual University to allocate up to $500,000
+  of its Sec. 98 allocation to operate a statewide laboratory for research, best practices, policy formulation,
+  and awareness about the responsible use of artificial intelligence in schools. The AI provisions were
+  removed by amendment.
+provisions:
+  - type: appropriates-funding
+    description: Directs up to $500,000 for a statewide laboratory on research, best practices, and policy
+      on responsible AI use in schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2023-2024/billengrossed/House/htm/2024-HEBH-5503.htm
+      locator: Engrossed (May 8, 2024), Sec. 98(5)
+      quote: the Michigan Virtual University shall allocate up to $500,000.00 to operate a comprehensive
+        statewide laboratory designed to function as a hub for cutting-edge research, the identification
+        and dissemination of best practices, rigorous experimentation, policy formulation
+  - type: appropriates-funding
+    description: The laboratory's work includes efforts to raise awareness about responsible AI use in
+      schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2023-2024/billengrossed/House/htm/2024-HEBH-5503.htm
+      locator: Engrossed (May 8, 2024), Sec. 98(5)
+      quote: proactive efforts to enhance awareness about the responsible utilization of artificial intelligence
+        in schools
+sponsors:
+  - name: Regina Weiss
+    primary: true
+    party: D
+    chamber: lower
+  - name: Angela Witwer
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-22"
+    description: Introduced By Representative Regina Weiss
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-22"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-22"
+    description: Bill Electronically Reproduced 02/22/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-02"
+    description: Reported With Recommendation With Substitute (h-2)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-05-02"
+    description: Referred To Second Reading
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2024-05-08"
+    description: Read A Second Time
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-08"
+    description: Substitute (h-2) Adopted
+    actor: lower
+    classification:
+      - substitution
+  - date: "2024-05-08"
+    description: Placed On Third Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-08"
+    description: Placed On Immediate Passage
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-08"
+    description: Read A Third Time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-05-08"
+    description: 'Passed; Given Immediate Effect Roll Call # 60 Yeas 56 Nays 50 Excused 0 Not Voting 4'
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-05-08"
+    description: Title Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-08"
+    description: Transmitted
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-14"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-14"
+    description: Referred To Committee Of The Whole
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-05-14"
+    description: Reported By Committee Of The Whole Favorably With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-14"
+    description: Substitute (s-1) Concurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-14"
+    description: Placed On Order Of Third Reading With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: 'Passed Roll Call # 177 Yeas 20 Nays 16 Excused 2 Not Voting 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-05-15"
+    description: Inserted Full Title
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Returned From Senate With Substitute (s-1) With Title Amendment
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Laid Over One Day Under The Rules
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-05-22"
+    description: Senate Substitute (s-1) Nonconcurred In
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: 'Roll Call Roll Call # 121 Yeas 51 Nays 55 Excused 0 Not Voting 4'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-04"
+    description: 'House Conferees Named 06/04/2024: Reps. Regina Weiss Jason Morgan Nancy Deboer'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-06-05"
+    description: 'Senate Named Conferees 06/05/2024: Sens. Darrin Camilleri, Sarah Anthony, Jon C. Bumstead'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-06-05"
+    description: 'Senate Conferees Named 06/05/2024: Sens. Darrin Camilleri Sarah Anthony Jon Bumstead'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-06-05"
+    description: Referred To Conference Committee 06/05/2024
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-09-25"
+    description: Conference Report Received In Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-09-25"
+    description: Conference Report Received
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-09-25"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2024-09-25"
+    description: 'Conference Report Adopted Roll Call # 306 Yeas 98 Nays 11 Excused 0 Not Voting 1'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2024-09-25"
+    description: Retransmitted
+    actor: lower
+    classification:
+      - other
+  - date: "2024-09-25"
+    description: Conference Report Received In Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-09-25"
+    description: 'Senate Adopted Conference Report Roll Call # 353 Yeas 22 Nays 14 Excused 0 Not Voting
+      2'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-09-25"
+    description: Vote Reconsidered
+    actor: upper
+    classification:
+      - other
+  - date: "2024-09-25"
+    description: 'Senate Adopted Conference Report Roll Call # 354 Yeas 23 Nays 15 Excused 0 Not Voting
+      0'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2024-09-25"
+    description: Immediate Effect Defeated
+    actor: upper
+    classification:
+      - other
+  - date: "2024-09-25"
+    description: Adopted By Senate - Referred To The Clerk For Record
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-09-25"
+    description: Bill Ordered Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-10-15"
+    description: Presented To The Governor 10/02/2024 03:04 Pm
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-10-15"
+    description: Approved By The Governor 10/10/2024 11:58 Am
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-10-15"
+    description: Filed With Secretary Of State 10/10/2024 02:06 Pm
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-10-15"
+    description: Assigned Pa 148'24
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-22"
+    url: https://legislature.mi.gov/documents/2023-2024/billintroduced/House/htm/2024-HIB-5503.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2024-05-08"
+    url: https://legislature.mi.gov/documents/2023-2024/billengrossed/House/htm/2024-HEBH-5503.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2024-05-15"
+    url: https://legislature.mi.gov/documents/2023-2024/billengrossed/House/htm/2024-HEBS-5503.htm
+    media_type: text/html
+  - note: Enrolled
+    date: "2024-10-03"
+    url: https://legislature.mi.gov/documents/2023-2024/billenrolled/House/htm/2024-HNB-5503.htm
+    media_type: text/html
+  - note: Chaptered
+    date: "2024-10-10"
+    url: https://legislature.mi.gov/documents/2023-2024/publicact/htm/2024-PA-0148.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1852983
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2024-HB-5503
+    title: HB 5503 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2023-2024/publicact/htm/2024-PA-0148.htm
+    title: HB 5503 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2023-2024/billengrossed/House/htm/2024-HEBH-5503.htm
+    title: HB 5503 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Engrossed).

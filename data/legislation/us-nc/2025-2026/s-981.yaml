@@ -1,0 +1,113 @@
+id: us-nc-2025-2026-s-981
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 981
+title: AI in Ed Task Force and Standards
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - funding
+summary: Establishes an Artificial Intelligence in Education Task Force to review laws on AI in educational
+  contexts, recommend best practices for AI in schools and consider funding, reporting to the Joint Legislative
+  Education Oversight Committee by March 2028. Requires the State Board of Education to adopt K-12 AI
+  instruction standards and, to the extent funded, Department of Public Instruction professional development
+  on AI, with a $250,000 appropriation.
+provisions:
+  - type: creates-task-force
+    description: Establishes an AI in Education Task Force on the use and oversight of AI in educational
+      settings.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S981v1.pdf
+      locator: Sec. 1.(a)
+      quote: There is established the Artificial Intelligence in Education (AIE) Task Force to gather
+        information and decide the best means to utilize and oversee the use of artificial intelligence
+        (AI) tools and systems in educational settings.
+  - type: ai-in-standards
+    description: Requires the State Board to adopt K-12 AI instruction standards.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S981v1.pdf
+      locator: Sec. 2.(a), new G.S. 115C-81.66(a)
+      quote: The State Board of Education shall adopt standards for age-appropriate instruction on artificial
+        intelligence (AI) for kindergarten through grade 12.
+  - type: educator-pd-requirement
+    description: Directs DPI to provide AI professional development for teachers and administrators to
+      the extent funded.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S981v1.pdf
+      locator: Sec. 2.(a), new G.S. 115C-81.66(c)
+      quote: the Department of Public Instruction shall provide professional development for teachers
+        and administrators related to AI and its use in education.
+sponsors:
+  - name: Natalie Murdock
+    primary: true
+    party: D
+    chamber: upper
+  - name: DeAndrea Salvador
+    primary: true
+    party: D
+    chamber: upper
+  - name: Kandie Smith
+    primary: false
+    party: D
+    chamber: upper
+  - name: Joyce Waddell
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-04-30"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-05-04"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-05-04"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-05"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-05"
+    description: Re-ref Com On Appropriations/Base Budget
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-04-30"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S981v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-05-04"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S981v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2146834
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S981
+    title: S 981 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S981v1.pdf
+    title: S 981 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

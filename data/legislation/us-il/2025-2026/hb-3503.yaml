@@ -1,0 +1,190 @@
+id: us-il-2025-2026-hb-3503
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 3503
+title: CURRICULUM OVERVIEW&ALIGNMENT
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - task-force
+summary: Requires the State Board of Education to review all mandated units of study when new learning
+  standards are adopted or every 10 years, including an assessment of new areas such as digital citizenship
+  and artificial intelligence that may warrant inclusion. Requires a public report with recommendations
+  and follow-up action plans and educator professional development as needed.
+provisions:
+  - type: creates-task-force
+    description: The State Board's curriculum review must assess whether artificial intelligence warrants
+      inclusion in mandated units of study.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=201969&DocName=10400HB3503eng&DocNum=3503&DocTypeID=HB&LegID=162181&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Section 15(b)(4)
+      quote: (4) Assessment of new areas of societal or technological importance that may warrant inclusion,
+        such as digital citizenship, artificial intelligence, and emerging global issues.
+sponsors:
+  - name: Curtis Tarver
+    primary: true
+    party: D
+    chamber: lower
+  - name: Camille Lilly
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lakesia Collins
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-07"
+    description: Filed with the Clerk by Rep. Curtis J. Tarver, II
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-18"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-02-18"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-11"
+    description: Assigned to Education Policy Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-19"
+    description: Do Pass / Short Debate Education Policy Committee; 009-004-000
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-19"
+    description: Placed on Calendar 2nd Reading - Short Debate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Second Reading - Short Debate
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-26"
+    description: Held on Calendar Order of Second Reading - Short Debate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: House Floor Amendment No. 1 Filed with Clerk by Rep. Curtis J. Tarver, II
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: House Floor Amendment No. 1 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: House Floor Amendment No. 1 Rules Refers to Education Policy Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-09"
+    description: House Floor Amendment No. 1 Recommends Be Adopted Education Policy Committee; 013-000-000
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2025-04-09"
+    description: House Floor Amendment No. 1 Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2025-04-09"
+    description: Placed on Calendar Order of 3rd Reading - Short Debate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-09"
+    description: Third Reading - Short Debate - Passed 116-000-000
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-10"
+    description: Arrive in Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Placed on Calendar Order of First Reading
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Chief Senate Sponsor Sen. Lakesia Collins
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-04-10"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-10"
+    description: Added Co-Sponsor Rep. Camille Y. Lilly
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-23"
+    description: Assigned to Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-05-09"
+    description: Rule 2-10 Committee Deadline Established As May 23, 2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-23"
+    description: Rule 2-10 Committee Deadline Established As June 1, 2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-02"
+    description: Rule 3-9(a) / Re-referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-07"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=201969&DocName=10400HB3503&DocNum=3503&DocTypeID=HB&LegID=162181&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-04-09"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=201969&DocName=10400HB3503eng&DocNum=3503&DocTypeID=HB&LegID=162181&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1962675
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=3503&GAID=18&DocTypeID=HB&LegId=162181&SessionID=114
+    title: HB 3503 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=201969&DocName=10400HB3503eng&DocNum=3503&DocTypeID=HB&LegID=162181&GAID=18&SessionID=114&SpecSess=&Session=
+    title: HB 3503 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

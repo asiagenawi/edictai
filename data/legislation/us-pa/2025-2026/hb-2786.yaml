@@ -1,0 +1,145 @@
+id: us-pa-2025-2026-hb-2786
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 2786
+title: In student supports, providing for artificial intelligence policy.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - assessment
+  - employment-evaluation
+  - student-privacy
+  - educator-training
+summary: Requires each school entity and nonpublic school to adopt a policy on the use of artificial intelligence
+  by the 2027-2028 school year. The policy must bar generative AI from making final decisions on employment,
+  grading, discipline, placement and IEPs, and include vendor safeguards for student data. Directs the
+  Department of Education to develop implementation guidelines.
+provisions:
+  - type: requires-local-ai-policy
+    description: School entities and nonpublic schools must adopt an AI use policy.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2786/PN4006
+      locator: Section 1303.3-A(a)
+      quote: No later than the beginning of the 2027-2028 school year, the governing body of each school
+        entity and nonpublic school shall adopt a policy related to the use of artificial intelligence
+        technology, programs and platforms.
+  - type: regulates-ai-assessment
+    description: The policy must prohibit generative AI from making final determinations on grading, promotion
+      and related decisions.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2786/PN4006
+      locator: Section 1303.3-A(c)(3)
+      quote: A prohibition on the use of generative artificial intelligence to make final determinations
+        on graduation, promotion, grading, discipline, placement and retention.
+  - type: restricts-student-data-use
+    description: The policy must include enforceable vendor safeguards for student data privacy and deletion.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2786/PN4006
+      locator: Section 1303.3-A(c)(5)
+      quote: The inclusion of enforceable vendor contractual safeguards protecting student data privacy
+        and security, breach notification requirements, data deletion upon contract termination and vendor
+        accountability for unauthorized use of student data.
+  - type: issues-model-policy
+    description: The Department of Education must develop guidelines to help schools implement the policy
+      requirements.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2786/PN4006
+      locator: Section 1303.3-A(f)
+      quote: Within ninety (90) days of the effective date of this subsection, the Department of Education
+        shall develop guidelines to assist school entities and nonpublic schools in implementing the requirements
+        in this section.
+sponsors:
+  - name: Brandon Dukes
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jose Giral
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ed Neilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Peter Schweyer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikki Rivera
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Haddock
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Williams
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Inglis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Johanny Cepeda-Freytiz
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-09-25"
+    description: Referred to Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-10-06"
+    description: Reported as amended
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-10-06"
+    description: First consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2026-10-06"
+    description: Laid on the table
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-09-25"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2786/PN3929
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-10-06"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2786/PN4006
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2159259
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb2786
+    title: HB 2786 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2786/PN4006
+    title: HB 2786 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

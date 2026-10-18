@@ -1,0 +1,100 @@
+id: us-ca-2025-2026-ab-2487
+jurisdiction: us-ca
+session: 2025-2026
+identifier: AB 2487
+title: 'Artificial intelligence: education and workforce development.'
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - ai-literacy
+  - educator-training
+  - curriculum-standards
+  - workforce
+summary: Enacts the Artificial Intelligence Education and Workforce Development Act, requiring the California
+  Community Colleges, upon appropriation, to develop statewide guidance on AI use in community colleges,
+  fund model AI curriculum and educational resources, and support AI literacy in instructor preparation
+  and professional development.
+provisions:
+  - type: issues-model-policy
+    description: The California Community Colleges must develop and disseminate statewide guidance on
+      AI use in community colleges.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2487#98AMD
+      locator: Legislative Counsel's Digest
+      quote: develop and disseminate to community college districts statewide guidance on the use of AI
+        in community colleges
+  - type: educator-pd-requirement
+    description: The system must encourage districts to give instructors dedicated time for AI learning
+      and training.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2487#98AMD
+      locator: Sec. 1, new Ch. 13 (Gov. Code 11910 et seq.), subd. (c)
+      quote: The California Community Colleges shall encourage community college districts to allocate
+        dedicated time for community college instructors to learn about AI, redesign their lesson plans,
+        participate in peer learning, and attend structured AI training.
+sponsors:
+  - name: Patrick Ahrens
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-20"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-21"
+    description: From printer. May be heard in committee March 23.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-19"
+    description: Referred to Coms. on HIGHER ED. , E.D., G., & H.I. and P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-19"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on HIGHER
+      ED. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-23"
+    description: Re-referred to Com. on HIGHER ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-07"
+    description: 'In committee: Set, first hearing. Hearing canceled at the request of author.'
+    actor: lower
+    classification:
+      - committee-hearing
+versions:
+  - note: Introduced
+    date: "2026-02-20"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2487#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-03-19"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2487#98AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2121564
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB2487
+    title: AB 2487 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2487#98AMD
+    title: AB 2487 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

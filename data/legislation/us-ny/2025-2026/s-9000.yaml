@@ -1,0 +1,128 @@
+id: us-ny-2025-2026-s-9000
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 9000
+title: Makes appropriations for the support of government - State Operations Budget.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+summary: Makes state operations appropriations for the 2026-27 fiscal year, including $7,500,000 for City
+  University of New York artificial intelligence initiatives, $10,000,000 for State University of New
+  York departments of AI and society and a natural language processing AI program, and $750,000 for an
+  Empire AI Student Challenge program under a plan developed by the commissioner of education.
+provisions:
+  - type: appropriates-funding
+    description: Appropriates funds to the City University of New York for artificial intelligence initiatives.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09000D
+      locator: City University of New York appropriations
+      quote: For services and expenses of artificial intelligence initiatives, provided that such funds
+        shall be allocated pursuant to a plan approved by the director of the budget (15557)
+  - type: appropriates-funding
+    description: Appropriates funds to the State University of New York for departments of AI and society
+      and a natural language processing AI program.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09000D
+      locator: State University of New York appropriations
+      quote: For services and expenses of departments of AI and society and the SUNY natural
+  - type: appropriates-funding
+    description: Funds an Empire AI Student Challenge program through the Education Department.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09000D
+      locator: Education Department appropriations
+      quote: For services and expenses of the Empire AI Student Challenge program, pursuant to a plan
+        developed by the commissioner of education and approved by the director of the budget.
+sponsors:
+  - name: Budget
+    classification: committee
+    primary: true
+actions:
+  - date: "2026-01-21"
+    description: REFERRED TO FINANCE
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-20"
+    description: AMEND AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: PRINT NUMBER 9000A
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: AMEND AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: PRINT NUMBER 9000B
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: AMEND AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: PRINT NUMBER 9000C
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: AMEND AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: PRINT NUMBER 9000D
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: ORDERED TO THIRD READING CAL.1329
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-27"
+    description: SUBSTITUTED BY A10000D
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Amended
+    date: "2026-01-20"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09000A
+    media_type: text/html
+  - note: Amended
+    date: "2026-01-20"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09000B
+    media_type: text/html
+  - note: Amended
+    date: "2026-01-20"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09000D
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2088371
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S9000
+    title: S 9000 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09000&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09000D
+    title: S 9000 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

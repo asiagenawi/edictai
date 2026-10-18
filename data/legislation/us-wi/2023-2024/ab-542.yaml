@@ -1,0 +1,335 @@
+id: us-wi-2023-2024-ab-542
+jurisdiction: us-wi
+session: 2023-2024
+identifier: AB 542
+title: Grants to schools to acquire proactive firearm detection software and making an appropriation.
+  (FE)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - safety-wellbeing
+  - procurement
+summary: Requires the Department of Justice to award grants of up to $325,000 to school boards and private
+  school governing bodies to acquire proactive firearm detection software, including artificial intelligence
+  software that integrates with school security cameras. Appropriates $4,000,000 for the grants.
+provisions:
+  - type: appropriates-funding
+    description: Creates a DOJ grant program for schools to acquire firearm detection software.
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB542.pdf
+      locator: s. 165.88 (3p) (a)
+      quote: the department of justice shall award grants to school boards and governing bodies of private
+        schools to acquire proactive firearm detection software.
+  - type: procurement-standards
+    description: Sets requirements the funded software must meet, including AI software that follows authorized
+      protocol autonomously or is vendor-monitored.
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB542.pdf
+      locator: s. 165.88 (3p) (c) 4.
+      quote: The artificial intelligence software is written and programmable to follow authorized protocol
+        autonomously
+sponsors:
+  - name: Calvin Callahan
+    primary: true
+    party: R
+    chamber: lower
+  - name: John Spiros
+    primary: true
+    party: R
+    chamber: lower
+  - name: Scott Allen
+    primary: true
+    party: R
+    chamber: lower
+  - name: David Armstrong
+    primary: true
+    party: R
+    chamber: lower
+  - name: Janel Brandtjen
+    primary: true
+    party: R
+    chamber: lower
+  - name: Barbara Dittrich
+    primary: true
+    party: R
+    chamber: lower
+  - name: Bob Donovan
+    primary: true
+    party: R
+    chamber: lower
+  - name: James Edming
+    primary: true
+    party: R
+    chamber: lower
+  - name: Joy Goeben
+    primary: true
+    party: R
+    chamber: lower
+  - name: Chanz Green
+    primary: true
+    party: R
+    chamber: lower
+  - name: Tom Michalski
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jeffrey Mursau
+    primary: true
+    party: R
+    chamber: lower
+  - name: Amanda Nedweski
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jerry O'Connor
+    primary: true
+    party: R
+    chamber: lower
+  - name: Sylvia Ortiz-Velez
+    primary: true
+    party: D
+    chamber: lower
+  - name: Nik Rettinger
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jessie Rodriguez
+    primary: true
+    party: R
+    chamber: lower
+  - name: Peter Schmidt
+    primary: true
+    party: R
+    chamber: lower
+  - name: David Steffen
+    primary: true
+    party: R
+    chamber: lower
+  - name: Rob Summerfield
+    primary: true
+    party: R
+    chamber: lower
+  - name: Van Wanggaard
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jesse James
+    primary: false
+    party: R
+    chamber: upper
+  - name: Rachael Cabral-Guevara
+    primary: false
+    party: R
+    chamber: upper
+  - name: Dan Feyen
+    primary: false
+    party: R
+    chamber: upper
+  - name: LaTonya Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Romaine Quinn
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2023-10-18"
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-10-18"
+    description: Read first time and referred to Committee on Criminal Justice and Public Safety
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2023-11-29"
+    description: Fiscal estimate received
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-29"
+    description: Assembly Substitute Amendment 1 offered by Representative Callahan
+    actor: lower
+    classification:
+      - other
+  - date: "2023-11-30"
+    description: Public hearing held
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2024-01-09"
+    description: Representative Stubbs added as a coauthor
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-11"
+    description: Assembly Amendment 1 to Assembly Substitute Amendment 1 offered by Representative Callahan
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-16"
+    description: Assembly Amendment 2 to Assembly Substitute Amendment 1 offered by Representative Callahan
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Executive action taken
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Representative Ortiz-Velez withdrawn as a coauthor
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-18"
+    description: Report Assembly Amendment 1 to Assembly Substitute Amendment 1 adoption recommended by
+      Committee on Criminal Justice and Public Safety, Ayes 10, Noes 5
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-18"
+    description: Report Assembly Amendment 2 to Assembly Substitute Amendment 1 adoption recommended by
+      Committee on Criminal Justice and Public Safety, Ayes 14, Noes 1
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-18"
+    description: Report Assembly Substitute Amendment 1 adoption recommended by Committee on Criminal
+      Justice and Public Safety, Ayes 15, Noes 0
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-18"
+    description: Report passage as amended recommended by Committee on Criminal Justice and Public Safety,
+      Ayes 12, Noes 3
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-18"
+    description: Referred to committee on Rules
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-22"
+    description: Representative Ortiz-Velez added as a coauthor
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-25"
+    description: Withdrawn from committee on Rules and referred to joint committee on Finance pursuant
+      to Assembly Rule 42 (3)(c)
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-13"
+    description: Withdrawn from joint committee on Finance and referred to committee on Rules pursuant
+      to Assembly Rule 42 (3)(c)
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-15"
+    description: Placed on calendar 2-20-2024 by Committee on Rules
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-20"
+    description: Made a special order of business at 10:19 AM on 2-22-2024 pursuant to Assembly Resolution
+      28
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Read a second time
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Assembly Amendment 1 to Assembly Substitute Amendment 1 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-02-22"
+    description: Assembly Amendment 2 to Assembly Substitute Amendment 1 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-02-22"
+    description: Assembly Amendment 3 to Assembly Substitute Amendment 1 offered by Representative Callahan
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Assembly Amendment 3 to Assembly Substitute Amendment 1 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-02-22"
+    description: Assembly Substitute Amendment 1 adopted
+    actor: lower
+    classification:
+      - substitution
+  - date: "2024-02-22"
+    description: Ordered to a third reading
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Rules suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Read a third time and passed
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-02-22"
+    description: Ordered immediately messaged
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Received from Assembly
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-26"
+    description: Read first time and referred to committee on Education
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2024-04-15"
+    description: Failed to concur in pursuant to Senate Joint Resolution 1
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2023-10-18"
+    url: https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB542.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1781005
+sources:
+  - url: https://docs.legis.wisconsin.gov/2023/proposals/reg/asm/bill/ab542
+    title: AB 542 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB542.pdf
+    title: AB 542 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

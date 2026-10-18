@@ -1,0 +1,288 @@
+id: us-ca-2025-2026-ab-1018
+jurisdiction: us-ca
+session: 2025-2026
+identifier: AB 1018
+title: Automated decision systems.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - assessment
+  - admissions
+  - equity-access
+  - student-privacy
+summary: Regulates the development and deployment of automated decision systems used to make consequential
+  decisions, with duties for developers and deployers including instructions, notice, and disclosures.
+  Consequential decisions include education and vocational training decisions on assessment and placement,
+  accreditation, certification, admissions and enrollment, discipline, and financial aid, and education
+  deployers subject to FERPA may give notice through FERPA processes.
+provisions:
+  - type: regulates-ai-assessment
+    description: Defines consequential decisions to include education decisions on assessment and placement,
+      admissions, discipline, and financial aid.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#92AMD
+      locator: Business and Professions Code 22756(d)(2)
+      quote: 'Education and vocational training as they relate to any of the following: (A) Assessment
+        and placement. (B) Accreditation. (C) Certification. (D) Admissions and enrollment. (E) Discipline.
+        (F) Financial aid and scholarships.'
+  - type: requires-disclosure
+    description: Education deployers subject to FERPA satisfy notice and disclosure duties through FERPA
+      processes, including notice to parents or eligible students.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#92AMD
+      locator: Section 1, notice provisions, (3)
+      quote: For a consequential decision relating to education, a deployer that is subject to FERPA satisfies
+        the notice and disclosure requirements of this section by providing notice and disclosures through
+        processes and channels that are consistent with FERPA
+sponsors:
+  - name: Rebecca Bauer-Kahan
+    primary: true
+    party: D
+    chamber: lower
+  - name: Cecilia Aguiar-Curry
+    primary: false
+    party: D
+    chamber: lower
+  - name: Isaac Bryan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Liz Ortega
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steve Padilla
+    primary: false
+    party: D
+    chamber: upper
+  - name: Chris Ward
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-20"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-21"
+    description: From printer. May be heard in committee March 23.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-10"
+    description: Referred to Coms. on P. & C.P. and JUD.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-28"
+    description: 'In committee: Set, first hearing. Hearing canceled at the request of author.'
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-04-10"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on P. &
+      C.P. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2025-04-21"
+    description: Re-referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-04-23"
+    description: 'From committee: Do pass and re-refer to Com. on JUD. (Ayes 9. Noes 3.) (April 22). Re-referred
+      to Com. on JUD.'
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-04-30"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 8.
+      Noes 3.) (April 29).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-01"
+    description: Read second time and amended.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-05-05"
+    description: Re-referred to Com. on APPR.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-05-14"
+    description: 'In committee: Set, first hearing. Referred to APPR. suspense file.'
+    actor: lower
+    classification:
+      - committee-hearing
+      - referral-committee
+  - date: "2025-05-23"
+    description: 'From committee: Do pass. (Ayes 10. Noes 3.) (May 23).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-05-27"
+    description: Read second time. Ordered to third reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-06-02"
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 50. Noes 16. Page 1931.)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-06-03"
+    description: In Senate. Read first time. To Com. on RLS. for assignment.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-06-11"
+    description: Referred to Com. on JUD.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-06-26"
+    description: 'In committee: Hearing postponed by committee.'
+    actor: upper
+    classification:
+      - deferral
+  - date: "2025-07-03"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to committee. Read
+      second time, amended, and re-referred to Com. on JUD.'
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - committee-passage
+  - date: "2025-07-16"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 11.
+      Noes 2.) (July 15).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-07-17"
+    description: Read second time and amended. Re-referred to Com. on APPR.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-08-18"
+    description: 'In committee: Referred to suspense file.'
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-08-29"
+    description: 'From committee: Do pass. (Ayes 5. Noes 2.) (August 29).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-08-29"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-09-05"
+    description: Read third time and amended. Ordered to second reading.
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-09-08"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-09-13"
+    description: Ordered to inactive file at the request of Senator Wiener.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-08-21"
+    description: From inactive file.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-08-21"
+    description: Ordered to second reading.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-08-21"
+    description: Read second time and amended. Ordered returned to second reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-08-24"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-08-28"
+    description: Read third time and amended. Ordered to second reading.
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-08-30"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+versions:
+  - note: Introduced
+    date: "2025-02-20"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2025-04-10"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-01"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#97AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-07-03"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#96AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-07-17"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#95AMD
+    media_type: text/html
+  - note: Amended
+    date: "2025-09-05"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#94AMD
+    media_type: text/html
+  - note: Amended
+    date: "2026-08-21"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#93AMD
+    media_type: text/html
+  - note: Amended
+    date: "2026-08-28"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#92AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1978553
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1018
+    title: AB 1018 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1018#92AMD
+    title: AB 1018 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

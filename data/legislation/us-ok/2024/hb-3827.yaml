@@ -1,0 +1,105 @@
+id: us-ok-2024-hb-3827
+jurisdiction: us-ok
+session: "2024"
+identifier: HB 3827
+title: Schools; State Department of Education; artificial intelligence; training; curriculum; revolving
+  fund.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - educator-training
+  - ai-literacy
+  - curriculum-standards
+  - funding
+summary: Directs the State Department of Education, starting in 2025-2026, to offer teachers professional
+  development on AI, to provide public schools with AI concepts across curricula and age-appropriate AI
+  education modules covering ethics, bias, and responsible use, and creates an Oklahoma Artificial Intelligence
+  Education Revolving Fund to support teachers, districts, and AI resource purchases.
+provisions:
+  - type: educator-pd-requirement
+    description: Requires the department to make available a professional development program for teachers
+      on AI tools and methodologies.
+    citation:
+      source_url: http://webserver1.lsb.state.ok.us/cf_pdf/2023-24%20INT/hB/HB3827%20INT.PDF
+      locator: Section 1(A)
+      quote: the State Department of Education shall make available a comprehensive professional development
+        program for Oklahoma teachers focusing on artificial intelligence tools and methodologies.
+  - type: requires-ai-literacy-instruction
+    description: Requires the department to make available age-appropriate AI education modules covering
+      technical skills, ethics, bias, and responsible use.
+    citation:
+      source_url: http://webserver1.lsb.state.ok.us/cf_pdf/2023-24%20INT/hB/HB3827%20INT.PDF
+      locator: Section 2(2)
+      quote: Provide age-appropriate artificial intelligence education modules, emphasizing both technical
+        skills and nontechnical skills. This shall include, but is not limited to, ethical aspects of
+        artificial intelligence, potential bias, and responsible use of artificial intelligence in day-to-day
+        life;
+  - type: appropriates-funding
+    description: Creates the Oklahoma Artificial Intelligence Education Revolving Fund for teacher and
+      district assistance and AI resource purchases.
+    citation:
+      source_url: http://webserver1.lsb.state.ok.us/cf_pdf/2023-24%20INT/hB/HB3827%20INT.PDF
+      locator: Section 3
+      quote: There is hereby created in the State Treasury a revolving fund for the State Department of
+        Education to be designated the "Oklahoma Artificial Intelligence Education Revolving Fund".
+sponsors:
+  - name: Arturo Alonso-Sandoval
+    primary: true
+    party: D
+    chamber: lower
+  - name: Daniel Pae
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-02-05"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-02-05"
+    description: Authored by Representative Alonso-Sandoval
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-06"
+    description: Second Reading referred to Appropriations and Budget
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2024-02-06"
+    description: Referred to Appropriations and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-26"
+    description: Recommendation to the full committee; Do Pass, amended by committee substitute Appropriations
+      and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2024-01-18"
+    url: http://webserver1.lsb.state.ok.us/cf_pdf/2023-24%20INT/hB/HB3827%20INT.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1820478
+sources:
+  - url: http://www.oklegislature.gov/BillInfo.aspx?Bill=hb3827&Session=2400
+    title: HB 3827 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://webserver1.lsb.state.ok.us/cf_pdf/2023-24%20INT/hB/HB3827%20INT.PDF
+    title: HB 3827 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

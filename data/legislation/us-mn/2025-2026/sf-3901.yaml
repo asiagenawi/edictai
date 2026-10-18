@@ -1,0 +1,70 @@
+id: us-mn-2025-2026-sf-3901
+jurisdiction: us-mn
+session: 2025-2026
+identifier: SF 3901
+title: School safety threat assessment pilot project establishment and appropriation
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+summary: Establishes a school safety threat assessment pilot project in which the Office of Justice Programs
+  contracts for threat monitoring and response services in selected school districts, which may use predictive
+  analytics and artificial intelligence-driven software. Appropriates $4,000,000 in fiscal year 2027 and
+  requires a report by January 15, 2027.
+provisions:
+  - type: appropriates-funding
+    description: Creates and funds a school safety pilot whose vendor services may use AI-driven software.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3901/versions/0/pdf/
+      locator: Sec. 1, subd. 1(b)
+      quote: predictive analytics and artificial intelligence-driven software to accomplish these
+sponsors:
+  - name: Bobby Champion
+    primary: true
+    party: D
+    chamber: upper
+  - name: Rich Draheim
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-02-26"
+    description: Introduction and first reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-26"
+    description: Referred to Judiciary and Public Safety
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-18"
+    description: 'Comm report: To pass and re-referred to Finance'
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-24"
+    url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3901/versions/0/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2124443
+sources:
+  - url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3901/
+    title: SF 3901 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/94/2026/0/SF/3901/versions/0/pdf/
+    title: SF 3901 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

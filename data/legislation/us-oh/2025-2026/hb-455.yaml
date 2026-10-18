@@ -1,0 +1,270 @@
+id: us-oh-2025-2026-hb-455
+jurisdiction: us-oh
+session: 2025-2026
+identifier: HB 455
+title: Regards the operation of public schools and the DEW
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+summary: Revises many provisions on public school operation and the Department of Education and Workforce,
+  including a directive that the department promote innovative educational programs by publicizing model
+  projects, including projects that use artificial intelligence in instruction.
+provisions:
+  - type: issues-model-policy
+    description: Directs the department to publicize model projects of educational innovation, including
+      projects that use AI in instruction.
+    citation:
+      source_url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/06_EN/pdf/
+      locator: Sec. 3302.07(D)(2)
+      quote: Publicize model projects of educational innovation, including projects that use artificial
+sponsors:
+  - name: Gayle Manning
+    primary: true
+    party: R
+    chamber: lower
+  - name: Adam Bird
+    primary: true
+    party: R
+    chamber: lower
+  - name: Andrew Brenner
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jerry Cirino
+    primary: true
+    party: R
+    chamber: upper
+  - name: Theresa Gavarone
+    primary: true
+    party: R
+    chamber: upper
+  - name: Terry Johnson
+    primary: true
+    party: R
+    chamber: upper
+  - name: George Lang
+    primary: true
+    party: R
+    chamber: upper
+  - name: Thomas Patton
+    primary: true
+    party: R
+    chamber: upper
+  - name: Timothy Schaffer
+    primary: true
+    party: R
+    chamber: upper
+  - name: Gary Click
+    primary: true
+    party: R
+    chamber: lower
+  - name: Kellie Deeter
+    primary: true
+    party: R
+    chamber: lower
+  - name: Michael Dovilla
+    primary: true
+    party: R
+    chamber: lower
+  - name: Tex Fischer
+    primary: true
+    party: R
+    chamber: lower
+  - name: Sarah Fowler Arthur
+    primary: true
+    party: R
+    chamber: lower
+  - name: Derrick Hall
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mark Hiner
+    primary: true
+    party: R
+    chamber: lower
+  - name: Adam Holmes
+    primary: true
+    party: R
+    chamber: lower
+  - name: James Hoops
+    primary: true
+    party: R
+    chamber: lower
+  - name: Marilyn John
+    primary: true
+    party: R
+    chamber: lower
+  - name: Brian Lampton
+    primary: true
+    party: R
+    chamber: lower
+  - name: Adam Mathews
+    primary: true
+    party: R
+    chamber: lower
+  - name: Ty Mathews
+    primary: true
+    party: R
+    chamber: lower
+  - name: Riordan McClain
+    primary: true
+    party: R
+    chamber: lower
+  - name: Melanie Miller
+    primary: true
+    party: R
+    chamber: lower
+  - name: Johnathan Newman
+    primary: true
+    party: R
+    chamber: lower
+  - name: Mike Odioso
+    primary: true
+    party: R
+    chamber: lower
+  - name: Bob Peterson
+    primary: true
+    party: R
+    chamber: lower
+  - name: Phil Plummer
+    primary: true
+    party: R
+    chamber: lower
+  - name: Tracy Richardson
+    primary: true
+    party: R
+    chamber: lower
+  - name: Kevin Ritter
+    primary: true
+    party: R
+    chamber: lower
+  - name: Nick Santucci
+    primary: true
+    party: R
+    chamber: lower
+  - name: Mark Sigrist
+    primary: true
+    party: D
+    chamber: lower
+  - name: David Thomas
+    primary: true
+    party: R
+    chamber: lower
+  - name: Daniel Troy
+    primary: true
+    party: D
+    chamber: lower
+  - name: Andrea White
+    primary: true
+    party: R
+    chamber: lower
+  - name: Josh Williams
+    primary: true
+    party: R
+    chamber: lower
+  - name: Tom Young
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-09-17"
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-10-01"
+    description: 'Referred to committee: Education'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-11-18"
+    description: 'Reported - Substitute: Education'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-11-19"
+    description: Passed
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-11-25"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-11"
+    description: 'Referred to committee: Education'
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-06-10"
+    description: 'Reported - Substitute: Education'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-10"
+    description: Passed
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-06-10"
+    description: Concurred in Senate amendments
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Sent To The Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-07-10"
+    description: Signed By The Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-10-09"
+    description: Effective
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/00_IN/pdf/
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/01_RH/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/02_PH/pdf/
+    media_type: application/pdf
+  - note: Comm Sub
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/03_RS/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/04_PS/pdf/
+    media_type: application/pdf
+  - note: Amended
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/05_CH/pdf/
+    media_type: application/pdf
+  - note: Enrolled
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/06_EN/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2044413
+sources:
+  - url: https://www.legislature.ohio.gov/legislation/136/hb455
+    title: HB 455 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/06_EN/pdf/
+    title: HB 455 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

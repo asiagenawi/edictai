@@ -1,0 +1,70 @@
+id: us-md-2025-hb-1384
+jurisdiction: us-md
+session: "2025"
+identifier: HB 1384
+title: Howard County - Study on Detecting Deadly Weapons in Public Middle and High Schools Ho. Co. 15-25
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - task-force
+summary: Requires the Howard County Board of Education to study how best to detect deadly weapons in county
+  public middle and high schools and report them to law enforcement, including an evaluation of software
+  that uses artificial intelligence to identify weapons, and to report findings to the State Superintendent
+  and the county delegation.
+provisions:
+  - type: creates-task-force
+    description: The county school board's weapons-detection study must evaluate AI software that identifies
+      deadly weapons.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1384f.pdf
+      locator: Sec. 1(c)(3)
+      quote: software that uses artificial intelligence to identify deadly weapons, and the necessary
+        steps to ensure that the software works effectively, including integration with security cameras
+        and other currently used safety measures;
+actions:
+  - date: "2025-02-07"
+    description: First Reading Ways and Means
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-02-10"
+    description: Hearing 3/03 at 11:00 a.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-26"
+    description: Hearing canceled
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Withdrawn by Sponsor
+    actor: lower
+    classification:
+      - withdrawal
+versions:
+  - note: Introduced
+    date: "2025-02-09"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1384f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1961205
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1384?ys=2025RS
+    title: HB 1384 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb1384f.pdf
+    title: HB 1384 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,74 @@
+id: us-il-2025-2026-hjr-50
+jurisdiction: us-il
+session: 2025-2026
+identifier: HJR 50
+title: PRP & ISBE AI ANALYSIS
+classification: joint-resolution
+education_levels:
+  - k12
+topics:
+  - funding
+  - task-force
+  - research
+summary: Directs the Professional Review Panel and the Illinois State Board of Education to analyze and
+  model the current and potential impacts of artificial intelligence and related technologies on the cost
+  factors in the evidence-based school funding model, and to report to the General Assembly and Governor
+  by December 31, 2027.
+provisions:
+  - type: creates-task-force
+    description: Directs the PRP and ISBE to analyze AI's impacts on evidence-based funding model cost
+      factors.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206441&DocName=10400HJ0050&DocNum=50&DocTypeID=HJR&LegID=165093&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: First resolved clause
+      quote: we direct the Professional Review Panel (PRP) and the Illinois State Board of Education (ISBE)
+        to conduct the analysis and financial modeling required to evaluate the current, likely, and potential
+        impacts of
+sponsors:
+  - name: Laura Faver Dias
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-14"
+    description: Filed with the Clerk by Rep. Laura Faver Dias
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-20"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-11"
+    description: Assigned to Appropriations-Elementary & Secondary Education Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-07-01"
+    description: Rule 19(b) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-14"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206441&DocName=10400HJ0050&DocNum=50&DocTypeID=HJR&LegID=165093&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2077565
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=50&GAID=18&DocTypeID=HJR&LegId=165093&SessionID=114
+    title: HJR 50 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206441&DocName=10400HJ0050&DocNum=50&DocTypeID=HJR&LegID=165093&GAID=18&SessionID=114&SpecSess=&Session=
+    title: HJR 50 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

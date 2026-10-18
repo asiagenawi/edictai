@@ -1,0 +1,312 @@
+id: us-ct-2024-sb-5
+jurisdiction: us-ct
+session: "2024"
+identifier: SB 5
+title: An Act Concerning School Resources.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - educator-training
+  - funding
+summary: As introduced, would amend the general statutes to increase funding to Regional Education Service
+  Centers to train school districts on the use of artificial intelligence in schools, along with reallocating
+  funds for school HVAC upgrades. The AI provisions were removed by amendment.
+provisions:
+  - type: educator-pd-requirement
+    description: As introduced, increased funding to Regional Education Service Centers to train school
+      districts on AI use in schools.
+    citation:
+      source_url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00005-R00-SB.PDF
+      locator: Introduced, page 1
+      quote: increase funding to Regional 3 Education Service Centers for the purpose of providing training
+        to 4 school districts regarding the use of artificial intelligence in schools.
+sponsors:
+  - name: Education Committee
+    classification: committee
+    primary: true
+  - name: Martin Looney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Duff
+    primary: false
+    party: D
+    chamber: upper
+  - name: Saud Anwar
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jorge Cabrera
+    primary: false
+    party: D
+    chamber: upper
+  - name: Christine Cohen
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mae Flexer
+    primary: false
+    party: D
+    chamber: upper
+  - name: Herron Gaston
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jan Hochadel
+    primary: false
+    party: D
+    chamber: upper
+  - name: Julie Kushner
+    primary: false
+    party: D
+    chamber: upper
+  - name: Matthew Lesser
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cici Maher
+    primary: false
+    party: D
+    chamber: upper
+  - name: James Maroney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Martha Marx
+    primary: false
+    party: D
+    chamber: upper
+  - name: Douglas McCrory
+    primary: false
+    party: D
+    chamber: upper
+  - name: Patricia Miller
+    primary: false
+    party: D
+    chamber: upper
+  - name: Marilyn Moore
+    primary: false
+    party: D
+    chamber: upper
+  - name: Norman Needleman
+    primary: false
+    party: D
+    chamber: upper
+  - name: MD Rahman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Derek Slap
+    primary: false
+    party: D
+    chamber: upper
+  - name: Gary Winfield
+    primary: false
+    party: D
+    chamber: upper
+  - name: Hubert Delany
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anthony Nolan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kadeem Roberts
+    primary: false
+    party: D
+    chamber: lower
+  - name: Catherine Osten
+    primary: false
+    party: D
+    chamber: upper
+  - name: Susan Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joshua Elliott
+    primary: false
+    party: D
+    chamber: lower
+  - name: Farley Santos
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Michel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bobby Gibson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robin Comey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Matt Blumenthal
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-07"
+    description: Referred to Joint Committee on Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2024-02-21"
+    description: Vote to Draft
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-05"
+    description: Drafted by Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-06"
+    description: Referred to Joint Committee on Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-03-07"
+    description: Public Hearing 03/11
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-18"
+    description: Joint Favorable Substitute
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-19"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-03-26"
+    description: Referred to Office of Legislative Research and Office of Fiscal Analysis 04/02/24 5:00
+      PM
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-04-03"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-03"
+    description: Favorable Report, Tabled for the Calendar, Senate
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-03"
+    description: Senate Calendar Number 147
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-03"
+    description: File Number 201
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-02"
+    description: Senate Adopted Senate Amendment Schedule A 5277
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-05-02"
+    description: Senate Passed as Amended by Senate Amendment Schedule A
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-05-03"
+    description: Favorable Report, Tabled for the Calendar, House
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-05-03"
+    description: House Calendar Number 462
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-07"
+    description: House Adopted Senate Amendment Schedule A
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-05-07"
+    description: House Passed as Amended by Senate Amendment Schedule A
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-05-07"
+    description: In Concurrence
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-17"
+    description: Public Act 24-74
+    actor: executive
+    classification:
+      - became-law
+  - date: "2024-05-22"
+    description: Transmitted to the Secretary of State
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2024-05-22"
+    description: Transmitted by Secretary of the State to Governor
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-30"
+    description: Signed by the Governor
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2024-02-06"
+    url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00005-R00-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-03-05"
+    url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00005-R01-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-04-03"
+    url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00005-R02-SB.PDF
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2024-05-17"
+    url: https://www.cga.ct.gov/2024/ACT/PA/PDF/2024PA-00074-R00SB-00005-PA.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1839023
+sources:
+  - url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00005&which_year=2024
+    title: SB 5 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2024/ACT/PA/PDF/2024PA-00074-R00SB-00005-PA.PDF
+    title: SB 5 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00005-R00-SB.PDF
+    title: SB 5 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

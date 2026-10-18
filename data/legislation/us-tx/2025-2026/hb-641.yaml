@@ -1,0 +1,66 @@
+id: us-tx-2025-2026-hb-641
+jurisdiction: us-tx
+session: 2025-2026
+identifier: HB 641
+title: Relating to digital citizenship instruction in public schools.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires school districts to incorporate digital citizenship instruction, completed by sixth-grade
+  students as part of social studies, and defines digital citizenship to include media literacy such as
+  analyzing content created or modified by generative artificial intelligence.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Required digital citizenship instruction includes identifying credible information by
+      analyzing content created or modified by generative AI.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00641I.htm
+      locator: Sec. 1, Education Code 28.002(z)(2)(A)
+      quote: media literacy and the ability to identify credible sources of information, including by
+        analyzing content created or modified by generative artificial intelligence technology
+sponsors:
+  - name: Mary Gonzalez
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-11-12"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-04"
+    description: Read first time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-04"
+    description: Referred to Public Education
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-11-12"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00641I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1891411
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB641
+    title: HB 641 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00641I.htm
+    title: HB 641 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

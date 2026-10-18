@@ -5,3 +5,14 @@ abbreviation: WI
 classification: state
 fips: "55"
 region: Midwest
+sessions:
+  - identifier: "2023-2024"
+    name: 2023-2024 Regular Session
+    classification: primary
+    start_date: "2023-01-03"
+    legiscan_session_id: 2039
+  - identifier: "2025-2026"
+    name: 2025-2026 Regular Session
+    classification: primary
+    start_date: "2025-01-06"
+    legiscan_session_id: 2197

@@ -1,0 +1,65 @@
+id: us-co-2025-sb-318
+jurisdiction: us-co
+session: "2025"
+identifier: SB 318
+title: Artificial Intelligence Consumer Protections
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Revises Colorado's high-risk artificial intelligence consumer protection law, keeping education
+  enrollment or an education opportunity among the consequential decisions it covers and redefining algorithmic
+  discrimination as a violation of applicable anti-discrimination law.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Consequential decisions covered by the AI law continue to include education enrollment
+      or an education opportunity.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_318_01.pdf
+      locator: Definition of consequential decision (3)(a)
+      quote: Education enrollment or an education opportunity; (b) (II) Employment or an employment opportunity;
+sponsors:
+  - name: Robert Rodriguez
+    primary: true
+    party: D
+    chamber: upper
+  - name: Brianna Titone
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-04-28"
+    description: Introduced In Senate - Assigned to Business, Labor, & Technology
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-05-05"
+    description: Senate Committee on Business, Labor, & Technology Postpone Indefinitely
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2025-04-28"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_318_01.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2026977
+sources:
+  - url: https://leg.colorado.gov/bills/sb25-318
+    title: SB 318 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_318_01.pdf
+    title: SB 318 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

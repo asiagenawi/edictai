@@ -1,0 +1,789 @@
+id: us-me-2025-2026-ld-2212
+jurisdiction: us-me
+session: 2025-2026
+identifier: LD 2212
+title: An Act Making Supplemental Appropriations and Allocations from the General Fund and Other Funds
+  for the Expenditures of State Government and Changing Certain Provisions of the Law Necessary to the
+  Proper Operations of State Government for the Fiscal Years Ending June 30, 2026 and June 30, 2027
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - educator-training
+  - instructional-use
+summary: Makes supplemental appropriations for Maine state government for fiscal years 2026 and 2027.
+  Includes one-time funding for the Department of Education to expand its artificial intelligence guidance
+  toolkit and provide grants for AI professional development or planning for educators.
+provisions:
+  - type: appropriates-funding
+    description: Funds expansion of the Department of Education's AI guidance toolkit and grants for educator
+      AI professional development.
+    citation:
+      source_url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1491&item=37&snum=132
+      locator: Innovative Teaching and Learning Z394 initiative [Page 32]
+      quote: to provide grants to school administrative units, nonprofits, universities and professional
+        organizations that provide professional development or planning to educators related to artificial
+        intelligence.
+sponsors:
+  - name: Andrew Gattine
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-12"
+    description: Committee on Appropriations and Financial Affairs suggested and ordered printed.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-12"
+    description: The Bill was REFERRED to the Committee on APPROPRIATIONS AND FINANCIAL AFFAIRS.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-12"
+    description: Sent for concurrence. ORDERED SENT FORTHWITH.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: The Bill was REFERRED to the Committee on APPROPRIATIONS AND FINANCIAL AFFAIRS in concurrence
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-03"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-04"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-06"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-09"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-11"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-12"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-16"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-19"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-23"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-24"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-25"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-27"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-30"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-03-31"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-04-02"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2026-04-02"
+    description: 'Voted: Divided Report'
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-04-07"
+    description: 'Reported Out: OTP-AM/ONTP'
+    actor: legislature
+    classification:
+      - committee-passage
+  - date: "2026-04-08"
+    description: Reports READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook, the Majority Ought to Pass as Amended
+      Report was ACCEPTED.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 767 (Yeas 76 - Nays 73 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: The Bill was READ ONCE.
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-04-08"
+    description: Committee Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative TUELL of East Machias, House Amendment "A" (H-1007) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative TUELL of East Machias REQUESTED a Roll Call. More than one-fifth of the
+      members present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "A" (H-1007) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 768 (Yeas 77 - Nays 72 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative CHAPMAN of Auburn, House Amendment "B" (H-1008) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative CHAPMAN of Auburn REQUESTED a Roll Call. More than one-fifth of the members
+      present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "B" (H-1008) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 769 (Yeas 77 - Nays 72 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative CHAPMAN of Auburn, House Amendment "C" (H-1009) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative CHAPMAN of Auburn REQUESTED a Roll Call. More than one-fifth of the members
+      present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "C" (H-1009) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 770 (Yeas 78 - Nays 71 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative CHAPMAN of Auburn, House Amendment "D" (H-1010) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative CHAPMAN of Auburn REQUESTED a Roll Call. More than one-fifth of the members
+      present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "D" (H-1010) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 771 (Yeas 78 - Nays 71 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative SMITH of Palermo, House Amendment "E" (H-1011) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative SMITH of Palermo REQUESTED a Roll Call. More than one-fifth of the members
+      present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "E" (H-1011) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 772 (Yeas 78 - Nays 70 - Absent 2 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative CHAPMAN of Auburn, House Amendment "F" (H-1012) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative CHAPMAN of Auburn REQUESTED a Roll Call. More than one-fifth of the members
+      present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "F" (H-1012) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 773 (Yeas 77 - Nays 72 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative BLIER of Buxton, House Amendment "G" (H-1013) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative BLIER of Buxton REQUESTED a Roll Call. More than one-fifth of the members
+      present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "G" (H-1013) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 774 (Yeas 75 - Nays 73 - Absent 2 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative SOBOLESKI of Phillips, House Amendment "I" (H-1015) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative SOBOLESKI of Phillips REQUESTED a Roll Call. More than one-fifth of the
+      members present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "I" (H-1015) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 775 (Yeas 77 - Nays 72 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative CHAPMAN of Auburn, House Amendment "J" (H-1016) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative CHAPMAN of Auburn REQUESTED a Roll Call. More than one-fifth of the members
+      present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "J" (H-1016) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 776 (Yeas 78 - Nays 71 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative FAULKINGHAM of Winter Harbor, House Amendment "K" (H-1017)
+      to Committee Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "K" (H-1017) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 777 (Yeas 76 - Nays 69 - Absent 5 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative FAULKINGHAM of Winter Harbor, House Amendment "L" (H-1018)
+      to Committee Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "L" (H-1018) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 778 (Yeas 77 - Nays 71 - Absent 2 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative FAULKINGHAM of Winter Harbor, House Amendment "O" (H-1021)
+      to Committee Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "O" (H-1021) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 780 (Yeas 77 - Nays 71 - Absent 2 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative FAULKINGHAM of Winter Harbor, House Amendment "M" (H-1019)
+      to Committee Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "M" (H-1019) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 781 (Yeas 77 - Nays 72 - Absent 1 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative FAULKINGHAM of Winter Harbor, House Amendment "S" (H-1026)
+      to Committee Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "S" (H-1026) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 782 (Yeas 78 - Nays 69 - Absent 3 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative FAULKINGHAM of Winter Harbor, House Amendment "N" (H-1020)
+      to Committee Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "N" (H-1020) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 783 (Yeas 78 - Nays 69 - Absent 3 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative FAULKINGHAM of Winter Harbor, House Amendment "T" (H-1027)
+      to Committee Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "T" (H-1027) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 784 (Yeas 77 - Nays 71 - Absent 2 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative TUELL of East Machias, House Amendment "P" (H-1022) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Representative TUELL of East Machias REQUESTED a Roll Call. More than one-fifth of the
+      members present expressed a desire for a roll call, which was ORDERED.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "P" (H-1022) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 785 (Yeas 76 - Nays 67 - Absent 7 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative QUINT of Hodgdon, House Amendment "Q" (H-1023) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "Q" (H-1023) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 786 (Yeas 76 - Nays 70 - Absent 4 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative QUINT of Hodgdon, House Amendment "R" (H-1024) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "R" (H-1024) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 787 (Yeas 76 - Nays 68 - Absent 6 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative DRINKWATER of Milford, House Amendment "U" (H-1028) to Committee
+      Amendment "A" (H-996) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion of Representative GATTINE of Westbrook House Amendment "U" (H-1028) to Committee
+      Amendment "A" (H-996) was INDEFINITELY POSTPONED.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 788 (Yeas 76 - Nays 72 - Absent 2 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Committee Amendment "A" (H-996) was ADOPTED.
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-04-08"
+    description: ROLL CALL NO. 789 (Yeas 77 - Nays 71 - Absent 2 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Under suspension of the rules, the Bill was given its SECOND READING without REFERENCE
+      to the Committee on Bills in the Second Reading.
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-04-08"
+    description: The Bill was PASSED TO BE ENGROSSED as Amended by Committee Amendment "A" (H-996)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-04-08"
+    description: Sent for concurrence. ORDERED SENT FORTHWITH.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Reports READ.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion by Senator ROTUNDO of Androscoggin the Majority Ought to Pass as Amended Report
+      ACCEPTED.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-08"
+    description: Roll Call Ordered Roll Call Number 919 Yeas 19 - Nays 15 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Bill READ ONCE.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-04-08"
+    description: Committee Amendment "A" (H-996) READ.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion by Senator STEWART of Aroostook Senate Amendment "C" (S-650) to Committee Amendment
+      "A" (H-996) READ.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion by Senator ROTUNDO of Androscoggin Senate Amendment "C" (S-650) was INDEFINITELY
+      POSTPONED.
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: Roll Call Ordered Roll Call Number 920 Yeas 20 - Nays 14 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion by Senator STEWART of Aroostook Senate Amendment "D" (S-651) to Committee Amendment
+      "A" (H-996) READ.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion by Senator ROTUNDO of Androscoggin Senate Amendment "D" (S-651) was INDEFINITELY
+      POSTPONED.
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: Roll Call Ordered Roll Call Number 921 Yeas 19 - Nays 15 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion by Senator CYRWAY of Kennebec Senate Amendment "E" (S-654) to Committee Amendment
+      "A" (H-996) READ.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Senator ROTUNDO of Androscoggin moved to INDEFINITELY POSTPONED Senate Amendment "E"
+      (S-654)
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: Motion by Senator BENNETT of Oxford to TABLE UNTIL LATER IN TODAY'S SESSION FAILED
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Roll Call Ordered Roll Call Number 922 Yeas 14 - Nays 20 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Motion by Same Senator to ADJOURN FAILED
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Roll Call Ordered Roll Call Number 923 Yeas 15 - Nays 19 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Subsequently, Senate Amendment "E" (S-654) was INDEFINITELY POSTPONED
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: Roll Call Ordered Roll Call Number 924 Yeas 20 - Nays 14 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Committee Amendment "A" (H-996) ADOPTED
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-04-08"
+    description: On motion by Senator BENNETT of Oxford Committee Amendment "A" (H-996) RECONSIDERED
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion by Senator GROHOSKI of Hancock Senate Amendment "A" (S-647) to Committee Amendment
+      "A" (H-996) READ.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: On motion by Senator ROTUNDO of Androscoggin Senate Amendment "A" (S-647) was INDEFINITELY
+      POSTPONED.
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-04-08"
+    description: Roll Call Ordered Roll Call Number 925 Yeas 18 - Nays 16 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Committee Amendment "A" (H-996) ADOPTED.
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-04-08"
+    description: Under suspension of the Rules, READ A SECOND TIME.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: PASSED TO BE ENGROSSED AS AMENDED BY Committee Amendment "A" (H-996) in concurrence PREVAILED
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-08"
+    description: Roll Call Ordered Roll Call Number 926 Yeas 18 - Nays 16 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: PASSED TO BE ENACTED.
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-04-09"
+    description: ROLL CALL NO. 791 (Yeas 76 - Nays 71 - Absent 3 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: Sent for concurrence. ORDERED SENT FORTHWITH.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: PASSED TO BE ENACTED, in concurrence.
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-09"
+    description: Roll Call Ordered Roll Call Number 927 Yeas 18 - Nays 16 - Excused 1 - Absent 0
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1491&item=1&snum=132
+    media_type: application/pdf
+  - note: Chaptered
+    url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1491&item=37&snum=132
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2114142
+sources:
+  - url: https://legislature.maine.gov/legis/bills/display_ps.asp?LD=2212&snum=132
+    title: LD 2212 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1491&item=37&snum=132
+    title: LD 2212 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

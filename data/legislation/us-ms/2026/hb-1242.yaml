@@ -1,0 +1,84 @@
+id: us-ms-2026-hb-1242
+jurisdiction: us-ms
+session: "2026"
+identifier: HB 1242
+title: Mississippi Dyslexia Generative Artificial Intelligence Education and Workforce Development Act;
+  create.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+  - educator-training
+  - research
+summary: Creates a Mississippi Dyslexia Generative Artificial Intelligence Education and Workforce Development
+  Program within the Department of Education to develop an open-access dyslexia curriculum and generative
+  AI system for public schools, correctional, adult and workforce education. Directs the department to
+  contract with founding partners for development, research and professional development, and to run pilot
+  programs in at least three public school districts.
+provisions:
+  - type: appropriates-funding
+    description: Establishes a state program to develop and deploy a generative AI dyslexia instruction
+      system for public schools and other settings.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1200-1299/HB1242IN.htm
+      locator: Program establishment section
+      quote: 'The program shall develop, maintain, and deploy an open-access dyslexia curriculum and generative
+        artificial intelligence system to support: (a) Public schools and school districts;'
+  - type: appropriates-funding
+    description: Requires pilot programs of the system in at least three public school districts.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1200-1299/HB1242IN.htm
+      locator: Pilot program section
+      quote: 'The department shall implement pilot programs for a minimum of six (6) months and a maximum
+        of ten (10) months in each of the following settings: (a) At least three (3) public school districts;'
+  - type: educator-pd-requirement
+    description: Directs the department to contract for professional development and implementation support
+      for the AI system.
+    citation:
+      source_url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1200-1299/HB1242IN.htm
+      locator: Founding partners section
+      quote: 'The department shall enter into multiyear contracts with the founding development partners
+        for: (a) Curriculum development and validation; (b) Generative artificial intelligence training
+        data curation; (c) Research design and evaluation; (d) Professional development and implementation
+        support;'
+sponsors:
+  - name: Rob Roberson
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-19"
+    description: Referred To Education;Appropriations A
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-03"
+    description: Died In Committee
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-20"
+    url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1200-1299/HB1242IN.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2087381
+sources:
+  - url: https://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB1242.xml
+    title: HB 1242 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://billstatus.ls.state.ms.us/documents/2026/html/HB/1200-1299/HB1242IN.htm
+    title: HB 1242 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

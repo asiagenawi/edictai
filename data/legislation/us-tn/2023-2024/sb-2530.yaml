@@ -1,0 +1,187 @@
+id: us-tn-2023-2024-sb-2530
+jurisdiction: us-tn
+session: 2023-2024
+identifier: SB 2530
+title: AN ACT to amend Tennessee Code Annotated, Title 4, relative to the artificial intelligence advisory
+  council.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: Creates the Tennessee Artificial Intelligence Advisory Council to develop an action plan on artificial
+  intelligence in state government and the economy. The council must report on AI's labor market impact
+  and propose policy changes related to workforce development, educational systems and research opportunities
+  for colleges and universities.
+provisions:
+  - type: creates-task-force
+    description: The advisory council's report must propose policy changes related to educational systems
+      and research opportunities for colleges and universities.
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/113/pub/pc0988.pdf
+      locator: Section 1, council report (c)(6)
+      quote: Proposed policy changes related to workforce development, educational systems, and research
+        opportunities for colleges and universities in this state
+sponsors:
+  - name: Bo Watson
+    primary: true
+    party: R
+    chamber: upper
+  - name: Dawn White
+    primary: false
+    party: R
+    chamber: lower
+  - name: Raumesh Akbari
+    primary: false
+    party: D
+    chamber: lower
+  - name: Adam Lowe
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-01-31"
+    description: Filed for introduction
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-02-01"
+    description: Introduced, Passed on First Consideration
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-02-05"
+    description: Passed on Second Consideration, refer to Senate Government Operations Committee
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-02-28"
+    description: Placed on Senate Government Operations Committee calendar for 3/6/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-05"
+    description: Sponsor(s) Added.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-06"
+    description: Recommended for passage with amendment/s, refer to Senate Commerce and Labor Committee
+      Ayes 8, Nays 0 PNV 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-07"
+    description: 'Rule #83(8) Suspended, to be heard in Senate Commerce & Labor Committee 3/12/2024'
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-08"
+    description: Placed on Senate Commerce and Labor Committee calendar for 3/12/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-12"
+    description: Action deferred in Senate Commerce and Labor Committee to 3/13/2024
+    actor: upper
+    classification:
+      - deferral
+  - date: "2024-03-12"
+    description: Placed on Senate Commerce and Labor Committee calendar for 3/13/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Placed on Senate Commerce and Labor Committee calendar for 3/27/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-27"
+    description: Recommended for passage with amendment/s, refer to Senate Calendar Committee Ayes 9,
+      Nays 0 PNV 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-05"
+    description: Placed on Senate Regular Calendar for 4/8/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-08"
+    description: Senate Reset on calendar for 4/15/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-12"
+    description: Placed on Senate Regular Calendar for 4/15/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-15"
+    description: Senate Reset on calendar for 4/17/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: Placed on Senate Regular Calendar for 4/17/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Placed on Senate Regular Calendar for 4/17/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Senate Reset on final calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-23"
+    description: Placed on Senate Regular Calendar for 4/24/2024
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Companion House Bill substituted
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Sponsor(s) Added.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-29"
+    description: Comp. became Pub. Ch. 988
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Draft
+    date: "2024-01-31"
+    url: https://www.capitol.tn.gov/Bills/113/Bill/SB2530.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2024-05-23"
+    url: https://publications.tnsosfiles.com/acts/113/pub/pc0988.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1833050
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/default.aspx?BillNumber=SB2530&ga=113
+    title: SB 2530 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://publications.tnsosfiles.com/acts/113/pub/pc0988.pdf
+    title: SB 2530 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

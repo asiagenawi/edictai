@@ -1,0 +1,172 @@
+id: us-ca-2025-2026-ab-1766
+jurisdiction: us-ca
+session: 2025-2026
+identifier: AB 1766
+title: 'Health curriculum framework: human trafficking and online safety.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - curriculum-standards
+summary: Requires the Instructional Quality Commission, at the next revision of the health curriculum
+  framework, to consider including content on human trafficking and online safety, including how to stay
+  safe from sexually exploitative materials and deepfakes online, in an age-appropriate progression from
+  kindergarten through grade 12. Requires the State Department of Education to maintain related information
+  and educator training resources.
+provisions:
+  - type: addresses-deepfakes
+    description: The health framework revision must consider content on staying safe from sexually exploitative
+      materials and deepfakes online.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1766#96CHP
+      locator: Education Code 33546.5
+      quote: How to stay safe from sexually exploitative materials and deepfakes online, including information
+        on reporting processes and pupil rights
+sponsors:
+  - name: Maggy Krell
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-09"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-10"
+    description: From printer. May be heard in committee March 12.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: Referred to Com. on ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-19"
+    description: 'From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent
+      Calendar. (Ayes 8. Noes 0.) (March 18). Re-referred to Com. on APPR.'
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-05-06"
+    description: 'From committee: Do pass. To Consent Calendar. (Ayes 14. Noes 0.) (May 6).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-05-07"
+    description: Read second time. Ordered to Consent Calendar.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-05-14"
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 77. Noes 0. Page 5053.)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-14"
+    description: In Senate. Read first time. To Com. on RLS. for assignment.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-05-27"
+    description: Referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-06-10"
+    description: 'From committee: Do pass and re-refer to Com. on APPR. (Ayes 7. Noes 0.) (June 10). Re-referred
+      to Com. on APPR.'
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-06-22"
+    description: 'From committee: Be ordered to second reading pursuant to Senate Rule 28.8.'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-23"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-08-21"
+    description: Read third time and amended. Ordered to second reading.
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-08-24"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-08-26"
+    description: Read third time. Passed. Ordered to the Assembly. (Ayes 39. Noes 0.).
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-08-27"
+    description: In Assembly. Concurrence in Senate amendments pending.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-08-27"
+    description: Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 78. Noes 0. Page 6710.).
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-09-04"
+    description: Enrolled and presented to the Governor at 4 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-09-30"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-09-30"
+    description: Chaptered by Secretary of State - Chapter 894, Statutes of 2026.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2026-02-09"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1766#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-08-21"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1766#98AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-09-01"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1766#97ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2026-09-30"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1766#96CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2112372
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1766
+    title: AB 1766 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1766#96CHP
+    title: AB 1766 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,56 @@
+id: us-ct-2025-hb-5877
+jurisdiction: us-ct
+session: "2025"
+identifier: HB 5877
+title: An Act Prohibiting The Use Of Artificial Intelligence To Replace Teachers.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - employment-evaluation
+summary: Proposes to prohibit the use of artificial intelligence to replace public school educators in
+  providing instruction to and regular interaction with students.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Would bar using AI to replace public school educators in instruction and regular interaction
+      with students.
+    citation:
+      source_url: https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-05877-R00-HB.PDF
+      locator: Statement of Purpose
+      quote: To prohibit the use of artificial intelligence to replace public school educators in providing
+        instruction to and regular interaction with students.
+sponsors:
+  - name: Ronald Napoli
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-22"
+    description: Referred to Joint Committee on Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-01-21"
+    url: https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-05877-R00-HB.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1931737
+sources:
+  - url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB05877&which_year=2025
+    title: HB 5877 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-05877-R00-HB.PDF
+    title: HB 5877 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

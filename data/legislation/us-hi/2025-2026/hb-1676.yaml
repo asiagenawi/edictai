@@ -1,0 +1,227 @@
+id: us-hi-2025-2026-hb-1676
+jurisdiction: us-hi
+session: 2025-2026
+identifier: HB 1676
+title: Relating To Artificial Intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - instructional-use
+  - educator-training
+  - student-privacy
+  - procurement
+  - equity-access
+  - assessment
+  - funding
+summary: Establishes an artificial intelligence in education task force within the University of Hawaii
+  to develop model guidance on AI as an instructional tool, data privacy and vendor transparency standards,
+  digital equity recommendations, educator professional-development guidelines, and a framework for evaluating
+  learning outcomes. Requires reports in 2027, 2028, and 2029 and appropriates funds.
+provisions:
+  - type: creates-task-force
+    description: Establishes an AI in education task force within the University of Hawaii.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1676_HD1_.HTM
+      locator: Sec. 2(a)
+      quote: There is established within the university of Hawaii for administrative purposes an artificial
+        intelligence in education task force.
+  - type: issues-model-policy
+    description: The task force must develop model statewide guidance on AI as an instructional tool.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1676_HD1_.HTM
+      locator: Sec. 2(e)(1)
+      quote: Model statewide guidance on the use of artificial intelligence as an instructional tool,
+        including recommended human-in-the-loop practices;
+  - type: procurement-standards
+    description: The task force must develop data privacy and vendor transparency standards.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1676_HD1_.HTM
+      locator: Sec. 2(e)(2)
+      quote: Data privacy and vendor transparency standards, including disclosure of training datasets,
+        bias testing, and audit provisions;
+  - type: appropriates-funding
+    description: Appropriates funds for the task force.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1676_HD1_.HTM
+      locator: Sec. 3
+      quote: There is appropriated out of the general revenues of the State of Hawaii the sum of $ or
+        so much thereof as may be necessary for fiscal year 2026-2027 for the artificial intelligence
+        in education task force.
+sponsors:
+  - name: Andrew Garrett
+    primary: true
+    party: D
+    chamber: lower
+  - name: Terez Amato
+    primary: true
+    party: D
+    chamber: lower
+  - name: Luke Evslin
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jeanne Kapela
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ikaika Olds
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jackson Sayama
+    primary: true
+    party: D
+    chamber: lower
+  - name: Justin Woodson
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-20"
+    description: Prefiled.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-21"
+    description: Introduced and Pass First Reading.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-01-26"
+    description: Referred to HED/EDN, FIN, referral sheet 1
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-05"
+    description: Bill scheduled to be heard by HED/EDN on Tuesday, 02-10-26 2:00PM in House conference
+      room 309 VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-10"
+    description: The committee(s) on HED/EDN recommend(s) that the measure be deferred until 02-13-26
+      2:00PM.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-02-11"
+    description: Bill re-scheduled for decision making on Friday, 02-13-26 2:10PM in conference room 309
+      VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-13"
+    description: 'The committee on HED recommend that the measure be PASSED, WITH AMENDMENTS. The votes
+      were as follows: 8 Ayes: Representative(s) Garrett, Amato, Evslin, Kapela, La Chica, Olds, Woodson,
+      Muraoka; Ayes with reservations: none; Noes: none; and 2 Excused: Representative(s) Kila, Souza.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-13"
+    description: 'The committee on EDN recommend that the measure be PASSED, WITH AMENDMENTS. The votes
+      were as follows: 8 Ayes: Representative(s) Woodson, La Chica, Amato, Evslin, Garrett, Kapela, Olds,
+      Muraoka; Ayes with reservations: none; Noes: none; and 2 Excused: Representative(s) Kila, Souza.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-18"
+    description: Reported from HED/EDN (Stand. Com. Rep. No. 401-26) as amended in HD 1, recommending
+      passage on Second Reading and referral to FIN.
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-02-18"
+    description: Passed Second Reading as amended in HD 1 and referred to the committee(s) on FIN with
+      none voting aye with reservations; none voting no (0) and none excused (0).
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-02-23"
+    description: Bill scheduled to be heard by FIN on Wednesday, 02-25-26 2:00PM in House conference room
+      308 VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: 'The committee on FIN recommend that the measure be PASSED, UNAMENDED. The votes were
+      as follows: 16 Ayes: Representative(s) Todd, Takenouchi, Hartsfield, Hussey, Keohokapu-Lee Loy,
+      Kitagawa, Kusch, Lee, M., Miyake, Morikawa, Perruso, Templo, Yamashita, Alcos, Gedeon, Reyes Oda;
+      Ayes with reservations: none; Noes: none; and Excused: none.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-05"
+    description: Reported from FIN (Stand. Com. Rep. No. 813-26), recommending passage on Third Reading.
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-05"
+    description: Passed Third Reading with none voting aye with reservations; none voting no (0) and Representative(s)
+      Perruso excused (1). Transmitted to Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-06"
+    description: Received from House (Hse. Com. No. 37).
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Passed First Reading.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-03-10"
+    description: Referred to EDU/LBT, WAM.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-20"
+    description: The committee(s) on EDU/LBT has scheduled a public hearing on 03-23-26 1:00PM; Conference
+      Room 229 &amp; Videoconference.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-23"
+    description: The committee on EDU deferred the measure.
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-03-23"
+    description: The committee on LBT deferred the measure.
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-01-20"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1676_.HTM
+    media_type: text/html
+  - note: Amended
+    date: "2026-02-17"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1676_HD1_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2087510
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1676&year=2026
+    title: HB 1676 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1676_HD1_.HTM
+    title: HB 1676 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

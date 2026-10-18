@@ -1,0 +1,201 @@
+id: us-ca-2023-2024-ab-331
+jurisdiction: us-ca
+session: 2023-2024
+identifier: AB 331
+title: Automated decision tools.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+  - academic-integrity
+summary: Requires deployers and developers of automated decision tools used for consequential decisions,
+  including decisions on education and vocational training such as assessment, detecting student cheating
+  or plagiarism, accreditation, admissions, and financial aid, to perform annual impact assessments and
+  notify affected persons, and bars deployers from using tools that result in algorithmic discrimination.
+provisions:
+  - type: regulates-ai-assessment
+    description: Education assessment, including detecting student cheating or plagiarism, is a covered
+      consequential decision.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#95AMD
+      locator: Sec. 1, new Section 22756, definition of consequential decision
+      quote: '(2) Education and vocational training, including, but not limited to, all of the following:
+        (A) Assessment, including, but not limited to, detecting student cheating or plagiarism.'
+  - type: ai-in-admissions
+    description: Admissions and financial aid decisions are covered consequential decisions.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#95AMD
+      locator: Sec. 1, new Section 22756, definition of consequential decision
+      quote: (D) Admissions. (E) Financial aid or scholarships.
+  - type: requires-disclosure
+    description: Deployers must notify persons subject to a consequential decision that an automated decision
+      tool is used.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#95AMD
+      locator: Sec. 1, deployer notice provision
+      quote: A deployer shall, at or before the time an automated decision tool is used to make a consequential
+        decision, notify any natural person that is the subject of the consequential decision that an
+        automated decision tool is being used
+  - type: bias-or-equity-requirement
+    description: Deployers may not use tools that result in algorithmic discrimination.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#95AMD
+      locator: Sec. 1, algorithmic discrimination provision
+      quote: A deployer shall not use an automated decision tool that results in algorithmic discrimination.
+sponsors:
+  - name: Rebecca Bauer-Kahan
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tasha Boerner Horvath
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-01-30"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2023-01-31"
+    description: From printer. May be heard in committee March 2.
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-16"
+    description: Referred to Coms. on P. & C.P. and JUD.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-16"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on P. &
+      C.P. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-03-20"
+    description: Re-referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-30"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on P. &
+      C.P. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2023-04-03"
+    description: Re-referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-04-12"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on JUD. (Ayes 8.
+      Noes 3.) (April 11).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-04-13"
+    description: Read second time and amended.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-04-17"
+    description: Re-referred to Com. on JUD.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-04-18"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 8.
+      Noes 3.) (April 18).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-04-19"
+    description: Read second time and amended.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-04-20"
+    description: Measure version as amended on April 19 corrected.
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-20"
+    description: Re-referred to Com. on APPR.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-05-17"
+    description: 'In committee: Set, first hearing. Referred to APPR. suspense file.'
+    actor: lower
+    classification:
+      - committee-hearing
+      - referral-committee
+  - date: "2023-05-18"
+    description: Joint Rule 62(a), file notice suspended. (Page 1580.)
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-18"
+    description: 'In committee: Held under submission.'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-31"
+    description: Died pursuant to Art. IV, Sec. 10(c) of the Constitution.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-01"
+    description: 'From committee: Filed with the Chief Clerk pursuant to Joint Rule 56.'
+    actor: lower
+    classification:
+      - introduction
+      - failure
+versions:
+  - note: Introduced
+    date: "2023-01-30"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2023-03-16"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2023-03-30"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#97AMD
+    media_type: text/html
+  - note: Amended
+    date: "2023-04-13"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#96AMD
+    media_type: text/html
+  - note: Amended
+    date: "2023-04-19"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#95AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1686429
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240AB331
+    title: AB 331 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB331#95AMD
+    title: AB 331 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

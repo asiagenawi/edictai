@@ -1,0 +1,93 @@
+id: us-vt-2025-2026-h-340
+jurisdiction: us-vt
+session: 2025-2026
+identifier: H 340
+title: An act relating to regulating developers and deployers of certain automated decision systems
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+summary: Regulates developers and deployers of automated decision systems used in consequential decisions,
+  with duties to avoid algorithmic discrimination, audits, reporting, and risk management programs. Consequential
+  decisions include educational and vocational training decisions such as assessment or grading, cheating
+  or plagiarism detection, admissions or enrollment, and financial aid.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines consequential decisions to include education decisions, bringing automated decision
+      systems used for them under the act's anti-discrimination duties.
+    citation:
+      source_url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0340/H-0340%20As%20Introduced.pdf
+      locator: Sec. 1, 9 V.S.A. § 4193a(4)(A)
+      quote: '(A) educational and vocational training, including: (i) assessment or grading, including
+        detecting student cheating or plagiarism; (ii) accreditation; (iii) certification;'
+sponsors:
+  - name: Monique Priestley
+    primary: true
+    party: D
+    chamber: lower
+  - name: Angela Arsenault
+    primary: false
+    party: D
+    chamber: lower
+  - name: Daisy Berbeco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Esme Cole
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kate Logan
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Masland
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jubilee McGill
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Sibilia
+    primary: false
+    party: I
+    chamber: lower
+  - name: Candice White
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-25"
+    description: Read first time and referred to the Committee on Commerce and Economic Development
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-02-24"
+    url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0340/H-0340%20As%20Introduced.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1981303
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2026/H.340
+    title: H 340 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0340/H-0340%20As%20Introduced.pdf
+    title: H 340 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

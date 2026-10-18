@@ -1,0 +1,186 @@
+id: us-ca-2025-2026-ab-2148
+jurisdiction: us-ca
+session: 2025-2026
+identifier: AB 2148
+title: 'Elementary and secondary education: public school employees: contractors: natural persons.'
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+  - instructional-use
+summary: Defines a public school employee and a contractor performing services in a public school as a
+  natural person. As amended March 19, 2026, would have barred discipline or dismissal of K-12 and public
+  college and university employees based on information produced via artificial intelligence or automated
+  decision system output, or for refusing to use educational technology, and required educational technology
+  to let employees turn it off. The AI provisions were removed by amendment.
+sponsors:
+  - name: Al Muratsuchi
+    primary: true
+    party: D
+    chamber: lower
+  - name: Josh Hoover
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-18"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-19"
+    description: From printer. May be heard in committee March 21.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-19"
+    description: Referred to Coms. on ED., HIGHER ED. and P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-19"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on ED.
+      Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-23"
+    description: Re-referred to Com. on ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-09"
+    description: 'From committee: Amend, and do pass as amended and re-refer to Com. on HIGHER ED. (Ayes
+      8. Noes 0.) (April 8).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-13"
+    description: Read second time and amended.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-04-13"
+    description: Re-referred to Com. on HIGHER ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-13"
+    description: Re-referred to Com. on APPR. pursuant to Assembly Rule 96.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-16"
+    description: Withdrawn from committee.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-16"
+    description: Ordered to second reading.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-20"
+    description: Read second time. Ordered to third reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-05-04"
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 76. Noes 0. Page 4901.)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-05"
+    description: In Senate. Read first time. To Com. on RLS. for assignment.
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-05-13"
+    description: Referred to Coms. on ED. and L., P.E. & R.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-06-04"
+    description: 'From committee: Do pass and re-refer to Com. on L., P.E. & R. with recommendation: To
+      Consent Calendar. (Ayes 7. Noes 0.) (June 3). Re-referred to Com. on L., P.E. & R.'
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-06-10"
+    description: 'From committee: Do pass. To Consent Calendar. (Ayes 5. Noes 0.) (June 10).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-06-11"
+    description: Read second time. Ordered to Consent Calendar.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-06-18"
+    description: Read third time. Passed. Ordered to the Assembly. (Ayes 37. Noes 0. Page 4859.).
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-06-18"
+    description: In Assembly. Ordered to Engrossing and Enrolling.
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-06-24"
+    description: Enrolled and presented to the Governor at 11:30 a.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-06-30"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-06-30"
+    description: Chaptered by Secretary of State - Chapter 45, Statutes of 2026.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2026-02-18"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2148#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-03-19"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2148#98AMD
+    media_type: text/html
+  - note: Amended
+    date: "2026-04-13"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2148#97AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-06-22"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2148#96ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2026-06-30"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2148#95CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2119675
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB2148
+    title: AB 2148 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2148#95CHP
+    title: AB 2148 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

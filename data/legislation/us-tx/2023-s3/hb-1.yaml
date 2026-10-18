@@ -1,0 +1,61 @@
+id: us-tx-2023-s3-hb-1
+jurisdiction: us-tx
+session: 2023-s3
+identifier: HB 1
+title: Relating to primary and secondary education, including the certification, compensation, and health
+  coverage of certain public school employees, the public school finance system, special education in
+  public schools, the establishment of an education savings account program, measures to support the education
+  of public school students that include certain educational grant programs, reading instruction, and
+  early childhood education, the provision of virtual education, and public school accountability.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - assessment
+  - task-force
+summary: Omnibus public education bill addressing educator certification and pay, school finance, special
+  education, education savings accounts and other topics. In Sec. 39.456, it calls for review of the statewide
+  assessment and accountability system, including grading systems and the use of artificial intelligence
+  in grading.
+provisions:
+  - type: regulates-ai-assessment
+    description: Requires the assessment and accountability review to address grading systems, including
+      the use of AI in grading.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/883/billtext/html/HB00001I.htm
+      locator: Sec. 39.456
+      quote: grading systems and the impact that those systems will have on the assessment and accountability
+        system, including the use of artificial intelligence in grading systems;
+sponsors:
+  - name: Brad Buckley
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-10-19"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+versions:
+  - note: Introduced
+    date: "2023-10-19"
+    url: https://capitol.texas.gov/tlodocs/883/billtext/html/HB00001I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1781207
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB1
+    title: HB 1 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/883/billtext/html/HB00001I.htm
+    title: HB 1 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

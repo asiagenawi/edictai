@@ -1,0 +1,347 @@
+id: us-fl-2023-sb-266
+jurisdiction: us-fl
+session: "2023"
+identifier: SB 266
+title: Higher Education
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+summary: Creates the Institute for Risk Management and Insurance Education at the University of Central
+  Florida, whose goals include offering programs, workshops, and applied research that integrate technology
+  and artificial intelligence while preparing students for the insurance industry. The bill also makes
+  other changes to postsecondary education law.
+provisions:
+  - type: ai-workforce-program
+    description: The institute's goals include offering programs, workshops, and applied research that
+      integrate technology and AI while preparing students for the insurance industry.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2023/266/BillText/er/HTML
+      locator: Section 5, new s. 1004.3841, goal (6)
+      quote: (6) Offer programs, workshops, case studies, and applied research studies that integrate
+        technology and artificial intelligence with soft skills while preparing students and professionals
+        for the technology-enabled insurance industry of the future.
+sponsors:
+  - name: Fiscal Policy
+    classification: committee
+    primary: true
+  - name: Appropriations Committee on Education
+    classification: committee
+    primary: true
+  - name: Education Postsecondary
+    classification: committee
+    primary: true
+  - name: Erin Grall
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2023-02-28"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2023-03-01"
+    description: Referred to Education Postsecondary; Appropriations Committee on Education; Fiscal Policy
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2023-03-07"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2023-03-10"
+    description: On Committee agenda-- Education Postsecondary, 03/15/23, 1:00 pm, 110 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-15"
+    description: CS by Education Postsecondary; YEAS 7 NAYS 3
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-16"
+    description: Pending reference review under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2023-03-17"
+    description: Now in Appropriations Committee on Education
+    actor: upper
+    classification:
+      - other
+  - date: "2023-03-21"
+    description: CS by Education Postsecondary read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2023-04-06"
+    description: On Committee agenda-- Appropriations Committee on Education, 04/12/23, 11:30 am, 412
+      Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-12"
+    description: CS/CS by Appropriations Committee on Education; YEAS 8 NAYS 4
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-14"
+    description: Pending reference review under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2023-04-14"
+    description: Now in Fiscal Policy
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-17"
+    description: On Committee agenda-- Fiscal Policy, 04/20/23, 9:30 am, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-17"
+    description: CS/CS by Appropriations Committee on Education read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2023-04-20"
+    description: CS/CS/CS by- Fiscal Policy; YEAS 14 NAYS 6
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-24"
+    description: Pending reference review -under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2023-04-24"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-24"
+    description: Placed on Special Order Calendar, 04/27/23
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: CS/CS/CS by Fiscal Policy read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2023-04-27"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2023-04-27"
+    description: Amendment(s) failed (229550, 304282, 380552, 624452)
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-27"
+    description: Amendment(s) adopted (213146, 424694)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2023-04-27"
+    description: Ordered engrossed
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-04-27"
+    description: Placed on 3rd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-28"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2023-04-28"
+    description: CS passed as amended; YEAS 27 NAYS 12
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-04-28"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-01"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-05-01"
+    description: Bill added to Special Order Calendar (5/2/2023)
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-01"
+    description: 1st Reading (Engrossed 1)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2023-05-02"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-05-02"
+    description: Amendment 901207 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 786363 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 499863 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 746441 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 105477 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 433959 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 528961 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 358283 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 402961 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 497493 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 051409 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 780349 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 553605 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Amendment 775507 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Placed on 3rd reading
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-03"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2023-05-03"
+    description: CS passed; YEAS 81, NAYS 34
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-05-03"
+    description: Ordered enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2023-05-15"
+    description: Signed by Officers and presented to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2023-05-15"
+    description: Approved by Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2023-05-16"
+    description: Chapter No. 2023-82, companion bill(s) passed, see CS/HB 1035 (Ch. 2023-38)
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-02-28"
+    url: https://www.flsenate.gov/Session/Bill/2023/266/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2023-03-17"
+    url: https://www.flsenate.gov/Session/Bill/2023/266/BillText/c1/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2023-04-14"
+    url: https://www.flsenate.gov/Session/Bill/2023/266/BillText/c2/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2023-04-24"
+    url: https://www.flsenate.gov/Session/Bill/2023/266/BillText/c3/HTML
+    media_type: text/html
+  - note: Engrossed
+    date: "2023-04-27"
+    url: https://www.flsenate.gov/Session/Bill/2023/266/BillText/e1/HTML
+    media_type: text/html
+  - note: Enrolled
+    date: "2023-05-03"
+    url: https://www.flsenate.gov/Session/Bill/2023/266/BillText/er/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1723029
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2023/266
+    title: SB 266 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2023/266/BillText/er/HTML
+    title: SB 266 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

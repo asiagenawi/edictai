@@ -1,0 +1,137 @@
+id: us-hi-2025-2026-hb-2500
+jurisdiction: us-hi
+session: 2025-2026
+identifier: HB 2500
+title: Relating To Artificial Intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - admissions
+  - equity-access
+  - institutional-operations
+summary: Requires developers and deployers of algorithmic decision systems to provide disclosures, including
+  notice to individuals affected by decisions about education enrollment or education opportunities, and
+  gives individuals rights to access and correct their data. Requires disclosure of generative AI interactions
+  and makes developers and deployers jointly liable for certain violations.
+provisions:
+  - type: requires-disclosure
+    description: Deployers must give notice to individuals affected by algorithmic decisions on education
+      enrollment or opportunities.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2500_.HTM
+      locator: Section 1, new § -3(a)
+      quote: 'which decision has a material legal or similarly significant effect on the provision or
+        denial to the individual of, or the cost or terms of: (1) Education enrollment or an education
+        opportunity;'
+sponsors:
+  - name: Daisy Hartsfield
+    primary: true
+    party: D
+    chamber: lower
+  - name: Terez Amato
+    primary: true
+    party: D
+    chamber: lower
+  - name: Della au Belatti
+    primary: true
+    party: D
+    chamber: lower
+  - name: Cory Chun
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tina Grandinetti
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ikaika Hussey
+    primary: true
+    party: D
+    chamber: lower
+  - name: Kim Iwamoto
+    primary: true
+    party: D
+    chamber: lower
+  - name: Darius Kila
+    primary: true
+    party: D
+    chamber: lower
+  - name: Matthias Kusch
+    primary: true
+    party: D
+    chamber: lower
+  - name: Nicole Lowen
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lisa Marten
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tyson Miyake
+    primary: true
+    party: D
+    chamber: lower
+  - name: Elijah Pierick
+    primary: true
+    party: R
+    chamber: lower
+  - name: Mahina Poepoe
+    primary: true
+    party: D
+    chamber: lower
+  - name: Julie Reyes Oda
+    primary: true
+    party: R
+    chamber: lower
+  - name: Kanani Souza
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-28"
+    description: Introduced and Pass First Reading.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-02"
+    description: Referred to ECD, CPC, JHA, referral sheet 6
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-02"
+    description: Bill scheduled to be heard by ECD on Friday, 02-06-26 8:30AM in House conference room
+      423 VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: The committee(s) on ECD recommend(s) that the measure be deferred.
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-01-28"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2500_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2100654
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2500&year=2026
+    title: HB 2500 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2500_.HTM
+    title: HB 2500 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

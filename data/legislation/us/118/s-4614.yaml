@@ -1,0 +1,78 @@
+id: us-118-s-4614
+jurisdiction: us
+session: "118"
+identifier: S. 4614
+title: SMART in Schools Act Social Media and AI Resiliency Toolkits in Schools Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - safety-wellbeing
+  - student-privacy
+  - local-policy-requirement
+  - educator-training
+summary: Directs the Secretaries of Health and Human Services and Education to develop and distribute
+  toolkits for students, educators, families, and school administrators on artificial intelligence and
+  social media, covering responsible use, chatbot risks, student data privacy, and school AI policies.
+provisions:
+  - type: issues-model-policy
+    description: Administrator toolkits must include guidance on developing school, district, and state
+      policies on how students and staff engage with AI.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4614/BILLS-118s4614is.pdf
+      locator: Sec. 3, administrator toolkits (D)(vi)(I)
+      quote: developing policies for a school, local educational agency, or State educational agency regarding
+        how students and staff engage with artificial intelligence and social media platforms;
+  - type: chatbot-minor-protections
+    description: Toolkits must inform students about their particular vulnerability to generative AI and
+      companion chatbots.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4614/BILLS-118s4614is.pdf
+      locator: Sec. 3
+      quote: the ways in which students are uniquely vulnerable to generative artificial intelligence
+        and ‘‘human- like’’ or ‘‘companion’’ chatbots and other high-risk applications of artifi- cial
+        intelligence;
+  - type: educator-pd-requirement
+    description: Administrator toolkits must include information on coordinating AI training for school
+      staff.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4614/BILLS-118s4614is.pdf
+      locator: Sec. 3, administrator toolkits (D)(iii)
+      quote: information on how to coordinate artificial intelligence and social media plat- form training
+        for school staff
+sponsors:
+  - name: Edward Markey
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-06-20"
+    description: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2024-08-09"
+    url: https://www.congress.gov/118/bills/s4614/BILLS-118s4614is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1883034
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/senate-bill/4614/all-info
+    title: S. 4614 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/s4614/BILLS-118s4614is.pdf
+    title: S. 4614 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

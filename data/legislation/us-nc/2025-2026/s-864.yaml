@@ -1,0 +1,117 @@
+id: us-nc-2025-2026-s-864
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 864
+title: Safe and Responsible AI in Schools Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - local-policy-requirement
+  - educator-training
+  - student-privacy
+  - academic-integrity
+  - procurement
+  - funding
+summary: Requires the State Board of Education to adopt K-12 AI literacy standards included in computer
+  science courses and to revise the computer science course of study. Requires the Department of Public
+  Instruction to develop a model AI policy and local boards and other public school units to adopt AI
+  use policies, establishes a framework for evaluating AI educational tools, and funds AI training modules
+  for educators and administrators through the Friday Institute.
+provisions:
+  - type: ai-in-standards
+    description: Requires K-12 AI literacy standards and AI literacy instruction in computer science courses.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S864v1.pdf
+      locator: Sec. 1.(a), new G.S. 115C-81.90(a1)
+      quote: The State Board shall adopt age-appropriate standards for instruction on artificial intelligence
+        (AI) literacy for grades kindergarten through 12. All courses offered pursuant to this section
+        shall include instruction on AI literacy aligned with the standards adopted by the State Board.
+  - type: issues-model-policy
+    description: Requires DPI to develop a model AI policy for public school units.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S864v1.pdf
+      locator: Sec. 2.(a), new G.S. 115C-102.13
+      quote: The Department of Public Instruction shall develop a model artificial intelligence (AI) policy
+        to serve as guidance to public school units when developing their AI policies.
+  - type: requires-local-ai-policy
+    description: Requires local boards of education to adopt AI use policies after reviewing the model
+      policy.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S864v1.pdf
+      locator: Sec. 2.(b), new G.S. 115C-47(73)
+      quote: Local boards of education shall adopt a policy on the use of artificial intelligence by students
+        and staff for educational purposes after review of the model policy developed by the Department
+        of Public Instruction pursuant to G.S. 115C-102.13.
+  - type: educator-pd-requirement
+    description: Specifies AI training module content for educators, including bias and academic integrity.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S864v1.pdf
+      locator: Part IV, training modules
+      quote: (4) Academic integrity and assessment redesign to account for greater student access to AI
+        tools. (5) Data privacy and security regarding AI tools.
+sponsors:
+  - name: Dana Jones
+    primary: true
+    party: R
+    chamber: upper
+  - name: Woodson Bradley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jim Burgin
+    primary: false
+    party: R
+    chamber: upper
+  - name: Norman Sanderson
+    primary: false
+    party: R
+    chamber: upper
+  - name: Vickie Sawyer
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-04-28"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-04-29"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-04-29"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-04-28"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S864v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-04-29"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S864v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2146074
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S864
+    title: S 864 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S864v1.pdf
+    title: S 864 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

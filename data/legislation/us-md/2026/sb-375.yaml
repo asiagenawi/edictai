@@ -1,0 +1,84 @@
+id: us-md-2026-sb-375
+jurisdiction: us-md
+session: "2026"
+identifier: SB 375
+title: County Boards of Education - Artificial Intelligence Training Program - Requirement
+classification: bill
+education_levels:
+  - k12
+topics:
+  - educator-training
+  - ai-literacy
+  - student-privacy
+summary: Requires the State Department of Education to develop or approve an artificial intelligence training
+  program for county board of education members, covering AI fundamentals, AI use policy development,
+  and student privacy and data protection laws. Requires each county board member to complete foundational
+  and then annual continuing AI training and the Department to report on the program's effectiveness.
+provisions:
+  - type: educator-pd-requirement
+    description: Requires the Department to develop or approve an AI training program for county board
+      members.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0375f.pdf
+      locator: Section 1, new § 4-148(b)
+      quote: 'THE DEPARTMENT SHALL DEVELOP OR APPROVE AN ARTIFICIAL INTELLIGENCE TRAINING PROGRAM FOR
+        MEMBERS OF COUNTY BOARDS THAT INCLUDES: (1) A FOUNDATIONAL TRAINING; AND (2) CONTINUING ANNUAL
+        TRAINING.'
+  - type: educator-pd-requirement
+    description: Requires each county board member to complete continuing AI training each year after
+      the foundational training.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0375f.pdf
+      locator: Section 1, new § 4-148(e)(2)
+      quote: THE MEMBER SHALL COMPLETE THE CONTINUING ARTIFICIAL INTELLIGENCE TRAINING REQUIRED UNDER
+        SUBSECTION (B) OF THIS SECTION.
+sponsors:
+  - name: Ron Watson
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-27"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2026-01-29"
+    description: Hearing 2/25 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Hearing canceled
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Hearing 2/27 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-27"
+    url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0375f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2095366
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0375?ys=2026RS
+    title: SB 375 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2026RS/bills/sb/sb0375f.pdf
+    title: SB 375 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,128 @@
+id: us-119-hr-8516
+jurisdiction: us
+session: "119"
+identifier: H.R. 8516
+title: American Leadership in AI Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - educator-training
+  - workforce
+  - research
+  - funding
+  - equity-access
+summary: Authorizes the National Science Foundation to fund research on K-12 AI literacy curricula and
+  educator professional learning, AI scholarships and fellowships for students, teachers, and school professionals,
+  up to eight community college and area career and technical education Centers of AI Excellence, and
+  research on teaching AI in pre-kindergarten through grade 12 classrooms. Also adds AI skills development
+  to the National STEM Teacher Corps, alongside federal AI standards, research, governance, and deepfake
+  provisions.
+provisions:
+  - type: appropriates-funding
+    description: Authorizes NSF awards to develop K-12 AI literacy curricula and evaluation methods.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8516/BILLS-119hr8516ih.pdf
+      locator: Sec. 621(b)
+      quote: The Director may make awards on a merit-reviewed, competitive basis to institutions of higher
+        education and nonprofit organizations (and consortia thereof) to support research activities to
+        develop edu- cational curricula and evaluation methods for AI literacy at the K–12 education level.
+  - type: ai-workforce-program
+    description: Authorizes NSF scholarships and fellowships for undergraduate and graduate students in
+      AI programs of study.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8516/BILLS-119hr8516ih.pdf
+      locator: Sec. 641, new subparagraph (D)
+      quote: The Director of the National Science Foundation may sup- port scholarships and fellowships
+        for un- dergraduate and graduate students by making awards through institutions of higher education,
+        including community col- leges,
+  - type: educator-pd-requirement
+    description: Authorizes fellowships for teachers and school professionals to train on AI in K-12 settings.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8516/BILLS-119hr8516ih.pdf
+      locator: Sec. 641, new subparagraph (E)(iv)
+      quote: The Director of the Na- tional Science Foundation may award fel- lowships to teachers, school
+        counselors, and other school professionals for profes- sional development programs
+  - type: ai-workforce-program
+    description: Establishes up to eight Community College and Area Career and Technical Education Centers
+      of AI Excellence.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8516/BILLS-119hr8516ih.pdf
+      locator: Sec. 642, new subparagraph (B)(ii)
+      quote: Such Centers of AI Excellence shall enhance educational outcomes and drive workforce development
+        by integrating artificial intelligence into teaching, learn- ing, and community engagement.
+  - type: educator-prep-requirement
+    description: Research awards must emphasize preparing incoming K-12 teachers to integrate AI into
+      their classrooms.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr8516/BILLS-119hr8516ih.pdf
+      locator: Sec. 643, new subsection (h)(4)
+      quote: (A) emphasize preparing incoming K–12 teachers to integrate artificial intelligence into
+        their classrooms in innovative ways;
+sponsors:
+  - name: Ted Lieu
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jay Obernolte
+    primary: false
+    party: R
+    chamber: lower
+  - name: Josh Gottheimer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Deborah Ross
+    primary: false
+    party: D
+    chamber: lower
+  - name: George Whitesides
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-04-27"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-04-27"
+    description: Referred to the Committee on Science, Space, and Technology, and in addition to the Committees
+      on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the
+      Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each
+      case for consideration of such provisions as fall within the jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-05-12"
+    url: https://www.congress.gov/119/bills/hr8516/BILLS-119hr8516ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2146181
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/8516/all-info
+    title: H.R. 8516 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr8516/BILLS-119hr8516ih.pdf
+    title: H.R. 8516 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

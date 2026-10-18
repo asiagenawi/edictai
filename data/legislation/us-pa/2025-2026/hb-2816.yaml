@@ -1,0 +1,92 @@
+id: us-pa-2025-2026-hb-2816
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 2816
+title: In student supports, further providing for policy relating to bullying and cyberbullying.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Extends school bullying and cyberbullying policy requirements to nonpublic schools and defines
+  cyberbullying to include the use of artificial intelligence-generated or modified media.
+provisions:
+  - type: addresses-deepfakes
+    description: Defines cyberbullying to include conduct using AI-generated or modified media.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2816/PN3982
+      locator: Section 1303.1-A(e)
+      quote: using a device, system, network, Internet service, email, social media or other digital means,
+        including artificial intelligence- generated or modified media, when the conduct meets the criteria
+        in paragraphs (1), (3) and (4) of the definition of "bullying."
+sponsors:
+  - name: Regina Young
+    primary: true
+    party: D
+    chamber: lower
+  - name: Carol Hill-Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sean Dougherty
+    primary: false
+    party: D
+    chamber: lower
+  - name: Daniel Deasy
+    primary: false
+    party: D
+    chamber: lower
+  - name: Manuel Guzman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Merski
+    primary: false
+    party: D
+    chamber: lower
+  - name: Darisha Parker
+    primary: false
+    party: D
+    chamber: lower
+  - name: Johanny Cepeda-Freytiz
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer O'Mara
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-10-02"
+    description: Referred to Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-10-02"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2816/PN3982
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2159542
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb2816
+    title: HB 2816 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2816/PN3982
+    title: HB 2816 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

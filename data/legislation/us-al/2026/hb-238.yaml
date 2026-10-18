@@ -1,0 +1,226 @@
+id: us-al-2026-hb-238
+jurisdiction: us-al
+session: "2026"
+identifier: HB 238
+title: Appropriations from Education Trust Fund for the support, maintenance, and development of public
+  education for fiscal year ending September 30, 2027
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+summary: Appropriates Education Trust Fund money for fiscal year 2027, including $1,000,000 to the Alabama
+  Community College System for Cyber Technology and AI Expansion and $2,000,000 for AI-Ready Classrooms
+  under the Advanced Innovation Grant Program in the State Department of Education's Financial Assistance
+  Program.
+provisions:
+  - type: appropriates-funding
+    description: Allocates $1,000,000 to the Alabama Community College System for Cyber Technology and
+      AI Expansion.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB238-enr.pdf
+      locator: Section 3, Community College System Board of Trustees, item (z)
+      quote: (z) Cyber Technology and AI Expansion 1,000,000 1,000,000
+  - type: appropriates-funding
+    description: Allocates $2,000,000 for AI-Ready Classrooms under the Advanced Innovation Grant Program.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB238-enr.pdf
+      locator: Section 3, Financial Assistance Program, item (5)a.
+      quote: (5) Advanced Innovation Grant Program a. AI-Ready Classrooms 2,000,000
+sponsors:
+  - name: Danny Garrett
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-14"
+    description: Read for the first time and referred to the House Committee on Ways and Means Education
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2026-01-14"
+    description: Pending House Ways and Means Education
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: Reported Out of Committee House of Origin from House Ways and Means Education XD4M57Z-1
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-11"
+    description: Read for the Second Time and placed on the Calendar
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-12"
+    description: Third Reading in House of Origin
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-12"
+    description: Ways and Means Education Engrossed Substitute Offered XD4M57Z-1
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Garrett motion to Table - Adopted Roll Call 875 XD4M57Z-1
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Garrett 1st Substitute Offered TBTIT99-1
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Motion to Adopt - Adopted Roll Call 876 TBTIT99-1
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Motion to Read a Third Time and Pass as Amended - Adopted Roll Call 877
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-12"
+    description: Engrossed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Read for the first time and referred to the Senate Committee on Finance and Taxation
+      Education
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2026-03-12"
+    description: Pending Senate Finance and Taxation Education
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-01"
+    description: Finance and Taxation Education 1st Substitute I3TGU6Z-1
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-01"
+    description: Reported Out of Committee Second House
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-01"
+    description: Read for the Second Time and placed on the Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-04-02"
+    description: Third Reading in Second House
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-04-02"
+    description: Finance and Taxation Education 1st Substitute Offered I3TGU6Z-1
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Orr motion to Table - Adopted Voice Vote I3TGU6Z-1
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Orr 2nd Substitute Offered RBPXJNM-1
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Orr motion to Adopt - Adopted Roll Call 1105 RBPXJNM-1
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Orr 1st Amendment Offered MSNAYHH-1
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Orr motion to Adopt - Adopted Roll Call 1106 MSNAYHH-1
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Motion to Read a Third Time and Pass as Amended - Adopted Roll Call 1107
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-07"
+    description: Garrett Motion to Concur In and Adopt Senate Amendment - Adopted Roll Call 1246
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-04-07"
+    description: Ready to Enroll
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-04-08"
+    description: Signature Requested
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-09"
+    description: Enacted
+    actor: executive
+    classification:
+      - became-law
+  - date: "2026-04-09"
+    description: Enacted
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2026-01-14"
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB238-int.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-03-12"
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB238-eng.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-04-08"
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB238-enr.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2080249
+sources:
+  - url: https://alison.legislature.state.al.us/bill-search
+    title: HB 238 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB238-enr.pdf
+    title: HB 238 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

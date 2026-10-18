@@ -1,0 +1,133 @@
+id: us-119-hr-10515
+jurisdiction: us
+session: "119"
+identifier: H.R. 10515
+title: Artificial Intelligence Education and Workforce Readiness Act of 2026
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - educator-training
+  - assessment
+  - local-policy-requirement
+  - procurement
+  - academic-integrity
+  - student-privacy
+  - research
+  - workforce
+  - equity-access
+  - funding
+summary: Establishes a federal framework for AI in education and the workforce, including training for
+  teachers and school leaders on AI use without replacing educators, research and regional centers on
+  AI in education, AI workforce and reskilling grants, equitable-access grants, and federal resources
+  on AI procurement, family consent, and model policies on AI misuse.
+provisions:
+  - type: educator-pd-requirement
+    description: Funds prepare teachers and school leaders to use AI to improve instruction, assessment,
+      and communication without replacing educators.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10515/BILLS-119hr10515ih.pdf
+      locator: Sec. 105 (amending Section 2103(b)(3))
+      quote: prepare teachers, principals, superintendents, and other school leaders to— ‘‘(i) use artificial
+        intelligence to im- prove instruction, assessment, and commu- nication among students, educators,
+        and families, without replacing— ‘‘(I) educators;
+  - type: regulates-ai-assessment
+    description: Core educator capacities include reviewing and approving any AI-generated or AI-scored
+      assessment of student work.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10515/BILLS-119hr10515ih.pdf
+      locator: Sec. 105 (amending Section 2103(b)(3))
+      quote: reviewing and approving any assessment of student work generated or scored by artificial
+        intel- ligence prior to such
+  - type: issues-model-policy
+    description: Federal resources must include illustrative model policies to mitigate abuses of AI in
+      educational activities, including academic dishonesty.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10515/BILLS-119hr10515ih.pdf
+      locator: Sec. 503
+      quote: model policies, which shall be illustrative and not prescriptive, for the purpose of mitigating
+        abuses of artificial intelligence in educational activi- ties, including—
+  - type: procurement-standards
+    description: Federal resources address procurement of AI tools by educational agencies and institutions.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10515/BILLS-119hr10515ih.pdf
+      locator: Sec. 503
+      quote: for procuring artificial intelligence tools for use in education;
+sponsors:
+  - name: Suzanne Bonamici
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ted Lieu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Valerie Foushee
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josh Gottheimer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Raja Krishnamoorthi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jimmy Panetta
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bennie Thompson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frederica Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Greg Landsman
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-09-21"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-09-21"
+    description: Referred to the Committee on Education and Workforce, and in addition to the Committees
+      on Science, Space, and Technology, and Ways and Means, for a period to be subsequently determined
+      by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction
+      of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-09-29"
+    url: https://www.congress.gov/119/bills/hr10515/BILLS-119hr10515ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2158730
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/10515/all-info
+    title: H.R. 10515 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr10515/BILLS-119hr10515ih.pdf
+    title: H.R. 10515 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

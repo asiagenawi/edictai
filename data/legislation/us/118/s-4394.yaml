@@ -1,0 +1,121 @@
+id: us-118-s-4394
+jurisdiction: us
+session: "118"
+identifier: S. 4394
+title: NSF AI Education Act of 2024
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - workforce
+  - educator-training
+  - local-policy-requirement
+  - instructional-use
+summary: Directs the National Science Foundation to award scholarships for students studying artificial
+  intelligence, including the teaching of AI in schools and colleges, and fellowships for students, teachers,
+  and faculty in AI. Creates community college and vocational school Centers of AI Excellence and requires
+  guidance on the introduction and use of AI in elementary and secondary education.
+provisions:
+  - type: appropriates-funding
+    description: Directs NSF to award scholarships to undergraduates to study the teaching of AI and AI
+      skills at schools and institutions of higher education.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4394/BILLS-118s4394rs.pdf
+      locator: Sec. 3(c)(1)
+      quote: to undergraduate students at institutions of higher education in order to enable such students
+        to study the teaching of artificial intelligence and artificial in- telligence skills at elementary
+        schools, secondary schools, career and technical education schools
+  - type: educator-pd-requirement
+    description: Establishes an NSF program with AI fellowships for students, teachers, and faculty at
+      institutions of higher education.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4394/BILLS-118s4394rs.pdf
+      locator: Sec. 5(a)
+      quote: including through fellowships for students, teachers, faculty at institu- tions of higher
+        education, and industry professionals.
+  - type: ai-workforce-program
+    description: Designated Centers of AI Excellence disseminate best practices for AI research and education
+      at community colleges and area career and technical education schools.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4394/BILLS-118s4394rs.pdf
+      locator: Sec. 9(e)
+      quote: (1) artificial intelligence research and education at community colleges and area career
+        and technical education schools;
+  - type: issues-model-policy
+    description: Directs NSF, with the Secretary of Education and others, to develop public guidance on
+      introducing and using AI in elementary and secondary education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4394/BILLS-118s4394rs.pdf
+      locator: Sec. 12(a)
+      quote: shall develop and make publicly available guidance for the introduction and use of artificial
+        intelligence in elementary and sec- ondary education.
+sponsors:
+  - name: Maria Cantwell
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jerry Moran
+    primary: false
+    party: R
+    chamber: upper
+  - name: Charles Schumer
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-05-22"
+    description: Read twice and referred to the Committee on Commerce, Science, and Transportation.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+  - date: "2024-07-31"
+    description: Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment
+      in the nature of a substitute favorably.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-08-01"
+    description: Committee on Commerce, Science, and Transportation. Reported by Senator Cantwell with
+      an amendment in the nature of a substitute. Without written report.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-08-01"
+    description: Placed on Senate Legislative Calendar under General Orders. Calendar No. 486.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-07-09"
+    url: https://www.congress.gov/118/bills/s4394/BILLS-118s4394is.pdf
+    media_type: application/pdf
+  - note: Introduced
+    date: "2024-08-02"
+    url: https://www.congress.gov/118/bills/s4394/BILLS-118s4394rs.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1880117
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/senate-bill/4394/all-info
+    title: S. 4394 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/s4394/BILLS-118s4394rs.pdf
+    title: S. 4394 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

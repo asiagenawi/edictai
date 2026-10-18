@@ -1,0 +1,76 @@
+id: us-ma-2025-2026-s-429
+jurisdiction: us-ma
+session: 2025-2026
+identifier: S 429
+title: To establish a commission to investigate AI in education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+  - academic-integrity
+  - student-privacy
+  - equity-access
+summary: Creates a commission within the executive office of education to study the use of AI in education,
+  survey uses of generative AI and automated decision systems in school systems, and recommend guidelines
+  for ethical AI use in teaching and learning, data protection, plagiarism policies, watermarking, and
+  equitable AI use.
+provisions:
+  - type: creates-task-force
+    description: Establishes a commission to study and make recommendations on AI use in education, including
+      guidelines for educators and student use.
+    citation:
+      source_url: https://malegislature.gov/Bills/194/S429.pdf
+      locator: Sec. 1, new c. 69A(b)
+      quote: There shall be a commission within the executive office of education for the purpose of studying
+        and making recommendations relative to the use of AI in education
+sponsors:
+  - name: Jacob Oliveira
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-27"
+    description: Referred to the Joint Committee on Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-02-27"
+    description: House concurred
+    actor: lower
+    classification:
+      - other
+  - date: "2025-10-29"
+    description: Hearing scheduled for 11/12/2025 from 11:00 AM-05:00 PM in Gardner Auditorium
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-12-04"
+    description: Accompanied a study order, see S2792
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-02-27"
+    url: https://malegislature.gov/Bills/194/S429.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1998675
+sources:
+  - url: https://malegislature.gov/Bills/194/S429
+    title: S 429 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://malegislature.gov/Bills/194/S429.pdf
+    title: S 429 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

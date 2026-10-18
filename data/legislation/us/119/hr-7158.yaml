@@ -1,0 +1,90 @@
+id: us-119-hr-7158
+jurisdiction: us
+session: "119"
+identifier: H.R. 7158
+title: Expanding AI Voices Act Expanding AI Voices through Capacity Building Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - equity-access
+  - funding
+  - workforce
+  - educator-training
+summary: Directs the National Science Foundation to make awards to institutions of higher education outside
+  the top research spenders, and to nonprofits, to broaden participation in AI research, education, and
+  workforce development, including faculty development and student bridge programs.
+provisions:
+  - type: appropriates-funding
+    description: NSF must make competitive awards to eligible institutions of higher education to broaden
+      participation in AI research, education, and workforce development.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr7158/BILLS-119hr7158ih.pdf
+      locator: Sec. 2, new 5401(g)(1)
+      quote: shall make awards on a competitive, merit-reviewed basis to eligible institutions of higher
+        education specified in paragraph (2) or eligible non- profit organizations (or consortia thereof)
+        to broaden participation in artificial intelligence research, edu- cation, and workforce development
+  - type: educator-pd-requirement
+    description: Award funds may be used for faculty recruitment and professional development in AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr7158/BILLS-119hr7158ih.pdf
+      locator: Sec. 2, new 5401(g)(4)(B)
+      quote: Faculty recruitment and professional development in artificial intelligence and related disciplines.
+sponsors:
+  - name: Valerie Foushee
+    primary: true
+    party: D
+    chamber: lower
+  - name: Zachary Nunn
+    primary: false
+    party: R
+    chamber: lower
+  - name: Deborah Ross
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josh Gottheimer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shri Thanedar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ted Lieu
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-20"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-20"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-11"
+    url: https://www.congress.gov/119/bills/hr7158/BILLS-119hr7158ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2087725
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/7158/all-info
+    title: H.R. 7158 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr7158/BILLS-119hr7158ih.pdf
+    title: H.R. 7158 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,200 @@
+id: us-ny-2025-2026-s-7599
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 7599
+title: Regulates automated decision-making by government agencies; requires agencies to conduct impact
+  assessments; requires disclosure of automated decision-making tools utilized by governmental agencies.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+summary: Regulates automated decision-making by government agencies with impact assessments and disclosure,
+  and amends the education law so that use of AI systems and automated decision-making tools by boards
+  of education, BOCES, SUNY, CUNY, and community colleges cannot displace employees, impair collective
+  bargaining agreements, or transfer employees' duties to AI.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Bars use of AI systems by boards of education from displacing employees or transferring
+      their duties to AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07599&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07599C
+      locator: Sec. 5, Education Law 2585(5)(b)
+      quote: 'The use of such artificial intelligence systems and automated decision-making tools shall
+        not result in the: (i) discharge, displace- ment or loss of position'
+  - type: prohibits-ai-replacing-educators
+    description: Protects the employment rights and status of SUNY, CUNY, and community college employees
+      when AI systems are used.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07599&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07599C
+      locator: Sec. 8, new Education Law 115(3)
+      quote: including but not limited to terms and conditions of employment, civil service status, and
+        collective bargaining unit membership status of all existing employees of the state university
+        of New York, the city univer- sity of New York, or community colleges shall be preserved and protected.
+sponsors:
+  - name: Kristen Gonzalez
+    primary: true
+    party: D
+    chamber: upper
+  - name: Cordell Cleare
+    primary: false
+    party: D
+    chamber: upper
+  - name: Andrew Gounardes
+    primary: false
+    party: D
+    chamber: upper
+  - name: Peter Harckham
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Jackson
+    primary: false
+    party: D
+    chamber: upper
+  - name: John Liu
+    primary: false
+    party: D
+    chamber: upper
+  - name: Roxanne Persaud
+    primary: false
+    party: D
+    chamber: upper
+  - name: Julia Salazar
+    primary: false
+    party: D
+    chamber: upper
+  - name: James Sanders
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lea Webb
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-04-23"
+    description: REFERRED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-05-29"
+    description: 1ST REPORT CAL.1510
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-30"
+    description: AMENDED (T) 7599A
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-04"
+    description: AMENDED 7599B
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-04"
+    description: 2ND REPORT CAL.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-05"
+    description: ADVANCED TO THIRD READING
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-06-09"
+    description: AMENDED ON THIRD READING 7599C
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-06-12"
+    description: PASSED SENATE
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-06-12"
+    description: DELIVERED TO ASSEMBLY
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-12"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-06-16"
+    description: substituted for a8295d
+    actor: lower
+    classification:
+      - substitution
+  - date: "2025-06-16"
+    description: ordered to third reading rules cal.406
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-16"
+    description: passed assembly
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-06-16"
+    description: returned to senate
+    actor: lower
+    classification:
+      - other
+  - date: "2025-12-08"
+    description: DELIVERED TO GOVERNOR
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-12-19"
+    description: SIGNED CHAP.711
+    actor: upper
+    classification:
+      - other
+  - date: "2025-12-19"
+    description: APPROVAL MEMO.86
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-04-23"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07599&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07599
+    media_type: text/html
+  - note: Amended
+    date: "2025-04-23"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07599&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07599A
+    media_type: text/html
+  - note: Amended
+    date: "2025-04-23"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07599&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07599B
+    media_type: text/html
+  - note: Amended
+    date: "2025-04-23"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07599&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07599C
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2025948
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S7599
+    title: S 7599 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07599&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07599C
+    title: S 7599 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

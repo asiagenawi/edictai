@@ -1,0 +1,95 @@
+id: us-oh-2025-2026-hb-106
+jurisdiction: us-oh
+session: 2025-2026
+identifier: HB 106
+title: Enact Alyssa's Law
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - safety-wellbeing
+  - procurement
+summary: Enacts Alyssa's Law, appropriating $25 million for a Department of Public Safety pilot grant
+  program that lets school districts, community schools, STEM schools, and chartered nonpublic schools
+  buy panic alert systems or contract for artificial intelligence firearm detection software, and sets
+  criteria the software must meet.
+provisions:
+  - type: appropriates-funding
+    description: Creates a pilot grant program for schools to buy panic alert systems or contract for
+      AI firearm detection software.
+    citation:
+      source_url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb106/00_IN/pdf/
+      locator: Section 2(A)
+      quote: pilot grants to school districts, community schools established under Chapter 3314. of the
+        Revised Code, STEM schools established under Chapter 3326. of the Revised Code, and chartered
+        nonpublic schools to purchase a wearable panic alert system
+  - type: procurement-standards
+    description: Requires AI firearm detection software used by grant recipients to meet listed criteria,
+      such as detecting visible firearms, anti-terrorism designation, and integration with school cameras.
+    citation:
+      source_url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb106/00_IN/pdf/
+      locator: Section 2(B)(4)
+      quote: 'A requirement that any artificial intelligence firearm detection software that a district
+        or school intends to use meets all of the following criteria:'
+sponsors:
+  - name: Angela King
+    primary: true
+    party: R
+    chamber: lower
+  - name: Melanie Miller
+    primary: true
+    party: R
+    chamber: lower
+  - name: Sean Brennan
+    primary: true
+    party: D
+    chamber: lower
+  - name: Gary Click
+    primary: true
+    party: R
+    chamber: lower
+  - name: Kellie Deeter
+    primary: true
+    party: R
+    chamber: lower
+  - name: Beth Lear
+    primary: true
+    party: R
+    chamber: lower
+  - name: Josh Williams
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-18"
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-26"
+    description: 'Referred to committee: Finance'
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb106/00_IN/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1973495
+sources:
+  - url: https://www.legislature.ohio.gov/legislation/136/hb106
+    title: HB 106 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb106/00_IN/pdf/
+    title: HB 106 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

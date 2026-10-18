@@ -1,0 +1,62 @@
+id: us-ma-2023-2024-s-2710
+jurisdiction: us-ma
+session: 2023-2024
+identifier: S 2710
+title: Site Information & Links
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - ai-literacy
+summary: Directs the Office of the Child Advocate, consulting the Department of Elementary and Secondary
+  Education and others, to create an educational diversion program on sexting that covers the responsible
+  use of generative artificial intelligence, with materials made available to school districts. Directs
+  the department to encourage districts to teach media literacy using content from that program.
+provisions:
+  - type: addresses-deepfakes
+    description: The sexting diversion curriculum for adolescents must cover responsible use of generative
+      AI and image digitization tools, and its materials go to school districts.
+    citation:
+      source_url: https://malegislature.gov/Bills/193/S2710.pdf
+      locator: Sec. 1, new G.L. c. 18C, §15(a)(iv)
+      quote: the responsible use of generative artificial intelligence and other visual material digitization
+        tools
+actions:
+  - date: "2024-03-21"
+    description: Text of S2703, reprinted as amended
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-03-21"
+    description: Substituted for H4241
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-03-22"
+    description: See H4241
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-03-21"
+    url: https://malegislature.gov/Bills/193/S2710.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1866861
+sources:
+  - url: https://malegislature.gov/Bills/193/S2710
+    title: S 2710 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://malegislature.gov/Bills/193/S2710.pdf
+    title: S 2710 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

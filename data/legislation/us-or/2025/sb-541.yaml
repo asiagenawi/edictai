@@ -1,0 +1,95 @@
+id: us-or-2025-sb-541
+jurisdiction: us-or
+session: "2025"
+identifier: SB 541
+title: Relating to computer science education; declaring an emergency.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - educator-training
+  - curriculum-standards
+summary: Requires school districts to offer computer science education in all grades and adds computer
+  science to required instruction. Directs the Department of Education to develop programming that supports
+  teachers in integrating computational thinking and artificial intelligence into existing classes and
+  curricula.
+provisions:
+  - type: educator-pd-requirement
+    description: Directs the Department of Education to develop programming supporting teachers in integrating
+      AI into existing classes and curricula.
+    citation:
+      source_url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB541/A-Engrossed
+      locator: Section 2(2)(a)
+      quote: Support current teachers in expanding their capacity to teach computer science courses, including
+        integrating computational thinking and artificial intelligence into existing classes and curricula
+sponsors:
+  - name: Janeen Sollman
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-13"
+    description: Introduction and first reading. Referred to President's desk.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-01-17"
+    description: Referred to Education, then Ways and Means.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-05"
+    description: Public Hearing held.
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2025-04-07"
+    description: Work Session held.
+    actor: upper
+    classification:
+      - committee-hearing
+  - date: "2025-04-10"
+    description: 'Recommendation: Do pass with amendments and be referred to Ways and Means by prior reference.
+      (Printed A-Eng.)'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-10"
+    description: Referred to Ways and Means by prior reference.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-06-27"
+    description: In committee upon adjournment.
+    actor: upper
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB541/Introduced
+    media_type: application/pdf
+  - note: Introduced
+    url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB541/Senate%20Amendments%20to%20Introduced
+    media_type: application/pdf
+  - note: Engrossed
+    url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB541/A-Engrossed
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1914598
+sources:
+  - url: https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/SB541
+    title: SB 541 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB541/A-Engrossed
+    title: SB 541 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

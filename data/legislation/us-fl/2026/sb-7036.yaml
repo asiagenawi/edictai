@@ -1,0 +1,188 @@
+id: us-fl-2026-sb-7036
+jurisdiction: us-fl
+session: "2026"
+identifier: SB 7036
+title: Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - procurement
+  - task-force
+  - funding
+summary: An education bill that, among many provisions, requires the Department of Education to collaborate
+  with the Lastinger Center for Learning to recommend individualized, adaptive artificial intelligence
+  tools to support K-12 mathematics instruction, and allows reserved Title I funds to support STEM learning
+  technologies including AI.
+provisions:
+  - type: creates-task-force
+    description: The Department and the Lastinger Center must recommend adaptive AI tools for K-12 math
+      instruction to the Legislature.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/7036/BillText/c2/HTML
+      locator: Sec. 29(1)
+      quote: The Department of Education shall collaborate with the Lastinger Center for Learning at the
+        University of Florida to recommend to the Legislature individualized, adaptive artificial intelligence
+        tools to support mathematics instruction in grades K-12.
+  - type: appropriates-funding
+    description: Reserved Title I funds may support STEM curricula and technologies including AI in Title
+      I schools.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/7036/BillText/c2/HTML
+      locator: Sec. 23
+      quote: related learning technologies that support academic achievement in science, technology, engineering,
+        and mathematics in Title I schools, including, but not limited to, technologies related to drones,
+        coding, animation, artificial intelligence
+sponsors:
+  - name: Rules
+    classification: committee
+    primary: true
+  - name: Senate Appropriations Committee on Pre-K - 12 Education
+    classification: committee
+    primary: true
+  - name: Education Pre-K - 12
+    classification: committee
+    primary: true
+actions:
+  - date: "2026-01-29"
+    description: Submitted for consideration by Education Pre-K - 12
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: On Committee agenda-- Education Pre-K - 12, 02/03/26, 3:30 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: Submitted as Committee Bill and Reported Favorably by Education Pre-K - 12; YEAS 5 NAYS
+      2
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-04"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-05"
+    description: Referred to Appropriations Committee on Pre-K - 12 Education; Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-09"
+    description: On Committee agenda-- Appropriations Committee on Pre-K - 12 Education, 02/12/26, 2:30
+      pm, 37 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-10"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-12"
+    description: CS by Appropriations Committee on Pre-K - 12 Education; YEAS 10 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-16"
+    description: Pending reference review under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-02-16"
+    description: Now in Rules
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-18"
+    description: CS by Appropriations Committee on Pre-K - 12 Education read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-19"
+    description: On Committee agenda-- Rules, 02/24/26, 12:00 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: CS/CS by- Rules; YEAS 22 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Pending reference review -under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-02-25"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: CS/CS by Rules read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-03-06"
+    description: Placed on Special Order Calendar, 03/10/26
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-10"
+    description: Retained on Special Order Calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: Retained on Special Order Calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Retained on Special Order Calendar
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Died on Calendar
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Prefiled
+    date: "2026-01-29"
+    url: https://www.flsenate.gov/Session/Bill/2026/7036/BillText/pb/HTML
+    media_type: text/html
+  - note: Introduced
+    date: "2026-02-04"
+    url: https://www.flsenate.gov/Session/Bill/2026/7036/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-02-16"
+    url: https://www.flsenate.gov/Session/Bill/2026/7036/BillText/c1/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-02-25"
+    url: https://www.flsenate.gov/Session/Bill/2026/7036/BillText/c2/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2102373
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/7036
+    title: SB 7036 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/7036/BillText/c2/HTML
+    title: SB 7036 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

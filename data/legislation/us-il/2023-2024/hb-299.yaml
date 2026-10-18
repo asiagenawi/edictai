@@ -1,0 +1,368 @@
+id: us-il-2023-2024-hb-299
+jurisdiction: us-il
+session: 2023-2024
+identifier: HB 299
+title: EDUCATION-TECH
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Amends the School Code's bullying prevention provisions to define artificial intelligence, generative
+  AI, and digital replicas and, per its synopsis, to include posting or distributing digital replicas
+  and sexually explicit images in cyber-bullying beginning with the 2025-2026 school year.
+provisions:
+  - type: addresses-deepfakes
+    description: Defines digital replicas created with AI for purposes of the school bullying prevention
+      section.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB0299eng.htm
+      locator: Sec. 27-23.7(b)
+      quote: individual created using a computer, algorithm, software, tool, artificial intelligence,
+        or other technology that is fixed in a sound recording or audiovisual work in which that individual
+        did not actually perform or appear
+sponsors:
+  - name: Janet Yang Rohr
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jennifer Gong-Gershowitz
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gregg Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Barbara Hernandez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Rita
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joyce Mason
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maura Hirschauer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Faver Dias
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anne Stava-Murray
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dave Vella
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kimberly Du Buclet
+    primary: false
+    party: D
+    chamber: lower
+  - name: Suzanne Ness
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kelly Cassidy
+    primary: false
+    party: D
+    chamber: lower
+  - name: Matt Hanson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Don Harmon
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2022-12-05"
+    description: Prefiled with Clerk by Rep. Emanuel "Chris" Welch
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-01-12"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2023-01-12"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-02-23"
+    description: Assigned to Executive Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-01"
+    description: Do Pass / Short Debate Executive Committee; 011-000-000
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-03-01"
+    description: Placed on Calendar 2nd Reading - Short Debate **
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-16"
+    description: Second Reading - Short Debate
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-03-16"
+    description: Held on Calendar Order of Second Reading - Short Debate **
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-27"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-05-15"
+    description: Chief Sponsor Changed to Rep. Janet Yang Rohr
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Approved for Consideration Rules Committee; 005-000-000
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-05-15"
+    description: Placed on Calendar 2nd Reading - Short Debate
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Third Reading Deadline Extended-Rule May 24, 2024
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-05-15"
+    description: House Floor Amendment No. 1 Filed with Clerk by Rep. Janet Yang Rohr
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: House Floor Amendment No. 1 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: House Floor Amendment No. 2 Filed with Clerk by Rep. Janet Yang Rohr
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: House Floor Amendment No. 2 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Chief Co-Sponsor Rep. Jennifer Gong-Gershowitz
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Chief Co-Sponsor Rep. Gregg Johnson
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Chief Co-Sponsor Rep. Barbara Hernández
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Chief Co-Sponsor Rep. Robert "Bob" Rita
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Joyce Mason
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Maura Hirschauer
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Laura Faver Dias
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Anne Stava-Murray
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Dave Vella
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: Added Co-Sponsor Rep. Kimberly Du Buclet
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-15"
+    description: 'House Floor Amendment No. 2 Rules Refers to Elementary & Secondary Education: School
+      Curriculum & Policies Committee'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-16"
+    description: House Floor Amendment No. 3 Filed with Clerk by Rep. Janet Yang Rohr
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-16"
+    description: House Floor Amendment No. 3 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-16"
+    description: 'House Floor Amendment No. 2 Recommends Be Adopted Elementary & Secondary Education:
+      School Curriculum & Policies Committee; 014-000-000'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-05-16"
+    description: Added Co-Sponsor Rep. Suzanne M. Ness
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-20"
+    description: House Floor Amendment No. 3 Recommends Be Adopted Rules Committee; 005-000-000
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-05-21"
+    description: House Floor Amendment No. 4 Filed with Clerk by Rep. Janet Yang Rohr
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-21"
+    description: House Floor Amendment No. 4 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-21"
+    description: Added Co-Sponsor Rep. Kelly M. Cassidy
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: 'House Floor Amendment No. 4 Rules Refers to Elementary & Secondary Education: School
+      Curriculum & Policies Committee'
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: 'House Floor Amendment No. 4 Recommends Be Adopted Elementary & Secondary Education:
+      School Curriculum & Policies Committee; 015-000-000'
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-05-22"
+    description: House Floor Amendment No. 2 Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-05-22"
+    description: House Floor Amendment No. 3 Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-05-22"
+    description: House Floor Amendment No. 4 Adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-05-22"
+    description: Placed on Calendar Order of 3rd Reading - Short Debate
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: Third Reading - Short Debate - Passed 112-000-000
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-05-22"
+    description: House Floor Amendment No. 1 Tabled
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: Added Co-Sponsor Rep. Matt Hanson
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: Arrive in Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: Placed on Calendar Order of First Reading
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: Chief Senate Sponsor Sen. Don Harmon
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-22"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-05-22"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-01-11"
+    url: https://www.ilga.gov/legislation/103/HB/10300HB0299.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2024-05-22"
+    url: https://www.ilga.gov/legislation/103/HB/10300HB0299eng.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1635340
+sources:
+  - url: https://www.ilga.gov/legislation/BillStatus.asp?DocNum=299&GAID=17&DocTypeID=HB&SessionID=112&GA=103
+    title: HB 299 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/legislation/103/HB/10300HB0299eng.htm
+    title: HB 299 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

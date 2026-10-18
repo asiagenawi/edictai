@@ -1,0 +1,82 @@
+id: us-il-2025-2026-sb-1677
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 1677
+title: SCH CD-TEACHER EVALUATION PLAN
+classification: bill
+education_levels:
+  - k12
+topics:
+  - employment-evaluation
+summary: Amends the School Code's teacher evaluation provisions to prohibit evaluators from using artificial
+  intelligence tools to perform teacher evaluation tasks, including transcription.
+sponsors:
+  - name: Christopher Belt
+    primary: true
+    party: D
+    chamber: upper
+  - name: Adriane Johnson
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-05"
+    description: Filed with Secretary by Sen. Christopher Belt
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-05"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-02-05"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-18"
+    description: Added as Co-Sponsor Sen. Adriane L. Johnson
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-12"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-19"
+    description: To AI and Social Media
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-21"
+    description: Rule 2-10 Committee Deadline Established As April 11, 2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-11"
+    description: Rule 3-9(a) / Re-referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-05"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200372&DocName=10400SB1677&DocNum=1677&DocTypeID=SB&LegID=160585&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1957381
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=1677&GAID=18&DocTypeID=SB&LegId=160585&SessionID=114
+    title: SB 1677 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200372&DocName=10400SB1677&DocNum=1677&DocTypeID=SB&LegID=160585&GAID=18&SessionID=114&SpecSess=&Session=
+    title: SB 1677 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

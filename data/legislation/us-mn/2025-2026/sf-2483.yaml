@@ -1,0 +1,92 @@
+id: us-mn-2025-2026-sf-2483
+jurisdiction: us-mn
+session: 2025-2026
+identifier: SF 2483
+title: Omnibus Higher Education policy and appropriations
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Provides higher education funding and policy changes for the Office of Higher Education, Minnesota
+  State Colleges and Universities, and the University of Minnesota. Its campus sexual misconduct provisions
+  define sexual misconduct, which institutional policies must address, to include nonconsensual dissemination
+  of a deepfake depicting intimate parts or sexual acts.
+provisions:
+  - type: addresses-deepfakes
+    description: Includes deepfake dissemination in the sexual misconduct definition governing postsecondary
+      institution policies.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2483/versions/2/pdf/
+      locator: 135A.15 definitions, paragraph (n) [Page 32]
+      quote: of sexual images, sexual extortion, nonconsensual dissemination of a deepfake depicting
+sponsors:
+  - name: Omar Fateh
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-03-13"
+    description: Introduction and first reading
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-03-13"
+    description: Referred to Higher Education
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-22"
+    description: 'Comm report: To pass as amended and re-refer to Finance'
+    actor: upper
+    classification:
+      - passage
+      - referral-committee
+  - date: "2025-04-29"
+    description: 'Comm report: To pass as amended'
+    actor: upper
+    classification:
+      - passage
+      - committee-passage
+  - date: "2025-04-29"
+    description: Second reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-30"
+    description: Rule 45-amend, subst. General Orders HF2431, SF indefinitely postponed
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2025-03-11"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2483/versions/0/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-04-22"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2483/versions/1/pdf/
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-04-29"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2483/versions/2/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2005093
+sources:
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2483/
+    title: SF 2483 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/SF/2483/versions/2/pdf/
+    title: SF 2483 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

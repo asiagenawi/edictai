@@ -1,0 +1,176 @@
+id: us-ca-2023-2024-ab-2370
+jurisdiction: us-ca
+session: 2023-2024
+identifier: AB 2370
+title: 'Community colleges: faculty: instructor of record: qualifications.'
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - employment-evaluation
+summary: As introduced, would bar artificial intelligence from replacing community college faculty in
+  providing academic instruction to and regular interaction with students, allowing it only as a peripheral
+  tool for uses such as course development, assessment, and tutoring. The chaptered version instead requires
+  the instructor of record for a course to meet faculty minimum qualifications. The AI provisions were
+  removed by amendment.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: As introduced, AI could not replace community college faculty for instruction and could
+      be used only as a peripheral support tool.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2370#99INT
+      locator: Introduced, Sec. 1, new Section 87709
+      quote: Artificial intelligence shall not be used to replace faculty for purposes of providing academic
+        instruction to, and regular interaction with, students in a course of instruction, and may only
+        be used as a peripheral tool to support faculty in carrying out those tasks
+sponsors:
+  - name: Sabrina Cervantes
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-12"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-02-13"
+    description: From printer. May be heard in committee March 14.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-18"
+    description: Referred to Coms. on P. & C.P. and HIGHER ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-01"
+    description: 'In committee: Set, first hearing. Hearing canceled at the request of author.'
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2024-04-15"
+    description: 'In committee: Hearing postponed by committee.'
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-04-17"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to Com. on P. &
+      C.P. Read second time and amended.'
+    actor: lower
+    classification:
+      - reading-2
+      - committee-passage
+  - date: "2024-04-18"
+    description: Re-referred to Com. on P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-18"
+    description: Re-referred to Com. on HIGHER ED. pursuant to Assembly Rule 96.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-24"
+    description: 'From committee: Do pass. (Ayes 10. Noes 0.) (April 23).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-25"
+    description: Read second time. Ordered to third reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-05-02"
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 73. Noes 0. Page 5080.)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-05-02"
+    description: In Senate. Read first time. To Com. on RLS. for assignment.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-05-15"
+    description: Referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-06-05"
+    description: 'From committee: Do pass. To Consent Calendar. (Ayes 7. Noes 0.) (June 5).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-06-06"
+    description: Read second time. Ordered to Consent Calendar.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-06-13"
+    description: Read third time. Passed. Ordered to the Assembly. (Ayes 37. Noes 0. Page 4489.).
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-06-13"
+    description: In Assembly. Ordered to Engrossing and Enrolling.
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-06-25"
+    description: Enrolled and presented to the Governor at 4 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-07-02"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-07-02"
+    description: Chaptered by Secretary of State - Chapter 66, Statutes of 2024.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2024-02-12"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2370#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2024-04-17"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2370#98AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2024-06-18"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2370#97ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2024-07-02"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2370#96CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1845137
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240AB2370
+    title: AB 2370 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2370#96CHP
+    title: AB 2370 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2370#99INT
+    title: AB 2370 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

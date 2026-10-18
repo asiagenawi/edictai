@@ -1,0 +1,357 @@
+id: us-fl-2026-hb-1279
+jurisdiction: us-fl
+session: "2026"
+identifier: HB 1279
+title: Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+summary: An education bill that, among many provisions, allows a district to reserve up to 1 percent of
+  Title I funds for eligible schools to provide STEM curricula, instructional materials, and related learning
+  technologies, including technologies related to artificial intelligence, in Title I schools.
+provisions:
+  - type: appropriates-funding
+    description: Up to 1 percent of Title I funds may be reserved for STEM curricula and technologies,
+      including AI, in Title I schools.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1279/BillText/er/PDF
+      locator: Sec. 31
+      quote: related learning technologies that support academic achievement in science, technology, engineering,
+        and mathematics in Title I schools, including, but not limited to, technologies related to drones,
+        coding, animation, artificial intelligence
+sponsors:
+  - name: Education & Employment Committee
+    classification: committee
+    primary: true
+  - name: Careers & Workforce Subcommittee
+    classification: committee
+    primary: true
+  - name: Jennifer Kincart Jonsson
+    primary: true
+    party: R
+    chamber: lower
+  - name: Anne Gerwig
+    primary: false
+    party: R
+    chamber: lower
+  - name: Berny Jacques
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kim Kendall
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kiyan Michael
+    primary: false
+    party: R
+    chamber: lower
+  - name: Danny Nix
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jason Shoaf
+    primary: false
+    party: R
+    chamber: lower
+  - name: Dana Trabulsy
+    primary: false
+    party: R
+    chamber: lower
+  - name: Taylor Yarkosky
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-08"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-13"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-01-15"
+    description: Referred to Careers & Workforce Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-15"
+    description: Referred to Budget Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-15"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-15"
+    description: Now in Careers & Workforce Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-26"
+    description: PCS added to Careers & Workforce Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-28"
+    description: Favorable with CS by Careers & Workforce Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-29"
+    description: Reported out of Careers & Workforce Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-29"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-01-29"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-01-30"
+    description: Referred to Budget Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-30"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-30"
+    description: Now in Budget Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: Added to Budget Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-10"
+    description: Favorable by Budget Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-10"
+    description: Reported out of Budget Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-10"
+    description: Now in Education & Employment Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: PCS added to Education & Employment Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Favorable with CS by Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-26"
+    description: Reported out of Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-26"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-02-26"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-26"
+    description: Bill added to Special Order Calendar (3/3/2026)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: 1st Reading (Committee Substitute 2)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-03-03"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-03-03"
+    description: Amendment 277549 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-03-03"
+    description: CS passed; YEAS 84, NAYS 25
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-03"
+    description: In Messages
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Referred to Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-03"
+    description: Received
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Withdrawn from Rules
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Substituted for CS/CS/SB 7038
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-03-13"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-13"
+    description: Amendment(s) adopted (476262)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-13"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-13"
+    description: CS passed as amended; YEAS 36 NAYS 1
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-03-13"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Added to Senate Message List
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Amendment 476262 Concur
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: CS passed as amended; YEAS 81, NAYS 16
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-13"
+    description: Ordered engrossed, then enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-04-30"
+    description: Signed by Officers and presented to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-05-01"
+    description: Approved by Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-05-05"
+    description: Chapter No. 2026-59
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-08"
+    url: https://www.flsenate.gov/Session/Bill/2026/1279/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-01-29"
+    url: https://www.flsenate.gov/Session/Bill/2026/1279/BillText/c1/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-02-26"
+    url: https://www.flsenate.gov/Session/Bill/2026/1279/BillText/c2/PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-03-16"
+    url: https://www.flsenate.gov/Session/Bill/2026/1279/BillText/e1/PDF
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-03-16"
+    url: https://www.flsenate.gov/Session/Bill/2026/1279/BillText/er/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2068697
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/1279
+    title: HB 1279 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1279/BillText/er/PDF
+    title: HB 1279 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

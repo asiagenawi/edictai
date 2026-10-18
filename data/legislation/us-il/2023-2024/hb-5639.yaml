@@ -1,0 +1,89 @@
+id: us-il-2023-2024-hb-5639
+jurisdiction: us-il
+session: 2023-2024
+identifier: HB 5639
+title: DOIT-AI TASK FORCE
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - instructional-use
+  - local-policy-requirement
+summary: Amends the Generative AI and Natural Language Processing Task Force to add a second member appointed
+  by the Speaker of the House. The task force, which includes education officials, teachers, and principals,
+  is responsible for recommending model policies for schools on student use of generative AI in the classroom.
+provisions:
+  - type: creates-task-force
+    description: The task force includes the State Superintendent and higher education board leaders among
+      its members.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5639.htm
+      locator: Sec. 1-80(c)
+      quote: (6) The State Superintendent of Education or his or her designee. (7) The Executive Director
+        of the Illinois Community College Board or his or her designee. (8) The Executive Director of
+        the Board of Higher Education or his or her designee.
+  - type: issues-model-policy
+    description: The task force must recommend model policies for schools on student use of generative
+      AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5639.htm
+      locator: Sec. 1-80(e)(2)
+      quote: recommending model policies for schools to address the use of generative artificial intelligence
+        by students in the classroom
+sponsors:
+  - name: Abdelnasser Rashid
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-09"
+    description: Filed with the Clerk by Rep. Abdelnasser Rashid
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-09"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-02-09"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-12"
+    description: Assigned to Cybersecurity, Data Analytics, & IT Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-05"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-02-09"
+    url: https://www.ilga.gov/legislation/103/HB/10300HB5639.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1843020
+sources:
+  - url: https://www.ilga.gov/legislation/BillStatus.asp?DocNum=5639&GAID=17&DocTypeID=HB&SessionID=112&GA=103
+    title: HB 5639 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/legislation/103/HB/10300HB5639.htm
+    title: HB 5639 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,247 @@
+id: us-fl-2025-hb-1213
+jurisdiction: us-fl
+session: "2025"
+identifier: HB 1213
+title: K-12 School Route Optimization Pilot Program
+classification: bill
+education_levels:
+  - k12
+topics:
+  - institutional-operations
+summary: Creates a K-12 school route optimization pilot program in five county school districts that must
+  use their transportation management systems with a student transportation intelligence platform with
+  artificial intelligence, if available, to evaluate routing scenarios, and report costs and savings associated
+  with the use of AI; the Department of Education assists and reports to the Legislature.
+sponsors:
+  - name: Education Administration Subcommittee
+    classification: committee
+    primary: true
+  - name: Daniel Alvarez
+    primary: true
+    party: R
+    chamber: lower
+  - name: Johanna Lopez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Owen
+    primary: false
+    party: R
+    chamber: lower
+  - name: Susan Plasencia
+    primary: false
+    party: R
+    chamber: lower
+  - name: Michelle Salzman
+    primary: false
+    party: R
+    chamber: lower
+  - name: Susan Valdes
+    primary: false
+    party: R
+    chamber: lower
+  - name: Brad Yeager
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-02-26"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-03-04"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-03-05"
+    description: Referred to Education Administration Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-05"
+    description: Referred to PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-05"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-05"
+    description: Now in Education Administration Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-25"
+    description: PCS added to Education Administration Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: Favorable with CS by Education Administration Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-28"
+    description: Reported out of Education Administration Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-28"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2025-03-28"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-28"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2025-03-31"
+    description: Referred to PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-31"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-31"
+    description: Now in PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-04"
+    description: Added to PreK-12 Budget Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-08"
+    description: Favorable by PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-08"
+    description: Reported out of PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-08"
+    description: Now in Education & Employment Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-15"
+    description: Added to Education & Employment Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-17"
+    description: Favorable by Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-17"
+    description: Reported out of Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-17"
+    description: Bill released to House Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-17"
+    description: Added to Second Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-17"
+    description: Bill added to Special Order Calendar (4/24/2025)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-04-24"
+    description: Placed on 3rd reading
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2025-04-24"
+    description: CS passed; YEAS 114, NAYS 0
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-04-24"
+    description: In Messages
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-24"
+    description: Referred to Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-04-24"
+    description: Received
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-03"
+    description: Indefinitely postponed and withdrawn from consideration
+    actor: upper
+    classification:
+      - withdrawal
+  - date: "2025-06-16"
+    description: Died in Rules
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2025-02-26"
+    url: https://www.flsenate.gov/Session/Bill/2025/1213/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2025-03-28"
+    url: https://www.flsenate.gov/Session/Bill/2025/1213/BillText/c1/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1984764
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2025/1213
+    title: HB 1213 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2025/1213/BillText/c1/PDF
+    title: HB 1213 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

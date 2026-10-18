@@ -1,0 +1,110 @@
+id: us-fl-2026-sb-2500
+jurisdiction: us-fl
+session: "2026"
+identifier: SB 2500
+title: Appropriations
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - safety-wellbeing
+summary: Senate general appropriations act for fiscal year 2026-27. Among the School and Instructional
+  Enhancements projects funded from Specific Appropriation 108, it funds ZeroEyes AI firearm and gun detection
+  technology in Franklin, Miami-Dade, Hernando and Seminole counties.
+provisions:
+  - type: appropriates-funding
+    description: Lists ZeroEyes AI firearm and gun detection projects among nonrecurring school and instructional
+      enhancement appropriations.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/2500/BillText/Filed/HTML
+      locator: Grants and Aids - School and Instructional Enhancements, Specific Appropriation 108
+      quote: ZeroEyes AI Firearm Detection Miami-Dade (SF 1403)
+  - type: appropriates-funding
+    description: Lists ZeroEyes AI gun detection technology for Hernando among the same school and instructional
+      enhancement appropriations.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/2500/BillText/Filed/HTML
+      locator: Grants and Aids - School and Instructional Enhancements, Specific Appropriation 108
+      quote: ZeroEyes AI Gun Detection Technology - Hernando (SF 3648)
+sponsors:
+  - name: Appropriations
+    classification: committee
+    primary: true
+actions:
+  - date: "2026-02-13"
+    description: Submitted for consideration by Appropriations
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-13"
+    description: On Committee agenda-- Appropriations, 02/18/26, 1:30 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-18"
+    description: Submitted as Committee Bill and Reported Favorably by Appropriations; YEAS 18 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-18"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-18"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-18"
+    description: Placed on Special Order Calendar, 02/20/26
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-20"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-02-20"
+    description: Substituted HB 5001
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: Laid on Table, refer to HB 5001
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Prefiled
+    date: "2026-02-13"
+    url: https://www.flsenate.gov/Session/Bill/2026/2500/BillText/pb/HTML
+    media_type: text/html
+  - note: Introduced
+    date: "2026-02-18"
+    url: https://www.flsenate.gov/Session/Bill/2026/2500/BillText/Filed/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2117014
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/2500
+    title: SB 2500 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/2500/BillText/Filed/HTML
+    title: SB 2500 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,152 @@
+id: us-il-2023-2024-hb-5399
+jurisdiction: us-il
+session: 2023-2024
+identifier: HB 5399
+title: BD HIGHER ED-AI IN EDUC REPORT
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - curriculum-standards
+  - research
+summary: Requires the Board of Higher Education to report to the General Assembly within six months on
+  the state of artificial intelligence education and development in public and private institutions of
+  higher education, including existing and planned AI academic programs and courses.
+provisions:
+  - type: creates-task-force
+    description: The Board of Higher Education must report on AI education and development in higher education
+      institutions.
+    citation:
+      source_url: https://www.ilga.gov/legislation/103/HB/10300HB5399.htm
+      locator: Sec. 9.44(b)
+      quote: the Board shall prepare a report to the General Assembly on the state of artificial intelligence
+        education and development in public and private institutions of higher education
+sponsors:
+  - name: Abdelnasser Rashid
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-09"
+    description: Filed with the Clerk by Rep. Abdelnasser Rashid
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-09"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-02-09"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-12"
+    description: Assigned to Higher Education Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-02"
+    description: House Committee Amendment No. 1 Filed with Clerk by Rep. Abdelnasser Rashid
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-02"
+    description: House Committee Amendment No. 1 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-03"
+    description: House Committee Amendment No. 1 Rules Refers to Higher Education Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-04"
+    description: House Committee Amendment No. 2 Filed with Clerk by Rep. Abdelnasser Rashid
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-04"
+    description: House Committee Amendment No. 2 Referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-05"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-05"
+    description: House Committee Amendment No. 1 Rule 19(c) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Assigned to Higher Education Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-04-24"
+    description: House Committee Amendment No. 1 Rules Refers to Higher Education Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Committee/3rd Reading Deadline Extended-Rule May 24, 2024
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-04-30"
+    description: House Committee Amendment No. 2 Rules Refers to Higher Education Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-24"
+    description: Committee/3rd Reading Deadline Extended-Rule May 27, 2024
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-05-26"
+    description: Committee/3rd Reading Deadline Extended-Rule May 31, 2024
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-05-31"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-05-31"
+    description: House Committee Amendment No. 1 Rule 19(c) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-31"
+    description: House Committee Amendment No. 2 Rule 19(c) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-09"
+    url: https://www.ilga.gov/legislation/103/HB/10300HB5399.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1842316
+sources:
+  - url: https://www.ilga.gov/legislation/BillStatus.asp?DocNum=5399&GAID=17&DocTypeID=HB&SessionID=112&GA=103
+    title: HB 5399 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/legislation/103/HB/10300HB5399.htm
+    title: HB 5399 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

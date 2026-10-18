@@ -1,0 +1,65 @@
+id: us-nm-2026-hb-330
+jurisdiction: us-nm
+session: "2026"
+identifier: HB 330
+title: Ai Ethics As School Science Elective
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Amends New Mexico's high school graduation requirements statute to require that ethics of artificial
+  intelligence be offered as a computer science elective beginning with students entering ninth grade
+  in the 2026-2027 school year.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: Requires ethics of AI to be offered as a computer science elective for students entering
+      ninth grade in 2026-2027.
+    citation:
+      source_url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/house/HB0330.pdf
+      locator: Sec. 1, 22-13-1.1(R)
+      quote: Beginning with students entering the ninth grade in the 2026-2027 school year, ethics of
+        artificial intelligence shall be offered as a computer science elective.
+sponsors:
+  - name: Linda Serrato
+    primary: true
+    party: D
+    chamber: lower
+  - name: Anita Gonzales
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-04"
+    description: Not Printed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-04"
+    description: Action Postponed Indefinitely
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-02-04"
+    url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/house/HB0330.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2108223
+sources:
+  - url: https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legtype=B&legno=330&year=26
+    title: HB 330 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.nmlegis.gov/Sessions/26%20Regular/bills/house/HB0330.pdf
+    title: HB 330 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

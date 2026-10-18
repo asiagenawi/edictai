@@ -1,0 +1,92 @@
+id: us-wa-2023-2024-hb-1951
+jurisdiction: us-wa
+session: 2023-2024
+identifier: HB 1951
+title: Promoting ethical artificial intelligence by protecting against algorithmic discrimination.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Regulates developers and deployers of automated decision tools that use artificial intelligence
+  to make consequential decisions, including decisions on education and vocational training, by requiring
+  impact assessments, developer documentation, and measures against algorithmic discrimination.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Developers and deployers of AI tools making consequential decisions, including in education,
+      must assess and mitigate risks of algorithmic discrimination.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/House%20Bills/1951.pdf
+      locator: Sec. 1(4)(b) and Sec. 2
+      quote: An assessment of the reasonably foreseeable risks of algorithmic discrimination arising from
+        the use of the automated decision tool known to the deployer at the time of the impact assessment
+sponsors:
+  - name: Clyde Shavers
+    primary: true
+    party: D
+    chamber: lower
+  - name: Cindy Ryu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alex Ramel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mia Gregerson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nicole Macri
+    primary: false
+    party: D
+    chamber: lower
+  - name: Davina Duerr
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gerry Pollet
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-12-14"
+    description: Prefiled for introduction.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-08"
+    description: First reading, referred to Consumer Protection & Business.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2024-01-19"
+    description: Public hearing in the House Committee on Consumer Protection & Business at 8:00 AM.
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/House%20Bills/1951.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1792205
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=1951&Year=2023&Initiative=false
+    title: HB 1951 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/House%20Bills/1951.pdf
+    title: HB 1951 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

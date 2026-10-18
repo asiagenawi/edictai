@@ -1,0 +1,70 @@
+id: us-il-2025-2026-hb-5760
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 5760
+title: AI WORK TRANSITION COMMISSION
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+  - educator-training
+summary: Creates the Commission on Artificial Intelligence and Workforce Transition to direct State agency
+  assessments of generative and frontier AI's impact on industries, occupations, and workers and to recommend
+  changes to workforce development, education, and related programs. Designated agencies include the community
+  college and higher education boards and the State Board of Education, which addresses career and technical
+  education pathways and educator AI literacy.
+provisions:
+  - type: creates-task-force
+    description: The State Board of Education is designated to contribute assessments on CTE pathways,
+      the P-20 pipeline, and educator AI literacy.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=210747&DocName=10400HB5760&DocNum=5760&DocTypeID=HB&LegID=168389&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Section 10
+      quote: the State Board of Education, as to career and technical education pathways, the P-20 education
+        pipeline, and educator artificial intelligence literacy
+sponsors:
+  - name: Kimberly Du Buclet
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-04-30"
+    description: Filed with the Clerk by Rep. Kimberly Du Buclet
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-05-05"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-05-05"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-04-30"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=210747&DocName=10400HB5760&DocNum=5760&DocTypeID=HB&LegID=168389&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2147056
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=5760&GAID=18&DocTypeID=HB&LegId=168389&SessionID=114
+    title: HB 5760 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=210747&DocName=10400HB5760&DocNum=5760&DocTypeID=HB&LegID=168389&GAID=18&SessionID=114&SpecSess=&Session=
+    title: HB 5760 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

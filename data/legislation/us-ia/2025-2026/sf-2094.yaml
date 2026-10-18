@@ -1,0 +1,102 @@
+id: us-ia-2025-2026-sf-2094
+jurisdiction: us-ia
+session: 2025-2026
+identifier: SF 2094
+title: A bill for an act relating to computer science and artificial intelligence education, including
+  high school curricula and graduation requirements, practitioner preparation programs, and college admissions,
+  and including applicability provisions.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - funding
+summary: Expands computer science graduation requirements and standards to computer science and artificial
+  intelligence, requiring that instruction at all levels cover what AI is, how it works, how to design
+  it, its societal impact, and ethical considerations. Requires students to complete one-half unit of
+  computer science and AI, adds reporting on AI courses and teachers, and opens a professional development
+  fund to AI education; per its title, it also addresses practitioner preparation programs and college
+  admissions.
+provisions:
+  - type: ai-in-standards
+    description: Computer science and AI standards must include instruction on the fundamentals of AI
+      and its ethics.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2094.html
+      locator: Section amending computer science standards (number not in text)
+      quote: including instruction that explains what artificial intelligence is, how artificial intelligence
+        works, how to design artificial intelligence, how artificial intelligence impacts society, and
+        ethical considerations related to the use of artificial intelligence
+  - type: ai-course-or-graduation-requirement
+    description: All students must complete one-half unit of computer science and AI to graduate.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2094.html
+      locator: Section amending graduation requirements (number not in text)
+      quote: (a) All students, beginning with students in the school year graduating class, shall complete
+        one-half unit of
+  - type: educator-pd-requirement
+    description: Schools may apply for fund moneys for teacher professional development in computer science
+      and AI education.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2094.html
+      locator: Section amending professional development fund (number not in text)
+      quote: to receive moneys from the fund to provide proven professional development activities for
+        Iowa teachers in the area of computer science and artificial intelligence education.
+sponsors:
+  - name: Kerry Gruenhagen
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-22"
+    description: Introduced, referred to Education. S.J. 130.
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-01-27"
+    description: 'Subcommittee: Gruenhagen, Donahue, and Pike. S.J. 149.'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-27"
+    description: 'Subcommittee Meeting: 01/28/2026 2:30PM Room 217 Conference Room.'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-28"
+    description: Subcommittee recommends amendment and passage.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-22"
+    url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2094.html
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2090687
+sources:
+  - url: https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF2094
+    title: SF 2094 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2094.html
+    title: SF 2094 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

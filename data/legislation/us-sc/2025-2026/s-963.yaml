@@ -1,0 +1,65 @@
+id: us-sc-2025-2026-s-963
+jurisdiction: us-sc
+session: 2025-2026
+identifier: S 963
+title: Artificial intelligence, consumer protection
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - admissions
+  - equity-access
+summary: Enacts the Consumer Protections in Interactions with Artificial Intelligence Systems Act, prohibiting
+  algorithmic discrimination by high-risk AI systems and setting duties for developers and deployers.
+  High-risk systems include those that make or substantially factor into consequential decisions on education
+  enrollment or education opportunities.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines consequential decisions, subject to algorithmic discrimination rules, to include
+      education enrollment and education opportunities.
+    citation:
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/prever/963_20260226.htm
+      locator: Section 37-31-10
+      quote: '"Consequential decision" means a decision that has a material legal or similarly significant
+        effect on the provision or denial to any consumer of, or the cost or terms of: (a) education enrollment
+        or an education opportunity;'
+sponsors:
+  - name: Matthew Leber
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-02-26"
+    description: Introduced and read first time
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-26"
+    description: Referred to Committee on Banking and Insurance
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-26"
+    url: https://www.scstatehouse.gov/sess126_2025-2026/prever/963_20260226.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2125203
+sources:
+  - url: https://www.scstatehouse.gov/billsearch.php?billnumbers=0963&session=126&summary=B
+    title: S 963 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.scstatehouse.gov/sess126_2025-2026/prever/963_20260226.htm
+    title: S 963 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

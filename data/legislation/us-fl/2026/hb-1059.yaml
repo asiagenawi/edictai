@@ -1,0 +1,269 @@
+id: us-fl-2026-hb-1059
+jurisdiction: us-fl
+session: "2026"
+identifier: HB 1059
+title: Speech and Debate Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+summary: As introduced, would have required an Institute for Speech and Debate Innovation within the Florida
+  Virtual School to create artificial intelligence-based coaching tools, digital judging tutorials, and
+  analytics dashboards for speech and debate instruction, and appropriated $750,000 to support the institute.
+  The AI provisions were removed by amendment.
+provisions:
+  - type: appropriates-funding
+    description: Appropriates $750,000 in recurring funds to the Florida Virtual School institute that
+      is directed to create AI-based coaching tools.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1059/BillText/Filed/PDF
+      locator: Introduced, Section 5(4)
+      quote: (4) For the 2026-2027 fiscal year, the sum of $750,000 in recurring funds is appropriated
+        from the General Revenue Fund to the Florida Virtual School Institute for Speech and Debate Innovation
+        for the purposes of this act.
+sponsors:
+  - name: Education & Employment Committee
+    classification: committee
+    primary: true
+  - name: Student Academic Success Subcommittee
+    classification: committee
+    primary: true
+  - name: Erika Booth
+    primary: true
+    party: R
+    chamber: lower
+  - name: Doug Bankson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Webster Barnaby
+    primary: false
+    party: R
+    chamber: lower
+  - name: Yvette Benarroch
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kimberly Berfield
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kimberly Daniels
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lisa Dunkley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anne Gerwig
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jennifer Harris
+    primary: false
+    party: D
+    chamber: lower
+  - name: Yvonne Hayes Hinson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kim Kendall
+    primary: false
+    party: R
+    chamber: lower
+  - name: Johanna Lopez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kiyan Michael
+    primary: false
+    party: R
+    chamber: lower
+  - name: Danny Nix
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bill Partington
+    primary: false
+    party: R
+    chamber: lower
+  - name: Judson Sapp
+    primary: false
+    party: R
+    chamber: lower
+  - name: Paula Stark
+    primary: false
+    party: R
+    chamber: lower
+  - name: Debra Tendrich
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dana Trabulsy
+    primary: false
+    party: R
+    chamber: lower
+  - name: Susan Valdes
+    primary: false
+    party: R
+    chamber: lower
+  - name: Taylor Yarkosky
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-06"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-12"
+    description: Referred to Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Referred to PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Now in Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-13"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-02-09"
+    description: PCS added to Student Academic Success Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: Favorable with CS by Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-11"
+    description: Reported out of Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-11"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-02-11"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-02-12"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-12"
+    description: Now in Education & Employment Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: PCS added to Education & Employment Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Favorable with CS by Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-26"
+    description: Reported out of Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-26"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-02-26"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: 1st Reading (Committee Substitute 2)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-03-02"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-02"
+    description: Added to Second Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-11"
+    description: Laid on Table, refer to CS/CS/SB 1062
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-01-06"
+    url: https://www.flsenate.gov/Session/Bill/2026/1059/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-02-11"
+    url: https://www.flsenate.gov/Session/Bill/2026/1059/BillText/c1/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-02-26"
+    url: https://www.flsenate.gov/Session/Bill/2026/1059/BillText/c2/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2066113
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/1059
+    title: HB 1059 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1059/BillText/c2/PDF
+    title: HB 1059 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1059/BillText/Filed/PDF
+    title: HB 1059 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

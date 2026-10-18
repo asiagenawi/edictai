@@ -1,0 +1,88 @@
+id: us-118-s-1865
+jurisdiction: us
+session: "118"
+identifier: S. 1865
+title: TAG Act Transparent Automated Governance Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - institutional-operations
+summary: Directs the Office of Management and Budget to issue guidance requiring federal agencies to be
+  transparent about automated systems used in decisions about individuals, including decisions affecting
+  access to education and vocational training, with disclosure and appeal.
+provisions:
+  - type: requires-disclosure
+    description: Agency transparency guidance covers automated systems used in decisions that affect access
+      to education and vocational training.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s1865/BILLS-118s1865rs.pdf
+      locator: Sec. 2(5)(B)(i)
+      quote: meaningfully affects access to, or the cost, terms, or availability of— (i) education and
+        vocational training;
+sponsors:
+  - name: Gary Peters
+    primary: true
+    party: D
+    chamber: upper
+  - name: Mike Braun
+    primary: false
+    party: R
+    chamber: upper
+  - name: James Lankford
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2023-06-07"
+    description: Read twice and referred to the Committee on Homeland Security and Governmental Affairs.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+  - date: "2023-06-14"
+    description: Committee on Homeland Security and Governmental Affairs. Ordered to be reported with
+      an amendment in the nature of a substitute favorably.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2023-08-22"
+    description: Committee on Homeland Security and Governmental Affairs. Reported by Senator Peters under
+      authority of the order of the Senate of 07/27/2023 with an amendment in the nature of a substitute.
+      With written report No. 118-89.
+    actor: upper
+    classification:
+      - other
+  - date: "2023-08-22"
+    description: Placed on Senate Legislative Calendar under General Orders. Calendar No. 192.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-06-09"
+    url: https://www.congress.gov/118/bills/s1865/BILLS-118s1865is.pdf
+    media_type: application/pdf
+  - note: Introduced
+    date: "2023-08-23"
+    url: https://www.congress.gov/118/bills/s1865/BILLS-118s1865rs.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1770920
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/senate-bill/1865/all-info
+    title: S. 1865 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/s1865/BILLS-118s1865rs.pdf
+    title: S. 1865 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

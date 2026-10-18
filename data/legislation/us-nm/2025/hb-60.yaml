@@ -1,0 +1,91 @@
+id: us-nm-2025-hb-60
+jurisdiction: us-nm
+session: "2025"
+identifier: HB 60
+title: Artificial Intelligence Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - admissions
+summary: Enacts the Artificial Intelligence Act, requiring developers and deployers of high-risk artificial
+  intelligence systems to provide notice, documentation, risk management policies, and impact assessments
+  to address algorithmic discrimination. Consequential decisions covered by the act include education
+  enrollment and educational opportunities.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Consequential decisions subject to the act's algorithmic discrimination safeguards include
+      education enrollment or an educational opportunity.
+    citation:
+      source_url: https://www.nmlegis.gov/Sessions/25%20Regular/bills/house/HB0060.pdf
+      locator: Sec. 2(C)(1)
+      quote: education enrollment or an educational opportunity
+sponsors:
+  - name: Heather Berghmans
+    primary: true
+    party: D
+    chamber: upper
+  - name: Christine Chandler
+    primary: true
+    party: D
+    chamber: lower
+  - name: Andrea Romero
+    primary: false
+    party: D
+    chamber: lower
+  - name: Debra Sarinana
+    primary: false
+    party: D
+    chamber: lower
+  - name: Linda Trujillo
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-01-21"
+    description: 'Sent to HPREF - Referrals: HPREF'
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-01-22"
+    description: 'Sent to HCPAC - Referrals: HCPAC/HJC'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-03"
+    description: 'HCPAC: Reported by committee with Do Pass recommendation'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-25"
+    description: 'HJC: Reported by committee with Do Not Pass but with a Do Pass recommendation on Committee
+      Substitution'
+    actor: lower
+    classification:
+      - committee-failure
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2025-01-09"
+    url: https://www.nmlegis.gov/Sessions/25%20Regular/bills/house/HB0060.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1908238
+sources:
+  - url: https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legtype=B&legno=60&year=25
+    title: HB 60 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.nmlegis.gov/Sessions/25%20Regular/bills/house/HB0060.pdf
+    title: HB 60 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

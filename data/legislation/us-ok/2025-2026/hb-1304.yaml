@@ -1,0 +1,90 @@
+id: us-ok-2025-2026-hb-1304
+jurisdiction: us-ok
+session: 2025-2026
+identifier: HB 1304
+title: Schools; subject matter standards; computer science courses; curriculum; rules; effective date;
+  emergency.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Adds computer science and career technology options to science graduation requirements and requires
+  the State Department of Education to adopt rules so that all levels and grades of the Oklahoma Academic
+  Standards for Computer Science include instruction on emerging technologies such as artificial intelligence,
+  including what AI is and how it works.
+provisions:
+  - type: ai-in-standards
+    description: Requires rules so that all grades of the state computer science standards include instruction
+      on AI, including what it is and how it works.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1304%20INT.PDF
+      locator: Sec. 1, 70 O.S. 11-103.6(S)
+      quote: The State Department of Education shall promulgate rules to reflect that all levels and grades
+        of the Oklahoma Academic Standards for Computer Science shall include instruction on the fundamental
+        concepts of emerging computer science technologies such as artificial intelligence (AI)
+sponsors:
+  - name: Dick Lowe
+    primary: true
+    party: R
+    chamber: lower
+  - name: Brenda Stanley
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-03"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-02-03"
+    description: Authored by Representative Lowe (Dick)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Second Reading referred to Education Oversight
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2025-02-04"
+    description: Referred to Common Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-25"
+    description: Policy recommendation to the Education Oversight committee; Do Pass Common Education
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-02-25"
+    description: Authored by Senator Stanley (principal Senate author)
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-15"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1304%20INT.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2048902
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=hb1304&Session=2600
+    title: HB 1304 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB1304%20INT.PDF
+    title: HB 1304 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

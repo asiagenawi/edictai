@@ -1,0 +1,104 @@
+id: us-pa-2025-2026-sb-631
+jurisdiction: us-pa
+session: 2025-2026
+identifier: SB 631
+title: Providing for parental consent for virtual mental health services provided by a school entity.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - instructional-use
+summary: Requires school entities to obtain annual parental consent before providing or coordinating virtual
+  mental health services for students under 18. Defines virtual mental health services to include behavioral
+  health support provided by artificial intelligence.
+provisions:
+  - type: requires-disclosure
+    description: School entities may not provide virtual mental health services, which include AI-provided
+      behavioral health support, without parental consent.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0631/PN0635
+      locator: Section 3(d)
+      quote: A school entity may not provide or coordinate any virtual mental health services for a student
+        whose parent or guardian has not provided consent under this section.
+sponsors:
+  - name: Wayne Langerholc
+    primary: true
+    party: R
+    chamber: upper
+  - name: Kristin Phillips-Hill
+    primary: false
+    party: R
+    chamber: upper
+  - name: David Argall
+    primary: false
+    party: R
+    chamber: upper
+  - name: Tracy Pennycuick
+    primary: false
+    party: R
+    chamber: upper
+  - name: Scott Hutchinson
+    primary: false
+    party: R
+    chamber: upper
+  - name: Lisa Baker
+    primary: false
+    party: R
+    chamber: upper
+  - name: Judith Ward
+    primary: false
+    party: R
+    chamber: upper
+  - name: Patrick Stefano
+    primary: false
+    party: R
+    chamber: upper
+  - name: Cris Dush
+    primary: false
+    party: R
+    chamber: upper
+  - name: Chris Gebhard
+    primary: false
+    party: R
+    chamber: upper
+  - name: Rosemary Brown
+    primary: false
+    party: R
+    chamber: upper
+  - name: Greg Rothman
+    primary: false
+    party: R
+    chamber: upper
+  - name: Doug Mastriano
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-04-11"
+    description: Referred to Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0631/PN0635
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2023404
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/sb631
+    title: SB 631 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0631/PN0635
+    title: SB 631 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

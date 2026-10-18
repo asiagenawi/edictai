@@ -1,0 +1,125 @@
+id: us-hi-2024-hb-1607
+jurisdiction: us-hi
+session: "2024"
+identifier: HB 1607
+title: Relating To Algorithmic Discrimination.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Bars covered entities from making algorithmic eligibility or information availability determinations,
+  based on machine learning or artificial intelligence, that discriminate on protected characteristics
+  in access to credit, insurance, education, employment, housing, or public accommodation. Requires notices
+  to affected individuals and annual reports to the Department of the Attorney General.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines important life opportunities covered by the algorithmic discrimination rules
+      to include education.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2024/bills/HB1607_.HTM
+      locator: Sec. -1, definition of "Important life opportunities"
+      quote: '"Important life opportunities" means access to, approval for, or offer of credit, insurance,
+        education, employment, housing, or place of public accommodation as defined in section 489-2.'
+  - type: bias-or-equity-requirement
+    description: Prohibits covered entities from making algorithmic determinations that discriminate on
+      protected characteristics.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2024/bills/HB1607_.HTM
+      locator: Sec. -2(a)
+      quote: A covered entity shall not make an algorithmic eligibility determination or an algorithmic
+        information availability determination on the basis of an individual's or class of individuals'
+        actual or perceived race, color, religion, national origin, sex
+sponsors:
+  - name: David Tarnas
+    primary: true
+    party: D
+    chamber: lower
+  - name: Terez Amato
+    primary: true
+    party: D
+    chamber: lower
+  - name: Della au Belatti
+    primary: true
+    party: D
+    chamber: lower
+  - name: Elle Cochran
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ernesto Ganaden
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jeanne Kapela
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lisa Marten
+    primary: true
+    party: D
+    chamber: lower
+  - name: Rose Martinez
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mark Nakashima
+    primary: true
+    party: D
+    chamber: lower
+  - name: Amy Perruso
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mahina Poepoe
+    primary: true
+    party: D
+    chamber: lower
+  - name: Gregg Takayama
+    primary: true
+    party: D
+    chamber: lower
+  - name: Adrian Tam
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-01-16"
+    description: Prefiled.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-17"
+    description: Introduced and Pass First Reading.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-01-24"
+    description: Referred to HET/JHA, referral sheet 1
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-01-16"
+    url: https://www.capitol.hawaii.gov/sessions/session2024/bills/HB1607_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1816605
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1607&year=2024
+    title: HB 1607 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2024/bills/HB1607_.HTM
+    title: HB 1607 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

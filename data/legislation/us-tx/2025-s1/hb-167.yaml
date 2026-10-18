@@ -1,0 +1,54 @@
+id: us-tx-2025-s1-hb-167
+jurisdiction: us-tx
+session: 2025-s1
+identifier: HB 167
+title: Relating to the use of artificial intelligence to score constructed responses on assessment instruments
+  administered to public school students.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - assessment
+summary: Requires the Texas Education Agency to prohibit the use of artificial intelligence to score constructed
+  responses on state assessment instruments, beginning with the 2026-2027 school year.
+provisions:
+  - type: regulates-ai-assessment
+    description: The agency must prohibit AI scoring of constructed responses on state assessments.
+    citation:
+      source_url: https://capitol.texas.gov/tlodocs/891/billtext/html/HB00167I.htm
+      locator: Sec. 1, Education Code 39.023(s)
+      quote: The agency shall prohibit the use of artificial intelligence to score a constructed response
+        on an assessment instrument administered under this section
+sponsors:
+  - name: Cassandra Garcia Hernandez
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-07-22"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-07-22"
+    url: https://capitol.texas.gov/tlodocs/891/billtext/html/HB00167I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2040103
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB167
+    title: HB 167 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/891/billtext/html/HB00167I.htm
+    title: HB 167 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

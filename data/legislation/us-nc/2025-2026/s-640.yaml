@@ -1,0 +1,101 @@
+id: us-nc-2025-2026-s-640
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 640
+title: AI Ethics and Literacy Across Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires the State Board of Education to adopt standards for age-appropriate AI instruction for
+  kindergarten through grade 12, covering AI concepts, real-world applications, economic, legal and social
+  issues, and responsible, ethical use including privacy and academic dishonesty. Allows the instruction
+  to be included in middle and high school computer science standards.
+provisions:
+  - type: ai-in-standards
+    description: Requires the State Board to adopt K-12 AI instruction standards.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S640v1.pdf
+      locator: Sec. 1, new G.S. 115C-81.66(a)
+      quote: The State Board of Education shall adopt standards for age-appropriate instruction on artificial
+        intelligence (AI) for kindergarten through grade 12.
+  - type: requires-ai-literacy-instruction
+    description: Requires the standards to cover basic AI concepts and how AI creates content.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S640v1.pdf
+      locator: Sec. 1, new G.S. 115C-81.66(a)(1)
+      quote: The basic concepts of artificial intelligence, including an age -appropriate understanding
+        of how AI systems source and create content.
+sponsors:
+  - name: Woodson Bradley
+    primary: true
+    party: D
+    chamber: upper
+  - name: Caleb Theodros
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jay Chaudhuri
+    primary: true
+    party: D
+    chamber: upper
+  - name: Natalie Murdock
+    primary: false
+    party: D
+    chamber: upper
+  - name: DeAndrea Salvador
+    primary: false
+    party: D
+    chamber: upper
+  - name: Kandie Smith
+    primary: false
+    party: D
+    chamber: upper
+  - name: Joyce Waddell
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-03-25"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-26"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-03-26"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-25"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S640v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-03-26"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S640v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2014068
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S640
+    title: S 640 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S640v1.pdf
+    title: S 640 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

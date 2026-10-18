@@ -1,0 +1,178 @@
+id: us-ny-2025-2026-s-9006
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 9006
+title: Enacts into law major components of legislation necessary to implement the state education, labor,
+  housing and family assistance budget for the 2026-2027 state fiscal year; relates to contracts for excellence,
+  foundation aid, the homeless and foster count, renewable energy projects, zero-emissions school buses
+  and to apportioning aid for universal prekindergarten; relates to reimbursement for the 2026-2027 school
+  year and the maximum contract hours, withholding a portion of employment preparation education aid,
+  and the effectiveness thereof; relates to the use of apportionments for the EXCEL program and the effectiveness
+  thereof; relates to maximum class sizes for special classes for certain students with disabilities;
+  provides for special apportionment for salary expenses; provides for special apportionment for public
+  pension accruals; amends provisions relating to the apportionment amount for the Roosevelt union free
+  school district; provides for set-asides from the state funds which certain districts are receiving
+  from the total foundation aid; provides for support of public libraries; repeals certain provisions
+  relating to the statewide universal full-day prekindergarten program (Part A); relates to evidence-based
+  instructional practices in the subject of mathematics for students in kindergarten through grade five
+  (Part B); relates to the eligibility of students enrolled in an approved program leading to a degree
+  in a high demand field for the New York opportunity promise scholarship (Part C); allows for the chancellor
+  of SUNY and CUNY to impose differential tuition rates on non-resident undergraduate and graduate students
+  until the 2028-2029 academic year (Part E); relates to early childhood educator eligibility for the
+  masters-in-education teacher incentive scholarship program (Part F); changes the name of the "New York
+  state musical instrument revolving fund" to the "New York state music grant fund"; includes musical
+  education in school districts and boards of cooperative educational services within not-for-profit musical
+  entities incorporated in the state and organized for the purpose of the presentation of performing arts
+  for the benefit of the public (Part G); extends provisions of law relating to restructuring financing
+  for residential school placements (Part K); increases the standards of monthly need for aged, blind
+  and disabled persons living in the community (Part L); utilizes reserves in the mortgage insurance fund
+  for the neighborhood preservation program, the rural preservation program, the rural rental assistance
+  program, and the New York state supportive housing program, the solutions to end homelessness program
+  or the operational support for AIDS housing program (Part M); increases the number of land banks which
+  can simultaneously exist in the state of New York from 35 to 45 (Part N); authorizes a tax abatement
+  for alterations and improvements to multiple dwellings for purposes of preserving habitability in affordable
+  housing (Part O); relates to establishing the crime of aggravated harassment of a rent regulated tenant
+  (Part P); renumbers the disparate impact standard for housing and employment in the human rights law
+  (Part Q); defines eligible multiple dwelling under the affordable New York housing program; includes
+  a multiple dwelling that is located on a parcel of land which was part of a tract of land for which
+  a special permit for a large scale general development was approved via the uniform land use review
+  procedure on or before June 15, 2022, and such tract contains a multiple dwelling for which the commencement
+  date is after December 31, 2015 and on or before June 15, 2022 and complies with certain affordability
+  options (Part R).
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - funding
+  - educator-training
+  - equity-access
+summary: As amended in an earlier print (S. 9006-B), would establish an artificial intelligence literacy
+  digital equity competitive grant program under the commissioner of education, with grants to public
+  schools, community colleges, colleges, and community organizations for AI literacy, teacher training,
+  labs, and programs. The AI provisions were removed by amendment.
+provisions:
+  - type: appropriates-funding
+    description: Would direct the commissioner to establish a competitive grant program for AI literacy
+      efforts at academic institutions and community organizations.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006B
+      locator: Amended (S. 9006-B), § 30, new Education Law § 115(2)(a)
+      quote: The commissioner shall establish an artificial intelligence literacy digital equity competitive
+        grant program which shall provide grants to academic institutions and community organizations
+        to support artificial intelligence literacy efforts.
+  - type: educator-pd-requirement
+    description: Would allow school grants to fund teacher training and certification for AI literacy.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006B
+      locator: Amended (S. 9006-B), § 30, new Education Law § 115(2)(f)
+      quote: '(f) Such program shall provide grants to public elementary and secondary schools and charter
+        schools to be used for: (i) providing teachers with training and certification to support artificial
+        intelligence literacy efforts in schools;'
+  - type: bias-or-equity-requirement
+    description: Would give grant priority to applicants with high need, such as limited computer science
+      access or many low-income students.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006B
+      locator: Amended (S. 9006-B), § 30, new Education Law § 115(2)(b)
+      quote: a high level of need, as determined by factors including, but not limited to, lack of access
+        to computer science education, a high percentage of students or community members from low-income
+        households, limited technological infrastructure, or geographic barriers to digital inclusion
+sponsors:
+  - name: Budget
+    classification: committee
+    primary: true
+actions:
+  - date: "2026-01-21"
+    description: REFERRED TO FINANCE
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-20"
+    description: AMEND (T) AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: PRINT NUMBER 9006A
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: AMEND (T) AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-09"
+    description: PRINT NUMBER 9006B
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-20"
+    description: AMEND (T) AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-20"
+    description: PRINT NUMBER 9006C
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-20"
+    description: ORDERED TO THIRD READING CAL.1284
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-20"
+    description: MESSAGE OF NECESSITY - 3 DAY MESSAGE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-20"
+    description: SUBSTITUTED BY A10006C
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-21"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006
+    media_type: text/html
+  - note: Amended
+    date: "2026-01-21"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006A
+    media_type: text/html
+  - note: Amended
+    date: "2026-01-21"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006B
+    media_type: text/html
+  - note: Amended
+    date: "2026-01-21"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006C
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2088333
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S9006
+    title: S 9006 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006C
+    title: S 9006 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S09006&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S09006B
+    title: S 9006 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Amended).

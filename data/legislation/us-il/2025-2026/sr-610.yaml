@@ -1,0 +1,72 @@
+id: us-il-2025-2026-sr-610
+jurisdiction: us-il
+session: 2025-2026
+identifier: SR 610
+title: PD365/ISBE-ARTIFICIAL INTEL
+classification: resolution
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+  - equity-access
+  - ai-literacy
+  - educator-training
+summary: Supports Illinois ASCD/PD365 principles on ethical and effective AI use in K-12 classrooms and
+  urges the Illinois State Board of Education to develop statewide guidelines for responsible AI use in
+  education, covering student data protection, algorithmic transparency, bias monitoring, and AI literacy
+  in curricula. Encourages investment in educator professional development and equitable access to technology.
+provisions:
+  - type: issues-model-policy
+    description: Urges ISBE to develop statewide guidelines for ethical and responsible AI use in education.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208317&DocName=10400SR0610&DocNum=610&DocTypeID=SR&LegID=166971&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Second resolved clause
+      quote: we urge the Illinois State Board of Education (ISBE), in collaboration with school districts,
+        educators, technology experts, and stakeholder organizations, to develop statewide guidelines
+        for the ethical and responsible use of artificial intelligence in education
+  - type: educator-pd-requirement
+    description: Encourages investment in educator professional development and equitable technology access.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208317&DocName=10400SR0610&DocNum=610&DocTypeID=SR&LegID=166971&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Third resolved clause
+      quote: we encourage investment in educator professional development and equitable access to technology,
+        including broadband infrastructure, one-to-one devices, and AI-enabled tools
+sponsors:
+  - name: Adriane Johnson
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-02-05"
+    description: Filed with Secretary
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-05"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-05"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208317&DocName=10400SR0610&DocNum=610&DocTypeID=SR&LegID=166971&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2109552
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=610&GAID=18&DocTypeID=SR&LegId=166971&SessionID=114
+    title: SR 610 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=208317&DocName=10400SR0610&DocNum=610&DocTypeID=SR&LegID=166971&GAID=18&SessionID=114&SpecSess=&Session=
+    title: SR 610 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

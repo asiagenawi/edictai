@@ -1,0 +1,87 @@
+id: us-mo-2026-hb-3139
+jurisdiction: us-mo
+session: "2026"
+identifier: HB 3139
+title: Establishes additional requirements for computer science courses in schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Amends Missouri's computer science course law to define computer science courses to include artificial
+  intelligence, cybersecurity, and social media training. Requires the computer science work group to
+  develop additional academic performance standards incorporating artificial intelligence, to be adopted
+  by the State Board of Education beginning in the 2027-28 school year.
+provisions:
+  - type: ai-in-standards
+    description: Requires additional computer science performance standards incorporating artificial intelligence.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6915H.01I.pdf
+      locator: Section 170.018.8(1)
+      quote: The workgroup established under subsection 2 of this section shall develop additional academic
+        performance standards for computer science courses that incorporate academic requirements related
+        to cybersecurity, social media training, and artificial intelligence.
+  - type: ai-in-standards
+    description: Adds artificial intelligence to the definition of a computer science course.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6915H.01I.pdf
+      locator: Section 170.018.1(1)
+      quote: algorithmic processes, cybersecurity, social media training, and artificial intelligence
+        including their principles, hardware and software designs,
+sponsors:
+  - name: Kem Smith
+    primary: true
+    party: D
+    chamber: lower
+  - name: Marty Murray
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tonya Rush
+    primary: false
+    party: D
+    chamber: lower
+  - name: Terry Thompson
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-29"
+    description: Introduced and Read First Time (H)
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-02"
+    description: Read Second Time (H)
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-05-15"
+    description: 'Referred: Emerging Issues(H)'
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-29"
+    url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6915H.01I.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2101253
+sources:
+  - url: https://house.mo.gov/Bill.aspx?bill=HB3139&year=2026&code=R
+    title: HB 3139 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6915H.01I.pdf
+    title: HB 3139 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

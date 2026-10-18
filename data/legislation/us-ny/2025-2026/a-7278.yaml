@@ -1,0 +1,53 @@
+id: us-ny-2025-2026-a-7278
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 7278
+title: Prohibits state agencies and state-owned entities from utilizing large language models or any artificial
+  intelligence systems to make decisions that affect individuals' rights, benefits, or services; requires
+  such decisions to be made by human personnel of the respective state agency or state-owned entity; provides
+  exceptions; provides for enforcement.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - institutional-operations
+summary: Bars state agencies and state-owned entities, defined to include public universities, from using
+  large language models or other AI systems to make decisions affecting individuals' rights, benefits,
+  or services, allows advisory and research uses, and requires each entity to adopt compliance policies.
+sponsors:
+  - name: Rodneyse Bichotte Hermelyn
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-21"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-21"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A07278&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A07278
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2012390
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A7278
+    title: A 7278 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A07278&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A07278
+    title: A 7278 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

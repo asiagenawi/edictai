@@ -1,0 +1,121 @@
+id: us-il-2025-2026-sb-3492
+jurisdiction: us-il
+session: 2025-2026
+identifier: SB 3492
+title: SCH CD-TECHNOLOGY GUIDANCE
+classification: bill
+education_levels:
+  - k12
+topics:
+  - workforce
+  - curriculum-standards
+  - task-force
+summary: Authorizes the State Board of Education, subject to appropriation, to provide statewide guidance
+  to school districts on workforce development curriculum or programming with best practices for teaching
+  artificial intelligence, quantum computing, and other emerging technologies. Requires the State Board
+  to review technology-focused workforce curricula and programs in other states.
+provisions:
+  - type: issues-model-policy
+    description: The State Board may issue guidance on curriculum or programming for teaching AI and other
+      emerging technologies.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=207839&DocName=10400SB3492&DocNum=3492&DocTypeID=SB&LegID=166493&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.118b(b)
+      quote: provides best practices for teaching artificial intelligence, quantum computing, and other
+        types of rapidly growing technologies as deemed necessary, in a manner that prepares students
+        for workforce, job, and career competencies in the future
+  - type: creates-task-force
+    description: The State Board must review other states' technology workforce curricula, such as AI.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=207839&DocName=10400SB3492&DocNum=3492&DocTypeID=SB&LegID=166493&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 2-3.118b(d)
+      quote: The State Board shall prepare a comprehensive review of any workforce development preparation
+        curriculum and programming specifically designed around technology, such as artificial intelligence
+        and quantum computing
+sponsors:
+  - name: Willie Preston
+    primary: true
+    party: D
+    chamber: upper
+  - name: Chris Balkema
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-02-05"
+    description: Filed with Secretary by Sen. Willie Preston
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-05"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-05"
+    description: Referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-17"
+    description: Assigned to Executive
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-18"
+    description: To AI and Social Media
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Added as Co-Sponsor Sen. Chris Balkema
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Rule 2-10 Committee Deadline Established As March 27, 2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-27"
+    description: Rule 2-10 Committee Deadline Established As April 24, 2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-24"
+    description: Rule 2-10 Committee/3rd Reading Deadline Established As May 15, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-15"
+    description: Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-05-22"
+    description: Rule 3-9(a) / Re-referred to Assignments
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-06"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=207839&DocName=10400SB3492&DocNum=3492&DocTypeID=SB&LegID=166493&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2109454
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=3492&GAID=18&DocTypeID=SB&LegId=166493&SessionID=114
+    title: SB 3492 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=207839&DocName=10400SB3492&DocNum=3492&DocTypeID=SB&LegID=166493&GAID=18&SessionID=114&SpecSess=&Session=
+    title: SB 3492 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,88 @@
+id: us-ne-2023-2024-lb-1253
+jurisdiction: us-ne
+session: 2023-2024
+identifier: LB 1253
+title: Create the Dyslexia Research Grant Program
+classification: bill
+education_levels:
+  - k12
+topics:
+  - research
+  - funding
+  - equity-access
+summary: Creates a Dyslexia Research Grant Program administered by the State Department of Education,
+  awarding up to $1 million to Nebraska businesses researching artificial-intelligence-based writing assistance
+  for individuals with dyslexia. The research must focus on writing analytics that teachers can use to
+  develop literacy plans for students with dyslexia.
+provisions:
+  - type: appropriates-funding
+    description: Creates a grant program for research on AI-based writing assistance for individuals with
+      dyslexia.
+    citation:
+      source_url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Intro/LB1253.pdf
+      locator: Sec. 1(4)
+      quote: All grant money received under the Dyslexia Research Grant Program shall be used only for
+        the purpose of researching the use of artificial-intelligence-based writing assistance by individuals
+        with dyslexia.
+  - type: appropriates-funding
+    description: Requires the research to produce analytics teachers can use for literacy plans for students
+      with dyslexia.
+    citation:
+      source_url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Intro/LB1253.pdf
+      locator: Sec. 1(4)
+      quote: Such research shall be focused on using aggregate writing analytics to identify writing errors
+        and patterns that can be used by teachers to develop a comprehensive literacy plan for students
+        with dyslexia.
+sponsors:
+  - name: Lou Linehan
+    primary: true
+    party: N
+actions:
+  - date: "2024-01-16"
+    description: Date of introduction
+    actor: legislature
+    classification:
+      - introduction
+  - date: "2024-01-17"
+    description: Referred to Education Committee
+    actor: legislature
+    classification:
+      - referral-committee
+  - date: "2024-02-05"
+    description: Notice of hearing for February 12, 2024
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-18"
+    description: Indefinitely postponed
+    actor: legislature
+    classification:
+      - deferral
+      - failure
+  - date: "2024-04-25"
+    description: Provisions/portions of LB1253 amended into LB1284 by AM3061
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-01-16"
+    url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Intro/LB1253.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1814493
+sources:
+  - url: https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=55506
+    title: LB 1253 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://nebraskalegislature.gov/FloorDocs/108/PDF/Intro/LB1253.pdf
+    title: LB 1253 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

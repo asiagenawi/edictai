@@ -1,0 +1,109 @@
+id: us-vt-2023-2024-h-710
+jurisdiction: us-vt
+session: 2023-2024
+identifier: H 710
+title: An act relating to regulating developers and deployers of certain artificial intelligence systems
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+summary: Regulates developers and deployers of high-risk artificial intelligence systems that make consequential
+  decisions, defined to include access to education, by requiring reasonable care against algorithmic
+  discrimination, documentation, and impact assessments, and also sets impact assessment duties for generative
+  AI developers.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Developers of high-risk AI used in consequential decisions, including access to education,
+      must use reasonable care to avoid algorithmic discrimination.
+    citation:
+      source_url: https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0710/H-0710%20As%20Introduced.pdf
+      locator: Sec. 1, § 1001(4) and § 1002(a)
+      quote: “Consequential decision” means any decision that has a material legal, or similarly significant,
+        effect on a consumer’s access to credit, criminal justice, education, employment, health care,
+        housing, or insurance.
+sponsors:
+  - name: Monique Priestley
+    primary: true
+    party: D
+    chamber: lower
+  - name: Peter Anthony
+    primary: false
+    party: D
+    chamber: lower
+  - name: Elizabeth Burrows
+    primary: false
+    party: D
+    chamber: lower
+  - name: Heather Chase
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kevin Christie
+    primary: false
+    party: D
+    chamber: lower
+  - name: Stephanie Jerome
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Masland
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tristan Roberts
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Sibilia
+    primary: false
+    party: I
+    chamber: lower
+  - name: Katherine Sims
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Templeman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kirk White
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Williams
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-01-09"
+    description: Read first time and referred to the Committee on Commerce and Economic Development
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2024-01-08"
+    url: https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0710/H-0710%20As%20Introduced.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1800317
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2024/H.710
+    title: H 710 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0710/H-0710%20As%20Introduced.pdf
+    title: H 710 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,82 @@
+id: us-va-2025-hb-2465
+jurisdiction: us-va
+session: "2025"
+identifier: HB 2465
+title: Va. Ed. & Workforce Data Governing Board & Office of Va. Education & Workforce Data; established.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - data-governance
+  - institutional-operations
+summary: Establishes the Virginia Education and Workforce Data Governing Board and a supporting office
+  to govern the state's education and workforce data ecosystem, including advisory recommendations on
+  emerging technologies such as artificial intelligence and a data system with machine learning and predictive
+  analytics capabilities for longitudinal student data.
+provisions:
+  - type: creates-task-force
+    description: The board must appoint an advisory committee that recommends on data privacy, migration,
+      and the use of AI in the education and workforce data ecosystem.
+    citation:
+      source_url: https://lis.virginia.gov/bill-details/20251/HB2465/text/HB2465
+      locator: Sec. 2.2-2014.1, subdivision 11
+      quote: provide recommendations on decisions related to data privacy and security, technical aspects
+        of data migration, and the use of emerging technologies such as artificial intelligence
+sponsors:
+  - name: Rodney Willett
+    primary: true
+    party: D
+    chamber: lower
+  - name: Carrie Coyner
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-08"
+    description: Prefiled and ordered printed; Offered 01-13-2025 25104510D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-08"
+    description: Referred to Committee on Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-01-23"
+    description: 'Assigned Educ sub: Higher Education'
+    actor: lower
+    classification:
+      - other
+  - date: "2025-01-24"
+    description: Fiscal Impact Statement from Department of Planning and Budget (HB2465)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-04"
+    description: Left in Education
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-08"
+    url: https://lis.virginia.gov/bill-details/20251/HB2465/text/HB2465
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1905891
+sources:
+  - url: https://lis.virginia.gov/bill-details/20251/HB2465
+    title: HB 2465 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/bill-details/20251/HB2465/text/HB2465
+    title: HB 2465 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

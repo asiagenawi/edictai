@@ -1,0 +1,75 @@
+id: us-la-2026-hb-1184
+jurisdiction: us-la
+session: "2026"
+identifier: HB 1184
+title: Prohibits public contracts with entities owned or controlled by foreign adversaries for the provision
+  of artificial intelligence technology (OR NO IMPACT See Note)
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - procurement
+summary: Bars public entities, including those purchasing K-12 instructional materials and higher education
+  systems, from entering into or extending contracts for AI technology on or after July 1, 2027, unless
+  the contractor attests it is not owned or controlled by a foreign country of concern.
+provisions:
+  - type: procurement-standards
+    description: Higher education boards and their institutions may not procure AI technology from vendors
+      tied to foreign countries of concern after July 1, 2027.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457601
+      locator: New R.S. 17:1421(B)
+      quote: neither the Board of Supervisors of Louisiana State University and Agricultural and Mechanical
+        College nor any institution or program it administers shall enter into or extend a contract that
+        procures artificial intelligence technology,
+  - type: procurement-standards
+    description: Entities purchasing K-12 textbooks and instructional materials must obtain a foreign-ownership
+      affidavit before contracting for AI products.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457601
+      locator: Digest, [Page 7]
+      quote: Proposed law restricts the authority of a public entity purchasing textbooks and other instructional
+        materials to enter into or extend a contract on or after July 1, 2027, that provides AI technology,
+        software, or products
+sponsors:
+  - name: Josh Carlson
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-03-31"
+    description: Read by title. Lies over under the rules.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-04-01"
+    description: Read by title, under the rules, referred to the Committee on Appropriations.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457601
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2139936
+sources:
+  - url: https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=HB1184&sbi=y
+    title: HB 1184 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457601
+    title: HB 1184 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

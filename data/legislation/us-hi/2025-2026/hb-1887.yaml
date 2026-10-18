@@ -1,0 +1,206 @@
+id: us-hi-2025-2026-hb-1887
+jurisdiction: us-hi
+session: 2025-2026
+identifier: HB 1887
+title: Relating To Artificial Intelligence Literacy Education.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+  - local-policy-requirement
+  - funding
+  - task-force
+summary: Requires the Department of Education to implement an AI literacy curricula plan and makes a passing
+  grade in an AI literacy course a graduation condition for grades 11 and 12 beginning in 2027-2028. Requires
+  teacher professional development and certification for AI literacy teachers, requires each public school
+  to adopt an AI policy, establishes an advisory council, and creates a three-year AI education grant
+  pilot program.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Public schools must provide AI literacy instruction in grades 11 and 12.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1887_.HTM
+      locator: Section 1, new 302A-A(b)
+      quote: Beginning with the 2027-2028 school year, all public schools shall provide instruction in
+        artificial intelligence literacy for students in grades eleven and twelve.
+  - type: ai-course-or-graduation-requirement
+    description: Students in grades 11 and 12 must pass an AI literacy course to graduate.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1887_.HTM
+      locator: Section 1, new 302A-A(b)
+      quote: All students in grades eleven and twelve shall complete a course in artificial intelligence
+        literacy and obtain a passing grade in the course as a condition for graduation.
+  - type: educator-pd-requirement
+    description: Teachers must complete AI literacy professional development and certification before
+      teaching the course.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1887_.HTM
+      locator: Section 1, new 302A-A(c)
+      quote: A teacher shall complete artificial intelligence literacy professional development and be
+        certified as an artificial intelligence literacy teacher before teaching artificial intelligence
+        literacy courses in public schools.
+  - type: requires-local-ai-policy
+    description: Each public school must develop an AI policy on acceptable and ethical use.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1887_.HTM
+      locator: Section 1, new 302A-A(d)
+      quote: Each public school shall develop an artificial intelligence policy in consultation with its
+        students' parents and the local community that outlines acceptable and ethical use of artificial
+        intelligence tools by students and staff.
+  - type: appropriates-funding
+    description: Creates a three-year AI education grant pilot program in the Department of Education.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1887_.HTM
+      locator: Sec. 3(a)
+      quote: There is established within the department of education a three-year artificial intelligence
+        education grant pilot program.
+sponsors:
+  - name: Justin Woodson
+    primary: true
+    party: D
+    chamber: lower
+  - name: Terez Amato
+    primary: true
+    party: D
+    chamber: lower
+  - name: Della au Belatti
+    primary: true
+    party: D
+    chamber: lower
+  - name: Andrew Garrett
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tina Grandinetti
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ikaika Hussey
+    primary: true
+    party: D
+    chamber: lower
+  - name: Greggor Ilagan
+    primary: true
+    party: D
+    chamber: lower
+  - name: Darius Kila
+    primary: true
+    party: D
+    chamber: lower
+  - name: Matthias Kusch
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mike Lee
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lisa Marten
+    primary: true
+    party: D
+    chamber: lower
+  - name: Scot Matayoshi
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lauren Matsumoto
+    primary: true
+    party: R
+    chamber: lower
+  - name: Daynette Morikawa
+    primary: true
+    party: D
+    chamber: lower
+  - name: Ikaika Olds
+    primary: true
+    party: D
+    chamber: lower
+  - name: Amy Perruso
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mahina Poepoe
+    primary: true
+    party: D
+    chamber: lower
+  - name: Julie Reyes Oda
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jackson Sayama
+    primary: true
+    party: D
+    chamber: lower
+  - name: Kanani Souza
+    primary: true
+    party: R
+    chamber: lower
+  - name: Gregg Takayama
+    primary: true
+    party: D
+    chamber: lower
+  - name: Adrian Tam
+    primary: true
+    party: D
+    chamber: lower
+  - name: David Tarnas
+    primary: true
+    party: D
+    chamber: lower
+  - name: Chris Todd
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-23"
+    description: Pending introduction.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-26"
+    description: Introduced and Pass First Reading.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-01-26"
+    description: Referred to EDN, ECD, FIN, referral sheet 2
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-30"
+    description: Bill scheduled to be heard by EDN on Tuesday, 02-03-26 2:00PM in House conference room
+      309 VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: The committee(s) on EDN recommend(s) that the measure be deferred.
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-01-23"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1887_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2092749
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1887&year=2026
+    title: HB 1887 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HB1887_.HTM
+    title: HB 1887 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

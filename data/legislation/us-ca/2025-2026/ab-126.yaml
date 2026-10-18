@@ -1,0 +1,177 @@
+id: us-ca-2025-2026-ab-126
+jurisdiction: us-ca
+session: 2025-2026
+identifier: AB 126
+title: 'Education finance: education omnibus trailer bill.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - instructional-use
+  - funding
+summary: Appropriates $600,000 to the State Department of Education to contract with a county office of
+  education to maintain the California Educators Together online repository, which must include guidance
+  and resources for educators and pupils on safeguards for use of new and emerging technology in schools,
+  including artificial intelligence. It also creates a statewide subject matter transcript review service
+  for the Commission on Teacher Credentialing that must comply with applicable AI governance standards.
+provisions:
+  - type: issues-model-policy
+    description: The state-funded California Educators Together repository must include guidance and resources
+      for educators and pupils on safeguards for AI use in schools.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB126#96CHP
+      locator: Section on California Educators Together repository, subd. (c)(3)
+      quote: Guidance and resources for educators and pupils dedicated towards protecting pupils online,
+        cultivating media and digital literacy, and establishing safeguards for use of new and emerging
+        technology in schools, including artificial intelligence.
+sponsors:
+  - name: Budget
+    classification: committee
+    primary: true
+actions:
+  - date: "2025-01-08"
+    description: Read first time. To print.
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2025-01-09"
+    description: From printer. May be heard in committee February 8.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-03"
+    description: Referred to Com. on BUDGET.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-17"
+    description: Withdrawn from committee.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-17"
+    description: Ordered to second reading.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-17"
+    description: (Ayes 53. Noes 17. Page 643.)
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-18"
+    description: Read second time. Ordered to third reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-20"
+    description: Read third time. Passed. Ordered to the Senate. (Ayes 53. Noes 17. Page 726.)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-20"
+    description: In Senate. Read first time. To Com. on RLS. for assignment.
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-04-02"
+    description: Referred to Com. on B. & F. R.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-06-25"
+    description: 'In committee: Hearing postponed by committee.'
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-06-26"
+    description: 'From committee chair, with author''s amendments: Amend, and re-refer to committee. Read
+      second time, amended, and re-referred to Com. on B. & F. R.'
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - committee-passage
+  - date: "2026-06-29"
+    description: 'From committee: Do pass. (Ayes 13. Noes 0.) (June 29).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-06-29"
+    description: Read second time. Ordered to third reading.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-07-02"
+    description: Read third time. Passed. Ordered to the Assembly. (Ayes 28. Noes 8. Page 5176.).
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-07-02"
+    description: In Assembly. Concurrence in Senate amendments pending.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-02"
+    description: Assembly Rule 63 suspended. (Ayes 50. Noes 15. Page 5974.)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-02"
+    description: Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 60. Noes 1. Page 5975.).
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-07-02"
+    description: Enrolled and presented to the Governor at 3 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-07-09"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-07-09"
+    description: Chaptered by Secretary of State - Chapter 65, Statutes of 2026.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2025-01-08"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB126#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-06-26"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB126#98AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-07-02"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB126#97ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2026-07-09"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB126#96CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1908111
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB126
+    title: AB 126 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB126#96CHP
+    title: AB 126 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

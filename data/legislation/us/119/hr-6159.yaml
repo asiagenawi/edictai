@@ -1,0 +1,80 @@
+id: us-119-hr-6159
+jurisdiction: us
+session: "119"
+identifier: H.R. 6159
+title: AI for ALL Act Artificial Intelligence for Advancing Literacy and Learning Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - ai-literacy
+summary: Establishes an Artificial Intelligence Literacy and Education Commission in the Office of Science
+  and Technology Policy, including a Department of Education representative, to develop a national strategy
+  on AI literacy and education and coordinate state and local efforts with institutions of higher education
+  and others.
+provisions:
+  - type: creates-task-force
+    description: Creates a federal commission on AI literacy and education that must develop a national
+      strategy.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr6159/BILLS-119hr6159ih.pdf
+      locator: Sec. 2(a)
+      quote: There is established in the Office of Science and Technology Policy a commission to be known
+        as the ‘‘Artificial Intelligence Literacy and Edu- cation Commission’’.
+sponsors:
+  - name: Luz Rivas
+    primary: true
+    party: D
+    chamber: lower
+  - name: Cleo Fields
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Walkinshaw
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shri Thanedar
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-11-18"
+    description: Sponsor introductory remarks on measure. (CR H4714)
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-11-19"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-11-19"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-21"
+    url: https://www.congress.gov/119/bills/hr6159/BILLS-119hr6159ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2053381
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/6159/all-info
+    title: H.R. 6159 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr6159/BILLS-119hr6159ih.pdf
+    title: H.R. 6159 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

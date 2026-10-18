@@ -5,3 +5,15 @@ abbreviation: OR
 classification: state
 fips: "41"
 region: West
+sessions:
+  - identifier: "2025"
+    name: 2025 Legislative Measures
+    classification: primary
+    start_date: "2025-01-21"
+    legiscan_session_id: 2191
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:or/government?include=legislative_sessions"
+        title: Open States API, Oregon legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

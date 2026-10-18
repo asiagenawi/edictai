@@ -1,0 +1,95 @@
+id: us-fl-2026-hb-963
+jurisdiction: us-fl
+session: "2026"
+identifier: HB 963
+title: Administrative Efficiency in Public Schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+summary: An administrative efficiency bill for public schools that, among many provisions, addresses use
+  of reserved Title I funds for STEM curricula and learning technologies in schools, including technologies
+  related to artificial intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Reserved Title I funds may support STEM curricula and technologies, including AI, in
+      Title I schools.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/963/BillText/Filed/PDF
+      locator: Sec. 20
+      quote: related learning technologies that support academic achievement in science, technology, engineering,
+        and mathematics in Title I schools, including, but not limited to, technologies related to drones,
+        coding, animation, artificial intelligence
+sponsors:
+  - name: David Smith
+    primary: true
+    party: R
+    chamber: lower
+  - name: Michelle Salzman
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-05"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-12"
+    description: Referred to Education Administration Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Referred to Student Academic Success Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Referred to PreK-12 Budget Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-12"
+    description: Now in Education Administration Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-13"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-03-13"
+    description: Died in Education Administration Subcommittee
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-05"
+    url: https://www.flsenate.gov/Session/Bill/2026/963/BillText/Filed/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2065179
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/963
+    title: HB 963 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/963/BillText/Filed/PDF
+    title: HB 963 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

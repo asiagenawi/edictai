@@ -1,0 +1,108 @@
+id: us-118-hr-9215
+jurisdiction: us
+session: "118"
+identifier: H.R. 9215
+title: Workforce for AI Trust Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Amends the National Artificial Intelligence Initiative Act to fund NSF graduate and postdoctoral
+  fellowships at institutions of higher education in trustworthy and ethical AI, and directs NSF to support
+  AI skills-based training for undergraduate and graduate students; it also adds AI governance workforce
+  activities to NIST's mission.
+provisions:
+  - type: appropriates-funding
+    description: Institutions of higher education receiving awards use them for graduate fellowships,
+      tuition, fees, and stipends in programs advancing trustworthy AI.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9215/BILLS-118hr9215ih.pdf
+      locator: Sec. 2(a)(1)
+      quote: For graduate fellowships, tuition, education-related fees, and stipends for up to three academic
+        years.
+  - type: ai-workforce-program
+    description: NSF is directed to support AI training for undergraduate and graduate students through
+      skills-based training or certification programs.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9215/BILLS-118hr9215ih.pdf
+      locator: Sec. 2(a), new paragraph (4)(A)
+      quote: Training for undergraduate and grad- uate students and postdoctoral researchers through existing
+        technical and skills-based training or certification programs
+sponsors:
+  - name: Zoe Lofgren
+    primary: true
+    party: D
+    chamber: lower
+  - name: Frank Lucas
+    primary: false
+    party: R
+    chamber: lower
+  - name: Anna Eshoo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Suzanne Bonamici
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brittany Pettersen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ami Bera
+    primary: false
+    party: D
+    chamber: lower
+  - name: Don Beyer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bill Foster
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-07-30"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-07-30"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-09-11"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2024-09-11"
+    description: Ordered to be Reported by Voice Vote.
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2024-09-03"
+    url: https://www.congress.gov/118/bills/hr9215/BILLS-118hr9215ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1885278
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/9215/all-info
+    title: H.R. 9215 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr9215/BILLS-118hr9215ih.pdf
+    title: H.R. 9215 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

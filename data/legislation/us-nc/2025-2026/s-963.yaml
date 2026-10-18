@@ -1,0 +1,83 @@
+id: us-nc-2025-2026-s-963
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 963
+title: AI Chatbots-Licensing, Safety, & Privacy
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - data-governance
+  - student-privacy
+  - safety-wellbeing
+summary: Creates chatbot licensing, safety and privacy requirements for covered platforms, including de-identification
+  of conversation data and encryption. Applies a 30-day message destruction requirement to chatbots employed
+  in fields that include education.
+provisions:
+  - type: restricts-student-data-use
+    description: Applies a 30-day data destruction requirement to chatbots used in education and other
+      sensitive domains.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S963v1.pdf
+      locator: Sec. 2.(a), new G.S. 170-6(c)
+      quote: The requirements of subsection (b) of this section shall apply to all chatbots which are
+        employed in healthcare, financial services, the legal field, government services, mental health
+        support, and education.
+sponsors:
+  - name: Jim Burgin
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-04-30"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-05-04"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-05-04"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-04"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-04"
+    description: Re-ref Com On Appropriations/Base Budget
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-04-30"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S963v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-05-04"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S963v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2146899
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S963
+    title: S 963 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S963v1.pdf
+    title: S 963 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

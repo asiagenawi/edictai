@@ -1,0 +1,94 @@
+id: us-vt-2023-2024-h-711
+jurisdiction: us-vt
+session: 2023-2024
+identifier: H 711
+title: An act relating to creating oversight and liability standards for developers and deployers of inherently
+  dangerous artificial intelligence systems
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - institutional-operations
+  - equity-access
+summary: Creates oversight and liability standards for developers and deployers of high-risk, dual-use
+  foundation, and generative artificial intelligence systems, with high-risk systems including those used
+  in consequential decisions defined to include access to education, and requires safety and impact assessments
+  submitted to the Division of Artificial Intelligence.
+sponsors:
+  - name: Monique Priestley
+    primary: true
+    party: D
+    chamber: lower
+  - name: Elizabeth Burrows
+    primary: false
+    party: D
+    chamber: lower
+  - name: Heather Chase
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kevin Christie
+    primary: false
+    party: D
+    chamber: lower
+  - name: Stephanie Jerome
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Masland
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tristan Roberts
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Sibilia
+    primary: false
+    party: I
+    chamber: lower
+  - name: Katherine Sims
+    primary: false
+    party: D
+    chamber: lower
+  - name: David Templeman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kirk White
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Williams
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-01-09"
+    description: Read first time and referred to the Committee on Commerce and Economic Development
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2024-01-08"
+    url: https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0711/H-0711%20As%20Introduced.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1800156
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2024/H.711
+    title: H 711 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0711/H-0711%20As%20Introduced.pdf
+    title: H 711 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

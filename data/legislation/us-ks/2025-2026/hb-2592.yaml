@@ -1,0 +1,68 @@
+id: us-ks-2025-2026-hb-2592
+jurisdiction: us-ks
+session: 2025-2026
+identifier: HB 2592
+title: Creating the Kansas task force on artificial intelligence and emerging technologies to study such
+  technologies and make recommendations to the legislature.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+summary: Creates the Kansas task force on artificial intelligence and emerging technologies to study AI's
+  impacts, risks, workforce implications, and regulatory needs, and to explore AI use in state and local
+  government and the responsible integration of AI into public education. Nonvoting members include appointees
+  of the state board of education and the board of regents; the task force reports annually until it expires
+  January 1, 2028.
+provisions:
+  - type: creates-task-force
+    description: The task force must explore the responsible integration of AI into public education.
+    citation:
+      source_url: https://kslegislature.gov/li/b2025_26/measures/documents/hb2592_00_0000.pdf
+      locator: Section 1(a)
+      quote: The task force shall explore the use of artificial intelligence throughout the state to improve
+        the efficiency and effectiveness of state and local government operations and the responsible
+        integration of artificial intelligence into public education.
+sponsors:
+  - name: Legislative Modernization
+    classification: committee
+    primary: true
+actions:
+  - date: "2026-01-29"
+    description: House Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-29"
+    description: House Referred to Committee on Legislative Modernization
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-09"
+    description: 'House Hearing: Monday, February 9, 2026, 9:00 AM Room 218-N'
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-01-29"
+    url: https://kslegislature.gov/li/b2025_26/measures/documents/hb2592_00_0000.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2101896
+sources:
+  - url: https://kslegislature.gov/li/b2025_26/measures/hb2592/
+    title: HB 2592 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://kslegislature.gov/li/b2025_26/measures/documents/hb2592_00_0000.pdf
+    title: HB 2592 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

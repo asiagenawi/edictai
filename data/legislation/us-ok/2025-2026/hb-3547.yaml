@@ -1,0 +1,103 @@
+id: us-ok-2025-2026-hb-3547
+jurisdiction: us-ok
+session: 2025-2026
+identifier: HB 3547
+title: Schools; Parent Data Sovereignty Act of 2026; legislative findings; definitions; prohibiting student
+  data use or transfer for commercial purposes; parental rights to student data; opt out; Data Transparency
+  Portal; contractors and vendors protection of data; violations; rules; effective date.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - student-privacy
+  - data-governance
+summary: Enacts the Parent Data Sovereignty Act of 2026, making parents the owners of their minor children's
+  personally identifiable education data, barring commercial use of student data, and giving parents rights
+  to access, correct, and opt out of data collection, including opting out of predictive analytics models
+  and artificial intelligence training datasets.
+provisions:
+  - type: restricts-student-data-use
+    description: Gives parents the right to opt their child out of predictive analytics models and AI
+      training datasets.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB3547%20INT.PDF
+      locator: Section 1(E)(4)
+      quote: Opt out of inclusion in any research study, predictive analytics model, artificial intelligence
+        training dataset, or cross- agency workforce linkage;
+sponsors:
+  - name: Cody Maynard
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jerry Alvord
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jim Olsen
+    primary: false
+    party: R
+    chamber: lower
+  - name: Neil Hays
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-02"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-02"
+    description: Authored by Representative Maynard
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: Second Reading referred to Appropriations and Budget
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-02-03"
+    description: Referred to Appropriations and Budget Education Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-04"
+    description: Withdrawn from Appropriations and Budget Education Subcommittee Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: Withdrawn from Appropriations and Budget Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: Referred to Rules
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-01-14"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB3547%20INT.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2079831
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=hb3547&Session=2600
+    title: HB 3547 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB3547%20INT.PDF
+    title: HB 3547 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

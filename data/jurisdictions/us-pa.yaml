@@ -5,3 +5,27 @@ abbreviation: PA
 classification: state
 fips: "42"
 region: Northeast
+sessions:
+  - identifier: "2023-2024"
+    name: 2023-2024 Regular Session
+    classification: primary
+    start_date: "2023-01-03"
+    end_date: "2024-11-30"
+    legiscan_session_id: 2035
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:pa/government?include=legislative_sessions"
+        title: Open States API, Pennsylvania legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2025-2026"
+    name: 2025-2026 Regular Session
+    classification: primary
+    start_date: "2025-01-07"
+    legiscan_session_id: 2192
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:pa/government?include=legislative_sessions"
+        title: Open States API, Pennsylvania legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

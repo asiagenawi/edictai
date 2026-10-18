@@ -1,0 +1,76 @@
+id: us-119-hr-2971
+jurisdiction: us
+session: "119"
+identifier: H.R. 2971
+title: YOUNG Act of 2025 Youth Outdoors Using Nature’s Genetics Act of 2025
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+summary: Directs the Secretary of Commerce to make grants to nonprofits, schools, institutions of higher
+  education, and governments for youth biodiversity monitoring projects that use and educate students
+  about advanced technologies, defined to include AI and machine learning.
+provisions:
+  - type: appropriates-funding
+    description: Grants fund youth biodiversity projects, including by schools and colleges, that use
+      and educate students about advanced technologies including AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr2971/BILLS-119hr2971ih.pdf
+      locator: Sec. 2(a)
+      quote: youth biodiversity monitoring projects that use and edu- cate students about advanced technologies.
+sponsors:
+  - name: Yassamin Ansari
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jared Huffman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Doris Matsui
+    primary: false
+    party: D
+    chamber: lower
+  - name: Scott Peters
+    primary: false
+    party: D
+    chamber: lower
+  - name: Melanie Stansbury
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-04-21"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-04-21"
+    description: Referred to the House Committee on Natural Resources.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-05-06"
+    url: https://www.congress.gov/119/bills/hr2971/BILLS-119hr2971ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2025489
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/2971/all-info
+    title: H.R. 2971 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr2971/BILLS-119hr2971ih.pdf
+    title: H.R. 2971 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

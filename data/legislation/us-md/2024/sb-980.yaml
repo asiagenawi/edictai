@@ -1,0 +1,64 @@
+id: us-md-2024-sb-980
+jurisdiction: us-md
+session: "2024"
+identifier: SB 980
+title: Education - Computer Science - Content Standards and Requirements
+classification: bill
+education_levels:
+  - k12
+topics:
+  - curriculum-standards
+  - ai-literacy
+summary: Requires the State Board of Education to update computer science content standards and framework
+  by June 1, 2025 and every three years to reflect recent advances including artificial intelligence and
+  cybersecurity. Requires elementary and middle schools to provide computer science instruction beginning
+  in 2027-2028.
+provisions:
+  - type: ai-in-standards
+    description: The State Board must update computer science standards to include artificial intelligence.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0980f.pdf
+      locator: Education §4-111.4(b)(2)
+      quote: 'THE STATE BOARD SHALL UPDATE THE COMPUTER SCIENCE CONTENT STANDARDS AND FRAMEWORK TO ENSURE
+        THAT INSTRUCTION IS CONSISTENT WITH RECENT ADVANCES IN COMPUTER SCIENCE, INCLUDING: (I) ARTIFICIAL
+        INTELLIGENCE;'
+sponsors:
+  - name: Katie Hester
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-02-02"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-02-08"
+    description: Hearing 3/06 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-06"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0980f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1837893
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0980?ys=2024RS
+    title: SB 980 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0980f.pdf
+    title: SB 980 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

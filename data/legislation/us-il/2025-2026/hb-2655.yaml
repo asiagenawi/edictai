@@ -1,0 +1,106 @@
+id: us-il-2025-2026-hb-2655
+jurisdiction: us-il
+session: 2025-2026
+identifier: HB 2655
+title: BD HIGHER ED-AI ED REPORT
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - curriculum-standards
+  - research
+  - funding
+summary: Requires the Board of Higher Education to report within 18 months on AI education and development
+  in public and private institutions of higher education, including existing and planned AI programs and
+  courses, research, and recommendations on a State-funded grant program for AI learning labs, virtual
+  platforms, and tools for K-12 teachers. The section is repealed after two years.
+provisions:
+  - type: creates-task-force
+    description: The Board of Higher Education must report on AI education and development in higher education
+      institutions.
+    citation:
+      source_url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200402&DocName=10400HB2655&DocNum=2655&DocTypeID=HB&LegID=160615&GAID=18&SessionID=114&SpecSess=&Session=
+      locator: Sec. 9.45(a)
+      quote: the Board shall prepare and submit to the General Assembly a report on the state of artificial
+        intelligence education and development in public and private institutions of higher education
+sponsors:
+  - name: Abdelnasser Rashid
+    primary: true
+    party: D
+    chamber: lower
+  - name: Diane Blair-Sherlock
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Crawford
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kevin Olickal
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-04"
+    description: Filed with the Clerk by Rep. Abdelnasser Rashid
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-06"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2025-02-06"
+    description: Referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-13"
+    description: Added Co-Sponsor Rep. Diane Blair-Sherlock
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-19"
+    description: Added Co-Sponsor Rep. Michael Crawford
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-26"
+    description: Added Co-Sponsor Rep. Kevin John Olickal
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Assigned to Higher Education Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-03-21"
+    description: Rule 19(a) / Re-referred to Rules Committee
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-04"
+    url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200402&DocName=10400HB2655&DocNum=2655&DocTypeID=HB&LegID=160615&GAID=18&SessionID=114&SpecSess=&Session=
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1955104
+sources:
+  - url: https://www.ilga.gov/Legislation/BillStatus?DocNum=2655&GAID=18&DocTypeID=HB&LegId=160615&SessionID=114
+    title: HB 2655 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=200402&DocName=10400HB2655&DocNum=2655&DocTypeID=HB&LegID=160615&GAID=18&SessionID=114&SpecSess=&Session=
+    title: HB 2655 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

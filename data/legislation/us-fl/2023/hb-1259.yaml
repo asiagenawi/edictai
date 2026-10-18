@@ -1,0 +1,368 @@
+id: us-fl-2023-hb-1259
+jurisdiction: us-fl
+session: "2023"
+identifier: HB 1259
+title: Education
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+summary: As amended in committee, would have created the Institute for Risk Management and Insurance Education
+  at the University of Central Florida, with goals that include programs integrating technology and artificial
+  intelligence to prepare students for the insurance industry. The enrolled bill addresses charter school
+  capital outlay funding. The AI provisions were removed by amendment.
+provisions:
+  - type: ai-workforce-program
+    description: The institute's goals include offering programs, workshops, and applied research that
+      integrate technology and AI while preparing students for the insurance industry.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2023/1259/BillText/c1/PDF
+      locator: Comm Sub, Section 3, new s. 1004.3841, goal (6)
+      quote: (6) Offer programs, workshops, case studies, and applied research studies that integrate
+        technology and artificial intelligence with soft skills while preparing students and professionals
+        for the technology-enabled insurance industry of the future.
+sponsors:
+  - name: Appropriations Committee
+    classification: committee
+    primary: true
+  - name: Education & Employment Committee
+    classification: committee
+    primary: true
+  - name: Jennifer Canady
+    primary: true
+    party: R
+    chamber: lower
+  - name: Alina Garcia
+    primary: false
+    party: R
+    chamber: lower
+  - name: Susan Plasencia
+    primary: false
+    party: R
+    chamber: lower
+  - name: Dana Trabulsy
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-02-28"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-03-06"
+    description: Referred to PreK-12 Appropriations Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-06"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-06"
+    description: Referred to Appropriations Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-06"
+    description: Now in PreK-12 Appropriations Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2023-03-14"
+    description: Added to PreK-12 Appropriations Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-16"
+    description: Favorable by PreK-12 Appropriations Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-03-16"
+    description: Reported out of PreK-12 Appropriations Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-03-16"
+    description: Now in Education & Employment Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-07"
+    description: PCS added to Education & Employment Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-11"
+    description: Favorable with CS by Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-04-13"
+    description: Reported out of Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-04-13"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2023-04-13"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-13"
+    description: Referred to Appropriations Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-04-13"
+    description: Now in Appropriations Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-13"
+    description: Added to Appropriations Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-13"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2023-04-17"
+    description: Favorable with CS by Appropriations Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-04-17"
+    description: Reported out of Appropriations Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-04-17"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2023-04-17"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-18"
+    description: 1st Reading (Committee Substitute 2)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2023-04-18"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-04-18"
+    description: Added to Second Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-20"
+    description: Bill added to Special Order Calendar (4/25/2023)
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-04-25"
+    description: Amendment 958561 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: Amendment 759663 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: Amendment 460977 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: Amendment 641255 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: Amendment 595667 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: Amendment 106775 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2023-04-25"
+    description: Amendment 330915 Failed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: Placed on 3rd reading
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-25"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-26"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2023-04-26"
+    description: CS passed as amended; YEAS 82, NAYS 31
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-26"
+    description: In Messages
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-26"
+    description: Referred to Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2023-04-26"
+    description: Received
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-03"
+    description: Withdrawn from Appropriations
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-03"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-03"
+    description: Substituted for CS/CS/SB 1328
+    actor: upper
+    classification:
+      - substitution
+  - date: "2023-05-03"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2023-05-03"
+    description: Amendment(s) failed (158112, 308282)
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-03"
+    description: Placed on 3rd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-04"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2023-05-04"
+    description: CS passed; YEAS 29 NAYS 11
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-04"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-04"
+    description: Ordered enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2023-05-09"
+    description: Signed by Officers and presented to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2023-05-11"
+    description: Approved by Governor
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2023-05-12"
+    description: Chapter No. 2023-69
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-02-28"
+    url: https://www.flsenate.gov/Session/Bill/2023/1259/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2023-04-13"
+    url: https://www.flsenate.gov/Session/Bill/2023/1259/BillText/c1/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2023-04-17"
+    url: https://www.flsenate.gov/Session/Bill/2023/1259/BillText/c2/PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2023-04-25"
+    url: https://www.flsenate.gov/Session/Bill/2023/1259/BillText/e1/PDF
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2023-05-04"
+    url: https://www.flsenate.gov/Session/Bill/2023/1259/BillText/er/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1722774
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2023/1259
+    title: HB 1259 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2023/1259/BillText/er/PDF
+    title: HB 1259 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2023/1259/BillText/c1/PDF
+    title: HB 1259 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Comm Sub).

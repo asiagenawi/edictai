@@ -1,0 +1,106 @@
+id: us-md-2025-sb-906
+jurisdiction: us-md
+session: "2025"
+identifier: SB 906
+title: Education - Artificial Intelligence - Guidelines, Professional Development, and Task Force
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - educator-training
+  - task-force
+  - ai-literacy
+  - workforce
+  - procurement
+summary: Requires the State Department of Education to develop K-12 guidance on classroom use of artificial
+  intelligence, maintain a list of approved AI tools, assess local school systems' capacity to integrate
+  AI, and promote AI professional development for teachers and administrators. Requires the Career and
+  Technical Education Committee to make AI literacy a component of workforce preparation and creates a
+  Task Force on Artificial Intelligence in K-12 Education.
+provisions:
+  - type: issues-model-policy
+    description: Requires the Department to develop or update K-12 guidance on classroom use of AI.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0906f.pdf
+      locator: Section 1, new Subtitle 22, section on approved AI tools, (A)(1)
+      quote: THE DEPARTMENT, IN CONSULTATION WITH THE STATE BOARD AND THE TASK FORCE ON ARTIFICIAL INTELLIGENCE
+        IN K–12 EDUCATION, SHALL DEVELOP OR UPDATE K–12 GUIDANCE ON CLASSROOM USE AND IMPLEMENTATION OF
+        ARTIFICIAL INTELLIGENCE
+  - type: procurement-standards
+    description: Requires the Department to develop and annually update a list of approved AI tools.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0906f.pdf
+      locator: Purpose paragraph
+      quote: to develop and update annually a list of approved artificial intelligence tools
+  - type: ai-workforce-program
+    description: Requires the CTE Committee to make AI literacy a component of workforce preparation.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0906f.pdf
+      locator: Section 1, new Subtitle 22, section on approved AI tools, (D)
+      quote: THE CTE COMMITTEE SHALL ENSURE THAT ARTIFICIAL INTELLIGENCE LITERACY IS A COMPONENT OF WORKFORCE
+        PREPARATION.
+  - type: educator-pd-requirement
+    description: Specifies AI professional development for teachers and administrators, funded as provided
+      in the budget.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0906f.pdf
+      locator: Section 1, new Subtitle 22, section on training and workforce development, (B)
+      quote: 'PROFESSIONAL DEVELOPMENT IN ARTIFICIAL INTELLIGENCE FOR TEACHERS AND ADMINISTRATORS SHALL
+        INCLUDE: (1) COURSES ON ARTIFICIAL INTELLIGENCE;'
+  - type: creates-task-force
+    description: Establishes a Task Force on Artificial Intelligence in K-12 Education.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0906f.pdf
+      locator: Section 2(a)
+      quote: There is a Task Force on Artificial Intelligence in K–12 Education.
+sponsors:
+  - name: Katie Hester
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-03"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-02-05"
+    description: Hearing 3/07 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Hearing canceled
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Hearing 3/07 at 9:00 a.m.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-02-04"
+    url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0906f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1953218
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0906?ys=2025RS
+    title: SB 906 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/bills/sb/sb0906f.pdf
+    title: SB 906 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,179 @@
+id: us-fl-2025-sb-166
+jurisdiction: us-fl
+session: "2025"
+identifier: SB 166
+title: Administrative Efficiency in Public Schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+summary: An administrative efficiency bill for public schools that, among many provisions, lets school
+  districts withhold Title I funds for eligible schools to provide STEM curricula, instructional materials,
+  and learning technologies, including technologies related to artificial intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Title I funds withheld by districts may support STEM curricula and technologies including
+      AI in Title I schools.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2025/166/BillText/e1/HTML
+      locator: Section 29, s. 1011.69(4)(a)5.
+      quote: in Title I schools, including, but not limited to, technologies related to drones, coding,
+        animation, artificial intelligence, cybersecurity, data science, the engineering design process,
+        mobile development, and robotics.
+sponsors:
+  - name: Fiscal Policy
+    classification: committee
+    primary: true
+  - name: Corey Simon
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-19"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-20"
+    description: Referred to Education Pre-K - 12; Appropriations Committee on Pre-K - 12 Education; Fiscal
+      Policy
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-02-24"
+    description: On Committee agenda-- Education Pre-K - 12, 03/03/25, 3:30 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-03"
+    description: Favorable by Education Pre-K - 12; YEAS 7 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-04"
+    description: Now in Appropriations Committee on Pre-K - 12 Education
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-04"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-06"
+    description: On Committee agenda-- Appropriations Committee on Pre-K - 12 Education, 03/11/25, 8:30
+      am, 37 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-11"
+    description: Favorable by Appropriations Committee on Pre-K - 12 Education; YEAS 9 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-03-11"
+    description: Now in Fiscal Policy
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-24"
+    description: On Committee agenda-- Fiscal Policy, 03/27/25, 1:00 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-27"
+    description: CS by- Fiscal Policy; YEAS 18 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-28"
+    description: Pending reference review -under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2025-03-28"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-01"
+    description: Placed on Special Order Calendar, 04/03/25
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-02"
+    description: CS by Fiscal Policy read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-04-03"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-03"
+    description: Amendment(s) adopted (169686, 189656, 332758, 498362)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2025-04-03"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2025-04-03"
+    description: CS passed as amended; YEAS 37 NAYS 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-03"
+    description: Immediately certified
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-03"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-03"
+    description: Indefinitely postponed and withdrawn from consideration
+    actor: lower
+    classification:
+      - withdrawal
+  - date: "2025-06-16"
+    description: Died in Messages
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2025-02-19"
+    url: https://www.flsenate.gov/Session/Bill/2025/166/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2025-03-28"
+    url: https://www.flsenate.gov/Session/Bill/2025/166/BillText/c1/HTML
+    media_type: text/html
+  - note: Engrossed
+    date: "2025-04-03"
+    url: https://www.flsenate.gov/Session/Bill/2025/166/BillText/e1/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1975511
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2025/166
+    title: SB 166 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2025/166/BillText/e1/HTML
+    title: SB 166 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

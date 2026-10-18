@@ -1,0 +1,322 @@
+id: us-ut-2026-hb-197
+jurisdiction: us-ut
+session: "2026"
+identifier: HB 197
+title: School Materials Amendments
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+  - educator-training
+summary: Revises rules on sensitive instructional materials in public schools, including review duties
+  for local education agencies and prohibitions on vendors of digital instructional material. As introduced,
+  would require the state board to contract with a book reviewer whose service uses artificial intelligence
+  assisted analysis to screen materials, and require each local education agency to train schools on that
+  AI tool. The AI provisions were removed by amendment.
+provisions:
+  - type: procurement-standards
+    description: Would require the state board to contract with a book reviewer whose service uses AI-assisted
+      analysis to screen instructional materials.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/introduced/HB0197.pdf
+      locator: Introduced, Section 2, 53G-10-103(8)(e)
+      quote: (ii) uses technology, including artificial intelligence assisted analysis, to screen the
+        instructional materials described in Subsection (8)(e)(i) for violations of this section.
+  - type: educator-pd-requirement
+    description: Would require each LEA to train schools on using the AI tool the state board procures.
+    citation:
+      source_url: https://le.utah.gov/Session/2026/bills/introduced/HB0197.pdf
+      locator: Introduced, Section 2, 53G-10-103(11)(c)
+      quote: (c) provide training to each school on how to utilize the artificial intelligence tool the
+        state board procures under Subsection (8)(e);
+sponsors:
+  - name: Nicholeen Peck
+    primary: true
+    party: R
+    chamber: lower
+  - name: Keven Stratton
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-08"
+    description: Bill Numbered but not Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-08"
+    description: Numbered Bill Publicly Distributed in Legislative Research and General Counsel
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-08"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0197 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-08"
+    description: LFA/ bill sent to agencies for fiscal input for HB0197 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-14"
+    description: House/ received bill from Legislative Research in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-16"
+    description: LFA/ fiscal note sent to sponsor for HB0197 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-20"
+    description: House/ 1st reading (Introduced) in House Rules Committee
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-01-23"
+    description: LFA/ fiscal note publicly available for HB0197 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-26"
+    description: House/ received fiscal note from Fiscal Analyst in House Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-30"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0197S01 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-01-30"
+    description: LFA/ bill sent to agencies for fiscal input for HB0197S01 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: Bill Substituted by Sponsor in House Rules Comm in House Rules Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: House/ to standing committee in House Education Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-04"
+    description: LFA/ fiscal note sent to sponsor for HB0197S01 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: House Comm - Not Considered in House Education Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: LFA/ fiscal note publicly available for HB0197S01 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0197S02 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: LFA/ bill sent to agencies for fiscal input for HB0197S02 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-09"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0197S03 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-09"
+    description: LFA/ bill sent to agencies for fiscal input for HB0197S03 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: LFA/ fiscal note sent to sponsor for HB0197S02 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: LFA/ fiscal note sent to sponsor for HB0197S03 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: LFA/ fiscal note publicly available for HB0197S03 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: LFA/ fiscal note publicly available for HB0197S02 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: LFA/ bill assigned to staff for fiscal analysis for HB0197S04 in Legislative Fiscal Analyst
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: LFA/ bill sent to agencies for fiscal input for HB0197S04 in Legislative Fiscal Agency
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: House Comm - Substitute Recommendation in House Education Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-12"
+    description: House Comm - Favorable Recommendation in House Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-13"
+    description: House/ comm rpt/ substituted in House Education Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-13"
+    description: House/ 2nd reading in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-2
+      - reading-3
+  - date: "2026-02-16"
+    description: LFA/ fiscal note sent to sponsor for HB0197S04 in Version Sponsor
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-16"
+    description: LFA/ fiscal note publicly available for HB0197S04 in Released
+    actor: legislature
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: House/ 3rd reading in House 3rd Reading Calendar for House bills
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-20"
+    description: House/ passed 3rd reading in Senate Secretary
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-02-20"
+    description: House/ to Senate in Senate Secretary
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: Senate/ received from House in Waiting for Introduction in the Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-02-23"
+    description: Senate/ 1st reading (Introduced) in Senate Rules Committee
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-25"
+    description: Senate/ to standing committee in Senate Government Operations and Political Subdivisions
+      Committee
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-26"
+    description: Senate Comm - Not Considered in Senate Government Operations and Political Subdivisions
+      Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Senate Comm - Held in Senate Government Operations and Political Subdivisions Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: Senate Comm - Recommends Returned to Rules in Senate Government Operations and Political
+      Subdivisions Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: Senate/ comm rpt/ sent to Rules in Senate Rules Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-06"
+    description: Senate/ strike enacting clause in Senate Secretary
+    actor: upper
+    classification:
+      - failure
+  - date: "2026-03-06"
+    description: Senate/ to House in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House/ received from Senate in Clerk of the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House/ filed in House file for bills not passed
+    actor: lower
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2026-01-08"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0197.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-01-30"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0197S01.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-02-06"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0197S02.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-02-09"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0197S03.pdf
+    media_type: application/pdf
+  - note: Substitute
+    date: "2026-02-12"
+    url: https://le.utah.gov/Session/2026/bills/introduced/HB0197S04.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2068899
+sources:
+  - url: https://le.utah.gov/~2026/bills/static/HB0197.html
+    title: HB 197 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://le.utah.gov/Session/2026/bills/introduced/HB0197S04.pdf
+    title: HB 197 text (Substitute)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://le.utah.gov/Session/2026/bills/introduced/HB0197.pdf
+    title: HB 197 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

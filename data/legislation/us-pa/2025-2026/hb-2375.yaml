@@ -1,0 +1,133 @@
+id: us-pa-2025-2026-hb-2375
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 2375
+title: In charter schools, further providing for definitions, for charter school requirements, for establishment
+  of charter school, for causes for nonrenewal or termination, for powers and duties of department, for
+  cyber charter school requirements and prohibitions and for establishment of cyber charter school; and,
+  in the State Board of Education, further providing for powers and duties of the board.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+summary: Bars charter and cyber charter schools from adopting an instructional model that relies on artificial
+  intelligence instead of professional employees to provide direct instruction. Bars authorizers from
+  accepting such applications, makes adoption of such a model grounds for revocation or nonrenewal, and
+  directs the board to issue regulations prohibiting it in public school entities.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: Local boards may not accept charter applications whose instructional model relies on
+      AI instead of professional employees for direct instruction.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2375/PN3180
+      locator: Section 1717-A(c)(2)
+      quote: A local board of school directors may not consider or accept an application to establish
+        a charter school with an instructional model that relies on artificial intelligence instead of
+        professional employes to provide direct instruction to students.
+  - type: prohibits-ai-replacing-educators
+    description: Cyber charter schools may not adopt an instructional model that relies on AI instead
+      of professional employees for direct instruction.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2375/PN3180
+      locator: Section 1743-A(j)
+      quote: A cyber charter school may not adopt an instructional model that relies on artificial intelligence
+        instead of professional employees to provide direct instruction to students.
+sponsors:
+  - name: Nikki Rivera
+    primary: true
+    party: D
+    chamber: lower
+  - name: Arvind Venkat
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carol Hill-Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kyle Donahue
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Inglis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Williams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Frankel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Ciresi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Johanny Cepeda-Freytiz
+    primary: false
+    party: D
+    chamber: lower
+  - name: Timothy Brennan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jen Mazzocco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Melissa Shusterman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nancy Guenst
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tarah Probst
+    primary: false
+    party: D
+    chamber: lower
+  - name: Heather Boyd
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-04-14"
+    description: Referred to Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-04-14"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2375/PN3180
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2142496
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb2375
+    title: HB 2375 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2375/PN3180
+    title: HB 2375 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

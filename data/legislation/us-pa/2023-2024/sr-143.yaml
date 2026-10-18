@@ -1,0 +1,103 @@
+id: us-pa-2023-2024-sr-143
+jurisdiction: us-pa
+session: 2023-2024
+identifier: SR 143
+title: Directing the Joint State Government Commission to establish an advisory committee to conduct a
+  study on the field of artificial intelligence and its impact and potential future impact in Pennsylvania.
+classification: resolution
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - academic-integrity
+summary: Directs the Joint State Government Commission to establish an advisory committee to study artificial
+  intelligence and its impact in Pennsylvania. The study includes an evaluation of how AI has affected
+  students' academic records and ways to help State-related university leaders curb student AI use.
+provisions:
+  - type: creates-task-force
+    description: The advisory committee's study must evaluate AI's effect on students' academic record
+      and ways to help university leaders curb student AI use.
+    citation:
+      source_url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=S&billTyp=R&billNbr=0143&pn=1008
+      locator: Resolved clause, item (10)
+      quote: An evaluation of how artificial intelligence has affected the academic track record of Pennsylvania's
+        students and ways to assist State-related university leaders with identifying solutions to curbing
+        the usage of artificial intelligence by students.
+sponsors:
+  - name: John Kane
+    primary: true
+    party: D
+    chamber: upper
+  - name: Christine Tartaglione
+    primary: false
+    party: D
+    chamber: upper
+  - name: Wayne Fontana
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jimmy Dillon
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jay Costa
+    primary: false
+    party: D
+    chamber: upper
+  - name: Timothy Kearney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Steven Santarsiero
+    primary: false
+    party: D
+    chamber: upper
+  - name: Judy Schwank
+    primary: false
+    party: D
+    chamber: upper
+  - name: Amanda Cappelletti
+    primary: false
+    party: D
+    chamber: upper
+  - name: James Brewster
+    primary: false
+    party: D
+    chamber: upper
+  - name: Maria Collett
+    primary: false
+    party: D
+    chamber: upper
+  - name: Nicholas Miller
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2023-07-06"
+    description: Referred to COMMUNICATIONS AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=S&billTyp=R&billNbr=0143&pn=1008
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1773806
+sources:
+  - url: https://www.legis.state.pa.us/cfdocs/billinfo/bill_history.cfm?syear=2023&sind=0&body=S&type=R&bn=143
+    title: SR 143 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.state.pa.us/cfdocs/legis/PN/Public/btCheck.cfm?txtType=PDF&sessYr=2023&sessInd=0&billBody=S&billTyp=R&billNbr=0143&pn=1008
+    title: SR 143 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,437 @@
+id: us-ct-2026-sb-1
+jurisdiction: us-ct
+session: "2026"
+identifier: SB 1
+title: An Act Making Adjustments To The State Budget For The Biennium Ending June 30, 2027, Making Deficiency
+  Appropriations For The Fiscal Year Ending June 30, 2026, Authorizing And Adjusting Bonds Of The State
+  And Concerning Provisions Relating To Revenue, School Construction And Other Items To Implement The
+  State Budget.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+summary: A state budget adjustment act that, among many provisions, carries forward $500,000 to the Connecticut
+  State Colleges and Universities for the AI Academy in fiscal year 2027.
+provisions:
+  - type: appropriates-funding
+    description: Carries forward $500,000 to the Connecticut State Colleges and Universities for the AI
+      Academy.
+    citation:
+      source_url: https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00068-R00SB-00001-PA.PDF
+      locator: Sec. 47
+      quote: shall be transferred to the Connecticut State Colleges and Universities, for Various Grants,
+        and made available during the fiscal year ending June 30, 2027, for AI Academy.
+sponsors:
+  - name: Finance, Revenue and Bonding Committee
+    classification: committee
+    primary: true
+  - name: Martin Looney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Duff
+    primary: false
+    party: D
+    chamber: upper
+  - name: Saud Anwar
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jorge Cabrera
+    primary: false
+    party: D
+    chamber: upper
+  - name: Christine Cohen
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mae Flexer
+    primary: false
+    party: D
+    chamber: upper
+  - name: John Fonfara
+    primary: false
+    party: D
+    chamber: upper
+  - name: Sujata Gadkar-Wilcox
+    primary: false
+    party: D
+    chamber: upper
+  - name: Herron Gaston
+    primary: false
+    party: D
+    chamber: upper
+  - name: Joan Hartley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jan Hochadel
+    primary: false
+    party: D
+    chamber: upper
+  - name: Paul Honig
+    primary: false
+    party: D
+    chamber: upper
+  - name: Julie Kushner
+    primary: false
+    party: D
+    chamber: upper
+  - name: Matthew Lesser
+    primary: false
+    party: D
+    chamber: upper
+  - name: Rick Lopes
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cici Maher
+    primary: false
+    party: D
+    chamber: upper
+  - name: James Maroney
+    primary: false
+    party: D
+    chamber: upper
+  - name: Martha Marx
+    primary: false
+    party: D
+    chamber: upper
+  - name: Douglas McCrory
+    primary: false
+    party: D
+    chamber: upper
+  - name: Patricia Miller
+    primary: false
+    party: D
+    chamber: upper
+  - name: Norman Needleman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Catherine Osten
+    primary: false
+    party: D
+    chamber: upper
+  - name: MD Rahman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Derek Slap
+    primary: false
+    party: D
+    chamber: upper
+  - name: Nick Gauthier
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nick Menapace
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rebecca Martinez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Travis Simms
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ronald Napoli
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jason Doucette
+    primary: false
+    party: D
+    chamber: lower
+  - name: Amy Morrin Bello
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anne Hughes
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Shannon
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anthony Nolan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Aimee Berger-Girvalo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kaitlyn Shake
+    primary: false
+    party: D
+    chamber: lower
+  - name: Corey Paris
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jane Garibay
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kara Rochelle
+    primary: false
+    party: D
+    chamber: lower
+  - name: Farley Santos
+    primary: false
+    party: D
+    chamber: lower
+  - name: Roland Lemar
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Daniel Gaiewski
+    primary: false
+    party: D
+    chamber: lower
+  - name: Aundre Bumgardner
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Quinn
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laurie Sweet
+    primary: false
+    party: D
+    chamber: lower
+  - name: Patrick Boyd
+    primary: false
+    party: D
+    chamber: lower
+  - name: Larry Butler
+    primary: false
+    party: D
+    chamber: lower
+  - name: Iris Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gary Turco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Hilda Santiago
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dominique Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Fazzino
+    primary: false
+    party: D
+    chamber: lower
+  - name: Derell Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Henry Genga
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jaime Foster
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Mushinsky
+    primary: false
+    party: D
+    chamber: lower
+  - name: Hubert Delany
+    primary: false
+    party: D
+    chamber: lower
+  - name: Steven Stafstrom
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-04"
+    description: Referred to Joint Committee on Finance, Revenue and Bonding
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-13"
+    description: Vote to Draft
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-19"
+    description: Drafted by Committee
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-20"
+    description: Referred to Joint Committee on Finance, Revenue and Bonding
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-23"
+    description: Public Hearing 03/27
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: Joint Favorable
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-01"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-04-13"
+    description: Referred to Office of Legislative Research and Office of Fiscal Analysis 04/20/26 12:00
+      PM
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-20"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-20"
+    description: Favorable Report, Tabled for the Calendar, Senate
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-20"
+    description: Senate Calendar Number 423
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-20"
+    description: File Number 692
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-02"
+    description: Senate Adopted Senate Amendment Schedule A 5762
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-02"
+    description: Senate Rejected Senate Amendment Schedule B 5764
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-02"
+    description: Senate Passed as Amended by Senate Amendment Schedule A
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-02"
+    description: Rules Suspended, Transmitted to the House
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-02"
+    description: Favorable Report, Tabled for the Calendar, House
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-05-02"
+    description: House Calendar Number 561
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-02"
+    description: House Rejected House Amendment Schedule A 5790
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-02"
+    description: House Rejected House Amendment Schedule B 5808
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-02"
+    description: House Adopted Senate Amendment Schedule A
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-02"
+    description: House Passed as Amended by Senate Amendment Schedule A
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-02"
+    description: In Concurrence
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-14"
+    description: Public Act 26-68
+    actor: executive
+    classification:
+      - became-law
+  - date: "2026-05-15"
+    description: Transmitted to the Secretary of State
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-05-15"
+    description: Transmitted by Secretary of the State to Governor
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-26"
+    description: Signed by the Governor
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2026-02-03"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00001-R00-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-03-19"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00001-R01-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-04-20"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00001-R02-SB.PDF
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-05-14"
+    url: https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00068-R00SB-00001-PA.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2106739
+sources:
+  - url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00001&which_year=2026
+    title: SB 1 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00068-R00SB-00001-PA.PDF
+    title: SB 1 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

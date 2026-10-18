@@ -1,0 +1,65 @@
+id: us-fl-2025-sb-1424
+jurisdiction: us-fl
+session: "2025"
+identifier: SB 1424
+title: K-12 School Transportation
+classification: bill
+education_levels:
+  - k12
+topics:
+  - institutional-operations
+summary: Requires school districts to provide transportation to K-12 students living more than 1 mile
+  from school, sets bus stop and route requirements, and requires district school boards to use artificial
+  intelligence routing programs, if available, within 3 years, with a 15 percent transportation funding
+  reduction for noncompliance.
+sponsors:
+  - name: Jay Collins
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-02-26"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-06"
+    description: Referred to Education Pre-K - 12; Appropriations Committee on Pre-K - 12 Education; Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-03-10"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-05-03"
+    description: Indefinitely postponed and withdrawn from consideration
+    actor: upper
+    classification:
+      - withdrawal
+  - date: "2025-06-16"
+    description: Died in Education Pre-K - 12
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2025-02-26"
+    url: https://www.flsenate.gov/Session/Bill/2025/1424/BillText/Filed/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1985537
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2025/1424
+    title: SB 1424 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2025/1424/BillText/Filed/HTML
+    title: SB 1424 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

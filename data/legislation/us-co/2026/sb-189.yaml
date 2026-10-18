@@ -1,0 +1,352 @@
+id: us-co-2026-sb-189
+jurisdiction: us-co
+session: "2026"
+identifier: SB 189
+title: Automated Decision-Making Technology
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - student-privacy
+  - admissions
+summary: Regulates automated decision-making technology used to materially influence consequential decisions
+  in covered domains, including education enrollment or an education opportunity, with notice, disclosure,
+  and correction rights; deployers subject to FERPA may meet these duties for education decisions through
+  FERPA notice and student record procedures.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Education enrollment or an education opportunity is a covered domain for consequential
+      decisions under the ADMT law.
+    citation:
+      source_url: https://leg.colorado.gov/bill_files/116489/download
+      locator: Sec. 1, part 17, definition (6)(a)
+      quote: AN EDUCATION ENROLLMENT OR AN EDUCATION OPPORTUNITY;
+  - type: requires-disclosure
+    description: For education decisions, FERPA-covered deployers give required notices through FERPA
+      processes, including to parents or eligible students.
+    citation:
+      source_url: https://leg.colorado.gov/bill_files/116489/download
+      locator: Sec. 1, part 17, notice provision (9)(a)
+      quote: FOR A CONSEQUENTIAL DECISION RELATING TO EDUCATION, A DEPLOYER THAT IS SUBJECT TO FERPA SATISFIES
+        THE NOTICE AND DISCLOSURE REQUIREMENTS OF THIS SECTION BY PROVIDING NOTICE AND DISCLOSURES THROUGH
+        PROCESSES AND CHANNELS THAT ARE CONSISTENT WITH FERPA
+  - type: restricts-student-data-use
+    description: FERPA-covered deployers meet correction rights for education decisions through student
+      record amendment procedures.
+    citation:
+      source_url: https://leg.colorado.gov/bill_files/116489/download
+      locator: Sec. 1, part 17, correction provision (2)(a)
+      quote: FOR A CONSEQUENTIAL DECISION RELATING TO EDUCATION, A DEPLOYER THAT IS SUBJECT TO FERPA COMPLIES
+        WITH THE REQUIREMENTS OF SUBSECTION ( 1) OF THIS SECTION THROUGH THE DEPLOYER'S EXISTING STUDENT
+        RECORD INSPECTION, REVIEW, AND AMENDMENT PROCEDURES
+sponsors:
+  - name: James Coleman
+    primary: true
+    party: D
+    chamber: upper
+  - name: Robert Rodriguez
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jennifer Bacon
+    primary: true
+    party: D
+    chamber: lower
+  - name: Monica Duran
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mark Baisley
+    primary: true
+    party: R
+    chamber: lower
+  - name: Brianna Titone
+    primary: true
+    party: D
+    chamber: lower
+  - name: Judith Amabile
+    primary: false
+    party: D
+    chamber: lower
+  - name: Matt Ball
+    primary: false
+    party: D
+    chamber: upper
+  - name: Adrienne Benavidez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jeff Bridges
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lisa Cutter
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tony Exum
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lisa Frizell
+    primary: false
+    party: R
+    chamber: upper
+  - name: Barbara Kirkmeyer
+    primary: false
+    party: R
+    chamber: upper
+  - name: Chris Kolker
+    primary: false
+    party: D
+    chamber: upper
+  - name: William Lindstedt
+    primary: false
+    party: D
+    chamber: upper
+  - name: Janice Marchman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Byron Pelton
+    primary: false
+    party: R
+    chamber: upper
+  - name: Rod Pelton
+    primary: false
+    party: R
+    chamber: lower
+  - name: Janice Rich
+    primary: false
+    party: R
+    chamber: lower
+  - name: Cleave Simpson
+    primary: false
+    party: R
+    chamber: upper
+  - name: Marc Snyder
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andrew Boesenecker
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kyle Brown
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jarvis Caldwell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Michael Carter
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chad Clifford
+    primary: false
+    party: D
+    chamber: lower
+  - name: Regina English
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ava Flanell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Lori Goldstein
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ryan Gonzalez
+    primary: false
+    party: R
+    chamber: lower
+  - name: Eliza Hamrick
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jamie Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sheila Lieder
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mandy Lindsay
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julie McCluskie
+    primary: false
+    party: D
+    chamber: lower
+  - name: Karen McCormick
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kenny Nguyen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Amy Paschal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Manny Rutinel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Scott Slaugh
+    primary: false
+    party: R
+    chamber: lower
+  - name: Lesley Smith
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tammy Story
+    primary: false
+    party: D
+    chamber: lower
+  - name: Elizabeth Velasco
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ty Winter
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-05-01"
+    description: Introduced In Senate - Assigned to Business, Labor, & Technology
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-05-05"
+    description: Senate Committee on Business, Labor, & Technology Refer Amended to Appropriations
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-05-06"
+    description: Senate Committee on Appropriations Refer Amended to Senate Committee of the Whole
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2026-05-06"
+    description: Senate Second Reading Special Order - Passed with Amendments - Committee, Floor
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-05-07"
+    description: Senate Third Reading Passed - No Amendments
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-07"
+    description: Introduced In House - Assigned to Judiciary
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2026-05-08"
+    description: House Committee on Judiciary Refer Amended to Appropriations
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-08"
+    description: House Committee on Appropriations Refer Unamended to House Committee of the Whole
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-08"
+    description: House Second Reading Special Order - Passed with Amendments - Committee
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-05-09"
+    description: House Third Reading Passed - No Amendments
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-05-12"
+    description: Senate Considered House Amendments - Result was to Concur - Repass
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Signed by the President of the Senate
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-05-12"
+    description: Signed by the Speaker of the House
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-05-12"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-05-14"
+    description: Governor Signed
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "1969-12-31"
+    url: https://leg.colorado.gov/bill_files/115623/download
+    media_type: application/pdf
+  - note: Engrossed
+    date: "1969-12-31"
+    url: https://leg.colorado.gov/bill_files/115943/download
+    media_type: application/pdf
+  - note: Engrossed
+    date: "1969-12-31"
+    url: https://leg.colorado.gov/bill_files/116013/download
+    media_type: application/pdf
+  - note: Amended
+    date: "1969-12-31"
+    url: https://leg.colorado.gov/bill_files/116189/download
+    media_type: application/pdf
+  - note: Amended
+    date: "1969-12-31"
+    url: https://leg.colorado.gov/bill_files/116236/download
+    media_type: application/pdf
+  - note: Enrolled
+    date: "1969-12-31"
+    url: https://leg.colorado.gov/bill_files/116432/download
+    media_type: application/pdf
+  - note: Chaptered
+    date: "1969-12-31"
+    url: https://leg.colorado.gov/bill_files/116489/download
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2147523
+sources:
+  - url: https://leg.colorado.gov/bills/SB26-189
+    title: SB 189 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leg.colorado.gov/bill_files/116489/download
+    title: SB 189 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

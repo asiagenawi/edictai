@@ -1,0 +1,93 @@
+id: us-118-s-3312
+jurisdiction: us
+session: "118"
+identifier: S. 3312
+title: Artificial Intelligence Research, Innovation, and Accountability Act of 2023
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Establishes an AI accountability framework that includes transparency reports and federal risk-management
+  recommendations for high-impact AI systems, defined as systems built to make decisions affecting individuals'
+  access to housing, employment, credit, education, healthcare, or insurance.
+sponsors:
+  - name: John Thune
+    primary: true
+    party: R
+    chamber: upper
+  - name: Amy Klobuchar
+    primary: false
+    party: D
+    chamber: upper
+  - name: Roger Wicker
+    primary: false
+    party: R
+    chamber: upper
+  - name: John Hickenlooper
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ben Lujan
+    primary: false
+    party: D
+    chamber: upper
+  - name: Shelley Capito
+    primary: false
+    party: R
+    chamber: upper
+  - name: Tammy Baldwin
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cynthia Lummis
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2023-11-15"
+    description: 'Read twice and referred to the Committee on Commerce, Science, and Transportation. (text:
+      CR S5543-5549)'
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+  - date: "2024-07-31"
+    description: Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment
+      in the nature of a substitute favorably.
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-12-18"
+    description: Committee on Commerce, Science, and Transportation. Reported by Senator Cantwell with
+      an amendment in the nature of a substitute. Without written report.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-12-18"
+    description: Placed on Senate Legislative Calendar under General Orders. Calendar No. 723.
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-11-27"
+    url: https://www.congress.gov/118/bills/s3312/BILLS-118s3312is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1784131
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/senate-bill/3312/all-info
+    title: S. 3312 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/s3312/BILLS-118s3312is.pdf
+    title: S. 3312 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

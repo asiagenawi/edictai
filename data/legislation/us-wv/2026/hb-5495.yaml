@@ -1,0 +1,118 @@
+id: us-wv-2026-hb-5495
+jurisdiction: us-wv
+session: "2026"
+identifier: HB 5495
+title: Creating certain requirements and accountability procedures regarding a student’s use of software
+  in a public school.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - student-privacy
+  - procurement
+  - data-governance
+summary: Requires the State Board to create a statewide digital privacy agreement governing software students
+  use in public schools. The agreement bars vendors from using student data to train machine-learning
+  models for unrelated commercial purposes and from using AI to analyze student emotions or behavior except
+  for listed academic purposes, and requires vendors to disclose AI components.
+provisions:
+  - type: restricts-student-data-use
+    description: Bars vendors from using student data to train machine-learning models for commercial
+      purposes unrelated to educational outcomes.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5495%20intr.htm&yr=2026&sesstype=RS&i=5495
+      locator: §18-2L-2(a)(8)(A)
+      quote: Using student data to train machine-learning models for commercial purposes unrelated to
+        improving educational outcomes for students;
+  - type: restricts-student-data-use
+    description: Bars AI systems that analyze student emotions, behavior, or attention except for listed
+      academic purposes.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5495%20intr.htm&yr=2026&sesstype=RS&i=5495
+      locator: §18-2L-2(a)(8)(B)
+      quote: 'Employing artificial intelligence systems that analyze a student''s emotions, behavior,
+        or attention for purposes other than: (i) Providing personalized academic instruction, tutoring,
+        or assessment;'
+  - type: procurement-standards
+    description: Requires vendors to disclose AI components and functions to the contracting entity.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5495%20intr.htm&yr=2026&sesstype=RS&i=5495
+      locator: §18-2L-2(a)(9)(E)
+      quote: Disclose to the contracting entity all data elements collected, third-party recipients embedded
+        libraries and analytics tools, device-level permissions, and artificial intelligence components
+        and functions;
+sponsors:
+  - name: Jeffrey Stephens
+    primary: true
+    party: R
+    chamber: lower
+  - name: Guy Ward
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bill Bell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Dana Ferrell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Elliott Pritt
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kathie Crouse
+    primary: false
+    party: R
+    chamber: lower
+  - name: Sarah Drennan
+    primary: false
+    party: R
+    chamber: lower
+  - name: Lori Dittman
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-13"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-13"
+    description: To Education
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-13"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-13"
+    description: To House Education
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5495%20intr.htm&yr=2026&sesstype=RS&i=5495
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2116729
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5495&year=2026&sessiontype=RS&btype=bill
+    title: HB 5495 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5495%20intr.htm&yr=2026&sesstype=RS&i=5495
+    title: HB 5495 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

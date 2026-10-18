@@ -1,0 +1,93 @@
+id: us-ga-2025-2026-sb-37
+jurisdiction: us-ga
+session: 2025-2026
+identifier: SB 37
+title: '"AI Accountability Act"; enact'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - local-policy-requirement
+  - data-governance
+  - equity-access
+summary: Enacts the AI Accountability Act, requiring every governmental entity, defined to include school
+  systems, to publish and maintain an AI system usage plan covering goals, bias avoidance, data privacy,
+  governance roles, human oversight, employee training, and incident response, and creating the Georgia
+  Board for Artificial Intelligence to guide those plans.
+provisions:
+  - type: requires-local-ai-policy
+    description: Each governmental entity, including school systems, must publish and maintain an AI system
+      usage plan.
+    citation:
+      source_url: https://www.legis.ga.gov/api/legislation/document/20252026/230409
+      locator: new 50-1-14(b)
+      quote: Each governmental entity shall be required to publish by December 31, 2026
+  - type: requires-local-ai-policy
+    description: Governmental entity is defined to include school systems.
+    citation:
+      source_url: https://www.legis.ga.gov/api/legislation/document/20252026/230409
+      locator: new 50-1-14(a)(2)
+      quote: '''Governmental entity'' means any department, agency, board, bureau, commission, authority,
+        county, municipal corporation, school system, or other political subdivision of this state.'
+sponsors:
+  - name: John Albers
+    primary: true
+    party: R
+    chamber: upper
+  - name: Shawn Still
+    primary: true
+    party: R
+    chamber: upper
+  - name: Jason Esteves
+    primary: true
+    party: D
+    chamber: upper
+  - name: Max Burns
+    primary: true
+    party: R
+    chamber: upper
+  - name: Chuck Payne
+    primary: true
+    party: R
+    chamber: upper
+  - name: Randy Robertson
+    primary: true
+    party: R
+    chamber: upper
+  - name: Larry Walker
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-01-27"
+    description: Senate Hopper
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-01-28"
+    description: Senate Read and Referred
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-01-28"
+    url: https://www.legis.ga.gov/api/legislation/document/20252026/230409
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1943273
+sources:
+  - url: https://www.legis.ga.gov/legislation/69557
+    title: SB 37 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.ga.gov/api/legislation/document/20252026/230409
+    title: SB 37 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

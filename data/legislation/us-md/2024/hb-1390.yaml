@@ -1,0 +1,148 @@
+id: us-md-2024-hb-1390
+jurisdiction: us-md
+session: "2024"
+identifier: HB 1390
+title: Public Schools - Public School Construction - Funding and Administration
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+summary: School construction funding bill that, among other changes, requires the Interagency Commission
+  on School Construction to report to the General Assembly by December 15, 2024 on whether artificial
+  intelligence weapon detection systems are eligible for school construction funding.
+provisions:
+  - type: creates-task-force
+    description: The Interagency Commission on School Construction must report on school construction
+      funding eligibility for AI weapon detection systems.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_354_hb1390e.pdf
+      locator: Sec. 5
+      quote: on the eligibility for school construction funding for artificial intelligence weapon detection
+        systems.
+sponsors:
+  - name: Kevin Harris
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-09"
+    description: First Reading Appropriations
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-02-09"
+    description: Hearing 2/27 at 12:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-11"
+    description: Favorable with Amendments Report by Appropriations
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-12"
+    description: Favorable with Amendments {533128/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-12"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-03-13"
+    description: Third Reading Passed (136-0)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-03-14"
+    description: Referred Budget and Taxation
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-03-21"
+    description: Hearing 3/26 at 12:00 p.m.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-05"
+    description: Favorable with Amendments Report by Budget and Taxation
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-05"
+    description: Favorable with Amendments {893523/1 Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-05"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-04-06"
+    description: Third Reading Passed (41-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-08"
+    description: House Concurs Senate Amendments
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-08"
+    description: Third Reading Passed (138-0)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-08"
+    description: Passed Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-04-25"
+    description: Approved by the Governor - Chapter 354
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2024-02-09"
+    url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1390f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-03-13"
+    url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1390t.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2024-04-10"
+    url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1390e.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2024-05-02"
+    url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_354_hb1390e.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1842172
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1390?ys=2024RS
+    title: HB 1390 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_354_hb1390e.pdf
+    title: HB 1390 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

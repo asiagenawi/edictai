@@ -1,0 +1,235 @@
+id: us-md-2025-hb-782
+jurisdiction: us-md
+session: "2025"
+identifier: HB 782
+title: Study on Detecting Deadly Weapons in Public Middle and High Schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - task-force
+  - equity-access
+  - student-privacy
+summary: Requires the Maryland Center for School Safety to study weapons detection and reporting in public
+  middle and high schools, including evaluating software that uses artificial intelligence to identify
+  deadly weapons and requesting assessments of technologies' efficacy, bias, data ownership, and privacy,
+  with interim and final reports.
+provisions:
+  - type: creates-task-force
+    description: The statewide school safety study must evaluate AI software that identifies deadly weapons.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_244_hb0782e.pdf
+      locator: Sec. 1(c)(3)
+      quote: software that uses artificial intelligence to identify deadly weapons, and the necessary
+        steps to ensure that the software works effectively,
+sponsors:
+  - name: Vanessa Atterbeary
+    primary: true
+    party: D
+    chamber: lower
+  - name: Eric Ebersole
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kris Fair
+    primary: false
+    party: D
+    chamber: lower
+  - name: Michael Griffith
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kevin Hornberger
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bob Long
+    primary: false
+    party: R
+    chamber: lower
+  - name: April Fleming Miller
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bernice Mireku-North
+    primary: false
+    party: D
+    chamber: lower
+  - name: Edith Patterson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Denise Roberts
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joe Vogel
+    primary: false
+    party: D
+    chamber: lower
+  - name: Melissa Wells
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jheanelle Wilkins
+    primary: false
+    party: D
+    chamber: lower
+  - name: Greg Wims
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chao Wu
+    primary: false
+    party: D
+    chamber: lower
+  - name: Caylin Young
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-29"
+    description: First Reading Ways and Means
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2025-02-04"
+    description: Hearing 2/19 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-12"
+    description: Hearing canceled
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-12"
+    description: Hearing 2/25 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-14"
+    description: Favorable with Amendments Report by Ways and Means
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-14"
+    description: Favorable with Amendments {723727/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-03-14"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-03-17"
+    description: Third Reading Passed (136-0)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-03-17"
+    description: Referred Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-18"
+    description: Hearing 3/27 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-05"
+    description: Favorable with Amendments Report by Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-05"
+    description: Favorable with Amendments {163523/1
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-05"
+    description: Motion Special Order until Next Session (Senator Jennings) Adopted
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Favorable with Amendments {163523/1 Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-07"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-07"
+    description: Motion Special Order until Later Today (Senator Ready) Adopted
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Third Reading Passed (47-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-07"
+    description: House Concurs Senate Amendments
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Third Reading Passed (139-0)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-07"
+    description: Passed Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-05-06"
+    description: Approved by the Governor - Chapter 244
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2025-01-29"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0782f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-03-14"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0782t.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2025-04-09"
+    url: https://mgaleg.maryland.gov/2025RS/bills/hb/hb0782e.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2025-05-08"
+    url: https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_244_hb0782e.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1945335
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0782?ys=2025RS
+    title: HB 782 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_244_hb0782e.pdf
+    title: HB 782 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

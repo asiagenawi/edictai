@@ -1,0 +1,238 @@
+id: us-ny-2025-2026-s-1169
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 1169
+title: Regulates the development and use of certain artificial intelligence systems to prevent algorithmic
+  discrimination; requires independent audits of high risk AI systems; provides for enforcement by the
+  attorney general.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - admissions
+  - equity-access
+summary: Regulates the development and use of high-risk AI systems to prevent algorithmic discrimination,
+  covering consequential decisions in education and vocational training such as accreditation, certification,
+  admissions, and financial aid, and requires deployers to notify affected individuals, with independent
+  audits and attorney general enforcement.
+provisions:
+  - type: ai-in-admissions
+    description: Defines consequential decisions to include education and vocational training decisions
+      on accreditation, certification, admissions, and financial aid or scholarships.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01169&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01169B
+      locator: Sec. 105(4)(b)
+      quote: '(b) Education and vocational training, including, but not limited to, all of the following:
+        (i) Accreditation; (ii) Certification; (iii) Admissions; and (iv) Financial aid or scholarships.'
+  - type: requires-disclosure
+    description: Requires covered deployers to inform the affected person at the onset of an engagement
+      that a high-risk AI system is used to make a consequential decision.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01169&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01169B
+      locator: Sec. 108(1)
+      quote: Any covered deployer shall inform the covered subject and covered agent, if applicable, at
+        the immediate onset of an engagement between the covered subject and the covered deployer as to
+        the use of a high-risk AI system for the making of a consequential decision
+sponsors:
+  - name: Kristen Gonzalez
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jamaal Bailey
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jabari Brisport
+    primary: false
+    party: D
+    chamber: upper
+  - name: Siela Bynoe
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cordell Cleare
+    primary: false
+    party: D
+    chamber: upper
+  - name: Patricia Fahy
+    primary: false
+    party: D
+    chamber: upper
+  - name: Nathalia Fernandez
+    primary: false
+    party: D
+    chamber: upper
+  - name: Andrew Gounardes
+    primary: false
+    party: D
+    chamber: upper
+  - name: Michelle Hinchey
+    primary: false
+    party: D
+    chamber: upper
+  - name: Robert Jackson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Liz Krueger
+    primary: false
+    party: D
+    chamber: upper
+  - name: John Liu
+    primary: false
+    party: D
+    chamber: upper
+  - name: Rachel May
+    primary: false
+    party: D
+    chamber: upper
+  - name: Kevin Parker
+    primary: false
+    party: D
+    chamber: upper
+  - name: Roxanne Persaud
+    primary: false
+    party: D
+    chamber: upper
+  - name: Gustavo Rivera
+    primary: false
+    party: D
+    chamber: upper
+  - name: Julia Salazar
+    primary: false
+    party: D
+    chamber: upper
+  - name: James Sanders
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lea Webb
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-01-08"
+    description: REFERRED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-06-09"
+    description: AMEND AND RECOMMIT TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-09"
+    description: PRINT NUMBER 1169A
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-12"
+    description: COMMITTEE DISCHARGED AND COMMITTED TO RULES
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-06-12"
+    description: ORDERED TO THIRD READING CAL.1867
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-12"
+    description: PASSED SENATE
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-06-12"
+    description: DELIVERED TO ASSEMBLY
+    actor: upper
+    classification:
+      - other
+  - date: "2025-06-12"
+    description: referred to ways and means
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-07"
+    description: died in assembly
+    actor: lower
+    classification:
+      - died-at-session-end
+  - date: "2026-01-07"
+    description: returned to senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-07"
+    description: REFERRED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-21"
+    description: REPORTED AND COMMITTED TO FINANCE
+    actor: upper
+    classification:
+      - referral-committee
+      - committee-passage
+  - date: "2026-05-29"
+    description: AMEND AND RECOMMIT TO FINANCE
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-29"
+    description: PRINT NUMBER 1169B
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-03"
+    description: COMMITTEE DISCHARGED AND COMMITTED TO RULES
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-06-03"
+    description: ORDERED TO THIRD READING CAL.1607
+    actor: upper
+    classification:
+      - other
+  - date: "2026-06-03"
+    description: PASSED SENATE
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-06-03"
+    description: DELIVERED TO ASSEMBLY
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-01-08"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01169&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01169
+    media_type: text/html
+  - note: Amended
+    date: "2025-01-08"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01169&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01169A
+    media_type: text/html
+  - note: Amended
+    date: "2025-01-08"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01169&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01169B
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1907408
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S1169
+    title: S 1169 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01169&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01169B
+    title: S 1169 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

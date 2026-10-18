@@ -1,0 +1,154 @@
+id: us-ca-2025-2026-scr-82
+jurisdiction: us-ca
+session: 2025-2026
+identifier: SCR 82
+title: 'Public higher education: artificial intelligence usage.'
+classification: concurrent-resolution
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - academic-integrity
+  - instructional-use
+  - educator-training
+  - student-privacy
+summary: Encourages the leaders of the University of California, California State University, and California
+  Community Colleges to create a workgroup of faculty, staff, and administrators to review AI use in higher
+  education, discuss best practices on academic honesty, student privacy, academic support, and faculty
+  support, and report to the Legislature within one year.
+provisions:
+  - type: creates-task-force
+    description: Encourages the three public higher education systems to form a workgroup reviewing AI
+      use in higher education.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SCR82#98AMD
+      locator: Legislative Counsel's Digest
+      quote: the Chancellor of the California Community Colleges to create a workgroup of faculty, staff,
+        and administrators to review the use of artificial intelligence in higher education
+  - type: academic-integrity-rules
+    description: The workgroup should discuss best practices for AI in academic studies, including mitigating
+      plagiarism and protecting student privacy.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SCR82#98AMD
+      locator: Resolved clause on AI in academic studies
+      quote: mitigating plagiarism, ethically using artificial intelligence in academic assignments, reasonable
+        safeguards to protect student privacy and personal information, ensuring safe and responsible
+        use of artificial intelligence
+sponsors:
+  - name: Roger Niello
+    primary: true
+    party: R
+    chamber: upper
+  - name: Mike Fong
+    primary: false
+    party: D
+    chamber: lower
+  - name: LaShae Sharp-Collins
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-05-15"
+    description: Introduced. Referred to Com. on RLS.
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-05-28"
+    description: Re-referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2025-06-19"
+    description: Set for hearing July 2.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: 'From committee: Be adopted. Ordered to consent calendar. (Ayes 7. Noes 0. Page 1906.)
+      (July 2).'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-07-03"
+    description: Read second time. Ordered to consent calendar.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-07-10"
+    description: Read. Adopted. (Ayes 37. Noes 0. Page 2040.) Ordered to the Assembly.
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-07-10"
+    description: In Assembly. Held at Desk.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-08-18"
+    description: Referred to Coms. on HIGHER ED. and P. & C.P.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-10"
+    description: Coauthors revised.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-10"
+    description: 'From committee: Be adopted and re-refer to Com. on P. & C.P. (Ayes 10. Noes 0.) (June
+      9). Re-referred to Com. on P. & C.P.'
+    actor: lower
+    classification:
+      - passage
+      - referral-committee
+  - date: "2026-06-11"
+    description: From committee with author's amendments. Read second time and amended. Re-referred to
+      Com. on P. & C.P.
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-06-17"
+    description: 'From committee: Be adopted and re-refer to Com. on APPR. (Ayes 15. Noes 0.) (June 16).
+      Re-referred to Com. on APPR.'
+    actor: lower
+    classification:
+      - passage
+      - referral-committee
+  - date: "2026-08-05"
+    description: 'August 5 hearing: Placed on suspense file.'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-08-13"
+    description: 'August 13 hearing: Held in committee and under submission.'
+    actor: lower
+    classification:
+      - committee-failure
+versions:
+  - note: Introduced
+    date: "2025-05-15"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SCR82#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-06-11"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SCR82#98AMD
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2032041
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SCR82
+    title: SCR 82 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SCR82#98AMD
+    title: SCR 82 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,301 @@
+id: us-me-2023-2024-ld-1977
+jurisdiction: us-me
+session: 2023-2024
+identifier: LD 1977
+title: An Act to Enact the Maine Data Privacy and Protection Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Enacts a comprehensive data privacy law that includes requirements for covered algorithms using
+  artificial intelligence techniques. Large covered entities must conduct annual impact assessments that
+  describe steps to mitigate harms, including in determining access to education opportunities.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Requires algorithm impact assessments to describe mitigation of harms in determining
+      access to education, among other opportunities.
+    citation:
+      source_url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1270&item=1&snum=131
+      locator: §9615(1)(F)(2)
+      quote: Making or facilitating advertising for, determining access to or restrictions on the use
+        of housing, education, employment, healthcare, insurance or credit opportunities;
+sponsors:
+  - name: Margaret O'Neil
+    primary: true
+    party: D
+    chamber: lower
+  - name: David Boyer
+    primary: false
+    party: R
+    chamber: lower
+  - name: Michael Brennan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Craig Hickman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Morgan Rielly
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-05-23"
+    description: Committee on INNOVATION, DEVELOPMENT, ECONOMIC ADVANCEMENT AND BUSINESS suggested and
+      ordered printed.
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-23"
+    description: On motion of Representative ROBERTS of South Berwick, the Bill was REFERRED to the Committee
+      on JUDICIARY.
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2023-05-23"
+    description: Sent for concurrence. ORDERED SENT FORTHWITH.
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-25"
+    description: 'Work Session Held: TABLED'
+    actor: legislature
+    classification:
+      - deferral
+  - date: "2023-05-25"
+    description: On motion by Senator Carney of Cumberland, REFERRED to the Committee on Judiciary, in
+      concurrence.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2023-06-01"
+    description: Carry Over Requested
+    actor: legislature
+    classification:
+      - other
+  - date: "2023-07-25"
+    description: Carry Over Approved
+    actor: legislature
+    classification:
+      - other
+  - date: "2023-07-26"
+    description: Carried over, in the same posture, to any special or regular session of the 131st Legislature,
+      pursuant to Joint Order SP 847.
+    actor: lower
+    classification:
+      - deferral
+  - date: "2023-10-17"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2023-12-11"
+    description: 'Work Session Held: TABLED'
+    actor: legislature
+    classification:
+      - deferral
+  - date: "2024-01-09"
+    description: 'Work Session Held: TABLED'
+    actor: legislature
+    classification:
+      - deferral
+  - date: "2024-01-11"
+    description: 'Work Session Held: TABLED'
+    actor: legislature
+    classification:
+      - deferral
+  - date: "2024-01-18"
+    description: 'Work Session Held: TABLED'
+    actor: legislature
+    classification:
+      - deferral
+  - date: "2024-01-29"
+    description: 'Work Session Held: TABLED'
+    actor: legislature
+    classification:
+      - deferral
+  - date: "2024-02-05"
+    description: 'Work Session Held: TABLED'
+    actor: legislature
+    classification:
+      - deferral
+  - date: "2024-02-14"
+    description: 'Work Session Held: TABLED'
+    actor: legislature
+    classification:
+      - deferral
+  - date: "2024-03-14"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2024-03-26"
+    description: Work Session Held
+    actor: legislature
+    classification:
+      - committee-hearing
+  - date: "2024-03-26"
+    description: 'Voted: Divided Report'
+    actor: legislature
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: Reports READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: On motion of Representative MOONEN of Portland, the Majority Ought to Pass as Amended
+      Report was ACCEPTED.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-16"
+    description: ROLL CALL NO. 530 (Yeas 75 - Nays 70 - Absent 5 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: The Bill was READ ONCE.
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-04-16"
+    description: Committee Amendment "A" (H-975) was READ.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: On motion of Representative MOONEN of Portland, House Amendment "A" (H-984) to Committee
+      Amendment "A" (H-975) was READ and ADOPTED.
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-04-16"
+    description: ROLL CALL NO. 531 (Yeas 77 - Nays 67 - Absent 6 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: Committee Amendment "A" (H-975) as Amended by House Amendment "A" (H-984) thereto was
+      ADOPTED.
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2024-04-16"
+    description: Under suspension of the rules, the Bill was given its SECOND READING without REFERENCE
+      to the Committee on Bills in the Second Reading.
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2024-04-16"
+    description: The Bill was PASSED TO BE ENGROSSED as Amended by Committee Amendment "A" (H-975) as
+      Amended by House Amendment "A" (H-984) thereto.
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-04-16"
+    description: 'Reported Out: OTP-AM/ONTP'
+    actor: legislature
+    classification:
+      - committee-passage
+  - date: "2024-04-16"
+    description: HELD.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: RELEASED.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: Sent for concurrence. ORDERED SENT FORTHWITH.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Reports READ
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Senator CARNEY of Cumberland moved to The Majority Ought to Pass As Amended Report
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-04-17"
+    description: Roll Call Ordered Roll Call Number 752 Yeas 15 - Nays 18 - Excused 2 - Absent 0 FAILED
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Subsequently The Minority Ought Not To Pass Report ACCEPTED In NON-CONCURRENCE
+    actor: upper
+    classification:
+      - committee-failure
+  - date: "2024-04-17"
+    description: Sent down for concurrence
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Motion of Representative POIRIER of Skowhegan that the House RECEDE and CONCUR to ACCEPTANCE
+      of the Minority Ought Not to Pass Report FAILED.
+    actor: lower
+    classification:
+      - committee-failure
+  - date: "2024-04-17"
+    description: ROLL CALL NO. 542 (Yeas 57 - Nays 85 - Absent 8 - Excused 0 - Vacant 1)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Subsequently, the House INSISTED on ACCEPTANCE of the Majority Ought to Pass as Amended
+      Report and PASSAGE TO BE ENGROSSED as Amended by Committee Amendment "A" (H-975) as Amended by House
+      Amendment "A" (H-984) thereto.
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-17"
+    description: ORDERED SENT FORTHWITH.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: On motion by Senator VITELLI of Sagadahoc The Senate INSISTED To The Minority Ought Not
+      To Pass Report ACCEPTED In NON-CONCURRENCE
+    actor: upper
+    classification:
+      - committee-failure
+  - date: "2024-04-17"
+    description: Placed in Legislative Files (DEAD)
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1270&item=1&snum=131
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1766525
+sources:
+  - url: https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1977&snum=131
+    title: LD 1977 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1270&item=1&snum=131
+    title: LD 1977 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

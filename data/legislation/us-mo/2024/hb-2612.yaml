@@ -1,0 +1,144 @@
+id: us-mo-2024-hb-2612
+jurisdiction: us-mo
+session: "2024"
+identifier: HB 2612
+title: Establishes an educational technology impact advisory council to review the use of technology in
+  schools
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+summary: Directs the Missouri commissioner of education to establish an educational technology impact
+  advisory council of educators, parents, and specialists to review best practices in the use of technology
+  in instruction, including the inclusion of artificial intelligence. The council must submit and periodically
+  update recommendations and policy proposals to the State Board of Education and legislative education
+  committees.
+provisions:
+  - type: creates-task-force
+    description: Creates an advisory council that must review technology use in instruction, including
+      AI.
+    citation:
+      source_url: https://documents.house.mo.gov/billtracking/bills241/hlrbillspdf/5424H.02C.pdf
+      locator: Section 186.095.3(1)(e)
+      quote: (d) Impacts on early childhood brain development, including reading and writing skills; (e)
+        The inclusion of artificial intelligence;
+sponsors:
+  - name: Tricia Byrnes
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-02-01"
+    description: Introduced and Read First Time (H)
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2024-02-05"
+    description: Read Second Time (H)
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-02-08"
+    description: 'Referred: Special Committee on Innovation and Technology(H)'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-13"
+    description: Public Hearing Completed (H)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2024-02-27"
+    description: Executive Session Completed (H)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2024-02-27"
+    description: HCS Voted Do Pass (H)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-28"
+    description: 'HCS Reported Do Pass (H) - AYES: 8 NOES: 0 PRESENT: 0'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-29"
+    description: 'Referred: Rules - Legislative Oversight(H)'
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-04"
+    description: Executive Session Completed (H)
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2024-03-04"
+    description: Voted Do Pass (H)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-04"
+    description: 'Reported Do Pass (H) - AYES: 7 NOES: 1 PRESENT: 1'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-11"
+    description: Placed on the Informal Perfection Calendar (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-26"
+    description: Placed Back on Formal Perfection Calendar (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-03"
+    description: Placed on the Informal Perfection Calendar (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-15"
+    description: Placed Back on Formal Perfection Calendar (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-16"
+    description: Placed on the Informal Perfection Calendar (H)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-02"
+    description: Placed Back on Formal Perfection Calendar (H)
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-01"
+    url: https://documents.house.mo.gov/billtracking/bills241/hlrbillspdf/5424H.01I.pdf
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-02-28"
+    url: https://documents.house.mo.gov/billtracking/bills241/hlrbillspdf/5424H.02C.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1834678
+sources:
+  - url: https://house.mo.gov/Bill.aspx?bill=HB2612&year=2024&code=R
+    title: HB 2612 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://documents.house.mo.gov/billtracking/bills241/hlrbillspdf/5424H.02C.pdf
+    title: HB 2612 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

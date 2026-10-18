@@ -1,0 +1,88 @@
+id: us-118-hr-9607
+jurisdiction: us
+session: "118"
+identifier: H.R. 9607
+title: Workforce of the Future Act of 2024
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+  - funding
+summary: Requires a joint federal report on the impact of artificial intelligence on jobs, including the
+  resources institutions of higher education need to deliver AI-related skills. Authorizes Department
+  of Education grants to expand prekindergarten through grade 12 and postsecondary emerging and advanced
+  technology education, which the bill defines to include artificial intelligence.
+provisions:
+  - type: creates-task-force
+    description: The AI jobs report must identify the resources institutions of higher education, including
+      community and technical colleges, need to deliver AI-related skills and education.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9607/BILLS-118hr9607ih.pdf
+      locator: Sec. 103(b)(10)
+      quote: Identification of the resources and oppor- tunities required for labor organizations and
+        institu- tions of higher education, including community col- leges, technical colleges
+  - type: appropriates-funding
+    description: Directs the Secretary of Education to award grants to expand emerging and advanced technology
+      education.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9607/BILLS-118hr9607ih.pdf
+      locator: Sec. 203(a)(1)
+      quote: The Secretary shall award grants to eligible entities to serve as models for na- tional replication
+        of emerging and advanced tech- nology education expansion efforts
+  - type: appropriates-funding
+    description: Defines the emerging and advanced technology education funded by the grants to include
+      artificial intelligence.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9607/BILLS-118hr9607ih.pdf
+      locator: Sec. 202(4)
+      quote: the relationship between computing and mathe- matics; artificial intelligence; quantum computing;
+sponsors:
+  - name: Barbara Lee
+    primary: true
+    party: D
+    chamber: lower
+  - name: Emanuel Cleaver
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-09-16"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-09-16"
+    description: Referred to the Committee on Education and the Workforce, and in addition to the Committee
+      on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in
+      each case for consideration of such provisions as fall within the jurisdiction of the committee
+      concerned.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-10-19"
+    url: https://www.congress.gov/118/bills/hr9607/BILLS-118hr9607ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1887282
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/9607/all-info
+    title: H.R. 9607 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr9607/BILLS-118hr9607ih.pdf
+    title: H.R. 9607 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

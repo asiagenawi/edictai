@@ -1,0 +1,59 @@
+id: us-tx-2025-2026-sb-1445
+jurisdiction: us-tx
+session: 2025-2026
+identifier: SB 1445
+title: Relating to bullying and cyberbullying in public schools.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+summary: Revises school bullying law, requiring district bullying policies with reporting, investigation,
+  and supportive measures, and defines cyberbullying to include bullying done through an application using
+  artificial intelligence.
+sponsors:
+  - name: Jose Menendez
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-02-19"
+    description: Received by the Secretary of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-19"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-06"
+    description: Read first time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-03-06"
+    description: Referred to Education K-16
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-02-19"
+    url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01445I.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1976041
+sources:
+  - url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1445
+    title: SB 1445 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01445I.htm
+    title: SB 1445 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

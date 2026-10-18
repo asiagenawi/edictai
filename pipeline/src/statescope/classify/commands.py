@@ -14,7 +14,8 @@ from ..vocab import Vocab
 from .common import ClassifyPaths, expand, latest_candidates, load_candidates, read_json, read_jsonl
 from .instructions import write_instructions
 from .judgments import batch_for_output, check_full, check_triage, expected_keys, load_rows
-from .texts import TextStore
+from .prep import EXCERPT_CAP
+from .texts import VERSIONS, TextStore
 
 
 def _paths(args: argparse.Namespace) -> Paths:
@@ -60,6 +61,9 @@ def cmd_prep(args: argparse.Namespace) -> int:
     written = write_instructions(paths, cp.root)
     candidates = _candidates(cp, args)
     keys = _keys(args)
+    if getattr(args, "rejudge", False) and keys is None:
+        print("--rejudge needs --keys", file=sys.stderr)
+        return 2
     args.batch_size = args.batch_size or default_batch_size(args.stage)
     if args.stage == "triage":
         result = prep_triage(
@@ -73,6 +77,8 @@ def cmd_prep(args: argparse.Namespace) -> int:
             keys=keys,
             rebuild=args.rebuild,
             require_text=args.require_text,
+            excerpt_cap=args.excerpt_cap,
+            rejudge=args.rejudge,
         )
     print(f"{result.items} bills in {len(result.batches)} new {args.stage} batches")
     for path in result.batches:
@@ -140,6 +146,7 @@ def cmd_fetch_texts(args: argparse.Namespace) -> int:
             pairs,
             max_queries=args.max_queries,
             refresh_extract=args.re_extract,
+            version=args.version,
             progress=lambda m: print(m, file=sys.stderr),
         )
     except LegiScanError as exc:
@@ -152,6 +159,11 @@ def cmd_fetch_texts(args: argparse.Namespace) -> int:
     )
     for key, why in result.unavailable[:20]:
         print(f"  unavailable {key}: {why}")
+    if args.version != "latest":
+        print(
+            f"Earlier versions ({args.version}): {len(result.earlier)} stored, "
+            f"{len(result.no_earlier)} without one"
+        )
     if result.skipped_budget:
         print(f"{len(result.skipped_budget)} not fetched: --max-queries {args.max_queries} reached")
     for key, why in result.errors[:20]:
@@ -313,6 +325,17 @@ def register(sub: argparse._SubParsersAction) -> None:
         action="store_true",
         help="full stage: leave out bills with no fetched text",
     )
+    p.add_argument(
+        "--excerpt-cap",
+        type=int,
+        default=EXCERPT_CAP,
+        help=f"full stage: characters of excerpts per text version (default {EXCERPT_CAP})",
+    )
+    p.add_argument(
+        "--rejudge",
+        action="store_true",
+        help="full stage, with --keys: batch these bills again even if already judged or batched",
+    )
     candidates_arg(p)
     keys_arg(p)
     p.set_defaults(func=cmd_prep)
@@ -328,6 +351,13 @@ def register(sub: argparse._SubParsersAction) -> None:
     )
     p.add_argument(
         "--re-extract", action="store_true", help="re-extract text from cached responses"
+    )
+    p.add_argument(
+        "--version",
+        choices=VERSIONS,
+        default="latest",
+        help="also store an earlier version beside the latest: the earliest with text, "
+        "or (ai) the newest earlier version whose text mentions AI",
     )
     candidates_arg(p)
     keys_arg(p)

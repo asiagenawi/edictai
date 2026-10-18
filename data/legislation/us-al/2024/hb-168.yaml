@@ -1,0 +1,195 @@
+id: us-al-2024-hb-168
+jurisdiction: us-al
+session: "2024"
+identifier: HB 168
+title: Crimes & Offenses, raises max. age for offenses involving obscene materials with depictions of
+  children, authorizes punitive damages for victims of those offenses, and directs Board of Ed. to require
+  policies related to those offenses
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - local-policy-requirement
+summary: Revises Alabama child sexual abuse material offenses, including artificially generated material,
+  and creates a civil cause of action. Directs the State Board of Education to require each local board
+  of education to adopt and distribute a student discipline and education policy that prohibits private,
+  explicit, or pornographic images generated with artificial intelligence.
+provisions:
+  - type: requires-local-ai-policy
+    description: Local boards of education must adopt a written policy on student discipline and education
+      related to private images and child sexual abuse material.
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/HB168-enr.pdf
+      locator: Section 7(1)
+      quote: Develop a written policy on student discipline and education related to the distribution
+        of private images
+  - type: addresses-deepfakes
+    description: The local policy must prohibit private, explicit, or pornographic images generated with
+      AI.
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/HB168-enr.pdf
+      locator: Section 7(2)
+      quote: Include within the written policy a prohibition of private, explicit, or pornographic images
+        generated with artificial intelligence.
+sponsors:
+  - name: Matt Woods
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-02-14"
+    description: Read for the first time and referred to the House Committee on Judiciary
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2024-02-14"
+    description: Pending House Judiciary
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-21"
+    description: Reported Out of Committee House of Origin
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-21"
+    description: Committee Substitute Adopted LRVFAWW-1
+    actor: lower
+    classification:
+      - substitution
+  - date: "2024-02-22"
+    description: Read for the Second Time and placed on the Calendar
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-02-22"
+    description: Third Reading in House of Origin
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2024-02-22"
+    description: JUDY Substitute Offered LRVFAWW-1
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Motion to Adopt - Adopted Roll Call 109 LRVFAWW-1
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: Motion to Read a Third Time and Pass as Amended - Adopted Roll Call 110
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-02-22"
+    description: Engrossed
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-27"
+    description: Read for the first time and referred to the Senate Committee on Judiciary
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2024-02-27"
+    description: Pending Senate Judiciary
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-06"
+    description: Reported Out of Committee Second House
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-06"
+    description: Read for the Second Time and placed on the Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-04-11"
+    description: Third Reading in Second House
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2024-04-11"
+    description: Motion to Read a Third Time and Pass - Adopted Roll Call 497
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-11"
+    description: Ready to Enroll
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-11"
+    description: Ready to Enroll
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-11"
+    description: Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-04-11"
+    description: Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-04-16"
+    description: Delivered to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-04-16"
+    description: Signature Requested
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Enacted
+    actor: executive
+    classification:
+      - became-law
+  - date: "2024-04-24"
+    description: Enacted
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2024-02-14"
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/HB168-int.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-02-22"
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/HB168-eng.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2024-04-11"
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/HB168-enr.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1847210
+sources:
+  - url: https://alison.legislature.state.al.us/bill-search
+    title: HB 168 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/HB168-enr.pdf
+    title: HB 168 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

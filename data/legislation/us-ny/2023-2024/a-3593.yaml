@@ -1,0 +1,82 @@
+id: us-ny-2023-2024-a-3593
+jurisdiction: us-ny
+session: 2023-2024
+identifier: A 3593
+title: Enacts the NY privacy act to require companies to disclose their methods of de-identifying personal
+  information, to place special safeguards around data sharing and to allow consumers to obtain the names
+  of all entities with whom their information is shared.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - admissions
+summary: Enacts the New York Privacy Act governing collection and sharing of personal data. Requires controllers
+  and processors engaged in automated decision-making affecting education enrollment, among other areas,
+  to conduct annual impact assessments.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Automated decision-making affecting education enrollment, among other fields, requires
+      an annual impact assessment.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A03593&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A03593
+      locator: § 3, new Gen. Bus. Law § 1102
+      quote: A controller or processor engaged in automated decision-making affecting financial or lending
+        services, housing, public accommodation, insurance, education enrollment, employment, health care
+        services, or access to basic necessities
+sponsors:
+  - name: Linda Rosenthal
+    primary: true
+    party: D
+    chamber: lower
+  - name: David Weprin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jo Simon
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jeffrey Dinowitz
+    primary: false
+    party: D
+    chamber: lower
+  - name: Amy Paulin
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-02-03"
+    description: referred to consumer affairs and protection
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2024-01-03"
+    description: referred to consumer affairs and protection
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-02-03"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A03593&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A03593
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1695245
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2023/A3593
+    title: A 3593 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A03593&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A03593
+    title: A 3593 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

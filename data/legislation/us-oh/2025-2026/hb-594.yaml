@@ -1,0 +1,89 @@
+id: us-oh-2025-2026-hb-594
+jurisdiction: us-oh
+session: 2025-2026
+identifier: HB 594
+title: Require students complete a high school computer science course
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires school districts to offer, and students to complete, at least one unit of high school
+  computer science, and requires that computer science instruction cover evolving areas such as artificial
+  intelligence, including what it is, how it works, and its impact on society.
+provisions:
+  - type: ai-course-or-graduation-requirement
+    description: Requires the computer science graduation unit to include instruction in artificial intelligence,
+      including what it is, how it works, and its impact on society.
+    citation:
+      source_url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb594/00_IN/pdf/
+      locator: Sec. 3313.603(C)
+      quote: of computer science shall include instruction in evolving areas of computer science, such
+        as artificial intelligence, including an understanding of what it is, how it works, and its impact
+        on society.
+sponsors:
+  - name: Mike Odioso
+    primary: true
+    party: R
+    chamber: lower
+  - name: Thomas Hall
+    primary: true
+    party: R
+    chamber: lower
+  - name: Gary Click
+    primary: false
+    party: R
+    chamber: lower
+  - name: Tex Fischer
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kevin Ritter
+    primary: false
+    party: R
+    chamber: lower
+  - name: Eric Synenberg
+    primary: false
+    party: D
+    chamber: lower
+  - name: Terrence Upchurch
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andrea White
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-11-18"
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-11-19"
+    description: 'Referred to committee: Education'
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb594/00_IN/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2053186
+sources:
+  - url: https://www.legislature.ohio.gov/legislation/136/hb594
+    title: HB 594 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb594/00_IN/pdf/
+    title: HB 594 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

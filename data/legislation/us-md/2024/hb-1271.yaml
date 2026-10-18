@@ -1,0 +1,200 @@
+id: us-md-2024-hb-1271
+jurisdiction: us-md
+session: "2024"
+identifier: HB 1271
+title: Information Technology - Artificial Intelligence - Policies and Procedures (Artificial Intelligence
+  Governance Act of 2024)
+classification: bill
+education_levels:
+  - postsecondary
+  - k12
+topics:
+  - local-policy-requirement
+  - institutional-operations
+  - task-force
+summary: Establishes AI governance requirements for state government, including inventories, impact assessments,
+  and policies for high-risk AI, and applies the subtitle to public senior higher education institutions
+  and Baltimore City Community College, which must adopt compatible AI policies. Directs the Governor's
+  AI Subcabinet to study and recommend on AI use in areas including local school systems.
+provisions:
+  - type: requires-local-ai-policy
+    description: Public senior higher education institutions and Baltimore City Community College must
+      establish AI policies compatible with the state's high-risk AI policies.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1271t.pdf
+      locator: Sec. 1, new Subtitle 8, applicability (B)(3)
+      quote: ON OR BEFORE JUNE 1, 2025, EACH PUBLIC SENIOR HIGHER EDUCATION INSTITUTION AND BALTIMORE
+        CITY COMMUNITY COLLEGE SHALL ESTABLISH POLICIES AND PROCEDURES THAT ARE FUNCTIONALLY COMPATIBLE
+  - type: creates-task-force
+    description: The AI Subcabinet must study and recommend on AI use in local school systems.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1271t.pdf
+      locator: Sec. 2(a)
+      quote: in local school systems, including recommendations to the State on the responsible and productive
+        use of artificial intelligence;
+sponsors:
+  - name: Jazz Lewis
+    primary: true
+    party: D
+    chamber: lower
+  - name: Terri Hill
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anne Kaiser
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tiffany Alston
+    primary: false
+    party: D
+    chamber: lower
+  - name: Heather Bagnall
+    primary: false
+    party: D
+    chamber: lower
+  - name: Harry Bhandari
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brian Chisholm
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bonnie Cullison
+    primary: false
+    party: D
+    chamber: lower
+  - name: Pam Guzzone
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tom Hutchinson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Steve Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ken Kerr
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nicholaus Kipke
+    primary: false
+    party: R
+    chamber: lower
+  - name: Robbyn Lewis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lesley Lopez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ashanti Martinez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Matt Morgan
+    primary: false
+    party: R
+    chamber: lower
+  - name: Joseline Pena-Melnyk
+    primary: false
+    party: D
+    chamber: lower
+  - name: Teresa Reilly
+    primary: false
+    party: R
+    chamber: lower
+  - name: Samuel Rosenberg
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kathy Szeliga
+    primary: false
+    party: R
+    chamber: lower
+  - name: Deni Taveras
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer White Holland
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jamila Woods
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-08"
+    description: First Reading Health and Government Operations
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-02-13"
+    description: Hearing 3/05 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-04"
+    description: Favorable with Amendments Report by Health and Government Operations
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-04"
+    description: Favorable with Amendments {273227/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-04"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-04-04"
+    description: Third Reading Passed (137-0)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-05"
+    description: Referred Rules
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2024-02-08"
+    url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1271f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-04-04"
+    url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1271t.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1840482
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1271?ys=2024RS
+    title: HB 1271 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1271t.pdf
+    title: HB 1271 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

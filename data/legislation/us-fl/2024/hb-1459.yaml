@@ -1,0 +1,251 @@
+id: us-fl-2024-hb-1459
+jurisdiction: us-fl
+session: "2024"
+identifier: HB 1459
+title: Advanced Technology
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+summary: Creates the Government Technology Modernization Council, which must study artificial intelligence
+  in state government, AI safety standards, and misuse of AI, and evaluate the need for curriculum to
+  prepare school-age audiences with digital media and visual literacy skills. The Commissioner of Education
+  is a member.
+provisions:
+  - type: creates-task-force
+    description: The council must evaluate the need for curriculum to prepare school-age audiences with
+      digital media and visual literacy skills.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/1459/BillText/c3/PDF
+      locator: Section 1, new s. 282.802(8)(a)7.
+      quote: Evaluate the need for curriculum to prepare school-age audiences with the digital media and
+        visual literacy skills needed to navigate the digital information landscape.
+sponsors:
+  - name: Judiciary Committee
+    classification: committee
+    primary: true
+  - name: Appropriations Committee
+    classification: committee
+    primary: true
+  - name: Commerce Committee
+    classification: committee
+    primary: true
+  - name: Fiona McFarland
+    primary: true
+    party: R
+    chamber: lower
+  - name: Webster Barnaby
+    primary: false
+    party: R
+    chamber: lower
+  - name: Linda Chaney
+    primary: false
+    party: R
+    chamber: lower
+  - name: Anna Eskamani
+    primary: false
+    party: D
+    chamber: lower
+  - name: Toby Overdorf
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-01-07"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-09"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2024-01-13"
+    description: Referred to Commerce Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-13"
+    description: Referred to Appropriations Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-13"
+    description: Referred to Judiciary Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-13"
+    description: Now in Commerce Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-19"
+    description: PCS added to Commerce Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-23"
+    description: Favorable with CS by Commerce Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-01-24"
+    description: Reported out of Commerce Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-01-24"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-01-24"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-24"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2024-01-25"
+    description: Referred to Appropriations Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-25"
+    description: Referred to Judiciary Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-01-25"
+    description: Now in Appropriations Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-29"
+    description: Added to Appropriations Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2024-01-31"
+    description: Favorable with CS by Appropriations Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-01-31"
+    description: Reported out of Appropriations Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-01"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-02-01"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-01"
+    description: 1st Reading (Committee Substitute 2)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2024-02-02"
+    description: Referred to Judiciary Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-02"
+    description: Now in Judiciary Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-19"
+    description: Added to Judiciary Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-21"
+    description: Favorable with CS by Judiciary Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-22"
+    description: Reported out of Judiciary Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-02-22"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-02-22"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-22"
+    description: 1st Reading (Committee Substitute 3)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2024-02-23"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-23"
+    description: Added to Second Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-05"
+    description: Laid on Table
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2024-01-07"
+    url: https://www.flsenate.gov/Session/Bill/2024/1459/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-01-24"
+    url: https://www.flsenate.gov/Session/Bill/2024/1459/BillText/c1/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-02-01"
+    url: https://www.flsenate.gov/Session/Bill/2024/1459/BillText/c2/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2024-02-22"
+    url: https://www.flsenate.gov/Session/Bill/2024/1459/BillText/c3/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1799517
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2024/1459
+    title: HB 1459 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2024/1459/BillText/c3/PDF
+    title: HB 1459 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,257 @@
+id: us-co-2025-sb-288
+jurisdiction: us-co
+session: "2025"
+identifier: SB 288
+title: Intimate Digital Depictions Criminal & Civil Actions
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+summary: Creates civil and criminal remedies for disclosing intimate digital depictions, defined to include
+  images created or altered by generative AI, and extends the juvenile sexting offense to such depictions.
+  Amends the school safety resource center's model program for school districts so that it informs students
+  how to avoid adjudication if they receive a private intimate image or intimate digital depiction.
+provisions:
+  - type: addresses-deepfakes
+    description: The school safety resource center's model sexting program for school districts must inform
+      students about receiving intimate digital depictions.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_enr.pdf
+      locator: 24-33.5-1803(3)(m)
+      quote: which curriculum must include information informing students of the provisions of section
+        18-7-109, including that, if a student receives a sexually explicit image PRIVATE INTIMATE IMAGE
+        OR INTIMATE DIGITAL DEPICTION in violation of section 18-7-109
+  - type: addresses-deepfakes
+    description: Digital depictions covered by the act include those created or altered by generative
+      AI.
+    citation:
+      source_url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_enr.pdf
+      locator: Definitions, (5) digital depiction
+      quote: HAS BEEN CREATED, ALTERED, OR PRODUCED BY GENERATIVE AI, IMAGE EDITING SOFTWARE, OR COMPUTER
+        -GENERATED MEANS
+sponsors:
+  - name: Robert Rodriguez
+    primary: true
+    party: D
+    chamber: upper
+  - name: Matt Soper
+    primary: true
+    party: R
+    chamber: lower
+  - name: Brianna Titone
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jeff Bridges
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Coleman
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lisa Cutter
+    primary: false
+    party: D
+    chamber: lower
+  - name: Thomas Exum
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nick Hinrichsen
+    primary: false
+    party: D
+    chamber: upper
+  - name: Iman Jodeh
+    primary: false
+    party: D
+    chamber: lower
+  - name: Cathy Kipp
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dafna Michaelson Jenet
+    primary: false
+    party: D
+    chamber: upper
+  - name: Kyle Mullica
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dylan Roberts
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marc Snyder
+    primary: false
+    party: D
+    chamber: upper
+  - name: Katie Wallace
+    primary: false
+    party: D
+    chamber: upper
+  - name: Shannon Bird
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andrew Boesenecker
+    primary: false
+    party: D
+    chamber: lower
+  - name: Monica Duran
+    primary: false
+    party: D
+    chamber: lower
+  - name: Cecelia Espenoza
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eliza Hamrick
+    primary: false
+    party: D
+    chamber: lower
+  - name: William Lindstedt
+    primary: false
+    party: D
+    chamber: lower
+  - name: Karen McCormick
+    primary: false
+    party: D
+    chamber: lower
+  - name: Naquetta Ricks
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-04-09"
+    description: Introduced In Senate - Assigned to Judiciary
+    actor: upper
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-04-21"
+    description: Senate Committee on Judiciary Refer Amended to Senate Committee of the Whole
+    actor: upper
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-04-24"
+    description: Senate Second Reading Laid Over Daily - No Amendments
+    actor: upper
+    classification:
+      - reading-2
+      - deferral
+  - date: "2025-04-25"
+    description: Senate Second Reading Laid Over to 04/28/2025 - No Amendments
+    actor: upper
+    classification:
+      - reading-2
+      - deferral
+  - date: "2025-04-28"
+    description: Senate Second Reading Passed with Amendments - Committee, Floor
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2025-04-29"
+    description: Senate Third Reading Passed - No Amendments
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-29"
+    description: Introduced In House - Assigned to Judiciary
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2025-05-03"
+    description: House Committee on Judiciary Refer Amended to House Committee of the Whole
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2025-05-03"
+    description: House Second Reading Special Order - Laid Over Daily - No Amendments
+    actor: lower
+    classification:
+      - reading-2
+      - deferral
+  - date: "2025-05-05"
+    description: House Second Reading Special Order - Passed with Amendments - Committee, Floor
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2025-05-06"
+    description: House Third Reading Passed - No Amendments
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-05-06"
+    description: Senate Considered House Amendments - Result was to Concur - Repass
+    actor: upper
+    classification:
+      - other
+  - date: "2025-05-13"
+    description: Sent to the Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-05-13"
+    description: Signed by the President of the Senate
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2025-05-13"
+    description: Signed by the Speaker of the House
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-06-02"
+    description: Governor Signed
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2025-04-09"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_01.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-04-28"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_eng.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2025-04-29"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_ren.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-05-05"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_rev.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-05-06"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_rer.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2025-05-13"
+    url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_enr.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2022323
+sources:
+  - url: https://leg.colorado.gov/bills/sb25-288
+    title: SB 288 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_288_enr.pdf
+    title: SB 288 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

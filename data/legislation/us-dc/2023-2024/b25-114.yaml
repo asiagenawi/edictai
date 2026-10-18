@@ -1,0 +1,84 @@
+id: us-dc-2023-2024-b25-114
+jurisdiction: us-dc
+session: 2023-2024
+identifier: B25-0114
+title: Stop Discrimination by Algorithms Act of 2023
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Prohibits covered entities from making algorithmic eligibility determinations, based on machine
+  learning or artificial intelligence, about access to credit, education, employment, housing, public
+  accommodations, or insurance in a discriminatory manner, and requires notices, adverse action disclosures,
+  annual audits, and reports to the Attorney General.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Important life opportunities covered by the act include education.
+    citation:
+      source_url: https://lims.dccouncil.gov/downloads/LIMS/52282/Introduction/B25-0114-Introduction.pdf
+      locator: Sec. 3(5)
+      quote: “Important life opportunities” means access to, approval for, or offer of credit, education,
+        employment, housing,
+  - type: bias-or-equity-requirement
+    description: Covered entities must annually audit algorithmic determinations for disparate impact.
+    citation:
+      source_url: https://lims.dccouncil.gov/downloads/LIMS/52282/Introduction/B25-0114-Introduction.pdf
+      locator: Sec. 7(a)
+      quote: 'A covered entity shall annually audit its algorithmic eligibility determination and algorithmic
+        information availability determination practices to:'
+sponsors:
+  - name: Robert White
+    primary: true
+    party: D
+  - name: Charles Allen
+    primary: true
+    party: D
+  - name: Zachary Parker
+    primary: true
+    party: D
+  - name: Anita Bonds
+    primary: true
+    party: D
+  - name: Janeese Lewis George
+    primary: true
+    party: D
+actions:
+  - date: "2023-02-02"
+    description: Introduced in Office of the Secretary
+    actor: legislature
+    classification:
+      - introduction
+  - date: "2023-02-07"
+    description: Referred to Committee on Business and Economic Development
+    actor: legislature
+    classification:
+      - referral-committee
+  - date: "2023-02-10"
+    description: Notice of Intent to Act on B25-0114 Published in the DC Register
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-02-02"
+    url: https://lims.dccouncil.gov/downloads/LIMS/52282/Introduction/B25-0114-Introduction.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1696413
+sources:
+  - url: https://lims.dccouncil.gov/Legislation/B25-0114
+    title: B25-0114 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lims.dccouncil.gov/downloads/LIMS/52282/Introduction/B25-0114-Introduction.pdf
+    title: B25-0114 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

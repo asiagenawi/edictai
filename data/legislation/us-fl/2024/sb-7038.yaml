@@ -1,0 +1,166 @@
+id: us-fl-2024-sb-7038
+jurisdiction: us-fl
+session: "2024"
+identifier: SB 7038
+title: Education
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+  - procurement
+  - educator-training
+summary: Authorizes school districts to receive grant funds for AI platform subscriptions and professional
+  learning to support learning for students in grades 6 through 12, and requires grant recipients to select
+  a closed-system platform that provides teacher professional learning, standards-aligned tutoring and
+  lesson plans, and district, school, and parental access to AI interactions; also makes other education
+  changes.
+provisions:
+  - type: appropriates-funding
+    description: School districts may receive grants for AI platform subscriptions and professional learning
+      for grades 6-12.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/7038/BillText/c1/HTML
+      locator: Sec. 1, amended 1002.321(3)
+      quote: A school district may receive grant funds for subscription fees and professional learning
+        to support and accelerate learning for students in grades 6 through 12 during the school day.
+  - type: procurement-standards
+    description: Grant recipients must select an AI platform that uses a closed-system large language
+      model.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/7038/BillText/c1/HTML
+      locator: Sec. 1, amended 1002.321(3)(a)
+      quote: 'Grant recipients must select an artificial intelligence platform that: (a) Uses large language
+        models based on GPT-4, its equivalent, or a successor, and is on a closed system.'
+  - type: requires-disclosure
+    description: The selected platform must give district, school, and parental access to AI interactions.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2024/7038/BillText/c1/HTML
+      locator: Sec. 1, amended 1002.321(3)(e)
+      quote: Provides district and school-level reporting and parental access to artificial intelligence
+        interactions.
+sponsors:
+  - name: Appropriations
+    classification: committee
+    primary: true
+  - name: Education Pre-K -12
+    classification: committee
+    primary: true
+  - name: Clay Yarborough
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-01-12"
+    description: Submitted for consideration by Education Pre-K -12
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-12"
+    description: On Committee agenda-- Education Pre-K -12, 01/17/24, 8:30 am, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Submitted as Committee Bill and Reported Favorably by Education Pre-K -12; YEAS 11 NAYS
+      0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-01-18"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-18"
+    description: Referred to Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2024-01-18"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-26"
+    description: On Committee agenda-- Appropriations, 01/31/24, 9:00 am, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-29"
+    description: On Committee agenda-- Appropriations, 02/01/24, 9:00 am, 412 Knott Building --Meeting
+      cancelled
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-31"
+    description: CS by- Appropriations; YEAS 17 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-01"
+    description: Pending reference review -under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-02-01"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-01"
+    description: Placed on Special Order Calendar, 02/07/24
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-01"
+    description: CS by Appropriations read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-02-07"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-02-07"
+    description: Substituted CS/HB 1361
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-07"
+    description: Laid on Table, refer to CS/HB 1361
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Prefiled
+    date: "2024-01-12"
+    url: https://www.flsenate.gov/Session/Bill/2024/7038/BillText/pb/HTML
+    media_type: text/html
+  - note: Introduced
+    date: "2024-01-18"
+    url: https://www.flsenate.gov/Session/Bill/2024/7038/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2024-02-01"
+    url: https://www.flsenate.gov/Session/Bill/2024/7038/BillText/c1/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1812862
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2024/7038
+    title: SB 7038 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2024/7038/BillText/c1/HTML
+    title: SB 7038 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

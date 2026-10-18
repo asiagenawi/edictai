@@ -5,3 +5,9 @@ abbreviation: ND
 classification: state
 fips: "38"
 region: Midwest
+sessions:
+  - identifier: "2023-2024"
+    name: 68th Legislative Assembly
+    classification: primary
+    start_date: "2023-01-03"
+    legiscan_session_id: 1848

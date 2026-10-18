@@ -5,3 +5,15 @@ abbreviation: NH
 classification: state
 fips: "33"
 region: Northeast
+sessions:
+  - identifier: "2026"
+    name: 2026 Regular Session
+    classification: primary
+    start_date: "2026-01-08"
+    legiscan_session_id: 2236
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:nh/government?include=legislative_sessions"
+        title: Open States API, New Hampshire legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

@@ -1,0 +1,69 @@
+id: us-119-s-4958
+jurisdiction: us
+session: "119"
+identifier: S. 4958
+title: Safeguard Kids Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - safety-wellbeing
+  - funding
+summary: Amends the Elementary and Secondary Education Act so that Student Support and Academic Enrichment
+  funds may support teaching elementary and secondary students about the dangers, limitations, and responsible
+  use of artificial intelligence, including AI chatbots, and may provide counseling for mental health
+  issues arising from AI chatbot use.
+provisions:
+  - type: appropriates-funding
+    description: Adds supporting schools in teaching students about the dangers, limitations, and responsible
+      use of AI to allowable state uses of funds.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s4958/BILLS-119s4958is.pdf
+      locator: Sec. 2(2)(B), ESEA 4104(b)(3)(C)(vii)
+      quote: supporting schools in teaching elementary school and secondary school students about the
+        dangers, limitations, and responsible use of artificial intelligence technologies, including artificial
+        intelligence chatbots.
+  - type: chatbot-minor-protections
+    description: Allows funds for counseling for mental health issues arising from students' use of AI
+      chatbots.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s4958/BILLS-119s4958is.pdf
+      locator: Sec. 2(2)(A), ESEA 4104(b)(3)(B)(ii)(II)
+      quote: which may include providing counseling for mental health issues arising from the use of an
+        artificial intelligence chatbot
+sponsors:
+  - name: Rick Scott
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-07-14"
+    description: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-07-18"
+    url: https://www.congress.gov/119/bills/s4958/BILLS-119s4958is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2155861
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/4958/all-info
+    title: S. 4958 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s4958/BILLS-119s4958is.pdf
+    title: S. 4958 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

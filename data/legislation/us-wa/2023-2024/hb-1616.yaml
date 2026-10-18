@@ -1,0 +1,77 @@
+id: us-wa-2023-2024-hb-1616
+jurisdiction: us-wa
+session: 2023-2024
+identifier: HB 1616
+title: Creating a charter of people's personal data rights.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - student-privacy
+summary: Creates the People's Privacy Act, establishing personal data rights and prohibiting covered entities
+  and Washington governmental entities from using artificial intelligence-enabled profiling to make decisions
+  with legal or similarly significant effects, which include educational enrollment, and barring discriminatory
+  processing of personal information in education and other opportunities.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Prohibits using AI-enabled profiling to make significant decisions, which include educational
+      enrollment.
+    citation:
+      source_url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/House%20Bills/1616.pdf
+      locator: AI-enabled profiling section, subsection (1)
+      quote: denial or degradation of consequential services or support, such as financial or lending
+        services, housing, insurance, educational enrollment, criminal justice, employment opportunities,
+        health care services, and access to basic necessities
+sponsors:
+  - name: Shelley Kloba
+    primary: true
+    party: D
+    chamber: lower
+  - name: Carolyn Eslick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Mary Fosse
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gerry Pollet
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-01-26"
+    description: First reading, referred to Civil Rights & Judiciary.
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2024-01-08"
+    description: By resolution, reintroduced and retained in present status.
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/House%20Bills/1616.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1680711
+sources:
+  - url: https://app.leg.wa.gov/billsummary?BillNumber=1616&Year=2023&Initiative=false
+    title: HB 1616 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/House%20Bills/1616.pdf
+    title: HB 1616 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

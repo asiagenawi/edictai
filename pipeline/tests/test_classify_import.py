@@ -265,6 +265,50 @@ def test_build_record_unverified_quote_dropped(setup):
     assert "quote not verified" in built.record["verification"]["notes"]
 
 
+def test_build_record_cites_earlier_version_for_amended_out_quotes(setup):
+    _paths, cp = setup
+    store = TextStore(cp.texts)
+    key = "us-tx-2025-hb-77"
+    store.store(
+        key,
+        {
+            "doc_id": 556,
+            "key": key,
+            "status": "ok",
+            "type": "Enrolled",
+            "state_link": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00077F.htm",
+        },
+        "AN ACT relating to public schools.\nSECTION 1. Each school district shall report.\n",
+    )
+    store.store_earlier(
+        key,
+        {
+            "doc_id": 555,
+            "key": key,
+            "status": "ok",
+            "type": "Introduced",
+            "state_link": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00077I.htm",
+        },
+        TEXT,
+    )
+    store.save_index()
+    row = judgment()
+    row["provisions"][0]["locator"] = "Introduced, Sec. 1"
+    report = check_full([row], Vocab.load(cp.paths.vocab), TextStore(cp.texts))
+    assert report.ok, report.lines()
+    built = build_record(row, candidate(), None, TextStore(cp.texts), today=TODAY)
+    rec = built.record
+    cite = rec["provisions"][0]["citation"]
+    assert cite["source_url"].endswith("HB00077I.htm") and cite["locator"] == "Introduced, Sec. 1"
+    assert [s["title"] for s in rec["sources"]] == [
+        "HB 77 bill page",
+        "HB 77 text (Enrolled)",
+        "HB 77 text (Introduced)",
+    ]
+    assert rec["verification"]["status"] == "machine-verified"
+    assert "earlier version (Introduced)" in rec["verification"]["notes"]
+
+
 def test_build_record_needs_official_url(setup):
     _paths, cp = setup
     row = candidate(state_link="https://legiscan.com/TX/bill/HB77/2025", url=None, texts=[])

@@ -1,0 +1,112 @@
+id: us-wv-2024-hb-5490
+jurisdiction: us-wv
+session: "2024"
+identifier: HB 5490
+title: To create an AI Task Force
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - instructional-use
+  - local-policy-requirement
+summary: Creates a state task force on artificial intelligence, with the State Superintendent of Schools
+  and the higher education chancellor among its members, whose duties include recommending model policies
+  for schools on student use of AI in the classroom. Requires a report to the Governor and Legislature
+  by July 1, 2025.
+provisions:
+  - type: creates-task-force
+    description: Charges the task force with recommending model school policies on student classroom use
+      of AI.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5490%20intr.htm&yr=2024&sesstype=RS&i=5490
+      locator: §5A-6-9(e)(2)
+      quote: (2) Recommending model policies for schools to address the use of generative artificial intelligence
+        by students in the classroom;
+sponsors:
+  - name: Kayla Young
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jarred Cannon
+    primary: false
+    party: R
+    chamber: lower
+  - name: Roger Hanshaw
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jordan Maynor
+    primary: false
+    party: R
+    chamber: lower
+  - name: Matthew Rohrbach
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jeff Campbell
+    primary: false
+    party: R
+    chamber: lower
+  - name: Daniel Linville
+    primary: false
+    party: R
+    chamber: lower
+  - name: Andy Shamblin
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jeffrey Stephens
+    primary: false
+    party: R
+    chamber: lower
+  - name: Elias Coop-Gonzalez
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jimmy Willis
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-02-06"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-06"
+    description: To Artificial Intelligence then Technology and Infrastructure
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-06"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-06"
+    description: To House Artificial Intelligence
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5490%20intr.htm&yr=2024&sesstype=RS&i=5490
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1838098
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5490&year=2024&sessiontype=RS&btype=bill
+    title: HB 5490 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5490%20intr.htm&yr=2024&sesstype=RS&i=5490
+    title: HB 5490 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

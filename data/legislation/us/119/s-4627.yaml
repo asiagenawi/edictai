@@ -1,0 +1,89 @@
+id: us-119-s-4627
+jurisdiction: us
+session: "119"
+identifier: S. 4627
+title: FARM AI Act of 2026 Fostering Agricultural Research and Modernization through Artificial Intelligence
+  Act of 2026
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+summary: Expands Department of Agriculture programs to increase access to artificial intelligence in agriculture.
+  Adds AI to cooperative extension work, adds a purpose to food and agricultural sciences education grants
+  for training programs that teach implementation of computing systems and AI, and prioritizes teaching
+  enhancement projects on AI systems and precision agriculture.
+provisions:
+  - type: ai-workforce-program
+    description: Adds a grant purpose for workforce development and technical training programs for rural
+      communities that teach implementation of computing systems and AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s4627/BILLS-119s4627is.pdf
+      locator: Sec. 3(d)(1), new 1417(b)(7)
+      quote: to design and implement workforce development and technical training programs for rural communities
+        to teach— ‘‘(A) the implementation of computing systems and artificial intelligence;
+  - type: appropriates-funding
+    description: Adds a grant priority for teaching enhancement projects on developing and implementing
+      AI systems.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s4627/BILLS-119s4627is.pdf
+      locator: Sec. 3(d)(2), new 1417(c)(3)
+      quote: applications for teaching enhancement projects that focus on workforce development and technical
+        assistance education programs to develop and implement artificial intelligence systems and precision
+        agriculture technologies.
+sponsors:
+  - name: Ted Budd
+    primary: true
+    party: R
+    chamber: upper
+  - name: Adam Schiff
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jim Banks
+    primary: false
+    party: R
+    chamber: upper
+  - name: Catherine Cortez Masto
+    primary: false
+    party: D
+    chamber: upper
+  - name: Mike Rounds
+    primary: false
+    party: R
+    chamber: upper
+  - name: Lisa Rochester
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-05-21"
+    description: Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-06-09"
+    url: https://www.congress.gov/119/bills/s4627/BILLS-119s4627is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2151455
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/4627/all-info
+    title: S. 4627 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s4627/BILLS-119s4627is.pdf
+    title: S. 4627 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

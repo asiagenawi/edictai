@@ -1,0 +1,59 @@
+id: us-la-2026-hb-1149
+jurisdiction: us-la
+session: "2026"
+identifier: HB 1149
+title: Requires each public school to incorporate instruction on artificial intelligence into an existing
+  course of study for each student in grades six through twelve (OR NO IMPACT See Note)
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires each public school to incorporate instruction on artificial intelligence into an existing
+  course of study for students in grades six through twelve. Directs the State Board of Elementary and
+  Secondary Education to adopt implementing rules.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Public schools must incorporate AI instruction into an existing course for grades 6-12.
+    citation:
+      source_url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457366
+      locator: Sec. 1, new R.S. 17:280.4(A)
+      quote: A. Each public school shall incorporate instruction on artificial intelligence
+sponsors:
+  - name: Adrian Fisher
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-03-31"
+    description: Read by title. Lies over under the rules.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-04-01"
+    description: Read by title, under the rules, referred to the Committee on Education.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457366
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2139727
+sources:
+  - url: https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=HB1149&sbi=y
+    title: HB 1149 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457366
+    title: HB 1149 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

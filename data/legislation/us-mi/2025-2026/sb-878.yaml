@@ -1,0 +1,342 @@
+id: us-mi-2025-2026-sb-878
+jurisdiction: us-mi
+session: 2025-2026
+identifier: SB 878
+title: 'Appropriations: omnibus; supplemental appropriations for multiple departments and branches for
+  the fiscal year 2026-2027 and supplemental appropriations for fiscal year 2025-2026; provide for. Creates
+  appropriation act.'
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - local-policy-requirement
+  - instructional-use
+  - assessment
+summary: Makes supplemental omnibus appropriations for Michigan state departments for fiscal years 2025-2026
+  and 2026-2027. Allocates up to $250,000 for the Department of Education to develop state artificial
+  intelligence model policies, guidelines, and implementation tools and to integrate AI into its teaching,
+  learning, and assessment supports for school districts.
+provisions:
+  - type: issues-model-policy
+    description: Funds the Department of Education to develop state AI model policies, guidelines, and
+      implementation tools for schools.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0021.htm
+      locator: Sec. 1000
+      quote: there is allocated an amount not to exceed $250,000.00 for the fiscal year 2026-2027 only
+        for the department to develop state artificial intelligence model policies, guidelines, and implementation
+        tools
+  - type: appropriates-funding
+    description: Funds integration of AI into department teaching, learning, and assessment supports for
+      school districts.
+    citation:
+      source_url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0021.htm
+      locator: Sec. 1000
+      quote: begin integrating artificial intelligence into department teaching, learning, and assessment
+        services and supports for school districts.
+sponsors:
+  - name: Sarah Anthony
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-03-18"
+    description: Introduced By Senator Sarah Anthony
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-03-18"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-18"
+    description: Referred To Committee Of The Whole
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-14"
+    description: Referred To Committee On Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-28"
+    description: Discharge Committee Approved
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Placed On Order Of General Orders
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Rules Suspended For Immediate Consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-29"
+    description: Reported By Committee Of The Whole Favorably With Substitute (s-1)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-29"
+    description: Substitute (s-1) Concurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-29"
+    description: Placed On Order Of Third Reading With Substitute (s-1)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-29"
+    description: Rules Suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-29"
+    description: Placed On Immediate Passage
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-29"
+    description: Amendment(s) Defeated
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-29"
+    description: Amendment(s) Adopted
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-04-29"
+    description: 'Passed Roll Call # 78 Yeas 19 Nays 18 Excused 0 Not Voting 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-30"
+    description: Received On 04/30/2026
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Read A First Time
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-30"
+    description: Referred To Committee On Appropriations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-07-01"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Motion To Discharge Committee Approved
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Placed On Second Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Read A Second Time
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Substitute (h-1) Adopted
+    actor: lower
+    classification:
+      - substitution
+  - date: "2026-07-01"
+    description: Placed On Third Reading
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Placed On Immediate Passage
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Read A Third Time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-07-01"
+    description: 'Passed; Given Immediate Effect Roll Call #282 Yeas 104 Nays 1 Excused 0 Not Voting 5'
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-07-01"
+    description: Title Amended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Returned To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Passed By House With Substitute (h-1) With Immediate Effect
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: House Amended Title
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: Rules Suspended For Immediate Consideration
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: House Substitute (h-1) Nonconcurred In
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: 'Roll Call: Roll Call # 168 Yeas 2 Nays 32 Excused 4 Not Voting 0'
+    actor: upper
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: 'Senate Named Conferees 7/1/2026: Sens. Sarah Anthony, Sean Mccann, Rick Outman'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-01"
+    description: Re-received From Senate With Notice Of Nonconcurrence In House Substitute (h-1)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-01"
+    description: 'Senate Conferees Named 07/01/2026: Sens. Sarah Anthony Sean Mccann Rick Outman'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-01"
+    description: 'House Conferees Named 07/01/2026: Reps. Ann Bollin Matt Maddock Joe Tate'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-02"
+    description: 'House Named Conferees 7/1/2026: Reps. Ann Bollin, Matt Maddock, Joe Tate'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-02"
+    description: Referred To Conference Committee 7/1/2026
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Conference Report Received In Senate
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: 'Senate Adopted Conference Report With Immediate Effect Roll Call # 227 Yeas 27 Nays
+      9 Excused 2 Not Voting 0'
+    actor: upper
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Conference Report Received
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Conference Report Adopted By Senate With Immediate Effect
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Rule Suspended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-03"
+    description: 'Conference Report Adopted Roll Call #342 Yeas 99 Nays 7 Excused 0 Not Voting 4'
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-07-03"
+    description: Re-returned To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-07-15"
+    description: Ordered Enrolled Out Of Session
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-07-15"
+    description: Presented To Governor 7/14/2026 10:30 Am
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-07-29"
+    description: Approved By Governor 7/21/2026 12:50 Pm
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-07-29"
+    description: Filed With Secretary Of State 7/21/2026 2:20 Pm
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-07-29"
+    description: Assigned Pa 0021'26 With Immediate Effect
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-03-18"
+    url: https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-0878.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-04-29"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2026-SEBS-0878.htm
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-07-01"
+    url: https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2026-SEBH-0878.htm
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-07-14"
+    url: https://legislature.mi.gov/documents/2025-2026/billenrolled/Senate/htm/2026-SNB-0878.htm
+    media_type: text/html
+  - note: Chaptered
+    date: "2026-07-22"
+    url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0021.htm
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2135488
+sources:
+  - url: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0878
+    title: SB 878 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0021.htm
+    title: SB 878 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

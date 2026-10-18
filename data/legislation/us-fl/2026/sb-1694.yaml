@@ -1,0 +1,169 @@
+id: us-fl-2026-sb-1694
+jurisdiction: us-fl
+session: "2026"
+identifier: SB 1694
+title: Technology Education
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires statewide general education core courses that integrate technology to include instruction
+  on applying artificial intelligence tools, and provides that high school computer science courses that
+  include AI instruction should give students a foundational understanding of how AI systems use data,
+  their benefits, limitations, and risks, and ethical reasoning for responsible use.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: General education core courses that integrate technology must include instruction on
+      applying AI tools.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1694/BillText/c1/HTML
+      locator: Sec. 1, new 1007.25(3)(e)
+      quote: General education core courses that integrate the use of technology must provide students
+        with opportunities to improve digital literacy and competency, instruction on the application
+        of artificial intelligence tools to the course
+  - type: ai-in-standards
+    description: High school computer science courses with AI instruction should cover how AI uses data,
+      its limits and risks, and ethical use.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1694/BillText/c1/HTML
+      locator: Sec. 2, amended 1007.2616(6)
+      quote: Computer science courses that include instruction in artificial intelligence should provide
+        students with a foundational understanding of artificial intelligence to critically evaluate how
+        artificial intelligence systems use data to present information
+sponsors:
+  - name: Education Postsecondary
+    classification: committee
+    primary: true
+  - name: Bryan Avila
+    primary: true
+    party: R
+    chamber: upper
+  - name: Daniel Burgess
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-01-09"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-16"
+    description: Referred to Education Postsecondary; Appropriations Committee on Higher Education; Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-01-22"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-30"
+    description: On Committee agenda-- Education Postsecondary, 02/04/26, 10:30 am, 301 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-04"
+    description: CS by Education Postsecondary; YEAS 6 NAYS 0
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: Pending reference review under Rule 4.7(2) - (Committee Substitute)
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-02-06"
+    description: Now in Appropriations Committee on Higher Education
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-10"
+    description: CS by Education Postsecondary read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-13"
+    description: On Committee agenda-- Appropriations Committee on Higher Education, 02/18/26, 10:30 am,
+      110 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-18"
+    description: Favorable by Appropriations Committee on Higher Education; YEAS 7 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-18"
+    description: Now in Rules
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: On Committee agenda-- Rules, 02/24/26, 12:00 pm, 412 Knott Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: Favorable by- Rules; YEAS 23 NAYS 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-02-25"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-03"
+    description: Placed on Special Order Calendar, 03/06/26
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-06"
+    description: Substituted CS/CS/HB 1503
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Laid on Table, refer to CS/CS/HB 1503
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-01-09"
+    url: https://www.flsenate.gov/Session/Bill/2026/1694/BillText/Filed/HTML
+    media_type: text/html
+  - note: Comm Sub
+    date: "2026-02-06"
+    url: https://www.flsenate.gov/Session/Bill/2026/1694/BillText/c1/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2069728
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/1694
+    title: SB 1694 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1694/BillText/c1/HTML
+    title: SB 1694 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

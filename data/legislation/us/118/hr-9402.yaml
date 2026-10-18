@@ -1,0 +1,157 @@
+id: us-118-hr-9402
+jurisdiction: us
+session: "118"
+identifier: H.R. 9402
+title: NSF AI Education Act of 2024
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - workforce
+  - educator-training
+  - research
+summary: Authorizes National Science Foundation scholarships and fellowships for students studying artificial
+  intelligence, including the teaching of AI, and fellowships for K-12 teachers and school professionals
+  on AI. Creates up to eight community college and area career and technical education Centers of AI Excellence,
+  supports research on teaching AI, and adds AI skills development to the National STEM Teacher Corps.
+provisions:
+  - type: appropriates-funding
+    description: Authorizes NSF scholarships and fellowships, through institutions of higher education,
+      for students in AI-related programs of study.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9402/BILLS-118hr9402ih.pdf
+      locator: Sec. 2
+      quote: may sup- port scholarships and fellowships for un- dergraduate and graduate students by making
+        awards through institutions of higher education, including community col- leges, to students who
+        are enrolled in pro- grams of study leading to degrees or con- centrations in or related to the
+        design
+  - type: educator-pd-requirement
+    description: Authorizes NSF fellowships for teachers, school counselors, and other school professionals
+      for professional development on teaching and using AI in K-12 settings.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9402/BILLS-118hr9402ih.pdf
+      locator: Sec. 2, Fellowships for school professionals
+      quote: education in partnership with industry members on the teaching, use of, or appli- cation
+        of artificial intelligence in K–12 set- tings.
+  - type: ai-workforce-program
+    description: Directs NSF to designate up to eight community college and area career and technical
+      education Centers of AI Excellence.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9402/BILLS-118hr9402ih.pdf
+      locator: Sec. 3
+      quote: shall es- tablish up to eight regionally and geo- graphically diverse eligible applicants
+        to be designated as Community College and Area Career and Technical Education Cen- ters of AI
+        Excellence
+  - type: educator-pd-requirement
+    description: Adds AI skills development, including AI best practices for high school teachers, to
+      the National STEM Teacher Corps.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9402/BILLS-118hr9402ih.pdf
+      locator: Sec. 5
+      quote: incorporating artificial intelligence skills development into the National STEM Teacher Corps,
+        including consideration of the development of artificial intelligence best prac- tices for high
+        school teachers
+sponsors:
+  - name: Vince Fong
+    primary: true
+    party: R
+    chamber: lower
+  - name: Andrea Salinas
+    primary: false
+    party: D
+    chamber: lower
+  - name: Suzanne Bonamici
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anna Eshoo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Yadira Caraveo
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brandon Williams
+    primary: false
+    party: R
+    chamber: lower
+  - name: Brittany Pettersen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ami Bera
+    primary: false
+    party: D
+    chamber: lower
+  - name: Don Beyer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dean Phillips
+    primary: false
+    party: D
+    chamber: lower
+  - name: Abigail Spanberger
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bill Foster
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Neguse
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-08-23"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-08-23"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-09-11"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2024-09-11"
+    description: Ordered to be Reported (Amended) by Voice Vote.
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2024-09-06"
+    url: https://www.congress.gov/118/bills/hr9402/BILLS-118hr9402ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1886439
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/9402/all-info
+    title: H.R. 9402 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr9402/BILLS-118hr9402ih.pdf
+    title: H.R. 9402 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

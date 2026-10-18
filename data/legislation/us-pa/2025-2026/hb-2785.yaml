@@ -1,0 +1,144 @@
+id: us-pa-2025-2026-hb-2785
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 2785
+title: In books, furniture and supplies, providing for procurement and technology requirements.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+  - student-privacy
+  - data-governance
+summary: Requires school entities that contract for artificial intelligence-related technology to include
+  specified contract terms, including data security, a ban on collecting students' biometric information,
+  and data deletion after termination. Directs the Department of Education to publish implementation guidelines
+  and requires AI vendors serving schools to report their products to the department.
+provisions:
+  - type: procurement-standards
+    description: School entities contracting for AI-related technology must include specified provisions
+      in the contract.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2785/PN4005
+      locator: Section 807.2(a)
+      quote: 'If a school entity chooses to contract with a third party that provides F OR artificial
+        intelligence-related technology, programs or platforms, the school entity shall require the following
+        provisions in the contract:'
+  - type: restricts-student-data-use
+    description: Contracts must prohibit collection of students' biometric information through the vendor's
+      AI technology.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2785/PN4005
+      locator: Section 807.2(a)(5)
+      quote: A prohibition on the collection of a student's biometric information through the third party's
+        artificial intelligence-related technology, programs or platforms, except as may be required by
+        law.
+  - type: issues-model-policy
+    description: The Department of Education must post guidelines for school entities and vendors to implement
+      the section.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2785/PN4005
+      locator: Section 807.2(b)
+      quote: the department shall establish and post on the department's publicly accessible Internet
+        website guidelines for use by a school entity and third party to implement this section.
+sponsors:
+  - name: Peter Schweyer
+    primary: true
+    party: D
+    chamber: lower
+  - name: Tarah Probst
+    primary: false
+    party: D
+    chamber: lower
+  - name: Melissa Shusterman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sean Dougherty
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Prokopiak
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jeanne McNeill
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: Danilo Burgos
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mary Isaacson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikki Rivera
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Williams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Johanny Cepeda-Freytiz
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-09-24"
+    description: Referred to Education
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-10-06"
+    description: Reported as amended
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-10-06"
+    description: First consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2026-10-06"
+    description: Laid on the table
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-09-24"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2785/PN3917
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-10-06"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2785/PN4005
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2158944
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb2785
+    title: HB 2785 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2785/PN4005
+    title: HB 2785 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

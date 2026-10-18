@@ -1,0 +1,180 @@
+id: us-va-2026-hj-32
+jurisdiction: us-va
+session: "2026"
+identifier: HJ 32
+title: Higher educational institutions; JLARC to study artificial intelligence use policies.
+classification: joint-resolution
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - local-policy-requirement
+  - academic-integrity
+  - student-privacy
+  - equity-access
+summary: Directs the Joint Legislative Audit and Review Commission to survey and evaluate artificial intelligence
+  use policies at Virginia institutions of higher education on academic integrity, data privacy, equity,
+  transparency, and faculty autonomy, to develop a model AI use policy, and to recommend resources for
+  a statewide clearinghouse.
+provisions:
+  - type: creates-task-force
+    description: JLARC must study AI use policies at institutions of higher education and evaluate how
+      they address integrity, privacy, equity, transparency, and faculty autonomy.
+    citation:
+      source_url: https://lis.virginia.gov/bill-details/20261/HJ32/text/HJ32ER
+      locator: Resolved clause
+      quote: the Joint Legislative Audit and Review Commission be directed to study the artificial intelligence
+        use policies in place at the institutions of higher education in the Commonwealth
+  - type: issues-model-policy
+    description: JLARC must develop a model AI use policy for institutions of higher education.
+    citation:
+      source_url: https://lis.virginia.gov/bill-details/20261/HJ32/text/HJ32ER
+      locator: Resolved clause
+      quote: JLARC shall develop a model policy for AI use in institutions of higher education in the
+        Commonwealth
+sponsors:
+  - name: Amy Laufer
+    primary: true
+    party: D
+    chamber: lower
+  - name: Michelle Maldonado
+    primary: false
+    party: D
+    chamber: lower
+  - name: Irene Shin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rae Cousins
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marcia Price
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kathy Tran
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-13"
+    description: Prefiled and ordered printed; Offered 01-14-2026 26104154D
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-13"
+    description: Referred to Committee on Rules
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-30"
+    description: 'Assigned HRUL sub: Studies Subcommittee'
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-02"
+    description: Subcommittee recommends reporting with amendment(s) (5-Y 0-N)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-06"
+    description: Reported from Rules with amendment(s) (16-Y 0-N)
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-11"
+    description: Taken up
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: committee amendments agreed to
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-11"
+    description: Engrossed by House as amended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: Agreed to by House (97-Y 0-N 0-A)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-12"
+    description: Constitutional reading dispensed (on 1st reading)
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-12"
+    description: Referred to Committee on Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-27"
+    description: Reported from Rules (Voice Vote)
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-02"
+    description: Rules suspended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-02"
+    description: Reading waived Block Vote (on 2nd reading) (39-Y 0-N 0-A)
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-02"
+    description: Passed by for the day
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-03-03"
+    description: Read third time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-03"
+    description: Agreed to by Senate Block Vote (Voice Vote)
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-01"
+    description: Bill text as passed House and Senate (HJ32ER)
+    actor: lower
+    classification:
+      - passage
+versions:
+  - note: Introduced
+    date: "2026-01-13"
+    url: https://lis.virginia.gov/bill-details/20261/HJ32/text/HJ32
+    media_type: text/html
+  - note: Engrossed
+    date: "2026-02-11"
+    url: https://lis.virginia.gov/bill-details/20261/HJ32/text/HJ32E
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-04-01"
+    url: https://lis.virginia.gov/bill-details/20261/HJ32/text/HJ32ER
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2072713
+sources:
+  - url: https://lis.virginia.gov/bill-details/20261/HJ32
+    title: HJ 32 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lis.virginia.gov/bill-details/20261/HJ32/text/HJ32ER
+    title: HJ 32 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

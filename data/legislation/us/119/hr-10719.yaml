@@ -1,0 +1,84 @@
+id: us-119-hr-10719
+jurisdiction: us
+session: "119"
+identifier: H.R. 10719
+title: Protecting Kids from Human-Like Chatbots Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - instructional-use
+summary: Sets age-appropriate design standards for AI chatbots used by minors, requiring a non-personified
+  default setting and parental controls, and gives educational agencies and authorized educators control
+  over chatbot settings in school-managed deployments.
+provisions:
+  - type: chatbot-minor-protections
+    description: Providers must maintain a controls framework letting parents, or for school-managed deployments
+      the educational agency or an authorized educator, manage a minor's chatbot settings.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10719/BILLS-119hr10719ih.pdf
+      locator: Sec. 2(a)(1)(B)
+      quote: maintains a parental controls frame- work that enables a parent or legal guardian, or, with
+        respect to a school-managed deploy- ment, the educational agency or institution or
+  - type: chatbot-minor-protections
+    description: Authorized educators may adjust chatbot default settings in school-managed deployments
+      only for a bona fide educational purpose and on school-provisioned accounts.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr10719/BILLS-119hr10719ih.pdf
+      locator: Sec. 2(e)(2)(B)
+      quote: An au- thorized educator, acting on behalf of an edu- cational agency or institution, may
+        adjust the non-personified default setting of a chatbot de- ployed pursuant to a school-managed
+        deploy- ment if such adjustment—
+sponsors:
+  - name: George Whitesides
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mike Kennedy
+    primary: false
+    party: R
+    chamber: lower
+  - name: Doris Matsui
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mariannette Miller-Meeks
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-10-01"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-10-01"
+    description: Referred to the Committee on Energy and Commerce, and in addition to the Committee on
+      Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each
+      case for consideration of such provisions as fall within the jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-10-06"
+    url: https://www.congress.gov/119/bills/hr10719/BILLS-119hr10719ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2159829
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/10719/all-info
+    title: H.R. 10719 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr10719/BILLS-119hr10719ih.pdf
+    title: H.R. 10719 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

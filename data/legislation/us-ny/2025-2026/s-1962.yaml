@@ -1,0 +1,65 @@
+id: us-ny-2025-2026-s-1962
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 1962
+title: Enacts the "New York artificial intelligence consumer protection act", in relation to preventing
+  the use of artificial intelligence algorithms to discriminate against protected classes.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Enacts the New York artificial intelligence consumer protection act, which requires developers
+  and deployers of high-risk artificial intelligence decision systems to guard against algorithmic discrimination,
+  keep risk management programs, and complete impact assessments. Consequential decisions covered by the
+  act include education enrollment or education opportunity.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines consequential decisions to include education enrollment and education opportunity,
+      bringing AI systems used in those decisions under the act's anti-discrimination duties.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01962&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01962
+      locator: § 1550(4)(a)
+      quote: '"Consequential decision" shall mean any decision that has a material legal or similarly
+        significant effect on the provision or denial to any consumer of, or the cost or terms of, any:
+        (a) education enrollment or education opportunity;'
+sponsors:
+  - name: Kristen Gonzalez
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-01-14"
+    description: REFERRED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: REFERRED TO INTERNET AND TECHNOLOGY
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-01-14"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01962&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01962
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1917775
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S1962
+    title: S 1962 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S01962&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S01962
+    title: S 1962 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

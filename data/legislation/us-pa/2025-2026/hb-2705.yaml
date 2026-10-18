@@ -1,0 +1,117 @@
+id: us-pa-2025-2026-hb-2705
+jurisdiction: us-pa
+session: 2025-2026
+identifier: HB 2705
+title: Providing for a report on artificial intelligence in the workforce; and imposing duties on the
+  Department of Labor and Industry and Department of Community and Economic Development.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: Directs the Department of Labor and Industry, in consultation with the Department of Community
+  and Economic Development and the Office of Administration, to study artificial intelligence's impact
+  on the state workforce and report to the General Assembly. The report must identify the skills and education
+  needed to work with AI and the resources school entities and institutions of higher education need to
+  deliver them, and the study must involve school entities and institutions of higher education.
+provisions:
+  - type: creates-task-force
+    description: Requires a comprehensive study and report on artificial intelligence and its impact on
+      the state workforce.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2705/PN3781
+      locator: Section 4(a)
+      quote: conduct a comprehensive study on artificial intelligence and its future impact on the workforce
+        in this Commonwealth and submit a final report to the General Assembly
+  - type: creates-task-force
+    description: The report must identify resources school entities and institutions of higher education
+      need to deliver AI-related skills and education.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2705/PN3781
+      locator: Section 4(b)(8)
+      quote: (8) Identification of the resources and opportunities required for school entities and institutions
+        of higher education to deliver skills, expertise and education identified in paragraph (5).
+sponsors:
+  - name: Melissa Shusterman
+    primary: true
+    party: D
+    chamber: lower
+  - name: Timothy Brennan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Christopher Pielli
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Haddock
+    primary: false
+    party: D
+    chamber: lower
+  - name: Ben Sanchez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Carol Hill-Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eddie Pashinski
+    primary: false
+    party: D
+    chamber: lower
+  - name: Danielle Otten
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dan Williams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Patrick Gallagher
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikki Rivera
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tarik Khan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Joseph Ciresi
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-07-16"
+    description: Referred to Labor & Industry
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-07-16"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2705/PN3781
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2155843
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/hb2705
+    title: HB 2705 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2705/PN3781
+    title: HB 2705 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

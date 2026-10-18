@@ -1,0 +1,185 @@
+id: us-ca-2025-2026-sb-928
+jurisdiction: us-ca
+session: 2025-2026
+identifier: SB 928
+title: 'California State University: faculty employees.'
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - instructional-use
+  - employment-evaluation
+summary: Requires the instructor of record for a California State University course, and CSU faculty employees,
+  to be persons who meet the trustees' rules for faculty service, while stating that CSU employees may
+  still use artificial intelligence tools in operations and student services.
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: The instructor of record for a CSU course must be a person meeting the trustees' faculty
+      rule.
+    citation:
+      source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB928#96CHP
+      locator: Sec. 1, new 89500.3(b)
+      quote: The instructor of record for a course of instruction shall be a person who meets the rule
+        to serve as a faculty employee teaching credit instruction or a faculty employee teaching noncredit
+        instruction established pursuant to Section 89500.
+sponsors:
+  - name: Sabrina Cervantes
+    primary: true
+    party: D
+    chamber: upper
+  - name: Mike Fong
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mark Gonzalez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Al Muratsuchi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Darshana Patel
+    primary: false
+    party: D
+    chamber: lower
+  - name: LaShae Sharp-Collins
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-29"
+    description: Introduced. Read first time. To Com. on RLS. for assignment. To print.
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-01-30"
+    description: From printer. May be acted upon on or after March 1.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-11"
+    description: Referred to Com. on RLS.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-03-24"
+    description: From committee with author's amendments. Read second time and amended. Re-referred to
+      Com. on RLS.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-04-08"
+    description: Re-referred to Com. on ED.
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-09"
+    description: Set for hearing April 15.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-15"
+    description: 'From committee: Do pass. Ordered to consent calendar. (Ayes 7. Noes 0. Page 3898.) (April
+      15).'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-16"
+    description: Read second time. Ordered to consent calendar.
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-04-23"
+    description: Read third time. Passed. (Ayes 37. Noes 0. Page 4033.) Ordered to the Assembly.
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-04-23"
+    description: In Assembly. Read first time. Held at Desk.
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-05-18"
+    description: Referred to Com. on HIGHER ED.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-10"
+    description: Coauthors revised.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-10"
+    description: 'From committee: Do pass. (Ayes 10. Noes 0.) (June 9).'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-06-11"
+    description: Read second time. Ordered to third reading.
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-08-13"
+    description: Read third time. Passed. (Ayes 74. Noes 0. Page 6145.) Ordered to the Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-08-13"
+    description: In Senate. Ordered to engrossing and enrolling.
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-08-18"
+    description: Enrolled and presented to the Governor at 3 p.m.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-08-27"
+    description: Approved by the Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-08-27"
+    description: Chaptered by Secretary of State. Chapter 149, Statutes of 2026.
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Introduced
+    date: "2026-01-29"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB928#99INT
+    media_type: text/html
+  - note: Amended
+    date: "2026-03-24"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB928#98AMD
+    media_type: text/html
+  - note: Enrolled
+    date: "2026-08-14"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB928#97ENR
+    media_type: text/html
+  - note: Chaptered
+    date: "2026-08-27"
+    url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB928#96CHP
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2102393
+sources:
+  - url: https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB928
+    title: SB 928 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB928#96CHP
+    title: SB 928 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

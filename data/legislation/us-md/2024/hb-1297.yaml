@@ -1,0 +1,102 @@
+id: us-md-2024-hb-1297
+jurisdiction: us-md
+session: "2024"
+identifier: HB 1297
+title: Education - Artificial Intelligence - Study and Regulations
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - student-privacy
+  - instructional-use
+summary: Requires the State Department of Education to conduct a comprehensive study of the potential
+  use of artificial intelligence in public schools, including best practices for safe, responsible, and
+  ethical use that protect the personal information of students and school personnel. Requires the department
+  to report the results by December 1, 2024, and to adopt regulations based on the study by June 1, 2025.
+provisions:
+  - type: creates-task-force
+    description: The State Department of Education must study the potential use of AI in public schools
+      and report to the Governor and General Assembly.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1297t.pdf
+      locator: Section 1(b)(1)
+      quote: The State Department of Education shall conduct a comprehensive study of the potential use
+        of artificial intelligence in public schools.
+  - type: issues-model-policy
+    description: The department must adopt regulations based on the study results.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1297t.pdf
+      locator: Section 1(c)(2)
+      quote: On or before June 1, 2025, the State Department of Education shall adopt regulations based
+        on the results of its study.
+sponsors:
+  - name: Caylin Young
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-09"
+    description: First Reading Ways and Means
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-02-09"
+    description: Hearing 2/28 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-16"
+    description: Favorable with Amendments Report by Ways and Means
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-16"
+    description: Favorable with Amendments {713429/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-03-16"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-03-18"
+    description: Third Reading Passed (134-5)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-03-18"
+    description: Referred Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-09"
+    url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1297f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-03-17"
+    url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1297t.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1842215
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1297?ys=2024RS
+    title: HB 1297 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/bills/hb/hb1297t.pdf
+    title: HB 1297 text (Engrossed)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

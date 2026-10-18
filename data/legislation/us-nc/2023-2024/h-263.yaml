@@ -1,0 +1,332 @@
+id: us-nc-2023-2024-h-263
+jurisdiction: us-nc
+session: 2023-2024
+identifier: H 263
+title: 2024 Appropriations Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+summary: The 2024 Appropriations Act modifies the 2023 budget, including the AI School Safety Pilot Program
+  provision that directs $3.2 million to New Hanover County Schools and $2 million to Davidson County
+  Schools for school safety systems integrating AI technology, with reporting coordinated through the
+  Center for Safer Schools.
+provisions:
+  - type: appropriates-funding
+    description: Directs grants to two school districts for an AI School Safety Pilot Program.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H263v3.pdf
+      locator: Sec. 7.36.(h) of S.L. 2023-134, as amended
+      quote: Funds allocated for the Pilot Program shall be used for the implementation of a school safety
+        system that integrates AI technology into existing access controls, alerting protocols, and intercom
+        systems.
+sponsors:
+  - name: Dean Arp
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jason Saine
+    primary: true
+    party: R
+    chamber: lower
+  - name: Donny Lambeth
+    primary: true
+    party: R
+    chamber: lower
+  - name: James Adams
+    primary: false
+    party: R
+    chamber: lower
+  - name: Mike Clampitt
+    primary: false
+    party: R
+    chamber: lower
+  - name: John Faircloth
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kyle Hall
+    primary: false
+    party: R
+    chamber: lower
+  - name: Chris Humphrey
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bill Ward
+    primary: false
+    party: R
+    chamber: lower
+  - name: David Willis
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-03-02"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-03-06"
+    description: Passed 1st Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2023-03-06"
+    description: Ref to the Com on Appropriations, if favorable, Rules, Calendar, and Operations of the
+      House
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-06-13"
+    description: Serial Referral To Rules, Calendar, and Operations of the House Stricken
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-06-13"
+    description: Serial Referral To Finance Added
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-06-13"
+    description: Serial Referral To Pensions and Retirement Added
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-06-18"
+    description: Reptd Fav Com Substitute
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Ruled Material
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Re-ref Com On Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Re-ref Com On Pensions and Retirement
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Cal Pursuant Rule 36(b)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-18"
+    description: Placed On Cal For 06/19/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Failed A1
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Adopted A2
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Amend Failed A3
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Failed A4
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Failed A5
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Adopted A6
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Amend Failed A7
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Adopted A8
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Amend Adopted A9
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Amend Failed A10
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Adopted A11
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Amend Adopted A12
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Amend Failed A13
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Adopted A14
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Amend Failed A15
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Failed A16
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amendment Withdrawn A17
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Adopted A18
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Amend Failed A19
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-19"
+    description: Amend Adopted A20
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-19"
+    description: Passed 2nd Reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-06-20"
+    description: Amend Failed A22
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-20"
+    description: Amend Failed A23
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-20"
+    description: Amend Adopted A21
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-20"
+    description: Amend Adopted A24
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-20"
+    description: Amend Adopted A25
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-06-20"
+    description: Passed 3rd Reading
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-06-20"
+    description: Ordered Engrossed
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-20"
+    description: Special Message Sent To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2024-06-20"
+    description: Special Message Received From House
+    actor: upper
+    classification:
+      - other
+  - date: "2024-06-20"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2024-06-20"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-03-02"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H263v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-03-06"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H263v1.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2024-06-18"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H263v2.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2024-06-20"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H263v3.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1725321
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2023/H263
+    title: H 263 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H263v3.pdf
+    title: H 263 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

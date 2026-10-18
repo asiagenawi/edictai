@@ -1,0 +1,97 @@
+id: us-ri-2024-h-7521
+jurisdiction: us-ri
+session: "2024"
+identifier: H 7521
+title: Creates requirements for the developers or deployers of artificial intelligence and allows civil
+  action against these developers or deployers by the attorney general and local solicitors.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - assessment
+  - academic-integrity
+  - equity-access
+summary: Regulates developers and deployers of automated decision tools that make consequential decisions,
+  requiring impact assessments and prohibiting algorithmic discrimination. Consequential decisions include
+  education and vocational training, including assessment and detection of student cheating or plagiarism.
+provisions:
+  - type: regulates-ai-assessment
+    description: Defines consequential decisions to include education assessment, including detecting
+      student cheating or plagiarism.
+    citation:
+      source_url: https://webserver.rilegislature.gov/BillText24/HouseText24/H7521.pdf
+      locator: Sec. 1, new 42-166-1(4)(ii)
+      quote: '(ii) Education and vocational training including, but not limited to, all of the following:
+        (A) Assessment including, but not limited to, detecting student cheating or plagiarism;'
+  - type: bias-or-equity-requirement
+    description: Impact assessments must analyze potential adverse impacts on protected groups from the
+      deployer's use of the tool.
+    citation:
+      source_url: https://webserver.rilegislature.gov/BillText24/HouseText24/H7521.pdf
+      locator: Sec. 1, new chapter 42-166, deployer impact assessment (5)
+      quote: An analysis of potential adverse impacts on the basis of sex, race, color, ethnicity, religion,
+        age, national origin, limited English proficiency, disability, veteran status, or genetic information
+        from the deployer's use of the automated decision tool;
+sponsors:
+  - name: Jacquelyn Baginski
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lauren Carson
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jennifer Boylan
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-02-07"
+    description: Introduced, referred to House Innovation, Internet, & Technology
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+  - date: "2024-02-09"
+    description: Scheduled for hearing and/or consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-12"
+    description: Meeting postponed (02/13/2024)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2024-02-12"
+    description: Scheduled for hearing and/or consideration (02/15/2024)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-15"
+    description: Committee recommended measure be held for further study
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-02-07"
+    url: https://webserver.rilegislature.gov/BillText24/HouseText24/H7521.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1839979
+sources:
+  - url: https://status.rilegislature.gov/
+    title: H 7521 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://webserver.rilegislature.gov/BillText24/HouseText24/H7521.pdf
+    title: H 7521 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

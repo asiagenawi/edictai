@@ -1,0 +1,161 @@
+id: us-ct-2026-sb-312
+jurisdiction: us-ct
+session: "2026"
+identifier: SB 312
+title: An Act Establishing An American Sign Language Education Working Group And Concerning Curriculum
+  Guidance For American Sign Language Instruction.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - procurement
+  - instructional-use
+summary: Establishes an American Sign Language education working group and directs the Department of Education
+  to issue curriculum guidance for American Sign Language instruction. As introduced, would have let the
+  Department of Education approve supplemental literacy support products using machine-learning systems
+  that listen to students read aloud and provide tutoring, subject to approval criteria. The AI provisions
+  were removed by amendment.
+provisions:
+  - type: procurement-standards
+    description: As introduced, the Department of Education could approve machine-learning literacy support
+      products that meet listed criteria.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00312-R00-SB.PDF
+      locator: Introduced, Sec. 1(a)
+      quote: The Department of Education may approve one or more supplemental literacy support products
+        that utilizes a machine -learning or other machine -based system capable of (1) listening to students
+        read aloud,
+sponsors:
+  - name: Education Committee
+    classification: committee
+    primary: true
+  - name: Mitch Bolinsky
+    primary: false
+    party: R
+    chamber: lower
+  - name: Christopher Poulos
+    primary: false
+    party: D
+    chamber: lower
+  - name: Tom Delnicki
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jane Garibay
+    primary: false
+    party: D
+    chamber: lower
+  - name: Anthony Nolan
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-26"
+    description: Referred to Joint Committee on Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-02-27"
+    description: Public Hearing 03/04
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-16"
+    description: Joint Favorable Substitute Change of Reference Appropriations
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-19"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-03-23"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-24"
+    description: Favorable Change of Reference, Senate to Committee on Appropriations
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-24"
+    description: Favorable Change of Reference, House to Committee on Appropriations
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-01"
+    description: Joint Favorable Substitute
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-01"
+    description: Filed with Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-04-10"
+    description: Referred to Office of Legislative Research and Office of Fiscal Analysis 04/15/26 5:00
+      PM
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-16"
+    description: Reported Out of Legislative Commissioners' Office
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-16"
+    description: Favorable Report, Tabled for the Calendar, Senate
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-16"
+    description: Senate Calendar Number 414
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-16"
+    description: File Number 652
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-02-25"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00312-R00-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-03-24"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00312-R01-SB.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-04-16"
+    url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00312-R02-SB.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2124527
+sources:
+  - url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00312&which_year=2026
+    title: SB 312 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00312-R02-SB.PDF
+    title: SB 312 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00312-R00-SB.PDF
+    title: SB 312 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

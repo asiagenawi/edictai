@@ -1,0 +1,94 @@
+id: us-fl-2026-s5-sb-2500
+jurisdiction: us-fl
+session: 2026-s5
+identifier: SB 2500
+title: Appropriations
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+summary: Makes the state's 2026-2027 appropriations, including Department of Education school and instructional
+  enhancement projects for ZeroEyes AI firearm and gun detection in Franklin County, Miami-Dade, Hernando,
+  and Seminole County.
+provisions:
+  - type: appropriates-funding
+    description: Funds ZeroEyes AI firearm and gun detection projects in four counties from the Department
+      of Education's school and instructional enhancements appropriation.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026E/2500E/BillText/Filed/HTML
+      locator: Department of Education, Grants and Aids - School and Instructional Enhancements, Specific
+        Appropriation 108
+      quote: ZeroEyes AI Gun Detection Technology - Hernando (SF 3648). 240,000 ZeroEyes AI Gun Detection
+        Technology Seminole County (SF
+sponsors:
+  - name: Ed Hooper
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-05-07"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-05-07"
+    description: Referred to Appropriations
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-05-12"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-05-12"
+    description: Withdrawn from Appropriations
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-05-12"
+    description: Substituted HB 5001-E
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-12"
+    description: Laid on Table, companion bill(s) passed, see HB 5001-E (Ch. 2026-232), HB 5003-E (Ch.
+      2026-233), HB 5201-E (Ch. 2026-234), HB 5205-E (Ch. 2026-235), HB 5301-E (Ch. 2026-236), HB 5601-E
+      (Ch. 2026-237), HB 5701-E (Ch. 2026-238), SB 2506-E (Ch. 2026-230), SB 2508-E (Ch. 2026-231)
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2026-05-07"
+    url: https://www.flsenate.gov/Session/Bill/2026E/2500E/BillText/Filed/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2148548
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026E/2500E
+    title: SB 2500 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026E/2500E/BillText/Filed/HTML
+    title: SB 2500 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

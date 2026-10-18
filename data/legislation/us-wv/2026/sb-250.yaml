@@ -1,0 +1,377 @@
+id: us-wv-2026-sb-250
+jurisdiction: us-wv
+session: "2026"
+identifier: SB 250
+title: Budget Bill
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - instructional-use
+summary: Makes appropriations for the 2027 fiscal year. As introduced, would direct $3,000,000 of the
+  State Department of Education's Mountain State Digital Literacy Program appropriation to digital artificial
+  intelligence tutoring; the later version directs that amount to tutoring and support resources for digital
+  literacy, math, career-technical education, and internet safety. The AI provisions were removed by amendment.
+provisions:
+  - type: appropriates-funding
+    description: Would direct $3,000,000 of the statewide Mountain State Digital Literacy Program appropriation
+      to digital AI tutoring.
+    citation:
+      source_url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb250%20intr.htm&yr=2026&sesstype=RS&i=250
+      locator: Introduced, State Department of Education, Mountain State Digital Literacy Program (fund
+        0313, appropriation 86401)
+      quote: From the above appropriation for Mountain State Digital Literacy Program (fund 0313, appropriation
+        86401), $3,000,000 shall be used for digital artificial intelligence tutoring.
+sponsors:
+  - name: Randy Smith
+    primary: true
+    party: R
+    chamber: upper
+  - name: Mike Woelfel
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-01-14"
+    description: Introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-01-14"
+    description: To Finance
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-17"
+    description: Committee substitute reported
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-02-18"
+    description: On 1st reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-18"
+    description: Read 1st time
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-02-19"
+    description: On 2nd reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-02-19"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-02-20"
+    description: On 3rd reading
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-02-20"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-02-20"
+    description: Passed Senate (Roll No. 161)
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-02-20"
+    description: Effective from passage (Roll No. 162)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-20"
+    description: Ordered to House
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: House received Senate message
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-02-23"
+    description: Reference dispensed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: Immediate consideration
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-23"
+    description: Read 1st time
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-02-24"
+    description: On 2nd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-24"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-24"
+    description: Amendments pending
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: On 3rd reading, Special Calendar
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-25"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment adopted (Voice vote)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment adopted (Voice vote)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment rejected (Voice vote)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment rejected (Voice vote)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment adopted (Voice vote)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment rejected (Voice vote)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment rejected (Voice vote)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment withdrawn (Voice vote)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment adopted (Voice vote)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Amendment reported by the Clerk
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Amendment adopted (Voice vote)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Amendment adopted (Roll No. 177)
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-02-25"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-25"
+    description: Passed House (Roll No. 178)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-25"
+    description: Effective from passage (Roll No. 179)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Communicated to Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House Message received
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House amendment reported
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: Senate amended House amendment and passed bill (Roll No. 358)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-05"
+    description: Effective from passage (Roll No. 359)
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: Senate requests House to concur
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House received Senate message
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: House concurred in Senate amendment and passed bill (Roll No. 354)
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-05"
+    description: Effective from passage (Roll No. 355)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: Communicated to Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-05"
+    description: Completed legislative action
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: House Message received
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: To Governor 3/6/2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Approved by Governor with deletions and reductions 3/12/2026
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-03-13"
+    description: Approved by Governor with deletions 3/12/2026- House Journal
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-03-14"
+    description: Approved by Governor with deletions and reductions 3/12/2026 - Senate Journal
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb250%20intr.htm&yr=2026&sesstype=RS&i=250
+    media_type: text/html
+  - note: Comm Sub
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb250%20sub1.htm&yr=2026&sesstype=RS&i=250
+    media_type: text/html
+  - note: Enrolled
+    url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb250%20sub1%20enr.htm&yr=2026&sesstype=RS&i=250
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2080496
+sources:
+  - url: http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=250&year=2026&sessiontype=RS&btype=bill
+    title: SB 250 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb250%20sub1%20enr.htm&yr=2026&sesstype=RS&i=250
+    title: SB 250 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+  - url: http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb250%20intr.htm&yr=2026&sesstype=RS&i=250
+    title: SB 250 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. Some provisions quote an earlier
+    version (Introduced).

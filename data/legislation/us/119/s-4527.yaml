@@ -1,0 +1,62 @@
+id: us-119-s-4527
+jurisdiction: us
+session: "119"
+identifier: S. 4527
+title: Improving Emerging Tech Opportunities for Veterans Act of 2026
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+summary: Expands the Veterans Affairs high technology education program to include emerging technologies
+  such as artificial intelligence, and directs the Secretary to work with employers and educational institutions
+  to identify courses of education that prepare veterans for jobs in emerging technology fields.
+provisions:
+  - type: ai-workforce-program
+    description: Program criteria must identify technologies such as AI to be treated as emerging technologies
+      eligible under the veterans high technology education program.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s4527/BILLS-119s4527is.pdf
+      locator: Sec. 2(a)(3)
+      quote: Such criteria shall also identify which technologies of critical importance, such as artificial
+        intelligence and semiconductor manufacturing, shall be treated as emerging technologies for purposes
+        of this section.
+sponsors:
+  - name: David McCormick
+    primary: true
+    party: R
+    chamber: upper
+  - name: Ruben Gallego
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-05-14"
+    description: Read twice and referred to the Committee on Veterans' Affairs.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-05-18"
+    url: https://www.congress.gov/119/bills/s4527/BILLS-119s4527is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2150088
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/4527/all-info
+    title: S. 4527 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s4527/BILLS-119s4527is.pdf
+    title: S. 4527 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

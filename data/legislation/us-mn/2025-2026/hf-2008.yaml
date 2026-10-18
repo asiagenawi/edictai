@@ -1,0 +1,66 @@
+id: us-mn-2025-2026-hf-2008
+jurisdiction: us-mn
+session: 2025-2026
+identifier: HF 2008
+title: Higher education campus sexual misconduct provisions modified.
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - synthetic-media
+  - safety-wellbeing
+summary: Modifies Minnesota campus sexual misconduct law, including definitions and the sexual misconduct
+  grievance process postsecondary institutions must establish. The amended definition of sexual misconduct,
+  which institutions' policies and grievance processes must address, includes nonconsensual dissemination
+  of a deepfake depicting intimate parts or sexual acts.
+provisions:
+  - type: addresses-deepfakes
+    description: Includes deepfake dissemination in the sexual misconduct definition governing postsecondary
+      grievance processes.
+    citation:
+      source_url: https://www.revisor.mn.gov/bills/94/2025/0/HF/2008/versions/0/pdf/
+      locator: Sec. 1, 135A.15, subd. 1a, sexual misconduct definition
+      quote: of sexual images, sexual extortion, nonconsensual dissemination of a deepfake depicting
+sponsors:
+  - name: Jessica Hanson
+    primary: true
+    party: D
+    chamber: lower
+  - name: Carlie Kotyza-Witthuhn
+    primary: false
+    party: D
+    chamber: lower
+  - name: Leigh Finke
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-03-06"
+    description: Introduction and first reading, referred to Higher Education Finance and Policy
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-03-06"
+    url: https://www.revisor.mn.gov/bills/94/2025/0/HF/2008/versions/0/pdf/
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1993746
+sources:
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/HF/2008/
+    title: HF 2008 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.revisor.mn.gov/bills/94/2025/0/HF/2008/versions/0/pdf/
+    title: HF 2008 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

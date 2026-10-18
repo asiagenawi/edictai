@@ -1,0 +1,52 @@
+id: us-md-2026-hb-712
+jurisdiction: us-md
+session: "2026"
+identifier: HB 712
+title: Civil Actions - Product Liability - Artificial Intelligence Systems
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - institutional-operations
+summary: Establishes product liability causes of action against developers and deployers of certain artificial
+  intelligence systems for defective design, inadequate warnings, and breach of warranty. Consequential
+  decisions under the bill include those affecting an individual's access to education.
+sponsors:
+  - name: Robin Grammer
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-02-02"
+    description: First Reading Judiciary
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2026-02-05"
+    description: Hearing 2/25 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2026-02-02"
+    url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb0712f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2103215
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0712?ys=2026RS
+    title: HB 712 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2026RS/bills/hb/hb0712f.pdf
+    title: HB 712 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

@@ -1,0 +1,93 @@
+id: us-ny-2025-2026-a-3265
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 3265
+title: Enacts the New York artificial intelligence bill of rights to provide residents of the state with
+  rights and protections to ensure that any system making decisions without human intervention impacting
+  their lives do so lawfully, properly, and with meaningful oversight.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - institutional-operations
+  - student-privacy
+summary: Enacts the New York artificial intelligence bill of rights, giving residents rights regarding
+  automated systems that affect equal opportunities, defined to include access to education, and requiring
+  that automated systems used in sensitive domains including education be tailored, overseen, and include
+  human consideration, and that continuous surveillance not be used in education.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Requires automated systems in sensitive domains including education to be tailored to
+      purpose, open to oversight, and include human consideration for high-risk decisions.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A03265&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A03265
+      locator: § 508(4)
+      quote: Automated systems intended for use within sensitive domains, including but not limited to
+        criminal justice, employment, education, and health, shall additionally be tailored to their purpose,
+        provide meaningful access for oversight
+  - type: restricts-student-data-use
+    description: Bars continuous surveillance and monitoring in education where it is likely to limit
+      rights, opportunities, or access.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A03265&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A03265
+      locator: § 506(9)
+      quote: Continuous surveillance and monitoring shall not be used in education, work, housing, or
+        any other contexts where the use of such surveillance technologies is likely to limit rights,
+        opportunities, or access.
+sponsors:
+  - name: Clyde Vanel
+    primary: true
+    party: D
+    chamber: lower
+  - name: Jacob Blumencranz
+    primary: false
+    party: R
+    chamber: lower
+  - name: Rodneyse Bichotte Hermelyn
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alicia Hyndman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dana Levenberg
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-01-27"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2026-01-07"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-01-27"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A03265&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A03265
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1941981
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A3265
+    title: A 3265 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A03265&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A03265
+    title: A 3265 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

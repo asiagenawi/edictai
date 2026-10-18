@@ -1,0 +1,110 @@
+id: us-al-2024-sb-109
+jurisdiction: us-al
+session: "2024"
+identifier: SB 109
+title: Crimes & Offenses, raises maximum age for offenses involving minors & sexually explicit conduct,
+  authorizes punitive damages for victims of those offenses, directs Board of Education to require policies
+  related to those offenses
+classification: bill
+education_levels:
+  - k12
+topics:
+  - synthetic-media
+  - local-policy-requirement
+summary: Revises Alabama child sexual abuse material offenses, including artificially generated material,
+  and creates a civil cause of action. Directs the State Board of Education to require each local board
+  of education to adopt and distribute a student discipline and education policy that prohibits private,
+  explicit, or pornographic images generated with artificial intelligence.
+provisions:
+  - type: requires-local-ai-policy
+    description: Local boards of education must adopt a written policy on student discipline and education
+      related to private images and child sexual abuse material.
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/SB109-int.pdf
+      locator: Section 5(1)
+      quote: Develop a written policy on student discipline and education related to the distribution
+        of private images
+  - type: addresses-deepfakes
+    description: The local policy must prohibit private, explicit, or pornographic images generated with
+      AI.
+    citation:
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/SB109-int.pdf
+      locator: Section 5(2)
+      quote: Include within the written policy a prohibition of private, explicit, or pornographic images
+        generated with artificial intelligence.
+sponsors:
+  - name: April Weaver
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-02-15"
+    description: Read for the first time and referred to the Senate Committee on Fiscal Responsibility
+      and Economic Development
+    actor: upper
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+  - date: "2024-02-15"
+    description: Pending Senate Fiscal Responsibility and Economic Development
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-20"
+    description: Reported Out of Committee House of Origin
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-02-20"
+    description: Read for the Second Time and placed on the Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-02-20"
+    description: Pending Senate Judiciary
+    actor: upper
+    classification:
+      - other
+  - date: "2024-02-28"
+    description: Reported Out of Committee House of Origin
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-02-28"
+    description: Read for the Second Time and placed on the Calendar
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-02-28"
+    description: Committee Substitute Adopted MV74H1H-1
+    actor: upper
+    classification:
+      - substitution
+  - date: "2024-05-07"
+    description: Currently Indefinitely Postponed
+    actor: upper
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2024-02-15"
+    url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/SB109-int.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1847980
+sources:
+  - url: https://alison.legislature.state.al.us/bill-search
+    title: SB 109 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/SB109-int.pdf
+    title: SB 109 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

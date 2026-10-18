@@ -1,0 +1,98 @@
+id: us-md-2024-sb-127
+jurisdiction: us-md
+session: "2024"
+identifier: SB 127
+title: Maryland Center for School Safety - Firearm Detection Platforms - Evaluation (Maryland Firearm
+  Detection Platform Act)
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - safety-wellbeing
+  - procurement
+  - funding
+summary: Requires the Maryland Center for School Safety, with education agencies, school systems, and
+  public higher education institutions, to evaluate AI-based firearm detection platforms and report recommendations.
+  Allows the Safe Schools Fund to help local school systems buy and maintain assessed platforms.
+provisions:
+  - type: creates-task-force
+    description: The Center for School Safety must evaluate AI firearm detection platforms with education
+      partners and report recommendations to school and higher education bodies.
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0127f.pdf
+      locator: Sec. 2(b)
+      quote: 'shall conduct an evaluation of firearm detection platforms to assess:'
+  - type: appropriates-funding
+    description: Safe Schools Fund grants may assist local school systems in procuring and maintaining
+      assessed AI firearm detection platforms.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0127f.pdf
+      locator: Education §7-1512(f)(11)
+      quote: ASSISTING LOCAL SCHOOL SYSTEMS IN PROCURING AND MAINTAINING FIREARM DETECTION PLATFORMS ASSESSED
+        BY THE CENTER FOR USE ON PUBLIC SCHOOL PROPERTY.
+sponsors:
+  - name: Ron Watson
+    primary: true
+    party: D
+    chamber: upper
+  - name: Mary Carozza
+    primary: false
+    party: R
+    chamber: upper
+  - name: Anthony Muse
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2023-10-31"
+    description: Pre-filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-01-10"
+    description: First Reading Education, Energy, and the Environment and Judicial Proceedings
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-01-11"
+    description: Hearing 1/24 at 1:00 p.m. (Education, Energy, and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Hearing canceled (Education, Energy, and the Environment)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-01-17"
+    description: Hearing 1/24 at 2:00 p.m. (Education, Energy, and the Environment)
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2024-01-08"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0127f.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1797714
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0127?ys=2024RS
+    title: SB 127 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0127f.pdf
+    title: SB 127 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

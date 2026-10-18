@@ -1,0 +1,320 @@
+id: us-fl-2026-hb-1503
+jurisdiction: us-fl
+session: "2026"
+identifier: HB 1503
+title: Computer Science Education and Certification
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+summary: Requires statewide general education core courses that integrate technology to include instruction
+  on applying artificial intelligence tools, requires high school computer science courses offered to
+  students to include instruction on artificial intelligence, and directs the State Board of Education
+  to establish grade-band computer science teacher subject area coverages.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: General education core courses that integrate technology must include instruction on
+      applying AI tools.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1503/BillText/c2/PDF
+      locator: Sec. 1, new 1007.25(3)(e)
+      quote: General education core courses that integrate the use of technology must provide students
+        with opportunities to improve digital literacy and competency, instruction on the application
+        of artificial intelligence tools to the course
+  - type: requires-ai-literacy-instruction
+    description: High school computer science courses must include instruction on AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026/1503/BillText/c2/PDF
+      locator: Sec. 2, amended 1007.2616(6)
+      quote: High school students must be provided opportunities to take computer science courses that
+        include instruction on artificial intelligence
+sponsors:
+  - name: Education & Employment Committee
+    classification: committee
+    primary: true
+  - name: Careers & Workforce Subcommittee
+    classification: committee
+    primary: true
+  - name: Mike Giallombardo
+    primary: true
+    party: R
+    chamber: lower
+  - name: Linda Chaney
+    primary: false
+    party: R
+    chamber: lower
+  - name: Susan Valdes
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2026-01-09"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-13"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-01-15"
+    description: Referred to Careers & Workforce Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-15"
+    description: Referred to Budget Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-15"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-15"
+    description: Now in Careers & Workforce Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-26"
+    description: PCS added to Careers & Workforce Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-28"
+    description: Favorable with CS by Careers & Workforce Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-28"
+    description: Reported out of Careers & Workforce Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-01-28"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-01-28"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-29"
+    description: Now in Education & Employment Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-01-29"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-02-13"
+    description: PCS added to Education & Employment Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-17"
+    description: Favorable with CS by Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-17"
+    description: Reported out of Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-17"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-02-17"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-17"
+    description: 1st Reading (Committee Substitute 2)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2026-02-18"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-18"
+    description: Added to Second Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-19"
+    description: Bill added to Special Order Calendar (2/25/2026)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Read 2nd time
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2026-02-25"
+    description: Added to Third Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-25"
+    description: Read 3rd time
+    actor: lower
+    classification:
+      - reading-3
+  - date: "2026-02-25"
+    description: CS passed; YEAS 112, NAYS 0
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-02-25"
+    description: In Messages
+    actor: upper
+    classification:
+      - other
+  - date: "2026-02-26"
+    description: Referred to Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-02-26"
+    description: Received
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Withdrawn from Rules
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-06"
+    description: Substituted for CS/SB 1694
+    actor: upper
+    classification:
+      - substitution
+  - date: "2026-03-06"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-03-06"
+    description: Amendment(s) adopted (593280)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-03-06"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-03-06"
+    description: CS passed as amended; YEAS 33 NAYS 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-03-06"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Added to Senate Message List
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Amendment 898007 adopted
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2026-03-12"
+    description: Concurred in Senate amendment 593280 as amended
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: CS passed as amended; YEAS 105, NAYS 0
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-12"
+    description: In returning messages
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: Refused to concur, requested House to recede
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-12"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-13"
+    description: Died in returning Messages
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-01-09"
+    url: https://www.flsenate.gov/Session/Bill/2026/1503/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-01-28"
+    url: https://www.flsenate.gov/Session/Bill/2026/1503/BillText/c1/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-02-17"
+    url: https://www.flsenate.gov/Session/Bill/2026/1503/BillText/c2/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2069946
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026/1503
+    title: HB 1503 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026/1503/BillText/c2/PDF
+    title: HB 1503 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

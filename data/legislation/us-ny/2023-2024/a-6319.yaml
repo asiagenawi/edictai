@@ -1,0 +1,63 @@
+id: us-ny-2023-2024-a-6319
+jurisdiction: us-ny
+session: 2023-2024
+identifier: A 6319
+title: Establishes consumers' foundational data privacy rights; creates oversight mechanisms; establishes
+  enforcement mechanisms; establishes the privacy and security victims relief fund.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Establishes consumer data privacy rights and requires large data holders using covered algorithms
+  that pose a consequential risk of harm to conduct annual impact assessments, including steps to mitigate
+  harms in determining access to housing, education, employment, and other opportunities.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Algorithm impact assessments must describe steps to mitigate harms in determining access
+      to education, among other opportunities.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A06319&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A06319
+      locator: § 1526(3)(a)(ii)(F)(II)
+      quote: making or facilitating advertising for, or determining access to, or restrictions on the
+        use of housing, education, employment, health- care, insurance, or credit opportunities
+sponsors:
+  - name: Michaelle Solages
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2023-04-03"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2024-01-03"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2023-04-03"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A06319&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A06319
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 1752559
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2023/A6319
+    title: A 6319 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A06319&term=2023&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A06319
+    title: A 6319 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

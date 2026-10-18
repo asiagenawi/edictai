@@ -16,3 +16,25 @@ sessions:
     classification: primary
     start_date: "2026-01-14"
     end_date: "2026-04-13"
+  - identifier: "2023"
+    name: 2023 Regular Session
+    classification: primary
+    start_date: "2023-01-11"
+    legiscan_session_id: 2006
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:md/government?include=legislative_sessions"
+        title: Open States API, Maryland legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2024"
+    name: 2024 Regular Session
+    classification: primary
+    start_date: "2024-01-10"
+    legiscan_session_id: 2111
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:md/government?include=legislative_sessions"
+        title: Open States API, Maryland legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"

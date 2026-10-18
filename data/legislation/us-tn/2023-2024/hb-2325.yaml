@@ -1,0 +1,262 @@
+id: us-tn-2023-2024-hb-2325
+jurisdiction: us-tn
+session: 2023-2024
+identifier: HB 2325
+title: AN ACT to amend Tennessee Code Annotated, Title 4, relative to the artificial intelligence advisory
+  council.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: Creates the Tennessee Artificial Intelligence Advisory Council to develop an action plan on artificial
+  intelligence in state government and the economy. The council must report on AI's labor market impact
+  and propose policy changes related to workforce development, educational systems and research opportunities
+  for colleges and universities.
+provisions:
+  - type: creates-task-force
+    description: The advisory council's report must propose policy changes related to educational systems
+      and research opportunities for colleges and universities.
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/113/pub/pc0988.pdf
+      locator: Section 1, council report (c)(6)
+      quote: Proposed policy changes related to workforce development, educational systems, and research
+        opportunities for colleges and universities in this state
+sponsors:
+  - name: Patsy Hazlewood
+    primary: true
+    party: R
+    chamber: lower
+  - name: G.A. Hardaway
+    primary: false
+    party: D
+    chamber: lower
+  - name: Clark Boyd
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-01-29"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-01-31"
+    description: Intro., P1C.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-01"
+    description: P2C, ref. to State Government Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-06"
+    description: Assigned to s/c Departments & Agencies Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-02-28"
+    description: Placed on s/c cal Departments & Agencies Subcommittee for 3/6/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-06"
+    description: Rec. for pass by s/c ref. to State Government Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-03-06"
+    description: Placed on cal. State Government Committee for 3/13/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-13"
+    description: Rec. for pass. if am., ref. to Finance, Ways, and Means Committee
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+  - date: "2024-03-13"
+    description: Assigned to s/c Finance, Ways, and Means Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-13"
+    description: Placed on s/c cal Finance, Ways, and Means Subcommittee for 3/20/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Action Def. in s/c Finance, Ways, and Means Subcommittee to 3/27/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Placed on s/c cal Finance, Ways, and Means Subcommittee for 3/27/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-27"
+    description: Action Def. in s/c Finance, Ways, and Means Subcommittee to 4/3/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-27"
+    description: Placed on s/c cal Finance, Ways, and Means Subcommittee for 4/3/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-03"
+    description: Placed behind the budget
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-11"
+    description: Placed on s/c cal Finance, Ways, and Means Subcommittee for 4/16/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Rec for pass if am by s/c ref. to Finance, Ways, and Means Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-17"
+    description: Placed on cal. Finance, Ways, and Means Committee for 4/17/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: Rec. for pass. if am., ref. to Calendar & Rules Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-17"
+    description: Placed on cal. Calendar & Rules Committee for 4/17/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-17"
+    description: H. Placed on Regular Calendar for 4/18/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Am. withdrawn. (Amendment 1 - HA0697)
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: H. adopted am. (Amendment 2 - HA1092)
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-04-24"
+    description: Passed H., as am., Ayes 92, Nays 1, PNV 3
+    actor: lower
+    classification:
+      - passage
+  - date: "2024-04-24"
+    description: Sponsor(s) Added.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Engrossed; ready for transmission to Sen.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Received from House, Passed on First Consideration
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-04-24"
+    description: Senate substituted House Bill for companion Senate Bill.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Amendment withdrawn. (Amendment 1 - SA0634)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Amendment withdrawn. (Amendment 2 - SA0873)
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-24"
+    description: Passed Senate, Ayes 30, Nays 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2024-04-30"
+    description: Enrolled; ready for sig. of H. Speaker.
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2024-05-01"
+    description: Signed by H. Speaker
+    actor: lower
+    classification:
+      - other
+  - date: "2024-05-09"
+    description: Signed by Senate Speaker
+    actor: upper
+    classification:
+      - other
+  - date: "2024-05-10"
+    description: Transmitted to Governor for his action.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2024-05-21"
+    description: Signed by Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2024-05-29"
+    description: Pub. Ch. 988
+    actor: executive
+    classification:
+      - became-law
+  - date: "2024-05-29"
+    description: Effective date(s) 05/21/2024
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Draft
+    date: "2024-01-29"
+    url: https://www.capitol.tn.gov/Bills/113/Bill/HB2325.pdf
+    media_type: application/pdf
+  - note: Draft
+    date: "2024-01-31"
+    url: https://www.capitol.tn.gov/Bills/113/Bill/HB2325.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2024-05-23"
+    url: https://publications.tnsosfiles.com/acts/113/pub/pc0988.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1830912
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/default.aspx?BillNumber=HB2325&ga=113
+    title: HB 2325 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://publications.tnsosfiles.com/acts/113/pub/pc0988.pdf
+    title: HB 2325 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

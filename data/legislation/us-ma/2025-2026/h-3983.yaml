@@ -1,0 +1,83 @@
+id: us-ma-2025-2026-h-3983
+jurisdiction: us-ma
+session: 2025-2026
+identifier: H 3983
+title: Relative to establishing a workforce training trust fund for emerging technologies
+classification: bill
+education_levels:
+  - postsecondary
+  - k12
+topics:
+  - workforce
+  - funding
+summary: Creates an Emerging Technologies Workforce Training Trust Fund that provides grants to institutions
+  of higher education, vocational technical schools, and workforce training organizations for training
+  programs in blockchain, artificial intelligence, cybersecurity, and renewable energy, along with scholarships
+  and internships in those fields.
+provisions:
+  - type: appropriates-funding
+    description: The fund makes grants to higher education institutions and vocational technical schools
+      to develop AI and other emerging-technology training programs.
+    citation:
+      source_url: https://malegislature.gov/Bills/194/H3983.pdf
+      locator: Sec. 1, new G.L. c. 29, §2KKKKKK(c)(i)
+      quote: providing grants to institutions of higher education, vocational technical schools and workforce
+        training organizations for the development and implementation of training programs in blockchain,
+        artificial intelligence, cybersecurity and renewable energy technologies
+sponsors:
+  - name: Kip Diggs
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-04-03"
+    description: Referred to the Joint Committee on Economic Development and Emerging Technologies
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-04-07"
+    description: Senate concurred
+    actor: upper
+    classification:
+      - other
+  - date: "2025-09-16"
+    description: Hearing scheduled for 09/25/2025 from 11:00 AM-01:00 PM in A-1
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-09-25"
+    description: Hearing rescheduled to 09/25/2025 from 11:00 AM-11:30 AM in A-1 and Virtual Hearing updated
+      to New End Time
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-12-01"
+    description: Bill reported favorably by committee and referred to the committee on House Ways and
+      Means
+    actor: lower
+    classification:
+      - committee-passage
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-04-03"
+    url: https://malegislature.gov/Bills/194/H3983.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2019724
+sources:
+  - url: https://malegislature.gov/Bills/194/H3983
+    title: H 3983 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://malegislature.gov/Bills/194/H3983.pdf
+    title: H 3983 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,105 @@
+id: us-119-hr-7103
+jurisdiction: us
+session: "119"
+identifier: H.R. 7103
+title: Improving Emerging Tech Opportunities for Veterans Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+summary: Directs the Department of Veterans Affairs to identify and expedite approval of courses of education
+  in emerging technologies, such as artificial intelligence, and expands the veterans high technology
+  education program to cover emerging technologies.
+provisions:
+  - type: ai-workforce-program
+    description: The veterans high technology program's criteria must identify emerging technologies,
+      such as AI, eligible for covered education programs.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr7103/BILLS-119hr7103ih.pdf
+      locator: Sec. 3(a)(3)
+      quote: Such criteria shall also identify which technologies of critical importance, such as arti-
+        ficial intelligence and semiconductor manufac- turing, shall be treated as emerging tech- nologies
+        for purposes of this section.
+sponsors:
+  - name: Abraham Hamadeh
+    primary: true
+    party: R
+    chamber: lower
+  - name: Derrick Van Orden
+    primary: false
+    party: R
+    chamber: lower
+  - name: August Pfluger
+    primary: false
+    party: R
+    chamber: lower
+  - name: Jennifer Kiggans
+    primary: false
+    party: R
+    chamber: lower
+  - name: James Walkinshaw
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-15"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-15"
+    description: Referred to the Committee on Veterans' Affairs, and in addition to the Committee on Armed
+      Services, for a period to be subsequently determined by the Speaker, in each case for consideration
+      of such provisions as fall within the jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-01-23"
+    description: Referred to the Subcommittee on Economic Opportunity.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-24"
+    description: Subcommittee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-24"
+    description: Forwarded by Subcommittee to Full Committee in the Nature of a Substitute (Amended) by
+      Voice Vote.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-14"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-14"
+    description: Ordered to be Reported in the Nature of a Substitute by Voice Vote.
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2026-01-15"
+    url: https://www.congress.gov/119/bills/hr7103/BILLS-119hr7103ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2083659
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/7103/all-info
+    title: H.R. 7103 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr7103/BILLS-119hr7103ih.pdf
+    title: H.R. 7103 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

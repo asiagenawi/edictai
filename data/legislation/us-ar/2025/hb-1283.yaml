@@ -1,0 +1,124 @@
+id: us-ar-2025-hb-1283
+jurisdiction: us-ar
+session: "2025"
+identifier: HB 1283
+title: To Require The Division Of Elementary And Secondary Education To Include Digital Media Standards
+  In Kindergarten Through Grade Twelve Library Media Standards.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+summary: Requires the Division of Elementary and Secondary Education to establish K-12 digital media standards
+  by the 2026-2027 school year, embedded in English language arts and library media standards. The standards
+  must include artificial intelligence usage instruction and the proper use of AI, and the division must
+  create or endorse a curriculum.
+provisions:
+  - type: ai-in-standards
+    description: K-12 digital media standards must include digital citizenship instruction that covers
+      AI usage.
+    citation:
+      source_url: https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FHB1283.pdf
+      locator: Section 1, new 6-16-163(d)(1)
+      quote: Digital citizenship, including media literacy instruction, internet safety instruction, and
+        artificial intelligence usage instruction;
+  - type: ai-in-standards
+    description: The standards must include instruction on the proper use of AI.
+    citation:
+      source_url: https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FHB1283.pdf
+      locator: Section 1, new 6-16-163(d)(5)
+      quote: The proper use of artificial intelligence.
+sponsors:
+  - name: Julie Mayberry
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jane English
+    primary: true
+    party: R
+    chamber: upper
+  - name: Stephen Meeks
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-28"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-01-28"
+    description: Read the first time, rules suspended, read the second time and referred to the Committee
+      on EDUCATION COMMITTEE- HOUSE
+    actor: lower
+    classification:
+      - reading-1
+      - reading-2
+      - referral-committee
+  - date: "2025-02-27"
+    description: Placed on second reading for the purpose of amendment.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-27"
+    description: Amendment No. 1 read and adopted and the bill ordered engrossed.
+    actor: lower
+    classification:
+      - amendment-passage
+  - date: "2025-02-27"
+    description: REPORTED CORRECTLY ENGROSSED
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-03"
+    description: Returned by the Committee Do Pass
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-07"
+    description: Read the third time and passed and ordered transmitted to the Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-07"
+    description: Received from the House.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Read first time, rules suspended, read second time, referred to EDUCATION COMMITTEE -
+      SENATE
+    actor: upper
+    classification:
+      - reading-1
+      - reading-2
+      - referral-committee
+  - date: "2025-05-05"
+    description: Died in Senate Committee at Sine Die adjournment.
+    actor: upper
+    classification:
+      - died-at-session-end
+versions:
+  - note: Draft
+    date: "2025-01-28"
+    url: https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FHB1283.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1944017
+sources:
+  - url: https://arkleg.state.ar.us/Bills/Detail?id=hb1283&ddBienniumSession=2025%2F2025R
+    title: HB 1283 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FHB1283.pdf
+    title: HB 1283 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

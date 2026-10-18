@@ -1,0 +1,88 @@
+id: us-tn-2023-2024-hb-2747
+jurisdiction: us-tn
+session: 2023-2024
+identifier: HB 2747
+title: AN ACT to amend Tennessee Code Annotated, Title 4, relative to the "Tennessee Artificial Intelligence
+  Advisory Council Act."
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+  - workforce
+summary: Creates the Tennessee Artificial Intelligence Advisory Council to develop an action plan on artificial
+  intelligence in state government and the economy. The council must report on AI's labor market impact
+  and propose policy changes related to workforce development, educational systems and research opportunities
+  for colleges and universities.
+provisions:
+  - type: creates-task-force
+    description: The advisory council's report must propose policy changes related to educational systems
+      and research opportunities for colleges and universities.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/113/Bill/HB2747.pdf
+      locator: Section 1, report (b)(6)
+      quote: Proposed policy changes related to workforce development, educational systems, and research
+        opportunities for colleges and universities in this state
+sponsors:
+  - name: Kevin Vaughan
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2024-01-31"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-01"
+    description: Intro., P1C.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-02-05"
+    description: P2C, ref. to Commerce Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-02-07"
+    description: Assigned to s/c Business & Utilities Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-06"
+    description: Placed on s/c cal Business & Utilities Subcommittee for 3/12/2024
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-12"
+    description: Taken off notice for cal in s/c Business & Utilities Subcommittee of Commerce Committee
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Draft
+    date: "2024-01-31"
+    url: https://www.capitol.tn.gov/Bills/113/Bill/HB2747.pdf
+    media_type: application/pdf
+  - note: Draft
+    date: "2024-01-31"
+    url: https://www.capitol.tn.gov/Bills/113/Bill/HB2747.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1833554
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/default.aspx?BillNumber=HB2747&ga=113
+    title: HB 2747 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.tn.gov/Bills/113/Bill/HB2747.pdf
+    title: HB 2747 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

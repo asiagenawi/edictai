@@ -1,0 +1,58 @@
+id: us-vt-2025-2026-h-812
+jurisdiction: us-vt
+session: 2025-2026
+identifier: H 812
+title: An act relating to data loyalty
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+summary: Regulates how businesses collect, share, and sell Vermont consumers' personal data, and requires
+  data loyalty assessments of covered algorithms that use machine learning or artificial intelligence,
+  including steps to mitigate harms in determining access to education and other opportunities.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Data loyalty assessments of covered algorithms must describe steps to mitigate harms,
+      including in determining access to education opportunities.
+    citation:
+      source_url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0812/H-0812%20As%20Introduced.pdf
+      locator: Data loyalty assessment section, subdivision (6)(B)
+      quote: making or facilitating advertising for, or determining access to or restrictions on the use
+        of housing, education, employment, health care, insurance, or credit opportunities
+sponsors:
+  - name: Monique Priestley
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-29"
+    description: Read first time and referred to the Committee on Commerce and Economic Development
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-01-28"
+    url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0812/H-0812%20As%20Introduced.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2100222
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2026/H.812
+    title: H 812 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0812/H-0812%20As%20Introduced.pdf
+    title: H 812 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

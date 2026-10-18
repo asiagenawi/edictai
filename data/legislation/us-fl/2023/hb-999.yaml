@@ -1,0 +1,217 @@
+id: us-fl-2023-hb-999
+jurisdiction: us-fl
+session: "2023"
+identifier: HB 999
+title: Postsecondary Educational Institutions
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+summary: Creates the Institute for Risk Management and Insurance Education at the University of Central
+  Florida, whose goals include offering programs, workshops, and applied research that integrate technology
+  and artificial intelligence while preparing students for the insurance industry. The bill also makes
+  other changes to postsecondary education law.
+provisions:
+  - type: ai-workforce-program
+    description: The institute's goals include offering programs, workshops, and applied research that
+      integrate technology and AI while preparing students for the insurance industry.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2023/999/BillText/c2/PDF
+      locator: Section 5, new s. 1004.3841, goal (6)
+      quote: (6) Offer programs, workshops, case studies, and applied research studies that integrate
+        technology and artificial intelligence with soft skills while preparing students and professionals
+        for the technology-enabled insurance industry of the future.
+sponsors:
+  - name: Education & Employment Committee
+    classification: committee
+    primary: true
+  - name: Postsecondary Education & Workforce Subcommittee
+    classification: committee
+    primary: true
+  - name: Alex Andrade
+    primary: true
+    party: R
+    chamber: lower
+  - name: Webster Barnaby
+    primary: false
+    party: R
+    chamber: lower
+  - name: James Buchanan
+    primary: false
+    party: R
+    chamber: lower
+  - name: Randy Fine
+    primary: false
+    party: R
+    chamber: lower
+  - name: Berny Jacques
+    primary: false
+    party: R
+    chamber: lower
+  - name: Randy Maggard
+    primary: false
+    party: R
+    chamber: lower
+  - name: Ralph Massullo
+    primary: false
+    party: R
+    chamber: lower
+  - name: Rick Roth
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-02-21"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-02-28"
+    description: Referred to Postsecondary Education & Workforce Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-02-28"
+    description: Referred to Higher Education Appropriations Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-02-28"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-02-28"
+    description: Now in Postsecondary Education & Workforce Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-07"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2023-03-09"
+    description: PCS added to Postsecondary Education & Workforce Subcommittee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-13"
+    description: Favorable with CS by Postsecondary Education & Workforce Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-03-15"
+    description: Reported out of Postsecondary Education & Workforce Subcommittee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-03-15"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2023-03-15"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-15"
+    description: 1st Reading (Committee Substitute 1)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2023-03-16"
+    description: 'Original reference removed: Higher Education Appropriations Subcommittee'
+    actor: lower
+    classification:
+      - other
+  - date: "2023-03-16"
+    description: Referred to Education & Employment Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-03-16"
+    description: Now in Education & Employment Committee
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-17"
+    description: PCS added to Education & Employment Committee agenda
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-19"
+    description: Favorable with CS by Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-04-20"
+    description: Reported out of Education & Employment Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-04-20"
+    description: Laid on Table under Rule 7.18(a)
+    actor: lower
+    classification:
+      - deferral
+  - date: "2023-04-20"
+    description: CS Filed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-20"
+    description: 1st Reading (Committee Substitute 2)
+    actor: lower
+    classification:
+      - reading-1
+      - substitution
+  - date: "2023-04-21"
+    description: Bill referred to House Calendar
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-04-21"
+    description: Added to Second Reading Calendar
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-02"
+    description: Laid on Table; companion bill(s) passed, see CS/HB 1035 (Ch. 2023-38), CS/CS/CS/SB 266
+      (Ch. 2023-82)
+    actor: lower
+    classification:
+      - deferral
+versions:
+  - note: Introduced
+    date: "2023-02-21"
+    url: https://www.flsenate.gov/Session/Bill/2023/999/BillText/Filed/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2023-03-15"
+    url: https://www.flsenate.gov/Session/Bill/2023/999/BillText/c1/PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2023-04-20"
+    url: https://www.flsenate.gov/Session/Bill/2023/999/BillText/c2/PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1716623
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2023/999
+    title: HB 999 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2023/999/BillText/c2/PDF
+    title: HB 999 text (Comm Sub)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

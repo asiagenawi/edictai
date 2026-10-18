@@ -1,0 +1,93 @@
+id: us-dc-2025-2026-b26-491
+jurisdiction: us-dc
+session: 2025-2026
+identifier: B26-0491
+title: Artificial Intelligence Literacy in Education Act of 2025
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - local-policy-requirement
+  - educator-training
+  - instructional-use
+summary: Requires each District local education agency serving grades 9-12 to adopt and implement an AI
+  literacy policy before the 2026-27 school year that introduces AI concepts, defines appropriate use
+  of AI in education, and evaluates AI tools; directs the Office of the State Superintendent of Education
+  to issue implementation guidance and require at least one AI professional development course per year
+  for educators.
+provisions:
+  - type: requires-local-ai-policy
+    description: Each LEA serving grades 9-12 must adopt and implement an AI literacy policy on student
+      and staff use and instruction.
+    citation:
+      source_url: https://lims.dccouncil.gov/downloads/LIMS/60772/Introduction/B26-0491-Introduction.pdf
+      locator: Sec. 3(a)
+      quote: each LEA serving students enrolled in grades 9-12 shall adopt and implement a model AI literacy
+        policy addressing appropriate use and instruction of artificial and generative intelligence by
+        students and staff for educational purposes.
+  - type: requires-ai-literacy-instruction
+    description: Each LEA policy must introduce AI concepts and define responsible use in education.
+    citation:
+      source_url: https://lims.dccouncil.gov/downloads/LIMS/60772/Introduction/B26-0491-Introduction.pdf
+      locator: Sec. 3(a)(1)-(2)
+      quote: (1) Introduce artificial and generative intelligence concepts; (2) Define appropriate and
+        responsible access and use of artificial and generative intelligence in an educational setting
+  - type: issues-model-policy
+    description: OSSE must issue guidance on implementing the required instruction and provide an educator
+      PD program.
+    citation:
+      source_url: https://lims.dccouncil.gov/downloads/LIMS/60772/Introduction/B26-0491-Introduction.pdf
+      locator: Sec. 3(b)(1)
+      quote: Issue guidance on how to implement the required instruction and provide a professional development
+        program in artificial and generative intelligence education for educators
+  - type: educator-pd-requirement
+    description: OSSE must require at least one AI professional development course per school year for
+      educators.
+    citation:
+      source_url: https://lims.dccouncil.gov/downloads/LIMS/60772/Introduction/B26-0491-Introduction.pdf
+      locator: Sec. 3(b)(2)
+      quote: Require at least one professional development course per school year for educators to gain
+        knowledge and skills to integrate artificial and generative AI into their teaching
+sponsors:
+  - name: Brooke Pinto
+    primary: true
+    party: D
+actions:
+  - date: "2025-11-17"
+    description: Introduced in Office of the Secretary
+    actor: legislature
+    classification:
+      - introduction
+  - date: "2025-11-21"
+    description: Notice of Intent to Act on B26-0491 Published in the DC Register
+    actor: legislature
+    classification:
+      - other
+  - date: "2025-12-02"
+    description: Referred to Committee on Committee of the Whole
+    actor: legislature
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-11-17"
+    url: https://lims.dccouncil.gov/downloads/LIMS/60772/Introduction/B26-0491-Introduction.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2053226
+sources:
+  - url: https://lims.dccouncil.gov/Legislation/B26-0491
+    title: B26-0491 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://lims.dccouncil.gov/downloads/LIMS/60772/Introduction/B26-0491-Introduction.pdf
+    title: B26-0491 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

@@ -1,0 +1,90 @@
+id: us-119-sres-158
+jurisdiction: us
+session: "119"
+identifier: S.Res. 158
+title: A resolution expressing the sense of the Senate that paraprofessionals and education support staff
+  should have fair compensation, benefits, and working conditions.
+classification: resolution
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+  - educator-training
+summary: Expresses the sense of the Senate that paraprofessionals and education support staff in schools
+  and public colleges should have fair compensation, benefits, and working conditions, including notice
+  of and input into the implementation of algorithms and artificial intelligence technology in their schools,
+  and professional development as new technologies are introduced.
+sponsors:
+  - name: Edward Markey
+    primary: true
+    party: D
+    chamber: upper
+  - name: Bernard Sanders
+    primary: false
+    party: I
+    chamber: upper
+  - name: Jeff Merkley
+    primary: false
+    party: D
+    chamber: upper
+  - name: Alex Padilla
+    primary: false
+    party: D
+    chamber: upper
+  - name: Cory Booker
+    primary: false
+    party: D
+    chamber: upper
+  - name: Martin Heinrich
+    primary: false
+    party: D
+    chamber: upper
+  - name: Elizabeth Warren
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ben Lujan
+    primary: false
+    party: D
+    chamber: upper
+  - name: Lisa Rochester
+    primary: false
+    party: D
+    chamber: upper
+  - name: Christopher Coons
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-04-07"
+    description: Submitted in Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: 'Referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S2457-2458)'
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-04-09"
+    url: https://www.congress.gov/119/bills/sres158/BILLS-119sres158is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2021715
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-resolution/158/all-info
+    title: S.Res. 158 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/sres158/BILLS-119sres158is.pdf
+    title: S.Res. 158 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

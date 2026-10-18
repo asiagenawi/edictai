@@ -1,0 +1,116 @@
+id: us-nc-2025-2026-s-619
+jurisdiction: us-nc
+session: 2025-2026
+identifier: S 619
+title: AI Academic Support Grant Program
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+  - research
+  - educator-training
+summary: Establishes a program allowing public school units to contract with Khan Academy for the AI tool
+  Khanmigo in grades 6-12, funded by average daily membership, with professional development, rostering
+  requirements and annual evaluations. Directs a Collaboratory study of Khanmigo's effectiveness, licenses
+  for juvenile justice schools, and annual reports, and states intent to appropriate about $10.06 million.
+provisions:
+  - type: appropriates-funding
+    description: Creates a program funding public school unit contracts for the Khanmigo AI tool in grades
+      6-12.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S619v1.pdf
+      locator: Sec. 1.(a), new G.S. 115C-650(a)
+      quote: There is established the AI Instructional Support Program (Program) to allow public school
+        units to contract with Khan Academy, Inc. (Khan Academy) for use of the academic support service
+        Khanmigo, in grades six through 12.
+  - type: creates-task-force
+    description: Directs a study of Khanmigo's effectiveness on student performance.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S619v1.pdf
+      locator: New G.S. 115C-650(f) (Study)
+      quote: The Office of Learning Research at the North Carolina Collaboratory (OLR) shall design and
+        conduct a study to measure the effectiveness of using Khanmigo, including any impact on student
+        performance and growth.
+sponsors:
+  - name: Michael Lee
+    primary: true
+    party: R
+    chamber: upper
+  - name: Brad Overcash
+    primary: true
+    party: R
+    chamber: upper
+  - name: Kevin Corbin
+    primary: true
+    party: R
+    chamber: upper
+  - name: Val Applewhite
+    primary: false
+    party: D
+    chamber: upper
+  - name: Woodson Bradley
+    primary: false
+    party: D
+    chamber: upper
+  - name: David Craven
+    primary: false
+    party: R
+    chamber: upper
+  - name: Timothy Moffitt
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-03-25"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-03-26"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2025-03-26"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2025-03-26"
+    description: Re-ref Com On Appropriations/Base Budget
+    actor: upper
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2025-03-25"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S619v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2025-03-26"
+    url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S619v1.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2014377
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2025/S619
+    title: S 619 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S619v1.pdf
+    title: S 619 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

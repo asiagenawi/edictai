@@ -1,0 +1,693 @@
+id: us-nc-2023-2024-h-259
+jurisdiction: us-nc
+session: 2023-2024
+identifier: H 259
+title: 2023 Appropriations Act
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - funding
+summary: The 2023 Current Operations Appropriations Act includes a provision directing the Department
+  of Public Instruction to allocate $3.2 million to New Hanover County Schools and $2 million to Davidson
+  County Schools for an AI School Safety Pilot Program integrating AI technology into school safety systems,
+  with a report to the Joint Legislative Education Oversight Committee.
+provisions:
+  - type: appropriates-funding
+    description: Directs grants to two school districts for an AI School Safety Pilot Program.
+    citation:
+      source_url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v7.pdf
+      locator: Sec. 7.36.(h)(1)
+      quote: Funds allocated for the Pilot Program shall be used for the implementation of a school safety
+        system that integrates AI technology into existing access controls, alerting protocols, and intercom
+        systems.
+sponsors:
+  - name: Donny Lambeth
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jason Saine
+    primary: true
+    party: R
+    chamber: lower
+  - name: Dean Arp
+    primary: true
+    party: R
+    chamber: lower
+  - name: James Adams
+    primary: false
+    party: R
+    chamber: lower
+  - name: William Brisson
+    primary: false
+    party: R
+    chamber: lower
+  - name: Mike Clampitt
+    primary: false
+    party: R
+    chamber: lower
+  - name: John Faircloth
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kyle Hall
+    primary: false
+    party: R
+    chamber: lower
+  - name: Chris Humphrey
+    primary: false
+    party: R
+    chamber: lower
+  - name: Larry Strickland
+    primary: false
+    party: R
+    chamber: lower
+  - name: Bill Ward
+    primary: false
+    party: R
+    chamber: lower
+  - name: David Willis
+    primary: false
+    party: R
+    chamber: lower
+actions:
+  - date: "2023-03-02"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2023-03-06"
+    description: Passed 1st Reading
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2023-03-06"
+    description: Ref to the Com on Appropriations, if favorable, Rules, Calendar, and Operations of the
+      House
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-04-03"
+    description: Reptd Fav Com Substitute
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-03"
+    description: Ruled Material
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-03"
+    description: Serial Referral To Rules, Calendar, and Operations of the House Stricken
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2023-04-03"
+    description: Re-ref to the Com on Finance, if favorable, Pensions and Retirement
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-04"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-04"
+    description: Re-ref Com On Pensions and Retirement
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-04"
+    description: Reptd Fav
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-04"
+    description: Cal Pursuant Rule 36(b)
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-04"
+    description: Placed On Cal For 04/05/2023
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Adopted A1
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Adopted A2
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Adopted A3
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Failed A4
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Failed A5
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Adopted A6
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Failed A7
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Adopted A8
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Adopted A9
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Failed A10
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Failed A11
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Adopted A12
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Adopted A13
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Failed A14
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Adopted A15
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Amend Failed A16
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Failed A17
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Failed A18
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Failed A19
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Failed A20
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Failed A21
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-05"
+    description: Amend Adopted A22
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-05"
+    description: Passed 2nd Reading
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2023-04-06"
+    description: Amend Failed A23
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-06"
+    description: Amend Adopted A24
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-06"
+    description: Amend Adopted A25
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-06"
+    description: Amend Adopted A26
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-06"
+    description: Amend Adopted A27
+    actor: lower
+    classification:
+      - passage
+  - date: "2023-04-06"
+    description: Passed 3rd Reading
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2023-04-06"
+    description: Ordered Engrossed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-10"
+    description: Regular Message Sent To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2023-04-10"
+    description: Regular Message Received From House
+    actor: upper
+    classification:
+      - other
+  - date: "2023-04-10"
+    description: Passed 1st Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2023-04-10"
+    description: Ref To Com On Rules and Operations of the Senate
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2023-05-11"
+    description: Withdrawn From Com
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-11"
+    description: Re-ref to Appropriations/Base Budget. If fav, re-ref to Finance. If fav, re-ref to Pensions
+      and Retirement and Aging
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2023-05-16"
+    description: Reptd Fav Com Sub with Unengrossed Amend
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-16"
+    description: Com Amend Adopted A1
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-16"
+    description: Com Amend Adopted A2
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-16"
+    description: Re-ref Com On Finance
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-16"
+    description: Reptd Fav Com Sub with Unengrossed Amend
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-16"
+    description: Com Amend Adopted A3
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-16"
+    description: Re-ref Com On Pensions and Retirement and Aging
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-16"
+    description: Reptd Fav Com Substitute
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-16"
+    description: Com Substitute Adopted
+    actor: upper
+    classification:
+      - substitution
+  - date: "2023-05-17"
+    description: Amend Adopted A1
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amendment Withdrawn A2
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Adopted A4
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A3
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Adopted A6
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A5
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Failed A7
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Adopted A9
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A8
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Adopted A11
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A10
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Adopted A13
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A12
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Adopted A15
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A14
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Tabled A16
+    actor: upper
+    classification:
+      - deferral
+  - date: "2023-05-17"
+    description: Amend Adopted A18
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A17
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Tabled A19
+    actor: upper
+    classification:
+      - deferral
+  - date: "2023-05-17"
+    description: Amend Tabled A20
+    actor: upper
+    classification:
+      - deferral
+  - date: "2023-05-17"
+    description: Amendment Withdrawn A21
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Tabled A22
+    actor: upper
+    classification:
+      - deferral
+  - date: "2023-05-17"
+    description: Amend Adopted A24
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A23
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Tabled A25
+    actor: upper
+    classification:
+      - deferral
+  - date: "2023-05-17"
+    description: Amend Adopted A27
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A26
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Amend Tabled A28
+    actor: upper
+    classification:
+      - deferral
+  - date: "2023-05-17"
+    description: Amend Adopted A30
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-05-17"
+    description: Amend Failed A29
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-17"
+    description: Passed 2nd Reading
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2023-05-18"
+    description: Passed 3rd Reading
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2023-05-18"
+    description: Engrossed
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-22"
+    description: Regular Message Sent To House
+    actor: upper
+    classification:
+      - other
+  - date: "2023-05-22"
+    description: Regular Message Received For Concurrence in S Com Sub
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-23"
+    description: Ruled Material
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-23"
+    description: Cal Pursuant 36(b)
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-23"
+    description: Placed On Cal For 05/24/2023
+    actor: lower
+    classification:
+      - other
+  - date: "2023-05-24"
+    description: Failed Concur In S Com Sub
+    actor: lower
+    classification:
+      - failure
+  - date: "2023-06-01"
+    description: Conf Com Appointed
+    actor: lower
+    classification:
+      - other
+  - date: "2023-06-05"
+    description: Conf Com Appointed
+    actor: upper
+    classification:
+      - other
+  - date: "2023-09-20"
+    description: Conf Com Reported
+    actor: upper
+    classification:
+      - other
+  - date: "2023-09-20"
+    description: Held As Material
+    actor: upper
+    classification:
+      - other
+  - date: "2023-09-20"
+    description: Placed On Cal For 09/21/2023
+    actor: upper
+    classification:
+      - other
+  - date: "2023-09-20"
+    description: Conf Com Reported
+    actor: lower
+    classification:
+      - other
+  - date: "2023-09-20"
+    description: Ruled Material
+    actor: lower
+    classification:
+      - other
+  - date: "2023-09-20"
+    description: Placed On Cal For 09/21/2023
+    actor: lower
+    classification:
+      - other
+  - date: "2023-09-21"
+    description: Conf Report Adopted 2nd
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-09-21"
+    description: Conf Report Passed 2nd
+    actor: upper
+    classification:
+      - passage
+  - date: "2023-09-22"
+    description: Conf Report Adopted 3rd
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2023-09-22"
+    description: Conf Report Adopted 3rd
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2023-09-22"
+    description: Ordered Enrolled
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2023-09-22"
+    description: Ratified
+    actor: legislature
+    classification:
+      - other
+  - date: "2023-09-22"
+    description: Pres. To Gov. 9/22/2023
+    actor: legislature
+    classification:
+      - other
+  - date: "2023-10-03"
+    description: Became Law W/o Signature
+    actor: executive
+    classification:
+      - became-law
+  - date: "2023-10-03"
+    description: Ch. SL 2023-134
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Introduced
+    date: "2023-03-02"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v0.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-03-06"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v1.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-04-03"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v2.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-04-06"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v3.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-05-16"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v4.pdf
+    media_type: application/pdf
+  - note: Amended
+    date: "2023-05-18"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v5.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2023-09-22"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v6.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2023-10-03"
+    url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v7.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1725195
+sources:
+  - url: https://www.ncleg.gov/BillLookUp/2023/H259
+    title: H 259 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H259v7.pdf
+    title: H 259 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

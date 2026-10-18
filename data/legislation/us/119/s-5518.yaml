@@ -1,0 +1,80 @@
+id: us-119-s-5518
+jurisdiction: us
+session: "119"
+identifier: S. 5518
+title: Make AI Work for Americans Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - instructional-use
+  - academic-integrity
+  - student-privacy
+  - local-policy-requirement
+  - funding
+summary: Establishes an Artificial Intelligence Horizon Fund, with amounts transferable to the Department
+  of Education for grants including foundational AI literacy. Directs the Secretary of Education to create
+  a national clearinghouse for AI education that disseminates instructional resources, voluntary model
+  AI literacy curricula, and model guidance on classroom AI use, academic integrity, student privacy,
+  and related topics.
+provisions:
+  - type: appropriates-funding
+    description: Fund amounts may be transferred to the Department of Education for grants including foundational
+      literacy related to AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5518/BILLS-119s5518is.pdf
+      locator: Sec. 101
+      quote: of Education for grants related to career and technical education, STEM education, higher
+        education programs, educator preparation programs, digital infrastructure, data interoperability,
+        foundational literacy as it relates to artificial intelligence
+  - type: issues-model-policy
+    description: The clearinghouse must disseminate model guidance on classroom use of AI, academic integrity,
+      student privacy, and related topics.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5518/BILLS-119s5518is.pdf
+      locator: Sec. 703(b)(4)
+      quote: identify and disseminate model guidance regarding— (A) classroom use of artificial intelligence;
+  - type: issues-model-policy
+    description: The clearinghouse must disseminate voluntary model curricula for age-appropriate AI literacy.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5518/BILLS-119s5518is.pdf
+      locator: Sec. 703(b)(3)
+      quote: disseminate voluntary model curricula for age-appropriate artificial intelligence literacy
+        across grades;
+sponsors:
+  - name: Mark Kelly
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-09-24"
+    description: Read twice and referred to the Committee on Finance.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-10-06"
+    url: https://www.congress.gov/119/bills/s5518/BILLS-119s5518is.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2159209
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/5518/all-info
+    title: S. 5518 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/s5518/BILLS-119s5518is.pdf
+    title: S. 5518 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

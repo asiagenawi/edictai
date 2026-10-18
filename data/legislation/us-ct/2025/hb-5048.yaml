@@ -1,0 +1,55 @@
+id: us-ct-2025-hb-5048
+jurisdiction: us-ct
+session: "2025"
+identifier: HB 5048
+title: An Act Requiring A Study Of The Effect Of Artificial Intelligence On The Trades Industry.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - task-force
+  - workforce
+summary: Proposes a study of the effect of artificial intelligence on trade workers, including job displacement
+  and the curriculum of the Technical Education and Career System.
+provisions:
+  - type: creates-task-force
+    description: Requires a study of AI's effect on trade workers that covers the Technical Education
+      and Career System curriculum.
+    citation:
+      source_url: https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-05048-R00-HB.PDF
+      locator: Proposed bill text
+      quote: job displacement and the curriculum of the Technical 3 Education and Career System
+sponsors:
+  - name: Brian Lanoue
+    primary: true
+    party: R
+    chamber: lower
+actions:
+  - date: "2025-01-08"
+    description: Referred to Joint Committee on Labor and Public Employees
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-01-07"
+    url: https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-05048-R00-HB.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1905159
+sources:
+  - url: https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB05048&which_year=2025
+    title: HB 5048 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-05048-R00-HB.PDF
+    title: HB 5048 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

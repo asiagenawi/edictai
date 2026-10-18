@@ -1,0 +1,95 @@
+id: us-ny-2025-2026-s-7892
+jurisdiction: us-ny
+session: 2025-2026
+identifier: S 7892
+title: Directs the commissioner of education to make recommendations to the board of regents regarding
+  the incorporation of instruction in artificial intelligence system literacy into the school curriculum
+  at the elementary, junior high and senior high levels; directs the board of regents to adopt guidelines
+  if the curriculum is adopted.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+summary: Directs the commissioner of education to recommend to the board of regents whether to add AI
+  literacy content to the curriculum at each elementary and secondary grade level, requires the regents
+  to vote on it, and, if adopted, requires guidelines on grade-level content, integration into subjects,
+  teacher professional development resources, and assessment of student AI literacy.
+provisions:
+  - type: ai-in-standards
+    description: Directs the commissioner to recommend incorporating AI literacy content into the curriculum
+      at each grade level, covering AI concepts, evaluation of AI output, limitations, ethics, and safe
+      use.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07892&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07892A
+      locator: Sec. 2, new Education Law 305(33)(a)
+      quote: The commissioner shall make recommendations to the board of regents relating to the incorporation
+        of artificial intelligence system literacy content into the curriculum at each grade level in
+        elementary schools, junior high schools, and senior high schools.
+  - type: educator-pd-requirement
+    description: If the curriculum is adopted, the regents must develop guidelines that include professional
+      development resources for teachers.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07892&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07892A
+      locator: Sec. 2, new Education Law 305(33)(d)
+      quote: (ii) integration of AI literacy into existing subject areas; (iii) professional development
+        resources for teachers; and (iv) assessment of student AI literacy competencies.
+sponsors:
+  - name: Kristen Gonzalez
+    primary: true
+    party: D
+    chamber: upper
+  - name: Kevin Parker
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2025-05-13"
+    description: REFERRED TO EDUCATION
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+  - date: "2025-08-27"
+    description: AMEND AND RECOMMIT TO EDUCATION
+    actor: upper
+    classification:
+      - other
+  - date: "2025-08-27"
+    description: PRINT NUMBER 7892A
+    actor: upper
+    classification:
+      - other
+  - date: "2026-01-07"
+    description: REFERRED TO EDUCATION
+    actor: upper
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2025-05-13"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07892&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07892
+    media_type: text/html
+  - note: Amended
+    date: "2025-05-13"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07892&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07892A
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2030765
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/S7892
+    title: S 7892 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=S07892&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S07892A
+    title: S 7892 text (Amended)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

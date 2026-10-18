@@ -140,7 +140,11 @@ def check_full(
     store: TextStore,
     expected: list[str] | None = None,
 ) -> CheckReport:
-    """Schema, vocabulary, summary, locator, and verbatim-quote checks."""
+    """Schema, vocabulary, summary, locator, and verbatim-quote checks.
+
+    A quote is verified when it is found in any stored version of the bill:
+    the latest, or the earlier version fetched for amended-out AI language.
+    """
     report = CheckReport("full")
     validator = Draft202012Validator(full_schema(vocab))
     ptypes = {p["code"]: p for p in vocab.provision_types}
@@ -152,8 +156,10 @@ def check_full(
         reasons = row.get("reasons") or ""
         if words(reasons) > FULL_REASON_WORDS:
             c.errors.append(f"reasons has {words(reasons)} words; the limit is {FULL_REASON_WORDS}")
-        meta, text = store.for_key(c.key)
-        c.text_available = text is not None
+        meta, _ = store.for_key(c.key)
+        # A quote may come from the latest version or the earlier one stored beside it.
+        texts = [t for _, t in store.texts_for_key(c.key)]
+        c.text_available = bool(texts)
         if not row["in_scope"]:
             continue
         summary = row.get("summary") or ""
@@ -186,10 +192,10 @@ def check_full(
             if "..." in quote or "\u2026" in quote:
                 c.errors.append(f"provisions/{i}: quote contains an ellipsis")
                 c.quote_failures.append(i)
-            elif text is None:
+            elif not texts:
                 c.quote_failures.append(i)
                 c.errors.append(f"provisions/{i}: no stored text to verify the quote against")
-            elif not quote_in_text(quote, text):
+            elif not any(quote_in_text(quote, t) for t in texts):
                 c.quote_failures.append(i)
                 c.errors.append(f"provisions/{i}: quote not found verbatim in the stored text")
         if meta is None:

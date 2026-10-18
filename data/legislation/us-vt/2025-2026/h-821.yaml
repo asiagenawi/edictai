@@ -1,0 +1,107 @@
+id: us-vt-2025-2026-h-821
+jurisdiction: us-vt
+session: 2025-2026
+identifier: H 821
+title: An act relating to artificial intelligence
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - task-force
+summary: Adds members to the Artificial Intelligence Advisory Council, including a public education representative,
+  extends the Council to 2030, and directs it to review professional guidance and report on ways government
+  can promote ethical and responsible use of artificial intelligence in health and human services and
+  in education. Also requires disclosure of generative AI use to consumers.
+provisions:
+  - type: creates-task-force
+    description: The AI Advisory Council must review guidance on AI use in education and report on promoting
+      ethical and responsible AI use in education.
+    citation:
+      source_url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0821/H-0821%20As%20Introduced.pdf
+      locator: Sec. 2(b)(1)
+      quote: summarizes ways that government can promote the ethical and responsible use of artificial
+        intelligence technology in health and human services and in education
+sponsors:
+  - name: Brian Cina
+    primary: true
+    party: D
+    chamber: lower
+  - name: Angela Arsenault
+    primary: false
+    party: D
+    chamber: lower
+  - name: Elizabeth Burrows
+    primary: false
+    party: D
+    chamber: lower
+  - name: Wendy Critchlow
+    primary: false
+    party: D
+    chamber: lower
+  - name: Gina Galfetti
+    primary: false
+    party: R
+    chamber: lower
+  - name: Kate Logan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jubilee McGill
+    primary: false
+    party: D
+    chamber: lower
+  - name: Woodman Page
+    primary: false
+    party: R
+    chamber: lower
+  - name: Phil Pouech
+    primary: false
+    party: D
+    chamber: lower
+  - name: Monique Priestley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Barbara Rachelson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Laura Sibilia
+    primary: false
+    party: I
+    chamber: lower
+  - name: Chloe Tomlinson
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-29"
+    description: Read first time and referred to the Committee on Commerce and Economic Development
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-01-29"
+    url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0821/H-0821%20As%20Introduced.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2101287
+sources:
+  - url: https://legislature.vermont.gov/bill/status/2026/H.821
+    title: H 821 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0821/H-0821%20As%20Introduced.pdf
+    title: H 821 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

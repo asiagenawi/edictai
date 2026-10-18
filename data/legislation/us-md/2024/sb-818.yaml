@@ -1,0 +1,248 @@
+id: us-md-2024-sb-818
+jurisdiction: us-md
+session: "2024"
+identifier: SB 818
+title: Information Technology - Artificial Intelligence - Policies and Procedures (Artificial Intelligence
+  Governance Act of 2024)
+classification: bill
+education_levels:
+  - postsecondary
+  - k12
+topics:
+  - local-policy-requirement
+  - institutional-operations
+  - task-force
+summary: Artificial Intelligence Governance Act requiring state units to inventory and assess AI systems
+  and follow state high-risk AI policies. Requires public senior higher education institutions and Baltimore
+  City Community College to adopt compatible policies, including for high-risk AI used for research or
+  academic purposes, and to report on such AI annually. Directs the AI Subcabinet to study AI use in local
+  school systems.
+provisions:
+  - type: requires-local-ai-policy
+    description: Public senior higher education institutions and Baltimore City Community College must
+      adopt policies compatible with state high-risk AI policies.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_496_sb0818e.pdf
+      locator: Sec. 1, new Subtitle 8, applicability (B)(3)
+      quote: EACH PUBLIC SENIOR HIGHER EDUCATION INSTITUTION AND BALTIMORE CITY COMMUNITY COLLEGE SHALL
+        ESTABLISH POLICIES AND PROCEDURES THAT ARE FUNCTIONALLY COMPATIBLE WITH THE POLICIES AND PROCEDURES
+        ADOPTED UNDER § 3.5–804(A) OF THIS SUBTITLE
+  - type: creates-task-force
+    description: The AI Subcabinet must study AI use in local school systems and recommend responsible
+      use.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_496_sb0818e.pdf
+      locator: Sec. 2(11)
+      quote: use of artificial intelligence in local school systems, including recommendations to the
+        State on the responsible and productive use of artificial intelligence
+sponsors:
+  - name: Katie Hester
+    primary: true
+    party: D
+    chamber: upper
+  - name: Dawn Gile
+    primary: false
+    party: D
+    chamber: upper
+  - name: Malcolm Augustine
+    primary: false
+    party: D
+    chamber: upper
+  - name: Sarah Elfreth
+    primary: false
+    party: D
+    chamber: upper
+  - name: Arthur Ellis
+    primary: false
+    party: D
+    chamber: upper
+  - name: Brian Feldman
+    primary: false
+    party: D
+    chamber: upper
+  - name: William Ferguson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Michael Jackson
+    primary: false
+    party: D
+    chamber: upper
+  - name: Clarence Lam
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jim Rosapepe
+    primary: false
+    party: D
+    chamber: upper
+  - name: William Smith
+    primary: false
+    party: D
+    chamber: upper
+  - name: Jeff Waldstreicher
+    primary: false
+    party: D
+    chamber: upper
+  - name: Chris West
+    primary: false
+    party: R
+    chamber: upper
+  - name: Craig Zucker
+    primary: false
+    party: D
+    chamber: upper
+  - name: Benjamin Brooks
+    primary: false
+    party: D
+    chamber: upper
+  - name: Karen Lewis Young
+    primary: false
+    party: D
+    chamber: upper
+  - name: Bryan Simonaire
+    primary: false
+    party: R
+    chamber: upper
+  - name: Mary Washington
+    primary: false
+    party: D
+    chamber: upper
+  - name: Ron Watson
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2024-02-02"
+    description: First Reading Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - reading-1
+      - introduction
+      - referral-committee
+  - date: "2024-02-06"
+    description: Hearing 3/07 at 1:00 p.m.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-03-14"
+    description: Favorable with Amendments Report by Education, Energy, and the Environment
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-14"
+    description: Favorable with Amendments {523823/1 Adopted
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2024-03-14"
+    description: Second Reading Passed with Amendments
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2024-03-15"
+    description: Third Reading Passed (45-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-03-19"
+    description: Referred Health and Government Operations
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-03-19"
+    description: Hearing 3/26 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Hearing canceled
+    actor: lower
+    classification:
+      - other
+  - date: "2024-03-20"
+    description: Hearing 3/28 at 1:00 p.m.
+    actor: lower
+    classification:
+      - other
+  - date: "2024-04-04"
+    description: Favorable with Amendments Report by Health and Government Operations
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-04"
+    description: Favorable with Amendments {253228/1 Adopted
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2024-04-04"
+    description: Second Reading Passed with Amendments
+    actor: lower
+    classification:
+      - reading-2
+  - date: "2024-04-04"
+    description: Third Reading Passed (136-0)
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-05"
+    description: Senate Concurs House Amendments
+    actor: upper
+    classification:
+      - other
+  - date: "2024-04-05"
+    description: Third Reading Passed (45-0)
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2024-04-05"
+    description: Passed Enrolled
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2024-05-09"
+    description: Approved by the Governor - Chapter 496
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2024-02-02"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0818f.pdf
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2024-03-15"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0818t.pdf
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2024-04-09"
+    url: https://mgaleg.maryland.gov/2024RS/bills/sb/sb0818e.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2024-05-15"
+    url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_496_sb0818e.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1835739
+sources:
+  - url: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0818?ys=2024RS
+    title: SB 818 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_496_sb0818e.pdf
+    title: SB 818 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

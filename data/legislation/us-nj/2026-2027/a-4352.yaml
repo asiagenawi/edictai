@@ -1,0 +1,86 @@
+id: us-nj-2026-2027-a-4352
+jurisdiction: us-nj
+session: 2026-2027
+identifier: A 4352
+title: Requires school districts to provide instruction on artificial intelligence; requires Secretary
+  of Higher Education to develop artificial intelligence model curricula.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - workforce
+summary: Requires school districts to include instruction on artificial intelligence in the K-12 curriculum
+  as part of the computer science and design thinking standards, with sample resources from the Commissioner
+  of Education. Requires each public institution of higher education to offer AI certificate and degree
+  programs and directs the Secretary of Higher Education to develop AI model curricula for four-year institutions
+  and county colleges.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: District AI instruction must cover general AI concepts, foundational user skills, and
+      responsible and ethical use.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A4500/4352_I1.HTM
+      locator: Sec. 1(c)
+      quote: 'The instruction shall include, at a minimum, information on: (1) general concepts of artificial
+        intelligence; (2) foundational skills required to become artificial intelligence users; and (3)
+        best practices to ensure the responsible, appropriate, and ethical use of artificial intelligence.'
+  - type: ai-workforce-program
+    description: Each public institution of higher education must offer certificate and degree programs
+      in AI.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A4500/4352_I1.HTM
+      locator: Sec. 2(a)
+      quote: Each public institution of higher education shall offer certificate and degree programs in
+        artificial intelligence.
+  - type: ai-workforce-program
+    description: The Secretary of Higher Education must develop AI model curricula for public four-year
+      institutions and county colleges.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://pub.njleg.gov/Bills/2026/A4500/4352_I1.HTM
+      locator: Sec. 2(b)
+      quote: shall develop an artificial intelligence model curriculum for use by public four-year institutions
+        of higher education in the State and an artificial intelligence model curriculum for use by county
+        colleges in the State.
+sponsors:
+  - name: Shanique Speight
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-02-19"
+    description: Introduced, Referred to Assembly Science, Innovation and Technology Committee
+    actor: lower
+    classification:
+      - introduction
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-20"
+    url: https://pub.njleg.gov/Bills/2026/A4500/4352_I1.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2116148
+sources:
+  - url: https://www.njleg.state.nj.us/bill-search/2026/A4352
+    title: A 4352 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://pub.njleg.gov/Bills/2026/A4500/4352_I1.HTM
+    title: A 4352 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

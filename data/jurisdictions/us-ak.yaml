@@ -5,3 +5,20 @@ abbreviation: AK
 classification: state
 fips: "02"
 region: West
+sessions:
+  - identifier: "2023-2024"
+    name: 33rd Legislature
+    classification: primary
+    start_date: "2023-01-17"
+    legiscan_session_id: 2015
+    sources:
+      - url: "https://v3.openstates.org/jurisdictions/ocd-jurisdiction/country:us/state:ak/government?include=legislative_sessions"
+        title: Open States API, Alaska legislative sessions
+        publisher: Open States
+        kind: secondary
+        accessed: "2026-10-18"
+  - identifier: "2025-2026"
+    name: 34th Legislature
+    classification: primary
+    start_date: "2025-01-21"
+    legiscan_session_id: 2171

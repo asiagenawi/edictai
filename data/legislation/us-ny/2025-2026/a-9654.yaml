@@ -1,0 +1,73 @@
+id: us-ny-2025-2026-a-9654
+jurisdiction: us-ny
+session: 2025-2026
+identifier: A 9654
+title: Enacts the New York Artificial Intelligence Civil Rights Act establishing protections for individual
+  rights with respect to computational algorithms; establishes protections against the use of algorithms
+  involved in consequential decisions, such as those that impact people's rights, civil liberties, and
+  livelihoods, including employment, banking, health care, the criminal justice system, public accommodations,
+  and government services; prohibits developers and deployers from offering, licensing, or using covered
+  algorithms that discriminate based on protected characteristics or that cause a disparate impact; requires
+  developers and deployers of covered algorithms to complete independently audited pre-deployment evaluations
+  and post-deployment impact assessments to identify, evaluate, and mitigate any potential biased use
+  or discriminatory outcomes; requires developers and deployers to mitigate any harms identified by the
+  pre-deployment evaluations and impact assessments and ensure that any covered algorithm performs reasonably
+  well and is consistent with its publicly-advertised purpose; increases transparency around the use of
+  covered algorithms in consequential decisions, including providing individuals a right to appeal an
+  algorithmic decision to a human decision-maker; provides remedies for violations.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - equity-access
+  - assessment
+  - admissions
+summary: Enacts the New York Artificial Intelligence Civil Rights Act, which bars developers and deployers
+  from using covered algorithms that discriminate or cause a disparate impact and requires pre-deployment
+  evaluations and annual impact assessments. Covered consequential actions include education decisions
+  such as assessment, proctoring, admissions, enrollment, discipline, and financial aid.
+provisions:
+  - type: bias-or-equity-requirement
+    description: Defines consequential actions to include education decisions, bringing algorithms used
+      in those decisions under the act's evaluation and anti-discrimination duties.
+    citation:
+      source_url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09654&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09654
+      locator: § 101(3)(b)
+      quote: (b) education and career and technical education, including assessment, proctoring, promotion
+        of academic integrity, accreditation, certification, admissions, enrollment, disciplinary actions
+        including suspension, expulsion, or referral to law enforcement
+sponsors:
+  - name: Michaelle Solages
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-21"
+    description: referred to science and technology
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-01-21"
+    url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09654&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09654
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2089190
+sources:
+  - url: https://www.nysenate.gov/legislation/bills/2025/A9654
+    title: A 9654 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://assembly.state.ny.us/leg/?default_fld=&bn=A09654&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09654
+    title: A 9654 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

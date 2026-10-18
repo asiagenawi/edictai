@@ -1,0 +1,177 @@
+id: us-ar-2025-hb-1958
+jurisdiction: us-ar
+session: "2025"
+identifier: HB 1958
+title: To Require Public Entities To Create A Policy Concerning The Authorized Use Of Artificial Intelligence.
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - local-policy-requirement
+  - institutional-operations
+  - educator-training
+summary: Requires public entities, defined to include public school districts, open-enrollment charter
+  schools, and institutions of higher education, to create an artificial intelligence and automated decision
+  tool policy that defines authorized use and requires a human to make final decisions, and to train employees
+  on it. Directs the Department of Education to develop AI policies for each type of state educational
+  institution.
+provisions:
+  - type: requires-local-ai-policy
+    description: Each public entity, including school districts and institutions of higher education,
+      must create a policy defining authorized use of AI and automated decision tools.
+    citation:
+      source_url: https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=848.pdf&ddBienniumSession=2025%2F2025R
+      locator: Section 1, 25-1-128(b)(3)
+      quote: 'Create an artificial intelligence and automated decision tool policy that: (A) Defines the
+        authorized use of artificial intelligence and automated decision tools for the public entity'
+  - type: issues-model-policy
+    description: The Department of Education must develop AI and automated decision tool policies to be
+      used by each type of state educational institution.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=848.pdf&ddBienniumSession=2025%2F2025R
+      locator: Section 1, 25-1-128(c)(2)(A)
+      quote: Develop technology resources and artificial intelligence and automated decision tool policies
+        that shall be used by each type of state educational institution
+  - type: educator-pd-requirement
+    description: Public entities must train all employees on the AI and automated decision tool policy.
+    citation:
+      source_url: https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=848.pdf&ddBienniumSession=2025%2F2025R
+      locator: Section 1, 25-1-128(b)(4)
+      quote: including training on the appropriate use of artificial intelligence and automated decision
+        tools in deciding an outcome in the course of an employee's employment
+sponsors:
+  - name: Stephen Meeks
+    primary: true
+    party: R
+    chamber: lower
+  - name: Jane English
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-04-01"
+    description: Filed
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-04-01"
+    description: Read the first time, rules suspended, read the second time and referred to the Committee
+      on ADVANCED COMMUNICATIONS AND INFORMATION TECHNOLOGY - HOUSE
+    actor: lower
+    classification:
+      - reading-1
+      - reading-2
+      - referral-committee
+  - date: "2025-04-03"
+    description: Returned by the Committee Do Pass
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2025-04-07"
+    description: Read the third time and passed and ordered transmitted to the Senate.
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-07"
+    description: Received from the House.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Read first time, rules suspended, read second time, referred to STATE AGENCIES & GOVT'L
+      AFFAIRS-SENATE
+    actor: upper
+    classification:
+      - reading-1
+      - reading-2
+      - referral-committee
+  - date: "2025-04-08"
+    description: 'Returned by the Committee with the recommendation that it Do Pass as amended, Amendment
+      # 1'
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-04-09"
+    description: Placed on second reading for purpose of amendment.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-09"
+    description: 'Amendment # 1 read the first time, rules suspended, read the second time and adopted,
+      ordered engrossed.'
+    actor: upper
+    classification:
+      - reading-1
+      - reading-2
+      - amendment-passage
+  - date: "2025-04-09"
+    description: REPORTED CORRECTLY ENGROSSED
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-10"
+    description: Read the third time and passed.
+    actor: upper
+    classification:
+      - reading-3
+      - passage
+  - date: "2025-04-10"
+    description: 'Returned to the House as passed as amended # 1 .'
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-04-10"
+    description: 'Returned from Senate as passed, as amended # 1'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-04-14"
+    description: 'Senate amendment # 1 read and concurred in.'
+    actor: lower
+    classification:
+      - passage
+  - date: "2025-04-14"
+    description: TO BE ENROLLED
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2025-04-15"
+    description: Correctly enrolled and ordered transmitted to the Governor's Office.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2025-04-17"
+    description: Notification that HB1958 is now Act 848
+    actor: executive
+    classification:
+      - became-law
+versions:
+  - note: Draft
+    date: "2025-04-01"
+    url: https://arkleg.state.ar.us/Home/FTPDocument?path=%2FBills%2F2025R%2FPublic%2FHB1958.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2025-04-21"
+    url: https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=848.pdf&ddBienniumSession=2025%2F2025R
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2018186
+sources:
+  - url: https://arkleg.state.ar.us/Bills/Detail?id=hb1958&ddBienniumSession=2025%2F2025R
+    title: HB 1958 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=848.pdf&ddBienniumSession=2025%2F2025R
+    title: HB 1958 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

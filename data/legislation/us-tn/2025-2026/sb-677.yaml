@@ -1,0 +1,240 @@
+id: us-tn-2025-2026-sb-677
+jurisdiction: us-tn
+session: 2025-2026
+identifier: SB 677
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to artificial intelligence.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - educator-training
+summary: Requires the Department of Education to provide at least one free asynchronous professional development
+  course on the use of artificial intelligence in the classroom for teachers in grades 6-12. Requires
+  those teachers to complete such a course by August 1, 2028, or within two years of becoming licensed,
+  and requires LEAs and public charter schools to award professional development points for it.
+provisions:
+  - type: educator-pd-requirement
+    description: The department must offer a free asynchronous professional development course on classroom
+      use of AI for grades 6-12 teachers.
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf
+      locator: Section 1(a)
+      quote: The department shall provide at least one (1) professional development course for teachers
+        that provides asynchronous instruction on the use of artificial intelligence in the classroom
+  - type: educator-pd-requirement
+    description: Teachers in grades 6-12 must complete a department-approved AI course by August 1, 2028,
+      or within two years of licensure.
+    citation:
+      source_url: https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf
+      locator: Section 1(b)
+      quote: By August 1, 2028, or within two (2) years of becoming licensed as a teacher in this state,
+        whichever is later, teachers in grades six through twelve (6-12) must complete at least one (1)
+        professional development course approved by the department
+sponsors:
+  - name: Dawn White
+    primary: true
+    party: R
+    chamber: upper
+  - name: Raumesh Akbari
+    primary: false
+    party: D
+    chamber: upper
+  - name: London Lamar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bo Watson
+    primary: false
+    party: R
+    chamber: upper
+  - name: Paul Rose
+    primary: false
+    party: R
+    chamber: upper
+  - name: Jessie Seal
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2025-01-31"
+    description: Filed for introduction
+    actor: upper
+    classification:
+      - introduction
+  - date: "2025-02-10"
+    description: Introduced, Passed on First Consideration
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-12"
+    description: Passed on Second Consideration, refer to Senate Education Committee
+    actor: upper
+    classification:
+      - passage
+  - date: "2025-02-12"
+    description: Placed on Senate Education Committee calendar for 2/19/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-14"
+    description: Placed on Senate Education Committee calendar for 2/19/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-02-19"
+    description: Recommended for passage, refer to Senate Finance, Ways, and Means Committee
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2025-02-20"
+    description: Sponsor(s) Added.
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-14"
+    description: 'Rule #83(8) Suspended, to be heard in Senate Finance, Ways & Means Committee on 4/15/2025'
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-14"
+    description: Placed on Senate Finance, Ways, and Means Committee calendar for 4/15/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2025-04-17"
+    description: Placed on Senate Finance, Ways, and Means Committee calendar for 4/21/2025
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-10"
+    description: Placed on Senate Finance, Ways, and Means Committee calendar for 3/17/2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-17"
+    description: Action deferred in Senate Finance, Ways, and Means Committee to 3/24/2026
+    actor: upper
+    classification:
+      - deferral
+  - date: "2026-03-17"
+    description: Placed on Senate Finance, Ways, and Means Committee calendar for 3/24/2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-03-24"
+    description: Recommended for passage with amendment/s, refer to Senate Calendar Committee Ayes 11,
+      Nays 0 PNV 0
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-03-24"
+    description: Sponsor(s) Added.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Placed on Senate Regular Calendar for 4/6/2026
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-06"
+    description: Senate adopted Amendment (Amendment 1 - SA0837)
+    actor: upper
+    classification:
+      - amendment-passage
+  - date: "2026-04-06"
+    description: Passed Senate as amended, Ayes 32, Nays 0
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-06"
+    description: Sponsor(s) Added.
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-06"
+    description: Engrossed; ready for transmission to House
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-08"
+    description: Rcvd. from S., held on H. desk.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Subst. for comp. HB.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Am. withdrawn. (Amendment 1 - HA1067)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-21"
+    description: Passed H., Ayes 88, Nays 0, PNV 0
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-04-27"
+    description: Enrolled and ready for signatures
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-04-30"
+    description: Signed by Senate Speaker
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-07"
+    description: Signed by H. Speaker
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-11"
+    description: Transmitted to Governor for action.
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-05-22"
+    description: Signed by Governor.
+    actor: executive
+    classification:
+      - executive-signature
+  - date: "2026-05-27"
+    description: Pub. Ch. 1056
+    actor: executive
+    classification:
+      - became-law
+  - date: "2026-05-27"
+    description: Effective date(s) 05/22/2026
+    actor: legislature
+    classification:
+      - other
+versions:
+  - note: Draft
+    date: "2025-01-31"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/SB0677.pdf
+    media_type: application/pdf
+  - note: Chaptered
+    date: "2026-05-26"
+    url: https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1951003
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=SB0677&ga=114
+    title: SB 677 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf
+    title: SB 677 text (Chaptered)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

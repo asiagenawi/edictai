@@ -1,0 +1,286 @@
+id: us-119-hres-297
+jurisdiction: us
+session: "119"
+identifier: H.Res. 297
+title: Expressing the sense of the House of Representatives that paraprofessionals and education support
+  staff should have fair compensation, benefits, and working conditions.
+classification: resolution
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - employment-evaluation
+  - educator-training
+summary: Expresses the sense of the House that paraprofessionals and education support staff in schools
+  and public colleges should have fair compensation, benefits, and working conditions, including notice
+  of and input into the implementation of algorithms and artificial intelligence technology in their schools,
+  and professional development as new technologies are introduced.
+sponsors:
+  - name: Jahana Hayes
+    primary: true
+    party: D
+    chamber: lower
+  - name: Suzanne Bonamici
+    primary: false
+    party: D
+    chamber: lower
+  - name: Julia Brownley
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chellie Pingree
+    primary: false
+    party: D
+    chamber: lower
+  - name: Janice Schakowsky
+    primary: false
+    party: D
+    chamber: lower
+  - name: Rashida Tlaib
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jill Tokuda
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jennifer McClellan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Henry Johnson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Betty McCollum
+    primary: false
+    party: D
+    chamber: lower
+  - name: Angela Craig
+    primary: false
+    party: D
+    chamber: lower
+  - name: Josh Gottheimer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Melanie Stansbury
+    primary: false
+    party: D
+    chamber: lower
+  - name: Shri Thanedar
+    primary: false
+    party: D
+    chamber: lower
+  - name: Donald Norcross
+    primary: false
+    party: D
+    chamber: lower
+  - name: Bonnie Coleman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brad Sherman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nanette Barragan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Kevin Mullin
+    primary: false
+    party: D
+    chamber: lower
+  - name: Brian Fitzpatrick
+    primary: false
+    party: R
+    chamber: lower
+  - name: Sarah Elfreth
+    primary: false
+    party: D
+    chamber: lower
+  - name: LaMonica McIver
+    primary: false
+    party: D
+    chamber: lower
+  - name: Wesley Bell
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sarah McBride
+    primary: false
+    party: D
+    chamber: lower
+  - name: Mike Thompson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Emanuel Cleaver
+    primary: false
+    party: D
+    chamber: lower
+  - name: Debbie Dingell
+    primary: false
+    party: D
+    chamber: lower
+  - name: Danny Davis
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eleanor Norton
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Garamendi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Morgan McGarvey
+    primary: false
+    party: D
+    chamber: lower
+  - name: Becca Balint
+    primary: false
+    party: D
+    chamber: lower
+  - name: Sanford Bishop
+    primary: false
+    party: D
+    chamber: lower
+  - name: Lloyd Doggett
+    primary: false
+    party: D
+    chamber: lower
+  - name: Yassamin Ansari
+    primary: false
+    party: D
+    chamber: lower
+  - name: Andrea Salinas
+    primary: false
+    party: D
+    chamber: lower
+  - name: Jonathan Jackson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Daniel Goldman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maxwell Frost
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frank Pallone
+    primary: false
+    party: D
+    chamber: lower
+  - name: John Larson
+    primary: false
+    party: D
+    chamber: lower
+  - name: Alexandria Ocasio-Cortez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Maxine Dexter
+    primary: false
+    party: D
+    chamber: lower
+  - name: Pramila Jayapal
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikema Williams
+    primary: false
+    party: D
+    chamber: lower
+  - name: Chrissy Houlahan
+    primary: false
+    party: D
+    chamber: lower
+  - name: Raja Krishnamoorthi
+    primary: false
+    party: D
+    chamber: lower
+  - name: Frederica Wilson
+    primary: false
+    party: D
+    chamber: lower
+  - name: James Walkinshaw
+    primary: false
+    party: D
+    chamber: lower
+  - name: Judy Chu
+    primary: false
+    party: D
+    chamber: lower
+  - name: George Latimer
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Garcia
+    primary: false
+    party: D
+    chamber: lower
+  - name: Luz Rivas
+    primary: false
+    party: D
+    chamber: lower
+  - name: Nikki Budzinski
+    primary: false
+    party: D
+    chamber: lower
+  - name: Dwight Evans
+    primary: false
+    party: D
+    chamber: lower
+  - name: Eric Sorensen
+    primary: false
+    party: D
+    chamber: lower
+  - name: Greg Landsman
+    primary: false
+    party: D
+    chamber: lower
+  - name: Marie Gluesenkamp Perez
+    primary: false
+    party: D
+    chamber: lower
+  - name: Robert Menendez
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-04-07"
+    description: Submitted in House
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-07"
+    description: Referred to the House Committee on Education and Workforce.
+    actor: lower
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2025-04-08"
+    url: https://www.congress.gov/119/bills/hres297/BILLS-119hres297ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2021641
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-resolution/297/all-info
+    title: H.Res. 297 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hres297/BILLS-119hres297ih.pdf
+    title: H.Res. 297 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text. No quoted provisions.

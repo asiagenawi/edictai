@@ -1,0 +1,90 @@
+id: us-119-hr-9334
+jurisdiction: us
+session: "119"
+identifier: H.R. 9334
+title: Workforce for AI Trust Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Amends the National Artificial Intelligence Initiative Act to support graduate and postdoctoral
+  fellowships through institutions of higher education for research on trustworthy artificial intelligence,
+  authorizes NSF workshops, and directs NIST to develop an AI workforce framework with outreach to AI
+  programs at all education levels.
+provisions:
+  - type: appropriates-funding
+    description: NSF makes awards through institutions of higher education for graduate and postdoctoral
+      fellowships on trustworthy AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr9334/BILLS-119hr9334ih.pdf
+      locator: Sec. 2(b)
+      quote: fellowships for students and postdoctoral researchers from across disciplines, including
+        social science disciplines and the humanities, by making awards through eligible institutions
+        of higher education
+  - type: ai-workforce-program
+    description: NIST must support outreach of its AI workforce framework to AI programs at all education
+      levels.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr9334/BILLS-119hr9334ih.pdf
+      locator: Sec. 3
+      quote: Outreach and dissemination to artificial intelligence programs at all education levels of
+        such framework to prepare
+sponsors:
+  - name: Zoe Lofgren
+    primary: true
+    party: D
+    chamber: lower
+  - name: Frank Lucas
+    primary: false
+    party: R
+    chamber: lower
+  - name: Angela Craig
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-06-18"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-06-18"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-06-25"
+    description: Committee Consideration and Mark-up Session Held
+    actor: lower
+    classification:
+      - other
+  - date: "2026-06-25"
+    description: 'Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays:
+      35 - 0.'
+    actor: lower
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced
+    date: "2026-06-19"
+    url: https://www.congress.gov/119/bills/hr9334/BILLS-119hr9334ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2154282
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/9334/all-info
+    title: H.R. 9334 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr9334/BILLS-119hr9334ih.pdf
+    title: H.R. 9334 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

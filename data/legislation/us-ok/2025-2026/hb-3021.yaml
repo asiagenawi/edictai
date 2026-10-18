@@ -1,0 +1,274 @@
+id: us-ok-2025-2026-hb-3021
+jurisdiction: us-ok
+session: 2025-2026
+identifier: HB 3021
+title: Schools; curriculum requirements for graduation; diploma pathway; State Department of Education;
+  notice; seminar; English requirements financial literacy; alternate diploma; course availability; waiver;
+  coursework; repealers; effective date; emergency.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - academic-integrity
+summary: Revises high school graduation curriculum requirements and diploma pathways, and allows a school
+  district to waive Oklahoma history graduation requirements for certain students who complete a project
+  or paper without the assistance of artificial intelligence.
+provisions:
+  - type: academic-integrity-rules
+    description: Conditions a waiver of Oklahoma history graduation requirements on a project or paper
+      completed without the assistance of AI.
+    citation:
+      source_url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB3021%20ENR.PDF
+      locator: Section 11-103.6f
+      quote: if the student completes a project or writes a paper, without the assistance of artificial
+        intelligence, subject to approval of the school district, that demonstrates competencies and knowledge
+        of Oklahoma history or United States Government.
+sponsors:
+  - name: Dick Lowe
+    primary: true
+    party: R
+    chamber: lower
+  - name: Adam Pugh
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-02-02"
+    description: First Reading
+    actor: lower
+    classification:
+      - reading-1
+      - introduction
+  - date: "2026-02-02"
+    description: Authored by Representative Lowe (Dick)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-02-03"
+    description: Second Reading referred to Education Oversight
+    actor: lower
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-02-03"
+    description: Referred to Common Education
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-18"
+    description: Policy recommendation to the Education Oversight committee; Do Pass Common Education
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-02-18"
+    description: Authored by Senator Pugh (principal Senate author)
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-04"
+    description: CR; Do Pass, amended by committee substitute Education Oversight Committee
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-03-25"
+    description: General Order
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-25"
+    description: Amended by floor substitute
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-25"
+    description: 'Third Reading, Measure and Emergency passed: Ayes: 82 Nays: 8'
+    actor: lower
+    classification:
+      - reading-3
+      - passage
+  - date: "2026-03-25"
+    description: Referred for engrossment
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-30"
+    description: Engrossed, signed, to Senate
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-03-30"
+    description: First Reading
+    actor: upper
+    classification:
+      - reading-1
+  - date: "2026-04-01"
+    description: Second Reading referred to Education
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-04-21"
+    description: Reported Do Pass as amended Education committee; CR filed
+    actor: upper
+    classification:
+      - committee-passage
+  - date: "2026-04-21"
+    description: Title stricken
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-23"
+    description: Placed on General Order
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-05"
+    description: General Order, Amended
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-05"
+    description: Title restored
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-05"
+    description: 'Measure and Emergency passed: Ayes: 48 Nays: 0'
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-05"
+    description: Referred for engrossment
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-06"
+    description: Engrossed to House
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-06"
+    description: SA's received
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-06"
+    description: SA's rejected, conference requested, naming Special Conference Committee on HB 3021
+    actor: lower
+    classification:
+      - conference-committee
+  - date: "2026-05-06"
+    description: Conference granted, SCs named Pugh, Paxton, Daniels, Haste, Kirt
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-06"
+    description: CCR submitted
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-07"
+    description: CCR adopted
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-07"
+    description: 'Fourth Reading, Measure and Emergency Passed: Ayes: 90 Nays: 3'
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-05-07"
+    description: To Senate
+    actor: lower
+    classification:
+      - other
+  - date: "2026-05-14"
+    description: CCR read
+    actor: upper
+    classification:
+      - other
+  - date: "2026-05-14"
+    description: CCR adopted
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-14"
+    description: 'Measure and Emergency passed, to House: Ayes: 40 Nays: 7'
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-05-14"
+    description: Referred for enrollment
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-05-14"
+    description: Enrolled, signed, to Senate
+    actor: lower
+    classification:
+      - enrollment
+  - date: "2026-05-14"
+    description: Enrolled measure signed, returned to House
+    actor: upper
+    classification:
+      - enrollment
+  - date: "2026-05-14"
+    description: Sent to Governor
+    actor: executive
+    classification:
+      - executive-receipt
+  - date: "2026-05-14"
+    description: Approved by Governor 05/19/2026
+    actor: executive
+    classification:
+      - executive-signature
+versions:
+  - note: Introduced
+    date: "2026-01-12"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20INT/hB/HB3021%20INT.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-03-04"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20COMMITTEE%20SUBS/HCS/HB3021%20CS.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-03-09"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/HFLR/HB3021%20HFLR.PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-03-30"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/hB/HB3021%20ENGR.PDF
+    media_type: application/pdf
+  - note: Amended
+    date: "2026-04-22"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/SFLR/HB3021%20SFLR.PDF
+    media_type: application/pdf
+  - note: Engrossed
+    date: "2026-05-06"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20AMENDMENTS/Amendment%20and%20Engr/HB3021%20SAHB%20AND%20ENGR.PDF
+    media_type: application/pdf
+  - note: Comm Sub
+    date: "2026-05-06"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20COMMITTEE%20SUBS/HCCS/HB3021%20CCS.PDF
+    media_type: application/pdf
+  - note: Enrolled
+    date: "2026-05-14"
+    url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB3021%20ENR.PDF
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2070986
+sources:
+  - url: https://www.oklegislature.gov/BillInfo.aspx?Bill=hb3021&Session=2600
+    title: HB 3021 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB3021%20ENR.PDF
+    title: HB 3021 text (Enrolled)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

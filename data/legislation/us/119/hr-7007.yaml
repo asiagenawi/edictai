@@ -1,0 +1,89 @@
+id: us-119-hr-7007
+jurisdiction: us
+session: "119"
+identifier: H.R. 7007
+title: Governing for the People Act
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - funding
+  - task-force
+summary: Among other measures, authorizes National Science Foundation awards for AI literacy curricula
+  and programs and directs federal agencies, including the Secretary of Education, to report on strategies
+  for incorporating AI literacy into K-12 and higher education curricula.
+provisions:
+  - type: appropriates-funding
+    description: Award funds may be used to develop AI literacy curricula, educational materials, and
+      resources.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr7007/BILLS-119hr7007ih.pdf
+      locator: Sec. 401(a)(2)(A)
+      quote: To develop curricula, educational ma- terials, and resources focused on AI literacy, in-
+        cluding relating to understanding the basics of AI, its applications, ethical considerations,
+        and the societal impacts of AI.
+  - type: creates-task-force
+    description: The Secretary of Education must identify strategies for incorporating AI literacy into
+      K-12 and higher education curricula.
+    citation:
+      source_url: https://www.congress.gov/119/bills/hr7007/BILLS-119hr7007ih.pdf
+      locator: Sec. 401(b)(1)(D)
+      quote: The Secretary of Education shall iden- tify strategies for incorporating AI literacy into
+        K–12 and higher education curricula, ensuring that all students have access to quality AI edu-
+        cation
+sponsors:
+  - name: James McGovern
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-01-12"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-01-12"
+    description: Referred to the Committee on Ways and Means, and in addition to the Committees on Transportation
+      and Infrastructure, the Judiciary, Agriculture, Natural Resources, Science, Space, and Technology,
+      Education and Workforce, Small Business, Energy and Commerce, Foreign Affairs, Intelligence (Permanent
+      Select), Armed Services, Oversight and Government Reform, Veterans' Affairs, Financial Services,
+      House Administration, Homeland Security, Rules, Ethics, the Budget, and Appropriations, for a period
+      to be subsequently determined by the Speaker, in each case for consideration of such provisions
+      as fall within the jurisdiction of the committee concerned.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-02-04"
+    description: Referred to the Subcommittee on Health.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-05-20"
+    description: Referred to the Subcommittee on Forestry and Horticulture.
+    actor: lower
+    classification:
+      - referral-committee
+versions:
+  - note: Introduced
+    date: "2026-02-02"
+    url: https://www.congress.gov/119/bills/hr7007/BILLS-119hr7007ih.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2072078
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/house-bill/7007/all-info
+    title: H.R. 7007 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/119/bills/hr7007/BILLS-119hr7007ih.pdf
+    title: H.R. 7007 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

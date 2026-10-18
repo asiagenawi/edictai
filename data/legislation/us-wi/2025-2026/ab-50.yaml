@@ -1,0 +1,578 @@
+id: us-wi-2025-2026-ab-50
+jurisdiction: us-wi
+session: 2025-2026
+identifier: AB 50
+title: State finances and appropriations, constituting the executive budget act of the 2025 legislature.
+  (FE)
+classification: bill
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - funding
+  - workforce
+  - educator-training
+  - curriculum-standards
+summary: Executive budget that allows the Technical College System Board to award grants to technical
+  college districts for adopting and using artificial intelligence, including educator upskilling, curriculum
+  development, and stackable credentials. Also directs the Department of Workforce Development to allocate
+  $200,000 a year in grants to help school districts prepare students for a future that includes artificial
+  intelligence.
+provisions:
+  - type: appropriates-funding
+    description: Authorizes grants to technical college district boards for AI adoption, including educator
+      upskilling and curriculum and credential development.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB50.pdf
+      locator: Section 647, new s. 38.04 (25)
+      quote: 'the board may award grants to district boards to support the district boards with the adoption
+        and use of artificial intelligence in areas including the following: (a) Educator recruitment,
+        retention, and upskilling. (b) Curriculum and resource development to meet employer demand.'
+  - type: appropriates-funding
+    description: Allocates $200,000 a year for grants helping school districts prepare students for a
+      future that includes AI.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB50.pdf
+      locator: Section 9150 (d)
+      quote: the department of workforce development shall allocate $200,000 for grants under s. 106.27
+        (1) to help school districts to prepare students for a future that includes artificial intelligence.
+sponsors:
+  - name: Finance
+    classification: committee
+    primary: true
+actions:
+  - date: "2025-02-18"
+    description: Introduced
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-18"
+    description: Read first time and referred to Joint Committee on Finance
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-02-18"
+    description: Read first time and referred to joint survey committee on Tax Exemptions
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-02-18"
+    description: Read first time and referred to joint survey committee on Retirement Systems
+    actor: lower
+    classification:
+      - reading-1
+      - referral-committee
+  - date: "2025-04-01"
+    description: Agency briefing held by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-04-02"
+    description: Public hearing held by joint committee on Finance
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-04-04"
+    description: Public hearing held by joint committee on Finance
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-04-28"
+    description: Public hearing held by joint committee on Finance
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-04-29"
+    description: Public hearing held by joint committee on Finance
+    actor: lower
+    classification:
+      - committee-hearing
+  - date: "2025-05-08"
+    description: Executive action taken by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-08"
+    description: Assembly Substitute Amendment 1 offered by Joint Committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-05-29"
+    description: Executive action taken by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-05"
+    description: Executive action taken by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-10"
+    description: Executive action taken by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-12"
+    description: Executive action taken by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-17"
+    description: Executive action taken by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-27"
+    description: Executive action taken by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-30"
+    description: Executive action taken by joint survey committee on Tax Exemptions
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-30"
+    description: Executive action taken by joint survey committee on Retirement Systems
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-30"
+    description: Report of Joint Survey Committee on Retirement Systems received
+    actor: lower
+    classification:
+      - other
+  - date: "2025-06-30"
+    description: Report of Joint Survey Committee on Tax Exemptions received
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Executive action taken by joint committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Assembly Substitute Amendment 2 offered by Joint Committee on Finance
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Report Assembly Substitute Amendment 2 adoption recommended by Joint Committee on Finance,
+      Ayes 12, Noes 4
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Report passage as amended recommended by Joint Committee on Finance, Ayes 12, Noes 4
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-01"
+    description: Referred to calendar of 7-2-2025 pursuant to Assembly Rule 93
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-07-02"
+    description: Read a second time
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 1 to Assembly Substitute Amendment 2 offered by Representatives Phelps,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 1 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 2 to Assembly Substitute Amendment 2 offered by Representatives Sheehan,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 2 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 3 to Assembly Substitute Amendment 2 offered by Representatives Roe,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 3 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 4 to Assembly Substitute Amendment 2 offered by Representatives Joers,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Johnson, Kirsch, Madison, Mayadev, McCarville,
+      McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 4 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 5 to Assembly Substitute Amendment 2 offered by Representatives Brown,
+      Anderson, Andraca, Arney, Bare, Billings, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson, Fitzgerald,
+      Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev, McCarville,
+      McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 5 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 6 to Assembly Substitute Amendment 2 offered by Representatives Sinicki,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sheehan, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 6 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 7 to Assembly Substitute Amendment 2 offered by Representatives Rivera-Wagner,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Roe, Sheehan, Sinicki,
+      Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 7 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 8 to Assembly Substitute Amendment 2 offered by Representatives Johnson,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Kirsch, Madison, Mayadev, McCarville,
+      McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 8 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 9 to Assembly Substitute Amendment 2 offered by Representatives Vining,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sheehan, Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio and Udell
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 9 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 10 to Assembly Substitute Amendment 2 offered by Representatives DeSanto,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSmidt, Doyle, Emerson, Fitzgerald,
+      Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev, McCarville,
+      McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 10 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 11 to Assembly Substitute Amendment 2 offered by Representatives Subeck,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sheehan, Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 11 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 12 to Assembly Substitute Amendment 2 offered by Representatives Palmeri,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 12 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 13 to Assembly Substitute Amendment 2 offered by Representatives Stroud,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sheehan, Sinicki, Snodgrass, Spaude, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 13 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 14 to Assembly Substitute Amendment 2 offered by Representatives Arney,
+      Anderson, Andraca, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson, Fitzgerald,
+      Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev, McCarville,
+      McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 14 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 15 to Assembly Substitute Amendment 2 offered by Representatives Emerson,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Cruz, DeSanto, DeSmidt, Doyle, Fitzgerald, Goodwin,
+      Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev, McCarville, McGuire,
+      Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan, Sinicki,
+      Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 15 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 16 to Assembly Substitute Amendment 2 offered by Representatives Taylor,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sheehan, Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 16 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 17 to Assembly Substitute Amendment 2 offered by Representatives McCarville,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 17 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 18 to Assembly Substitute Amendment 2 offered by Representatives Snodgrass,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sheehan, Sinicki, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 18 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 19 to Assembly Substitute Amendment 2 offered by Representatives Fitzgerald,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev, McCarville,
+      McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 19 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 20 to Assembly Substitute Amendment 2 offered by Representatives Tenorio,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sheehan, Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 20 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 21 to Assembly Substitute Amendment 2 offered by Representatives Prado,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 21 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 22 to Assembly Substitute Amendment 2 offered by Representatives Miresse,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 22 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 23 to Assembly Substitute Amendment 2 offered by Representatives Spaude,
+      Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle, Emerson,
+      Fitzgerald, Goodwin, Haywood, Hong, Hysell, J. Jacobson, Joers, Johnson, Kirsch, Madison, Mayadev,
+      McCarville, McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe,
+      Sheehan, Sinicki, Snodgrass, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 23 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 24 to Assembly Substitute Amendment 2 offered by Representatives J.
+      Jacobson, Anderson, Andraca, Arney, Bare, Billings, Brown, Clancy, Cruz, DeSanto, DeSmidt, Doyle,
+      Emerson, Fitzgerald, Goodwin, Haywood, Hong, Hysell, Joers, Johnson, Kirsch, Madison, Mayadev, McCarville,
+      McGuire, Miresse, Moore Omokunde, Neubauer, Palmeri, Phelps, Prado, Rivera-Wagner, Roe, Sheehan,
+      Sinicki, Snodgrass, Spaude, Stroud, Stubbs, Subeck, Taylor, Tenorio, Udell and Vining
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Assembly Amendment 24 to Assembly Substitute Amendment 2 laid on table, Ayes 53, Noes
+      45
+    actor: lower
+    classification:
+      - other
+  - date: "2025-07-02"
+    description: Laid on the table
+    actor: lower
+    classification:
+      - deferral
+  - date: "2026-03-23"
+    description: Failed to pass pursuant to Senate Joint Resolution 1
+    actor: lower
+    classification:
+      - failure
+versions:
+  - note: Introduced
+    date: "2025-02-18"
+    url: https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB50.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1974122
+sources:
+  - url: https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab50
+    title: AB 50 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB50.pdf
+    title: AB 50 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

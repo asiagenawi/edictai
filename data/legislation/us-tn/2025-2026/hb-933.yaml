@@ -1,0 +1,111 @@
+id: us-tn-2025-2026-hb-933
+jurisdiction: us-tn
+session: 2025-2026
+identifier: HB 933
+title: AN ACT to amend Tennessee Code Annotated, Title 49, relative to school safety.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - funding
+  - safety-wellbeing
+  - procurement
+summary: Directs the Department of Education to establish a three-year grant pilot program, subject to
+  appropriations, for eligible school districts to purchase artificial intelligence weapons detection
+  systems for schools. Systems must identify weapons on school grounds and notify law enforcement and
+  school administrators, and the department must report annually on the program.
+provisions:
+  - type: appropriates-funding
+    description: Creates a three-year grant pilot for eligible districts to buy AI weapons detection systems
+      for schools.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/HB0933.pdf
+      locator: Section 1(b)
+      quote: The department of education shall establish and administer a three-year artificial intelligence
+        weapons detection system grant pilot program to award grants to eligible LEAs for the purchase
+        of artificial intelligence weapons detection systems for
+  - type: procurement-standards
+    description: AI weapons detection systems purchased must identify weapons and immediately notify law
+      enforcement and school administration.
+    citation:
+      source_url: https://www.capitol.tn.gov/Bills/114/Bill/HB0933.pdf
+      locator: Section 1(c)
+      quote: Each artificial intelligence weapons detection system purchased for purposes of this section
+        must be capable of identifying weapons, including knives and firearms, on school grounds
+sponsors:
+  - name: Antonio Parkinson
+    primary: true
+    party: D
+    chamber: lower
+  - name: Harold Love
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2025-02-04"
+    description: Filed for introduction
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-05"
+    description: Intro., P1C.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2025-02-06"
+    description: P2C, ref. to Education Committee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2025-02-10"
+    description: Assigned to s/c Education Administration Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2025-02-27"
+    description: Sponsor(s) Added.
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-05"
+    description: Placed on s/c cal Education Administration Subcommittee for 3/11/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-11"
+    description: Action Def. in s/c Education Administration Subcommittee to 3/18/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-12"
+    description: Placed on s/c cal Education Administration Subcommittee for 3/18/2025
+    actor: lower
+    classification:
+      - other
+  - date: "2025-03-18"
+    description: Taken off notice for cal in s/c Education Administration Subcommittee of Education Committee
+    actor: lower
+    classification:
+      - other
+versions:
+  - note: Draft
+    date: "2025-02-04"
+    url: https://www.capitol.tn.gov/Bills/114/Bill/HB0933.pdf
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 1955110
+sources:
+  - url: https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=HB0933&ga=114
+    title: HB 933 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.tn.gov/Bills/114/Bill/HB0933.pdf
+    title: HB 933 text (Draft)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

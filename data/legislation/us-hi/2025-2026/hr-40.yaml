@@ -1,0 +1,150 @@
+id: us-hi-2025-2026-hr-40
+jurisdiction: us-hi
+session: 2025-2026
+identifier: HR 40
+title: Urging The Department Of Education To Co-develop A Sixth To Twelfth Grade Artificial Intelligence
+  Literacy And Usage Curriculum With Teachers.
+classification: resolution
+education_levels:
+  - k12
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - equity-access
+summary: Urges the Department of Education to co-develop a grade 6-12 artificial intelligence literacy
+  and usage curriculum with teachers, consulting research and AI literacy frameworks. Urges that the curriculum
+  foster ethical AI use, enable equitable access, and include regular assessments of student progress.
+provisions:
+  - type: requires-ai-literacy-instruction
+    description: Urges the Department of Education to co-develop a grade 6-12 AI literacy and usage curriculum
+      with teachers.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HR40_.HTM
+      locator: First resolved clause
+      quote: urges the Department of Education to co-develop a sixth to twelfth grade artificial intelligence
+        literacy and usage curriculum with teachers
+  - type: bias-or-equity-requirement
+    description: Urges that the AI literacy curricula enable equitable access across Hawaii.
+    citation:
+      source_url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HR40_.HTM
+      locator: Third resolved clause
+      quote: (2) Enables equitable access to AI literacy across Hawaiʻi;
+sponsors:
+  - name: Adrian Tam
+    primary: true
+    party: D
+    chamber: lower
+  - name: Terez Amato
+    primary: true
+    party: D
+    chamber: lower
+  - name: Della au Belatti
+    primary: true
+    party: D
+    chamber: lower
+  - name: Kim Iwamoto
+    primary: true
+    party: D
+    chamber: lower
+  - name: Darius Kila
+    primary: true
+    party: D
+    chamber: lower
+  - name: Matthias Kusch
+    primary: true
+    party: D
+    chamber: lower
+  - name: Nicole Lowen
+    primary: true
+    party: D
+    chamber: lower
+  - name: Lisa Marten
+    primary: true
+    party: D
+    chamber: lower
+  - name: Scot Matayoshi
+    primary: true
+    party: D
+    chamber: lower
+  - name: Mahina Poepoe
+    primary: true
+    party: D
+    chamber: lower
+  - name: Julie Reyes Oda
+    primary: true
+    party: R
+    chamber: lower
+  - name: Garner Shimizu
+    primary: true
+    party: R
+    chamber: lower
+  - name: Shirley Ann Templo
+    primary: true
+    party: D
+    chamber: lower
+actions:
+  - date: "2026-03-12"
+    description: To be offered.
+    actor: lower
+    classification:
+      - introduction
+  - date: "2026-03-16"
+    description: Offered
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-18"
+    description: Referred to EDN, referral sheet 18
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-03-25"
+    description: Resolution scheduled to be heard by EDN on Tuesday, 03-31-26 2:00PM in conference room
+      309 VIA VIDEOCONFERENCE.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-03-31"
+    description: 'The committee on EDN recommend that the measure be PASSED, UNAMENDED. The votes were
+      as follows: 6 Ayes: Representative(s) Woodson, La Chica, Amato, Evslin, Kapela, Olds; Ayes with
+      reservations: none; Noes: none; and 4 Excused: Representative(s) Garrett, Kila, Muraoka, Souza.'
+    actor: lower
+    classification:
+      - committee-passage
+  - date: "2026-04-02"
+    description: Reported from EDN (Stand. Com. Rep. No. 1790-26), recommending adoption.
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-02"
+    description: Adopted with none voting aye with reservations; none voting no (0) and none excused (0).
+    actor: lower
+    classification:
+      - passage
+  - date: "2026-04-02"
+    description: Resolution adopted in final form.
+    actor: lower
+    classification:
+      - passage
+versions:
+  - note: Introduced
+    date: "2026-03-12"
+    url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HR40_.HTM
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2133428
+sources:
+  - url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HR&billnumber=40&year=2026
+    title: HR 40 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.capitol.hawaii.gov/sessions/session2026/bills/HR40_.HTM
+    title: HR 40 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.

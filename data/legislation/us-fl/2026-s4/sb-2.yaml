@@ -1,0 +1,141 @@
+id: us-fl-2026-s4-sb-2
+jurisdiction: us-fl
+session: 2026-s4
+identifier: SB 2
+title: Artificial Intelligence Bill of Rights
+classification: bill
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - student-privacy
+  - safety-wellbeing
+summary: Creates an Artificial Intelligence Bill of Rights and restricts government AI contracts; among
+  other provisions, bars educational entities from giving students access to AI instructional tools before
+  grade 6 except when supervised or for English learner or disability supports, and requires parental
+  notice, a parental opt-out with an alternative activity, and parental access to student AI tool accounts,
+  with private schools also required to comply.
+provisions:
+  - type: limits-ai-instructional-use
+    description: Educational entities may not give students access to AI instructional tools before grade
+      6, with limited exceptions.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026D/2D/BillText/Filed/HTML
+      locator: Sec. 12, new 1006.1495(2)
+      quote: 'An educational entity may not provide students with access to an artificial intelligence
+        instructional tool before grade 6 unless such use is: (a) Directed and supervised by school personnel'
+  - type: requires-disclosure
+    description: Before giving a student access credentials, the entity must notify parents identifying
+      the tool and its purpose.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026D/2D/BillText/Filed/HTML
+      locator: Sec. 12, new 1006.1495(3)
+      quote: 'Before a student is provided access credentials for an artificial intelligence instructional
+        tool, the educational entity must provide the parent of a minor student with notice that: (a)
+        Identifies the tool and its educational purpose'
+  - type: requires-disclosure
+    description: Parents must be given the opportunity to opt their child out of AI instructional tool
+      use.
+    citation:
+      source_url: https://www.flsenate.gov/Session/Bill/2026D/2D/BillText/Filed/HTML
+      locator: Sec. 12, new 1006.1495(4)(a)
+      quote: A parent of a minor student must be provided the opportunity to opt out of the student's
+        use of an artificial intelligence instructional tool.
+sponsors:
+  - name: Jason Brodeur
+    primary: true
+    party: R
+    chamber: upper
+actions:
+  - date: "2026-04-24"
+    description: Filed
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-04-24"
+    description: Referred to Rules
+    actor: upper
+    classification:
+      - referral-committee
+  - date: "2026-04-28"
+    description: On Committee agenda-- Rules, 04/28/26, 2:00 pm, 110 Senate Building
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Introduced
+    actor: upper
+    classification:
+      - introduction
+  - date: "2026-04-28"
+    description: Withdrawn from Rules
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Placed on Calendar, on 2nd reading
+    actor: upper
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Read 2nd time
+    actor: upper
+    classification:
+      - reading-2
+  - date: "2026-04-28"
+    description: Read 3rd time
+    actor: upper
+    classification:
+      - reading-3
+  - date: "2026-04-28"
+    description: Passed; YEAS 37 NAYS 1
+    actor: upper
+    classification:
+      - passage
+  - date: "2026-04-28"
+    description: In Messages
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: Referred to Information Technology Budget & Policy Subcommittee
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2026-04-28"
+    description: Now in Information Technology Budget & Policy Subcommittee
+    actor: lower
+    classification:
+      - other
+  - date: "2026-04-28"
+    description: 1st Reading (Original Filed Version)
+    actor: lower
+    classification:
+      - reading-1
+  - date: "2026-04-29"
+    description: Died in Information Technology Budget & Policy Subcommittee
+    actor: lower
+    classification:
+      - died-at-session-end
+versions:
+  - note: Introduced
+    date: "2026-04-24"
+    url: https://www.flsenate.gov/Session/Bill/2026D/2D/BillText/Filed/HTML
+    media_type: text/html
+external_ids:
+  legiscan_bill_id: 2145808
+sources:
+  - url: https://www.flsenate.gov/Session/Bill/2026D/2D
+    title: SB 2 bill page
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.flsenate.gov/Session/Bill/2026D/2D/BillText/Filed/HTML
+    title: SB 2 text (Introduced)
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.
