@@ -1,10 +1,376 @@
 ---
-import Plain from '../../layouts/Plain.astro';
-import { research } from '../../lib/data';
-const items = research();
+/**
+ * Research: every study, survey and report in one library, newest first,
+ * grouped by year and month, and every key finding in a second tab. The filter
+ * rail works as on Bills & policies: every filter is a dropdown, and what is
+ * chosen is listed under it. Studies open in place with their quoted findings;
+ * findings open to show the source's own words. Everything is rendered at
+ * build time; the script only filters, expands, and narrows the CSV download.
+ */
+import Base from '../../layouts/Base.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import FormDialog from '../../components/FormDialog.astro';
+import { jurisdictions, research, topics, url } from '../../lib/data';
+import { LEVELS, longDate } from '../../lib/state-page';
+import '../../styles/state.css';
+import '../../styles/policies.css';
+import '../../styles/research.css';
+
+const TYPES: Record<string, string> = {
+  'peer-reviewed': 'Peer-reviewed article',
+  report: 'Research report',
+  brief: 'Policy brief',
+  survey: 'Survey or poll',
+  'meta-analysis': 'Meta-analysis',
+  dataset: 'Dataset',
+};
+// The type marks, from the brand shapes, in a 12-unit box.
+const GLYPHS: Record<string, string> = {
+  'peer-reviewed': '<circle cx="6" cy="6" r="5.5" fill="var(--red)"/>',
+  report: '<rect x=".5" y=".5" width="11" height="11" fill="var(--blue)"/>',
+  brief: '<path d="M.5 11.5V.5a11 11 0 0 1 11 11z" fill="var(--sky)"/>',
+  survey: '<path d="M6 0l6 6-6 6-6-6z" fill="var(--green)"/>',
+  'meta-analysis': '<path d="M.5 7.5a5.5 5.5 0 0 1 11 0z" fill="var(--yellow)"/>',
+  dataset: '<path d="M6 .5l5.5 11H.5z" fill="var(--mint)"/>',
+};
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+const topicName = new Map(topics().map((t) => [t.code, t.name]));
+const jName = new Map(jurisdictions().map((j) => [j.id, j.id === 'us' ? 'United States' : j.name]));
+const byline = (a: string[]) => (a.length === 0 ? '' : a.length <= 2 ? a.join(' and ') : `${a[0]} et al.`);
+const typeOf = (c: string) => TYPES[c] ?? c;
+
+const studies = research().map((r) => ({
+  ...r,
+  year: r.published.slice(0, 4),
+  day: r.published.length === 10 ? `${+r.published.slice(8, 10)} ${MONTHS[+r.published.slice(5, 7) - 1].slice(0, 3)}` : '',
+  month: r.published.length >= 7 ? MONTHS[+r.published.slice(5, 7) - 1] : 'Month not given',
+  // No byline when the only author is the publisher itself.
+  by: r.authors.length === 1 && r.authors[0] === r.publisher ? '' : byline(r.authors),
+  levels: r.educationLevels.map((l) => LEVELS[l] ?? l).join(', '),
+  q: [r.title, r.publisher, ...r.authors, ...r.findings.map((f) => f.finding)].join(' ').toLowerCase(),
+}));
+
+type Item = { mo: string } | { s: (typeof studies)[number] };
+const years = [...new Set(studies.map((s) => s.year))];
+const groups = years.map((year) => {
+  const items: Item[] = [];
+  let mon: string | null = null;
+  for (const s of studies.filter((x) => x.year === year)) {
+    if (s.month !== mon) { mon = s.month; items.push({ mo: s.month }); }
+    items.push({ s });
+  }
+  return { year, items };
+});
+
+const uniq = (vs: string[]) => [...new Set(vs)];
+const byLabel = (a: [string, string], b: [string, string]) => a[1].localeCompare(b[1]);
+const facets: Record<string, [string, string][]> = {
+  cl: uniq(studies.map((s) => s.classification)).map((v) => [v, typeOf(v)] as [string, string]).sort(byLabel),
+  lv: ['k12', 'postsecondary'].filter((l) => studies.some((s) => s.educationLevels.includes(l))).map((l) => [l, LEVELS[l]] as [string, string]),
+  tp: uniq(studies.flatMap((s) => s.topics)).map((c) => [c, topicName.get(c) ?? c] as [string, string]).sort(byLabel),
+  pu: uniq(studies.map((s) => s.publisher)).map((v) => [v, v] as [string, string]).sort(byLabel),
+  yr: years.map((y) => [y, y] as [string, string]),
+};
+const FILTERS = [
+  ['cl', 'Type', 'All types'],
+  ['lv', 'Level', 'All levels'],
+  ['tp', 'Topic', 'All topics'],
+  ['pu', 'Publisher', 'All publishers'],
+  ['yr', 'Year', 'All years'],
+] as const;
+const ALL = Object.fromEntries(FILTERS.map(([k, , a]) => [k, a]));
+
+const csvPath = url('research/studies.csv');
+const ext = { target: '_blank', rel: 'noopener' };
 ---
-<Plain title="Research">
-  {items.length === 0 ? <p class="muted">No research records yet.</p> : (
-    <ul>{items.map((r) => <li>{r.title}<span class="muted"> · {r.publisher} · {r.published}</span></li>)}</ul>
-  )}
-</Plain>
+<Base title="Research · Edictai" description="Studies, surveys and reports on artificial intelligence in American schools and colleges, with each finding quoted from the source." bodyClass="sp pp rp">
+  <div class="wrap">
+    <SiteHeader current="research" />
+
+    <nav class="crumbs" aria-label="Breadcrumb"><span aria-current="page">Research</span></nav>
+    <div class="ihead">
+      <div>
+        <h1>Research</h1>
+        <p class="lede">Studies, surveys and reports on artificial intelligence in American schools and colleges. Each finding is quoted from the source, with the page it comes from.</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="#suggest" data-open="suggest">Suggest a study</a>
+        <a class="btn primary" id="dl" href={csvPath} download="edictai-research.csv" title="Downloads the studies that match your filters">Download CSV</a>
+      </div>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-p="library" id="t-library">Library</button>
+      <button role="tab" aria-selected="false" data-p="findings" id="t-findings">Findings</button>
+    </div>
+
+    <div class="body">
+      <nav class="rail" aria-label="Filter research">
+        <div class="fg"><h3>Search</h3><input id="f-q" type="search" placeholder="Title, author or publisher" aria-label="Search research" /></div>
+        {FILTERS.map(([key, title, allLabel]) => (
+          <div class="fg" data-f={key}>
+            <h3>{title}</h3>
+            <label class="sr" for={`f-${key}`}>Choose a {title.toLowerCase()}</label>
+            <select id={`f-${key}`} class="dd"><option value="">{allLabel}</option>{facets[key].map(([v, l]) => <option value={v}>{l}</option>)}</select>
+            <ul class="jlist"></ul>
+          </div>
+        ))}
+        <button type="button" class="clear" id="clear" hidden>Clear all filters</button>
+      </nav>
+
+      <main>
+        <section class="panel" id="p-library" role="tabpanel" aria-labelledby="t-library">
+          <div id="reg">
+            {groups.map((g, gi) => (
+              <section class:list={['yg', { first: gi === 0 }]}>
+                <div class="yr"><h3>{g.year}</h3></div>
+                <div class="grp">
+                  {g.items.map((it) => 'mo' in it ? (
+                    <div class="mo"><span></span><span class="gl"></span><span>{it.mo}</span></div>
+                  ) : (
+                    <Fragment>
+                      <div class="reg-row" tabindex="0" role="button" aria-expanded="false" aria-controls={`d-${it.s.id}`} id={it.s.id}
+                        data-id={it.s.id} data-cl={it.s.classification} data-lv={it.s.educationLevels.join('|')} data-tp={it.s.topics.join('|')}
+                        data-pu={it.s.publisher} data-yr={it.s.year} data-q={it.s.q}>
+                        <span class="dt num">{it.s.day}</span>
+                        <span class="gl"><svg viewBox="0 0 12 12" role="img" aria-label={typeOf(it.s.classification)} set:html={GLYPHS[it.s.classification] ?? GLYPHS.report} /></span>
+                        <span class="ti"><span class="nm">{it.s.title}</span><small><b>{it.s.publisher}</b>{it.s.by && ` · ${it.s.by}`}</small></span>
+                        <span class="st">{it.s.levels}</span>
+                      </div>
+                      <div class="reg-det" id={`d-${it.s.id}`} hidden>
+                        <div class="sd">
+                          <div>
+                            <p class="sum">{it.s.summary}</p>
+                            {it.s.findings.length > 0 && (
+                              <Fragment>
+                                <h4>Findings</h4>
+                                <ol class="fl">
+                                  {it.s.findings.map((f) => (
+                                    <li><div>
+                                      <div class="fx">{f.finding}</div>
+                                      {f.quote && <blockquote>“{f.quote}”</blockquote>}
+                                      <cite><a href={f.sourceUrl} {...ext}>{f.locator ?? 'Source'}</a></cite>
+                                    </div></li>
+                                  ))}
+                                </ol>
+                              </Fragment>
+                            )}
+                            {it.s.methods && <Fragment><h4>Method</h4><p class="me">{it.s.methods}</p></Fragment>}
+                          </div>
+                          <div class="side">
+                            <dl class="kv">
+                              <dt>Published</dt><dd>{longDate(it.s.published)}</dd>
+                              <dt>Publisher</dt><dd>{it.s.publisher}</dd>
+                              {it.s.authors.length > 0 && <Fragment><dt>Authors</dt><dd>{it.s.authors.join(', ')}</dd></Fragment>}
+                              <dt>Type</dt><dd>{typeOf(it.s.classification)}</dd>
+                              {it.s.levels && <Fragment><dt>Level</dt><dd>{it.s.levels}</dd></Fragment>}
+                              {it.s.geography.length > 0 && <Fragment><dt>Covers</dt><dd>{it.s.geography.map((g) => jName.get(g) ?? g).join(', ')}</dd></Fragment>}
+                              {it.s.topics.length > 0 && <Fragment><dt>Topics</dt><dd>{it.s.topics.map((t) => topicName.get(t) ?? t).join(', ')}</dd></Fragment>}
+                            </dl>
+                            <p class="links">
+                              {it.s.sources.map((src) => (
+                                <Fragment>
+                                  <a href={src.url} {...ext}>{src.title ?? src.publisher ?? src.url}</a>
+                                  {src.archivedUrl && <a class="arch" href={src.archivedUrl} {...ext}>Archived copy</a>}
+                                </Fragment>
+                              ))}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </Fragment>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+          <p class="empty" id="l-empty" hidden>No research matches these filters.</p>
+        </section>
+
+        <section class="panel" id="p-findings" role="tabpanel" aria-labelledby="t-findings" hidden>
+          <div class="fv-list">
+            {studies.flatMap((s) => s.findings.map((f, i) => (
+              <div class="fv-row" tabindex="0" role="button" aria-expanded="false" data-sid={s.id} aria-controls={`q-${s.id}-${i}`}>
+                <div>
+                  <div class="fc">{f.finding}</div>
+                  {f.quote && <blockquote id={`q-${s.id}-${i}`} hidden>“{f.quote}”</blockquote>}
+                </div>
+                <div class="who">
+                  <b>{s.title}</b>
+                  {s.publisher}, {s.year}<br />
+                  <a href={f.sourceUrl} {...ext}>{f.locator ?? 'Source'}</a>
+                </div>
+              </div>
+            )))}
+          </div>
+          <p class="empty" id="f-empty" hidden>No findings match these filters.</p>
+        </section>
+      </main>
+    </div>
+  </div>
+  <script id="rp-data" type="application/json" set:html={JSON.stringify({ facets, all: ALL })} />
+  <FormDialog id="suggest" title="Suggest a study" subject="Study suggestion" fields={[
+    { name: 'study', label: 'Study', hint: 'title, authors and year', required: true },
+    { name: 'link', label: 'Link', kind: 'url', required: true },
+    { name: 'why', label: 'Why it belongs', hint: 'optional', kind: 'textarea' },
+  ]} />
+</Base>
+
+<script>
+  const $ = <T extends Element = HTMLElement>(s: string, el: ParentNode = document) => el.querySelector<T>(s)!;
+  const $$ = <T extends Element = HTMLElement>(s: string, el: ParentNode = document) => [...el.querySelectorAll<T>(s)];
+  const { facets: FACETS, all: ALL } = JSON.parse($('#rp-data').textContent!) as { facets: Record<string, [string, string][]>; all: Record<string, string> };
+  const KEYS = Object.keys(FACETS);
+  const esc = (s: string) => s.replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]!);
+
+  const rows = $$('.reg-row');
+  const byId = new Map(rows.map((r) => [r.dataset.id!, r]));
+  const frows = $$('.fv-row');
+  const detail = (r: HTMLElement) => document.getElementById(r.getAttribute('aria-controls')!)!;
+  const values = (r: HTMLElement, k: string) => (k === 'pu' ? [r.dataset.pu!] : (r.dataset[k] ?? '').split('|').filter(Boolean));
+  const SEL: Record<string, Set<string>> = Object.fromEntries(KEYS.map((k) => [k, new Set<string>()]));
+  const q = $<HTMLInputElement>('#f-q');
+
+  function passes(r: HTMLElement, skip?: string) {
+    const term = q.value.trim().toLowerCase();
+    if (term && !r.dataset.q!.includes(term)) return false;
+    return KEYS.every((k) => k === skip || !SEL[k].size || values(r, k).some((v) => SEL[k].has(v)));
+  }
+
+  // Every filter is a dropdown; a choice is listed under it with Remove. Dropdowns offer only values that still leave studies.
+  function rail() {
+    for (const k of KEYS) {
+      const g = $(`.fg[data-f="${k}"]`);
+      const live = new Set(rows.filter((r) => passes(r, k)).flatMap((r) => values(r, k)));
+      const opts = FACETS[k].filter(([v]) => !SEL[k].has(v) && live.has(v));
+      $<HTMLSelectElement>('select', g).innerHTML = `<option value="">${SEL[k].size ? 'Add another…' : ALL[k]}</option>` +
+        opts.map(([v, l]) => `<option value="${esc(v)}">${esc(l)}</option>`).join('');
+      $('ul', g).innerHTML = FACETS[k].filter(([v]) => SEL[k].has(v))
+        .map(([v, l]) => `<li><span>${esc(l)}</span><button type="button" data-rm="${esc(v)}" aria-label="Remove ${esc(l)}">Remove</button></li>`).join('');
+    }
+    $('#clear').hidden = !q.value && KEYS.every((k) => !SEL[k].size);
+  }
+
+  let matched: HTMLElement[] = [];
+  function refresh() {
+    rail();
+    matched = rows.filter((r) => passes(r));
+    const on = new Set(matched);
+    for (const r of rows) {
+      r.hidden = !on.has(r);
+      detail(r).hidden = r.hidden || r.getAttribute('aria-expanded') !== 'true';
+    }
+    // Year groups and month stops: hide empty ones; mark the ends of each year's line.
+    let first = true;
+    for (const yg of $$('.yg')) {
+      const grp = $('.grp', yg);
+      let mo: HTMLElement | null = null, n = 0;
+      for (const el of [...grp.children] as HTMLElement[]) {
+        if (el.classList.contains('mo')) { if (mo) mo.hidden = n === 0; mo = el; n = 0; }
+        else if (el.classList.contains('reg-row') && !el.hidden) n++;
+      }
+      if (mo) mo.hidden = n === 0;
+      const vis = ([...grp.children] as HTMLElement[]).filter((el) => !el.hidden && !el.classList.contains('reg-det'));
+      yg.hidden = !vis.some((el) => el.classList.contains('reg-row'));
+      yg.classList.toggle('first', first && !yg.hidden);
+      if (!yg.hidden) first = false;
+      vis.forEach((el, i) => el.classList.toggle('first', i === 0));
+      const visRows = vis.filter((el) => el.classList.contains('reg-row'));
+      for (const el of visRows) el.classList.toggle('last', el === visRows[visRows.length - 1]);
+    }
+    $('#l-empty').hidden = matched.length > 0;
+    // Findings: every finding of the studies that match.
+    let nf = 0;
+    for (const f of frows) { f.hidden = !on.has(byId.get(f.dataset.sid!)!); if (!f.hidden) nf++; }
+    $('#f-empty').hidden = nf > 0;
+  }
+
+  for (const k of KEYS) {
+    const g = $(`.fg[data-f="${k}"]`);
+    $<HTMLSelectElement>('select', g).addEventListener('change', (e) => {
+      const v = (e.target as HTMLSelectElement).value;
+      if (v) { SEL[k].add(v); refresh(); }
+    });
+    $('ul', g).addEventListener('click', (e) => {
+      const b = (e.target as Element).closest<HTMLElement>('[data-rm]');
+      if (b) { SEL[k].delete(b.dataset.rm!); refresh(); }
+    });
+  }
+  q.addEventListener('input', refresh);
+  $('#clear').addEventListener('click', () => { q.value = ''; KEYS.forEach((k) => SEL[k].clear()); refresh(); });
+
+  // Tabs; #findings opens on the Findings tab.
+  const tabs = $$('.tabs button');
+  const show = (p: string) => {
+    tabs.forEach((x) => x.setAttribute('aria-selected', String(x.dataset.p === p)));
+    $$('.panel').forEach((el) => (el.hidden = el.id !== 'p-' + p));
+  };
+  tabs.forEach((b) => b.addEventListener('click', () => {
+    show(b.dataset.p!);
+    history.replaceState(null, '', b.dataset.p === 'findings' ? '#findings' : location.pathname + location.search);
+  }));
+
+  // Rows open in place: a study shows its detail, a finding shows the source's words.
+  const toggler = (r: HTMLElement, open: (on: boolean) => void) => {
+    const toggle = (e: Event) => {
+      if ((e.target as Element).closest('a')) return;
+      const on = r.getAttribute('aria-expanded') !== 'true';
+      r.setAttribute('aria-expanded', String(on));
+      open(on);
+    };
+    r.addEventListener('click', toggle);
+    r.addEventListener('keydown', (e) => { if ((e.key === 'Enter' || e.key === ' ') && e.target === r) { e.preventDefault(); toggle(e); } });
+  };
+  for (const r of rows) toggler(r, (on) => (detail(r).hidden = !on));
+  for (const f of frows) {
+    const bq = document.getElementById(f.getAttribute('aria-controls')!);
+    toggler(f, (on) => { if (bq) bq.hidden = !on; });
+  }
+
+  // A link to a study (#id) opens it.
+  const target = location.hash.slice(1);
+  if (target === 'findings') show('findings');
+  else if (byId.has(target)) {
+    const r = byId.get(target)!;
+    r.setAttribute('aria-expanded', 'true');
+    detail(r).hidden = false;
+    r.scrollIntoView({ block: 'start' });
+  }
+
+  // Download CSV: the full file, or, with filters on, just the studies that match them.
+  function parseCsv(text: string): string[][] {
+    const out: string[][] = [];
+    let row: string[] = [], f = '', quoted = false;
+    for (let i = 0; i < text.length; i++) {
+      const ch = text[i];
+      if (quoted) {
+        if (ch === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else quoted = false; } else f += ch;
+      } else if (ch === '"') quoted = true;
+      else if (ch === ',') { row.push(f); f = ''; }
+      else if (ch === '\n' || ch === '\r') { if (ch === '\r' && text[i + 1] === '\n') i++; row.push(f); out.push(row); row = []; f = ''; }
+      else f += ch;
+    }
+    if (f || row.length) { row.push(f); out.push(row); }
+    return out;
+  }
+  const cell = (v: string) => (/[",\n\r]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v);
+  const dl = $<HTMLAnchorElement>('#dl');
+  dl.addEventListener('click', async (e) => {
+    if (matched.length === rows.length) return;
+    e.preventDefault();
+    try {
+      const [head, ...body] = parseCsv(await (await fetch(dl.href)).text());
+      const ids = new Set(matched.map((r) => r.dataset.id));
+      const keep = body.filter((r) => ids.has(r[0]));
+      const text = [head, ...keep].map((r) => r.map(cell).join(',')).join('\r\n') + '\r\n';
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([text], { type: 'text/csv;charset=utf-8' }));
+      a.download = 'edictai-research-filtered.csv';
+      document.body.append(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    } catch { location.href = dl.href; }
+  });
+
+  refresh();
+</script>

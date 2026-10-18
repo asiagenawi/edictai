@@ -180,6 +180,21 @@ export interface ResearchItem {
   classification: string;
   summary: string;
   sources: Source[];
+  /** Byline, in order. */
+  authors: string[];
+  educationLevels: string[];
+  topics: string[];
+  methods: string | null;
+  /** Jurisdiction ids the study covers. */
+  geography: string[];
+  findings: Finding[];
+}
+
+export interface Finding {
+  finding: string;
+  sourceUrl: string;
+  locator: string | null;
+  quote: string | null;
 }
 
 // ---------------------------------------------------------------------------
@@ -312,17 +327,39 @@ export function recordsForTopic(code: string): PolicyRecord[] {
   return records().filter((r) => r.topics.includes(code));
 }
 
+let _research: ResearchItem[] | undefined;
+/** Research items, newest first. */
 export function research(): ResearchItem[] {
+  if (_research) return _research;
   const srcs = sourcesById();
-  return table('research').map((r) => ({
-    id: r.id,
-    title: r.title,
-    publisher: r.publisher,
-    published: r.published,
-    classification: r.classification,
-    summary: r.summary,
-    sources: srcs.get(r.id) ?? [],
-  }));
+  const bySeq = (rows: Row[]) => [...rows].sort((a, b) => Number(a.seq) - Number(b.seq));
+  const auth = groupBy(bySeq(table('research_authors')), (r) => r.research_id);
+  const geo = groupBy(table('research_geography'), (r) => r.research_id);
+  const kf = groupBy(bySeq(table('research_findings')), (r) => r.research_id);
+  const tps = groupBy(table('record_topics'), (r) => r.record_id);
+  const lvls = groupBy(table('record_education_levels'), (r) => r.record_id);
+  return (_research = table('research')
+    .map((r) => ({
+      id: r.id,
+      title: r.title,
+      publisher: r.publisher,
+      published: r.published,
+      classification: r.classification,
+      summary: r.summary,
+      sources: srcs.get(r.id) ?? [],
+      authors: (auth.get(r.id) ?? []).map((a) => a.name),
+      educationLevels: (lvls.get(r.id) ?? []).map((l) => l.education_level),
+      topics: (tps.get(r.id) ?? []).map((t) => t.topic),
+      methods: orNull(r.methods),
+      geography: (geo.get(r.id) ?? []).map((g) => g.jurisdiction),
+      findings: (kf.get(r.id) ?? []).map((f) => ({
+        finding: f.finding,
+        sourceUrl: f.source_url,
+        locator: orNull(f.locator),
+        quote: orNull(f.quote),
+      })),
+    }))
+    .sort((a, b) => b.published.localeCompare(a.published) || a.title.localeCompare(b.title)));
 }
 
 let _provisionTypes: ProvisionType[] | undefined;
