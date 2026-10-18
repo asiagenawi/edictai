@@ -1,0 +1,75 @@
+---
+/**
+ * Opinion submission guidelines, with the pitch form beside them. The form posts to FormSubmit
+ * (lib/correction.ts), which emails it to the editors with the draft attached.
+ */
+import Base from '../../../layouts/Base.astro';
+import SiteHeader from '../../../components/SiteHeader.astro';
+import { url } from '../../../lib/data';
+import { TYPE_GLYPHS } from '../../../lib/articles';
+import '../../../styles/state.css';
+import '../../../styles/articles.css';
+---
+<Base title="Opinion submission guidelines · Edictai" description="How to submit an opinion essay on AI policy in K-12 and higher education to Edictai." bodyClass="sp">
+  <div class="wrap">
+    <SiteHeader current="articles" />
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={url('articles/')}>Articles</a><span>/</span><a href={url('articles/#opinion')}>Opinion</a><span>/</span><span aria-current="page">Submission guidelines</span></nav>
+    <div class="sp-head">
+      <span class="kind"><svg class="g" viewBox="0 0 12 12" aria-hidden="true" set:html={TYPE_GLYPHS.Opinion} />Opinion</span>
+      <h1>Opinion submission guidelines</h1>
+      <p class="dek">Edictai publishes opinion essays on artificial intelligence policy in K-12 and higher education. We welcome submissions from educators, students, researchers, administrators, policymakers and parents.</p>
+    </div>
+    <div class="sp-body">
+      <div class="guide">
+        <div class="gs"><h2><span>1</span>What we publish</h2><p>Essays that make a clear, well-supported argument about AI policy in schools or colleges, with priority for those that address a specific bill, rule, policy or study. We do not publish news reporting, academic papers, promotional content, or essays written on behalf of a company, vendor or campaign.</p></div>
+        <div class="gs"><h2><span>2</span>Length and sourcing</h2><p>Essays should run 800 to 1,500 words, with sources linked in the text and a biography of one or two sentences. Our editors verify every factual claim against Edictai’s records and the original documents.</p></div>
+        <div class="gs"><h2><span>3</span>Disclosure and exclusivity</h2><p>Disclose any affiliation, funding or financial interest relevant to your subject, and any use of generative AI. Submissions must be original and not published or under consideration elsewhere.</p></div>
+        <div class="gs"><h2><span>4</span>Editing and response</h2><p>Accepted essays are edited for clarity, length and style, and authors approve the final version. Essays are labelled Opinion and carry the author’s name and biography. We aim to respond within two weeks.</p></div>
+      </div>
+      <form class="pitch" id="pitch">
+        <h2>Submit a pitch</h2>
+        <div class="two">
+          <label>Full name<input name="Name" required autocomplete="name"></label>
+          <label>Email<input name="Email" type="email" required autocomplete="email"></label>
+        </div>
+        <label>Title and affiliation<input name="Title and affiliation"></label>
+        <label>Working title<input name="Working title"></label>
+        <label><span>Summary of your argument <i>up to 200 words</i></span><textarea name="Summary" rows="6"></textarea></label>
+        <label><span>Disclosures <i>conflicts of interest and use of AI</i></span><textarea name="Disclosures" rows="2"></textarea></label>
+        <label><span>Essay or draft <i>optional; Word or PDF</i></span><input name="attachment" type="file" accept=".doc,.docx,.pdf"></label>
+        <label class="ck"><input type="checkbox" name="Original work" value="Confirmed" required><span>I confirm this essay is my original work and is not under consideration elsewhere.</span></label>
+        <button class="btn primary" type="submit">Submit pitch</button>
+        <p class="fine" role="status">Your details are used only to respond to your submission.</p>
+      </form>
+    </div>
+  </div>
+</Base>
+
+<script>
+  import { sendForm } from '../../../lib/correction';
+  const form = document.getElementById('pitch') as HTMLFormElement;
+  const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+  const fine = form.querySelector<HTMLElement>('.fine')!;
+  const FINE = fine.textContent!;
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    const file = fd.get('attachment');
+    if (!(file instanceof File) || !file.size) fd.delete('attachment');
+    const title = String(fd.get('Working title') || '').trim() || String(fd.get('Name') || '').trim();
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    try {
+      await sendForm(`Opinion pitch: ${title}`, fd, String(fd.get('Email') || ''));
+      form.reset();
+      btn.textContent = 'Pitch sent';
+      fine.textContent = 'Thank you. An editor will reply by email.';
+      setTimeout(() => { btn.textContent = 'Submit pitch'; fine.textContent = FINE; }, 6000);
+    } catch {
+      btn.textContent = 'Submit pitch';
+      fine.textContent = 'Could not send. Please try again.';
+    } finally {
+      btn.disabled = false;
+    }
+  });
+</script>

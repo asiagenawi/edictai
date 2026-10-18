@@ -15,3 +15,17 @@ export async function send(subject: string, fields: Record<string, string>, repl
   const data = await res.json().catch(() => ({}));
   if (!res.ok || String(data.success) !== 'true') throw new Error(data.message || `HTTP ${res.status}`);
 }
+
+/**
+ * Send a form as multipart FormData, so a file input travels as an attachment (opinion pitches).
+ * Resolves when FormSubmit accepts it; rejects otherwise.
+ */
+export async function sendForm(subject: string, data: FormData, replyTo?: string): Promise<void> {
+  data.set('_subject', subject);
+  data.set('_template', 'table');
+  data.set('_captcha', 'false');
+  if (replyTo) data.set('_replyto', replyTo);
+  const res = await fetch(ENDPOINT, { method: 'POST', headers: { Accept: 'application/json' }, body: data });
+  const out = await res.json().catch(() => ({}));
+  if (!res.ok || String(out.success) !== 'true') throw new Error(out.message || `HTTP ${res.status}`);
+}

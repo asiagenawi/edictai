@@ -1,6 +1,136 @@
 ---
-import Plain from '../../layouts/Plain.astro';
+/**
+ * Articles: tabs by type, a filter rail, and a grid of tiles, each with a hand-drawn
+ * illustration seeded by the article's slug. The Opinion invitation sits at the end of All
+ * articles and across the top of the Opinion tab. Tiles are rendered at build time; the script
+ * only filters them and paints the drawings.
+ */
+import Base from '../../layouts/Base.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import FormDialog from '../../components/FormDialog.astro';
+import { url } from '../../lib/data';
+import { KINDS, PLURAL, TYPE_GLYPHS, articleFacets, articles, fullDate } from '../../lib/articles';
+import { sketchMap } from '../../lib/sketch-map';
+import '../../styles/state.css';
+import '../../styles/policies.css';
+import '../../styles/articles.css';
+
+const list = await articles();
+const facets = await articleFacets();
+const tabs = ['All', ...KINDS.filter((k) => k === 'Opinion' || list.some((a) => a.type === k))];
+const pitch = url('articles/submit/');
+const FILTERS = [['lv', 'Level', 'All levels'], ['tp', 'Topic', 'All topics'], ['j', 'Jurisdiction', 'All jurisdictions']] as const;
 ---
-<Plain title="Articles">
-  <p class="muted">No articles yet.</p>
-</Plain>
+<Base title="Articles · Edictai" description="Analysis, explainers and research digests on artificial intelligence policy in American education." bodyClass="sp pp ap">
+  <Fragment slot="head">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" />
+  </Fragment>
+  <div class="wrap">
+    <SiteHeader current="articles" />
+
+    <nav class="crumbs" aria-label="Breadcrumb"><span aria-current="page">Articles</span></nav>
+    <div class="ihead">
+      <div>
+        <h1>Articles</h1>
+        <p class="lede">Analysis, explainers and research digests on artificial intelligence policy in American education, with opinion from outside contributors. Every factual claim is sourced to the public record.</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="#contact" data-open="contact">Contact the editors</a>
+        <a class="btn primary" href={pitch}>Submit a pitch</a>
+      </div>
+    </div>
+
+    <div class="tabs" role="tablist" id="itabs">
+      {tabs.map((t, i) => <button role="tab" aria-selected={String(i === 0)} data-ty={t}>{t === 'All' ? 'All articles' : PLURAL[t as keyof typeof PLURAL]}</button>)}
+    </div>
+
+    <div class="body">
+      <nav class="rail" aria-label="Filter articles">
+        <div class="fg"><h3>Search</h3><input id="q" type="search" placeholder="Title or subject" aria-label="Search articles" /></div>
+        {FILTERS.map(([key, title, all]) => (
+          <div class="fg">
+            <h3>{title}</h3>
+            <label class="sr" for={`f-${key}`}>Choose a {title.toLowerCase()}</label>
+            <select id={`f-${key}`} class="dd" data-f={key}><option value="">{all}</option>{facets[key].map(([v, l]) => <option value={v}>{l}</option>)}</select>
+          </div>
+        ))}
+      </nav>
+
+      <main>
+        <div id="cards">
+          {list.map((a) => (
+            <a class="atile" href={a.href} data-ty={a.type} data-lv={a.levels.join('|')} data-tp={a.topics.join('|')} data-j={a.jurisdictions.join('|')}
+              data-q={`${a.data.title} ${a.data.dek} ${a.type}`.toLowerCase()}>
+              <div class="art-d"><svg class="dr" viewBox="0 0 240 200" role="img" aria-label={a.data.caption ?? `Illustration for ${a.data.title}`}
+                data-dr={a.drawing} data-slug={a.slug} data-fips={a.fips.join(' ')} data-note={a.data.sketch_note ?? ''}></svg></div>
+              <div class="tb">
+                <span class="ty"><svg class="g" viewBox="0 0 12 12" aria-hidden="true" set:html={TYPE_GLYPHS[a.type]} />{a.type}</span>
+                <h2>{a.data.title}</h2>
+                <span class="dt">{fullDate(a.data.published)}</span>
+              </div>
+            </a>
+          ))}
+          <a class="atile invite" id="invite" href={pitch}>
+            <div class="art-d"><svg class="dr" viewBox="0 0 240 200" aria-hidden="true" data-dr="op"></svg></div>
+            <div class="tb">
+              <span class="ty"><svg class="g" viewBox="0 0 12 12" aria-hidden="true" set:html={TYPE_GLYPHS.Opinion} />Opinion</span>
+              <h2>Write an opinion piece</h2>
+              <span class="dt">Submission guidelines</span>
+            </div>
+          </a>
+          <p class="empty wide" id="empty" hidden>No articles found.</p>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script id="map-data" type="application/json" set:html={JSON.stringify(sketchMap())} />
+  <FormDialog id="contact" title="Contact the editors" subject="Message to the editors" fields={[{ name: 'subject', label: 'Subject', required: true }, { name: 'message', label: 'Message', kind: 'textarea', required: true }]} />
+</Base>
+
+<script>
+  import { paintDrawings } from '../../components/article-drawings';
+  const $ = <T extends Element = HTMLElement>(s: string) => document.querySelector<T>(s)!;
+  const $$ = <T extends Element = HTMLElement>(s: string) => [...document.querySelectorAll<T>(s)];
+  const states = JSON.parse($('#map-data').textContent!);
+  const cards = $('#cards'), invite = $('#invite'), empty = $('#empty');
+  const tiles = $$<HTMLAnchorElement>('#cards .atile:not(.invite)');
+  const q = $<HTMLInputElement>('#q');
+  const selects = $$<HTMLSelectElement>('select[data-f]');
+  const tabs = $$<HTMLButtonElement>('#itabs button');
+  let TY = 'All';
+
+  function refresh() {
+    const term = q.value.trim().toLowerCase();
+    let shown = 0;
+    for (const t of tiles) {
+      const ok = (TY === 'All' || t.dataset.ty === TY) && (!term || t.dataset.q!.includes(term))
+        && selects.every((s) => !s.value || (t.dataset[s.dataset.f!] ?? '').split('|').includes(s.value));
+      t.hidden = !ok;
+      if (ok) shown++;
+    }
+    // On the Opinion tab the invitation runs across the full width, above the results;
+    // on All articles it closes the grid, except while a search is typed or nothing matches.
+    const op = TY === 'Opinion';
+    invite.classList.toggle('full', op);
+    if (op) cards.prepend(invite); else cards.insertBefore(invite, empty);
+    invite.hidden = !op && (TY !== 'All' || !!term || shown === 0);
+    empty.hidden = shown > 0;
+    for (const b of tabs) b.setAttribute('aria-selected', String(b.dataset.ty === TY));
+  }
+
+  for (const b of tabs) b.addEventListener('click', () => {
+    TY = b.dataset.ty!;
+    history.replaceState(null, '', TY === 'All' ? location.pathname : '#' + TY.toLowerCase().replace(/ /g, '-'));
+    refresh();
+  });
+  q.addEventListener('input', refresh);
+  selects.forEach((s) => s.addEventListener('change', refresh));
+
+  // articles/#opinion opens on that tab.
+  const fromHash = tabs.find((b) => '#' + b.dataset.ty!.toLowerCase().replace(/ /g, '-') === location.hash);
+  if (fromHash) TY = fromHash.dataset.ty!;
+  refresh();
+  const paint = () => paintDrawings(states);
+  // The handwriting is live text; wait briefly for Caveat so it is measured in the right face.
+  document.fonts.load('500 14px Caveat').then(paint, paint);
+</script>

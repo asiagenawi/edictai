@@ -1,0 +1,132 @@
+---
+/**
+ * One article, in one centred column: label, headline, dek and byline; key points; the text,
+ * with red note numbers that open the note beside the text; then the numbered notes and a
+ * short note on how the article was made. Notes are resolved from the data (lib/articles.ts).
+ */
+import Base from '../../layouts/Base.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import { records, url } from '../../lib/data';
+import { TYPE_GLYPHS, articles, fullDate, type Article, type Note } from '../../lib/articles';
+import { longDate } from '../../lib/state-page';
+import '../../styles/state.css';
+import '../../styles/articles.css';
+
+export async function getStaticPaths() {
+  return (await articles()).map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props as { a: Article };
+const d = a.data;
+const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+// Note markers: "... so [1]." becomes a red superscript link to the note.
+const para = (t: string) => esc(t).replace(/ ?\[(\d+)\]/g, (_, n) => `<a class="cm" href="#nt-${n}" data-n="${n}" aria-label="Note ${n}">${n}</a>`);
+const noteHtml = (n: Note) => {
+  const head = n.kind === 'record'
+    ? `${esc(n.jurisdiction)}, ${n.identifier ? esc(n.identifier) + ', ' : ''}<i>${esc(n.title)}</i> (${esc(n.status)}).`
+    : `<i>${esc(n.title)}</i>, ${esc(n.publisher)}, ${esc(longDate(n.published))}.`;
+  return `<span class="nh">${head}</span> <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.locator || 'Source')}</a>.${n.quote ? `<q>${esc(n.quote)}</q>` : ''}`;
+};
+let tableNo = 0;
+const blocks = a.body.map((b) => ('table' in b ? { ...b, n: ++tableNo } : b));
+const idents = new Map(records().map((r) => [r.id, r.identifier ?? '']));
+const cellText = (c: string | { record: string; text?: string }) => (typeof c === 'string' ? c : c.text ?? idents.get(c.record) ?? '');
+
+const by = d.author?.name ?? 'Edictai';
+const pageUrl = new URL(a.href, Astro.site).href;
+const [y, m, day] = d.published.split('-').map(Number);
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const reference = `${by}. (${y}, ${MONTHS[m - 1]} ${day}). ${d.title}. Edictai. ${pageUrl}`;
+---
+<Base title={`${d.title} · Edictai`} description={d.dek} bodyClass="sp">
+  <div class="wrap">
+    <SiteHeader current="articles" />
+    <article class="ar" id="ar">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href={url('articles/')}>Articles</a><span>/</span><span aria-current="page">{a.type}</span></nav>
+      <header class="ar-h">
+        <span class="kind"><svg class="g" viewBox="0 0 12 12" aria-hidden="true" set:html={TYPE_GLYPHS[a.type]} />{a.type}</span>
+        <h1>{d.title}</h1>
+        <p class="dek">{d.dek}</p>
+        <div class="by">
+          <span>By <b>{by}</b></span><span>{fullDate(d.published)}</span><span>Data as of {d.data_release}</span>
+          <span class="tools"><button type="button" id="cite" data-ref={reference}>Cite</button><a id="dldata" href={url(`articles/${a.slug}/sources.csv`)} download={`edictai-${a.slug}-sources.csv`}>Download data</a></span>
+        </div>
+      </header>
+      <div class="ar-b">
+        <section class="kp"><h2>Key points</h2><ul>{d.brief.map((x) => <li>{x}</li>)}</ul></section>
+        {blocks.map((b) => 'p' in b ? <p set:html={para(b.p)} />
+          : 'h' in b ? <h2>{b.h}</h2>
+          : (
+            <figure class="tbl">
+              <figcaption><b>Table {b.n}.</b> {b.table.title}</figcaption>
+              <div class="ovx"><table>
+                <thead><tr>{b.table.columns.map((c) => <th scope="col">{c}</th>)}</tr></thead>
+                <tbody>{b.table.rows.map((r) => <tr>{r.map((c) => <td class={typeof c === 'string' ? undefined : 'id'}>{cellText(c)}</td>)}</tr>)}</tbody>
+              </table></div>
+              <p class="src">Source: {b.table.source}</p>
+            </figure>
+          ))}
+        {d.author && (
+          <section class="about"><h2>About the author</h2><p>{d.author.bio}</p><p>The views expressed are the author’s own.</p></section>
+        )}
+        <section class="notes"><h2>Notes</h2><ol>{a.notes.map((n, i) => <li id={`nt-${i + 1}`} set:html={noteHtml(n)} />)}</ol></section>
+        <section class="about">
+          <h2>About this article</h2>
+          {d.author
+            ? <p>Opinion pieces are written by outside contributors and edited by Edictai. Factual claims are checked against Edictai’s records and the original documents.</p>
+            : <p>Drafted with AI assistance from Edictai’s records and research library, and reviewed by Edictai before publication. Descriptions are as of the data release named above.</p>}
+          <p>Corrections: none.</p>
+        </section>
+      </div>
+      <div class="pop" id="pop" hidden></div>
+    </article>
+  </div>
+</Base>
+
+<script>
+  const ar = document.getElementById('ar')!;
+  const pop = document.getElementById('pop')!;
+  let cur: Element | null = null;
+  const close = () => { pop.hidden = true; cur = null; };
+  /** Show the card under the element, inside the article's column. */
+  function place(el: Element) {
+    const r = el.getBoundingClientRect(), host = ar.getBoundingClientRect(), w = Math.min(380, host.width);
+    pop.style.width = w + 'px';
+    pop.style.left = Math.max(0, Math.min(r.left - host.left - 20, host.width - w)) + 'px';
+    pop.style.top = r.bottom - host.top + 8 + 'px';
+  }
+
+  // A note number opens the note in a small card beside the text; the card links to the source.
+  ar.addEventListener('click', (e) => {
+    const t = e.target as Element;
+    const m = t.closest<HTMLAnchorElement>('.cm');
+    if (!m) { if (!t.closest('.pop') && !t.closest('#cite')) close(); return; }
+    e.preventDefault();
+    if (cur === m) { close(); return; }
+    cur = m;
+    const n = m.dataset.n!;
+    pop.className = 'pop';
+    pop.innerHTML = `<b>${n}</b><div>${document.getElementById('nt-' + n)!.innerHTML}</div>`;
+    pop.hidden = false;
+    place(m);
+  });
+  addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+
+  // Cite copies the reference; where the clipboard is refused, it shows the reference selected.
+  const cite = document.getElementById('cite')!;
+  cite.addEventListener('click', () => {
+    const ref = cite.dataset.ref!;
+    const done = (label: string) => { cite.textContent = label; setTimeout(() => (cite.textContent = 'Cite'), 2000); };
+    const fallback = () => {
+      cur = cite;
+      pop.className = 'pop cite';
+      pop.innerHTML = '<p></p>';
+      pop.firstElementChild!.textContent = ref;
+      pop.hidden = false;
+      place(cite);
+      getSelection()?.selectAllChildren(pop.firstElementChild!);
+      done('Selected');
+    };
+    if (navigator.clipboard) navigator.clipboard.writeText(ref).then(() => done('Copied'), fallback);
+    else fallback();
+  });
+</script>
