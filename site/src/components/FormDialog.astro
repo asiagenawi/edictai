@@ -1,0 +1,103 @@
+---
+/**
+ * A reader form that opens over the page from a title button marked data-open={id}: Report a
+ * correction, Suggest a study, Contact the editors. Name and email come first, then the form's own
+ * fields. Send hands it to FormSubmit (lib/correction.ts), which emails it to the editors.
+ * A field with prefill="open-records" is filled with the records the reader has open.
+ */
+export interface Field {
+  name: string;
+  label: string;
+  hint?: string;
+  kind?: 'text' | 'url' | 'textarea';
+  required?: boolean;
+  prefill?: 'open-records';
+}
+interface Props { id: string; title: string; subject: string; context?: string; fields: Field[] }
+const { id, title, subject, context, fields } = Astro.props;
+---
+<dialog class="cf" id={id} data-subject={subject} data-context={context ?? ''} aria-labelledby={`${id}-h`}>
+  <form>
+    <div class="cf-top"><h2 id={`${id}-h`}>{title}</h2><button type="button" class="cf-x" aria-label="Close">×</button></div>
+    {context && <p class="cf-page">{context}</p>}
+    <div class="cf-two">
+      <label>Name<input name="name" autocomplete="name" autofocus></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+    </div>
+    {fields.map((f) => (
+      <label data-label={f.label}>
+        {f.hint ? <span>{f.label} <i>{f.hint}</i></span> : f.label}
+        {f.kind === 'textarea'
+          ? <textarea name={f.name} rows="4" required={f.required} />
+          : <input name={f.name} type={f.kind === 'url' ? 'url' : 'text'} required={f.required} placeholder={f.kind === 'url' ? 'https://' : undefined} data-prefill={f.prefill} />}
+      </label>
+    ))}
+    <div class="cf-act"><button class="btn primary" type="submit">Send</button><span class="cf-msg" role="status"></span></div>
+  </form>
+</dialog>
+
+<script>
+  import { send } from '../lib/correction';
+  for (const dlg of document.querySelectorAll<HTMLDialogElement>('dialog.cf:not([data-ready])')) {
+    dlg.dataset.ready = '';
+    const form = dlg.querySelector('form')!;
+    const msg = dlg.querySelector<HTMLElement>('.cf-msg')!;
+    const btn = dlg.querySelector<HTMLButtonElement>('button[type=submit]')!;
+    document.querySelectorAll<HTMLElement>(`[data-open="${dlg.id}"]`).forEach((b) => b.addEventListener('click', (e) => {
+      e.preventDefault();
+      const pre = form.querySelector<HTMLInputElement>('[data-prefill="open-records"]');
+      if (pre) {
+        pre.value = [...document.querySelectorAll<HTMLElement>('.reg-row[aria-expanded="true"]')]
+          .map((r) => r.querySelector('.ti .mono')?.textContent || r.querySelector('.nm')?.textContent || r.dataset.id || r.id)
+          .join('; ');
+      }
+      dlg.showModal();
+    }));
+    dlg.querySelector('.cf-x')!.addEventListener('click', () => dlg.close());
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const v = (k: string) => ((form.elements.namedItem(k) as HTMLInputElement | null)?.value || '').trim();
+      const fields: Record<string, string> = {};
+      if (dlg.dataset.context) fields.Page = `${dlg.dataset.context} (${location.href.split('#')[0]})`;
+      for (const l of form.querySelectorAll<HTMLElement>('label[data-label]')) {
+        const el = l.querySelector<HTMLInputElement>('input,textarea')!;
+        fields[l.dataset.label!] = el.value.trim() || 'not given';
+      }
+      fields.Name = v('name') || 'not given';
+      fields.Email = v('email');
+      const subject = dlg.dataset.context ? `${dlg.dataset.subject}: ${dlg.dataset.context}` : dlg.dataset.subject!;
+      btn.disabled = true;
+      msg.textContent = 'Sending…';
+      try {
+        await send(subject, fields, v('email'));
+        form.reset();
+        msg.textContent = 'Sent. Thank you.';
+        setTimeout(() => { dlg.close(); msg.textContent = ''; }, 1800);
+      } catch {
+        msg.textContent = 'Could not send. Please try again.';
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  }
+</script>
+
+<style is:global>
+  .cf{width:min(520px,calc(100vw - 32px));padding:0;border:1px solid var(--ink);border-radius:3px;background:var(--paper);color:var(--ink)}
+  .cf::backdrop{background:rgba(22,23,26,.35)}
+  .cf form{display:grid;gap:14px;padding:24px 26px 22px}
+  .cf-top{display:flex;align-items:center;justify-content:space-between}
+  .cf h2{margin:0;font-family:var(--serif);font-weight:500;font-size:24px}
+  .cf-x{background:none;border:0;font-size:24px;line-height:1;color:var(--ink-2);cursor:pointer;padding:0 2px}
+  .cf-page{margin:-8px 0 0;font-size:13px;color:var(--ink-2)}
+  .cf-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .cf label{display:grid;gap:6px;font-size:12.5px;font-weight:500}
+  .cf label i{font-style:normal;font-weight:400;color:var(--ink-2)}
+  .cf input,.cf textarea{font:inherit;font-weight:400;font-size:14px;color:var(--ink);border:1px solid #cfd0cc;border-radius:3px;padding:9px 10px;background:var(--paper);min-width:0}
+  .cf textarea{resize:vertical;line-height:1.5}
+  .cf input:focus,.cf textarea:focus{outline:none;border-color:var(--ink)}
+  .cf-act{display:flex;align-items:center;gap:14px;font-size:13px;color:var(--ink)}
+  .cf-act .btn{height:38px;padding:0 26px;font-size:14px}
+  @media (max-width:520px){.cf-two{grid-template-columns:minmax(0,1fr)}}
+</style>

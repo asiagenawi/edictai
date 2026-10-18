@@ -1,10 +1,9 @@
 /**
  * Reader forms (corrections, study suggestions, messages, pitches) are delivered by FormSubmit,
  * which emails each submission to the editors; the site is static and has no server of its own.
- * The address must be confirmed once: FormSubmit emails a link on the first submission.
+ * The endpoint uses FormSubmit's alias for the editors' address, so the address is not in the page.
  */
-export const EDITOR_EMAIL = 'arg2282@columbia.edu';
-const ENDPOINT = `https://formsubmit.co/ajax/${EDITOR_EMAIL}`;
+const ENDPOINT = 'https://formsubmit.co/ajax/b1bccfcbf750634b4c127e5f68220bb2';
 
 /** Send one submission. Resolves when FormSubmit accepts it; rejects otherwise. */
 export async function send(subject: string, fields: Record<string, string>, replyTo?: string): Promise<void> {

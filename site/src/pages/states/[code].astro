@@ -8,7 +8,7 @@
 import Base from '../../layouts/Base.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import { dataAsOf, jurisdictions, url, type State } from '../../lib/data';
-import CorrectionForm from '../../components/CorrectionForm.astro';
+import FormDialog from '../../components/FormDialog.astro';
 import { LEVELS, longDate, statePage } from '../../lib/state-page';
 import { mosaicSvg } from '../../lib/mosaic';
 import { stateOutline } from '../../lib/usmap';
@@ -101,7 +101,7 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
         </div>
       </div>
       <div class="actions">
-        <a class="btn" href="#correction" data-open="cf">Report a correction</a>
+        <a class="btn" href="#correction" data-open="fix">Report a correction</a>
         <a class="btn primary" href={csvPath} download>Download CSV</a>
       </div>
     </div>
@@ -242,7 +242,7 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
       </main>
     </div>
   </div>
-  <CorrectionForm page={state.name} />
+  <FormDialog id="fix" title="Report a correction" subject="Correction" context={state.name} fields={[{ name: 'record', label: 'Record', hint: 'bill number or title', prefill: 'open-records' }, { name: 'change', label: 'What should change', kind: 'textarea', required: true }, { name: 'source', label: 'Source', hint: 'link to the document that shows it', kind: 'url' }]} />
 </Base>
 
 <script>
