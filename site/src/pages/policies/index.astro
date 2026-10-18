@@ -11,6 +11,7 @@ import Base from '../../layouts/Base.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import { jurisdictions, provisionTypes, records, topics, url } from '../../lib/data';
 import { LEVELS, registerRows } from '../../lib/state-page';
+import CorrectionForm from '../../components/CorrectionForm.astro';
 import { PALETTE, usMap } from '../../lib/usmap';
 import '../../styles/state.css';
 import '../../styles/policies.css';
@@ -107,6 +108,7 @@ const csvPath = url('policies/records.csv');
         <p class="lede">Legislation, executive orders, guidance and policy on artificial intelligence in American schools and colleges, newest first.</p>
       </div>
       <div class="actions">
+        <a class="btn" href="#correction" data-open="cf">Report a correction</a>
         <a class="btn primary" id="dl" href={csvPath} download="edictai-records.csv" title="Downloads the records that match your filters">Download CSV</a>
       </div>
     </div>
@@ -208,6 +210,7 @@ const csvPath = url('policies/records.csv');
     </div>
   </div>
   <script id="pp-data" type="application/json" set:html={JSON.stringify(facets)} />
+  <CorrectionForm page="Bills & policies" />
 </Base>
 
 <script>
@@ -378,6 +381,7 @@ const csvPath = url('policies/records.csv');
       setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     } catch { location.href = dl.href; }
   });
+
 
   refresh();
 </script>

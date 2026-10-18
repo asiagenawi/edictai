@@ -1,0 +1,71 @@
+---
+/**
+ * Report a correction: a form that opens over the page from the title's button. It names the
+ * page and any records the reader has open; Send composes an email to the editors in the
+ * reader's own mail program, since the site is static.
+ */
+interface Props { page: string }
+const { page } = Astro.props;
+---
+<dialog class="cf" id="cf" data-page={page} aria-labelledby="cf-h">
+  <form method="dialog" id="cf-form">
+    <div class="cf-top"><h2 id="cf-h">Report a correction</h2><button type="button" class="cf-x" id="cf-x" aria-label="Close">×</button></div>
+    <p class="cf-page">{page}</p>
+    <div class="cf-two">
+      <label>Name<input name="name" autocomplete="name" autofocus></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+    </div>
+    <label><span>Record <i>bill number or title</i></span><input name="record" id="cf-record"></label>
+    <label>What should change<textarea name="change" rows="4" required></textarea></label>
+    <label><span>Source <i>link to the document that shows it</i></span><input name="source" type="url" placeholder="https://"></label>
+    <div class="cf-act"><button class="btn primary" type="submit">Send</button><span>Opens an email to the editors with this filled in.</span></div>
+  </form>
+</dialog>
+
+<script>
+  import { EDITOR_EMAIL } from '../lib/correction';
+  const dlg = document.getElementById('cf') as HTMLDialogElement;
+  const form = document.getElementById('cf-form') as HTMLFormElement;
+  // Open from the title button, naming the records the reader has open.
+  document.querySelectorAll<HTMLElement>('[data-open="cf"]').forEach((b) => b.addEventListener('click', (e) => {
+    e.preventDefault();
+    const open = [...document.querySelectorAll<HTMLElement>('.reg-row[aria-expanded="true"]')]
+      .map((r) => r.querySelector('.ti .mono')?.textContent || r.querySelector('.nm')?.textContent || r.dataset.id || r.id);
+    (document.getElementById('cf-record') as HTMLInputElement).value = open.join('; ');
+    dlg.showModal();
+  }));
+  document.getElementById('cf-x')!.addEventListener('click', () => dlg.close());
+  dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const v = (k: string) => ((form.elements.namedItem(k) as HTMLInputElement).value || '').trim();
+    const body = [
+      `Page: ${dlg.dataset.page} (${location.href.split('#')[0]})`,
+      `Record: ${v('record') || 'not given'}`,
+      '', 'What should change:', v('change'),
+      '', `Source: ${v('source') || 'not given'}`,
+      '', `From: ${v('name') || 'not given'} <${v('email')}>`,
+    ].join('\n');
+    location.href = `mailto:${EDITOR_EMAIL}?subject=${encodeURIComponent(`Correction: ${dlg.dataset.page}`)}&body=${encodeURIComponent(body)}`;
+    dlg.close();
+  });
+</script>
+
+<style is:global>
+  .cf{width:min(520px,calc(100vw - 32px));padding:0;border:1px solid var(--ink);border-radius:3px;background:var(--paper);color:var(--ink)}
+  .cf::backdrop{background:rgba(22,23,26,.35)}
+  .cf form{display:grid;gap:14px;padding:24px 26px 22px}
+  .cf-top{display:flex;align-items:center;justify-content:space-between}
+  .cf h2{margin:0;font-family:var(--serif);font-weight:500;font-size:24px}
+  .cf-x{background:none;border:0;font-size:24px;line-height:1;color:var(--ink-2);cursor:pointer;padding:0 2px}
+  .cf-page{margin:-8px 0 0;font-size:13px;color:var(--ink-2)}
+  .cf-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .cf label{display:grid;gap:6px;font-size:12.5px;font-weight:500}
+  .cf label i{font-style:normal;font-weight:400;color:var(--ink-2)}
+  .cf input,.cf textarea{font:inherit;font-weight:400;font-size:14px;color:var(--ink);border:1px solid #cfd0cc;border-radius:3px;padding:9px 10px;background:var(--paper);min-width:0}
+  .cf textarea{resize:vertical;line-height:1.5}
+  .cf input:focus,.cf textarea:focus{outline:none;border-color:var(--ink)}
+  .cf-act{display:flex;align-items:center;gap:14px;font-size:12.5px;color:var(--ink-2)}
+  .cf-act .btn{height:38px;padding:0 26px;font-size:14px}
+  @media (max-width:520px){.cf-two{grid-template-columns:minmax(0,1fr)}}
+</style>
