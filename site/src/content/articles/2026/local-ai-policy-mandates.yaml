@@ -1,48 +1,59 @@
 # Analysis. Each [n] in the text is a note below; notes name a record by its id, and the
 # jurisdiction, identifier, title, status, quote and link are read from the data at build time.
-title: Where schools must write their own AI policy
-dek: Seven states have passed laws, and one state board has adopted a rule, requiring school districts to adopt a policy on artificial intelligence. Most tie that policy to a model or guidance the state writes first.
+title: Which states require school districts to adopt an AI policy
+dek: Laws in eight states now require every school district to adopt its own policy on artificial intelligence, and Florida does the same by board rule. Five of the eight laws passed in 2026, and most build the local policy on a model or guidance the state writes first.
 type: Analysis
 published: "2026-10-18"
 data_release: October 2026
 caption: States with a law, rule or system policy requiring local AI policies, as recorded by Edictai in October 2026.
 sketch_note: must adopt a policy
 brief:
-  - Seven states have laws requiring each school district to adopt its own AI policy; Florida does the same by State Board rule.
-  - Five of the seven laws passed in the 2026 sessions.
-  - Most build the local policy on a model, framework or guidance the state writes first.
+  - Tennessee, Arkansas, Ohio, Utah, Idaho, Virginia, Oklahoma and Maryland have laws requiring each school district to adopt an AI policy. Florida's State Board of Education requires it by rule.
+  - Five of the eight laws passed in the 2026 sessions.
+  - Most tie the local policy to a model, framework or guidance the state must write first. Tennessee, Arkansas and Oklahoma set the content in the statute.
+  - At least six failed bills would have added similar requirements, and more are pending.
 body:
-  - p: When a state wants rules on AI in classrooms but does not want to write one rule for every school, it can require each district to adopt a policy of its own. As of October 2026, Edictai's records include laws in seven states that do this for public schools, one state board rule that does the same, and requirements in four states that reach public colleges and universities.
-  - h: The first laws
-  - p: "Tennessee was first. Its 2024 law required local boards of education and public charter schools to adopt a policy on AI for instruction and assignments in time for the 2024-25 school year, and to report each July 1 that they had done so [1]. Ohio followed through its budget: the 2026-27 operating appropriations act requires every school district, community school and STEM school to adopt a policy on AI by July 1, 2026, and lets schools adopt the state education department's model policy [2]."
+  - p: "A state that wants rules on AI in classrooms has two broad choices. It can write the rules itself, or it can require each school district to adopt a policy of its own. As of October 2026, Edictai's records show eight states that have taken the second route by statute for public schools, one that has done so by board rule, and several requirements that reach public colleges and universities."
+  - h: The early laws
+  - p: "Tennessee was first. Its 2024 law requires local boards of education to adopt a policy on AI use by students, teachers and staff for instruction and assignments, in place by the 2024-25 school year, and to report compliance to the state each July 1 [1]."
+  - p: "Arkansas followed in 2025 with a broader law. It requires every public entity, a term that includes school districts, open-enrollment charter schools and public colleges, to create a policy defining the authorized use of AI and automated decision tools and to train employees on it [2]."
+  - p: "Ohio acted through its 2026-27 budget. The law required the state education department to write a model policy by December 31, 2025, and requires every district, community school and STEM school to adopt a policy by July 1, 2026 [3]."
   - h: The 2026 sessions
-  - p: "Five more states passed such laws in 2026. Utah requires each local education agency to adopt a policy based on a state model, submit it to the state board, train staff on it and review it at least every two years; an agency that adopts nothing is held to the model [3]. Idaho requires every district and public charter school to adopt a policy on generative AI use by students and employees, aligned with the state framework [4]."
-  - p: Virginia passed matching House and Senate bills requiring each school board to establish and enforce policies consistent with guidance the Department of Education must write [5]. Oklahoma's Responsible Technology in Schools Act requires each district board to adopt a policy before the 2027-28 school year covering oversight, permitted and prohibited uses, data protection, transparency and periodic review [6]. Maryland's Artificial Intelligence Ready Schools Act requires each local school system to have a policy aligned with state guidance within 120 days of the guidance's release [7].
+  - p: "Five more states passed such laws in 2026. Utah requires each local education agency to adopt a policy based on a state model, submit it to the state board, train staff on it and review it at least every two years. An agency that adopts nothing is held to the model [4]. Idaho requires every district and public charter school to adopt a policy on generative AI use by students and employees, aligned with a state framework [5]."
+  - p: "Virginia passed matching House and Senate bills requiring each school board to establish and enforce policies consistent with guidance the Department of Education must write [6]. Oklahoma's Responsible Technology in Schools Act requires each district board to adopt a policy before the 2027-28 school year [7]. Maryland's Artificial Intelligence Ready Schools Act requires each local school system to have a policy aligned with state guidance within 120 days of the guidance's release [8]."
   - table:
       title: State requirements for district AI policies
       source: Edictai records, October 2026.
       columns: [State, Instrument, Measure, Deadline for districts, Policy built on]
       rows:
-        - [Tennessee, Law, { record: us-tn-2023-2024-sb-1711 }, 2024-25 school year, Set in the statute]
-        - [Ohio, Law (budget), { record: us-oh-2025-2026-hb-96 }, 1 Jul 2026, "State model, optional"]
-        - [Utah, Law, { record: us-ut-2026-hb-273 }, Not set in the provision, State model]
-        - [Idaho, Law, { record: us-id-2026-s-1227 }, Not set in the provision, State framework]
-        - [Virginia, Law, { record: us-va-2026-hb-1186 }, Not set in the provision, Department guidance]
-        - [Oklahoma, Law, { record: us-ok-2025-2026-sb-1734 }, Before 2027-28 school year, Set in the statute]
-        - [Maryland, Law, { record: us-md-2026-sb-720 }, 120 days after state guidance, State guidance]
+        - [Tennessee, Law (2024), { record: us-tn-2023-2024-sb-1711 }, 2024-25 school year, Set in the statute]
+        - [Arkansas, Law (2025), { record: us-ar-2025-hb-1958 }, Not set in the provision, Set in the statute]
+        - [Ohio, Law (2025 budget), { record: us-oh-2025-2026-hb-96 }, 1 Jul 2026, "State model, optional"]
+        - [Utah, Law (2026), { record: us-ut-2026-hb-273 }, Not set in the provision, State model]
+        - [Idaho, Law (2026), { record: us-id-2026-s-1227 }, Not set in the provision, State framework]
+        - [Virginia, Law (2026), { record: us-va-2026-hb-1186 }, Not set in the provision, Department guidance]
+        - [Oklahoma, Law (2026), { record: us-ok-2025-2026-sb-1734 }, Before 2027-28 school year, Set in the statute]
+        - [Maryland, Law (2026), { record: us-md-2026-sb-720 }, 120 days after state guidance, State guidance]
         # A State Board rule has no bill number; its rule number is the start of the record's title.
-        - [Florida, Board rule, { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, text: Rule 6A-1.0957 }, 1 Jul 2027, Internet safety policy]
+        - [Florida, Board rule (2026), { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, text: Rule 6A-1.0957 }, 1 Jul 2027, Internet safety policy]
   - h: By rule rather than statute
-  - p: Florida's requirement comes from its State Board of Education rather than a statute. An amendment to the state's internet safety rule requires each district school board and charter school governing board to amend its internet safety policy to address AI instructional tools by July 1, 2027 [8].
+  - p: "Florida's requirement comes from its State Board of Education. An amendment to the state's internet safety rule, adopted in September 2026, requires each district school board and charter school governing board to amend its internet safety policy to address AI instructional tools by July 1, 2027 [9]."
+  - h: Narrower requirements
+  - p: "Two other laws require a local policy on one specific use of AI. Alabama's 2024 law directs the State Board of Education to require each local board to adopt a student discipline and education policy on private images, and that policy must prohibit explicit images generated with AI [10]. Utah's 2026 school security law bars students from using AI glasses during class and requires each local education agency to set a policy on exceptions, such as emergencies and medical needs [11]."
   - h: Colleges and universities
-  - p: "Tennessee's law also reached higher education: the University of Tennessee board, the Board of Regents and each state university board had to adopt a policy by July 1, 2025 [1]. Elsewhere, systems have acted on their own. The University System of Georgia's Board of Regents requires every institution to adopt policies or procedures on AI in academic contexts [9]. SUNY requires its campuses to publish or update AI policies by December 31, 2026 [10]. Florida's State Board rules extend the policy requirement to Florida College System institutions [11]."
+  - p: "Tennessee's 2024 law also reached higher education. The University of Tennessee board, the Board of Regents and each state university board had to adopt an AI policy by July 1, 2025 [12]. Arkansas's public-entity law covers public colleges and universities as well [2]. Maryland's 2024 AI Governance Act requires its public senior higher education institutions and Baltimore City Community College to adopt AI policies compatible with the state's own [13]."
+  - p: "Some systems have acted without a statute. The University System of Georgia's Board of Regents requires every institution to adopt policies or procedures on AI in academic contexts [14]. SUNY requires its institutions to publish or update AI policies by December 31, 2026 [15]. Florida's September 2026 State Board rules extend the policy requirement to Florida College System institutions [16]."
   - h: Bills that did not pass
-  - p: Three similar bills failed. Indiana's 2025 bill would have required districts and charter schools to adopt, post and communicate an AI policy to students [12]. Hawaii's 2026 bill would have had each public school write one with parents and the local community [13]. West Virginia's 2026 bill would have required county boards to adopt a policy based on a state model [14].
+  - p: "At least six similar bills failed. Indiana's 2025 bill would have required districts and charter schools to adopt, post and communicate an AI policy to students [17]. Hawaii's 2026 bill would have had each public school write one with parents and the local community [18]. West Virginia's 2026 bill would have required county boards to adopt a policy based on a state model [19]."
+  - p: "Arizona's 2026 bill would have required district and charter boards to adopt policies on detecting and preventing unauthorized student use of AI, with a human reviewing any flagged assignment [20]. North Carolina's House bill on social media and AI safety would have required local boards to adopt AI use policies [21]. A Florida bill would have written AI policies into district codes of student conduct before the State Board acted by rule [22]."
+  - h: Still pending
+  - p: "Several bills remain open. An Illinois bill that has passed one chamber would require each school board to adopt an AI policy by the 2027-28 school year that bars teachers from using AI to assign grades for tasks requiring professional judgment [23]. A Pennsylvania bill would require every school entity and nonpublic school to adopt a policy by the same school year [24]. An Iowa bill would cover school districts, community colleges and Board of Regents institutions [25]."
   - h: What the laws leave to districts
-  - p: Most of these laws pair the requirement with something the state writes first. Utah and the failed West Virginia bill build on a model policy; Virginia and Maryland on department guidance; Idaho on a state framework; Ohio offers a model districts may adopt. Tennessee and Oklahoma set the subjects or the purpose of the policy in the statute itself.
+  - p: "Most of these laws pair the requirement with something the state writes first. Utah, Ohio and the failed West Virginia bill rely on a model policy; Virginia and Maryland on department guidance; Idaho on a state framework. Tennessee, Arkansas and Oklahoma set the subject or required content of the policy in the statute itself, and Oklahoma's law adds statewide rules on educator review, parent notice and opt-outs that every district policy must meet [7]."
 # provision: which of the record's provisions (from 0) supplies the locator and quote; the first if omitted.
 notes:
   - record: us-tn-2023-2024-sb-1711
+  - record: us-ar-2025-hb-1958
   - { record: us-oh-2025-2026-hb-96, provision: 1 }
   - { record: us-ut-2026-hb-273, provision: 1 }
   - { record: us-id-2026-s-1227, provision: 2 }
@@ -50,9 +61,19 @@ notes:
   - { record: us-ok-2025-2026-sb-1734, provision: 5 }
   - { record: us-md-2026-sb-720, provision: 1 }
   - record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools
+  - { record: us-al-2024-hb-168, provision: 1 }
+  - { record: us-ut-2026-hb-44, provision: 1 }
+  - { record: us-tn-2023-2024-sb-1711, provision: 2 }
+  - record: us-md-2024-sb-818
   - record: us-ga-usg-policy-6-28-ai-academic-contexts
   - record: us-ny-suny-systemwide-ai-policy
   - record: us-fl-sbe-ai-edtech-rules-florida-college-system
   - record: us-in-2025-hb-1296
   - { record: us-hi-2025-2026-sb-2212, provision: 1 }
   - { record: us-wv-2026-hb-5205, provision: 2 }
+  - record: us-az-2026-hb-4040
+  - { record: us-nc-2025-2026-h-301, provision: 2 }
+  - { record: us-fl-2026-sb-1194, provision: 5 }
+  - record: us-il-2025-2026-sb-416
+  - record: us-pa-2025-2026-hb-2786
+  - record: us-ia-2025-2026-hf-2153

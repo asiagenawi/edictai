@@ -1,0 +1,72 @@
+# Explainer. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: How state laws handle deepfakes of students
+dek: Twelve laws in seven states now deal with AI-generated images of students in school settings. They widen bullying rules, ban the conduct in schools, require a local policy, tell students what the law says, or add the subject to health and safety lessons.
+type: Explainer
+published: "2026-10-18"
+data_release: October 2026
+caption: States with enacted laws on deepfakes involving students, as recorded by Edictai in October 2026.
+sketch_note: deepfakes are bullying
+drawing: phone
+brief:
+  - Illinois and Pennsylvania have added AI-generated or altered media to their school definitions of cyberbullying.
+  - Louisiana bars students and school staff from using deepfakes against K-12 students to coerce, harass or intimidate.
+  - Alabama, Louisiana, South Carolina and Colorado use school policies or required notices to tell students about AI image crimes.
+  - California and Illinois build the topic into health and internet safety instruction.
+body:
+  - p: "Edictai records deepfake laws only where they place a duty on schools or colleges or have an effect particular to them. As of October 2026, its records include twelve enacted laws in seven states with provisions on deepfakes involving students or school settings. They use five approaches, sometimes in combination."
+  - h: Widening the definition of bullying
+  - p: "The simplest change is to make AI-generated media part of the school bullying rules a state already has. Illinois did this in 2025. Beginning with the 2026-27 school year, cyber-bullying under the School Code also includes posting or distributing an unauthorized digital replica of a person when it has the effects listed in the definition of bullying [1]."
+  - p: "Pennsylvania followed in 2026, in a broad school code bill. Its definition of cyberbullying now includes conduct using AI-generated or modified media [2], and school safety reports must count the cyberbullying incidents suspected to involve such media [3]."
+  - p: "Similar bills are pending elsewhere. A New York Senate bill that has passed one chamber would add the intentional use of AI to mimic or alter a person's likeness or voice without consent to the Dignity for All Students Act's definition of cyberbullying [4]. A New Jersey bill would extend the state's school harassment, intimidation and bullying law to false depictions made with AI or deepfake technology [5]."
+  - h: Banning the conduct in schools
+  - p: "Louisiana went further in 2026. Its law states that no student, faculty member, administrator or other employee at an elementary or secondary school may use a deepfake against a K-12 student to coerce, harass or intimidate, or to maliciously disseminate or sell it. The state board and the Department of Education must adopt rules to carry it out [6]."
+  - p: "A Texas bill that passed one chamber in 2025 would let districts remove or expel students who release intimate visual material of another student, including material created with AI [7]."
+  - h: Requiring a local policy
+  - p: "Alabama's 2024 law reaches schools through policy. It directs the State Board of Education to require every local board to adopt a student discipline and education policy on private images, and that policy must prohibit explicit images generated with AI [8]."
+  - h: Telling students what the law says
+  - p: "Several states pair new criminal penalties with a duty to inform students. Louisiana requires each public school principal to give students in grade six and above information on the crime of disseminating or selling AI-created images of another person during the first five days of each school year [9]. South Carolina's 2025 law on AI-generated child sexual abuse material directs the State Department of Education, law enforcement and the Attorney General to develop and implement a policy to educate and notify students about it [10]."
+  - p: "Colorado's 2025 law created civil and criminal remedies for intimate digital depictions, including those made with generative AI. It also requires the state school safety resource center's model program for districts to tell students what to do if they receive such an image [11]."
+  - h: In the curriculum
+  - p: "Other laws put the topic into instruction. Illinois added the creation and distribution of AI-generated false depictions, including sexually explicit images and videos, to its recommended internet safety topics [12]. California's 2026 laws require sexual health instruction to cover the risks of deepfakes and the misuse of generative AI [13], and require the health framework's next revision to consider content on staying safe from deepfakes online [14]."
+  - table:
+      title: Enacted laws on deepfakes involving students
+      source: Edictai records, October 2026.
+      columns: [State, Measure, Year signed, Approach]
+      rows:
+        - [Alabama, { record: us-al-2024-hb-168 }, "2024", Required local policy]
+        - [Colorado, { record: us-co-2025-sb-288 }, "2025", Student information through a model program]
+        - [Illinois, { record: us-il-2025-2026-hb-3851 }, "2025", Bullying definition]
+        - [Illinois, { record: us-il-2025-2026-sb-1920 }, "2025", Internet safety instruction]
+        - [Illinois, { record: us-il-2025-2026-hb-862 }, "2026", Definitions in the bullying section]
+        - [South Carolina, { record: us-sc-2025-2026-s-28 }, "2025", Student notice policy]
+        - [Louisiana, { record: us-la-2026-sb-346 }, "2026", Conduct ban in K-12 schools]
+        - [Louisiana, { record: us-la-2026-hb-119 }, "2026", Annual notice to students]
+        - [Louisiana, { record: us-la-2026-sb-347 }, "2026", Campus power-based violence definition]
+        - [Pennsylvania, { record: us-pa-2025-2026-hb-1505 }, "2026", Bullying definition and incident counts]
+        - [California, { record: us-ca-2025-2026-ab-1792 }, "2026", Sexual health instruction]
+        - [California, { record: us-ca-2025-2026-ab-1766 }, "2026", Health framework]
+  - h: Colleges
+  - p: "Fewer laws reach higher education. Louisiana's 2026 law adds conduct involving AI-generated or deepfake sexual imagery to the definition of power-based violence under its Campus Accountability and Safety Act [15]."
+  - h: Federal rules and state guidance
+  - p: "At the federal level, the preamble to the 2024 Title IX rule explains that online sex-based harassment schools must address can include the nonconsensual distribution of intimate images altered or generated by AI [16]. That rule is no longer in force: a federal court vacated it in January 2025, and the Department repealed it in September 2026. Some state guidance also speaks to the issue. Utah's AI framework for schools states that using AI tools to manipulate media to impersonate others for bullying, harassment or intimidation is strictly prohibited [17]."
+  - p: "A California bill in committee would have the Department of Education study nonconsensual AI-generated intimate images involving K-12 students, including how schools now respond, and report by January 1, 2028 [18]."
+notes:
+  - record: us-il-2025-2026-hb-3851
+  - record: us-pa-2025-2026-hb-1505
+  - { record: us-pa-2025-2026-hb-1505, provision: 1 }
+  - record: us-ny-2025-2026-s-10049
+  - record: us-nj-2026-2027-a-2742
+  - record: us-la-2026-sb-346
+  - record: us-tx-2025-2026-sb-747
+  - { record: us-al-2024-hb-168, provision: 1 }
+  - record: us-la-2026-hb-119
+  - record: us-sc-2025-2026-s-28
+  - record: us-co-2025-sb-288
+  - { record: us-il-2025-2026-sb-1920, provision: 3 }
+  - record: us-ca-2025-2026-ab-1792
+  - record: us-ca-2025-2026-ab-1766
+  - record: us-la-2026-sb-347
+  - record: us-fr-2024-07915
+  - { record: us-ut-usbe-ai-framework, provision: 1 }
+  - { record: us-ca-2025-2026-ab-2291, provision: 1 }

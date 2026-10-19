@@ -1,0 +1,74 @@
+# State brief. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: What California's 2026 AI laws require of schools and colleges
+dek: California enacted nine laws with AI provisions for schools and colleges in 2026, from a ban on training AI with student data to a rule that a person must be the instructor of record at California State University. Its districts also now have a state model AI policy, written under a 2024 law.
+type: State brief
+published: "2026-10-18"
+data_release: October 2026
+caption: California records cited in this brief, as recorded by Edictai in October 2026.
+sketch_note: nine new laws
+drawing: gavel
+brief:
+  - AB 1159 bars operators of school-purpose apps and services from using student information to train or develop AI, and extends similar protections to college students from July 1, 2027.
+  - AB 2392 requires the community colleges and CSU, and asks UC, to set joint standards for buying generative AI and training students and staff on it.
+  - SB 928 and a 2025 law, SB 241, require the instructor of record at CSU and the community colleges to be a qualified person.
+  - Three health-education laws add deepfakes, AI misuse or responsible AI use to what the state's health instruction covers or must consider.
+body:
+  - p: "As of October 2026, Edictai's records show ten California bills signed in 2026 that had AI provisions at some stage. In one of them, AB 2148, the AI provisions were removed by amendment before it passed. The other nine reach student privacy, college purchasing, the role of faculty, health instruction and workforce training."
+  - h: Student data and AI training
+  - p: "AB 1159, signed on September 10, amends the state's student online privacy laws for K-12 and preschool. Operators of websites, services and apps used for school purposes may not use covered student information to train a generative AI system or develop an AI system [1]. The law also creates a Higher Education Student Information Protection Act, operative July 1, 2027, that applies similar protections to students at colleges and universities [2]."
+  - h: Rules for buying and teaching with generative AI in college
+  - p: "AB 2392, signed on September 30, requires the California Community Colleges chancellor's office and the California State University to convene an intersegmental working group with the University of California, which the law requests rather than requires to take part [3]. The group must present recommended procurement standards and training to system leaders by January 1, 2028 [4]. The systems must then provide the training to students, faculty or staff [5]. Until standards are adopted, they must report each systemwide generative AI contract to the Legislature, naming the vendor, the intended use and who will have access [6]."
+  - h: A person at the front of the class
+  - p: "Two laws address who teaches a college course. SB 241, signed in October 2025, requires the instructor of record for a community college course to meet the minimum qualifications for faculty [7]. SB 928, signed in August 2026, sets the same rule for the California State University: the instructor of record must be a person who meets the trustees' rule for faculty service [8]. Both laws state that staff may still use AI tools in operations and student services."
+  - p: "These laws follow AB 2370 of 2024. As introduced, that bill would have barred AI from replacing community college faculty and allowed it only as a peripheral tool. The version signed into law kept only the instructor-of-record requirement [9]."
+  - h: Deepfakes and AI in health instruction
+  - p: "AB 1792 adds a section to the Education Code so that sexual health instruction covers digital and online safety, including the risks of deepfakes and the misuse of generative AI [10]. AB 1766 requires the Instructional Quality Commission, at the next revision of the health curriculum framework, to consider content on staying safe from sexually exploitative materials and deepfakes online [11]. SB 1133 requires the commission to consider information on the impacts and responsible use of AI when the health framework is next revised on or after January 1, 2027 [12]."
+  - p: "AB 2071 requires the State Department of Education to develop, by January 1, 2028, a plan to expand digital wellness instruction, including how to keep the curriculum current with AI technology [13]. These laws sit alongside a 2024 law, AB 2876, under which the commission must consider adding AI literacy to the mathematics, science and history-social science frameworks at their next revision [14]."
+  - h: Funding and workforce
+  - p: "The education omnibus trailer bill, AB 126, funds the California Educators Together online repository, which must include guidance and resources on safeguards for new technology in schools, including AI [15]. AB 2504 directs the community college chancellor, once money is appropriated, to set up a pilot at up to 10 colleges to retrain creative-industry workers displaced or at risk of displacement by generative AI [16]. Separately, Executive Order N-6-26, signed in May 2026, asks higher education institutions to look at adding on-the-job training to degree programs as part of the state's response to AI in the workforce [17]."
+  - table:
+      title: California bills with AI provisions signed in 2026
+      source: Edictai records, October 2026.
+      columns: [Measure, Signed, What it does on AI]
+      rows:
+        - [{ record: us-ca-2025-2026-ab-2148 }, 30 Jun 2026, AI provisions removed by amendment]
+        - [{ record: us-ca-2025-2026-ab-126 }, 9 Jul 2026, Funds an educator repository that covers AI safeguards]
+        - [{ record: us-ca-2025-2026-sb-1133 }, 22 Aug 2026, Health framework to consider responsible AI use]
+        - [{ record: us-ca-2025-2026-sb-928 }, 27 Aug 2026, CSU instructor of record must be a qualified person]
+        - [{ record: us-ca-2025-2026-ab-1159 }, 10 Sep 2026, Bars use of student information to train or develop AI]
+        - [{ record: us-ca-2025-2026-ab-2071 }, 10 Sep 2026, Digital wellness plan that keeps pace with AI]
+        - [{ record: us-ca-2025-2026-ab-1792 }, 18 Sep 2026, Sexual health instruction covers deepfakes and AI misuse]
+        - [{ record: us-ca-2025-2026-ab-2504 }, 18 Sep 2026, Community college pilot for workers displaced by generative AI]
+        - [{ record: us-ca-2025-2026-ab-2392 }, 30 Sep 2026, Generative AI procurement standards and training in public higher education]
+        - [{ record: us-ca-2025-2026-ab-1766 }, 30 Sep 2026, Health framework to consider deepfake safety]
+  - h: The state's model policy for districts
+  - p: "California does not require districts to adopt an AI policy. Instead, SB 1288 of 2024 required a state working group, at least half of whose members are credentialed teachers, to write a model policy for local educational agencies and charter schools by July 1, 2026 [18]. The Department of Education published that model in June 2026. It is not binding, and districts may adapt it [19]."
+  - p: "The model says AI detection software should not be the sole basis for discipline or a grade penalty [19]. It calls for AI tools that bar the use of student data to train public AI models or for advertising [20], and it keeps final grading authority with the educator of record even when AI drafts feedback [21]. It also asks that vendor contracts include breach notification, audit rights and data deletion when the contract ends [22]."
+  - h: What did not pass
+  - p: "A concurrent resolution encouraging the three public higher education systems to form a joint workgroup on AI in higher education did not pass [23]. A bill requiring the Department of Education to study nonconsensual AI-generated intimate images involving K-12 students remains in committee [24]."
+notes:
+  - record: us-ca-2025-2026-ab-1159
+  - { record: us-ca-2025-2026-ab-1159, provision: 1 }
+  - record: us-ca-2025-2026-ab-2392
+  - { record: us-ca-2025-2026-ab-2392, provision: 1 }
+  - { record: us-ca-2025-2026-ab-2392, provision: 2 }
+  - { record: us-ca-2025-2026-ab-2392, provision: 3 }
+  - record: us-ca-2025-2026-sb-241
+  - record: us-ca-2025-2026-sb-928
+  - record: us-ca-2023-2024-ab-2370
+  - record: us-ca-2025-2026-ab-1792
+  - record: us-ca-2025-2026-ab-1766
+  - record: us-ca-2025-2026-sb-1133
+  - record: us-ca-2025-2026-ab-2071
+  - record: us-ca-2023-2024-ab-2876
+  - record: us-ca-2025-2026-ab-126
+  - record: us-ca-2025-2026-ab-2504
+  - record: us-ca-eo-n-6-26
+  - { record: us-ca-2023-2024-sb-1288, provision: 2 }
+  - record: us-ca-cde-ai-model-policy
+  - { record: us-ca-cde-ai-model-policy, provision: 1 }
+  - { record: us-ca-cde-ai-model-policy, provision: 2 }
+  - { record: us-ca-cde-ai-model-policy, provision: 3 }
+  - record: us-ca-2025-2026-scr-82
+  - { record: us-ca-2025-2026-ab-2291, provision: 0 }

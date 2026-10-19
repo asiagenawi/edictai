@@ -1,0 +1,96 @@
+# Roundup. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: "AI education policy, September to mid-October 2026"
+dek: California signed six AI-in-education bills, Florida's State Board adopted rules on AI tools for schools and colleges, and a package of Pennsylvania bills cleared committee. Eight bills touching AI in education were introduced in Congress.
+type: Roundup
+published: "2026-10-18"
+data_release: October 2026
+caption: States with actions recorded by Edictai between 1 September and 17 October 2026.
+sketch_note: six weeks of action
+brief:
+  - California's governor signed six bills between September 10 and 30, including a ban on training AI with student data.
+  - Florida's State Board of Education adopted rules on September 16 requiring parental opt-in for student-facing AI tools and barring AI designed as a companion.
+  - Four Pennsylvania House bills on AI in schools were reported from committee on October 6.
+  - New Jersey bills would require public school staff to be natural persons, and New York bills target humanoid robots in classrooms.
+body:
+  - p: "This roundup covers actions Edictai recorded from September 1 to October 17, 2026. It lists what happened, not what it means; the linked records give the full text and history."
+  - h: California
+  - p: "The end of California's session brought six signatures. On September 10, the governor signed AB 1159, which bars operators of school-purpose apps and services from using covered student information to train generative AI or develop AI systems [1], and AB 2071, which requires a plan for digital wellness instruction that keeps pace with AI [2]. On September 18 came AB 1792, adding deepfakes and the misuse of generative AI to sexual health instruction [3], and AB 2504, a community college pilot for creative workers displaced by generative AI [4]."
+  - p: "On September 30, the governor signed AB 2392, which has the public higher education systems set standards for buying generative AI and training students and staff to use it [5], and AB 1766, which has the health framework's next revision consider content on deepfake safety [6]."
+  - h: Florida
+  - p: "On September 16, Florida's State Board of Education amended its internet safety rule. Every district and charter school board must add rules on AI instructional tools to its internet safety policy by July 1, 2027 [7]. Parents must be told when a tool is approved and must opt a child in before the child uses it directly, with a comparable non-AI alternative available [8]. Districts may not deploy AI designed to meet students' social or emotional needs or to simulate friendship or companionship [9]. The board's rules extend similar policy requirements to Florida College System institutions [10]."
+  - h: Pennsylvania
+  - p: "Four House bills on AI in schools were referred to the Education Committee on September 24 and 25 and reported on October 6. HB 2786 would require every school entity and nonpublic school to adopt an AI policy by the 2027-28 school year [11]. HB 2785 would set required terms for school contracts for AI technology, including a ban on collecting students' biometric information [12]. HB 2787 would bar schools from using AI to provide school-based mental health services [13], and HB 2788 would let schools train employees on AI and create a state grant for the training, subject to funding [14]."
+  - p: "A fifth bill, HB 2816, referred on October 2, would extend the state's school bullying policy rules to nonpublic schools and define cyberbullying to include AI-generated or modified media [15]."
+  - h: New Jersey and New York
+  - p: "New Jersey Assembly and Senate bills introduced on September 17 and October 8 would require public school employees and contractors to be natural persons. The sponsor's statement says the aim is to keep interactions between students and school personnel human [16] [17]."
+  - p: "In New York, two Assembly bills were referred to the Education Committee on September 2. One would require each district, charter school and BOCES to adopt a policy barring AI-enabled humanoid robots from an instructional role [18]. The other, the FOCUS Act, would require school-issued devices to block AI companions and generative AI, with an exception for assistive technology [19]."
+  - h: Congress
+  - p: "Eight bills touching AI in education were introduced, five in the House and three in the Senate. The AI LABS Act would fund competitive grants to states for AI education programs in elementary and secondary schools [20]. The Data Science and Literacy Act of 2026 would fund data science education that includes AI [21]. The Artificial Intelligence Education and Workforce Readiness Act of 2026 would fund training for teachers and school leaders to use AI without replacing educators [22]. The Quality Educator Partnership Act, introduced in both chambers on September 24, would have the Education Department's technology office help districts and educator preparation programs build AI skills [23] [24]. The Protecting Kids from Human-Like Chatbots Act would give schools control over chatbot settings in school-managed deployments [25]."
+  - p: "In the Senate, the Make AI Work for Americans Act would have the Education Department run a national clearinghouse for AI education, including model guidance on classroom AI use and academic integrity [26]. The TAG Act, a federal transparency bill, counts agency decisions affecting access to education among those it covers [27]."
+  - h: State agencies
+  - p: "The District of Columbia's Office of the State Superintendent of Education issued a model AI policy for staff use for the 2026-27 school year, which local education agencies may adapt. Staff would complete approved AI training before using AI tools for work and renew it each year [28]. Louisiana's Department of Education updated its K-12 AI guidance on September 3, including a rubric for evaluating AI tools and a summary of the state's rules for data-sharing agreements with vendors [29]. Oklahoma's Department of Education updated its model AI policy for districts in October, ahead of the state's 2027-28 deadline for local policies."
+  - table:
+      title: Actions recorded, 1 September to 17 October 2026
+      source: Edictai records, October 2026.
+      columns: [Date, Jurisdiction, Measure, Action]
+      rows:
+        - [1 Sep, District of Columbia, { record: us-dc-osse-ai-model-policy-staff-use, text: OSSE model policy for staff use }, Published]
+        - [2 Sep, New York, { record: us-ny-2025-2026-a-11693 }, Referred to committee]
+        - [2 Sep, New York, { record: us-ny-2025-2026-a-11669 }, Referred to committee]
+        - [3 Sep, Louisiana, { record: us-la-ldoe-ai-guidance, text: K-12 AI guidance }, Updated]
+        - [8 Sep, United States, { record: us-119-hr-10315 }, Introduced]
+        - [10 Sep, United States, { record: us-119-hr-10347 }, Introduced]
+        - [10 Sep, California, { record: us-ca-2025-2026-ab-1159 }, Signed]
+        - [10 Sep, California, { record: us-ca-2025-2026-ab-2071 }, Signed]
+        - [16 Sep, Florida, { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, text: Rule 6A-1.0957 }, Adopted]
+        - [16 Sep, Florida, { record: us-fl-sbe-ai-edtech-rules-florida-college-system, text: Florida College System rules }, Adopted]
+        - [17 Sep, New Jersey, { record: us-nj-2026-2027-a-5529 }, Introduced]
+        - [18 Sep, California, { record: us-ca-2025-2026-ab-1792 }, Signed]
+        - [18 Sep, California, { record: us-ca-2025-2026-ab-2504 }, Signed]
+        - [21 Sep, United States, { record: us-119-hr-10515 }, Introduced]
+        - [24 Sep, United States, { record: us-119-hr-10530 }, Introduced]
+        - [24 Sep, United States, { record: us-119-s-5549 }, Introduced]
+        - [24 Sep, United States, { record: us-119-s-5518 }, Introduced]
+        - [24-25 Sep, Pennsylvania, "HB 2785, HB 2786, HB 2787, HB 2788", Referred to committee]
+        - [30 Sep, California, { record: us-ca-2025-2026-ab-2392 }, Signed]
+        - [30 Sep, California, { record: us-ca-2025-2026-ab-1766 }, Signed]
+        - [30 Sep, United States, { record: us-119-s-5648 }, Introduced]
+        - [1 Oct, United States, { record: us-119-hr-10719 }, Introduced]
+        - [2 Oct, Pennsylvania, { record: us-pa-2025-2026-hb-2816 }, Referred to committee]
+        - [6 Oct, Pennsylvania, "HB 2785, HB 2786, HB 2787, HB 2788", Reported from committee]
+        - [8 Oct, New Jersey, { record: us-nj-2026-2027-s-4795 }, Introduced]
+        - [Oct, Oklahoma, { record: us-ok-osde-model-ai-use-policy, text: Model AI use policy }, Updated]
+  - h: New research
+  - p: "A randomized trial published in October found that giving University of Maryland course sections an AI study assistant lowered final grades by 0.37 standard deviations among sections of the same course [30]. It is a working paper and has not been peer reviewed."
+notes:
+  - record: us-ca-2025-2026-ab-1159
+  - record: us-ca-2025-2026-ab-2071
+  - record: us-ca-2025-2026-ab-1792
+  - record: us-ca-2025-2026-ab-2504
+  - record: us-ca-2025-2026-ab-2392
+  - record: us-ca-2025-2026-ab-1766
+  - record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools
+  - { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, provision: 1 }
+  - { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, provision: 8 }
+  - record: us-fl-sbe-ai-edtech-rules-florida-college-system
+  - record: us-pa-2025-2026-hb-2786
+  - { record: us-pa-2025-2026-hb-2785, provision: 1 }
+  - record: us-pa-2025-2026-hb-2787
+  - record: us-pa-2025-2026-hb-2788
+  - record: us-pa-2025-2026-hb-2816
+  - record: us-nj-2026-2027-a-5529
+  - record: us-nj-2026-2027-s-4795
+  - { record: us-ny-2025-2026-a-11693, provision: 1 }
+  - record: us-ny-2025-2026-a-11669
+  - record: us-119-hr-10315
+  - record: us-119-hr-10347
+  - record: us-119-hr-10515
+  - record: us-119-hr-10530
+  - record: us-119-s-5549
+  - record: us-119-hr-10719
+  - { record: us-119-s-5518, provision: 1 }
+  - record: us-119-s-5648
+  - record: us-dc-osse-ai-model-policy-staff-use
+  - record: us-la-ldoe-ai-guidance
+  - { study: 2026-course-integrated-ai-tutoring-randomized-university-trial, finding: 0 }

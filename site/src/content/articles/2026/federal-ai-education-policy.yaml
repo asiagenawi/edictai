@@ -1,0 +1,64 @@
+# Explainer. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: What the federal government has done on AI in education
+dek: Federal action on AI in schools and colleges has come mostly through an executive order and the Education Department's grant rules. Congress has passed no AI-in-education bill this session, and a proposed accreditation rule would add a new expectation for colleges.
+type: Explainer
+published: "2026-10-18"
+data_release: October 2026
+caption: Federal records cited in this explainer, as recorded by Edictai in October 2026.
+sketch_note: grants, not mandates
+drawing: capitol
+brief:
+  - Executive Order 14277 of April 2025 set a policy of promoting AI education and told the Education Department to issue guidance on using grant funds for AI.
+  - The department's July 2025 letter says formula and discretionary grants may pay for AI instructional materials, AI-enhanced tutoring and AI advising, if systems comply with privacy law.
+  - A final grant priority, effective May 13, 2026, lets the department favor AI projects in any discretionary grant competition.
+  - None of the 53 bills in the current Congress that Edictai tracks has become law; three have passed one chamber.
+body:
+  - p: "The federal government does not set curriculum or write school policy. What it does on AI in education happens mainly through executive orders, the Education Department's grant programs and regulations that attach to federal funding. This explainer sets out what those tools have produced, as recorded by Edictai in October 2026."
+  - h: Two executive orders
+  - p: "Executive Order 14110, signed in October 2023, was a government-wide order on AI safety. Its education section told the Secretary of Education to develop resources, policies and guidance on AI, including an AI toolkit for education leaders [1]. It was revoked in January 2025."
+  - p: "Executive Order 14277, signed on April 23, 2025, is aimed at education. It created the White House Task Force on Artificial Intelligence Education, chaired by the director of the Office of Science and Technology Policy [2]. It gave the Secretary of Education 90 days to issue guidance on using formula and discretionary grant funds to improve outcomes with AI [3], and told the department to prioritize AI in discretionary teacher-training grants, including professional development so educators can bring AI fundamentals into all subjects [4]. It also directed the Secretary of Labor to grow registered apprenticeships in AI-related occupations [5]."
+  - h: What grant money can pay for
+  - p: "The department's guidance came as a Dear Colleague letter on July 22, 2025. It says grant funds may be used for AI-based instructional materials, AI-enhanced high-impact tutoring, and AI for college and career pathway exploration and advising, where consistent with each program's rules. It sets principles for responsible use, including that systems must comply with federal privacy laws such as FERPA [6], and calls for tools to be accessible to people with disabilities [7]."
+  - h: Grant priorities
+  - p: "Grant priorities are how the department tilts its discretionary competitions. A supplemental priority on advancing AI in education was proposed in July 2025 and made final in April 2026, effective May 13, 2026. The Secretary may use it in any discretionary competition. Projects it covers include professional development on bringing AI fundamentals into subject areas [8] and AI courses and in-demand certification programs for high school students [9]."
+  - p: "A separate final priority on meaningful learning opportunities, published in February 2026, covers high-impact tutoring whose delivery models may include AI [10]. Some individual competitions have built AI in directly. The fiscal year 2025 Fund for the Improvement of Postsecondary Education Special Projects competition dedicated two of its seven absolute priorities to AI in postsecondary education [11]. One of them covers embedding AI and computer science in teacher preparation programs [12]."
+  - table:
+      title: Federal executive and Education Department actions on AI in education
+      source: Edictai records, October 2026.
+      columns: [Date, Action, Record]
+      rows:
+        - [30 Oct 2023, Executive order on AI safety directs Education Department resources on AI (revoked January 2025), { record: us-eo-14110 }]
+        - [29 Apr 2024, Title IX rule; preamble covers AI-generated intimate images (since vacated and repealed), { record: us-fr-2024-07915, text: Title IX final rule }]
+        - [23 Apr 2025, Executive order on AI education for American youth, { record: us-eo-14277 }]
+        - [21 Jul 2025, Proposed supplemental priority on AI in education, { record: us-ed-ai-supplemental-priority-proposed, text: Proposed priority }]
+        - [22 Jul 2025, Dear Colleague letter on using grant funds for AI, { record: us-ed-ai-grant-funds-dear-colleague-letter, text: Dear Colleague letter }]
+        - [29 Aug 2025, Common instructions let grant applicants use AI but hold them to the accuracy of what they submit, { record: us-fr-2025-16571, text: Common instructions }]
+        - [12 Nov 2025, FIPSE Special Projects competition with two AI priorities, { record: us-fr-2025-19843, text: FIPSE notice }]
+        - [12 Feb 2026, Final priority on meaningful learning opportunities, { record: us-fr-2026-02854, text: Final priority }]
+        - [13 Apr 2026, Final supplemental priority on AI in education, { record: us-ed-ai-supplemental-priority-final, text: Final priority }]
+        - [20 Aug 2026, Proposed accreditation rule; preamble on AI and teaching, { record: us-fr-2026-17001, text: Proposed rule }]
+  - h: Rules that mention AI
+  - p: "Two regulations address AI in their explanatory preambles rather than in their rule text. The Title IX rule published in April 2024 explains that online sex-based harassment schools must address can include the nonconsensual distribution of intimate images, including images altered or generated by AI [13]. That rule is no longer in force: a federal court vacated it in January 2025, and the Department repealed it in September 2026."
+  - p: "A proposed rule on the Secretary's recognition of accrediting agencies, published on August 20, 2026, discusses AI in explaining a research-misconduct standard. Its preamble states that agencies and institutions must ensure “artificial intelligence is not used by faculty to supplant teaching and instruction” [14]. It is a proposal, not a final rule."
+  - h: Congress
+  - p: "Edictai records 53 bills on AI in education in the 119th Congress. As of October 2026, none has become law, three have passed one chamber and the rest are in committee. Several would add AI to existing grant programs. The K-12 AI Literacy and Readiness Act, introduced in both chambers, would let Student Support and Academic Enrichment funds pay for instruction on the safe, effective and responsible use of AI [15]."
+  - p: "Others target privacy and safety. The LIFE with AI Act would make federal funding depend on schools barring the use of student photographs to train facial recognition systems without parental consent [16]. The Protecting Kids from Human-Like Chatbots Act, introduced on October 1, 2026, would give schools control over chatbot settings in school-managed deployments [17]."
+notes:
+  - record: us-eo-14110
+  - record: us-eo-14277
+  - { record: us-eo-14277, provision: 1 }
+  - { record: us-eo-14277, provision: 2 }
+  - { record: us-eo-14277, provision: 3 }
+  - record: us-ed-ai-grant-funds-dear-colleague-letter
+  - { record: us-ed-ai-grant-funds-dear-colleague-letter, provision: 1 }
+  - record: us-ed-ai-supplemental-priority-final
+  - { record: us-ed-ai-supplemental-priority-final, provision: 1 }
+  - record: us-fr-2026-02854
+  - record: us-fr-2025-19843
+  - { record: us-fr-2025-19843, provision: 2 }
+  - record: us-fr-2024-07915
+  - record: us-fr-2026-17001
+  - record: us-119-hr-8747
+  - record: us-119-s-3063
+  - record: us-119-hr-10719

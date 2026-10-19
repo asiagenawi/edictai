@@ -1,0 +1,69 @@
+# Research digest. Each note names a study in the research library and one of its key findings
+# (by position, from 0); the quote, locator and link are read from the data at build time.
+title: What ten randomized trials say about AI tutors
+dek: Randomized studies of AI tutoring range from large gains in short, tightly designed lessons to lower grades in a semester-long university trial. Differences in how the tools were designed and used run through the results.
+type: Research digest
+published: "2026-10-18"
+data_release: October 2026
+caption: Illustration for Edictai.
+brief:
+  - Short, structured trials in a Harvard physics course, in Ghana and in Nigeria found sizable learning gains from AI tutors.
+  - A high school trial in Turkey found that an unrestricted chatbot raised practice scores but lowered exam scores; a version with teacher-designed safeguards avoided the drop.
+  - Two trials in Tennessee middle schools found small or marginal gains, and a University of Maryland trial found lower final grades.
+  - Seven of the ten studies are working papers or preprints, not yet peer reviewed.
+body:
+  - p: "This digest draws on ten randomized studies in Edictai's research library, published between 2024 and October 2026, that tested AI tutors or AI help with coursework. They differ in age group, subject, country, length and tool, so their effect sizes cannot be added up or averaged. Read side by side, they show where AI tutoring has helped and where it has not."
+  - h: Large gains in short, structured lessons
+  - p: "In a randomized crossover trial in an introductory physics course at Harvard, students who worked through two lessons with a custom GPT-4 tutor at home had median learning gains more than double those of students taught the same lessons through in-class active learning [1]. The median AI-tutored student spent 49 minutes on task, against about 60 minutes in class [2]. The tutor was built around pedagogical best practices and pre-written solutions."
+  - p: "Two trials outside the United States also found gains. In Ghana, students in grades 3 to 9 who used Rori, a math tutor on WhatsApp, in two 30-minute sessions a week had substantially higher math growth over eight months, an effect size of 0.36 [3]. In Benin City, Nigeria, a six-week after-school program in which secondary students used Microsoft Copilot with teacher guidance raised scores on an end-of-program assessment by 0.31 standard deviations [4] and on the regular end-of-term English exam by 0.21 standard deviations [5]."
+  - h: AI that helps the tutor
+  - p: "One trial put the AI in the hands of human tutors rather than students. Students whose virtual tutors had Tutor CoPilot, a tool that suggests expert-like responses in real time, were 4 percentage points more likely to master math topics [6]. Gains were largest for students of lower-rated and less experienced tutors [7]."
+  - h: Better practice, worse exams
+  - p: "A preregistered trial in a high school in Turkey separated practice from learning. Access to GPT-4 during practice raised practice grades by 48 percent with a standard chat interface and by 127 percent with a tutor version carrying teacher-designed safeguards [8]. On a later exam taken without AI, students who had used the standard chatbot scored 17 percent lower than students who never had access, while the safeguarded tutor's effect was statistically indistinguishable from no AI [9]. Most students in the standard arm used it to get answers [10]."
+  - h: Small effects at scale
+  - p: "The two largest school trials, both in Hamilton County, Tennessee, found modest results. Over two years in 18 middle schools, assignment to Khan Academy's Khanmigo tutor in daily remedial math sessions raised achievement by 1.3 national percentile ranks per term [11], gains similar to those from Khan Academy practice without AI [12]. Nearly all students tried the tutor, but the median student messaged it on only a third of practice days [13]."
+  - p: "A second experiment in the same district, with more than 6,000 students, found that AI support made students slower but more accurate after a mistake [14]. The strongest evidence of learning on a test a week later appeared when the AI was built into a mastery workflow, and those gains were only marginally significant [15]."
+  - h: Lower grades in a university trial
+  - p: "At the University of Maryland, College Park, instructors were randomized to give their course sections a GPT-4o-based study assistant built into the learning management system. Among sections of the same course, access reduced final grades by 0.37 standard deviations and participation in online course activities by 0.90 standard deviations [16]. Estimated grade losses for first-generation students were more than twice those for continuing-generation students [17]."
+  - p: "A four-year trial at California State University, Northridge tested a different use: an AI-enabled text-messaging chatbot for student support rather than coursework. Its effects were concentrated on completing time-sensitive administrative tasks, with no detectable effect on academic performance or persistence [18]."
+  - h: Hints written by AI
+  - p: "An online experiment with adult learners practicing algebra and statistics found that ChatGPT-written hints produced learning gains with no significant difference from hints written by human tutors [19]. But 32 percent of the ChatGPT hints first failed quality checks, a rate the researchers cut sharply with an added checking step [20]."
+  - table:
+      title: Ten randomized studies of AI tutoring and AI help
+      source: Edictai research library, October 2026.
+      columns: [Study, Setting, Status, Main result]
+      rows:
+        - [AI tutoring vs. in-class active learning, "Harvard physics course, 2023", Peer reviewed, Median gains more than double]
+        - [Rori math tutor, "Ghana, grades 3-9", Preprint, Effect size 0.36]
+        - [Copilot after-school program, "Nigeria, secondary", Working paper, "+0.31 SD; +0.21 SD on term exam"]
+        - [Tutor CoPilot, "US district, grades 3-6", Preprint, +4 percentage points in topic mastery]
+        - [GPT-4 in math practice, "Turkey, high school", Peer reviewed, -17% on exam with standard chatbot]
+        - [Khanmigo, "Tennessee, grades 6-8", Working paper, +1.3 percentile ranks per term]
+        - [AI in mastery practice, "Tennessee, grades 6-8", Working paper, Marginal delayed gains]
+        - [Course-integrated AI tutor, "University of Maryland", Working paper, -0.37 SD in final grades]
+        - [Student support chatbot, "CSU Northridge", Working paper, No academic effect]
+        - [ChatGPT hints, "Online adult learners", Peer reviewed, Gains equal to human hints]
+  - h: Reading them together
+  - p: "Three patterns recur. In the one trial that compared them directly, a tutor with teacher-designed safeguards avoided the exam losses of an open chatbot, and the largest gains elsewhere came from tools built around pre-written solutions or teacher guidance. Use was often thinner than designers intended: in the Khanmigo trial the median student messaged the tutor on a third of practice days, and in Turkey most students used the open chatbot to get answers. And in Turkey, practice scores were a poor guide to what students could do later without AI."
+  - p: "Seven of the ten are working papers or preprints that have not been peer reviewed. The Harvard, Turkey and adult-learner studies were published in peer-reviewed journals."
+notes:
+  - { study: 2025-ai-tutoring-outperforms-in-class-active-learning, finding: 0 }
+  - { study: 2025-ai-tutoring-outperforms-in-class-active-learning, finding: 2 }
+  - { study: 2024-ai-math-tutor-rori-ghana, finding: 0 }
+  - { study: 2025-from-chalkboards-to-chatbots-nigeria, finding: 0 }
+  - { study: 2025-from-chalkboards-to-chatbots-nigeria, finding: 1 }
+  - { study: 2024-tutor-copilot-human-ai-approach, finding: 0 }
+  - { study: 2024-tutor-copilot-human-ai-approach, finding: 1 }
+  - { study: 2025-generative-ai-without-guardrails-can-harm-learning, finding: 0 }
+  - { study: 2025-generative-ai-without-guardrails-can-harm-learning, finding: 1 }
+  - { study: 2025-generative-ai-without-guardrails-can-harm-learning, finding: 2 }
+  - { study: 2026-khanmigo-two-year-school-experiment, finding: 0 }
+  - { study: 2026-khanmigo-two-year-school-experiment, finding: 1 }
+  - { study: 2026-khanmigo-two-year-school-experiment, finding: 2 }
+  - { study: 2026-making-ai-tutoring-productive-mastery-math, finding: 0 }
+  - { study: 2026-making-ai-tutoring-productive-mastery-math, finding: 2 }
+  - { study: 2026-course-integrated-ai-tutoring-randomized-university-trial, finding: 0 }
+  - { study: 2026-course-integrated-ai-tutoring-randomized-university-trial, finding: 2 }
+  - { study: 2026-sustaining-ai-enabled-student-support-chatbot, finding: 0 }
+  - { study: 2024-chatgpt-generated-help-learning-gains-math, finding: 0 }
+  - { study: 2024-chatgpt-generated-help-learning-gains-math, finding: 1 }

@@ -1,0 +1,68 @@
+# Analysis. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: The laws and bills that say AI cannot replace a teacher
+dek: Five laws in four states, and one Florida board rule, now say that AI may not stand in for a teacher, faculty member or school counselor. Three of the five laws apply to colleges, and most K-12 proposals are still bills.
+type: Analysis
+published: "2026-10-18"
+data_release: October 2026
+caption: States with laws, rules or bills on AI replacing educators, as recorded by Edictai in October 2026.
+sketch_note: a person must teach
+drawing: classroom
+brief:
+  - Illinois and California require a qualified person, not AI, to teach or be the instructor of record for community college or CSU courses.
+  - Idaho's 2026 law requires its state framework to ensure no generative AI replaces a human teacher; Florida's board rule limits AI tools to supplementing teachers' judgment.
+  - Nevada bars public schools from using AI to do the work of school counselors, psychologists and social workers.
+  - K-12 bills in at least eight other states would bar AI from instructing students or require school staff to be people.
+body:
+  - p: "One provision that recurs in Edictai's records is a rule that AI may not take the place of an educator. As of October 2026, five enacted laws in four states and one state board rule contain such a provision. Bills in eight more states would add one, and New York's legislature has passed two bills that protect school and college employees from being displaced by AI."
+  - h: Colleges
+  - p: "Three of the five laws apply to colleges. Illinois amended its Public Community College Act in 2025: “A course may not, in lieu of a faculty member, use artificial intelligence as the sole source of instruction for students.” Faculty may still use AI to augment instruction, and the change took effect January 1, 2026 [1]."
+  - p: "California took a different route. Its 2025 law on community college personnel requires the instructor of record for a course to be a person who meets the minimum qualifications for faculty [2]. A 2026 law sets the same rule for the California State University [3]. Both say staff may still use AI tools in operations and student services. An earlier bill, AB 2370 of 2024, would have barred AI from replacing community college faculty outright; the version signed into law kept only the instructor-of-record language [4]."
+  - h: Schools
+  - p: "For K-12 schools, Idaho's 2026 generative AI law requires the state's framework to “Ensure that no generative artificial intelligence replaces or eliminates a human teacher” [5]. The framework the Department of Education wrote under that law lists the same idea among its guiding principles [6]."
+  - p: "Florida's State Board of Education reached the same point by rule in September 2026. District and charter school policies must ensure that AI instructional tools are limited to supplementing, and not replacing, the professional judgment of teachers [7]. The same rule requires human review of any AI-driven decision on grading, evaluation, discipline or referrals [8]."
+  - p: "Nevada's 2025 law addresses a different role. Public schools, including charter schools, may not use AI to perform the functions and duties of a school counselor, school psychologist or school social worker, although administrative uses such as scheduling are allowed [9]. A Pennsylvania bill now in committee would bar school entities from using AI to provide services that would amount to the practice of a school-based mental health professional [10]."
+  - table:
+      title: Enacted provisions on AI replacing educators
+      source: Edictai records, October 2026.
+      columns: [State, Measure, Level, What it requires]
+      rows:
+        - [Illinois, { record: us-il-2025-2026-hb-1859 }, Community colleges, AI may not be the sole source of instruction in place of faculty]
+        - [California, { record: us-ca-2025-2026-sb-241 }, Community colleges, Instructor of record must meet faculty qualifications]
+        - [California, { record: us-ca-2025-2026-sb-928 }, California State University, Instructor of record must meet the trustees' faculty rule]
+        - [Nevada, { record: us-nv-2025-ab-406 }, K-12, "AI may not perform the duties of school counselors, psychologists or social workers"]
+        - [Idaho, { record: us-id-2026-s-1227 }, K-12, State framework must ensure no generative AI replaces a teacher]
+        - [Florida, { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, text: Rule 6A-1.0957 }, K-12, AI tools supplement and do not replace teachers' judgment]
+  - h: Pending K-12 bills
+  - p: "Most of the K-12 activity is in bills that have not passed. They take three main forms."
+  - p: "The first bans AI from teaching. Matching Texas House and Senate bills filed in 2025 would bar districts and charter schools from using AI to provide instruction or to replace or supplement a teacher's role [11] [12]. A Connecticut bill would prohibit AI from replacing public school educators in instruction and regular interaction with students [13]. A South Carolina bill would bar AI from replacing a licensed teacher in core academic instruction or in assigning final grades [14]. A Pennsylvania bill would stop charter and cyber charter schools from adopting an instructional model that relies on AI instead of professional employees [15]."
+  - p: "The second allows AI as a supplement but not a substitute. Washington's bill reads: “Artificial intelligence may supplement or enhance instruction. Artificial intelligence may not replace certificated instructional staff or paraeducators.” [16] A New York bill would bar AI systems, chatbots and avatars from serving as the primary instructor and would ban humanoid robots from instructional settings [17]."
+  - p: "The third defines the job as human. Minnesota's omnibus education bill, which has passed one chamber, provides that an AI model is not a qualified teacher [18]. Matching New Jersey bills introduced in September and October 2026 would require public school employees and contractors, from teachers to aides, to be natural persons [19] [20]."
+  - h: Jobs and contracts
+  - p: "A separate set of New York bills treats the question as one of employment. Two that have passed both chambers would bar AI systems used by school boards, BOCES, SUNY, CUNY and community colleges from displacing employees or transferring their duties to AI [21], and would protect existing collective bargaining agreements [22]."
+  - h: A federal proposal
+  - p: "The question has also reached federal policy. In a proposed rule on accrediting agencies published in August 2026, the Education Department wrote that agencies and institutions “must ensure that artificial intelligence is not used by faculty to supplant teaching and instruction” [23]. The statement appears in the rule's preamble, and the rule is not final."
+notes:
+  - record: us-il-2025-2026-hb-1859
+  - record: us-ca-2025-2026-sb-241
+  - record: us-ca-2025-2026-sb-928
+  - record: us-ca-2023-2024-ab-2370
+  - { record: us-id-2026-s-1227, provision: 1 }
+  - record: us-id-sde-genai-education-framework
+  - { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, provision: 2 }
+  - { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, provision: 3 }
+  - record: us-nv-2025-ab-406
+  - record: us-pa-2025-2026-hb-2787
+  - record: us-tx-2025-2026-hb-2400
+  - { record: us-tx-2025-2026-sb-382, provision: 1 }
+  - record: us-ct-2025-hb-5877
+  - { record: us-sc-2025-2026-h-5253, provision: 1 }
+  - record: us-pa-2025-2026-hb-2375
+  - record: us-wa-2025-2026-sb-6299
+  - { record: us-ny-2025-2026-a-11662, provision: 1 }
+  - record: us-mn-2025-2026-sf-3870
+  - record: us-nj-2026-2027-a-5529
+  - record: us-nj-2026-2027-s-4795
+  - record: us-ny-2025-2026-s-7599
+  - record: us-ny-2025-2026-s-8831
+  - record: us-fr-2026-17001
