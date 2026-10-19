@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://statescope.org/schema/jurisdiction.schema.json",
+  "$id": "https://edictai.org/schema/jurisdiction.schema.json",
   "title": "Jurisdiction",
   "description": "The United States or one of the 50 states and DC. Stored at data/jurisdictions/{id}.yaml.",
   "type": "object",

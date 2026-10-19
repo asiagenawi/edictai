@@ -147,7 +147,7 @@ uv run ruff format .
 - Keep pull requests focused. Data changes and code changes are easier to review
   separately.
 
-For the site, work in `web/` and run `npm run lint` before submitting.
+For the site, work in `site/` and run `npm run build` before submitting.
 
 ## Pull request review
 

@@ -170,13 +170,13 @@ def datapackage(db_path: Path, schema_sql: Path) -> dict[str, Any]:
             fk["reference"]["resource"] = fk["reference"]["resource"].replace("_", "-")
     return {
         "profile": "tabular-data-package",
-        "name": "statescope",
-        "title": "StateScope: AI in Education Policy",
+        "name": "edictai",
+        "title": "Edictai: AI in Education Policy",
         "description": (
             "Legislation, agency and institutional policy documents, executive actions, and "
             "research on artificial intelligence in US K-12 and higher education."
         ),
-        "homepage": "https://github.com/asiagenawi/statescope",
+        "homepage": "https://edictai.org",
         "licenses": [
             {
                 "name": "CC-BY-4.0",

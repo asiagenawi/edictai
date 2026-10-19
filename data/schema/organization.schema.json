@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://statescope.org/schema/organization.schema.json",
+  "$id": "https://edictai.org/schema/organization.schema.json",
   "title": "Organization",
   "description": "A body that issues policy: legislatures, governors' offices, state K-12 and higher-ed agencies, university systems, accreditors, federal agencies. Stored at data/organizations/{id}.yaml.",
   "type": "object",

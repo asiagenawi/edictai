@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://statescope.org/schema/research.schema.json",
+  "$id": "https://edictai.org/schema/research.schema.json",
   "title": "Research item",
   "description": "A study, report, brief, or survey on AI in education. Stored at data/research/{year}/{slug}.yaml.",
   "type": "object",

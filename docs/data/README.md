@@ -34,7 +34,7 @@ A record's `id` matches its path: `data/legislation/us-tx/2025/hb-1481.yaml` has
 
 The same files are attached to the repository's
 [GitHub releases](https://github.com/asiagenawi/statescope/releases). The SQL table
-definitions are in [db/schema.sql](../schema.sql).
+definitions are in [db/schema.sql](../../db/schema.sql).
 
 ### Tables
 

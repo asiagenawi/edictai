@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://statescope.org/schema/legislation.schema.json",
+  "$id": "https://edictai.org/schema/legislation.schema.json",
   "title": "Legislation",
   "description": "A bill or resolution in a state legislature or Congress. Stored at data/legislation/{jurisdiction}/{session}/{bill-slug}.yaml. Status is not stored: it is derived from the dated actions at build time.",
   "type": "object",

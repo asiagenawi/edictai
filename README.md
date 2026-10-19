@@ -79,13 +79,13 @@ data/         Canonical records (YAML), schemas, and controlled vocabularies
   vocab/      Topics, provision types, and enumerations
 pipeline/     Python package: validation, build, and source ingestion
 api/          Flask service behind the site's question-answering feature
-web/          Front end for the site
+site/         The website (Astro)
 docs/         Methodology and data documentation
 ```
 
 ## Quick start for developers
 
-Requirements: Python 3.11 or later, [uv](https://docs.astral.sh/uv/), and Node.js 20 for the
+Requirements: Python 3.11 or later, [uv](https://docs.astral.sh/uv/), and Node.js 22 for the
 site.
 
 ```bash
@@ -109,8 +109,8 @@ uv run statescope build
 To run the site locally:
 
 ```bash
-cd web
-npm install
+cd site
+npm ci
 npm run dev
 ```
 
@@ -135,7 +135,7 @@ as policies move.
 
 ## License
 
-- Code (everything outside `data/`, including `pipeline/`, `api/`, and `web/`) is released
+- Code (everything outside `data/`, including `pipeline/`, `api/`, and `site/`) is released
   under the [MIT License](LICENSE).
 - Data (everything in `data/` and all files built from it) is released under
   [Creative Commons Attribution 4.0 International](DATA_LICENSE.md).

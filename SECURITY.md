@@ -14,7 +14,7 @@ fix is available.
 
 This policy covers:
 
-- the code in this repository, including `pipeline/`, `api/`, `web/`, and the GitHub
+- the code in this repository, including `pipeline/`, `api/`, `site/`, and the GitHub
   Actions workflows in `.github/`;
 - the Edictai site and the service behind its question-answering feature.
 

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://statescope.org/schema/document.schema.json",
+  "$id": "https://edictai.org/schema/document.schema.json",
   "title": "Policy document",
   "description": "Non-legislative policy issued by an agency, university system, or accreditor: guidance, frameworks, binding policy, toolkits, statements, task-force reports. Stored at data/documents/{jurisdiction}/{slug}.yaml.",
   "type": "object",

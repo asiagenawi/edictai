@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://statescope.org/schema/executive-action.schema.json",
+  "$id": "https://edictai.org/schema/executive-action.schema.json",
   "title": "Executive action",
   "description": "An executive order or directive from a governor or the President. Stored at data/executive-actions/{jurisdiction}/{slug}.yaml.",
   "type": "object",
