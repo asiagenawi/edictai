@@ -1,0 +1,60 @@
+# Settings for `statescope classify run`, `classify eval-gate`, and the weekly workflow
+# (.github/workflows/weekly.yml). docs/automation.md describes how they are used.
+
+classify:
+  model: claude-sonnet-5-5
+  # output_config.effort: low, medium, high, xhigh, or max.
+  effort: medium
+  # Items sent in one request. Triage lines are short; full lines carry bill text.
+  items_per_request:
+    triage: 25
+    full: 1
+  max_tokens:
+    triage: 12000
+    full: 8000
+  # Send requests through the Message Batches API; direct calls are the fallback.
+  use_batches: true
+  batch_poll_seconds: 30
+  # A batch still running after this long is cancelled and its unfinished
+  # requests are sent as direct calls.
+  batch_timeout_minutes: 90
+  direct_workers: 4
+  # `classify fetch-texts --version`: also store the newest earlier version whose
+  # text mentions AI, for bills whose AI language was amended out.
+  text_version: ai
+
+budget:
+  # Dollars per run, from the token usage the API reports. WEEKLY_SPEND_CAP_USD overrides it.
+  spend_cap_usd: 10
+  # getBillText queries one run may send at most.
+  legiscan_text_queries: 500
+  # LegiScan queries left unused at the end of the month for other commands.
+  legiscan_monthly_reserve: 500
+  # Federal text requests (Congress.gov and the Federal Register) one run may send.
+  federal_text_requests: 300
+
+eval:
+  # The run fails when the classifier scores below either floor on
+  # pipeline/eval/classifier_eval.yaml.
+  precision_floor: 0.85
+  recall_floor: 0.9
+
+# USD per million tokens at standard rates. Batch requests are billed at
+# batch_discount times these. A model missing here cannot be budgeted, so the
+# run refuses to use it. When cache prices are left out, cache writes are
+# counted at 1.25 times the input price and cache reads at the input price.
+prices:
+  claude-sonnet-5-5:
+    input: 2.00
+    output: 10.00
+    cache_write: 2.50
+    cache_read: 0.20
+  claude-opus-5-5:
+    input: 4.00
+    output: 20.00
+    cache_write: 5.00
+    cache_read: 0.20
+  claude-haiku-5-5:
+    input: 0.10
+    output: 0.50
+batch_discount: 0.5

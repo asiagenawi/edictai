@@ -412,8 +412,218 @@ def cmd_score(args: argparse.Namespace) -> int:
     return 0
 
 
+# -- automated run ------------------------------------------------------------------
+
+
+def _settings(paths: Paths, args: argparse.Namespace):
+    from dotenv import load_dotenv
+
+    from .settings import load_settings
+
+    load_dotenv(paths.root / ".env")
+    settings = load_settings(paths)
+    return settings.with_overrides(
+        model=getattr(args, "model", None),
+        effort=getattr(args, "effort", None),
+        spend_cap_usd=getattr(args, "spend_cap", None),
+        use_batches=False if getattr(args, "no_batches", False) else None,
+    )
+
+
+def _judge(settings, args: argparse.Namespace):
+    from .llm import Budget, Judge
+
+    ledger = Path(args.spend_file).resolve() if getattr(args, "spend_file", None) else None
+    budget = Budget(settings.spend_cap_usd, ledger)
+    return Judge(settings, budget, log=lambda m: print(m, file=sys.stderr, flush=True))
+
+
+def _workdirs(paths: Paths, args: argparse.Namespace) -> list[ClassifyPaths]:
+    work = Path(args.workdir).resolve() if getattr(args, "workdir", None) else None
+    if getattr(args, "federal", False) or args.scope == "federal":
+        return [ClassifyPaths(paths, work, federal=True)]
+    if args.scope == "state":
+        return [ClassifyPaths(paths, work)]
+    if work:
+        raise SystemExit("--workdir needs --scope state or federal")
+    return [ClassifyPaths(paths), ClassifyPaths(paths, federal=True)]
+
+
+def cmd_run(args: argparse.Namespace) -> int:
+    import anthropic
+
+    from .run import run_workdir
+    from .settings import SettingsError
+
+    paths = _paths(args)
+    try:
+        settings = _settings(paths, args)
+        judge = _judge(settings, args)
+    except SettingsError as exc:
+        print(exc, file=sys.stderr)
+        return 2
+    output: dict = {"model": settings.model, "effort": settings.effort, "judgments": []}
+    code = 0
+    for cp in _workdirs(paths, args):
+        name = "federal" if cp.federal else "state"
+        try:
+            res = run_workdir(
+                cp,
+                judge,
+                settings,
+                today=date.today(),
+                candidates_path=Path(args.candidates) if args.candidates else None,
+                retry_dropped=args.retry_dropped,
+                limit=args.limit,
+                fetch=not args.no_fetch,
+                log=lambda m: print(m, file=sys.stderr, flush=True),
+            )
+        except FileNotFoundError as exc:
+            print(f"{name}: {exc}", file=sys.stderr)
+            continue
+        except anthropic.AnthropicError as exc:
+            print(f"{name}: Anthropic API: {type(exc).__name__}: {exc}", file=sys.stderr)
+            code = 1
+            break
+        output[name] = res.as_dict()
+        output["judgments"] += res.judgments()
+        t, f = res.triage, res.full
+        print(
+            f"{name}: triage {len(t.judged)} judged, {len(t.dropped)} dropped, "
+            f"{len(t.not_sent)} not sent; full {len(f.judged)} judged, {len(f.dropped)} "
+            f"dropped, {len(f.not_sent)} not sent; texts {res.texts.fetched} fetched"
+            + (f" ({res.texts.skipped})" if res.texts.skipped else "")
+        )
+        for out in f.outputs:
+            print(f"  {_rel(out)}")
+    output["spend"] = {**judge.budget.as_dict(), "model": settings.model, "effort": settings.effort}
+    output["batches"] = judge.batches
+    print(
+        f"Spent ${judge.budget.spent:.2f} of ${judge.budget.cap:.2f}"
+        + (" (cap reached)" if judge.budget.stopped else "")
+    )
+    if args.result:
+        Path(args.result).write_text(json.dumps(output, indent=1) + "\n", encoding="utf-8")
+    return code
+
+
+def cmd_baseline(args: argparse.Namespace) -> int:
+    from .prep import judged_keys
+    from .run import unjudged, write_baseline
+
+    paths = _paths(args)
+    for cp in _workdirs(paths, args):
+        name = "federal" if cp.federal else "state"
+        if args.if_new and (
+            (cp.root / "baseline.json").exists() or judged_keys(cp.out_dir("triage"))
+        ):
+            print(f"{name}: judgments or a baseline exist; nothing recorded")
+            continue
+        try:
+            candidates = load_candidates(latest_candidates(cp))
+        except FileNotFoundError:
+            print(f"{name}: no candidate file; nothing recorded")
+            continue
+        if cp.federal:
+            from .federal import refresh_existing
+
+            refresh_existing(candidates, paths.data)
+        added = write_baseline(cp, unjudged(cp, candidates))
+        print(f"{name}: {added} candidates recorded in {_rel(cp.root / 'baseline.json')}")
+    return 0
+
+
+def cmd_eval_gate(args: argparse.Namespace) -> int:
+    import anthropic
+
+    from .evalgate import eval_gate
+    from .settings import SettingsError
+
+    paths = _paths(args)
+    try:
+        settings = _settings(paths, args)
+        settings.price()
+    except SettingsError as exc:
+        print(exc, file=sys.stderr)
+        return 2
+    try:
+        result = eval_gate(
+            paths,
+            settings,
+            lambda: _judge(settings, args),
+            today=date.today(),
+            force=args.force,
+            log=lambda m: print(m, file=sys.stderr, flush=True),
+        )
+    except anthropic.AnthropicError as exc:
+        print(f"Anthropic API: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 1
+    r = result.record
+    how = "evaluated now" if result.ran else "stored result"
+    print(
+        f"Eval gate {result.hash[:12]} ({how}): precision {r.get('precision')}, recall "
+        f"{r.get('recall')} on {r.get('matched')} entries; floors "
+        f"{settings.precision_floor}/{settings.recall_floor}: "
+        + ("passed" if result.passed else "FAILED")
+    )
+    for reason in result.reasons:
+        print(f"  {reason}")
+    if args.json:
+        Path(args.json).write_text(json.dumps(result.as_dict(), indent=1) + "\n", encoding="utf-8")
+    return 0 if result.passed else 1
+
+
+def cmd_refresh(args: argparse.Namespace) -> int:
+    from .refresh import refresh
+
+    paths = _paths(args)
+    sources = args.source or ["legiscan", "congress"]
+    result = refresh(paths, today=date.today(), sources=sources, dry_run=args.dry_run)
+    verb = "Would update" if args.dry_run else "Updated"
+    for u in result.updates:
+        change = (
+            f"{u.status_before} -> {u.status_after}"
+            if u.status_before != u.status_after
+            else u.status_after
+        )
+        print(
+            f"{verb} {u.id}: {len(u.added_actions)} actions, {len(u.added_versions)} versions "
+            f"({change})"
+        )
+    for rid, why in result.skipped:
+        print(f"Skipped {rid}: {why}")
+    print(f"{len(result.updates)} of {result.checked} bills updated")
+    if args.json:
+        Path(args.json).write_text(
+            json.dumps(result.as_dict(paths.root), indent=1) + "\n", encoding="utf-8"
+        )
+    return 0
+
+
+def cmd_summary(args: argparse.Namespace) -> int:
+    from .summary import build_summary, markdown
+
+    paths = _paths(args)
+    summary = build_summary(
+        paths,
+        run=Path(args.run) if args.run else None,
+        refresh=Path(args.refresh) if args.refresh else None,
+        gate=Path(args.gate) if args.gate else None,
+        status=args.status,
+        failed_step=args.failed_step,
+    )
+    body = markdown(summary)
+    if args.markdown:
+        Path(args.markdown).write_text(body, encoding="utf-8")
+    else:
+        print(body)
+    if args.json:
+        Path(args.json).write_text(json.dumps(summary.as_dict(), indent=1) + "\n", encoding="utf-8")
+    return 0
+
+
 def register(sub: argparse._SubParsersAction) -> None:
-    c = sub.add_parser("classify", help="prepare, check, import, and score scope judgments")
+    c = sub.add_parser("classify", help="prepare, judge, check, import, and score scope judgments")
     c.add_argument(
         "--workdir",
         help="directory for batches, judgments, and instructions (default: .cache/classify)",
@@ -515,6 +725,89 @@ def register(sub: argparse._SubParsersAction) -> None:
     p.add_argument("--format", choices=("text", "json"), default="text")
     candidates_arg(p)
     p.set_defaults(func=cmd_score)
+
+    def scope_arg(p: argparse.ArgumentParser) -> None:
+        p.add_argument(
+            "--scope",
+            choices=("both", "state", "federal"),
+            default="both",
+            help="working directories to use (default both; --federal means federal)",
+        )
+
+    def api_args(p: argparse.ArgumentParser) -> None:
+        p.add_argument("--model", help="model id (default: pipeline/automation.yaml)")
+        p.add_argument("--effort", choices=("low", "medium", "high", "xhigh", "max"))
+        p.add_argument(
+            "--spend-cap",
+            type=float,
+            help="dollar cap for this run (default: WEEKLY_SPEND_CAP_USD, else the settings file)",
+        )
+        p.add_argument(
+            "--spend-file",
+            help="JSON ledger of dollars spent, shared by the commands of one run",
+        )
+        p.add_argument(
+            "--no-batches", action="store_true", help="direct calls instead of Message Batches"
+        )
+
+    p = csub.add_parser(
+        "run", help="judge new candidates with the Anthropic API (triage, texts, full)"
+    )
+    scope_arg(p)
+    api_args(p)
+    p.add_argument("--result", help="write the run's result as JSON to this path")
+    p.add_argument("--limit", type=int, help="at most this many new items per stage")
+    p.add_argument(
+        "--retry-dropped", action="store_true", help="judge items dropped by earlier runs again"
+    )
+    p.add_argument("--no-fetch", action="store_true", help="do not fetch missing bill texts")
+    candidates_arg(p)
+    p.set_defaults(func=cmd_run)
+
+    p = csub.add_parser(
+        "baseline",
+        help="record the unjudged candidates of the newest candidate files so `run` skips them",
+    )
+    scope_arg(p)
+    p.add_argument(
+        "--if-new",
+        action="store_true",
+        help="only when the working directory has no judgments and no baseline yet",
+    )
+    p.set_defaults(func=cmd_baseline)
+
+    p = csub.add_parser(
+        "eval-gate",
+        help="score the automated classifier on the evaluation set when its instructions, "
+        "model, or effort changed; exit 1 below the floors",
+    )
+    api_args(p)
+    p.add_argument("--force", action="store_true", help="evaluate even if a result is stored")
+    p.add_argument("--json", help="write the gate result as JSON to this path")
+    p.set_defaults(func=cmd_eval_gate)
+
+    p = csub.add_parser(
+        "refresh", help="append newly recorded actions and versions to existing bill records"
+    )
+    p.add_argument(
+        "--source",
+        action="append",
+        choices=("legiscan", "congress"),
+        help="limit to one source (repeatable)",
+    )
+    p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--json", help="write the updates as JSON to this path")
+    p.set_defaults(func=cmd_refresh)
+
+    p = csub.add_parser("summary", help="write the weekly run's summary and result file")
+    p.add_argument("--run", help="`classify run --result` file")
+    p.add_argument("--refresh", help="`classify refresh --json` file")
+    p.add_argument("--gate", help="`classify eval-gate --json` file")
+    p.add_argument("--status", choices=("success", "failure"), default="success")
+    p.add_argument("--failed-step", help="the step that failed, for a failure summary")
+    p.add_argument("--markdown", help="write the summary here (default: stdout)")
+    p.add_argument("--json", help="write the machine-readable result here")
+    p.set_defaults(func=cmd_summary)
 
 
 def default_batch_size(stage: str) -> int:

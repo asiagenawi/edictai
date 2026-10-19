@@ -1,4 +1,4 @@
-"""Command-line entry point: `statescope validate | build | docs | ingest`."""
+"""Command-line entry point: `statescope validate | build | docs | ingest | watch | classify`."""
 
 from __future__ import annotations
 
@@ -245,6 +245,19 @@ def cmd_ingest_federal(args: argparse.Namespace) -> int:
     return 0
 
 
+RESEARCH_SOURCES = ("openalex", "eric")
+
+
+def cmd_ingest_research(args: argparse.Namespace) -> int:
+    """Research discovery is not enabled: its sources have not been approved for use."""
+    names = ", ".join(args.source or RESEARCH_SOURCES)
+    print(
+        f"Research discovery ({names}) is not enabled: these sources have not been approved "
+        "for use. Nothing was fetched."
+    )
+    return 0
+
+
 def cmd_watch(args: argparse.Namespace) -> int:
     import json
 
@@ -354,6 +367,11 @@ def parser() -> argparse.ArgumentParser:
         help="also match every bill's official and short titles (one request per bill; cached)",
     )
     fe.set_defaults(func=cmd_ingest_federal)
+    rs = isub.add_parser(
+        "research", help="find new research (OpenAlex, ERIC); not enabled, fetches nothing"
+    )
+    rs.add_argument("--source", action="append", choices=RESEARCH_SOURCES)
+    rs.set_defaults(func=cmd_ingest_research)
 
     w = sub.add_parser(
         "watch", help="check watched guidance pages for changes; exits 1 when something changed"

@@ -256,9 +256,17 @@ class BillStore:
         return self._index
 
     def get(self, bill_id: int) -> dict[str, Any] | None:
+        return self.from_response(bill_id) or self.from_dataset(bill_id)
+
+    def from_response(self, bill_id: int) -> dict[str, Any] | None:
+        """The bill from a cached getBill response."""
         path = self.cache / "responses" / "getBill" / f"{bill_id}.json"
         if path.exists():
             return read_json(path)["response"]["bill"]
+        return None
+
+    def from_dataset(self, bill_id: int) -> dict[str, Any] | None:
+        """The bill from its session's cached dataset."""
         hit = self._bill_index().get(int(bill_id))
         if hit is None:
             return None

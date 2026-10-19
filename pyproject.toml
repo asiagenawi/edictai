@@ -15,8 +15,8 @@ dependencies = [
 [project.optional-dependencies]
 # Parquet output pulls in pyarrow, which is large; the core build works without it.
 parquet = ["pyarrow>=18"]
-# PDF bill-text extraction for the classifier tooling.
-classify = ["pypdf>=5"]
+# PDF bill-text extraction and the Anthropic API client for the classifier tooling.
+classify = ["anthropic>=1.6", "pypdf>=5"]
 
 [project.scripts]
 statescope = "statescope.cli:main"

@@ -126,6 +126,26 @@ def _years(session: str) -> set[int]:
     return set(nums)
 
 
+def _bill_fields(row: Mapping[str, Any] | None) -> dict[str, str] | None:
+    """jurisdiction, session, identifier of a candidate row; None for a Federal Register
+    document, which no evaluation entry describes."""
+    if not row:
+        return None
+    if row.get("source") == "congress":
+        return {
+            "jurisdiction": "us",
+            "session": str(row["congress"]),
+            "identifier": str(row["identifier"]),
+        }
+    if row.get("source") == "federal_register" or "session" not in row:
+        return None
+    return {
+        "jurisdiction": str(row["jurisdiction"]),
+        "session": str(row["session"]),
+        "identifier": str(row["identifier"]),
+    }
+
+
 @dataclass
 class Match:
     entry: dict[str, Any]
@@ -154,7 +174,7 @@ def match(
         key = str(j.get("key"))
         entry, how = by_id.get(key), "id"
         if entry is None:
-            bill = (bills or {}).get(key)
+            bill = _bill_fields((bills or {}).get(key))
             split = _split_key(key)
             if bill:
                 jur, session = str(bill["jurisdiction"]), str(bill["session"])

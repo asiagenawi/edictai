@@ -1,0 +1,235 @@
+name: Weekly update
+
+# Finds new bills and documents, classifies them with the Anthropic API, updates
+# the status of bills already recorded, and opens (or updates) one pull request
+# with the changes when every check passes. docs/automation.md describes each step.
+
+on:
+  schedule:
+    - cron: "43 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      spend_cap:
+        description: "Dollar cap for API spending in this run (default: WEEKLY_SPEND_CAP_USD, else 10)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: weekly
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Ingest, classify, and propose changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      WEEKLY_SPEND_CAP_USD: ${{ inputs.spend_cap || vars.WEEKLY_SPEND_CAP_USD || '10' }}
+      OUT: weekly
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v10.3.0
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: |
+          uv sync --frozen --extra classify
+          mkdir -p "$OUT"
+
+      # The LegiScan datasets, their dataset_hash values, and the monthly query
+      # counter live in .cache/legiscan, so a dataset is downloaded again only when
+      # LegiScan reports a new hash. Judgments, texts, the evaluation result, and
+      # the baseline live in .cache/classify and .cache/texts. The cache is saved
+      # at the end of every run, failed ones included, so the query counter is
+      # never lost. Runs are serialized (above), so the copy restored is the latest.
+      - name: Restore the cache
+        uses: actions/cache/restore@v6.1.0
+        with:
+          path: |
+            .cache/legiscan
+            .cache/congress
+            .cache/federal_register
+            .cache/candidates
+            .cache/classify
+            .cache/texts
+          key: weekly-cache-${{ github.run_id }}
+          restore-keys: |
+            weekly-cache-
+            ingest-cache-
+
+      # On the first run with no judgments in the cache, the candidates already
+      # listed are recorded as the baseline, so only candidates new since then
+      # are classified.
+      - name: Baseline
+        id: baseline
+        run: uv run --no-sync statescope classify baseline --if-new
+
+      - name: LegiScan datasets
+        id: legiscan
+        env:
+          LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
+        run: uv run --no-sync statescope ingest legiscan
+
+      - name: State candidates
+        id: candidates
+        run: uv run --no-sync statescope ingest candidates
+
+      - name: Federal candidates
+        id: federal
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: uv run --no-sync statescope ingest federal --titles
+
+      # Research discovery (OpenAlex, ERIC) stays off until its sources are approved.
+      - name: Research discovery (disabled)
+        if: ${{ false }}
+        run: uv run --no-sync statescope ingest research
+
+      - name: Status of recorded bills
+        id: refresh
+        run: uv run --no-sync statescope classify refresh --json "$OUT/refresh.json"
+
+      # Runs the evaluation only when the instructions, model, or effort changed;
+      # fails below the precision and recall floors in pipeline/automation.yaml.
+      - name: Evaluation gate
+        id: gate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          uv run --no-sync statescope classify eval-gate \
+            --spend-file "$OUT/spend.json" --json "$OUT/eval-gate.json"
+
+      - name: Classify new candidates
+        id: classify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: |
+          uv run --no-sync statescope classify run \
+            --spend-file "$OUT/spend.json" --result "$OUT/run.json"
+
+      # Every full-stage output `classify run` has written is imported, so a record
+      # from a pull request that was not merged comes back in this one; records
+      # already in data/ are skipped. A judgment with any quote not found in the
+      # bill text is rejected.
+      - name: Import
+        id: import
+        run: |
+          mapfile -t state < <(jq -r '.state.import_files // [] | .[]' "$OUT/run.json")
+          if [ "${#state[@]}" -gt 0 ]; then
+            uv run --no-sync statescope classify import --strict-quotes "${state[@]}"
+          fi
+          mapfile -t federal < <(jq -r '.federal.import_files // [] | .[]' "$OUT/run.json")
+          if [ "${#federal[@]}" -gt 0 ]; then
+            uv run --no-sync statescope classify --federal import --strict-quotes "${federal[@]}"
+          fi
+
+      - name: Validate records
+        id: validate
+        run: uv run --no-sync statescope validate --strict --format github
+
+      - name: Pipeline tests
+        id: pipeline_tests
+        run: uv run --no-sync pytest
+
+      - name: Build
+        id: build
+        run: uv run --no-sync statescope build --no-parquet
+
+      # After the build, so the API's tests of the built database run on this week's data.
+      - name: API tests
+        id: api_tests
+        run: |
+          python3 -m venv "$RUNNER_TEMP/api-venv"
+          "$RUNNER_TEMP/api-venv/bin/pip" install --quiet -r api/requirements-dev.txt
+          "$RUNNER_TEMP/api-venv/bin/python" -m pytest api/tests -q
+
+      - name: Summary
+        id: summary
+        run: |
+          uv run --no-sync statescope classify summary \
+            --run "$OUT/run.json" --refresh "$OUT/refresh.json" --gate "$OUT/eval-gate.json" \
+            --markdown "$OUT/summary.md" --json "$OUT/weekly-result.json"
+          echo "changed=$(jq -r '.changed' "$OUT/weekly-result.json")" >> "$GITHUB_OUTPUT"
+          cat "$OUT/summary.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open or update the pull request
+        id: pr
+        if: steps.summary.outputs.changed == 'true' && github.ref == 'refs/heads/master'
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          branch: automation/weekly-update
+          base: master
+          add-paths: data/
+          commit-message: "Weekly update: new records and bill status"
+          title: "Weekly update, ${{ github.run_started_at }}"
+          body-path: weekly/summary.md
+          delete-branch: true
+
+      - name: Upload the run's files
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: weekly-update
+          path: weekly/
+          retention-days: 30
+
+      - name: Save the cache
+        if: always()
+        uses: actions/cache/save@v6.1.0
+        with:
+          path: |
+            .cache/legiscan
+            .cache/congress
+            .cache/federal_register
+            .cache/candidates
+            .cache/classify
+            .cache/texts
+          key: weekly-cache-${{ github.run_id }}
+
+      # One open issue collects failures; each failed run adds a comment.
+      - name: Open or update the failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          FAILED_STEP: >-
+            ${{ steps.baseline.outcome == 'failure' && 'Baseline'
+            || steps.legiscan.outcome == 'failure' && 'LegiScan datasets'
+            || steps.candidates.outcome == 'failure' && 'State candidates'
+            || steps.federal.outcome == 'failure' && 'Federal candidates'
+            || steps.refresh.outcome == 'failure' && 'Status of recorded bills'
+            || steps.gate.outcome == 'failure' && 'Evaluation gate'
+            || steps.classify.outcome == 'failure' && 'Classify new candidates'
+            || steps.import.outcome == 'failure' && 'Import'
+            || steps.validate.outcome == 'failure' && 'Validate records'
+            || steps.pipeline_tests.outcome == 'failure' && 'Pipeline tests'
+            || steps.build.outcome == 'failure' && 'Build'
+            || steps.api_tests.outcome == 'failure' && 'API tests'
+            || steps.summary.outcome == 'failure' && 'Summary'
+            || steps.pr.outcome == 'failure' && 'Open or update the pull request'
+            || 'another step' }}
+        run: |
+          uv run --no-sync statescope classify summary --status failure \
+            --failed-step "$FAILED_STEP" \
+            --run "$OUT/run.json" --refresh "$OUT/refresh.json" --gate "$OUT/eval-gate.json" \
+            --markdown "$OUT/failure.md" --json "$OUT/weekly-result.json" \
+            || echo "The weekly update failed at $FAILED_STEP." > "$OUT/failure.md"
+          printf '\nRun: %s\n' "$RUN_URL" >> "$OUT/failure.md"
+          gh label create weekly-update-failed --color c4493e \
+            --description "The weekly update failed" --force
+          num=$(gh issue list --label weekly-update-failed --state open --json number --jq '.[0].number // empty')
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body-file "$OUT/failure.md"
+          else
+            gh issue create --title "Weekly update failed" \
+              --label weekly-update-failed --body-file "$OUT/failure.md"
+          fi

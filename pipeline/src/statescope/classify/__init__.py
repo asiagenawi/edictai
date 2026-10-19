@@ -14,6 +14,12 @@ Stages:
 4. `import`: verified judgments become data/legislation records.
 5. `score`: precision and recall against pipeline/eval/classifier_eval.yaml.
 
+`run` does stages 1-3 through the Anthropic API with the same instructions,
+schemas, and checks (see `run` and `llm`); `eval-gate` scores it on the
+evaluation set (`evalgate`), `refresh` appends new actions to recorded bills
+(`refresh`), and `summary` writes the weekly run's report (`summary`).
+docs/automation.md describes the weekly workflow that runs them.
+
 Federal candidates (`statescope federal` output: Congress.gov bills and
 Federal Register documents) go through the same stages with `--federal` or a
 federal `--candidates` file. They keep their own batches and judgments under

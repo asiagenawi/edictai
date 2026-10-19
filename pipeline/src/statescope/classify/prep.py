@@ -408,6 +408,12 @@ def write_batches(
         result.batches.append(path)
         number += 1
     result.items = len(items)
+    write_manifest(cp, stage)
+
+
+def write_manifest(cp: ClassifyPaths, stage: str) -> None:
+    """`{stage}/manifest.json`: every batch file, its output file, and whether it is done."""
+    stage_dir = cp.stage_dir(stage)
     manifest = []
     for path in sorted(stage_dir.glob("batch-*.jsonl")):
         out = stage_dir / "out" / path.name
