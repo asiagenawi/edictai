@@ -29,6 +29,7 @@ const STORE = 'edictai-ask';
 const OPEN = 'edictai-ask-open';
 const HISTORY_MESSAGES = 6;
 const WAKE_AFTER_MS = 4500;
+const WARM_EVERY_MS = 5 * 60 * 1000;
 const GIVE_UP_MS = 150_000;
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const EXAMPLES: [string, string][] = [
@@ -81,13 +82,19 @@ export function initAsk() {
   ribbon(P.querySelector('.ap-rib')!);
 
   // ---- open / close --------------------------------------------------------
-  let warmed = false;
+  // The free host sleeps after a quiet spell. A cheap request when a page opens
+  // starts it waking while the visitor reads, at most once every few minutes per tab.
+  const WARMED = 'edictai-ask-warmed';
   function warm() {
-    // The free host sleeps when idle; a cheap request starts it waking while the visitor types.
-    if (warmed) return;
-    warmed = true;
+    let last = 0;
+    try { last = +(sessionStorage.getItem(WARMED) || 0); } catch { /* storage off */ }
+    if (Date.now() - last < WARM_EVERY_MS) return;
+    try { sessionStorage.setItem(WARMED, String(Date.now())); } catch { /* storage off */ }
     fetch(`${API}/api/health`, { mode: 'cors', cache: 'no-store' }).catch(() => {});
   }
+  const idle = (window as Window & { requestIdleCallback?: (f: () => void) => void }).requestIdleCallback;
+  if (idle) idle(() => warm()); else setTimeout(() => warm(), 1500);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') warm(); });
   function setOpen(v: boolean, focus = true) {
     html.classList.remove('ask-instant');
     html.classList.toggle('ask-open', v);
