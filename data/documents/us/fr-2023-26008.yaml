@@ -1,0 +1,40 @@
+id: us-fr-2023-26008
+jurisdiction: us
+issuer: us-ed
+title: Applications for New Awards; Education Research and Development Center Program
+classification: program
+status: current
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - research
+  - funding
+  - instructional-use
+summary: Invites applications for FY 2024 Education Research and Development Center awards from the Institute
+  of Education Sciences. One of the four center topics is using generative artificial intelligence to
+  augment teaching and learning in classrooms.
+published: "2023-11-27"
+provisions:
+  - type: appropriates-funding
+    description: Funds an education R&D center on using generative AI to augment teaching and learning
+      in classrooms.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2023/11/27/2023-26008/applications-for-new-awards-education-research-and-development-center-program
+      locator: Competition in This Notice
+      quote: 'NCER will consider only applications that address one of the following topics: Improving
+        Rural Education. Using Generative Artificial Intelligence to Augment Teaching and Learning in
+        Classrooms.'
+sources:
+  - url: https://www.federalregister.gov/documents/2023/11/27/2023-26008/applications-for-new-awards-education-research-and-development-center-program
+    title: Applications for New Awards; Education Research and Development Center Program (88 FR 82860),
+      FR Doc. 2023-26008
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

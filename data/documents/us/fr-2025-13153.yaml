@@ -1,0 +1,51 @@
+id: us-fr-2025-13153
+jurisdiction: us
+issuer: us-ed
+title: Applications for New Awards; Alaska Native and Native Hawaiian-Serving Institutions Program, Part
+  A
+classification: program
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - instructional-use
+  - ai-literacy
+  - curriculum-standards
+  - educator-training
+summary: Invites applications for fiscal year 2025 Alaska Native and Native Hawaiian-Serving Institutions
+  Program, Part A grants and includes an invitational priority on advancing artificial intelligence in
+  education, covering integration of AI tools into pedagogy and student support services, AI and computer
+  science courses in general education, and AI in teacher preparation programs.
+published: "2025-07-14"
+provisions:
+  - type: appropriates-funding
+    description: Sets an invitational priority for projects that integrate AI tools into institutional
+      pedagogy or student support services or expand students' understanding of AI.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/07/14/2025-13153/applications-for-new-awards-alaska-native-and-native-hawaiian-serving-institutions-program-part-a
+      locator: Invitational Priority Two
+      quote: 'Projects that implement or promote greater understanding of Artificial Intelligence (AI)
+        through one or both of the following: (1) supporting the integration of AI tools into the institution''s
+        pedagogy or student support services'
+  - type: educator-prep-requirement
+    description: The priority covers embedding AI and computer science into institutions' teacher professional
+      development or teacher preparation programs.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/07/14/2025-13153/applications-for-new-awards-alaska-native-and-native-hawaiian-serving-institutions-program-part-a
+      locator: Invitational Priority Two, part (2)(b)
+      quote: embedding AI and computer science into an institution of higher education's general preservice
+        or in-service teacher professional development or teacher preparation programs
+sources:
+  - url: https://www.federalregister.gov/documents/2025/07/14/2025-13153/applications-for-new-awards-alaska-native-and-native-hawaiian-serving-institutions-program-part-a
+    title: Applications for New Awards; Alaska Native and Native Hawaiian-Serving Institutions Program,
+      Part A (90 FR 31190), FR Doc. 2025-13153
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

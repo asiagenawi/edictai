@@ -1,0 +1,49 @@
+id: us-fr-2025-11117
+jurisdiction: us
+issuer: us-ed
+title: Final Priorities and Requirements-Rehabilitation Long-Term Training Program
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+summary: Sets final priorities and requirements for the Rehabilitation Long-Term Training program, which
+  funds scholarships for students in rehabilitation degree and certificate programs. Requires the rehabilitation
+  technology topic area to include training on artificial intelligence tools and requires funded programs
+  to train scholars on integrating assistive technology and AI tools into vocational rehabilitation services.
+published: "2025-06-17"
+effective: "2025-07-17"
+provisions:
+  - type: appropriates-funding
+    description: Rehabilitation technology projects must provide scholarships for degree or certificate
+      study that includes training on AI tools.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/06/17/2025-11117/final-priorities-and-requirements-rehabilitation-long-term-training-program
+      locator: Priority 2, Topic Area 2 (Rehabilitation Technology)
+      quote: Rehabilitation technology training includes training on the use, applications, and benefits
+        of technology (including assistive technology and artificial intelligence tools) for individuals
+        with
+  - type: ai-workforce-program
+    description: Funded academic programs must train scholars to understand integration of assistive technology
+      and AI tools into vocational rehabilitation services.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/06/17/2025-11117/final-priorities-and-requirements-rehabilitation-long-term-training-program
+      locator: Requirements, program description item (5)
+      quote: (5) The program trains RSA scholars to understand the applications and strategies related
+        to the integration of advanced assistive technology and artificial intelligence tools into VR
+        services
+sources:
+  - url: https://www.federalregister.gov/documents/2025/06/17/2025-11117/final-priorities-and-requirements-rehabilitation-long-term-training-program
+    title: Final Priorities and Requirements-Rehabilitation Long-Term Training Program (90 FR 25493),
+      FR Doc. 2025-11117
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

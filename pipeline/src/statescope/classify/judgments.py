@@ -139,6 +139,7 @@ def check_full(
     vocab: Vocab,
     store: TextStore,
     expected: list[str] | None = None,
+    federal: bool = False,
 ) -> CheckReport:
     """Schema, vocabulary, summary, locator, and verbatim-quote checks.
 
@@ -146,7 +147,7 @@ def check_full(
     the latest, or the earlier version fetched for amended-out AI language.
     """
     report = CheckReport("full")
-    validator = Draft202012Validator(full_schema(vocab))
+    validator = Draft202012Validator(full_schema(vocab, federal))
     ptypes = {p["code"]: p for p in vocab.provision_types}
     for row in _file_checks(report, rows, expected):
         c = Checked(row["key"], row, errors=_schema_errors(validator, row))
@@ -162,6 +163,12 @@ def check_full(
         c.text_available = bool(texts)
         if not row["in_scope"]:
             continue
+        if federal:
+            is_document = c.key.startswith("us-fr-")
+            if is_document and not row.get("classification"):
+                c.errors.append("classification is required for a Federal Register document")
+            elif row.get("classification") and not is_document:
+                c.errors.append("classification is only for Federal Register documents")
         summary = row.get("summary") or ""
         n = sentences(summary)
         if n > SUMMARY_MAX_SENTENCES:

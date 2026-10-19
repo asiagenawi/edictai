@@ -1,0 +1,29 @@
+id: us-fr-2024-30488
+jurisdiction: us
+issuer: us-ed
+title: Common Instructions for Applicants to Department of Education Discretionary Grant Programs
+classification: guidance
+status: current
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - research-integrity
+  - instructional-use
+summary: Revises the Department of Education's common instructions for discretionary grant applicants,
+  adding guidance that AI may be used to prepare applications but applicants are responsible for their
+  integrity and outcomes. Encourages applicants proposing AI systems for educational settings to review
+  the Department's AI resources.
+published: "2024-12-23"
+sources:
+  - url: https://www.federalregister.gov/documents/2024/12/23/2024-30488/common-instructions-for-applicants-to-department-of-education-discretionary-grant-programs
+    title: Common Instructions for Applicants to Department of Education Discretionary Grant Programs
+      (89 FR 104528), FR Doc. 2024-30488
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.
+    No quoted provisions.

@@ -1,0 +1,51 @@
+id: us-fr-2025-11612
+jurisdiction: us
+issuer: us-ed
+title: Applications for New Awards; Educational Technology, Media, and Materials for Individuals With
+  Disabilities-National Center To Improve Faculty Capacity To Use Educational Technology in Special Education
+  Personnel and Leadership Preparation Programs
+classification: program
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - educator-training
+  - funding
+  - instructional-use
+summary: Invites applications for a cooperative agreement to establish a National Center that improves
+  the capacity of faculty at institutions of higher education to use educational technology, defined to
+  include artificial intelligence, in special education personnel and leadership preparation programs.
+published: "2025-06-25"
+provisions:
+  - type: appropriates-funding
+    description: Funds a national center to support IHE faculty in using educational technology, which
+      the priority defines to include AI.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/06/25/2025-11612/applications-for-new-awards-educational-technology-media-and-materials-for-individuals-with
+      locator: Priority
+      quote: For the purposes of this priority, educational technology includes AT devices \1\ and AI.\2\
+        This project will support faculty at IHEs by improving their knowledge and use of educational
+        technology
+  - type: educator-prep-requirement
+    description: The center is aimed at special education personnel and leadership preparation programs
+      at IHEs.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/06/25/2025-11612/applications-for-new-awards-educational-technology-media-and-materials-for-individuals-with
+      locator: Priority
+      quote: The purpose of this priority is to fund a cooperative agreement to establish and operate
+        a National Center to Improve Faculty Capacity to Use Educational Technology in Special Education
+        Personnel and Leadership Preparation Programs.
+sources:
+  - url: https://www.federalregister.gov/documents/2025/06/25/2025-11612/applications-for-new-awards-educational-technology-media-and-materials-for-individuals-with
+    title: Applications for New Awards; Educational Technology, Media, and Materials for Individuals With
+      Disabilities-National Center To Improve Faculty Capacity To Use Educational Technology in Special
+      Education Personnel and Leadership Preparation Programs (90 FR 26984), FR Doc. 2025-11612
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

@@ -1,0 +1,106 @@
+id: us-118-s-4664
+jurisdiction: us
+session: "118"
+identifier: S. 4664
+title: Department of Energy AI Act
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Creates a Department of Energy program on artificial intelligence for science, energy, and national
+  security. Requires the Secretary to hire and train at least 500 new AI researchers, including by providing
+  training and grants and establishing new AI degree and certificate programs at universities and community
+  colleges, and includes training for undergraduate and graduate students in frontier AI.
+provisions:
+  - type: ai-workforce-program
+    description: Directs the Secretary to establish new AI degree and certificate programs at universities
+      and community colleges as part of building the AI workforce.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4664/BILLS-118s4664rs.htm
+      locator: Sec. 4, AI talent paragraph (4)(B)(iii)
+      quote: establishing new degree and certificate programs in AI-related disciplines at universities
+        and community colleges.
+  - type: ai-workforce-program
+    description: Includes training for undergraduate and graduate students in frontier AI among the program's
+      activities.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4664/BILLS-118s4664rs.htm
+      locator: Sec. 4, paragraph (iv) on research experiences
+      quote: increase research experiences and workforce development, including training for undergraduate
+        and graduate students in frontier AI for science, energy, and national security.
+  - type: appropriates-funding
+    description: In the introduced version, reserves at least 10 percent of program funds for education
+      and training of the AI workforce.
+    citation:
+      source_url: https://www.congress.gov/118/bills/s4664/BILLS-118s4664rs.htm
+      locator: Introduced, Sec. 4(f)(1)
+      quote: Of the amounts made available under subsection (h), not less than 10 percent shall be used
+        to foster the education and training of the next-generation AI workforce.
+sponsors:
+  - name: Sen. Manchin, Joe, III [I-WV]
+    primary: true
+    party: I
+    chamber: upper
+  - name: Sen. Murkowski, Lisa [R-AK]
+    primary: false
+    party: R
+    chamber: upper
+actions:
+  - date: "2024-07-10"
+    description: Read twice and referred to the Committee on Energy and Natural Resources.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2024-07-10"
+    description: Introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+  - date: "2024-11-19"
+    description: Committee on Energy and Natural Resources. Ordered to be reported with an amendment in
+      the nature of a substitute favorably.
+    actor: committee
+    classification:
+      - committee-passage
+  - date: "2024-11-21"
+    description: Placed on Senate Legislative Calendar under General Orders. Calendar No. 631.
+    actor: upper
+    classification:
+      - other
+  - date: "2024-11-21"
+    description: Committee on Energy and Natural Resources. Reported by Senator Manchin with an amendment
+      in the nature of a substitute. Without written report.
+    actor: committee
+    classification:
+      - committee-passage
+versions:
+  - note: Introduced in Senate
+    date: "2024-07-10"
+    url: https://www.congress.gov/118/bills/s4664/BILLS-118s4664is.htm
+    media_type: text/html
+  - note: Reported to Senate
+    date: "2024-11-21"
+    url: https://www.congress.gov/118/bills/s4664/BILLS-118s4664rs.htm
+    media_type: text/html
+external_ids:
+  congress_gov: 118/s/4664
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/senate-bill/4664
+    title: S. 4664 (118th Congress)
+    publisher: Congress.gov
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/s4664/BILLS-118s4664rs.htm
+    title: S. 4664 text (Reported to Senate)
+    publisher: Congress.gov
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: congress-gov-text+classifier
+  notes: Actions, sponsors, and versions from the Congress.gov API; scope, codes, summary, and provisions
+    by the classifier from the bill text.

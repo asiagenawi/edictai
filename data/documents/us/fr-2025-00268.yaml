@@ -1,0 +1,48 @@
+id: us-fr-2025-00268
+jurisdiction: us
+issuer: us-ed
+title: Rehabilitation Long-Term Training Program
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+  - curriculum-standards
+summary: Proposes priorities and requirements for Rehabilitation Long-Term Training grants to colleges
+  and universities, which award scholarships to students in rehabilitation degree programs. The rehabilitation
+  technology topic must train scholars on technology including artificial intelligence tools for individuals
+  with disabilities.
+published: "2025-01-21"
+provisions:
+  - type: appropriates-funding
+    description: Proposes a grant priority for college and university scholarships in rehabilitation technology
+      that includes training on AI tools.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/01/21/2025-00268/rehabilitation-long-term-training-program
+      locator: Proposed priority, topic area 2, Rehabilitation Technology (ALN 84.129E)
+      quote: Rehabilitation technology training includes training on the use, applications, and benefits
+        of technology (including assistive technology and artificial intelligence tools) to individuals
+        with disabilities
+  - type: ai-workforce-program
+    description: Funded programs must train scholars in applying assistive technology and AI tools to
+      support employment of individuals with disabilities.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/01/21/2025-00268/rehabilitation-long-term-training-program
+      locator: Proposed requirements, item (5)
+      quote: The program trains RSA scholars to understand the applications and strategies related to
+        the integration of advanced assistive technology and artificial intelligence tools to fuel competitive
+        integrated employment in the 21st century
+sources:
+  - url: https://www.federalregister.gov/documents/2025/01/21/2025-00268/rehabilitation-long-term-training-program
+    title: Rehabilitation Long-Term Training Program (90 FR 6910), FR Doc. 2025-00268
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

@@ -1,0 +1,29 @@
+id: us-fr-2025-16571
+jurisdiction: us
+issuer: us-ed
+title: Common Instructions and Information for Applicants to Department of Education Discretionary Grant
+  Programs
+classification: guidance
+status: current
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - research-integrity
+summary: Publishes revised common instructions for applicants to Department of Education discretionary
+  grant programs, including guidance that applicants may use artificial intelligence to develop grant
+  application materials but must certify that all application contents are true, complete, and accurate
+  regardless of whether AI generated them.
+published: "2025-08-29"
+sources:
+  - url: https://www.federalregister.gov/documents/2025/08/29/2025-16571/common-instructions-and-information-for-applicants-to-department-of-education-discretionary-grant
+    title: Common Instructions and Information for Applicants to Department of Education Discretionary
+      Grant Programs (90 FR 42234), FR Doc. 2025-16571
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: unverified
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.
+    No quoted provisions.

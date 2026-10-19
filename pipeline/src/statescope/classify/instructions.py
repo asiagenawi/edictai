@@ -84,7 +84,8 @@ def triage_schema() -> dict[str, Any]:
     }
 
 
-def full_schema(vocab: Vocab) -> dict[str, Any]:
+def full_schema(vocab: Vocab, federal: bool = False) -> dict[str, Any]:
+    """The full-stage judgment schema; `federal` adds the document `classification`."""
     levels = sorted(vocab.codes("education_levels"))
     provision = {
         "type": "object",
@@ -103,7 +104,7 @@ def full_schema(vocab: Vocab) -> dict[str, Any]:
             },
         },
     }
-    return {
+    schema = {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
         "title": "Full judgment (one JSON object per line)",
         "type": "object",
@@ -137,6 +138,11 @@ def full_schema(vocab: Vocab) -> dict[str, Any]:
             },
         },
     }
+    if federal:
+        schema["properties"]["classification"] = {
+            "enum": sorted(vocab.codes("document_classifications"))
+        }
+    return schema
 
 
 # -- instruction files --------------------------------------------------------
@@ -162,7 +168,62 @@ _DECISION_RULES = """\
   AI work at one named campus, which are out of scope (see the borderline table)."""
 
 
-def triage_md(paths: Paths, vocab: Vocab) -> str:
+_FEDERAL_TRIAGE = """\
+## Federal items
+
+These batches hold federal candidates from the Congress.gov API and the Federal
+Register API. They are judged by the same scope as state bills: a federal bill,
+executive order, or agency action is in scope when it governs AI in K-12 or higher
+education, or places an AI-related duty on schools, students, educators, or
+institutions (including federal programs, grants, or guidance aimed at them).
+General AI bills and orders with no education provision are out of scope.
+
+- Bills (key `us-{congress}-{type}-{number}`): `session` is the Congress, `bill_type`
+  the Congress.gov type (`hr`, `s`, `hres`, `sjres`, ...), `description` the
+  Congressional Research Service summary when there is one, `official_title` the long
+  title, `policy_area` the subject Congress.gov assigned, and `matched_in` where an AI
+  keyword matched (`title`, `summary`, or `titles`, one of the bill's other titles),
+  with `trigger_strength: weak` when the only keyword was "algorithm". No education
+  word was required to find them.
+- Federal Register documents: `record_type` is `executive-action` for an executive
+  order (key `us-eo-{number}`) or `document` for a rule, proposed rule, or notice (key
+  `us-fr-{document number}`), with `document_type`, `agency`, `description` (the
+  abstract, when there is one), and `status` (publication, signing, and effective
+  dates). They were found by a full-text search for "artificial intelligence"
+  (`matched_by: fulltext`), so the title and abstract may not show where AI comes up.
+  Mark one `out` only when the metadata clearly rules it out.
+
+"""
+
+
+def _federal_full(vocab: Vocab) -> str:
+    classes = ", ".join(f"`{c}`" for c in sorted(vocab.codes("document_classifications")))
+    return f"""\
+## Federal items
+
+These batches hold federal candidates from the Congress.gov API and the Federal
+Register API, judged by the same scope and rules as state bills.
+
+- Bills (key `us-{{congress}}-{{type}}-{{number}}`) carry the Congressional Research
+  Service summary as `description` (a long summary is cut, and its passages that
+  mention AI are listed in `description_ai_passages`; the summary is metadata, never a
+  source of quotes), `official_title`, and `policy_area`; `history`
+  lists the actions Congress.gov recorded and `versions` the text versions. The text is
+  the Government Publishing Office's formatted text of the latest version.
+- Federal Register documents carry `record_type` (`executive-action` for an executive
+  order, `document` for a rule, proposed rule, or notice), `document_type`, `agency`,
+  `citation`, `description` (the abstract), and `status` (publication, signing, and
+  effective dates). The text is the Federal Register's own text of the document; its
+  `[[Page N]]` markers give Federal Register page numbers for locators.
+- For an in-scope document with `record_type: document`, also give `classification`,
+  one of {classes}: `policy` for binding rules, regulations, and final priorities or
+  requirements; `guidance` for guidance and recommendations; `program` for a grant
+  competition, initiative, or challenge. Leave it out for bills and executive orders.
+
+"""
+
+
+def triage_md(paths: Paths, vocab: Vocab, federal: bool = False) -> str:
     scope = scope_section(paths.root / "docs" / "methodology.md")
     return f"""\
 # Triage instructions
@@ -211,7 +272,7 @@ mark `in` or `needs_text`, so a wrong `out` loses the bill for good while a wron
 - Bills with `matched_by: fulltext` were found by searches that required an education
   word in the text; mark them `out` only when the metadata clearly rules them out.
 
-## Scope (from docs/methodology.md)
+{_FEDERAL_TRIAGE if federal else ""}## Scope (from docs/methodology.md)
 
 {scope}
 
@@ -221,7 +282,7 @@ mark `in` or `needs_text`, so a wrong `out` loses the bill for good while a wron
 """
 
 
-def full_md(paths: Paths, vocab: Vocab) -> str:
+def full_md(paths: Paths, vocab: Vocab, federal: bool = False) -> str:
     scope = scope_section(paths.root / "docs" / "methodology.md")
     return f"""\
 # Full classification instructions
@@ -275,7 +336,7 @@ Example (one line in the file):
 {{"key": "us-il-2025-2026-hb-1859", "in_scope": true, "confidence": "high", "education_levels": ["postsecondary"], "topics": ["instructional-use", "employment-evaluation"], "summary": "Bars community college courses from using artificial intelligence as the sole source of instruction in place of a qualified faculty member, while allowing faculty to use AI to support instruction.", "provisions": [{{"type": "prohibits-ai-replacing-educators", "description": "Courses may not use AI as the sole source of instruction in place of a faculty member.", "locator": "Sec. 3-29.28(b)", "quote": "A course may not, in lieu of a faculty member, use artificial intelligence as the sole source of instruction for students."}}], "reasons": "Sec. 3-29.28(b) bars community college courses from using AI as the sole source of instruction."}}
 ```
 
-## Scope (from docs/methodology.md)
+{_federal_full(vocab) if federal else ""}## Scope (from docs/methodology.md)
 
 {scope}
 
@@ -306,14 +367,14 @@ must include any level a provision lists.
 """
 
 
-def write_instructions(paths: Paths, out_dir: Path) -> dict[str, Path]:
+def write_instructions(paths: Paths, out_dir: Path, federal: bool = False) -> dict[str, Path]:
     vocab = Vocab.load(paths.vocab)
     out_dir.mkdir(parents=True, exist_ok=True)
     files = {
-        "TRIAGE.md": triage_md(paths, vocab),
-        "FULL.md": full_md(paths, vocab),
+        "TRIAGE.md": triage_md(paths, vocab, federal),
+        "FULL.md": full_md(paths, vocab, federal),
         "triage.schema.json": json.dumps(triage_schema(), indent=1) + "\n",
-        "full.schema.json": json.dumps(full_schema(vocab), indent=1) + "\n",
+        "full.schema.json": json.dumps(full_schema(vocab, federal), indent=1) + "\n",
     }
     rel = os.path.relpath(out_dir, paths.root)
     if rel != ".cache/classify" and not rel.startswith(".."):

@@ -13,4 +13,12 @@ Stages:
 3. `prep --stage full`: batches with the AI-relevant parts of the text.
 4. `import`: verified judgments become data/legislation records.
 5. `score`: precision and recall against pipeline/eval/classifier_eval.yaml.
+
+Federal candidates (`statescope federal` output: Congress.gov bills and
+Federal Register documents) go through the same stages with `--federal` or a
+federal `--candidates` file. They keep their own batches and judgments under
+`.cache/classify/federal/` and texts under `.cache/texts/federal/`, take their
+text from Congress.gov and the Federal Register, and become legislation,
+executive-action, or document records (see `federal`, `federal_texts`, and
+`federal_import`).
 """

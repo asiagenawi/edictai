@@ -1,0 +1,39 @@
+id: us-fr-2023-22482
+jurisdiction: us
+issuer: us-ed
+title: Request for Information on Potential New Program, From Seedlings to Scale (S2S)
+classification: program
+status: current
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - research
+  - instructional-use
+summary: Requests public input on a proposed Institute of Education Sciences research and development
+  program, From Seedlings to Scale, that would fund scalable education solutions. Lists next-generation
+  tools for educators that use artificial intelligence to augment teaching and planning among the proposed
+  priority areas.
+published: "2023-10-12"
+provisions:
+  - type: appropriates-funding
+    description: Lists AI-based tools that augment educators' teaching and planning among the proposed
+      priority areas for the program's R&D funding.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2023/10/12/2023-22482/request-for-information-on-potential-new-program-from-seedlings-to-scale-s2s
+      locator: Proposed priority areas, page 70653
+      quote: Creating next-generation tools for educators for feedback, recommendations, and supports
+        that leverage artificial intelligence to augment teaching and planning.
+sources:
+  - url: https://www.federalregister.gov/documents/2023/10/12/2023-22482/request-for-information-on-potential-new-program-from-seedlings-to-scale-s2s
+    title: Request for Information on Potential New Program, From Seedlings to Scale (S2S) (88 FR 70652),
+      FR Doc. 2023-22482
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

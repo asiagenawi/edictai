@@ -1,0 +1,40 @@
+id: us-fr-2026-02854
+jurisdiction: us
+issuer: us-ed
+title: Final Priority and Definitions-Secretary's Supplemental Priority and Definitions on Meaningful
+  Learning Opportunities
+classification: policy
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - funding
+summary: Sets a final Secretary's Supplemental Priority on meaningful learning opportunities for use in
+  Department grant competitions, including high-impact tutoring programs whose innovative delivery models
+  may include artificial intelligence.
+published: "2026-02-12"
+effective: "2026-03-16"
+provisions:
+  - type: appropriates-funding
+    description: Sets a grant priority for high-impact tutoring programs whose delivery models may include
+      AI.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2026/02/12/2026-02854/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-meaningful
+      locator: Final Priority, part (b)
+      quote: and which include innovative delivery models or approaches, that may include outcomes-based
+        contracting, artificial intelligence (AI), technology-enabled platforms, or strategic partnerships
+        and staffing
+sources:
+  - url: https://www.federalregister.gov/documents/2026/02/12/2026-02854/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-meaningful
+    title: Final Priority and Definitions-Secretary's Supplemental Priority and Definitions on Meaningful
+      Learning Opportunities (91 FR 6625), FR Doc. 2026-02854
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

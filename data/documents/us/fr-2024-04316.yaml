@@ -1,0 +1,50 @@
+id: us-fr-2024-04316
+jurisdiction: us
+issuer: us-ed
+title: Applications for New Awards; Educational Technology, Media, and Materials for Individuals With
+  Disabilities Program-Stepping-Up Technology Implementation
+classification: program
+status: current
+education_levels:
+  - k12
+topics:
+  - funding
+  - instructional-use
+  - educator-training
+  - equity-access
+summary: Invites applications for FY 2024 Stepping-up Technology Implementation grants that support evidence-based
+  technology tools or approaches using AI to improve outcomes for students with disabilities in PK-12
+  instructional settings. Applicants must describe how the AI tool will be used, how educators' use and
+  knowledge of it will grow, and the outcomes it will improve.
+published: "2024-03-01"
+provisions:
+  - type: appropriates-funding
+    description: Sets a funding priority for implementing evidence-based technology tools or approaches
+      using AI to improve outcomes of students with disabilities.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2024/03/01/2024-04316/applications-for-new-awards-educational-technology-media-and-materials-for-individuals-with
+      locator: Priority, application requirements
+      quote: Outcomes of students with disabilities that will be improved by implementing the technology-based
+        tool or approach using AI;
+  - type: educator-pd-requirement
+    description: Projects are expected to improve educator collaboration and professional learning on
+      using an AI-based tool for students with disabilities.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2024/03/01/2024-04316/applications-for-new-awards-educational-technology-media-and-materials-for-individuals-with
+      locator: Priority, expected outcome (c)
+      quote: Improved educator collaboration and professional learning opportunities focusing on improving
+        outcomes for student with disabilities using an evidence-based technology-based tool or approach
+        using AI;
+sources:
+  - url: https://www.federalregister.gov/documents/2024/03/01/2024-04316/applications-for-new-awards-educational-technology-media-and-materials-for-individuals-with
+    title: Applications for New Awards; Educational Technology, Media, and Materials for Individuals With
+      Disabilities Program-Stepping-Up Technology Implementation (89 FR 15187), FR Doc. 2024-04316
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

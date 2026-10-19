@@ -1,0 +1,47 @@
+id: us-fr-2025-11118
+jurisdiction: us
+issuer: us-ed
+title: 'Applications for New Awards; Rehabilitation Training: Rehabilitation Long-Term Training Program'
+classification: program
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - funding
+  - workforce
+summary: Invites fiscal year 2025 applications for the Rehabilitation Long-Term Training program, which
+  funds scholarships for students in rehabilitation degree and certificate programs. Rehabilitation technology
+  projects include training on artificial intelligence tools, and funded programs must train scholars
+  on integrating assistive technology and AI tools into vocational rehabilitation services.
+published: "2025-06-17"
+provisions:
+  - type: appropriates-funding
+    description: Rehabilitation technology projects fund scholars' training that includes AI tools.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/06/17/2025-11118/applications-for-new-awards-rehabilitation-training-rehabilitation-long-term-training-program
+      locator: Topic Area 2, Rehabilitation Technology (ALN 84.129E)
+      quote: applications, and benefits of technology (including assistive technology and artificial intelligence
+        tools) for individuals with disabilities to achieve and/or maintain competitive integrated employment
+        and independence.
+  - type: ai-workforce-program
+    description: Funded academic programs must train scholars to understand integration of assistive technology
+      and AI tools into vocational rehabilitation services.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/06/17/2025-11118/applications-for-new-awards-rehabilitation-training-rehabilitation-long-term-training-program
+      locator: Program requirements, item (5)
+      quote: (5) The program trains RSA scholars to understand the applications and strategies related
+        to the integration of advanced assistive technology and artificial intelligence tools into VR
+        services
+sources:
+  - url: https://www.federalregister.gov/documents/2025/06/17/2025-11118/applications-for-new-awards-rehabilitation-training-rehabilitation-long-term-training-program
+    title: 'Applications for New Awards; Rehabilitation Training: Rehabilitation Long-Term Training Program
+      (90 FR 25600), FR Doc. 2025-11118'
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

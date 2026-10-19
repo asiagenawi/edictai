@@ -1,0 +1,74 @@
+id: us-fr-2025-19843
+jurisdiction: us
+issuer: us-ed
+title: Applications for New Awards; Fund for the Improvement of Postsecondary Education-Special Projects
+  (FIPSE-SP)
+classification: program
+status: current
+education_levels:
+  - postsecondary
+  - k12
+topics:
+  - funding
+  - instructional-use
+  - ai-literacy
+  - educator-training
+  - workforce
+  - curriculum-standards
+summary: Invites fiscal year 2025 applications for Fund for the Improvement of Postsecondary Education
+  Special Projects, with two absolute priorities on advancing the understanding and use of AI in postsecondary
+  education. These cover integrating AI into teaching and learning, partnering with state and local education
+  agencies on AI tools in classrooms, and embedding AI and computer science in teacher preparation, general
+  education courses, and dual-enrollment AI coursework.
+published: "2025-11-12"
+provisions:
+  - type: appropriates-funding
+    description: Dedicates two of seven absolute priorities to advancing the understanding and use of
+      AI in postsecondary education.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/11/12/2025-19843/applications-for-new-awards-fund-for-the-improvement-of-postsecondary-education-special-projects
+      locator: Purpose of Program
+      quote: two priorities dedicated to advancing the understanding and use of AI in postsecondary education
+        (Absolute Priorities 1 and 2)
+  - type: requires-ai-literacy-instruction
+    description: Absolute Priority 1 funds integrating AI into teaching and learning, including instruction
+      on responsible AI use and detecting AI-generated misinformation.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/11/12/2025-19843/applications-for-new-awards-fund-for-the-improvement-of-postsecondary-education-special-projects
+      locator: Absolute Priority 1, part (a)
+      quote: into teaching and learning practices to improve educational outcomes for students, including
+        instruction about how to use AI responsibly, and how to detect AI generated disinformation or
+        misinformation online
+  - type: educator-prep-requirement
+    description: Absolute Priority 2 funds embedding AI and computer science in teacher preparation and
+      professional development programs.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/11/12/2025-19843/applications-for-new-awards-fund-for-the-improvement-of-postsecondary-education-special-projects
+      locator: Absolute Priority 2, part (b)
+      quote: Embed AI and computer science into an institution of higher education's general preservice
+        or in-service teacher professional development or teacher preparation programs
+  - type: ai-workforce-program
+    description: Absolute Priority 2 funds partnerships offering dual-enrollment AI coursework leading
+      to postsecondary and industry-recognized credentials for high school students.
+    education_levels:
+      - k12
+      - postsecondary
+    citation:
+      source_url: https://www.federalregister.gov/documents/2025/11/12/2025-19843/applications-for-new-awards-fund-for-the-improvement-of-postsecondary-education-special-projects
+      locator: Absolute Priority 2, part (g)
+      quote: Partner with SEAs and/or LEAs to encourage the provision of dual-enrollment course opportunities
+        so that students can earn postsecondary credentials and industry-recognized credentials in AI
+        coursework concurrent with their high school education.
+sources:
+  - url: https://www.federalregister.gov/documents/2025/11/12/2025-19843/applications-for-new-awards-fund-for-the-improvement-of-postsecondary-education-special-projects
+    title: Applications for New Awards; Fund for the Improvement of Postsecondary Education-Special Projects
+      (FIPSE-SP) (90 FR 50861), FR Doc. 2025-19843
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

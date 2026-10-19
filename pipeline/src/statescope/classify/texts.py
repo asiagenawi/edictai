@@ -67,7 +67,10 @@ class TextStore:
 
     @staticmethod
     def _load_index(path: Path) -> dict[str, int]:
-        return {k: int(v) for k, v in read_json(path).items()} if path.exists() else {}
+        # LegiScan doc_ids are integers; federal documents use string ids.
+        if not path.exists():
+            return {}
+        return {k: v if isinstance(v, str) else int(v) for k, v in read_json(path).items()}
 
     def by_key(self) -> dict[str, int]:
         if self._by_key is None:
@@ -124,7 +127,7 @@ class TextStore:
         return out
 
     def write_document(self, meta: Mapping[str, Any], text: str | None) -> int:
-        doc_id = int(meta["doc_id"])
+        doc_id = meta["doc_id"] if isinstance(meta["doc_id"], str) else int(meta["doc_id"])
         self.dir.mkdir(parents=True, exist_ok=True)
         if text is not None:
             self.text_path(doc_id).write_text(text, encoding="utf-8")

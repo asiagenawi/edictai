@@ -24,10 +24,17 @@ class ClassifyPaths:
     paths: Paths
     # Batches, judgments, and instructions; texts and LegiScan responses stay shared.
     work: Path | None = None
+    # Federal candidates (Congress.gov and the Federal Register) keep their own
+    # batches, judgments, and texts: their keys can equal keys of the LegiScan
+    # copies of the same bills, whose judgments and texts must not be mixed in.
+    federal: bool = False
 
     @property
     def root(self) -> Path:
-        return self.work or self.paths.cache / "classify"
+        if self.work:
+            return self.work
+        base = self.paths.cache / "classify"
+        return base / "federal" if self.federal else base
 
     def stage_dir(self, stage: str) -> Path:
         return self.root / stage
@@ -47,7 +54,16 @@ class ClassifyPaths:
 
     @property
     def texts(self) -> Path:
-        return self.paths.cache / "texts"
+        base = self.paths.cache / "texts"
+        return base / "federal" if self.federal else base
+
+    @property
+    def congress(self) -> Path:
+        return self.paths.cache / "congress"
+
+    @property
+    def federal_register(self) -> Path:
+        return self.paths.cache / "federal_register"
 
     @property
     def candidates(self) -> Path:
@@ -81,7 +97,27 @@ def bill_key(jurisdiction: str, session: str, identifier: str) -> str:
     return f"{jurisdiction}-{session}-{slug_for(identifier)}"
 
 
+FEDERAL_SOURCES = ("congress", "federal_register")
+
+
+def is_federal(row: Mapping[str, Any]) -> bool:
+    """A row from the federal candidate search (Congress.gov or the Federal Register)."""
+    return row.get("source") in FEDERAL_SOURCES
+
+
+def federal_document_key(row: Mapping[str, Any]) -> str:
+    """`us-eo-{number}` for an executive order, else `us-fr-{document number}`."""
+    eo = row.get("executive_order_number")
+    if eo:
+        return f"us-eo-{eo}"
+    return f"us-fr-{str(row['document_number']).lower()}"
+
+
 def candidate_key(row: Mapping[str, Any]) -> str:
+    if row.get("source") == "congress":
+        return f"us-{row['congress']}-{row['type']}-{row['number']}".lower()
+    if row.get("source") == "federal_register":
+        return federal_document_key(row)
     return bill_key(str(row["jurisdiction"]), str(row["session"]), str(row["identifier"]))
 
 
@@ -145,14 +181,22 @@ def expand(patterns: Iterable[str | Path]) -> list[Path]:
 
 
 def latest_candidates(cp: ClassifyPaths) -> Path:
-    files = sorted(
-        p for p in cp.candidates.glob("*.jsonl") if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem)
-    )
+    stem = r"federal-\d{4}-\d{2}-\d{2}" if cp.federal else r"\d{4}-\d{2}-\d{2}"
+    files = sorted(p for p in cp.candidates.glob("*.jsonl") if re.fullmatch(stem, p.stem))
     if not files:
         raise FileNotFoundError(
             f"no candidate files in {cp.candidates}; run `statescope ingest candidates` first"
         )
     return files[-1]
+
+
+def is_federal_file(path: Path) -> bool:
+    """Whether a candidate file holds federal rows (judged by its first row)."""
+    with path.open(encoding="utf-8") as f:
+        for line in f:
+            if line.strip():
+                return is_federal(json.loads(line))
+    return path.name.startswith("federal-")
 
 
 def _last_activity(row: Mapping[str, Any]) -> str:
@@ -173,7 +217,8 @@ def load_candidates(path: Path) -> dict[str, dict[str, Any]]:
         key = candidate_key(row)
         row = {**row, "key": key}
         prior = out.get(key)
-        if prior is None:
+        if prior is None or is_federal(row):
+            # Federal rows are unique per key (the search already merged them).
             out[key] = row
             continue
         keep, drop = sorted(

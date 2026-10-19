@@ -1,0 +1,86 @@
+id: us-118-hr-9671
+jurisdiction: us
+session: "118"
+identifier: H.R. 9671
+title: Department of Energy Artificial Intelligence Act of 2024
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+summary: Creates a Department of Energy artificial intelligence research program. As part of the program,
+  the Secretary may provide training, grants, and research opportunities for undergraduate and graduate
+  students in AI and assist institutions of higher education in establishing AI degree and certificate
+  programs.
+provisions:
+  - type: ai-workforce-program
+    description: Allows the Secretary to assist institutions of higher education in establishing new AI
+      degree and certificate programs.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9671/BILLS-118hr9671ih.htm
+      locator: Sec. 2, new Sec. 5501(l)(3)
+      quote: Assisting institutions of higher education to establish new degree and certificate programs
+        in artificial intelligence-related disciplines.
+  - type: ai-workforce-program
+    description: Allows training, grants, and research opportunities for undergraduate and graduate students
+      in advanced AI systems.
+    citation:
+      source_url: https://www.congress.gov/118/bills/hr9671/BILLS-118hr9671ih.htm
+      locator: Sec. 2, new Sec. 5501(l)(1)
+      quote: Providing training, grants, and research opportunities, including experiential learning experiences
+        for undergraduate and graduate students in advanced artificial intelligence systems.
+sponsors:
+  - name: Rep. Williams, Brandon [R-NY-22]
+    primary: true
+    party: R
+    chamber: lower
+  - name: Rep. Bonamici, Suzanne [D-OR-1]
+    primary: false
+    party: D
+    chamber: lower
+actions:
+  - date: "2024-09-18"
+    description: Referred to the House Committee on Science, Space, and Technology.
+    actor: lower
+    classification:
+      - referral-committee
+  - date: "2024-09-18"
+    description: Introduced in House
+    actor: lower
+    classification:
+      - introduction
+  - date: "2024-09-25"
+    description: Ordered to be Reported (Amended) by Voice Vote.
+    actor: committee
+    classification:
+      - committee-passage
+  - date: "2024-09-25"
+    description: Committee Consideration and Mark-up Session Held
+    actor: committee
+    classification:
+      - other
+versions:
+  - note: Introduced in House
+    date: "2024-09-18"
+    url: https://www.congress.gov/118/bills/hr9671/BILLS-118hr9671ih.htm
+    media_type: text/html
+external_ids:
+  congress_gov: 118/hr/9671
+sources:
+  - url: https://www.congress.gov/bill/118th-congress/house-bill/9671
+    title: H.R. 9671 (118th Congress)
+    publisher: Congress.gov
+    kind: official
+    accessed: "2026-10-18"
+  - url: https://www.congress.gov/118/bills/hr9671/BILLS-118hr9671ih.htm
+    title: H.R. 9671 text (Introduced in House)
+    publisher: Congress.gov
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: congress-gov-text+classifier
+  notes: Actions, sponsors, and versions from the Congress.gov API; scope, codes, summary, and provisions
+    by the classifier from the bill text.

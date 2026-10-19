@@ -20,6 +20,7 @@ from ..ingest.candidates import KEYWORDS, match_keywords
 from .common import (
     BillStore,
     ClassifyPaths,
+    is_federal,
     latest_text,
     read_jsonl,
     real_date,
@@ -248,6 +249,39 @@ def _excerpt_fields(text: str, cap: int) -> dict[str, Any]:
     }
 
 
+def _text_url(meta: Mapping[str, Any]) -> str | None:
+    return meta.get("state_link") or meta.get("url")
+
+
+def text_view(
+    store: TextStore,
+    key: str,
+    excerpt_cap: int,
+    fallback: Mapping[str, Any] | None = None,
+) -> dict[str, Any]:
+    """The `text` block of a full-stage line: the latest stored version's metadata and
+    excerpts, and an earlier version's under `earlier` when one is stored."""
+    meta, text = store.for_key(key)
+    block: dict[str, Any] = {"status": (meta or {}).get("status", "not_fetched")}
+    if meta:
+        block.update({"type": meta.get("type"), "date": meta.get("date"), "url": _text_url(meta)})
+        if meta.get("reason"):
+            block["reason"] = meta["reason"]
+    elif fallback:
+        block.update(fallback)
+    if text:
+        block.update(_excerpt_fields(text, excerpt_cap))
+    earlier_meta, earlier_text = store.earlier_for_key(key)
+    if earlier_meta and earlier_text:
+        block["earlier"] = {
+            "type": earlier_meta.get("type"),
+            "date": earlier_meta.get("date"),
+            "url": _text_url(earlier_meta),
+            **_excerpt_fields(earlier_text, excerpt_cap),
+        }
+    return block
+
+
 def full_item(
     row: Mapping[str, Any],
     bill: Mapping[str, Any] | None,
@@ -259,7 +293,6 @@ def full_item(
     """One full-stage batch line. An earlier version stored for the bill goes under
     `text.earlier`, with its own excerpts (each version gets `excerpt_cap`)."""
     source = bill or row
-    meta, text = store.for_key(row["key"])
     history = [
         {"date": h.get("date"), "chamber": h.get("chamber"), "action": h.get("action")}
         for h in sorted(source.get("history") or [], key=lambda h: h.get("date") or "")
@@ -291,29 +324,12 @@ def full_item(
         )
     ]
     latest = latest_text(source.get("texts") or [])
-    text_block: dict[str, Any] = {"status": (meta or {}).get("status", "not_fetched")}
-    if meta:
-        text_block.update(
-            {
-                "type": meta.get("type"),
-                "date": meta.get("date"),
-                "url": meta.get("state_link"),
-            }
-        )
-        if meta.get("reason"):
-            text_block["reason"] = meta["reason"]
-    elif latest:
-        text_block.update({"type": latest.get("type"), "date": latest.get("date")})
-    if text:
-        text_block.update(_excerpt_fields(text, excerpt_cap))
-    earlier_meta, earlier_text = store.earlier_for_key(row["key"])
-    if earlier_meta and earlier_text:
-        text_block["earlier"] = {
-            "type": earlier_meta.get("type"),
-            "date": earlier_meta.get("date"),
-            "url": earlier_meta.get("state_link"),
-            **_excerpt_fields(earlier_text, excerpt_cap),
-        }
+    text_block = text_view(
+        store,
+        row["key"],
+        excerpt_cap,
+        fallback={"type": latest.get("type"), "date": latest.get("date")} if latest else None,
+    )
     item = {
         "key": row["key"],
         "jurisdiction": row["jurisdiction"],
@@ -450,7 +466,12 @@ def prep_triage(
         if key in assigned:
             result.skipped_assigned += 1
             continue
-        items.append(triage_item(row, store))
+        if is_federal(row):
+            from . import federal
+
+            items.append(federal.triage_item(row, store))
+        else:
+            items.append(triage_item(row, store))
     write_batches(cp, "triage", items, batch_size, result)
     return result
 
@@ -520,6 +541,11 @@ def prep_full(
             triage_view = (
                 {"decision": triage["decision"], "reason": triage.get("reason")} if triage else None
             )
+            if is_federal(row):
+                from . import federal
+
+                items.append(federal.full_item(row, store, triage_view, excerpt_cap=excerpt_cap))
+                continue
             items.append(
                 full_item(
                     row,

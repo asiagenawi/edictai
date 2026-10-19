@@ -11,7 +11,15 @@ from pathlib import Path
 
 from ..paths import Paths
 from ..vocab import Vocab
-from .common import ClassifyPaths, expand, latest_candidates, load_candidates, read_json, read_jsonl
+from .common import (
+    ClassifyPaths,
+    expand,
+    is_federal_file,
+    latest_candidates,
+    load_candidates,
+    read_json,
+    read_jsonl,
+)
 from .instructions import write_instructions
 from .judgments import batch_for_output, check_full, check_triage, expected_keys, load_rows
 from .prep import EXCERPT_CAP
@@ -22,9 +30,25 @@ def _paths(args: argparse.Namespace) -> Paths:
     return Paths.discover(args.root)
 
 
+def _is_federal(paths: Paths, args: argparse.Namespace) -> bool:
+    """Federal when asked for, when --candidates is a federal file, or when every
+    judgment file given lies in the federal working directory."""
+    if getattr(args, "federal", False):
+        return True
+    if getattr(args, "candidates", None):
+        return is_federal_file(Path(args.candidates))
+    files = getattr(args, "files", None)
+    if files:
+        root = (paths.cache / "classify" / "federal").resolve()
+        return all(Path(f).resolve().is_relative_to(root) for f in files)
+    return False
+
+
 def _cp(paths: Paths, args: argparse.Namespace) -> ClassifyPaths:
     work = getattr(args, "workdir", None)
-    return ClassifyPaths(paths, Path(work).resolve() if work else None)
+    return ClassifyPaths(
+        paths, Path(work).resolve() if work else None, federal=_is_federal(paths, args)
+    )
 
 
 def _rel(path: Path) -> str:
@@ -50,7 +74,12 @@ def _keys(args: argparse.Namespace) -> list[str] | None:
 
 def _candidates(cp: ClassifyPaths, args: argparse.Namespace) -> dict:
     path = Path(args.candidates) if getattr(args, "candidates", None) else latest_candidates(cp)
-    return load_candidates(path)
+    candidates = load_candidates(path)
+    if cp.federal:
+        from .federal import refresh_existing
+
+        refresh_existing(candidates, cp.paths.data)
+    return candidates
 
 
 def cmd_prep(args: argparse.Namespace) -> int:
@@ -58,7 +87,7 @@ def cmd_prep(args: argparse.Namespace) -> int:
 
     paths = _paths(args)
     cp = _cp(paths, args)
-    written = write_instructions(paths, cp.root)
+    written = write_instructions(paths, cp.root, federal=cp.federal)
     candidates = _candidates(cp, args)
     keys = _keys(args)
     if getattr(args, "rejudge", False) and keys is None:
@@ -80,11 +109,13 @@ def cmd_prep(args: argparse.Namespace) -> int:
             excerpt_cap=args.excerpt_cap,
             rejudge=args.rejudge,
         )
-    print(f"{result.items} bills in {len(result.batches)} new {args.stage} batches")
+    noun = "items" if cp.federal else "bills"
+    print(f"{result.items} {noun} in {len(result.batches)} new {args.stage} batches")
     for path in result.batches:
         print(f"  {_rel(path)}")
     if result.skipped_existing:
-        print(f"Skipped {result.skipped_existing} already in data/legislation")
+        where = "data/" if cp.federal else "data/legislation"
+        print(f"Skipped {result.skipped_existing} already in {where}")
     if result.skipped_judged or result.skipped_assigned:
         print(
             f"Skipped {result.skipped_judged} already judged and "
@@ -103,7 +134,8 @@ def cmd_prep(args: argparse.Namespace) -> int:
 
 def cmd_instructions(args: argparse.Namespace) -> int:
     paths = _paths(args)
-    written = write_instructions(paths, _cp(paths, args).root)
+    cp = _cp(paths, args)
+    written = write_instructions(paths, cp.root, federal=cp.federal)
     for p in written.values():
         print(_rel(p))
     return 0
@@ -119,6 +151,8 @@ def cmd_fetch_texts(args: argparse.Namespace) -> int:
 
     paths = _paths(args)
     cp = _cp(paths, args)
+    if cp.federal:
+        return _fetch_federal_texts(cp, args)
     candidates = _candidates(cp, args)
     keys = _keys(args)
     if keys is None:
@@ -175,6 +209,65 @@ def cmd_fetch_texts(args: argparse.Namespace) -> int:
     return 1 if result.errors else 0
 
 
+def _fetch_federal_texts(cp: ClassifyPaths, args: argparse.Namespace) -> int:
+    """fetch-texts for federal candidates: Congress.gov and the Federal Register only."""
+    from dotenv import load_dotenv
+
+    from ..federal.congress import CongressClient, CongressError
+    from .federal_texts import Fetcher, fetch_federal_texts
+    from .prep import triage_decisions
+
+    candidates = _candidates(cp, args)
+    keys = _keys(args)
+    if keys is None:
+        decisions = triage_decisions(cp)
+        keys = [
+            k for k, d in sorted(decisions.items()) if d.get("decision") in ("in", "needs_text")
+        ]
+    pairs = [(k, candidates[k]) for k in keys if k in candidates]
+    missing = [k for k in keys if k not in candidates]
+    load_dotenv(cp.paths.root / ".env")
+    congress = None
+    if any(row.get("source") == "congress" for _, row in pairs):
+        try:
+            congress = CongressClient(os.environ.get("CONGRESS_API_KEY", ""), cp.congress)
+        except CongressError as exc:
+            print(f"congress.gov: {exc}", file=sys.stderr)
+            return 1
+    fetcher = Fetcher(cp, congress, max_queries=args.max_queries)
+    result = fetch_federal_texts(
+        cp,
+        fetcher,
+        pairs,
+        refresh_extract=args.re_extract,
+        version=args.version,
+        progress=lambda m: print(m, file=sys.stderr),
+    )
+    ok = len(result.fetched) + len(result.cached) - len(result.unavailable)
+    print(
+        f"{len(pairs)} items: {len(result.fetched)} texts fetched, {len(result.cached)} cached; "
+        f"{ok} with text, {len(result.unavailable) + len(result.no_text)} text_unavailable"
+    )
+    for key, why in result.unavailable[:20]:
+        print(f"  unavailable {key}: {why}")
+    for key in result.no_text[:20]:
+        print(f"  no text listed {key}")
+    if args.version != "latest":
+        print(
+            f"Earlier versions ({args.version}): {len(result.earlier)} stored, "
+            f"{len(result.no_earlier)} without one"
+        )
+    if result.skipped_budget:
+        print(f"{len(result.skipped_budget)} not fetched: --max-queries {args.max_queries} reached")
+    for key, why in result.errors[:20]:
+        print(f"  error {key}: {why}")
+    if missing:
+        print(f"{len(missing)} keys are not in the candidate file")
+    print(f"Requests: {result.queries} this run")
+    print(f"Texts: {_rel(cp.texts)}")
+    return 1 if result.errors else 0
+
+
 def _check(cp: ClassifyPaths, stage: str, files: list[Path], with_expected: bool):
     paths = cp.paths
     rows = load_rows(files)
@@ -183,7 +276,9 @@ def _check(cp: ClassifyPaths, stage: str, files: list[Path], with_expected: bool
         expected = expected_keys(batch_for_output(files[0]))
     if stage == "triage":
         return check_triage(rows, expected)
-    return check_full(rows, Vocab.load(paths.vocab), TextStore(cp.texts), expected)
+    return check_full(
+        rows, Vocab.load(paths.vocab), TextStore(cp.texts), expected, federal=cp.federal
+    )
 
 
 def _detect_stage(files: list[Path]) -> str:
@@ -215,7 +310,6 @@ def _openstates(paths: Paths):
 
 
 def cmd_import(args: argparse.Namespace) -> int:
-    from ..validate import validate
     from .importer import import_judgments
 
     paths = _paths(args)
@@ -224,6 +318,20 @@ def cmd_import(args: argparse.Namespace) -> int:
     files = expand(args.files)
     report = _check(cp, "full", files, with_expected=False)
     candidates = _candidates(cp, args)
+    if cp.federal:
+        from .federal_import import import_federal
+
+        result = import_federal(
+            cp,
+            target,
+            report,
+            candidates,
+            today=date.today(),
+            overwrite=args.overwrite,
+            dry_run=args.dry_run,
+            strict_quotes=args.strict_quotes,
+        )
+        return _import_report(args, target, result)
     sessions_path = cp.legiscan / "sessions.json"
     sessions = read_json(sessions_path) if sessions_path.exists() else {}
     result = import_judgments(
@@ -238,6 +346,12 @@ def cmd_import(args: argparse.Namespace) -> int:
         dry_run=args.dry_run,
         strict_quotes=args.strict_quotes,
     )
+    return _import_report(args, target, result)
+
+
+def _import_report(args: argparse.Namespace, target: Paths, result) -> int:
+    from ..validate import validate
+
     verb = "Would write" if args.dry_run else "Wrote"
     print(
         f"{verb} {len(result.written)} records ({result.machine_verified} machine-verified, "
@@ -303,6 +417,12 @@ def register(sub: argparse._SubParsersAction) -> None:
     c.add_argument(
         "--workdir",
         help="directory for batches, judgments, and instructions (default: .cache/classify)",
+    )
+    c.add_argument(
+        "--federal",
+        action="store_true",
+        help="federal candidates (Congress.gov, Federal Register), with their own working "
+        "directory (.cache/classify/federal) and texts; implied by a federal --candidates file",
     )
     csub = c.add_subparsers(dest="classify_command", required=True)
 

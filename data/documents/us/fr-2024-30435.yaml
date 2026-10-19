@@ -1,0 +1,38 @@
+id: us-fr-2024-30435
+jurisdiction: us
+issuer: us-ed
+title: Applications for New Awards; Education Research and Development Center Program
+classification: program
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - research
+  - funding
+  - instructional-use
+summary: Invites applications for FY 2025 Education Research and Development Center awards from the Institute
+  of Education Sciences, including a center on using generative artificial intelligence to improve instruction
+  in postsecondary education, with an estimated $8,000,000 to $10,000,000 in total for that topic.
+published: "2024-12-20"
+provisions:
+  - type: appropriates-funding
+    description: Funds an education R&D center on using generative AI to improve instruction in postsecondary
+      education.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2024/12/20/2024-30435/applications-for-new-awards-education-research-and-development-center-program
+      locator: Estimated Range of Awards
+      quote: $8,000,000 to $10,000,000 (total) for Using Generative Artificial Intelligence to Improve
+        Instruction in Postsecondary Education.
+sources:
+  - url: https://www.federalregister.gov/documents/2024/12/20/2024-30435/applications-for-new-awards-education-research-and-development-center-program
+    title: Applications for New Awards; Education Research and Development Center Program (89 FR 104116),
+      FR Doc. 2024-30435
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.

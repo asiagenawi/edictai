@@ -1,0 +1,41 @@
+id: us-fr-2026-17001
+jurisdiction: us
+issuer: us-ed
+title: 'Accreditation, Innovation, and Modernization: The Secretary''s Recognition of Accrediting Agencies:
+  Institutional Eligibility Under the Higher Education Act of 1965, as Amended, Student Assistance General
+  Provisions'
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - research-integrity
+  - employment-evaluation
+summary: Proposes changes to the Secretary's recognition of accrediting agencies and related institutional
+  eligibility rules. In explaining a research-misconduct standard, the preamble states that accrediting
+  agencies and institutions must ensure AI is not used by faculty to supplant teaching and that AI should
+  not degrade research methods.
+published: "2026-08-20"
+provisions:
+  - type: prohibits-ai-replacing-educators
+    description: The preamble states that agencies and institutions must ensure faculty do not use AI
+      to supplant teaching and instruction.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2026/08/20/2026-17001/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies
+      locator: Preamble discussion of Sec. 602.17
+      quote: However, we also believe agencies and institutions must ensure that artificial intelligence
+        is not used by faculty to supplant teaching and instruction.
+sources:
+  - url: https://www.federalregister.gov/documents/2026/08/20/2026-17001/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies
+    title: 'Accreditation, Innovation, and Modernization: The Secretary''s Recognition of Accrediting
+      Agencies: Institutional Eligibility Under the Higher Education Act of 1965, as Amended, Student
+      Assistance General Provisions (91 FR 53940), FR Doc. 2026-17001'
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-10-18"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-18"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.
