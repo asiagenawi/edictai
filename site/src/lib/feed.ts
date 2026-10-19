@@ -17,7 +17,7 @@ export function updatedOn(r: PolicyRecord): string {
 const stamp = (d: string) => `${(d + '-01-01').slice(0, 10)}T00:00:00Z`;
 
 export function atom(opts: { title: string; feedPath: string; pagePath: string; list: PolicyRecord[]; site: URL | undefined }): Response {
-  const origin = (opts.site ?? new URL('https://asiagenawi.github.io')).origin;
+  const origin = (opts.site ?? new URL('https://edictai.org')).origin;
   const abs = (p: string) => origin + url(p);
   const items = [...opts.list].sort((a, b) => updatedOn(b).localeCompare(updatedOn(a)) || a.id.localeCompare(b.id)).slice(0, LIMIT);
   const updated = items.length ? stamp(updatedOn(items[0])) : stamp('1970-01-01');

@@ -427,7 +427,7 @@ export function kindLabel(r: Pick<PolicyRecord, 'classification'>): string {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
-/** Join a site-relative path onto the configured base, e.g. url('states/tx/') -> '/statescope/states/tx/'. */
+/** Join a site-relative path onto the configured base, e.g. url('states/tx/') -> '/states/tx/'. */
 export function url(path = ''): string {
   const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
   return base + path.replace(/^\//, '');

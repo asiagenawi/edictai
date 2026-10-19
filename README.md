@@ -5,7 +5,7 @@ K-12 and higher education in all 50 states, the District of Columbia, and the fe
 government. Every record is a plain-text YAML file in this repository, checked against a
 published schema and tied to the official source it was drawn from.
 
-The site at [asiagenawi.github.io/statescope](https://asiagenawi.github.io/statescope/) is
+The site at [edictai.org](https://edictai.org) is
 built from the same files.
 
 ## What the data covers

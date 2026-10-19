@@ -27,7 +27,7 @@ is_dev = os.environ.get('FLASK_ENV') == 'development'
 if is_dev:
     CORS(app)
 else:
-    CORS(app, origins=['https://asiagenawi.github.io'])
+    CORS(app, origins=['https://edictai.org', 'https://www.edictai.org', 'https://asiagenawi.github.io'])
 
 app.register_blueprint(states_bp)
 app.register_blueprint(policies_bp)

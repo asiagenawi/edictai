@@ -1,11 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// Static build for GitHub Pages. The repository keeps its name, so the site
-// is served from /statescope/.
+// Static build for GitHub Pages, served at the custom domain edictai.org.
 export default defineConfig({
-  site: 'https://asiagenawi.github.io',
-  base: '/statescope/',
+  site: 'https://edictai.org',
+  base: '/',
   trailingSlash: 'always',
   output: 'static',
   build: { format: 'directory' },

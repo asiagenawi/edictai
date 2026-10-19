@@ -1,6 +1,6 @@
 # Edictai website
 
-Static [Astro](https://astro.build) site for Edictai, served from GitHub Pages at `/statescope/`.
+Static [Astro](https://astro.build) site for Edictai, served from GitHub Pages at [edictai.org](https://edictai.org).
 
 Pages are generated at build time from the dataset tables that `statescope build`
 writes to `../build/csv/`. Set `EDICTAI_BUILD_DIR` to use a build directory elsewhere.
@@ -17,7 +17,7 @@ uv run statescope build
 cd site
 npm ci
 npm run build      # writes dist/
-npm run preview    # serves dist/ at http://localhost:4321/statescope/
+npm run preview    # serves dist/ at http://localhost:4321/
 ```
 
 `npm run dev` starts a development server with live reload.
