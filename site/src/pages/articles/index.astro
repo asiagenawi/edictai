@@ -62,7 +62,7 @@ const FILTERS = [['lv', 'Level', 'All levels'], ['tp', 'Topic', 'All topics'], [
             <a class="atile" href={a.href} data-ty={a.type} data-lv={a.levels.join('|')} data-tp={a.topics.join('|')} data-j={a.jurisdictions.join('|')}
               data-q={`${a.data.title} ${a.data.dek} ${a.type}`.toLowerCase()}>
               <div class="art-d"><svg class="dr" viewBox="0 0 240 200" role="img" aria-label={a.data.caption ?? `Illustration for ${a.data.title}`}
-                data-dr={a.drawing} data-slug={a.slug} data-fips={a.fips.join(' ')} data-note={a.data.sketch_note ?? ''}></svg></div>
+                data-dr={a.drawing} data-slug={a.slug} data-fips={a.fips.join(' ')} data-days={a.days.join(' ')} data-note={a.data.sketch_note ?? ''}></svg></div>
               <div class="tb">
                 <span class="ty"><svg class="g" viewBox="0 0 12 12" aria-hidden="true" set:html={TYPE_GLYPHS[a.type]} />{a.type}</span>
                 <h2>{a.data.title}</h2>

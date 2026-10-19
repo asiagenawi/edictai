@@ -1,5 +1,6 @@
-# Settings for `statescope classify run`, `classify eval-gate`, and the weekly workflow
-# (.github/workflows/weekly.yml). docs/automation.md describes how they are used.
+# Settings for `statescope classify run`, `classify eval-gate`, `articles write`, and the
+# weekly workflow (.github/workflows/weekly.yml). docs/automation.md describes how they
+# are used.
 
 classify:
   model: claude-sonnet-5-5
@@ -32,6 +33,35 @@ budget:
   legiscan_monthly_reserve: 500
   # Federal text requests (Congress.gov and the Federal Register) one run may send.
   federal_text_requests: 300
+
+articles:
+  # One article per run, drafted and then edited and fact-checked by a second call.
+  model: claude-opus-5-5
+  draft_effort: high
+  edit_effort: high
+  max_tokens:
+    draft: 32000
+    edit: 32000
+  # Dollars the article may spend, inside the run's budget.spend_cap_usd.
+  spend_cap_usd: 3
+  # Words in the body paragraphs; the draft aims for target_words.
+  min_words: 600
+  max_words: 1200
+  target_words: 850
+  # Records with an action, publication, or update this many days before the run
+  # date count as changed this week, with the record files the run added or changed.
+  window_days: 7
+  # Records given to the model at most; counts are taken over all of a subject's records.
+  max_records: 60
+  # Further editing calls when the edited article fails the checks.
+  repair_attempts: 1
+  build_timeout_minutes: 15
+  subjects:
+    min_records: 6
+    min_jurisdictions: 4
+    min_studies: 4
+    min_roundup_items: 6
+    roundup_days: 28
 
 eval:
   # The run fails when the classifier scores below either floor on

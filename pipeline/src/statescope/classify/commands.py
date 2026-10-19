@@ -609,6 +609,7 @@ def cmd_summary(args: argparse.Namespace) -> int:
         run=Path(args.run) if args.run else None,
         refresh=Path(args.refresh) if args.refresh else None,
         gate=Path(args.gate) if args.gate else None,
+        article=Path(args.article) if args.article else None,
         status=args.status,
         failed_step=args.failed_step,
     )
@@ -803,6 +804,7 @@ def register(sub: argparse._SubParsersAction) -> None:
     p.add_argument("--run", help="`classify run --result` file")
     p.add_argument("--refresh", help="`classify refresh --json` file")
     p.add_argument("--gate", help="`classify eval-gate --json` file")
+    p.add_argument("--article", help="`articles write --result` file")
     p.add_argument("--status", choices=("success", "failure"), default="success")
     p.add_argument("--failed-step", help="the step that failed, for a failure summary")
     p.add_argument("--markdown", help="write the summary here (default: stdout)")

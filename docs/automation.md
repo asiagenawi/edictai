@@ -5,15 +5,17 @@
 at a time; a run that starts while another is going waits for it.
 
 It finds new candidate bills and federal documents, classifies them with the
-Anthropic API, appends new actions to bills already recorded, checks
-everything, and opens or updates one pull request with the changes. It never
-merges. When a step fails, it opens or comments on one issue instead.
+Anthropic API, appends new actions to bills already recorded, writes one
+article for the Articles section from the updated data, checks everything, and
+publishes the changes: it opens a pull request, merges it into
+`master` once every check has passed, and starts the site deploy. When a step
+fails, nothing is merged; it opens or comments on one issue instead.
 
 ## Steps
 
 | Step | Command | What it does |
 |---|---|---|
-| Restore the cache | `actions/cache/restore` | Restores `.cache/` (LegiScan, Congress.gov, Federal Register, candidates, classify, texts) from the last run. |
+| Restore the cache | `actions/cache/restore` | Restores `.cache/` (LegiScan, Congress.gov, Federal Register, candidates, classify, texts, articles) from the last run. |
 | Baseline | `statescope classify baseline --if-new` | Only when the cache holds no judgments and no baseline: records the candidates already listed so they are not classified (see [Baseline](#baseline)). |
 | LegiScan datasets | `statescope ingest legiscan` | Downloads datasets whose `dataset_hash` changed. |
 | State candidates | `statescope ingest candidates` | Writes `.cache/candidates/YYYY-MM-DD.jsonl`. |
@@ -27,9 +29,13 @@ merges. When a step fails, it opens or comments on one issue instead.
 | Pipeline tests | `pytest` | |
 | Build | `statescope build --no-parquet` | |
 | API tests | `pytest api/tests` | In a separate virtual environment from `api/requirements-dev.txt`, after the build so the built-database tests read this week's data. |
+| Node | `actions/setup-node` | Node 22, for the site build that gates the article. Allowed to fail. |
+| Site dependencies | `npm ci` in `site/` | Allowed to fail. |
+| Article | `statescope articles write` | Writes at most one article into `site/src/content/articles/` (see [Article](#article-articles-write)). Allowed to fail: when it does, or skips, the data changes go ahead without an article. |
 | Summary | `statescope classify summary` | Writes `weekly/summary.md` and `weekly/weekly-result.json`. |
-| Open or update the pull request | `peter-evans/create-pull-request` | Only when `data/` changed, every step above passed, and the run is on `master`. Branch `automation/weekly-update`, base `master`, changes under `data/` only, body from `weekly/summary.md`. |
-| Upload the run's files | `actions/upload-artifact` | The `weekly/` folder (run result, refresh, evaluation, spending, summary), kept 30 days. Always runs. |
+| Open or update the pull request | `peter-evans/create-pull-request` | Only when `data/` changed or an article was written, every step above passed, and the run is on `master`. Branch `automation/weekly-update`, base `master`, changes under `data/` and `site/src/content/articles/` only, body from `weekly/summary.md`. |
+| Merge the pull request and deploy the site | `gh pr merge`, `gh workflow run` | Merges the pull request (squash) when it was opened, then runs `gh workflow run deploy-frontend.yml`. |
+| Upload the run's files | `actions/upload-artifact` | The `weekly/` folder (run result, refresh, evaluation, spending, article result, summary), kept 30 days. Always runs. |
 | Save the cache | `actions/cache/save` | Always runs, failed runs included, so the LegiScan monthly query counter is never lost. |
 | Open or update the failure issue | `gh issue` | Only when a step failed: comments on the open issue labeled `weekly-update-failed`, or opens one, with the failed step, what the run did before it, and a link to the run. |
 
@@ -61,9 +67,20 @@ passed only to the steps that use it. Variable: `WEEKLY_SPEND_CAP_USD`
 | `eval.precision_floor`, `eval.recall_floor` | 0.85, 0.9 | Evaluation floors. |
 | `prices` | per model | USD per million tokens (input, output, cache write, cache read). |
 | `batch_discount` | 0.5 | Batch requests cost this fraction of the standard price. |
+| `articles.model` | `claude-opus-5-5` | Model for the article's drafting and editing calls. |
+| `articles.draft_effort`, `edit_effort` | `high`, `high` | `output_config.effort` for each call. |
+| `articles.max_tokens` | draft 32000, edit 32000 | Output cap per call (both are streamed). |
+| `articles.spend_cap_usd` | 3 | Dollar cap for the article, inside the run's cap. |
+| `articles.min_words`, `max_words`, `target_words` | 600, 1200, 850 | Words in the body paragraphs: the allowed range, and what the draft aims for. |
+| `articles.window_days` | 7 | Activity dated this many days before the run date counts as changed this week. |
+| `articles.max_records` | 60 | Records given to the model at most. |
+| `articles.repair_attempts` | 1 | Further editing calls when the edited article fails the checks. |
+| `articles.build_timeout_minutes` | 15 | Time allowed for the site build. |
+| `articles.subjects` | 6, 4, 4, 6, 28 | `min_records`, `min_jurisdictions`, `min_studies`, `min_roundup_items`, `roundup_days` (see [Subject](#subject)). |
 
 `classify run` and `classify eval-gate` also take `--model`, `--effort`,
-`--spend-cap`, `--spend-file`, and `--no-batches`.
+`--spend-cap`, `--spend-file`, and `--no-batches`. `articles write` takes
+`--model`, `--spend-cap`, `--article-cap`, and `--spend-file`.
 
 ## Classification (`classify run`)
 
@@ -118,8 +135,8 @@ ingests are recorded and only candidates new this week are classified.
 
 `auto-outputs.json` lists every full-stage output `classify run` has written.
 The workflow imports all of them each week (`import_files` in the run result);
-records already in `data/` are skipped, so a record from a pull request that was
-not merged is imported again into the next one. Hand-written outputs are never
+records already in `data/` are skipped, so a record from a run that did not
+merge is imported again into the next one. Hand-written outputs are never
 imported by the workflow.
 
 ### Spending cap
@@ -176,17 +193,160 @@ candidates, records included, in its own working directory under
 evaluation is stored. The gate fails, and the run with it, when precision or
 recall is below its floor or the evaluation did not finish within the cap.
 
+## Article (`articles write`)
+
+Each run writes at most one article, after the data is built, so it reads this
+week's data from `build/statescope.db` (the build the site reads). Byline
+Edictai (no `author`), `published` the run date, `data_release` the run's month
+and year ("October 2026"). Opinion is never written: it is for outside
+contributors.
+
+`sketch_note` (a few handwritten words for the index drawing) comes from the
+model and must not be empty. `drawing` is chosen from the subject: `calendar`
+for a Roundup; `desk` (else `classroom`) for a Research digest; `gavel` (else
+`map`) for a state; for a provision type, `capitol` when 60% or more of its
+records are federal, then the type's scene (`phone` for deepfakes and chatbots,
+`lock` for student data and procurement, `classroom` for teaching, educators,
+literacy, standards, and integrity; or the scene of its records' top topics),
+then `map`, then `gavel`. The first that differs from the drawings of the two
+newest articles is used (an article without `drawing` counts as the one the
+site gives it).
+
+### Subject
+
+A subject is a state (`jurisdiction:us-xx`, for a State brief), a provision
+type across states (`provision:<code>`, for an Explainer or an Analysis), a
+research topic (`research:<topic>`, for a Research digest), or a period
+(`roundup:<from>..<to>`, for a Roundup).
+
+Left out are subjects already covered: those the ledger records as written, and
+those inferred from the existing articles' notes. An article whose record notes
+mostly (60% or more) cite one jurisdiction covers that jurisdiction; otherwise
+it covers the provision type its notes cite most. A Research digest covers the
+topic its studies share most, and its studies count as cited. A Roundup covers
+the days up to the day before it was published.
+
+A subject needs `min_records` records (with provisions, for a state) and, for a
+provision type, records in `min_jurisdictions` jurisdictions. A research topic
+needs `min_studies` studies no article cites. A Roundup runs from the day after
+the last one ended to the day before the run and needs `min_roundup_items`
+records with dated activity in it; it counts as touching this week's changes
+only once `roundup_days` have passed since the last one, so in a light week it
+competes with the other types on rotation alone.
+
+Records count as changed this week when git reports their files as added or
+changed under `data/`, or when they have an action, publication, update, or
+signature dated within `window_days` of the run date. The subject is chosen in
+this order: subjects with changed records first; then the article type used
+least recently (by the ledger and the existing articles' `published` dates);
+then the most changed records; then the most records. `--type` and `--subject`
+choose instead.
+
+### What the model is given
+
+One JSON document: the subject; a facts block of counts over every record in the
+subject (by kind, legislation by status, enacted by year, by jurisdiction, by
+education level, jurisdictions with an enacted law or current document, studies
+by classification, the period) with the as-of date; the subject's records, up to
+`max_records` (changed this week first, then enacted or current, then the most
+recently active), each with its provisions (index, type, description, locator,
+verbatim quote) and latest actions (all actions in the period, for a Roundup);
+the subject's studies with their findings (index, finding, locator, quote) and
+whether an article already cites them; and every existing article's slug, type,
+title, dek, and date.
+
+### Drafting and editing
+
+Two separate calls through the classifier's `Judge`, each a streamed direct
+call with structured output (`output_config.format`) whose schema is the
+article's shape: slug, title, dek, brief, caption, sketch note, body blocks
+(`p`, `h`, `table`), and notes (`record` and `provision`, or `study` and
+`finding`).
+
+1. The draft call's system prompt is the house style guide (written from the
+   published articles: neutral, facts first, short paragraphs, no hype words,
+   stock openings, rhetorical questions or conclusions, counts from the facts
+   block with an as-of month, a note marker on every factual sentence, quotation
+   marks only around words copied from a quote in the data), what the data
+   fields mean, and the length range. The user message is the data.
+2. The edit call is a fresh request: the editor's instructions and the same
+   style guide as the system prompt, and the draft with only the records and
+   studies its notes and table cite, plus the facts block. It checks every
+   sentence against its note, fixes or removes what the data does not support,
+   corrects counts, mood and note numbering, tightens the prose, and lists its
+   changes (`edits`).
+3. The edited article is checked. When it fails, the editor is called again
+   (`repair_attempts` times) with the failures listed.
+
+### Checks
+
+The article is written only if it passes all of these:
+
+- What the site's content schema (`site/src/content.config.ts`) enforces: the
+  fields and their types; every note resolves to a record's provision or a
+  study's key finding; every `[n]` in the text has a note and every note is
+  cited; table rows fit their columns and record cells name records that exist
+  and have an identifier or a text. Note markers outside paragraphs are refused.
+- Notes and table cells cite only records and studies the model was given.
+- Words in quotation marks appear in a provision quote, finding quote, or title
+  given.
+- Every number in the prose and the table appears in the data given (or the run
+  date).
+- The body paragraphs run `min_words` to `max_words` words; the dek is under 60
+  words and the title about 12.
+- No question marks, em dashes, exclamation marks, or listed hype and filler
+  words.
+- The type is the subject's, `published` the run date, the slug lowercase words
+  joined by hyphens and not used by another article.
+- The site builds with the file in place (`npm run build` in `site/`, with
+  `EDICTAI_BUILD_DIR` set to this repository's `build/`), within
+  `build_timeout_minutes`. On failure the file is removed.
+
+The seven published articles pass the same checks (`test_articles.py`).
+
+### Spending
+
+The article has its own cap (`articles.spend_cap_usd`) inside the run's: a call
+is sent only when its worst-case cost fits both, and what it costs is counted
+in `weekly/spend.json` with the classifier's spending. A call the caps do not
+cover is not sent and the article is skipped.
+
+### Skipping
+
+A failure at any point (no subject left, a missing build, the caps, an API
+error or refusal, failed checks after the repair, a failed site build, or an
+unexpected error) skips the article: nothing is written, the command still
+exits 0, and the reason goes into `weekly/article.json`, the ledger, and the
+pull-request summary. The data changes are unaffected.
+
+### Ledger
+
+`.cache/articles/ledger.json` (kept with the cache) has one entry per run date:
+status (`written` or `skipped`), type, subject, period, slug, path, title,
+reason, and spending. A rerun on the same date replaces the entry. When the
+entry for the run date says written, nothing is sent: the file is kept, or, in a
+fresh checkout, restored from `.cache/articles/written/<slug>.yaml` and built
+again. Only written entries use a subject up.
+
 ## Outputs
 
 `weekly/summary.md` (the pull-request body) lists records added (with
 confidence, verification status, and source link), records updated (new
 actions and the status before and after), items ruled out after reading the
 text (confidence, reasons, link), how many were ruled out at triage, items
-dropped, spending, and the evaluation result.
+dropped, the article (headline, type, path, dek, word count, citations,
+subject, spending, the editor's changes and the cited records and studies, or
+why there is none this week), spending, and the evaluation result.
 
 `weekly/weekly-result.json` holds the same facts: `status`, `failed_step`,
 `changed`, `added`, `updated`, `other_changes`, `ruled_out`, `triaged_out`,
-`dropped`, `not_sent`, `spend`, and `eval`.
+`dropped`, `not_sent`, `spend`, `eval`, and `article`. `changed` is true when
+`data/` changed or an article was written.
+
+`weekly/article.json` is the `articles write` result: `status` (`written`,
+`exists`, `skipped`), `reason`, `subject`, `type`, `slug`, `path`, `title`,
+`dek`, `words`, `citations`, `edits`, `errors` (the failed checks), `spend`, and
+`model`.
 
 ## Running it locally
 
@@ -195,8 +355,16 @@ uv sync --extra classify
 uv run statescope classify refresh --dry-run
 uv run statescope classify eval-gate --spend-file weekly/spend.json --json weekly/eval-gate.json
 uv run statescope classify run --spend-file weekly/spend.json --result weekly/run.json
-uv run statescope classify summary --run weekly/run.json --markdown weekly/summary.md
+uv run statescope build --no-parquet
+uv run statescope articles write --spend-file weekly/spend.json --result weekly/article.json
+uv run statescope classify summary --run weekly/run.json --article weekly/article.json \
+  --markdown weekly/summary.md
 ```
+
+`articles write --site DIR` writes into and builds a copy of the site instead
+of `site/`, and `--ledger PATH` keeps a separate ledger, so a trial article
+leaves the real ones alone. `--date` sets the run date, and `--no-build` skips
+the site build.
 
 `ANTHROPIC_API_KEY`, `LEGISCAN_API_KEY`, and `CONGRESS_API_KEY` are read from
 the environment or `.env`. `classify run --scope state|federal` limits the run

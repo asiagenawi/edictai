@@ -1,4 +1,5 @@
-"""Command-line entry point: `statescope validate | build | docs | ingest | watch | classify`."""
+"""Command-line entry point: `statescope validate | build | docs | ingest | watch | classify |
+articles`."""
 
 from __future__ import annotations
 
@@ -388,6 +389,10 @@ def parser() -> argparse.ArgumentParser:
     from .classify.commands import register as register_classify
 
     register_classify(sub)
+
+    from .articles.commands import register as register_articles
+
+    register_articles(sub)
     return p
 
 

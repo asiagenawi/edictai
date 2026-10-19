@@ -51,6 +51,8 @@ const articles = defineCollection({
       caption: z.string().optional(),
       /** A few handwritten words on the index drawing, e.g. "must adopt a policy". */
       sketch_note: z.string().optional(),
+      /** The index drawing; left out, it follows from the type and what the article cites. */
+      drawing: z.enum(['map', 'desk', 'capitol', 'gavel', 'classroom', 'phone', 'calendar', 'lock']).optional(),
       body: z.array(block).min(1),
       notes: z.array(z.union([recordNote, studyNote])),
       /** Opinion pieces only. */

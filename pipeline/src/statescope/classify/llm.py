@@ -168,6 +168,54 @@ class Budget:
         }
 
 
+class CappedBudget:
+    """A share of a Budget with a cap of its own: a request is sent only when it fits
+    both, and what it costs is counted in both."""
+
+    def __init__(self, parent: Budget, cap: float):
+        self.parent = parent
+        self.cap = float(cap)
+        self.spent = 0.0
+        self.reserved = 0.0
+        self.requests = 0
+        self.stopped = False
+        self._lock = threading.Lock()
+
+    @property
+    def remaining(self) -> float:
+        return min(self.cap - self.spent - self.reserved, self.parent.remaining)
+
+    def reserve(self, amount: float) -> bool:
+        with self._lock:
+            if self.spent + self.reserved + amount > self.cap or not self.parent.reserve(amount):
+                self.stopped = True
+                return False
+            self.reserved += amount
+            return True
+
+    def settle(self, reserved: float, actual: float) -> None:
+        with self._lock:
+            self.reserved = max(0.0, self.reserved - reserved)
+            self.spent += actual
+            self.requests += 1
+        self.parent.settle(reserved, actual)
+
+    def release(self, reserved: float) -> None:
+        with self._lock:
+            self.reserved = max(0.0, self.reserved - reserved)
+        self.parent.release(reserved)
+
+    def as_dict(self) -> dict[str, Any]:
+        return {
+            "cap_usd": self.cap,
+            "spent_usd": round(self.spent, 4),
+            "requests": self.requests,
+            "stopped_by_cap": self.stopped,
+            "run_cap_usd": self.parent.cap,
+            "run_spent_usd": round(self.parent.spent, 4),
+        }
+
+
 # -- requests -----------------------------------------------------------------------
 
 
@@ -363,24 +411,31 @@ class Judge:
 
     # -- direct calls ----------------------------------------------------------
 
-    def _direct(self, reqs: list[Request], replies: dict[str, Reply]) -> None:
-        def one(req: Request) -> Reply:
-            import anthropic
+    def call(self, req: Request, *, stream: bool = False) -> Reply:
+        """One direct call under the cap. `stream` sends it as a streamed request, for
+        replies whose `max_tokens` is too large for a plain one to finish in time."""
+        import anthropic
 
-            amount = self.worst_case(req)
-            if not self.budget.reserve(amount):
-                return Reply(req.id, error="not sent: spending cap reached")
-            try:
+        amount = self.worst_case(req)
+        if not self.budget.reserve(amount):
+            return Reply(req.id, error="not sent: spending cap reached")
+        try:
+            if stream:
+                with self.client.messages.stream(**self.params(req)) as s:
+                    message = s.get_final_message()
+            else:
                 message = self.client.messages.create(**self.params(req))
-            except anthropic.APIError as exc:
-                self.budget.release(amount)
-                return Reply(req.id, error=f"API error: {type(exc).__name__}: {exc}")
-            usage = usage_dict(message.usage)
-            cost = cost_of(usage, self.price)
-            self.budget.settle(amount, cost)
-            data, error = parse_message(message)
-            return Reply(req.id, data, error, usage, cost, "direct")
+        except anthropic.APIError as exc:
+            self.budget.release(amount)
+            return Reply(req.id, error=f"API error: {type(exc).__name__}: {exc}")
+        usage = usage_dict(message.usage)
+        cost = cost_of(usage, self.price)
+        self.budget.settle(amount, cost)
+        data, error = parse_message(message)
+        return Reply(req.id, data, error, usage, cost, "direct")
 
+    def _direct(self, reqs: list[Request], replies: dict[str, Reply]) -> None:
+        one = self.call
         workers = max(1, self.settings.direct_workers)
         if workers == 1 or len(reqs) == 1:
             results = [one(r) for r in reqs]

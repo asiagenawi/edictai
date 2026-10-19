@@ -15,6 +15,7 @@ on:
         default: ""
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write
   issues: write
@@ -59,6 +60,7 @@ jobs:
             .cache/candidates
             .cache/classify
             .cache/texts
+            .cache/articles
           key: weekly-cache-${{ github.run_id }}
           restore-keys: |
             weekly-cache-
@@ -152,11 +154,37 @@ jobs:
           "$RUNNER_TEMP/api-venv/bin/pip" install --quiet -r api/requirements-dev.txt
           "$RUNNER_TEMP/api-venv/bin/python" -m pytest api/tests -q
 
+      # One article for the Articles section, written from the data as built above.
+      # The command builds the site with the article and writes the file only when
+      # every check and the build pass; otherwise it records why in article.json and
+      # the data changes go ahead without it, as they do when Node cannot be set up.
+      - uses: actions/setup-node@v7
+        continue-on-error: true
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Site dependencies
+        continue-on-error: true
+        run: npm ci
+        working-directory: site
+
+      - name: Article
+        id: article
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          uv run --no-sync statescope articles write \
+            --spend-file "$OUT/spend.json" --result "$OUT/article.json"
+
       - name: Summary
         id: summary
         run: |
           uv run --no-sync statescope classify summary \
             --run "$OUT/run.json" --refresh "$OUT/refresh.json" --gate "$OUT/eval-gate.json" \
+            --article "$OUT/article.json" \
             --markdown "$OUT/summary.md" --json "$OUT/weekly-result.json"
           echo "changed=$(jq -r '.changed' "$OUT/weekly-result.json")" >> "$GITHUB_OUTPUT"
           cat "$OUT/summary.md" >> "$GITHUB_STEP_SUMMARY"
@@ -168,11 +196,25 @@ jobs:
         with:
           branch: automation/weekly-update
           base: master
-          add-paths: data/
+          add-paths: |
+            data/
+            site/src/content/articles/
           commit-message: "Weekly update: new records and bill status"
           title: "Weekly update, ${{ github.run_started_at }}"
           body-path: weekly/summary.md
           delete-branch: true
+
+      # Every check above has passed, so the update publishes itself. Merges made
+      # with the workflow token start no other workflow, so the site deploy is
+      # started here; Render redeploys the API from master on its own.
+      - name: Merge the pull request and deploy the site
+        if: steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ steps.pr.outputs.pull-request-number }}
+        run: |
+          gh pr merge "$PR" --squash --delete-branch
+          gh workflow run deploy-frontend.yml --ref master
 
       - name: Upload the run's files
         if: always()
@@ -193,6 +235,7 @@ jobs:
             .cache/candidates
             .cache/classify
             .cache/texts
+            .cache/articles
           key: weekly-cache-${{ github.run_id }}
 
       # One open issue collects failures; each failed run adds a comment.

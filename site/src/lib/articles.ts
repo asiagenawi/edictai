@@ -97,8 +97,28 @@ export interface Article {
   topics: string[];
   /** Fips codes of the states its records come from, for the map drawing. */
   fips: string[];
-  drawing: 'map' | 'desk' | 'op';
+  /** Dates (YYYY-MM-DD) in the first column of the article's tables, for the calendar drawing. */
+  days: string[];
+  drawing: 'map' | 'desk' | 'op' | 'capitol' | 'gavel' | 'classroom' | 'phone' | 'calendar' | 'lock';
   body: Block[];
+}
+
+const MON = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+/** "1 Sep", "24-25 Sep", "29 Apr 2024" in a table's first column; with no year, the publication year. */
+function tableDays(body: Block[], published: string): string[] {
+  const out = new Set<string>();
+  const year = +published.slice(0, 4), pubMonth = +published.slice(5, 7);
+  for (const b of body) {
+    if (!('table' in b)) continue;
+    for (const row of b.table.rows) {
+      const m = typeof row[0] === 'string' ? /^(\d{1,2})(?:[-–](\d{1,2}))? ([A-Za-z]{3})[a-z]*\.?(?: (\d{4}))?/.exec(row[0]) : null;
+      const mi = m ? MON.indexOf(m[3].toLowerCase()) : -1;
+      if (!m || mi < 0) continue;
+      const y = m[4] ? +m[4] : mi + 1 > pubMonth ? year - 1 : year;
+      for (let d = +m[1]; d <= +(m[2] ?? m[1]); d++) out.add(`${y}-${String(mi + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`);
+    }
+  }
+  return [...out].sort();
 }
 
 let _articles: Article[] | undefined;
@@ -137,8 +157,11 @@ export async function articles(): Promise<Article[]> {
     return {
       slug, data: e.data, type, notes, href: url(`articles/${slug}/`),
       jurisdictions: [...jset], levels: [...lv], topics: [...tp], fips,
-      drawing: fips.length ? 'map' : type === 'Opinion' ? 'op' : 'desk',
+      drawing: e.data.drawing
+        ?? (type === 'Opinion' ? 'op' : type === 'Roundup' ? 'calendar' : type === 'Research digest' ? 'desk'
+          : fips.length ? 'map' : jset.size === 1 && jset.has('us') ? 'capitol' : 'desk'),
       body: e.data.body,
+      days: tableDays(e.data.body, e.data.published),
     } satisfies Article;
   });
   // Newest first; on the same day, in the order of the type tabs.
