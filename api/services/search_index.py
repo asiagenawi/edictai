@@ -24,7 +24,7 @@ these they this those to was we were what when where which who why will with wou
 your about also all each more most some such not no state states law laws bill bills
 policy policies'''.split())
 
-_IDENT_RE = re.compile(r'\b([a-z]{1,4})\.?\s?(\d{1,5})\b', re.I)
+IDENT_RE = re.compile(r'\b([a-z]{1,4})\.?\s?(\d{1,5})\b', re.I)
 
 
 def compact_identifier(value):
@@ -288,7 +288,7 @@ class SearchIndex:
         text = text or ''
         terms = []
         prefixes = set()
-        for m in _IDENT_RE.finditer(text):
+        for m in IDENT_RE.finditer(text):
             terms.append((m.group(1) + m.group(2)).lower())
             prefixes.add(m.group(1).lower())
         for tok in re.findall(r'[A-Za-z0-9]+', text.lower()):

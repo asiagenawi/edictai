@@ -1,5 +1,6 @@
 """Shared fixtures: a small database built from db/schema.sql and a scripted Claude client."""
 
+import copy
 import json
 import os
 import sqlite3
@@ -117,6 +118,10 @@ def env(fixture_db, tmp_path, monkeypatch):
     monkeypatch.setattr(config, 'ASK_DAILY_BUDGET', 100)
     monkeypatch.setattr(config, 'ASK_RATE_LIMIT_PER_MINUTE', 100)
     monkeypatch.setattr(config, 'ANTHROPIC_API_KEY', 'test-key')
+    # The pre-search and the quick small-talk model are off unless a test turns them
+    # on, so each test scripts exactly the calls it is about.
+    monkeypatch.setattr(config, 'ASK_PRESEARCH_LIMIT', 0)
+    monkeypatch.setattr(config, 'ASK_FAST_MODEL', 'off')
     search_index.reset_index()
     monkeypatch.setattr(ask_tools, '_DEFINITIONS', None)
     monkeypatch.setattr(ask_agent, '_client', None)
@@ -152,18 +157,51 @@ def final(records_text, citations=(), table=None, general_knowledge=None, follow
                            stop_reason='end_turn')
 
 
+class FakeStream:
+    """Replays a scripted response as stream events: text arrives in small chunks."""
+
+    CHUNK = 7
+
+    def __init__(self, response):
+        self.response = response
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        return False
+
+    def __iter__(self):
+        for i, block in enumerate(self.response.content):
+            yield SimpleNamespace(type='content_block_start', index=i, content_block=block)
+            if block.type == 'text':
+                for j in range(0, len(block.text), self.CHUNK):
+                    yield SimpleNamespace(type='content_block_delta', index=i,
+                                          delta=SimpleNamespace(type='text_delta', text=block.text[j:j + self.CHUNK]))
+            yield SimpleNamespace(type='content_block_stop', index=i)
+
+    def get_final_message(self):
+        return self.response
+
+
 class FakeMessages:
     def __init__(self, script):
         self.script = list(script)
         self.calls = []
 
-    def create(self, **kwargs):
-        # Snapshot the messages: the loop keeps appending to the same list.
-        self.calls.append({**kwargs, 'messages': list(kwargs['messages'])})
+    def _next(self, kwargs):
+        # Snapshot the messages: the loop keeps extending the same list and turns.
+        self.calls.append({**kwargs, 'messages': copy.deepcopy(kwargs['messages'])})
         if not self.script:
             raise AssertionError('Claude was called more times than scripted')
         step = self.script.pop(0)
         return step(kwargs) if callable(step) else step
+
+    def create(self, **kwargs):
+        return self._next(kwargs)
+
+    def stream(self, **kwargs):
+        return FakeStream(self._next(kwargs))
 
 
 class FakeClient:

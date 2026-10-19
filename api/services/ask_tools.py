@@ -28,6 +28,7 @@ class TurnContext:
         self.primary_ids = []  # records surfaced as results, in order, for fallbacks
         self.searched = []  # human-readable descriptions of each lookup
         self.tool_calls = 0
+        self.presearched = False  # records from the pre-search were given in the prompt
 
     def register(self, ids, primary=True):
         for rid in ids:
@@ -203,7 +204,7 @@ def _limit(value, default=10):
         return default
 
 
-def _for_model(brief):
+def for_model(brief):
     """A brief without the fields only the interface needs."""
     return {k: v for k, v in brief.items() if k not in ('source_url', 'num_id') and v is not None}
 
@@ -230,7 +231,7 @@ def search_records(ctx, args):
         limit=_limit(args.get('limit')),
     )
     ctx.register(r['id'] for r in results)
-    return {'total_matches': total, 'results': [_for_model(r) for r in results]}
+    return {'total_matches': total, 'results': [for_model(r) for r in results]}
 
 
 def get_record(ctx, args):
@@ -241,7 +242,7 @@ def get_record(ctx, args):
         return {'error': f'No record with id {rid!r}. Record ids come from search results.'}
     db = get_db()
     try:
-        out = dict(_for_model(brief))
+        out = dict(for_model(brief))
         out['summary'] = _one(db, f'SELECT summary FROM {_table(brief["type"])} WHERE id = ?', rid)
         out['topics'] = _col(db, 'SELECT topic FROM record_topics WHERE record_id = ?', rid)
         out['education_levels'] = _col(db, 'SELECT education_level FROM record_education_levels WHERE record_id = ?', rid)
@@ -486,7 +487,7 @@ def search_research(ctx, args):
     finally:
         db.close()
     ctx.register(r['id'] for r in results)
-    out = {'total_matches': total, 'results': [_for_model(r) for r in results]}
+    out = {'total_matches': total, 'results': [for_model(r) for r in results]}
     if not results:
         out['note'] = 'No research items matched.'
     return out

@@ -51,10 +51,17 @@ def test_request_uses_cached_system_prompt_and_schema(app_client, claude):
     assert {t['name'] for t in kw['tools']} == {
         'search_records', 'get_record', 'provision_grid', 'state_overview',
         'recent_changes', 'search_research', 'stats'}
-    # Tool results go back to Claude in the following request.
+    # Tool results go back to Claude in the following request, as text appended
+    # to the same user turn (so the answer after them can stream), and the
+    # first request's content is an unchanged prefix of it (so the cache holds).
     second = client.calls[1]['messages']
-    assert second[-1]['content'][0]['type'] == 'tool_result'
-    assert AB in second[-1]['content'][0]['content']
+    assert len(second) == 1 and second[-1]['role'] == 'user'
+    first_text = client.calls[0]['messages'][-1]['content']
+    assert second[-1]['content'][0] == {'type': 'text', 'text': first_text}
+    results = second[-1]['content'][-1]['text']
+    assert results.startswith('[Results of the tool calls you just made.')
+    assert 'search_records({"jurisdiction": "CA", "query": "pupil data"}) returned:' in results
+    assert AB in results
 
 
 def test_unknown_id_triggers_one_correction_then_is_stripped(app_client, claude):
@@ -370,8 +377,10 @@ def test_tool_call_limit(app_client, claude, monkeypatch):
     many = tool_turn(*[tool_use('search_records', {'query': f'q{i}'}, id=f't{i}') for i in range(3)])
     client = claude([many, final("I couldn't find that.", [])])
     ask(app_client)
-    results = client.calls[1]['messages'][-1]['content']
-    assert results[2]['is_error'] is True
+    results = client.calls[1]['messages'][-1]['content'][-1]['text']
+    assert results.count(' returned:') == 2
+    assert 'search_records({"query": "q2"}): not run. Tool limit reached' in results
+    assert results.endswith('Tool limit reached. Write the final answer now.')
     assert client.calls[1]['tool_choice'] == {'type': 'none'}
 
 
@@ -429,6 +438,6 @@ def test_repeated_identical_call_is_not_rerun(app_client, claude):
         final(f'AB 1159 [[{AB}]].', [AB]),
     ])
     body = ask(app_client).get_json()
-    second = client.calls[2]['messages'][-1]['content'][0]
-    assert second['tool_use_id'] == 'b' and 'Same call as before' in second['content']
+    second = client.calls[2]['messages'][-1]['content'][-1]['text']
+    assert 'get_record({"id": "us-ca-2025-2026-ab-1159"}): same call as before' in second
     assert body['records_layer']['citations'] == [AB]

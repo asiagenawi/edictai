@@ -32,6 +32,12 @@ ASK_FALLBACKS = os.getenv('ASK_FALLBACKS', 'default')
 ASK_MAX_TOKENS = _int_env('ASK_MAX_TOKENS', 8000)
 # Tool calls Claude may make while answering one question.
 ASK_MAX_TOOL_CALLS = _int_env('ASK_MAX_TOOL_CALLS', 6)
+# Records from a local search of the question placed in the first prompt, so
+# Claude can often answer without a search round trip. 0 turns this off.
+ASK_PRESEARCH_LIMIT = _int_env('ASK_PRESEARCH_LIMIT', 8)
+# Small talk and off-topic messages go to this quicker model, without tools.
+# Anything it judges to be a policy question goes on to ASK_MODEL. 'off' disables it.
+ASK_FAST_MODEL = os.getenv('ASK_FAST_MODEL', 'claude-haiku-5-5')
 
 # Per-IP limit, per worker process.
 ASK_RATE_LIMIT_PER_MINUTE = _int_env('ASK_RATE_LIMIT_PER_MINUTE', 10)

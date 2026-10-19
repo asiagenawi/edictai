@@ -24,6 +24,13 @@ type Answer = {
   data_as_of: string | null;
 };
 type Turn = { q: string; a?: Answer; err?: string };
+/** What the stream reports while it runs: status lines, and the reply as it is written. */
+type Live = {
+  status: (s: string) => void;
+  delta: (text: string, recs: Record<string, Rec> | undefined) => void;
+  gk: (text: string, label: string) => void;
+  retract: () => void;
+};
 
 const STORE = 'edictai-ask';
 const OPEN = 'edictai-ask-open';
@@ -204,6 +211,16 @@ export function initAsk() {
     return h;
   }
 
+  // The reply while Claude writes it: the same markup as the final answer, so
+  // swapping in the checked answer at the end changes nothing already on screen.
+  function liveHtml(text: string, recs: Record<string, Rec>, gk: string, gkLabel: string) {
+    // Close a bold left open mid-stream so the markers never show.
+    const close = (s: string) => ((s.match(/\*\*/g) || []).length % 2 ? s + '**' : s);
+    let h = `<div class="ap-ans">${md(close(text), recs)}</div>`;
+    if (gk) h += `<div class="ap-ans ap-out"><h3>${esc(gkLabel)}</h3>${md(close(gk), {})}</div>`;
+    return h;
+  }
+
   function turnEl(t: Turn) {
     const el = document.createElement('section');
     el.className = 'ap-turn';
@@ -248,15 +265,35 @@ export function initAsk() {
     turns.push(t);
     const el = turnEl(t);
     const slot = el.querySelector<HTMLElement>('.ap-out-slot')!;
-    slot.innerHTML = '<p class="ap-look"><i></i><i></i><i></i><span>Thinking…</span></p>';
-    const look = slot.querySelector('span')!;
+    let look: HTMLElement;
+    const showLook = (s: string) => {
+      slot.innerHTML = `<p class="ap-look"><i></i><i></i><i></i><span>${esc(s)}</span></p>`;
+      look = slot.querySelector('span')!;
+    };
+    showLook('Thinking…');
     body.append(el);
     el.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    // Text arrives in small pieces; draw at most once a frame.
+    let text = '', gk = '', gkLabel = '', recs: Record<string, Rec> = {}, frame = 0;
+    const paint = () => { frame = 0; if (text) slot.innerHTML = liveHtml(text, recs, gk, gkLabel); };
+    const live: Live = {
+      status: (s) => { if (!text) look.textContent = s; },
+      delta: (d, r) => { text += d; if (r) recs = { ...recs, ...r }; frame ||= requestAnimationFrame(paint); },
+      gk: (d, label) => { gk += d; gkLabel = label; frame ||= requestAnimationFrame(paint); },
+      retract: () => {
+        text = gk = '';
+        recs = {};
+        if (frame) cancelAnimationFrame(frame);
+        frame = 0;
+        showLook('Checking citations…');
+      },
+    };
     try {
-      t.a = await stream(q, hist, (s) => { look.textContent = s; });
+      t.a = await stream(q, hist, live);
     } catch (e) {
       t.err = e instanceof Error && e.message ? e.message : MSG.broken;
     } finally {
+      if (frame) cancelAnimationFrame(frame);
       busy = false;
       send.disabled = false;
       ctl = null;
@@ -267,7 +304,8 @@ export function initAsk() {
     el.scrollIntoView({ block: 'start', behavior: 'smooth' });
   }
 
-  async function stream(q: string, hist: unknown[], status: (s: string) => void): Promise<Answer> {
+  async function stream(q: string, hist: unknown[], live: Live): Promise<Answer> {
+    const status = live.status;
     ctl = new AbortController();
     const signal = ctl.signal;
     const giveUp = setTimeout(() => ctl?.abort('slow'), GIVE_UP_MS);
@@ -316,6 +354,9 @@ export function initAsk() {
             else if (typeof ev.progress === 'string') {
               status(/^Searching Edictai records/.test(ev.progress) ? 'Looking through the records…' : ev.progress);
             }
+            else if (typeof ev.delta === 'string') live.delta(ev.delta, ev.records as Record<string, Rec> | undefined);
+            else if (typeof ev.gk_delta === 'string') live.gk(ev.gk_delta, String(ev.label || ''));
+            else if (ev.retract) live.retract();
             else if (ev.answer) answer = ev.answer as Answer;
             else if (typeof ev.error === 'string') error = ev.error;
           }

@@ -2,7 +2,10 @@
 
 POST /api/ask          -> one JSON response.
 POST /api/ask/stream   -> server-sent events: `started` at once, `progress` lines
-                          while tools run, then the structured `answer`, then `done`.
+                          while tools run, `delta` / `gk_delta` text as the reply
+                          is written (a preview; `retract` drops it), then the
+                          structured, checked `answer`, which replaces the preview,
+                          then `done`.
 
 Request body: {"question": str, "history"?: [{role, content}], "scope"?: {jurisdiction, level, record_id}}.
 Both responses keep the earlier fields (`answer` as Markdown, `sources`) beside
@@ -17,7 +20,7 @@ import logging
 from flask import Blueprint, Response, request
 
 from services import budget, privacy
-from services.ask_agent import AskUnavailable, legacy_sources, render_markdown, run_ask
+from services.ask_agent import GK_LABEL, AskUnavailable, legacy_sources, render_markdown, run_ask
 
 ask_bp = Blueprint('ask', __name__)
 
@@ -98,6 +101,17 @@ def ask_stream():
             for kind, data in run_ask(question, history, scope):
                 if kind == 'progress':
                     yield _sse({'progress': data['message'], 'tool': data.get('tool')})
+                elif kind == 'delta':
+                    # Records-layer text as Claude writes it, with any records it now cites.
+                    frame = {'delta': data['text']}
+                    if data.get('records'):
+                        frame['records'] = data['records']
+                    yield _sse(frame)
+                elif kind == 'gk_delta':
+                    yield _sse({'gk_delta': data['text'], 'label': GK_LABEL})
+                elif kind == 'retract':
+                    # The text streamed so far will not be the answer; drop it.
+                    yield _sse({'retract': True})
                 else:
                     legacy = _legacy_fields(data)
                     yield _sse({'answer': data})
