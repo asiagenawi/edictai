@@ -90,7 +90,6 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
   <div class="wrap">
     <SiteHeader current="states" />
 
-    <nav class="crumbs" aria-label="Breadcrumb"><a href={url('states/')}>States</a><span>/</span><span aria-current="page">{state.name}</span></nav>
     <div class="titlebar">
       <div class="tt">
         {silhouette && <div class="sil" style={outline ? `--sw:${outline.w}px;--sh:${outline.h}px` : undefined} set:html={silhouette} />}

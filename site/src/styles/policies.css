@@ -5,7 +5,7 @@
  */
 
 /* title, with the page actions stacked at the far right like the state pages */
-.pp .ihead{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:12px 0 30px}
+.pp .ihead{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:40px 0 30px}
 .pp .ihead>div:first-child{max-width:780px;min-width:0}
 .pp .ihead h1{margin:0;font-family:var(--serif);font-weight:500;font-size:44px;letter-spacing:-.01em;line-height:1.05}
 .pp .ihead .lede{margin:12px 0 0;font-size:18px;line-height:1.5}

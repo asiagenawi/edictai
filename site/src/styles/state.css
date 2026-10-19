@@ -30,9 +30,7 @@ nav.main a:hover,nav.main a[aria-current]{color:var(--ink)}
 nav.main a[aria-current]{box-shadow:inset 0 -1.5px 0 var(--ink)}
 
 /* title bar */
-.crumbs{display:flex;gap:7px;padding-top:22px;font-size:12.5px;color:var(--ink-3)}
-.crumbs a{text-decoration:none}.crumbs a:hover{color:var(--ink)}
-.titlebar{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:12px 0 30px}
+.titlebar{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:40px 0 30px}
 .tt{display:flex;align-items:center;gap:24px}
 .tt>div{min-width:0}
 .sil{width:var(--sw,96px);height:var(--sh,96px);padding:2px;flex:none}

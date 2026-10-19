@@ -42,7 +42,6 @@ const reference = `${by}. (${y}, ${MONTHS[m - 1]} ${day}). ${d.title}. Edictai. 
   <div class="wrap">
     <SiteHeader current="articles" />
     <article class="ar" id="ar">
-      <nav class="crumbs" aria-label="Breadcrumb"><a href={url('articles/')}>Articles</a><span>/</span><span aria-current="page">{a.type}</span></nav>
       <header class="ar-h">
         <span class="kind"><svg class="g" viewBox="0 0 12 12" aria-hidden="true" set:html={TYPE_GLYPHS[a.type]} />{a.type}</span>
         <h1>{d.title}</h1>

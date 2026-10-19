@@ -31,7 +31,7 @@ svg.g{width:12px;height:12px;flex:none;display:block}
 
 /* article: one centred column, as journals set an article */
 .ar{position:relative;max-width:720px;margin:0 auto;padding-bottom:80px}
-.ar-h{padding:28px 0 26px}
+.ar-h{padding:44px 0 26px}
 .ar-h .kind{display:flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-bottom:16px}
 .ar-h h1{margin:0;font-family:var(--serif);font-weight:500;font-size:46px;line-height:1.08;letter-spacing:-.012em;text-wrap:balance}
 .ar-h .dek{margin:16px 0 0;font-family:var(--serif);font-size:21px;line-height:1.45;color:var(--ink-2);text-wrap:pretty}
@@ -76,7 +76,7 @@ svg.g{width:12px;height:12px;flex:none;display:block}
 @media (max-width:760px){.ar-h h1{font-size:34px}.ar-h .dek{font-size:18px}.ar-b>p{font-size:17.5px}.by .tools{margin-left:0;width:100%;margin-top:6px}}
 
 /* opinion submission guidelines */
-.sp-head{padding:14px 0 34px;border-bottom:1px solid var(--rule)}
+.sp-head{padding:40px 0 34px;border-bottom:1px solid var(--rule)}
 .sp-head .kind{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2);margin-bottom:14px}
 .sp-head h1{margin:0;font-family:var(--serif);font-weight:500;font-size:52px;line-height:1.04;letter-spacing:-.012em}
 .sp-head .dek{margin:16px 0 0;max-width:56ch;font-family:var(--serif);font-style:italic;font-size:20px;line-height:1.45;color:var(--ink-2)}
