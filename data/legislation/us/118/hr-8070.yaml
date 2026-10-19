@@ -714,7 +714,7 @@ actions:
     description: 'On passage Passed by recorded vote: 217 - 199 (Roll no. 279).'
     actor: lower
     classification:
-      - other
+      - passage
   - date: "2024-06-14"
     description: Motion to reconsider laid on the table Agreed to without objection.
     actor: lower
@@ -730,7 +730,7 @@ actions:
     description: Received in the Senate.
     actor: upper
     classification:
-      - passage
+      - other
 versions:
   - note: Introduced
     date: "2024-05-03"

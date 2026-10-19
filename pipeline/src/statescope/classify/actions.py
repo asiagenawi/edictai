@@ -42,6 +42,12 @@ _SCHEDULED_READING = _p(
 
 _EXEC = r"(?:governor|mayor|president(?! of (?:the )?senate| pro tem))"
 
+# A recorded vote on the measure itself: "On passage Passed by recorded vote",
+# "Read by title, passed by a vote of 35 yeas". It outranks amendment adoption the same day.
+_VOTE_PASSAGE = _p(
+    r"\bon passage passed\b|\bpassed by (?:a |the )?(?:recorded |voice |roll[- ]call )?(?:vote|yeas)\b"
+)
+
 # Order matters: the first matching rule supplies the main class.
 RULES: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("veto-override-passage", _p(r"\bveto overrid(?:den|e (?:passed|adopted|successful))\b|"
@@ -61,7 +67,8 @@ RULES: tuple[tuple[str, re.Pattern[str]], ...] = (
                       r"\bpub(?:lic|\.)? ch(?:apter|\.)? ?\d")),
     ("executive-signature", _p(rf"\b(?:signed|approved|enacted) by (?:the )?{_EXEC}\b|"
                                rf"\b{_EXEC} (?:signed|approved)\b|\bsigned by gov\b|"
-                               rf"^signed(?: into law)?\.?$|\bapproved by gov\b")),
+                               rf"^signed(?: into law)?\.?$|\bapproved by gov\b|"
+                               rf"^{_EXEC}(?:'s action)? approval\b")),
     ("executive-receipt", _p(rf"\b(?:sent|presented|delivered|transmitted|forwarded|submitted|"
                              rf"enrolled and sent) to (?:the )?{_EXEC}\b|\bto {_EXEC} for\b|"
                              rf"\b{_EXEC}'?s? desk\b|\breceived by (?:the )?{_EXEC}\b")),
@@ -99,6 +106,7 @@ RULES: tuple[tuple[str, re.Pattern[str]], ...] = (
                    r"\bpassed\b[^;]*\b\d+-\d+\b(?![^;]*committee)")),
     ("substitution", _p(r"\bsubstitute[ds]?\b[^.;]*\b(?:adopted|accepted|substituted)\b|"
                         r"\bsubstituted for\b|\bcommittee substitute\b|\bin lieu of\b")),
+    ("passage", _VOTE_PASSAGE),
     ("passage", _p(r"\bconcur(?:s|red)? in (?:the )?(?:house |senate |assembly )?amendments?\b"
                    r"[^;]*\b(?:adopted|passed|\d+-\d+)|\bamendments? concurred in\b|"
                    r"\bconcur in and adopt\b|\bmotion to (?:read a third time and )?pass\b[^;]*"
@@ -133,10 +141,14 @@ _AMENDMENT_SUBJECT = _p(
 _CONCURRENCE = _p(r"\bconcurred in\b|\bconcur(?:s|red)? in (?:the )?[\w ]*amendments?\b")
 # Passage words that do not mean the measure passed.
 _NOT_PASSAGE = _p(
-    r"\bpassed by\b|\bsecond reading\b[^;]*\bpassed\b|\bpassed (?:first|second|1st|2nd) reading\b|"
+    r"\bpassed by\b(?!\s+(?:a |the )?(?:recorded |voice |roll[- ]call )?(?:vote|yeas)\b)|\bsecond reading\b[^;]*\bpassed\b|\bpassed (?:first|second|1st|2nd) reading\b|"
     r"\bmotion\b(?![^;]*\bto (?:read a third time and )?(?:pass|concur)\b)|\breconsider|"
     r"\brules? (?:suspended|adopted)|\bcalendar\b|\bcompanion\b|\bpending\b"
 )
+
+# The other chamber receiving a measure is not passage, though LegiScan dates
+# its "passed" progress event to that day.
+_RECEIPT = _p(r"^\W*(?:received in the|received from the|message (?:received|from))\b")
 
 _EXECUTIVE = {"executive-signature", "executive-veto", "became-law", "executive-receipt"}
 
@@ -160,6 +172,15 @@ PROGRESS: dict[int, tuple[str, frozenset[str]]] = {
 # because the vocabulary distinguishes signature from becoming law.
 
 
+def _vote_first(text: str, pattern: re.Pattern[str]) -> bool:
+    """A recorded passage vote that comes before any motion: "passed by a vote of
+    35 yeas ... Motion to reconsider tabled."."""
+    if pattern is not _VOTE_PASSAGE:
+        return False
+    vote = _VOTE_PASSAGE.search(text)
+    return bool(vote) and not _NOT_PASSAGE.search(text[: vote.start()])
+
+
 def classify_text(text: str, *, federal: bool = False) -> list[str]:
     """The classifications for one action text, never empty.
 
@@ -177,10 +198,12 @@ def classify_text(text: str, *, federal: bool = False) -> list[str]:
         amended = next(p for n, p in RULES if n == "amendment-passage")
         if amended.search(text):
             found.append("amendment-passage")
+        if _VOTE_PASSAGE.search(text):
+            found.append("passage")
         return found or ["other"]
     main = None
     for name, pattern in RULES:
-        if name == "passage" and _NOT_PASSAGE.search(text):
+        if name == "passage" and _NOT_PASSAGE.search(text) and not _vote_first(text, pattern):
             continue
         if pattern.search(text):
             main = name
@@ -243,6 +266,10 @@ def map_history(
         add, satisfied = hint
         if any(satisfied & set(a["classification"]) for a in day):
             continue
+        if add == "passage":
+            day = [a for a in day if not _RECEIPT.search(a["description"])]
+            if not day:
+                continue
         important = [a for a in day if a.get("_importance") == 1]
         if len(important) == 1:
             target = important[0]

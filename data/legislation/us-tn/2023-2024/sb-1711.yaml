@@ -40,6 +40,11 @@ provisions:
     citation:
       source_url: https://www.capitol.tn.gov/Bills/113/Amend/SA0527.pdf
       locator: Senate Amendment 1 (SA0527), Section 3 (TCA Title 49, Chapter 13)
+      quote: >-
+        The governing body of a public charter school shall adopt a policy regarding the use of
+        artificial intelligence by students, teachers, and staff for instructional and assignment
+        purposes. The policy must be implemented in each public charter school no later than the
+        2024-2025 school year.
   - type: requires-local-ai-policy
     description: >-
       The University of Tennessee board, the Board of Regents, and each state university board must
@@ -50,6 +55,11 @@ provisions:
     citation:
       source_url: https://www.capitol.tn.gov/Bills/113/Amend/SA0527.pdf
       locator: Senate Amendment 1 (SA0527), Section 1(b), (d)
+      quote: >-
+        The board of trustees of the University of Tennessee, the board of regents, and each local
+        governing board of trustees of a state university shall adopt a policy regarding the use of
+        artificial intelligence technology by students, faculty, and staff for instructional and
+        assignment purposes. The policy must be implemented no later than July 1, 2025.
 sponsors:
   - name: Hensley
     primary: true

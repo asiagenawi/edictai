@@ -207,9 +207,9 @@ actions:
       - executive-receipt
   - date: "2024-05-24"
     description: Governor approval
-    actor: legislature
+    actor: executive
     classification:
-      - other
+      - executive-signature
   - date: "2024-05-24"
     description: Secretary of State, Filed
     actor: legislature
@@ -217,9 +217,9 @@ actions:
       - other
   - date: "2024-05-24"
     description: Governor's action Approval
-    actor: legislature
+    actor: executive
     classification:
-      - other
+      - executive-signature
   - date: "2024-05-24"
     description: Secretary of State Chapter 124
     actor: legislature

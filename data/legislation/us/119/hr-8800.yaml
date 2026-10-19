@@ -533,7 +533,7 @@ actions:
     description: 'On passage Passed by the Yeas and Nays: 216 - 212 (Roll no. 278).'
     actor: lower
     classification:
-      - other
+      - passage
   - date: "2026-07-22"
     description: Motion to reconsider laid on the table Agreed to without objection.
     actor: lower
@@ -543,7 +543,7 @@ actions:
     description: Received in the Senate.
     actor: upper
     classification:
-      - passage
+      - other
 versions:
   - note: Introduced
     date: "2026-05-14"

@@ -83,12 +83,12 @@ actions:
       to reconsider tabled.
     actor: upper
     classification:
-      - deferral
+      - passage
   - date: "2026-05-06"
     description: Received in the House from the Senate, read by title, lies over under the rules.
     actor: lower
     classification:
-      - passage
+      - other
   - date: "2026-05-07"
     description: Read by title, under the rules, referred to the Committee on Education.
     actor: lower

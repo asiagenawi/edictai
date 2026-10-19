@@ -115,7 +115,6 @@ actions:
     actor: upper
     classification:
       - reading-1
-      - passage
   - date: "2026-04-01"
     description: Read second time by title and referred to the Committee on Judiciary C.
     actor: upper
@@ -160,6 +159,7 @@ actions:
     actor: upper
     classification:
       - amendment-passage
+      - passage
   - date: "2026-05-20"
     description: Received from the Senate with amendments.
     actor: lower

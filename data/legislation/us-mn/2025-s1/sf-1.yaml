@@ -101,9 +101,9 @@ actions:
       - executive-receipt
   - date: "2025-06-14"
     description: Governor's action Approval
-    actor: legislature
+    actor: executive
     classification:
-      - other
+      - executive-signature
   - date: "2025-06-14"
     description: Secretary of State Chapter 5
     actor: legislature
@@ -111,9 +111,9 @@ actions:
       - other
   - date: "2025-06-14"
     description: Governor approval
-    actor: legislature
+    actor: executive
     classification:
-      - other
+      - executive-signature
   - date: "2025-06-14"
     description: Secretary of State, Filed
     actor: legislature

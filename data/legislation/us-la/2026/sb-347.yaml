@@ -80,11 +80,12 @@ actions:
     actor: upper
     classification:
       - amendment-passage
+      - passage
   - date: "2026-04-29"
     description: Received in the House from the Senate, read by title, lies over under the rules.
     actor: lower
     classification:
-      - passage
+      - other
   - date: "2026-05-05"
     description: Read by title, under the rules, referred to the Committee on Education.
     actor: lower

@@ -69,6 +69,53 @@ def test_president_means_senate_president_in_states():
     assert classify_text("Signed by President.", federal=True) == ["executive-signature"]
 
 
+@pytest.mark.parametrize(
+    "text, expected",
+    [
+        ("On passage Passed by recorded vote: 217 - 199 (Roll no. 279).", ["passage"]),
+        (
+            "Read by title, passed by a vote of 35 yeas and 0 nays, and sent to the House.",
+            ["passage"],
+        ),
+        (
+            "Senate floor amendments read and adopted. Read by title, passed by a vote of 37 yeas",
+            ["amendment-passage", "passage"],
+        ),
+        (
+            "Read by title, passed by a vote of 35 yeas and 0 nays. Motion to reconsider tabled.",
+            ["passage"],
+        ),
+        ("Motion to reconsider passed by a vote of 30 yeas", ["other"]),
+        ("Passed by for the day", ["deferral"]),
+        ("Received in the Senate.", ["other"]),
+        ("Governor's action Approval", ["executive-signature"]),
+        ("Governor approval", ["executive-signature"]),
+    ],
+)
+def test_recorded_votes_are_passage(text, expected):
+    assert classify_text(text, federal=True) == expected
+
+
+def test_progress_passage_skips_the_other_chambers_receipt():
+    history = [
+        {
+            "date": "2024-06-14",
+            "action": "On passage Passed by recorded vote: 217 - 199.",
+            "chamber": "H",
+            "importance": 1,
+        },
+        {
+            "date": "2024-07-08",
+            "action": "Received in the Senate.",
+            "chamber": "S",
+            "importance": 0,
+        },
+    ]
+    actions = map_history(history, [{"date": "2024-07-08", "event": 2}], jurisdiction="us")
+    assert actions[1]["classification"] == ["other"]
+    assert derive_status(actions, jurisdiction="us").status != "passed-legislature"
+
+
 def test_map_history_uses_progress_without_inventing_actions():
     history = [
         {
