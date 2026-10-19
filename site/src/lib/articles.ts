@@ -3,6 +3,7 @@
  * locator, quote and link come from the records and research library as built.
  */
 import { getCollection, type CollectionEntry } from 'astro:content';
+import type { Dataset, Row } from './dataset';
 import { readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { jurisdictions, parseCsv, records, research, topics, url, type PolicyRecord } from './data';
@@ -159,12 +160,11 @@ export async function articleFacets() {
   };
 }
 
-/** The CSV of an article's notes: what Download data saves. */
-export function notesCsv(a: Article): string {
-  const cell = (v: string) => (/[",\n\r]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v);
-  const rows = [['note', 'kind', 'jurisdiction', 'identifier', 'title', 'status_or_publisher', 'locator', 'quote', 'source_url'],
-    ...a.notes.map((n, i) => n.kind === 'record'
-      ? [String(i + 1), 'record', n.jurisdiction, n.identifier ?? '', n.title, n.status, n.locator ?? '', n.quote ?? '', n.url]
-      : [String(i + 1), 'study', '', '', n.title, n.publisher, n.locator ?? '', n.quote ?? '', n.url])];
-  return rows.map((r) => r.map(cell).join(',')).join('\r\n') + '\r\n';
+/** An article's notes as a dataset: the records and studies it cites, with locator, quote and link. */
+export function notesDataset(a: Article): Dataset {
+  const columns = ['note', 'kind', 'jurisdiction', 'identifier', 'title', 'status_or_publisher', 'locator', 'quote', 'source_url'] as const;
+  const rows = a.notes.map((n, i): Row => n.kind === 'record'
+    ? { note: String(i + 1), kind: 'record', jurisdiction: n.jurisdiction, identifier: n.identifier ?? '', title: n.title, status_or_publisher: n.status, locator: n.locator ?? '', quote: n.quote ?? '', source_url: n.url }
+    : { note: String(i + 1), kind: 'study', jurisdiction: '', identifier: '', title: n.title, status_or_publisher: n.publisher, locator: n.locator ?? '', quote: n.quote ?? '', source_url: n.url });
+  return { title: `Edictai article sources: ${a.data.title}`, columns, rows, meta: { article: a.slug } };
 }

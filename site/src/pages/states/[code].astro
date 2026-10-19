@@ -5,6 +5,7 @@
  * issuing bodies, and an about sheet. The page is rendered complete at build
  * time; the script below only filters, sorts, expands, and switches tabs.
  */
+import DownloadMenu from '../../components/DownloadMenu.astro';
 import Base from '../../layouts/Base.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import { dataAsOf, jurisdictions, url, type State } from '../../lib/data';
@@ -30,8 +31,7 @@ const ORG_TYPES: Record<string, string> = {
   'university-system': 'University system', accreditor: 'Accreditor', 'federal-agency': 'Federal agency', commission: 'Commission', other: 'Other',
 };
 const total = page.rows.length;
-const csvPath = url(`states/${state.code}/records.csv`);
-const jsonPath = url(`states/${state.code}/records.json`);
+const dataPath = url(`states/${state.code}/records`);
 const repo = 'https://github.com/asiagenawi/statescope';
 const citation = `Edictai (${asOf.slice(0, 4)}). ${state.name} [${state.id}]. AI policy in American education dataset, data as of ${asOf}. CC BY 4.0.`;
 const facetLabel = { type: (v: string) => v, level: (v: string) => LEVELS[v] ?? v, status: (v: string) => v, year: (v: string) => v };
@@ -102,7 +102,7 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
       </div>
       <div class="actions">
         <a class="btn" href="#correction" data-open="fix">Report a correction</a>
-        <a class="btn primary" href={csvPath} download>Download CSV</a>
+        <DownloadMenu base={dataPath} file={`edictai-${state.code}-records`} />
       </div>
     </div>
 
@@ -231,7 +231,7 @@ const actions = page.rows.flatMap((r) => r.actions.map((a) => ({ ...a, id: r.id,
               )}
             </div></section>
             <section class="fs"><h3>Export</h3><div class="fs-b">
-              <div class="fr"><span class="fk">This {state.classification === 'country' ? 'jurisdiction' : 'state'}</span><span class="fv links"><a href={csvPath} download>CSV</a><a href={jsonPath}>JSON</a></span></div>
+              <div class="fr"><span class="fk">This {state.classification === 'country' ? 'jurisdiction' : 'state'}</span><span class="fv links"><a href={`${dataPath}.json`} download>JSON</a><a href={`${dataPath}.csv`} download>CSV</a><a href={`${dataPath}.xlsx`} download>Excel</a></span></div>
               <div class="fr"><span class="fk">Full dataset</span><span class="fv links"><a href={`${repo}/tree/master/data`}>Records (YAML)</a><a href={`${repo}/tree/master/docs/data`}>Data dictionary</a></span></div>
             </div></section>
             <section class="fs"><h3>Cite</h3><div class="fs-b">

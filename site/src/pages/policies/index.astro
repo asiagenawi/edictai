@@ -7,6 +7,7 @@
  * record's entry on its state page. Everything is rendered at build time; the
  * script only filters, pages, expands, and narrows the CSV download.
  */
+import DownloadMenu from '../../components/DownloadMenu.astro';
 import Base from '../../layouts/Base.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import { jurisdictions, provisionTypes, records, topics, url } from '../../lib/data';
@@ -94,7 +95,7 @@ const mini = map.states
 const ptypes = provisionTypes();
 const mxRows = facets.j.map(([id, name]) => ({ id, name, href: rows.find((r) => r.j === id)!.href.split('#')[0] }));
 
-const csvPath = url('policies/records.csv');
+const dataPath = url('policies/records');
 ---
 <Base title="Bills & policies · Edictai" description="Legislation, executive orders, guidance and policy on artificial intelligence in American schools and colleges." bodyClass="sp pp">
   <link slot="head" rel="alternate" type="application/atom+xml" title="Edictai: Bills & policies" href={url('feed.xml')} />
@@ -109,7 +110,7 @@ const csvPath = url('policies/records.csv');
       </div>
       <div class="actions">
         <a class="btn" href="#correction" data-open="fix">Report a correction</a>
-        <a class="btn primary" id="dl" href={csvPath} download="edictai-records.csv" title="Downloads the records that match your filters">Download CSV</a>
+        <DownloadMenu base={dataPath} file="edictai-records" title="Downloads the records that match your filters" />
       </div>
     </div>
 
@@ -348,40 +349,9 @@ const csvPath = url('policies/records.csv');
     r.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
   }
 
-  // Download CSV: the full file, or, with filters on, just the rows that match them.
-  function parseCsv(text: string): string[][] {
-    const out: string[][] = [];
-    let row: string[] = [], f = '', quoted = false;
-    for (let i = 0; i < text.length; i++) {
-      const ch = text[i];
-      if (quoted) {
-        if (ch === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else quoted = false; } else f += ch;
-      } else if (ch === '"') quoted = true;
-      else if (ch === ',') { row.push(f); f = ''; }
-      else if (ch === '\n' || ch === '\r') { if (ch === '\r' && text[i + 1] === '\n') i++; row.push(f); out.push(row); row = []; f = ''; }
-      else f += ch;
-    }
-    if (f || row.length) { row.push(f); out.push(row); }
-    return out;
-  }
-  const cell = (v: string) => (/[",\n\r]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v);
-  const dl = $<HTMLAnchorElement>('#dl');
-  dl.addEventListener('click', async (e) => {
-    if (matched.length === rows.length) return;
-    e.preventDefault();
-    try {
-      const [head, ...body] = parseCsv(await (await fetch(dl.href)).text());
-      const ids = new Set(matched.map((r) => r.dataset.id));
-      const keep = body.filter((r) => ids.has(r[0]));
-      const text = [head, ...keep].map((r) => r.map(cell).join(',')).join('\r\n') + '\r\n';
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(new Blob([text], { type: 'text/csv;charset=utf-8' }));
-      a.download = 'edictai-records-filtered.csv';
-      document.body.append(a); a.click(); a.remove();
-      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-    } catch { location.href = dl.href; }
-  });
-
+  // Download: with filters on, the menu saves just the rows that match them.
+  ($('.dlm') as HTMLElement & { filter?: () => Set<string> | null }).filter = () =>
+    matched.length === rows.length ? null : new Set(matched.map((r) => r.dataset.id!));
 
   refresh();
 </script>

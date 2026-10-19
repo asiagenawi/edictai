@@ -4,6 +4,7 @@
  * with red note numbers that open the note beside the text; then the numbered notes and a
  * short note on how the article was made. Notes are resolved from the data (lib/articles.ts).
  */
+import DownloadMenu from '../../components/DownloadMenu.astro';
 import Base from '../../layouts/Base.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import { records, url } from '../../lib/data';
@@ -48,7 +49,7 @@ const reference = `${by}. (${y}, ${MONTHS[m - 1]} ${day}). ${d.title}. Edictai. 
         <p class="dek">{d.dek}</p>
         <div class="by">
           <span>By <b>{by}</b></span><span>{fullDate(d.published)}</span><span>Data as of {d.data_release}</span>
-          <span class="tools"><button type="button" id="cite" data-ref={reference}>Cite</button><a id="dldata" href={url(`articles/${a.slug}/sources.csv`)} download={`edictai-${a.slug}-sources.csv`}>Download data</a></span>
+          <span class="tools"><button type="button" id="cite" data-ref={reference}>Cite</button><DownloadMenu base={url(`articles/${a.slug}/sources`)} file={`edictai-${a.slug}-sources`} label="Download data" look="link" /></span>
         </div>
       </header>
       <div class="ar-b">
