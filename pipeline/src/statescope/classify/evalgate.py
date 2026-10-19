@@ -12,11 +12,17 @@ the stored texts and no new text requests, and scores the result with
 `classify score`'s matching. The gate fails when precision or recall is below
 the floors in pipeline/automation.yaml, or when the budget ran out before every
 entry was judged.
+
+Bills triaged in or needs_text get their text before the full stage, as in
+`classify run` and within the same request budgets, so a fresh cache (a new
+runner) is judged on the same evidence as production. Texts land in the shared
+`.cache/texts`, so each is fetched once.
 """
 
 from __future__ import annotations
 
 import hashlib
+import os
 from collections.abc import Callable, Mapping
 from dataclasses import dataclass
 from datetime import date
@@ -37,12 +43,15 @@ from .common import (
 from .instructions import write_instructions
 from .llm import Judge
 from .prep import PrepResult, assigned_keys, judged_keys, triage_decisions, write_batches
-from .run import judge_pending, prompt_templates, stage_spec
+from .run import fetch_missing_texts, judge_pending, prompt_templates, stage_spec
 from .score import load_eval, match, score
 from .settings import Settings
 from .texts import TextStore
 
 FILES = ("TRIAGE.md", "FULL.md", "triage.schema.json", "full.schema.json")
+# Part of the hash: raise it when the evaluation itself changes, so results stored
+# by an earlier version are not reused. 2: texts are fetched before the full stage.
+GATE_VERSION = 2
 
 
 def gate_path(paths: Paths) -> Path:
@@ -66,6 +75,7 @@ def gate_hash(paths: Paths, settings: Settings) -> str:
             h.update((cp.root / name).read_bytes())
     h.update(prompt_templates().encode())
     h.update(f"\0model={settings.model}\0effort={settings.effort}".encode())
+    h.update(f"\0gate={GATE_VERSION}".encode())
     return h.hexdigest()
 
 
@@ -112,6 +122,8 @@ def _evaluate_workdir(
     judge: Judge,
     settings: Settings,
     today: date,
+    env: Mapping[str, str],
+    log: Callable[[str], None],
 ) -> tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]], dict[str, int]]:
     """(final judgments by key, candidate rows by key, counts)."""
     from . import federal as fed
@@ -122,7 +134,7 @@ def _evaluate_workdir(
     vocab = Vocab.load(paths.vocab)
     rows = _items(cp, prod, entries)
     store = TextStore(cp.texts)
-    counts = {"items": len(rows), "dropped": 0, "not_sent": 0}
+    counts = {"items": len(rows), "dropped": 0, "not_sent": 0, "texts_fetched": 0}
     if not rows:
         return {}, rows, counts
 
@@ -137,6 +149,19 @@ def _evaluate_workdir(
         cp, stage_spec(prod, "triage", vocab), judge, settings, today=today, prefix="e"
     )
     decisions = triage_decisions(cp)
+    wanted = [
+        k
+        for k, d in sorted(decisions.items())
+        if d.get("decision") in ("in", "needs_text") and k in rows
+    ]
+    texts = fetch_missing_texts(cp, rows, wanted, settings, env, log=log)
+    counts["texts_fetched"] = texts.fetched
+    if texts.requested:
+        log(
+            f"eval {'federal' if federal else 'state'}: {texts.fetched} of {texts.requested} "
+            "missing texts fetched" + (f" ({texts.skipped})" if texts.skipped else "")
+        )
+    store = TextStore(cp.texts)
     done = judged_keys(cp.out_dir("full")) | assigned_keys(cp.stage_dir("full"))
     bills = BillStore(cp.legiscan)
     items = []
@@ -171,16 +196,20 @@ def run_eval(
     gate: str,
     *,
     today: date,
+    env: Mapping[str, str] | None = None,
     log: Callable[[str], None] | None = None,
 ) -> dict[str, Any]:
     log = log or (lambda _m: None)
+    env = os.environ if env is None else env
     entries = load_eval(eval_path(paths))
     judgments: dict[str, dict[str, Any]] = {}
     bills: dict[str, dict[str, Any]] = {}
-    counts = {"items": 0, "dropped": 0, "not_sent": 0}
+    counts = {"items": 0, "dropped": 0, "not_sent": 0, "texts_fetched": 0}
     for federal in (False, True):
         work = paths.cache / "classify" / "eval" / gate[:16] / ("federal" if federal else "state")
-        j, rows, c = _evaluate_workdir(paths, work, federal, entries, judge, settings, today)
+        j, rows, c = _evaluate_workdir(
+            paths, work, federal, entries, judge, settings, today, env, log
+        )
         log(f"eval {'federal' if federal else 'state'}: {c['items']} entries among candidates")
         judgments.update(j)
         bills.update(rows)
@@ -227,6 +256,7 @@ def eval_gate(
     *,
     today: date,
     force: bool = False,
+    env: Mapping[str, str] | None = None,
     log: Callable[[str], None] | None = None,
 ) -> GateResult:
     gate = gate_hash(paths, settings)
@@ -235,7 +265,7 @@ def eval_gate(
     record = store["results"].get(gate)
     ran = False
     if record is None or force:
-        record = run_eval(paths, judge_factory(), settings, gate, today=today, log=log)
+        record = run_eval(paths, judge_factory(), settings, gate, today=today, env=env, log=log)
         ran = True
         if record["complete"]:
             store["results"][gate] = record

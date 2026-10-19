@@ -538,12 +538,15 @@ def cmd_baseline(args: argparse.Namespace) -> int:
 
 def cmd_eval_gate(args: argparse.Namespace) -> int:
     import anthropic
+    from dotenv import load_dotenv
 
     from .evalgate import eval_gate
     from .llm import ClaudeCodeError
     from .settings import SettingsError
 
     paths = _paths(args)
+    # LegiScan and Congress.gov keys, for texts the evaluation has to fetch.
+    load_dotenv(paths.root / ".env")
     try:
         settings = _settings(paths, args)
         settings.price()

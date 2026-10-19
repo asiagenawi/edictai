@@ -537,6 +537,42 @@ def test_eval_gate_fails_when_the_classifier_misses(repo):
     assert not result.passed and result.record["recall"] == 0.0
 
 
+def test_eval_gate_fetches_texts_the_cache_lacks(repo, monkeypatch):
+    from statescope.classify import evalgate
+    from statescope.classify.run import TextsResult
+
+    (repo.root / "pipeline" / "eval").mkdir(parents=True)
+    entries = [
+        {
+            "id": key(n),
+            "jurisdiction": "us-tx",
+            "session": "2025",
+            "identifier": f"HB {n}",
+            "label": "in_scope",
+            "difficulty": "clear",
+        }
+        for n in (1, 2)
+    ]
+    (repo.root / "pipeline" / "eval" / "classifier_eval.yaml").write_text(json.dumps(entries))
+    write_candidates(repo, [candidate(1), candidate(2)])
+    asked = []
+
+    def fetch(cp, candidates, keys, settings, env, *, log):
+        asked.extend(keys)
+        return TextsResult(requested=len(keys))
+
+    monkeypatch.setattr(evalgate, "fetch_missing_texts", fetch)
+
+    def triage(k, attempt):
+        return {"key": k, "decision": "needs_text" if k == key(1) else "out", "reason": "Unclear."}
+
+    s = settings()
+    client = FakeClient(triage)
+    eval_gate(repo, s, lambda: Judge(s, Budget(10), client), today=TODAY, env={})
+    # Only bills going on to the full stage need text.
+    assert asked == [key(1)]
+
+
 # -- status refresh -----------------------------------------------------------------------
 
 

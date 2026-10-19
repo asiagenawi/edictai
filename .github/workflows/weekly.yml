@@ -113,13 +113,16 @@ jobs:
         id: refresh
         run: uv run --no-sync statescope classify refresh --json "$OUT/refresh.json"
 
-      # Runs the evaluation only when the instructions, model, effort, or backend changed;
-      # fails below the precision and recall floors in pipeline/automation.yaml.
+      # Runs the evaluation only when the instructions, model, or effort changed; fails
+      # below the precision and recall floors in pipeline/automation.yaml. Bill texts the
+      # evaluation needs and the cache lacks are fetched, within the request budgets.
       - name: Evaluation gate
         id: gate
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         run: |
           uv run --no-sync statescope classify eval-gate \
             --spend-file "$OUT/spend.json" --json "$OUT/eval-gate.json"
