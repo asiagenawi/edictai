@@ -149,9 +149,9 @@ def test_no_match_is_a_plain_sentence_then_general_knowledge(app_client, claude)
     assert body['searched'] == ['Searching Texas records…']
     # General knowledge follows, separate and labelled.
     assert body['general_knowledge']['verified'] is False
-    assert body['general_knowledge']['label'] == 'From general knowledge, not Edictai\u2019s records'
+    assert body['general_knowledge']['label'] == 'Claude\u2019s general knowledge'
     md = body['answer']
-    assert md.index("couldn't find") < md.index('From general knowledge')
+    assert md.index("couldn't find") < md.index('Claude\u2019s general knowledge')
     assert 'data as of' not in md
 
 

@@ -38,7 +38,7 @@ from services.search_index import compact_identifier, get_index
 
 logger = logging.getLogger(__name__)
 
-GK_LABEL = 'From general knowledge, not Edictai\u2019s records'
+GK_LABEL = 'Claude\u2019s general knowledge'
 NO_MATCH_TEXT = (
     "I couldn't find anything on that in Edictai's records. If you tell me which state, "
     'or what kind of policy you mean (a law, guidance, a university system\u2019s rules), I can look again.'

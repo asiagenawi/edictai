@@ -10,7 +10,7 @@ import json
 import re
 
 from models.database import get_db
-from services.search_index import LEVELS, RECORD_TYPES, get_index, normalize_level
+from services.search_index import LEVELS, RECORD_TYPES, get_index, normalize_level, plain_verification
 
 MAX_RESULTS = 15
 DATE_RE = re.compile(r'^\d{4}(-\d{2}(-\d{2})?)?$')
@@ -248,6 +248,7 @@ def get_record(ctx, args):
         out['verification'] = dict(db.execute(
             f'SELECT verification_status AS status, last_verified, verification_notes AS notes '
             f'FROM {_table(brief["type"])} WHERE id = ?', (rid,)).fetchone())
+        out['verification']['status'] = plain_verification(out['verification']['status'])
         out['verification'] = {k: v for k, v in out['verification'].items() if v}
 
         if brief['type'] == 'legislation':

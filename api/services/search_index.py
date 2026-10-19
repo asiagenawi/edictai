@@ -32,6 +32,11 @@ def compact_identifier(value):
     return re.sub(r'[^A-Za-z0-9]', '', value or '').upper()
 
 
+def plain_verification(status):
+    """Readers see one word: machine- and human-verified records are both "verified"."""
+    return 'verified' if status and status.endswith('-verified') else status
+
+
 def normalize_level(value):
     if not value:
         return None
@@ -242,7 +247,7 @@ class SearchIndex:
             'status': row['status'],
             'date': row['date'],
             'last_activity': row['last_activity'],
-            'verification': row['verification_status'],
+            'verification': plain_verification(row['verification_status']),
             'summary': summary,
             'source_url': row['source_url'],
             'num_id': row['num_id'],
