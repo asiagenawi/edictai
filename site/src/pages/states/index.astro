@@ -41,7 +41,7 @@ const shapes = map.states.filter((s) => byFips.has(s.fips)).map((s) => ({ ...s, 
 const withRecords = states().filter((s) => (cards.find((c) => c.id === s.id)?.total ?? 0) > 0).length;
 const coverage = withRecords === states().length
   ? 'Every state and DC has at least one record.'
-  : `${withRecords} of 51, the 50 states and DC, have at least one record.`;
+  : 'Not every state has a record yet.';
 const federal = cards.find((c) => c.id === 'us')!;
 const dc = cards.find((c) => c.id === 'us-dc')!;
 const data = cards.map(({ fips, ...c }) => c);

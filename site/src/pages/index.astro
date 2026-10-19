@@ -16,7 +16,7 @@ const articleCount = (await articles()).length;
     <WordmarkLogo />
     <p>Edictai is an open record of AI policy in America's schools and colleges. Every law, bill and guidance document is checked against its official source.</p>
     <SectionRows>
-      <SectionRow href={url('states/')} icon="map" name="States" status={c.states} />
+      <SectionRow href={url('states/')} icon="map" name="States" />
       <SectionRow href={url('policies/')} icon="clipboard" name="Bills & policies" status={c.records} />
       <SectionRow href={url('research/')} icon="magnifier" name="Research" status={c.research} />
       <SectionRow href={url('articles/')} icon="newspaper" name="Articles" status={articleCount} />
