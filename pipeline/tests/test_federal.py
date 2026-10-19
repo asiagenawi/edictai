@@ -836,6 +836,31 @@ def test_titles_channel_matches_and_caches(tmp_path, data_dir):
     assert len([p for p, _ in fake.calls if p.endswith("/titles")]) == 3
 
 
+def test_title_requests_cap_defers_the_rest_to_a_later_run(tmp_path, data_dir):
+    from statescope.federal.run import FederalResult, discover_bills
+
+    listing = {119: [list_bill(119, "hr", n, "Farm Bill") for n in (1, 2, 3)]}
+    routes = {
+        f"/bill/119/hr/{n}/titles": {"titles": [{"title": "Farm Bill"}], "pagination": {"count": 1}}
+        for n in (1, 2, 3)
+    }
+    fake = FakeCongress(listing, {}, routes)
+    client = congress_client(tmp_path, fake)
+    index = build_index(data_dir)
+
+    def run(cap):
+        result = FederalResult(path=tmp_path / "x.jsonl", title_requests_left=cap)
+        discover_bills(client, 119, date(2023, 1, 1), index, result, lambda _m: None, titles=True)
+        return result
+
+    first = run(2)
+    assert (first.titles_checked[119], first.titles_deferred[119]) == (2, 1)
+    # The next run answers the first two from the cache and spends its one request on the third.
+    second = run(1)
+    assert (second.titles_checked[119], second.titles_deferred[119]) == (3, 0)
+    assert len([p for p, _ in fake.calls if p.endswith("/titles")]) == 3
+
+
 def test_titles_channel_off_by_default(tmp_path, data_dir):
     from statescope.federal.run import FederalResult, discover_bills
 

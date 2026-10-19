@@ -99,7 +99,10 @@ jobs:
         id: federal
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
-        run: uv run --no-sync statescope ingest federal --titles
+        # Titles are cached per bill until it changes, so after the first runs only
+        # updated bills need a request. The cap keeps a cold cache inside the job's
+        # time limit (Congress.gov allows about 5,000 requests an hour).
+        run: uv run --no-sync statescope ingest federal --titles --title-requests 4000
 
       # Research discovery (OpenAlex, ERIC) stays off until its sources are approved.
       - name: Research discovery (disabled)

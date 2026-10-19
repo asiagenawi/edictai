@@ -20,7 +20,7 @@ fails, nothing is merged; it opens or comments on one issue instead.
 | Baseline | `statescope classify baseline --if-new` | Only when the cache holds no judgments and no baseline: records the candidates already listed so they are not classified (see [Baseline](#baseline)). |
 | LegiScan datasets | `statescope ingest legiscan` | Downloads datasets whose `dataset_hash` changed. |
 | State candidates | `statescope ingest candidates` | Writes `.cache/candidates/YYYY-MM-DD.jsonl`. |
-| Federal candidates | `statescope ingest federal --titles` | Writes `.cache/candidates/federal-YYYY-MM-DD.jsonl`, with every recorded federal bill's actions. |
+| Federal candidates | `statescope ingest federal --titles --title-requests 4000` | Writes `.cache/candidates/federal-YYYY-MM-DD.jsonl`, with every recorded federal bill's actions. Titles are cached per bill, so at most 4,000 uncached title requests go out per run and the rest wait for the next. |
 | Research discovery | `statescope ingest research` | Disabled (`if: false`); the command fetches nothing. |
 | Status of recorded bills | `statescope classify refresh` | Appends new actions and versions to existing bill records. |
 | Evaluation gate | `statescope classify eval-gate` | Fails the run when the classifier scores below the floors. |

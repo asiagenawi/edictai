@@ -220,6 +220,16 @@ class CongressClient:
         self.cache.put(file, data, update_date=update_date or bill.get("updateDateIncludingText"))
         return data
 
+    def titles_cached(
+        self, congress: int, bill_type: str, number: str, update_date: str | None
+    ) -> bool:
+        """Whether `bill_titles` would answer from the cache, without a request."""
+        congress, bill_type, number = bill_key(congress, bill_type, number)
+        envelope = self.cache.meta(
+            self.cache.file("titles", str(congress), bill_type, f"{number}.json")
+        )
+        return bool(envelope) and envelope.get("update_date") == update_date
+
     def bill_titles(
         self, congress: int, bill_type: str, number: str, update_date: str | None
     ) -> list[str]:

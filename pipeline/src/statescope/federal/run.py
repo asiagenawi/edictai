@@ -50,6 +50,10 @@ class FederalResult:
     bills_scanned: Counter[int] = field(default_factory=Counter)
     summaries_scanned: Counter[int] = field(default_factory=Counter)
     titles_checked: Counter[int] = field(default_factory=Counter)
+    # Bills whose titles were not fetched because the run's title requests ran out.
+    titles_deferred: Counter[int] = field(default_factory=Counter)
+    # Title requests this run may still send (None: no limit).
+    title_requests_left: int | None = None
     bills_by_congress: Counter[int] = field(default_factory=Counter)
     bills_by_type: Counter[str] = field(default_factory=Counter)
     bills_by_match: Counter[str] = field(default_factory=Counter)
@@ -70,6 +74,7 @@ class FederalResult:
             "bills_scanned": {str(k): v for k, v in sorted(self.bills_scanned.items())},
             "summaries_scanned": {str(k): v for k, v in sorted(self.summaries_scanned.items())},
             "titles_checked": {str(k): v for k, v in sorted(self.titles_checked.items())},
+            "titles_deferred": {str(k): v for k, v in sorted(self.titles_deferred.items())},
             "bills_by_congress": {str(k): v for k, v in sorted(self.bills_by_congress.items())},
             "bills_by_type": dict(self.bills_by_type.most_common()),
             "bills_by_match": dict(self.bills_by_match.most_common()),
@@ -142,6 +147,11 @@ def discover_bills(
         for i, (key, update) in enumerate(listed, 1):
             if i % 1000 == 0:
                 progress(f"congress {congress}: {i}/{len(listed)} bills' titles checked")
+            if result.title_requests_left is not None and not client.titles_cached(*key, update):
+                if result.title_requests_left <= 0:
+                    result.titles_deferred[congress] += 1
+                    continue
+                result.title_requests_left -= 1
             try:
                 found = client.bill_titles(*key, update)
             except CongressError as exc:
@@ -265,17 +275,21 @@ def find_federal_candidates(
     today: date | None = None,
     progress: Progress | None = None,
     titles: bool = False,
+    title_requests: int | None = None,
 ) -> FederalResult:
     """Search both sources, flag known items, and write the candidate file.
 
     Pass `congress=None` or `federal_register=None` to skip that source, and
     `titles=True` to also match every listed bill's titles (one request per bill).
+    `title_requests` caps the uncached title requests; bills past it are checked
+    on a later run, since cached titles are reused.
     """
     today = today or date.today()
     progress = progress or (lambda _m: None)
     index = build_index(data_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     result = FederalResult(path=out_dir / f"federal-{today.isoformat()}.jsonl")
+    result.title_requests_left = title_requests
     rows: list[dict[str, Any]] = []
     congresses = tuple(congresses)
     if congress is not None:

@@ -224,6 +224,7 @@ def cmd_ingest_federal(args: argparse.Namespace) -> int:
             since=args.since,
             progress=lambda m: print(m, file=sys.stderr, flush=True),
             titles=args.titles,
+            title_requests=args.title_requests,
         )
     except (CongressError, FederalRegisterError) as exc:
         print(f"federal: {exc}", file=sys.stderr)
@@ -240,6 +241,8 @@ def cmd_ingest_federal(args: argparse.Namespace) -> int:
         f"Queries: Congress.gov {result.congress_queries} ({result.congress_cache_hits} cached), "
         f"Federal Register {result.fr_queries} ({result.fr_cache_hits} cached)"
     )
+    if deferred := sum(result.titles_deferred.values()):
+        print(f"Titles left for a later run (request limit reached): {deferred}")
     for err in result.errors:
         print(f"  error: {err}", file=sys.stderr)
     return 0
@@ -364,6 +367,12 @@ def parser() -> argparse.ArgumentParser:
         "--titles",
         action="store_true",
         help="also match every bill's official and short titles (one request per bill; cached)",
+    )
+    fe.add_argument(
+        "--title-requests",
+        type=int,
+        metavar="N",
+        help="with --titles, send at most N uncached title requests; the rest wait for a later run",
     )
     fe.set_defaults(func=cmd_ingest_federal)
     rs = isub.add_parser(
