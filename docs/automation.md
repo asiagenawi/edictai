@@ -4,8 +4,8 @@
 (Actions → Weekly update → Run workflow, with an optional dollar cap). One run
 at a time; a run that starts while another is going waits for it.
 
-It finds new candidate bills and federal documents, classifies them with the
-Anthropic API, appends new actions to bills already recorded, writes one
+It finds new candidate bills and federal documents, classifies them with
+Claude (see [Backend](#backend)), appends new actions to bills already recorded, writes one
 article for the Articles section from the updated data, checks everything, and
 publishes the changes: it opens a pull request, merges it into
 `master` once every check has passed, and starts the site deploy. When a step
@@ -15,6 +15,7 @@ fails, nothing is merged; it opens or comments on one issue instead.
 
 | Step | Command | What it does |
 |---|---|---|
+| Install Claude Code | `npm install @anthropic-ai/claude-code@2.1.303` | Into `$RUNNER_TEMP/claude-code`, added to `PATH`, for the claude-code backend. |
 | Restore the cache | `actions/cache/restore` | Restores `.cache/` (LegiScan, Congress.gov, Federal Register, candidates, classify, texts, articles) from the last run. |
 | Baseline | `statescope classify baseline --if-new` | Only when the cache holds no judgments and no baseline: records the candidates already listed so they are not classified (see [Baseline](#baseline)). |
 | LegiScan datasets | `statescope ingest legiscan` | Downloads datasets whose `dataset_hash` changed. |
@@ -42,9 +43,46 @@ fails, nothing is merged; it opens or comments on one issue instead.
 Steps after a failed step do not run, so nothing is imported once the
 evaluation gate fails, and no pull request is opened once a check fails.
 
-Secrets: `ANTHROPIC_API_KEY`, `LEGISCAN_API_KEY`, `CONGRESS_API_KEY`. Each is
-passed only to the steps that use it. Variable: `WEEKLY_SPEND_CAP_USD`
-(optional; default 10).
+Secrets: `CLAUDE_CODE_OAUTH_TOKEN` (the repository owner's Claude subscription
+token, from `claude setup-token`), `ANTHROPIC_API_KEY` (the fallback when that
+token is not set), `LEGISCAN_API_KEY`, `CONGRESS_API_KEY`. Each is passed only
+to the steps that use it; both Claude secrets go to the evaluation gate, the
+classification, and the article. Variable: `WEEKLY_SPEND_CAP_USD` (optional;
+default 10; API backend only).
+
+## Backend
+
+Every Claude request (evaluation gate, classification, article) goes through
+one of two backends, chosen by `EDICTAI_LLM_BACKEND`:
+
+| Value | Backend |
+|---|---|
+| `auto` (default) | `claude-code` when `CLAUDE_CODE_OAUTH_TOKEN` is set, otherwise `api`. |
+| `claude-code` | Claude Code run headless on a Claude subscription, capped in calls. |
+| `api` | The Anthropic API with `ANTHROPIC_API_KEY`, capped in dollars, with the Message Batches API. |
+
+With `claude-code`, each request is one process, run in an empty temporary
+directory:
+
+```sh
+claude -p --output-format json --model <model> --effort <effort> \
+  --system-prompt-file <system prompt> --json-schema '<schema>' \
+  --tools "" --strict-mcp-config --setting-sources "" --disable-slash-commands \
+  --no-session-persistence --max-turns 4 < <user content>
+```
+
+The system prompt, model, effort and schema are the ones the API request would
+have; `max_tokens` is passed as `CLAUDE_CODE_MAX_OUTPUT_TOKENS`. The model has
+no tools, no MCP servers, no settings files, and no slash commands, so it
+answers only from the content it is given. `ANTHROPIC_API_KEY` is removed from
+the process's environment so the subscription is used. The reply is the
+result's `structured_output` (or JSON in its text, checked against the schema);
+a reply with no usable JSON is asked once more. A call still running after
+`claude_code.timeout_seconds` is stopped and counts as a failed reply. A usage
+or rate limit stops the run's calls, and the items not sent go back to the
+pool for the next run. When Claude Code is missing or cannot log in, the
+command fails. Batches are not used. The evaluation, the checks, the second
+try, and dropping are the same for both backends.
 
 ## Settings
 
@@ -60,7 +98,11 @@ passed only to the steps that use it. Variable: `WEEKLY_SPEND_CAP_USD`
 | `classify.batch_poll_seconds`, `batch_timeout_minutes` | 30, 90 | Polling interval; a batch still running at the timeout is cancelled. |
 | `classify.direct_workers` | 4 | Direct calls in parallel. |
 | `classify.text_version` | `ai` | `fetch-texts --version`. |
-| `budget.spend_cap_usd` | 10 | Dollar cap per run; `WEEKLY_SPEND_CAP_USD` overrides it. |
+| `claude_code.executable` | `claude` | The Claude Code command (claude-code backend). |
+| `claude_code.timeout_seconds` | 1800 | Time one call may take. |
+| `claude_code.workers` | 2 | Claude Code calls in parallel. |
+| `budget.spend_cap_usd` | 10 | Dollar cap per run (API backend); `WEEKLY_SPEND_CAP_USD` overrides it. |
+| `budget.claude_code_calls` | 400 | Call cap per run (claude-code backend). |
 | `budget.legiscan_text_queries` | 500 | getBillText queries per run at most. |
 | `budget.legiscan_monthly_reserve` | 500 | LegiScan queries left unused each month. |
 | `budget.federal_text_requests` | 300 | Congress.gov and Federal Register text requests per run. |
@@ -70,7 +112,8 @@ passed only to the steps that use it. Variable: `WEEKLY_SPEND_CAP_USD`
 | `articles.model` | `claude-opus-5-5` | Model for the article's drafting and editing calls. |
 | `articles.draft_effort`, `edit_effort` | `high`, `high` | `output_config.effort` for each call. |
 | `articles.max_tokens` | draft 32000, edit 32000 | Output cap per call (both are streamed). |
-| `articles.spend_cap_usd` | 3 | Dollar cap for the article, inside the run's cap. |
+| `articles.spend_cap_usd` | 3 | Dollar cap for the article, inside the run's cap (API backend). |
+| `articles.claude_code_calls` | 4 | Call cap for the article, inside the run's cap (claude-code backend). |
 | `articles.min_words`, `max_words`, `target_words` | 600, 1200, 850 | Words in the body paragraphs: the allowed range, and what the draft aims for. |
 | `articles.window_days` | 7 | Activity dated this many days before the run date counts as changed this week. |
 | `articles.max_records` | 60 | Records given to the model at most. |
@@ -141,6 +184,12 @@ imported by the workflow.
 
 ### Spending cap
 
+With the claude-code backend the cap is a number of calls
+(`budget.claude_code_calls`): every `claude -p` process counts as one, a second
+try included, and a request is not sent once the cap is reached. The calls and
+the dollars Claude Code reports at API prices (`usd_equivalent`) are kept in
+the same `weekly/spend.json`. The rest of this section is the API backend.
+
 The cap covers every request of a run: `--spend-file weekly/spend.json` makes
 the evaluation gate and the classification share it. Before a request is sent,
 its worst-case cost is reserved: the system prompt and items at one token per
@@ -183,7 +232,8 @@ when the dataset is built, so the new actions move it.
 ## Evaluation gate (`classify eval-gate`)
 
 The gate's key is a SHA-256 of the state and federal `TRIAGE.md`, `FULL.md`,
-and both schemas, the request wrapper text, the model, and the effort. Results
+and both schemas, the request wrapper text, the model and the effort. The backend
+is left out, since Claude Code and the API run the same model. Results
 are stored by key in `.cache/classify/eval-gate.json`. When the key has a
 stored result, the gate uses it; otherwise (or with `--force`) it classifies
 every entry of `pipeline/eval/classifier_eval.yaml` found among the current
@@ -215,8 +265,12 @@ site gives it).
 ### Subject
 
 A subject is a state (`jurisdiction:us-xx`, for a State brief), a provision
-type across states (`provision:<code>`, for an Explainer or an Analysis), a
-research topic (`research:<topic>`, for a Research digest), or a period
+type across states (`provision:<code>`, for an Explainer or an Analysis), one
+recent federal action (`federal:<record id>`, for an Explainer: an order in
+force, a current document such as a rule or notice, or a bill that has passed a
+chamber, with activity within `active_days` or changed this week, together with
+the federal records that share its provision types), a research topic
+(`research:<topic>`, for a Research digest), or a period
 (`roundup:<from>..<to>`, for a Roundup).
 
 Left out are subjects already covered: those the ledger records as written, and
@@ -224,32 +278,58 @@ those inferred from the existing articles' notes. An article whose record notes
 mostly (60% or more) cite one jurisdiction covers that jurisdiction; otherwise
 it covers the provision type its notes cite most. A Research digest covers the
 topic its studies share most, and its studies count as cited. A Roundup covers
-the days up to the day before it was published.
+the days up to the day before it was published. A federal action is covered
+once an article published on or after its latest activity cites it.
 
 A subject needs `min_records` records (with provisions, for a state) and, for a
-provision type, records in `min_jurisdictions` jurisdictions. A research topic
-needs `min_studies` studies no article cites. A Roundup runs from the day after
-the last one ended to the day before the run and needs `min_roundup_items`
-records with dated activity in it; it counts as touching this week's changes
-only once `roundup_days` have passed since the last one, so in a light week it
-competes with the other types on rotation alone.
+provision type, records in `min_jurisdictions` jurisdictions; a federal action
+needs `min_federal_records` with its related records. A research topic needs
+`min_studies` studies no article cites. A Roundup runs from the day after the
+last one ended to the day before the run and needs `min_roundup_items` records
+with dated activity in it.
+
+A subject keeps only its most significant records, at most
+`max_subject_records` (and `max_subject_studies` studies, the newest uncited
+first), so a piece stays focused: records changed this week and laws,
+documents and orders settled within `recent_days` first; then other enacted
+laws, current documents and orders in force; then bills active within
+`active_days`; then bills that passed a chamber; then other pending bills; then
+closed ones (failed, vetoed, withdrawn); the newest first within each.
 
 Records count as changed this week when git reports their files as added or
 changed under `data/`, or when they have an action, publication, update, or
-signature dated within `window_days` of the run date. The subject is chosen in
-this order: subjects with changed records first; then the article type used
-least recently (by the ledger and the existing articles' `published` dates);
-then the most changed records; then the most records. `--type` and `--subject`
-choose instead.
+signature dated within `window_days` of the run date.
+
+The subject with the highest score wins. The score is a sum of named parts,
+each a weight from `articles.scoring` times a count over the subject's kept
+records, every count capped at `count_cap` so that size alone does not win:
+
+| Part | Weight | Counts |
+| --- | --- | --- |
+| changed this week | `changed` | records (or uncited studies) changed this week |
+| enacted or issued recently | `enacted_recent` | laws enacted, documents published, orders signed within `recent_days` |
+| enacted or issued lately | `enacted_lately` | those of them within `active_days` |
+| jurisdictions acting recently | `jurisdictions_recent` | jurisdictions those come from |
+| active lately | `active` | records with any activity within `active_days` |
+| settled | `settled` | enacted laws, current documents, orders in force |
+| studies no article cites, studies published recently | `fresh_study`, `recent_study` | research subjects only |
+| federal action, roundup due | `federal_action`, `roundup_due` | a fixed bonus; a Roundup scores nothing before `roundup_days` have passed |
+| already cited by an article | `cited_share` | minus this share, times the share of kept records existing articles cite, of the parts above |
+| broad provision type | `broad_factor` | a type in `broad` (funding, task forces and studies) keeps only this share of its score unless `broad_changed` of its records changed this week |
+| type rotation | `rotation` | per place in the rotation of article types, the least recently used (by the ledger and the existing articles' `published` dates) highest; none for a Roundup that is not due |
+
+The chosen subject's score and parts (`why`) are in the run log and in
+`weekly/article.json`. `--type` and `--subject` choose instead.
 
 ### What the model is given
 
 One JSON document: the subject; a facts block of counts over every record in the
 subject (by kind, legislation by status, enacted by year, by jurisdiction, by
 education level, jurisdictions with an enacted law or current document, studies
-by classification, the period) with the as-of date; the subject's records, up to
-`max_records` (changed this week first, then enacted or current, then the most
-recently active), each with its provisions (index, type, description, locator,
+by classification, the period) with the as-of date, and, when the subject kept
+only part of its group, a note on what the counts cover with counts for the
+whole group; the subject's records, up to `max_records`, most significant first,
+each with its provisions (index, type, description, locator,
 verbatim quote) and latest actions (all actions in the period, for a Roundup);
 the subject's studies with their findings (index, finding, locator, quote) and
 whether an article already cites them; and every existing article's slug, type,
@@ -268,15 +348,24 @@ article's shape: slug, title, dek, brief, caption, sketch note, body blocks
    stock openings, rhetorical questions or conclusions, counts from the facts
    block with an as-of month, a note marker on every factual sentence, quotation
    marks only around words copied from a quote in the data), what the data
-   fields mean, and the length range. The user message is the data.
+   fields mean, and the length range. It also sets rules for the shape: the
+   first sentence says what a law, rule or study does and who it affects, with
+   at most one statistic in the first paragraph (with a good and a bad opening
+   as examples); the last paragraph says what happens next or the most
+   significant implication, never a tally of counts; the dek's counts carry
+   their status (enacted, pending, failed); every heading matches its section;
+   and the length aims at `target_words`, cutting minor records before
+   compressing. The user message is the data.
 2. The edit call is a fresh request: the editor's instructions and the same
    style guide as the system prompt, and the draft with only the records and
    studies its notes and table cite, plus the facts block. It checks every
    sentence against its note, fixes or removes what the data does not support,
-   corrects counts, mood and note numbering, tightens the prose, and lists its
-   changes (`edits`).
+   corrects counts, mood and note numbering, checks the opening, ending, dek,
+   headings and length against the rules above and fixes what breaks them,
+   tightens the prose, and lists its changes (`edits`).
 3. The edited article is checked. When it fails, the editor is called again
-   (`repair_attempts` times) with the failures listed.
+   (`repair_attempts` times) with the failures listed, and the advisories
+   below with them.
 
 ### Checks
 
@@ -296,6 +385,11 @@ The article is written only if it passes all of these:
   words and the title about 12.
 - No question marks, em dashes, exclamation marks, or listed hype and filler
   words.
+- The first paragraph has at most two statistics: numerals other than years,
+  dates, identifiers (AB 1159, H.R. 10719, Executive Order 14110) and grade
+  spans (K-12, 2024-25).
+- The last paragraph is not mostly counts: it fails with four or more numbers
+  (numerals or number words) making up 12% or more of its words.
 - The type is the subject's, `published` the run date, the slug lowercase words
   joined by hyphens and not used by another article.
 - The site builds with the file in place (`npm run build` in `site/`, with
@@ -304,9 +398,15 @@ The article is written only if it passes all of these:
 
 The seven published articles pass the same checks (`test_articles.py`).
 
+Advisories do not stop the article; they are logged, listed under `warnings` in
+`weekly/article.json`, and passed to the editor when a repair runs: a body more
+than halfway from `target_words` to `max_words`, and a first sentence that
+describes the article ("This explainer covers...") instead of its subject.
+
 ### Spending
 
-The article has its own cap (`articles.spend_cap_usd`) inside the run's: a call
+The article has its own cap (`articles.spend_cap_usd`, or
+`articles.claude_code_calls` with the claude-code backend) inside the run's: a call
 is sent only when its worst-case cost fits both, and what it costs is counted
 in `weekly/spend.json` with the classifier's spending. A call the caps do not
 cover is not sent and the article is skipped.
@@ -367,6 +467,7 @@ leaves the real ones alone. `--date` sets the run date, and `--no-build` skips
 the site build.
 
 `ANTHROPIC_API_KEY`, `LEGISCAN_API_KEY`, and `CONGRESS_API_KEY` are read from
-the environment or `.env`. `classify run --scope state|federal` limits the run
+the environment or `.env`. `EDICTAI_LLM_BACKEND=claude-code` uses the Claude
+Code login on this machine (or `CLAUDE_CODE_OAUTH_TOKEN`) instead of the API. `classify run --scope state|federal` limits the run
 to one working directory, `--limit N` to N new items per stage, and
 `--no-fetch` skips text requests.

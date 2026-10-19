@@ -4,7 +4,8 @@ The classifier is the pair of instruction files and schemas for each stage
 (state and federal), the text wrapped around the items, the model, and the
 effort. A SHA-256 of all of them keys the stored result in
 `.cache/classify/eval-gate.json`, so the evaluation runs again only when one
-of them changes. A run classifies every evaluation entry found among the
+of them changes. The backend is not part of it: Claude Code and the API run the
+same model. A run classifies every evaluation entry found among the
 current candidates (triage, then full for the bills triaged in or
 needs_text) in its own working directory under `.cache/classify/eval/`, with
 the stored texts and no new text requests, and scores the result with
@@ -54,7 +55,8 @@ def eval_path(paths: Paths) -> Path:
 
 def gate_hash(paths: Paths, settings: Settings) -> str:
     """SHA-256 of the instructions and schemas (state and federal, regenerated first),
-    the prompt templates, the model, and the effort."""
+    the prompt templates, the model and the effort. The backend is left out: both run the
+    same model, so switching between them does not need a fresh evaluation."""
     h = hashlib.sha256()
     for federal in (False, True):
         cp = ClassifyPaths(paths, federal=federal)

@@ -163,6 +163,27 @@ def facts(ds: Dataset, subject: Subject, run_date: date, listed: int) -> dict[st
         out["records_by_education_level"] = dict(
             Counter(lv for r in recs for lv in r.levels).most_common()
         )
+    group = [ds.records[i] for i in subject.group if i in ds.records]
+    if len(group) > len(recs):
+        out["selection"] = (
+            f"The counts above cover only the {len(recs)} records in this subject, the most "
+            f"significant of the {len(group)} in its group: records changed this week and "
+            "laws, documents and orders settled recently first, then other enacted laws and "
+            "current documents, then bills active lately, then other pending bills, then "
+            "closed ones. Counts for the whole group are in `whole_group`. Say which set a "
+            "count describes, in plain terms: use `whole_group` for totals, or count the "
+            "records the article names; never describe the selection itself to readers "
+            "(no 'the 25 most significant')."
+        )
+        out["whole_group"] = {
+            "records": len(group),
+            "legislation_by_status": dict(
+                Counter(r.status for r in group if r.type == "legislation").most_common()
+            ),
+            "jurisdictions": len({r.jurisdiction for r in group}),
+        }
+    if subject.key.startswith("federal:"):
+        out["federal_action"] = subject.records[0]
     if subject.key.startswith("provision:"):
         code = subject.key.split(":", 1)[1]
         out["provision_type"] = {"code": code, "name": ds.provision_types.get(code, code)}

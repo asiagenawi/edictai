@@ -491,3 +491,182 @@ def test_the_written_article_names_its_drawing_and_sketch_note(repo):
     empty = reply()
     empty["sketch_note"] = ""
     assert any("sketch_note" in e for e in errors_for(repo, empty))
+
+
+# -- subject scoring -----------------------------------------------------------------------
+
+
+def _rec(rid, juris, status, code, *, day="2024-03-01", kind="legislation"):
+    from statescope.articles.data import Provision, Record
+
+    dates = {"legislation": {"enacted_date": day} if status == "enacted" else {}}
+    dates = dates.get(kind) or ({"published": day} if kind == "document" else {})
+    return Record(
+        id=rid,
+        type=kind,
+        jurisdiction=juris,
+        jurisdiction_name=juris,
+        identifier=rid.upper() if kind == "legislation" else None,
+        title=rid,
+        classification="bill",
+        status=status,
+        summary="",
+        path="",
+        dates=dates,
+        provisions=[Provision(0, code, "d", None, None)],
+        actions=[{"date": day, "description": "Action"}],
+    )
+
+
+def _dataset(records):
+    from statescope.articles.data import Dataset
+
+    return Dataset({r.id: r for r in records}, {}, {}, {}, {}, {})
+
+
+STATES = ("us-aa", "us-bb", "us-cc", "us-dd", "us-ee")
+SMALL = Limits(min_records=4, min_jurisdictions=4, min_studies=1, min_roundup_items=99)
+
+
+def _funding_and_disclosure():
+    """A large broad type with old laws, and a small type several states just enacted."""
+    big = [
+        _rec(
+            f"fund-{i}",
+            STATES[i % 5],
+            "enacted" if i < 10 else "in-committee",
+            "appropriates-funding",
+        )
+        for i in range(30)
+    ]
+    small = [
+        _rec(f"disc-{i}", STATES[i], "enacted", "requires-disclosure", day="2026-09-20")
+        for i in range(4)
+    ]
+    return big + small
+
+
+def test_recent_laws_beat_size_and_broad_types_rank_low():
+    ds = _dataset(_funding_and_disclosure())
+    cover = coverage(ds, [], [])
+    subjects = candidates(ds, cover, set(), run_date=RUN, limits=SMALL)
+    funding = next(s for s in subjects if s.key == "provision:appropriates-funding")
+    disclosure = next(s for s in subjects if s.key == "provision:requires-disclosure")
+    assert disclosure.score > funding.score
+    assert funding.why["broad provision type"] < 0
+    assert disclosure.why["enacted or issued recently"] > 0
+    assert choose(subjects, cover).key == "provision:requires-disclosure"
+
+
+def test_a_broad_type_counts_fully_when_it_changed_this_week():
+    ds = _dataset(_funding_and_disclosure())
+    cover = coverage(ds, [], [])
+    changed = {"fund-20", "fund-21", "fund-22"}
+    subjects = candidates(ds, cover, changed, run_date=RUN, limits=SMALL)
+    funding = next(s for s in subjects if s.key == "provision:appropriates-funding")
+    assert "broad provision type" not in funding.why
+    assert funding.why["changed this week"] == 24
+    quiet = candidates(ds, cover, set(), run_date=RUN, limits=SMALL)
+    assert funding.score > 5 * next(s.score for s in quiet if s.key == funding.key)
+
+
+def test_a_subject_keeps_its_most_significant_records():
+    ds = _dataset(_funding_and_disclosure())
+    limits = Limits(**{**SMALL.__dict__, "max_subject_records": 12})
+    subjects = candidates(ds, coverage(ds, [], []), {"fund-29"}, run_date=RUN, limits=limits)
+    funding = next(s for s in subjects if s.key == "provision:appropriates-funding")
+    assert len(funding.records) == 12 and len(funding.group) == 30
+    assert funding.records[0] == "fund-29"  # changed this week first
+    assert set(funding.records[1:11]) == {f"fund-{i}" for i in range(10)}  # then enacted
+    assert "12 most significant of 30" in funding.label
+    ctx = build_context(ds, funding, set(), [], run_date=RUN, max_records=60)
+    facts = ctx.payload["facts"]
+    assert facts["records_in_subject"] == 12 and facts["whole_group"]["records"] == 30
+    assert "only the 12 records" in facts["selection"]
+
+
+def test_a_recent_federal_action_is_a_subject_until_an_article_cites_it():
+    rule = _rec(
+        "us-ed-rule", "us", "current", "procurement-standards", day="2026-10-10", kind="document"
+    )
+    related = [
+        _rec(f"us-{i}", "us", "in-committee", "procurement-standards", day="2026-06-01")
+        for i in range(2)
+    ]
+    ds = _dataset([rule, *related])
+    subjects = candidates(ds, coverage(ds, [], []), set(), run_date=RUN, limits=SMALL)
+    fed = next(s for s in subjects if s.key == "federal:us-ed-rule")
+    assert fed.type == "Explainer" and fed.records[0] == "us-ed-rule" and fed.why["federal action"]
+    citing = Article("x", Path("x"), "", "", "Explainer", "2026-10-12", [("us-ed-rule", 0)], [])
+    cover = coverage(ds, [citing], [])
+    assert not any(
+        s.key.startswith("federal:")
+        for s in candidates(ds, cover, set(), run_date=RUN, limits=SMALL)
+    )
+
+
+def test_rotation_adds_to_the_score_and_shows_in_why():
+    ds = _dataset(_funding_and_disclosure())
+    cover = coverage(ds, [], [])
+    pick = choose(candidates(ds, cover, set(), run_date=RUN, limits=SMALL), cover)
+    assert pick.type == "Explainer" and pick.why["type rotation"] == 40
+    assert pick.score == pytest.approx(sum(pick.why.values()), abs=0.05)
+
+
+def test_scoring_settings_load_and_reject_unknown_keys():
+    from statescope.articles.subjects import Scoring
+
+    sc = Scoring.from_mapping({"changed": 2, "broad": ["creates-task-force"], "count_cap": "4"})
+    assert sc.changed == 2.0 and sc.broad == ("creates-task-force",) and sc.count_cap == 4
+    assert Scoring.from_mapping(None) == Scoring()
+    with pytest.raises(ValueError, match="chnaged"):
+        Scoring.from_mapping({"chnaged": 1})
+
+
+# -- opening, closing and length checks ---------------------------------------------------
+
+
+def test_statistics_skip_years_dates_identifiers_and_grade_spans():
+    from statescope.articles.check import statistics_in
+
+    text = (
+        "AB 1159, signed on September 10, 2026, covers K-12 and the 2024-25 school year; "
+        "H.R. 10719 and Executive Order 14110 cover 14 states and $500,000 [3]."
+    )
+    assert statistics_in(text) == ["14", "500,000"]
+
+
+def test_a_count_heavy_opening_is_rejected(repo):
+    heavy = (
+        "As of October 2026, Edictai's records show 140 records with such a provision, 126 "
+        "of them legislation and 14 documents, across 28 jurisdictions [1]."
+    )
+    errs = errors_for(repo, reply(paragraph=heavy))
+    assert any("first paragraph has 4 statistics" in e for e in errs)
+    assert not any("first paragraph" in e for e in errors_for(repo, reply()))
+
+
+def test_a_closing_tally_is_rejected(repo):
+    r = reply()
+    r["body"].append(
+        {
+            "p": "Of the 126 legislative records, 50 remain in committee, 39 failed, five "
+            "passed one chamber, three passed the legislature and two were vetoed."
+        }
+    )
+    assert any("last paragraph is mostly counts" in e for e in errors_for(repo, r))
+
+
+def test_advisories_flag_length_near_the_ceiling_and_a_self_describing_opening():
+    from statescope.articles.check import advisories
+
+    long = {"body": [{"p": "This explainer covers " + "word " * 1100}]}
+    notes = advisories(long, max_words=1200, target_words=850)
+    assert any("near the ceiling" in n for n in notes)
+    assert any("describes the article" in n for n in notes)
+    assert (
+        advisories(
+            {"body": [{"p": "HB 1 requires a policy. " * 100}]}, max_words=1200, target_words=850
+        )
+        == []
+    )

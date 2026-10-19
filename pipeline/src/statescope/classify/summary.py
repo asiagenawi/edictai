@@ -225,10 +225,16 @@ def _article_lines(a: Mapping[str, Any]) -> list[str]:
         out.append("Written earlier today and restored; nothing was sent this run.")
     spend = a.get("spend") or {}
     if spend:
-        out.append(
-            f"Article spending: ${spend.get('spent_usd', 0):.2f} of its "
-            f"${spend.get('cap_usd', 0):.2f} cap ({a.get('model')})."
-        )
+        if spend.get("unit") == "calls":
+            out.append(
+                f"Article spending: {spend.get('calls', 0)} of its {spend.get('cap_calls', 0)} "
+                f"Claude Code calls ({a.get('model')})."
+            )
+        else:
+            out.append(
+                f"Article spending: ${spend.get('spent_usd', 0):.2f} of its "
+                f"${spend.get('cap_usd', 0):.2f} cap ({a.get('model')})."
+            )
     out.append("")
     edits = a.get("edits") or []
     if edits:
@@ -312,7 +318,13 @@ def markdown(s: Summary) -> str:
         out += _article_lines(s.article)
     if s.other_changes:
         out += ["### Other changed files", ""] + [f"- `{p}`" for p in s.other_changes] + [""]
-    if s.spend:
+    if s.spend and s.spend.get("unit") == "calls":
+        out.append(
+            f"Spending: {s.spend.get('calls', 0)} of the {s.spend.get('cap_calls', 0)} Claude "
+            f"Code calls, ${s.spend.get('usd_equivalent', 0):.2f} at API prices "
+            f"({s.spend.get('model')}, effort {s.spend.get('effort')})."
+        )
+    elif s.spend:
         out.append(
             f"Spending: ${s.spend.get('spent_usd', 0):.2f} of the "
             f"${s.spend.get('cap_usd', 0):.2f} cap, {s.spend.get('requests', 0)} requests "

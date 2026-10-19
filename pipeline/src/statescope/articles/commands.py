@@ -22,7 +22,7 @@ def cmd_write(args: argparse.Namespace) -> int:
     Exits 2 only when the settings cannot be read."""
     from dotenv import load_dotenv
 
-    from ..classify.llm import Budget
+    from ..classify.llm import make_budget, spend_line
     from ..classify.settings import SettingsError, load_settings
     from ..classify.summary import git_changes
     from .write import ArticleResult, load_article_settings, write_article
@@ -56,7 +56,7 @@ def cmd_write(args: argparse.Namespace) -> int:
             paths,
             settings,
             asettings,
-            Budget(settings.spend_cap_usd, spend),
+            make_budget(settings, spend),
             run_date=run_date,
             site=site,
             ledger=ledger,
@@ -84,10 +84,7 @@ def cmd_write(args: argparse.Namespace) -> int:
             f"({result.type}, {result.words} words, {len(result.notes)} notes)"
         )
     if result.spend:
-        print(
-            f"Article spending: ${result.spend.get('spent_usd', 0):.2f} of "
-            f"${result.spend.get('cap_usd', 0):.2f}"
-        )
+        print(f"Article spending: {spend_line(result.spend)}")
     if args.result:
         Path(args.result).write_text(json.dumps(out, indent=1) + "\n", encoding="utf-8")
     return 0

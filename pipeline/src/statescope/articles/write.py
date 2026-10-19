@@ -5,7 +5,8 @@
 2. The subject is chosen (`subjects.choose`) and its data prepared (`context`).
 3. A drafting call writes the article; a second, separate call edits and
    fact-checks it against the records and studies its notes cite. Both go through
-   the classifier's `Judge`, under the run's spending cap and the article's own cap.
+   the classifier's `Judge`, under the run's cap and the article's own cap (dollars
+   with the API backend, calls with Claude Code).
 4. The edited article is checked (`check`). When it fails, the editor is asked once
    more with the failures listed (`repair_attempts`).
 5. The file is written to site/src/content/articles/<year>/<slug>.yaml and the site
@@ -31,7 +32,7 @@ from ..classify.llm import Budget, CappedBudget, Judge, Request
 from ..classify.settings import Settings, SettingsError, settings_path
 from ..paths import Paths
 from ..yamlio import load_yaml
-from .check import check_article, from_reply, word_count
+from .check import advisories, check_article, from_reply, word_count
 from .context import build_context
 from .data import Dataset, changed_ids, load_articles, load_dataset
 from .prompts import (
@@ -44,6 +45,7 @@ from .prompts import (
 )
 from .subjects import (
     Limits,
+    Scoring,
     candidates,
     choose,
     choose_drawing,
@@ -64,6 +66,7 @@ class ArticleSettings:
     edit_effort: str = "high"
     max_tokens: Mapping[str, int] = field(default_factory=lambda: {"draft": 32000, "edit": 32000})
     spend_cap_usd: float = 3.0
+    claude_code_calls: int = 4
     min_words: int = 600
     max_words: int = 1200
     target_words: int = 850
@@ -72,6 +75,7 @@ class ArticleSettings:
     repair_attempts: int = 1
     build_timeout_minutes: float = 15
     limits: Limits = field(default_factory=Limits)
+    scoring: Scoring = field(default_factory=Scoring)
 
     def with_overrides(self, **values: Any) -> ArticleSettings:
         clean = {k: v for k, v in values.items() if v is not None}
@@ -85,12 +89,17 @@ def load_article_settings(paths: Paths) -> ArticleSettings:
     a = data.get("articles") or {}
     base = ArticleSettings()
     lim = {**base.limits.__dict__, **(a.get("subjects") or {})}
+    try:
+        scoring = Scoring.from_mapping(a.get("scoring"))
+    except (TypeError, ValueError) as exc:
+        raise SettingsError(f"articles.scoring: {exc}") from exc
     out = ArticleSettings(
         model=a.get("model", base.model),
         draft_effort=a.get("draft_effort", base.draft_effort),
         edit_effort=a.get("edit_effort", base.edit_effort),
         max_tokens={**base.max_tokens, **(a.get("max_tokens") or {})},
         spend_cap_usd=float(a.get("spend_cap_usd", base.spend_cap_usd)),
+        claude_code_calls=int(a.get("claude_code_calls", base.claude_code_calls)),
         min_words=int(a.get("min_words", base.min_words)),
         max_words=int(a.get("max_words", base.max_words)),
         target_words=int(a.get("target_words", base.target_words)),
@@ -99,6 +108,7 @@ def load_article_settings(paths: Paths) -> ArticleSettings:
         repair_attempts=int(a.get("repair_attempts", base.repair_attempts)),
         build_timeout_minutes=float(a.get("build_timeout_minutes", base.build_timeout_minutes)),
         limits=Limits(**{k: int(v) for k, v in lim.items()}),
+        scoring=scoring,
     )
     for k in ("draft_effort", "edit_effort"):
         if getattr(out, k) not in EFFORTS:
@@ -121,6 +131,7 @@ class ArticleResult:
     notes: list[dict[str, Any]] = field(default_factory=list)
     edits: list[str] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)  # soft checks the article failed
     spend: dict[str, Any] = field(default_factory=dict)
     model: str | None = None
 
@@ -145,6 +156,7 @@ class ArticleResult:
             "citations": self.citations,
             "edits": self.edits,
             "errors": self.errors,
+            "warnings": self.warnings,
             "spend": self.spend,
             "model": self.model,
         }
@@ -161,6 +173,7 @@ class ArticleResult:
             "title": self.title,
             "reason": self.reason,
             "spent_usd": self.spend.get("spent_usd"),
+            **({"calls": self.spend["calls"]} if "calls" in self.spend else {}),
         }
 
 
@@ -275,15 +288,27 @@ def write_article(
     )
     cover = coverage(ds, articles, history)
     subject = choose(
-        candidates(ds, cover, changed, run_date=run_date, limits=asettings.limits),
+        candidates(
+            ds,
+            cover,
+            changed,
+            run_date=run_date,
+            limits=asettings.limits,
+            scoring=asettings.scoring,
+        ),
         cover,
         kind=kind,
         key=subject_key,
+        scoring=asettings.scoring,
     )
     if subject is None:
         return skip("no subject left that the existing articles do not cover")
     result.subject, result.type = subject.as_dict(), subject.type
-    log(f"subject: {subject.type}, {subject.key} ({subject.changed} changed this week)")
+    why = ", ".join(f"{k} {v:+g}" for k, v in subject.why.items()) or "no parts"
+    log(
+        f"subject: {subject.type}, {subject.key} ({subject.changed} changed this week); "
+        f"score {subject.score:g}: {why}"
+    )
     ctx = build_context(
         ds,
         subject,
@@ -302,7 +327,8 @@ def write_article(
         base.price()
     except SettingsError as exc:
         return skip(str(exc))
-    sub = CappedBudget(budget, asettings.spend_cap_usd)
+    cap = asettings.claude_code_calls if budget.unit == "calls" else asettings.spend_cap_usd
+    sub = CappedBudget(budget, cap)
     drafter = Judge(base.with_overrides(effort=asettings.draft_effort), sub, client, log=log)
     editor = Judge(base.with_overrides(effort=asettings.edit_effort), sub, drafter._client, log=log)
     words = {
@@ -339,6 +365,7 @@ def write_article(
     current = draft.data
     edits: list[str] = []
     errors: list[str] = []
+    warnings: list[str] = []
     slug, article = "", {}
     existing = [a.slug for a in articles]
     for attempt in range(1 + max(0, asettings.repair_attempts)):
@@ -350,7 +377,12 @@ def write_article(
             data=_dumps(cited),
         )
         if attempt:
-            user += fill(REPAIR, errors="\n".join(f"- {e}" for e in errors))
+            user += fill(
+                REPAIR,
+                errors="\n".join(
+                    [f"- {e}" for e in errors] + [f"- (advisory) {w}" for w in warnings]
+                ),
+            )
         reply = editor.call(
             Request(
                 f"article-edit-{attempt + 1}",
@@ -378,6 +410,9 @@ def write_article(
             min_words=asettings.min_words,
             max_words=asettings.max_words,
         )
+        warnings = advisories(
+            article, max_words=asettings.max_words, target_words=asettings.target_words
+        )
         if not errors:
             break
         log(f"edit {attempt + 1}: {len(errors)} checks failed")
@@ -387,6 +422,9 @@ def write_article(
         article.get("notes") or [],
         edits,
     )
+    result.warnings = warnings
+    for w in warnings:
+        log(f"article advisory: {w}")
     if errors:
         result.errors = errors
         return skip(f"the article failed {len(errors)} checks: " + "; ".join(errors[:5]))

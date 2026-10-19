@@ -1,8 +1,11 @@
 name: Weekly update
 
-# Finds new bills and documents, classifies them with the Anthropic API, updates
-# the status of bills already recorded, and opens (or updates) one pull request
-# with the changes when every check passes. docs/automation.md describes each step.
+# Finds new bills and documents, classifies them with Claude, updates the status
+# of bills already recorded, and opens (or updates) one pull request with the
+# changes when every check passes. Claude is reached through Claude Code on the
+# repository owner's subscription when the CLAUDE_CODE_OAUTH_TOKEN secret is set,
+# and through the Anthropic API (ANTHROPIC_API_KEY) otherwise.
+# docs/automation.md describes each step.
 
 on:
   schedule:
@@ -10,7 +13,7 @@ on:
   workflow_dispatch:
     inputs:
       spend_cap:
-        description: "Dollar cap for API spending in this run (default: WEEKLY_SPEND_CAP_USD, else 10)"
+        description: "Dollar cap for API spending in this run, API backend only (default: WEEKLY_SPEND_CAP_USD, else 10)"
         required: false
         default: ""
 
@@ -43,6 +46,15 @@ jobs:
         run: |
           uv sync --frozen --extra classify
           mkdir -p "$OUT"
+
+      # Claude Code, for the claude-code backend (pipeline/automation.yaml, claude_code).
+      # Installed in its own prefix so the Node set up later for the site does not hide it.
+      - name: Install Claude Code
+        run: |
+          npm install --prefix "$RUNNER_TEMP/claude-code" --no-fund --no-audit \
+            @anthropic-ai/claude-code@2.1.303
+          echo "$RUNNER_TEMP/claude-code/node_modules/.bin" >> "$GITHUB_PATH"
+          "$RUNNER_TEMP/claude-code/node_modules/.bin/claude" --version
 
       # The LegiScan datasets, their dataset_hash values, and the monthly query
       # counter live in .cache/legiscan, so a dataset is downloaded again only when
@@ -98,11 +110,12 @@ jobs:
         id: refresh
         run: uv run --no-sync statescope classify refresh --json "$OUT/refresh.json"
 
-      # Runs the evaluation only when the instructions, model, or effort changed;
+      # Runs the evaluation only when the instructions, model, effort, or backend changed;
       # fails below the precision and recall floors in pipeline/automation.yaml.
       - name: Evaluation gate
         id: gate
         env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           uv run --no-sync statescope classify eval-gate \
@@ -111,6 +124,7 @@ jobs:
       - name: Classify new candidates
         id: classify
         env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
@@ -174,6 +188,7 @@ jobs:
         id: article
         continue-on-error: true
         env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           uv run --no-sync statescope articles write \

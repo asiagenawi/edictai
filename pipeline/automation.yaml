@@ -24,9 +24,24 @@ classify:
   # text mentions AI, for bills whose AI language was amended out.
   text_version: ai
 
+# The claude-code backend: Claude Code run headless (`claude -p`) on a Claude
+# subscription. It is used when EDICTAI_LLM_BACKEND is claude-code, or when it is
+# auto (the default) and CLAUDE_CODE_OAUTH_TOKEN is set; otherwise the API is used.
+claude_code:
+  executable: claude
+  # Seconds one call may run before it is stopped and counted as failed.
+  timeout_seconds: 1800
+  # Calls run at the same time.
+  workers: 2
+
 budget:
-  # Dollars per run, from the token usage the API reports. WEEKLY_SPEND_CAP_USD overrides it.
+  # Dollars per run with the API backend, from the token usage the API reports.
+  # WEEKLY_SPEND_CAP_USD overrides it.
   spend_cap_usd: 10
+  # Claude Code calls per run with the claude-code backend, shared by the
+  # evaluation gate, the classification, and the article. A reply asked once
+  # more counts as a second call.
+  claude_code_calls: 400
   # getBillText queries one run may send at most.
   legiscan_text_queries: 500
   # LegiScan queries left unused at the end of the month for other commands.
@@ -44,6 +59,8 @@ articles:
     edit: 32000
   # Dollars the article may spend, inside the run's budget.spend_cap_usd.
   spend_cap_usd: 3
+  # Claude Code calls the article may use, inside the run's budget.claude_code_calls.
+  claude_code_calls: 4
   # Words in the body paragraphs; the draft aims for target_words.
   min_words: 600
   max_words: 1200
@@ -62,6 +79,36 @@ articles:
     min_studies: 4
     min_roundup_items: 6
     roundup_days: 28
+    # A subject keeps only its most significant records and studies, so a piece stays
+    # focused: changed this week and recently settled first, then other enacted laws and
+    # current documents, then active and pending bills, then closed ones.
+    max_subject_records: 20
+    max_subject_studies: 12
+    min_federal_records: 3
+  # How the subject is chosen: the highest score plus the type's rotation bonus. Each
+  # part is a weight times a count, and every count stops at count_cap, so size alone
+  # does not win. The run log and article.json list the parts (`why`).
+  scoring:
+    recent_days: 120 # enacted, published or signed this recently is recent
+    active_days: 30 # any dated activity this recently is active
+    count_cap: 6
+    changed: 8 # per record or study changed this week
+    enacted_recent: 4 # per law enacted, document published or order signed recently
+    enacted_lately: 4 # more per one of those within active_days
+    jurisdictions_recent: 3 # per jurisdiction those come from
+    active: 1 # per record active within active_days
+    settled: 0.5 # per enacted law, current document or order in force
+    fresh_study: 1 # per study no article cites
+    recent_study: 3 # per uncited study published within recent_days
+    federal_action: 30 # bonus for a recent federal order, document or advanced bill
+    roundup_due: 40 # bonus for a Roundup once roundup_days have passed
+    rotation: 10 # per place in the type rotation, least recently used highest
+    cited_share: 0.5 # cut by this times the share of records articles already cite
+    # Catch-all provision types keep broad_factor of their score unless broad_changed
+    # of their records changed this week.
+    broad: [appropriates-funding, creates-task-force]
+    broad_factor: 0.2
+    broad_changed: 3
 
 eval:
   # The run fails when the classifier scores below either floor on

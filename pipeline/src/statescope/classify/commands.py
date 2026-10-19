@@ -431,10 +431,10 @@ def _settings(paths: Paths, args: argparse.Namespace):
 
 
 def _judge(settings, args: argparse.Namespace):
-    from .llm import Budget, Judge
+    from .llm import Judge, make_budget
 
     ledger = Path(args.spend_file).resolve() if getattr(args, "spend_file", None) else None
-    budget = Budget(settings.spend_cap_usd, ledger)
+    budget = make_budget(settings, ledger)
     return Judge(settings, budget, log=lambda m: print(m, file=sys.stderr, flush=True))
 
 
@@ -452,6 +452,7 @@ def _workdirs(paths: Paths, args: argparse.Namespace) -> list[ClassifyPaths]:
 def cmd_run(args: argparse.Namespace) -> int:
     import anthropic
 
+    from .llm import ClaudeCodeError, spend_line
     from .run import run_workdir
     from .settings import SettingsError
 
@@ -485,6 +486,10 @@ def cmd_run(args: argparse.Namespace) -> int:
             print(f"{name}: Anthropic API: {type(exc).__name__}: {exc}", file=sys.stderr)
             code = 1
             break
+        except ClaudeCodeError as exc:
+            print(f"{name}: {exc}", file=sys.stderr)
+            code = 1
+            break
         output[name] = res.as_dict()
         output["judgments"] += res.judgments()
         t, f = res.triage, res.full
@@ -497,11 +502,9 @@ def cmd_run(args: argparse.Namespace) -> int:
         for out in f.outputs:
             print(f"  {_rel(out)}")
     output["spend"] = {**judge.budget.as_dict(), "model": settings.model, "effort": settings.effort}
+    output["backend"] = settings.backend
     output["batches"] = judge.batches
-    print(
-        f"Spent ${judge.budget.spent:.2f} of ${judge.budget.cap:.2f}"
-        + (" (cap reached)" if judge.budget.stopped else "")
-    )
+    print(spend_line(judge.budget.as_dict()) + (" (cap reached)" if judge.budget.stopped else ""))
     if args.result:
         Path(args.result).write_text(json.dumps(output, indent=1) + "\n", encoding="utf-8")
     return code
@@ -537,6 +540,7 @@ def cmd_eval_gate(args: argparse.Namespace) -> int:
     import anthropic
 
     from .evalgate import eval_gate
+    from .llm import ClaudeCodeError
     from .settings import SettingsError
 
     paths = _paths(args)
@@ -557,6 +561,9 @@ def cmd_eval_gate(args: argparse.Namespace) -> int:
         )
     except anthropic.AnthropicError as exc:
         print(f"Anthropic API: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 1
+    except ClaudeCodeError as exc:
+        print(exc, file=sys.stderr)
         return 1
     r = result.record
     how = "evaluated now" if result.ran else "stored result"
@@ -751,9 +758,7 @@ def register(sub: argparse._SubParsersAction) -> None:
             "--no-batches", action="store_true", help="direct calls instead of Message Batches"
         )
 
-    p = csub.add_parser(
-        "run", help="judge new candidates with the Anthropic API (triage, texts, full)"
-    )
+    p = csub.add_parser("run", help="judge new candidates with Claude (triage, texts, full)")
     scope_arg(p)
     api_args(p)
     p.add_argument("--result", help="write the run's result as JSON to this path")

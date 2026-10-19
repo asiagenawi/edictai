@@ -32,13 +32,50 @@ marks. No second person.
 ## Never
 - Stock or scene-setting openings ("As artificial intelligence transforms...", "In \
 today's rapidly changing...", "AI is everywhere..."), rhetorical questions, or a \
-summing-up conclusion ("In conclusion", "Overall", "Ultimately"). End on the last \
-substantive point.
+summing-up conclusion ("In conclusion", "Overall", "Ultimately"). End on what happens \
+next (see below).
 - Hype or filler: landmark, sweeping, groundbreaking, game-changing, unprecedented, \
 pivotal, crucial, robust, comprehensive, navigate, landscape, delve, tapestry, \
 ever-evolving, "it is worth noting", "importantly", "notably", "a growing number".
 - Claims from outside the data: no background facts, history, numbers, names, or \
 context that the records and studies given do not state.
+
+## Opening, ending, dek and headings
+These rules are checked on every article.
+- The first sentence states the substance: what a law, rule, order or study does and \
+who it affects (districts, teachers, students, colleges, vendors). Not what the article \
+covers, not a count, not the scope of the records.
+- At most one statistic in the first paragraph. Counts and the as-of anchor go in the \
+second paragraph or later, and a run of counts is never the way in.
+- Good opening (from Edictai's California brief): "AB 1159, signed on September 10, \
+amends the state's student online privacy laws for K-12 and preschool. Operators of \
+websites, services and apps used for school purposes may not use covered student \
+information to train a generative AI system or develop an AI system." Bad opening (from \
+a rejected draft): "This explainer covers how laws, bills and federal grant documents \
+put money behind artificial intelligence in schools and colleges... As of October 2026, \
+Edictai's records show 140 records with such a provision, 126 of them legislation and \
+14 documents, across 28 jurisdictions."
+- The last paragraph says what happens next (an effective date, a deadline, a rule not \
+yet final, a bill still moving, a decision pending) or states the most significant \
+implication the records support. Never end on a list of counts or a tally of bills by \
+status. If status counts matter, give them in one sentence inside the section they \
+belong to.
+- The dek says exactly what its counts cover, with the status in the words: "nine \
+enacted laws", "bills in eight states, none yet enacted", "five laws and one board \
+rule". Never call a set that includes pending or failed bills "laws", and never say \
+such a set "funds", "requires" or "bans": "measures that would fund", "bills that \
+would require". When `facts.selection` is present, a count covers the records given \
+unless it comes from `facts.whole_group`; say which.
+- Every heading names what its section is about, and every paragraph under it fits the \
+heading. A section on removed, pending and failed measures says all three in its \
+heading, or is split.
+
+## Length and focus
+- Aim for about {target_words} words, the middle of the range, not the ceiling. Favour \
+clarity over coverage: explain the most significant records well, and leave minor ones \
+out rather than listing them. Not every record given needs to appear.
+- One idea per section. A paragraph that strings together four or more measures is a \
+list; cut it to the two or three that matter most.
 
 ## Numbers and dates
 - Counts come only from the facts block or from counting the records listed, and the \
@@ -68,10 +105,11 @@ paraphrases.
 - title: plain and specific, at most 12 words, no question mark. Statements or \
 "What/Which/How" headlines: "Which states require school districts to adopt an AI \
 policy", "How state laws handle deepfakes of students".
-- dek: one or two sentences, at most 45 words, the main finding with its numbers.
+- dek: one or two sentences, at most 45 words, the main finding, its numbers qualified \
+by status as above.
 - brief: three or four one-sentence key points, 12 to 30 words each, no note markers.
-- body: an opening paragraph that says what the article covers and the scope of the \
-evidence, then three to seven sections, each a short heading followed by paragraphs. \
+- body: an opening paragraph that leads with the substance (see above) and then gives \
+the scope of the evidence in a sentence, then three to seven sections, each a short heading followed by paragraphs. \
 Headings are short noun phrases or plain statements ("The early laws", "Colleges and \
 universities", "What did not pass", "Still pending").
 - A table only when five or more parallel items read better as rows (at most one). Its \
@@ -94,15 +132,20 @@ subject, then documents and executive actions, then what did not pass and what i
 - Research digest: what studies found, in plain language: setting, design, size, the \
 result as stated, and whether the study is peer reviewed or a working paper, preprint \
 or report. Never add up or average effects across studies.
-- Roundup: what happened in a period, by jurisdiction, with dates. It lists what \
-happened, not what it means, and says so in its opening paragraph.
+- Roundup: what happened in a period, by jurisdiction, with dates. It opens with the \
+period's most significant action, then says that it lists what happened, not what it \
+means.
 """
 
 DATA_NOTES = """\
 ## The data you are given
 - `facts`: counts over every record in the subject, with the as-of date. Use these for \
 any count. When `records_listed` is smaller than `records_in_subject`, the list is \
-the subject's most relevant records, not all of them.
+the subject's most relevant records, not all of them. When `selection` is present, the \
+subject is the most significant part of a larger group: the counts describe that part, \
+`whole_group` describes the group, and the article must say which it means. \
+`federal_action`, when present, is the id of the record the article is about; the \
+other records are context.
 - `records`: policy records. `id` is what a note cites. `provisions[].index` is the \
 provision a note's `provision` names; its `description` says what the provision does \
 and its `quote` is the verbatim text. `status` codes: enacted (became law), \
@@ -153,12 +196,27 @@ pass" for failed bills, non-binding for guidance.
 4. Quotation marks surround only words copied exactly from a quote in the data.
 5. Notes: markers [n] run 1..N in order of first use, every note is cited, and no note \
 cites anything outside the data given. Renumber after removing a sentence.
-6. Style: tighten prose, cut filler and hype, keep paragraphs short, follow the house \
-style below. Keep the article's type and subject. Keep the body within {min_words} to \
-{max_words} words.
+6. Opening: the first sentence states what a law, rule, order or study does and who it \
+affects; the first paragraph has at most one statistic. If the draft opens with what \
+the article covers or with counts, rewrite the opening and move the counts later.
+7. Ending: the last paragraph is what happens next or the most significant \
+implication the data supports, never a list of counts or a tally by status. Move or \
+cut such a paragraph and end on the next step instead.
+8. Dek: every count in the dek says what it covers, with status (enacted, pending, \
+failed), and matches the facts block. A dek that calls bills "laws" or says pending \
+measures "fund" or "require" is wrong.
+9. Headings: read each heading against its section. Rename a heading that does not \
+describe its paragraphs, or move the paragraphs that do not fit.
+10. Length and style: aim for about {target_words} words; cut minor records and \
+list-like paragraphs before tightening sentences. Cut filler and hype, keep \
+paragraphs short, follow the house style below. Keep the article's type and subject. \
+Keep the body within {min_words} to {max_words} words.
 
 List what you changed in `edits`, one short line each (for example "Removed the \
-claim that the bill was bipartisan: not in the data", "Note 4 now cites provision 2").
+claim that the bill was bipartisan: not in the data", "Note 4 now cites provision 2", \
+"Opening now leads with what AB 1159 does", "Dek: 'measures' now 'bills, none \
+enacted'"). Check rules 6 to 9 even when the draft seems fine, and say in `edits` \
+which of them needed a fix.
 
 """
     + STYLE_GUIDE
@@ -191,8 +249,9 @@ The records and studies its notes cite, and the facts block (JSON):
 
 REPAIR = """
 
-The revised article failed these checks. Fix every one, change nothing else, and \
-return the whole article again:
+The revised article failed these checks. Fix every one; those marked (advisory) as \
+far as you can without breaking the others. Change nothing else, and return the \
+whole article again:
 
 {errors}
 """

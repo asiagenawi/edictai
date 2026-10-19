@@ -6,8 +6,12 @@ provision or a study's finding, [n] markers that match the notes, and table rows
 fit their columns and name records that exist. The rest are stricter: notes and table
 cells may cite only the records and studies the model was given; quoted words must be
 copied from a quote or title in that data; every number must appear in it; the body's
-length must be in range; and the house style's hard rules (no questions, no em dashes,
-no listed hype words) hold.
+length must be in range; the house style's hard rules (no questions, no em dashes,
+no listed hype words) hold; the first paragraph carries at most `MAX_OPENING_STATS`
+statistics; and the last paragraph is not mostly counts.
+
+`advisories` are softer: they are reported, and passed to the editor when a repair
+runs, but do not stop the article.
 """
 
 from __future__ import annotations
@@ -27,6 +31,29 @@ MARKER = re.compile(r"\[(\d+)\]")
 QUOTED = re.compile(r"“([^”]+)”|\"([^\"]+)\"")
 NUMBER = re.compile(r"(?<![\w.])\d[\d,]*(?:\.\d+)?")
 WORD = re.compile(r"\S+")
+MONTHS = (
+    "January|February|March|April|May|June|July|August|September|October|November|"
+    "December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec"
+)
+# What a number that is not a statistic follows: a bill or rule identifier (AB 1159,
+# H.R. 10719, S. 5225, Executive Order 14110, Rule 6A-1.0957), a month (September 10),
+# a year or letter and a hyphen (2024-25, K-12).
+NOT_A_STAT_AFTER = re.compile(
+    r"(?:\b[A-Z][A-Z.]{0,4}|\b(?:Order|No\.|Section|Sec\.|Rule|Chapter|Act|Law|Title|"
+    rf"Part|Grade|grade|grades|{MONTHS})|\d{{4}}[-\u2013]|\b[A-Za-z][-\u2013])\s?$"
+)
+NUMBER_WORDS = re.compile(
+    r"\b(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|"
+    r"fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|"
+    r"sixty|seventy|eighty|ninety|hundred|dozen)\b",
+    re.IGNORECASE,
+)
+SELF_REFERENCE = re.compile(
+    r"^(?:this|the) (?:explainer|analysis|brief|digest|roundup|article|piece)\b", re.I
+)
+MAX_OPENING_STATS = 2  # numerals that are statistics, in the first paragraph
+CLOSING_COUNTS = 4  # a last paragraph with this many counts...
+CLOSING_SHARE = 0.12  # ...making up this share of its words reads as a tally
 BANNED = (
     "landmark",
     "sweeping",
@@ -124,6 +151,25 @@ def _num(token: str) -> str:
     if "." in token:
         return str(float(token))
     return str(int(token))
+
+
+def statistics_in(text: str) -> list[str]:
+    """Numerals that state a quantity: not years, dates, identifiers or grade spans."""
+    text = MARKER.sub(" ", text)
+    out = []
+    for m in NUMBER.finditer(text):
+        token = m.group(0).rstrip(",")
+        if re.fullmatch(r"(?:19|20)\d\d", token):
+            continue
+        if NOT_A_STAT_AFTER.search(text[max(0, m.start() - 24) : m.start()]):
+            continue
+        out.append(token)
+    return out
+
+
+def counts_in(text: str) -> int:
+    """Statistics plus spelled-out numbers ("five", "twelve")."""
+    return len(statistics_in(text)) + len(NUMBER_WORDS.findall(MARKER.sub(" ", text)))
 
 
 def numbers_in(text: str) -> set[str]:
@@ -293,6 +339,22 @@ def check_article(
             err(f"{where} asks a question; state facts instead")
         if "—" in text or "!" in text:
             err(f"{where} uses an em dash or exclamation mark")
+    paras = paragraphs(article)
+    if paras:
+        stats = statistics_in(paras[0])
+        if len(stats) > MAX_OPENING_STATS:
+            err(
+                f"the first paragraph has {len(stats)} statistics ({', '.join(stats)}); "
+                f"open with what the law or study does, with at most one number, and move "
+                "the counts later"
+            )
+        last = paras[-1]
+        n, words = counts_in(last), len(WORD.findall(MARKER.sub("", last)))
+        if len(paras) > 1 and n >= CLOSING_COUNTS and n >= CLOSING_SHARE * words:
+            err(
+                f"the last paragraph is mostly counts ({n} numbers in {words} words); end "
+                "on what happens next or the most significant implication instead"
+            )
     dek_words = len(WORD.findall(str(article.get("dek") or "")))
     if dek_words > 60:
         err(f"the dek runs {dek_words} words; keep it under 60")
@@ -300,3 +362,22 @@ def check_article(
     if title_words > 14:
         err(f"the title runs {title_words} words; keep it to 12 or so")
     return errors
+
+
+def advisories(article: Mapping[str, Any], *, max_words: int, target_words: int) -> list[str]:
+    """Soft checks: reported and passed to the editor on a repair, never blocking."""
+    out = []
+    words = word_count(article)
+    soft_max = target_words + (max_words - target_words) // 2
+    if words > soft_max:
+        out.append(
+            f"the body runs {words} words, near the ceiling of {max_words}; aim for about "
+            f"{target_words} by cutting minor records rather than compressing sentences"
+        )
+    paras = paragraphs(article)
+    if paras and SELF_REFERENCE.match(paras[0].strip()):
+        out.append(
+            "the first sentence describes the article; lead with what the law, rule or "
+            "study does and who it affects"
+        )
+    return out

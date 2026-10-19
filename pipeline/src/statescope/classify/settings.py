@@ -13,6 +13,9 @@ from ..yamlio import load_yaml
 
 DEFAULT_MODEL = "claude-sonnet-5-5"
 SPEND_CAP_ENV = "WEEKLY_SPEND_CAP_USD"
+BACKEND_ENV = "EDICTAI_LLM_BACKEND"
+OAUTH_ENV = "CLAUDE_CODE_OAUTH_TOKEN"
+BACKENDS = ("api", "claude-code")
 
 
 class SettingsError(ValueError):
@@ -62,6 +65,13 @@ class Settings:
     recall_floor: float = 0.9
     prices: Mapping[str, Mapping[str, Any]] = field(default_factory=dict)
     batch_discount: float = 0.5
+    # "api" (the Anthropic API, budgeted in dollars) or "claude-code" (Claude Code
+    # run headless on a subscription, budgeted in calls).
+    backend: str = "api"
+    call_cap: int = 400
+    claude_executable: str = "claude"
+    claude_timeout_seconds: float = 1800
+    claude_workers: int = 2
 
     def price(self, model: str | None = None) -> Price:
         model = model or self.model
@@ -77,19 +87,32 @@ class Settings:
         return Settings(**{**self.__dict__, **clean})
 
 
+def resolve_backend(env: Mapping[str, str]) -> str:
+    """EDICTAI_LLM_BACKEND: claude-code, api, or auto (the default): claude-code when
+    CLAUDE_CODE_OAUTH_TOKEN is set, otherwise api."""
+    value = (env.get(BACKEND_ENV) or "auto").strip().lower()
+    if value == "auto":
+        return "claude-code" if (env.get(OAUTH_ENV) or "").strip() else "api"
+    if value not in BACKENDS:
+        raise SettingsError(f"{BACKEND_ENV} must be claude-code, api, or auto, not {value!r}")
+    return value
+
+
 def settings_path(paths: Paths) -> Path:
     return paths.root / "pipeline" / "automation.yaml"
 
 
 def load_settings(paths: Paths, env: Mapping[str, str] | None = None) -> Settings:
     """Settings from pipeline/automation.yaml (defaults when it is absent), with the
-    spend cap taken from WEEKLY_SPEND_CAP_USD when that is set."""
+    spend cap taken from WEEKLY_SPEND_CAP_USD when that is set and the backend from
+    EDICTAI_LLM_BACKEND (`resolve_backend`)."""
     env = os.environ if env is None else env
     path = settings_path(paths)
     data = (load_yaml(path) or {}) if path.exists() else {}
     c = data.get("classify") or {}
     b = data.get("budget") or {}
     e = data.get("eval") or {}
+    cc = data.get("claude_code") or {}
     base = Settings()
     values: dict[str, Any] = {
         "model": c.get("model", base.model),
@@ -111,6 +134,11 @@ def load_settings(paths: Paths, env: Mapping[str, str] | None = None) -> Setting
         "recall_floor": float(e.get("recall_floor", base.recall_floor)),
         "prices": data.get("prices") or {},
         "batch_discount": float(data.get("batch_discount", base.batch_discount)),
+        "backend": resolve_backend(env),
+        "call_cap": int(b.get("claude_code_calls", base.call_cap)),
+        "claude_executable": str(cc.get("executable", base.claude_executable)),
+        "claude_timeout_seconds": float(cc.get("timeout_seconds", base.claude_timeout_seconds)),
+        "claude_workers": int(cc.get("workers", base.claude_workers)),
     }
     cap = (env.get(SPEND_CAP_ENV) or "").strip()
     if cap:
