@@ -33,10 +33,14 @@ const NAV = [
   const css = (n: string) => getComputedStyle(document.documentElement).getPropertyValue('--' + n).trim();
   const PAL = ['red', 'yellow', 'blue', 'sky', 'green', 'mint', 'pink', 'graphite', 'butter'];
   const H = 36;
+  const CC: Record<string, string> = {};
+  const cc = (n: string) => (CC[n] ??= css(n));
   function rng(s: number) {
     let x = s >>> 0 || 1;
     return () => ((x = Math.imul(x ^ (x >>> 15), 2246822507)), (x = Math.imul(x ^ (x >>> 13), 3266489909)), ((x ^= x >>> 16) >>> 0) / 4294967296);
   }
+  // Kinds 0-5 are the brand shapes; 6-11 are the home page's school supplies
+  // (pencil, paper clip, eraser, ruler, laptop, monitor), drawn the same way.
   function shape(k: number, s: number, col: string) {
     c.fillStyle = col;
     c.beginPath();
@@ -46,8 +50,45 @@ const NAV = [
     else if (k === 2) { c.moveTo(0, s); c.arc(0, s, s * 0.96, -Math.PI / 2, 0); }
     else if (k === 3) c.rect(1, 1, s - 2, s - 2);
     else if (k === 4) { c.moveTo(h, 0); c.lineTo(s, h); c.lineTo(h, s); c.lineTo(0, h); }
-    else { c.moveTo(h, 1); c.lineTo(s - 1, s - 1); c.lineTo(1, s - 1); }
+    else if (k === 5) { c.moveTo(h, 1); c.lineTo(s - 1, s - 1); c.lineTo(1, s - 1); }
+    else return supply(k, s, col);
     c.fill();
+  }
+  function supply(k: number, s: number, col: string) {
+    const h = s / 2;
+    c.save();
+    if (k === 6) { // pencil, diagonal
+      c.translate(h, h); c.rotate(-Math.PI / 4);
+      const L = s * 1.15, w = s * 0.26;
+      c.fillStyle = cc('yellow'); c.fillRect(-L / 2 + w, -w / 2, L - w * 2.2, w);
+      c.fillStyle = cc('wood'); c.beginPath(); c.moveTo(-L / 2, 0); c.lineTo(-L / 2 + w, -w / 2); c.lineTo(-L / 2 + w, w / 2); c.fill();
+      c.fillStyle = cc('graphite'); c.beginPath(); c.moveTo(-L / 2, 0); c.lineTo(-L / 2 + w * 0.4, -w * 0.2); c.lineTo(-L / 2 + w * 0.4, w * 0.2); c.fill();
+      c.fillStyle = cc('metal'); c.fillRect(L / 2 - w * 1.2, -w / 2, w * 0.4, w);
+      c.fillStyle = cc('pink'); c.fillRect(L / 2 - w * 0.8, -w / 2, w * 0.8, w);
+    } else if (k === 7) { // paper clip
+      c.strokeStyle = col; c.lineWidth = s * 0.09; c.lineCap = 'round';
+      const a = s * 0.32, b = s * 0.68, t = s * 0.12, u = s * 0.88;
+      c.beginPath(); c.moveTo(b, s * 0.35); c.lineTo(b, u - s * 0.18); c.arc(h, u - s * 0.18, s * 0.18, 0, Math.PI);
+      c.lineTo(a, t + s * 0.14); c.arc(s * 0.45, t + s * 0.14, s * 0.13, Math.PI, 0); c.lineTo(s * 0.58, u - s * 0.3); c.stroke();
+    } else if (k === 8) { // eraser
+      c.translate(h, h); c.rotate(-0.35);
+      c.fillStyle = cc('pink'); c.fillRect(-s * 0.42, -s * 0.2, s * 0.84, s * 0.4);
+      c.fillStyle = cc('blue'); c.globalAlpha *= 0.55; c.fillRect(-s * 0.42, -s * 0.2, s * 0.32, s * 0.4);
+    } else if (k === 9) { // ruler
+      c.translate(h, h); c.rotate(Math.PI / 4);
+      c.fillStyle = cc('wood'); c.fillRect(-s * 0.6, -s * 0.17, s * 1.2, s * 0.34);
+      c.strokeStyle = cc('graphite'); c.lineWidth = 0.6;
+      for (let i = -4; i <= 4; i++) { c.beginPath(); c.moveTo(i * s * 0.12, -s * 0.17); c.lineTo(i * s * 0.12, -s * 0.17 + (i % 2 ? s * 0.1 : s * 0.16)); c.stroke(); }
+    } else if (k === 10) { // laptop
+      c.fillStyle = cc('graphite'); c.fillRect(s * 0.16, s * 0.18, s * 0.68, s * 0.48);
+      c.fillStyle = col; c.fillRect(s * 0.21, s * 0.23, s * 0.58, s * 0.38);
+      c.fillStyle = cc('metal'); c.beginPath(); c.moveTo(s * 0.08, s * 0.72); c.lineTo(s * 0.92, s * 0.72); c.lineTo(s * 0.98, s * 0.82); c.lineTo(s * 0.02, s * 0.82); c.fill();
+    } else { // desktop monitor on a stand
+      c.fillStyle = cc('graphite'); c.fillRect(s * 0.1, s * 0.12, s * 0.8, s * 0.56);
+      c.fillStyle = col; c.fillRect(s * 0.15, s * 0.17, s * 0.7, s * 0.46);
+      c.fillStyle = cc('metal'); c.fillRect(s * 0.45, s * 0.68, s * 0.1, s * 0.14); c.fillRect(s * 0.3, s * 0.82, s * 0.4, s * 0.06);
+    }
+    c.restore();
   }
   type Item = { x: number; y: number; k: number; col: string; dl: number; sh: boolean; ph: number };
   let items: Item[] = [];
@@ -59,7 +100,7 @@ const NAV = [
     items = [];
     for (let y = 2; y < H - 12; y += 17) for (let x = 0; x < W; x += 17) {
       if (r() > 0.82) continue;
-      items.push({ x, y, k: Math.floor(r() * 6), col: css(PAL[Math.floor(r() * PAL.length)]), dl: (x / W) * 900 + r() * 200, sh: r() < 0.07, ph: r() * 9 });
+      items.push({ x, y, k: r() < 0.12 ? 6 + Math.floor(r() * 6) : Math.floor(r() * 6), col: css(PAL[Math.floor(r() * PAL.length)]), dl: (x / W) * 900 + r() * 200, sh: r() < 0.07, ph: r() * 9 });
     }
   }
   function frame(now: number) {
