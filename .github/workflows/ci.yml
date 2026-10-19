@@ -45,6 +45,13 @@ jobs:
       - name: Build
         run: uv run --no-sync statescope build --parquet
 
+      # After the build, so the API's tests of the built database run on this data.
+      - name: API tests
+        run: |
+          python3 -m venv "$RUNNER_TEMP/api-venv"
+          "$RUNNER_TEMP/api-venv/bin/pip" install --quiet -r api/requirements-dev.txt
+          "$RUNNER_TEMP/api-venv/bin/python" -m pytest api/tests -q
+
       - uses: actions/upload-artifact@v7
         with:
           name: statescope-build
@@ -53,11 +60,10 @@ jobs:
             build/csv/
             build/parquet/
             build/datapackage.json
-            build/snapshot.json
           retention-days: 14
 
   site:
-    name: Web
+    name: Site
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -66,9 +72,9 @@ jobs:
         with:
           enable-cache: true
 
-      # The site's build bundles the snapshot, so it needs the data built first.
+      # The site's build reads the built database, so it needs the data built first.
       # Invalid records are skipped here; the pipeline job reports them.
-      - name: Build data snapshot
+      - name: Build data
         run: |
           uv sync --frozen --no-dev
           uv run --no-sync statescope build --no-parquet --skip-invalid

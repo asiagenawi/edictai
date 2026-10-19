@@ -8,9 +8,6 @@ from services.privacy import configure_logging
 
 configure_logging()
 
-from routes.states import states_bp  # noqa: E402
-from routes.policies import policies_bp  # noqa: E402
-from routes.trends import trends_bp  # noqa: E402
 from routes.ask import ask_bp  # noqa: E402
 from models.database import get_db  # noqa: E402
 
@@ -27,11 +24,8 @@ is_dev = os.environ.get('FLASK_ENV') == 'development'
 if is_dev:
     CORS(app)
 else:
-    CORS(app, origins=['https://edictai.org', 'https://www.edictai.org', 'https://asiagenawi.github.io'])
+    CORS(app, origins=['https://edictai.org', 'https://www.edictai.org'])
 
-app.register_blueprint(states_bp)
-app.register_blueprint(policies_bp)
-app.register_blueprint(trends_bp)
 app.register_blueprint(ask_bp)
 
 
@@ -39,13 +33,12 @@ app.register_blueprint(ask_bp)
 def health():
     db = get_db()
     try:
-        count = db.execute('SELECT COUNT(*) FROM v_policies_legacy').fetchone()[0]
         records = dict(db.execute(
             "SELECT record_type, COUNT(*) FROM records WHERE record_type IN "
             "('legislation', 'document', 'executive-action', 'research') GROUP BY record_type").fetchall())
     finally:
         db.close()
-    return {'status': 'ok', 'policy_count': count, 'records': records}
+    return {'status': 'ok', 'records': records}
 
 
 if __name__ == '__main__':

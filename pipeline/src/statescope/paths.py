@@ -56,10 +56,6 @@ class Paths:
         """Downloaded API responses; never committed."""
         return self.root / ".cache"
 
-    @property
-    def web_snapshot(self) -> Path:
-        return self.root / "web" / "public" / "data" / "snapshot.json"
-
     @classmethod
     def discover(cls, root: str | Path | None = None) -> Paths:
         return cls(Path(root).resolve() if root else find_root())

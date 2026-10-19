@@ -5,7 +5,7 @@ import sqlite3
 
 import pytest
 
-from statescope.build import BuildError, build, num_id
+from statescope.build import BuildError, build
 from statescope.paths import Paths
 from statescope.sqldoc import parse_schema
 from statescope.vocab import Vocab
@@ -130,84 +130,6 @@ def test_views(built):
     assert total == 3 * len(Vocab.load(REPO / "data" / "vocab").provision_types)
 
 
-def test_snapshot_contract(built):
-    tree, result, _ = built
-    snap = json.loads((result.out_dir / "snapshot.json").read_text())
-    assert set(snap) == {"data_updated", "states", "policies", "topics", "policy_topics"}
-    assert snap["data_updated"] == "2026-10"
-
-    states = {s["code"]: s for s in snap["states"]}
-    assert set(states) == {"CA", "TX"}  # the federal jurisdiction is not a state
-    assert set(states["TX"]) == {
-        "id",
-        "name",
-        "code",
-        "fips",
-        "region",
-        "has_ai_guidance",
-        "policy_count",
-        "policy_status",
-    }
-    assert states["TX"]["policy_status"] == "enacted"
-    assert states["TX"]["policy_count"] == 4
-    assert states["TX"]["has_ai_guidance"] == 1
-    assert states["CA"]["policy_status"] == "none"
-
-    by_record = {p["record_id"]: p for p in snap["policies"]}
-    hb = by_record["us-tx-2025-hb-1481"]
-    assert hb["policy_type"] == "bill"
-    assert hb["status"] == "enacted"
-    assert hb["bill_number"] == "HB 1481"
-    assert hb["sponsor"] == "Jane Doe"
-    assert hb["date_introduced"] == "2025-02-10"
-    assert hb["date_enacted"] == "2025-06-20"
-    assert hb["state_code"] == "TX"
-    assert hb["state_name"] == "Texas"
-    assert hb["id"] == num_id("us-tx-2025-hb-1481")
-    assert by_record["us-tx-2025-sb-20"]["status"] == "failed"
-    assert by_record["us-119-hr-610"]["status"] == "introduced"
-    assert by_record["us-119-hr-610"]["level"] == "federal"
-    assert by_record["us-119-hr-610"]["state_code"] is None
-    assert by_record["us-tx-tea-ai-guidance"]["policy_type"] == "guidance"
-    assert by_record["us-tx-tea-ai-guidance"]["status"] == "active"
-    # A document's date is its current edition when the record gives one.
-    assert by_record["us-tx-tea-ai-guidance"]["date_introduced"] == "2026-01"
-    eo = by_record["us-tx-eo-ga-99"]
-    assert (eo["policy_type"], eo["status"], eo["date_enacted"]) == (
-        "executive_order",
-        "active",
-        "2025-09-01",
-    )
-    assert eo["sponsor"] == "Office of the Governor of Texas"
-
-    dates = [p["date_introduced"] for p in snap["policies"]]
-    assert dates == sorted(dates, reverse=True)
-
-    topic_ids = {t["id"] for t in snap["topics"]}
-    assert all(isinstance(t["id"], int) for t in snap["topics"])
-    assert set(snap["policy_topics"]) == {str(p["id"]) for p in snap["policies"]}
-    assert all(set(v) <= topic_ids for v in snap["policy_topics"].values())
-
-    web = tree.web_snapshot
-    assert web.read_bytes() == (result.out_dir / "snapshot.json").read_bytes()
-
-
-def test_snapshot_uses_only_ui_vocabulary(built):
-    # web/src/utils/colors.js and constants.js only know these values.
-    _, result, _ = built
-    snap = json.loads((result.out_dir / "snapshot.json").read_text())
-    assert {s["policy_status"] for s in snap["states"]} <= {
-        "none",
-        "failed",
-        "guidance",
-        "pending",
-        "enacted",
-    }
-    assert {p["status"] for p in snap["policies"]} <= {"introduced", "enacted", "failed", "active"}
-    assert {p["policy_type"] for p in snap["policies"]} <= {"bill", "guidance", "executive_order"}
-    assert {p["level"] for p in snap["policies"]} <= {"federal", "state"}
-
-
 def test_csv_and_datapackage(built):
     _, result, db = built
     package = json.loads((result.out_dir / "datapackage.json").read_text())
@@ -239,9 +161,9 @@ def test_parquet(built):
 
 
 def test_build_is_deterministic(tree, tmp_path):
-    first = build(tree, tmp_path / "a", today=TODAY, write_web=False, log=lambda _: None)
-    second = build(tree, tmp_path / "b", today=TODAY, write_web=False, log=lambda _: None)
-    for name in ("snapshot.json", "datapackage.json", "csv/legislation.csv", "csv/sources.csv"):
+    first = build(tree, tmp_path / "a", today=TODAY, log=lambda _: None)
+    second = build(tree, tmp_path / "b", today=TODAY, log=lambda _: None)
+    for name in ("datapackage.json", "csv/legislation.csv", "csv/sources.csv"):
         assert (first.out_dir / name).read_bytes() == (second.out_dir / name).read_bytes(), name
 
 
@@ -253,7 +175,7 @@ def test_build_stops_on_errors(tmp_path):
 
 def test_build_skip_invalid(tmp_path):
     paths = make_tree(tmp_path, FIXTURES / "invalid" / "dangling-related")
-    result = build(paths, today=TODAY, skip_invalid=True, write_web=False, log=lambda _: None)
+    result = build(paths, today=TODAY, skip_invalid=True, log=lambda _: None)
     assert result.counts["legislation"] == 2
     # The guidance's authorized_by pointed at the skipped bill.
     db = sqlite3.connect(result.db_path)
@@ -264,7 +186,7 @@ def test_build_skip_invalid(tmp_path):
 
 def test_missing_organization_builds_with_null_issuer(tmp_path):
     paths = make_tree(tmp_path, FIXTURES / "invalid" / "missing-organization")
-    result = build(paths, today=TODAY, write_web=False, log=lambda _: None)
+    result = build(paths, today=TODAY, log=lambda _: None)
     db = sqlite3.connect(result.db_path)
     assert q(db, "SELECT issuer FROM documents") == [(None,)]
     db.close()

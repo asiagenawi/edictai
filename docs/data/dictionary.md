@@ -888,5 +888,3 @@ Identifiers for records in upstream systems.
 |---|---|
 | `v_policies` | Legislation, documents, and executive actions in one shape. `is_current` is 1 for enacted legislation, current documents, and active executive actions. `date` is the first action for legislation, the current edition for documents (updated, else published; NULL when undated), and the signing date for executive actions. |
 | `v_provision_grid` | One row per jurisdiction and provision type, including pairs with no provisions, for building the comparison grid. |
-| `v_policies_legacy` | v_policies in the column names and status vocabulary that the web app and the chat API were written against. |
-| `v_states_legacy` | States and DC with the policy summary the map colors by, in the web app's vocabulary. |

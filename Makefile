@@ -1,8 +1,8 @@
-.PHONY: install lint format test validate build docs
+.PHONY: install lint format test test-api validate build docs site
 
 install:
 	uv sync --all-extras
-	cd web && npm ci --legacy-peer-deps
+	cd site && npm ci
 
 lint:
 	uv run ruff check .
@@ -15,6 +15,9 @@ format:
 test:
 	uv run pytest
 
+test-api:
+	uv run --no-project --with-requirements api/requirements-dev.txt python -m pytest api/tests -q
+
 validate:
 	uv run statescope validate --strict
 
@@ -23,3 +26,6 @@ build:
 
 docs:
 	uv run statescope docs
+
+site: build
+	cd site && npm run build

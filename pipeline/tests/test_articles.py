@@ -40,7 +40,7 @@ TX = "jurisdiction:us-tx"
 @pytest.fixture
 def repo(tmp_path):
     paths = make_tree(tmp_path / "repo")
-    build(paths, today=date(2026, 10, 17), write_web=False, log=lambda _m: None)
+    build(paths, today=date(2026, 10, 17), log=lambda _m: None)
     (paths.root / "site" / "src" / "content" / "articles" / "2026").mkdir(parents=True)
     return paths
 

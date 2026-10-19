@@ -16,7 +16,6 @@ def _int_env(name, default):
 # Built from data/ by `statescope build`; the API only ever reads it.
 DATABASE_PATH = os.getenv('STATESCOPE_DB') or os.path.join(API_DIR, '..', 'build', 'statescope.db')
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')
-CONGRESS_API_KEY = os.getenv('CONGRESS_API_KEY', '')
 
 # --- Ask -------------------------------------------------------------------
 

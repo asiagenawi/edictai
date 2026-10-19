@@ -23,9 +23,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      # The frontend ships the policy data as a static file so the map never
-      # waits on the API. Rebuild that snapshot from the records in data/ on
-      # every deploy; validation errors stop the deploy.
+      # The site is generated from the database built from data/, so it never
+      # waits on the API. Validation errors stop the deploy.
       - uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
@@ -33,7 +32,7 @@ jobs:
       - name: Install pipeline
         run: uv sync --frozen --no-dev
 
-      - name: Build data snapshot
+      - name: Build data
         run: uv run --no-sync statescope validate --format github && uv run --no-sync statescope build --no-parquet
 
       - uses: actions/setup-node@v7

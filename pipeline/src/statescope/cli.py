@@ -39,7 +39,6 @@ def cmd_build(args: argparse.Namespace) -> int:
             paths,
             out,
             skip_invalid=args.skip_invalid,
-            write_web=not args.no_web,
             parquet=args.parquet,
         )
     except BuildError as exc:
@@ -48,7 +47,7 @@ def cmd_build(args: argparse.Namespace) -> int:
     if result.report and result.report.issues:
         print(f"{result.report.summary()} (details: statescope validate)", file=sys.stderr)
     rel = os.path.relpath(result.out_dir)
-    print(f"Wrote {rel}/statescope.db, csv/, datapackage.json, snapshot.json")
+    print(f"Wrote {rel}/statescope.db, csv/, datapackage.json")
     for table in (
         "jurisdictions",
         "organizations",
@@ -297,16 +296,15 @@ def parser() -> argparse.ArgumentParser:
     v.add_argument("--format", choices=("text", "github", "json"), default="text")
     v.set_defaults(func=cmd_validate)
 
-    b = sub.add_parser("build", help="build the database, exports, and web snapshot")
+    b = sub.add_parser("build", help="build the database and exports")
     b.add_argument("--out", help="output directory (default: build/)")
     b.add_argument(
         "--skip-invalid",
         action="store_true",
         help="build from the valid records instead of stopping on validation errors",
     )
-    b.add_argument(
-        "--no-web", action="store_true", help="do not copy the snapshot into web/public/data"
-    )
+    # Accepted and ignored, for build commands written before the snapshot was removed.
+    b.add_argument("--no-web", action="store_true", help=argparse.SUPPRESS)
     pq = b.add_mutually_exclusive_group()
     pq.add_argument(
         "--parquet",

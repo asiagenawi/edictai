@@ -1,9 +1,8 @@
-"""Build the SQLite database, CSV/Parquet exports, and web snapshot from data/."""
+"""Build the SQLite database and CSV/Parquet exports from data/."""
 
 from __future__ import annotations
 
 import hashlib
-import shutil
 import sqlite3
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
@@ -11,7 +10,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from . import exports, snapshot
+from . import exports
 from .paths import Paths
 from .records import Record, RecordSet
 from .status import derive_status
@@ -553,7 +552,6 @@ def build(
     out_dir: Path | None = None,
     *,
     skip_invalid: bool = False,
-    write_web: bool = True,
     parquet: bool | None = None,
     today: date | None = None,
     log: Callable[[str], None] = print,
@@ -581,15 +579,8 @@ def build(
                 "SELECT name FROM sqlite_master WHERE type = 'table' AND name NOT LIKE 'sqlite_%' ORDER BY name"
             )
         }
-        snap = snapshot.build_snapshot(db, selected)
     finally:
         db.close()
-
-    snapshot_path = out_dir / "snapshot.json"
-    snapshot.write(snap, snapshot_path)
-    if write_web:
-        paths.web_snapshot.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(snapshot_path, paths.web_snapshot)
 
     exports.write_csv(db_path, out_dir / "csv")
     exports.write_datapackage(db_path, paths.db_schema, out_dir)
