@@ -5,25 +5,29 @@ import WordmarkLogo from '../components/WordmarkLogo.astro';
 import SectionRows from '../components/SectionRows.astro';
 import SectionRow from '../components/SectionRow.astro';
 import ShapeField from '../components/ShapeField.astro';
+import { articles } from '../lib/articles';
 import { counts, url } from '../lib/data';
 
 const c = counts();
+const articleCount = (await articles()).length;
 ---
 <Base title="Edictai">
   <Card fit>
     <WordmarkLogo />
     <p>Edictai is an open record of AI policy in America's schools and colleges. Every law, bill and guidance document is checked against its official source.</p>
     <SectionRows>
-      <SectionRow href={url('states/')} icon="map" name="States" verb="to look up" status={c.states} />
-      <SectionRow href={url('policies/')} icon="clipboard" name="Bills & policies" verb="to follow" status={c.records} />
-      <SectionRow href={url('research/')} icon="magnifier" name="Research" verb="to read" status="Building" />
-      <SectionRow href={url('articles/')} icon="newspaper" name="Articles" verb="to explain" status="Building" />
+      <SectionRow href={url('states/')} icon="map" name="States" status={c.states} />
+      <SectionRow href={url('policies/')} icon="clipboard" name="Bills & policies" status={c.records} />
+      <SectionRow href={url('research/')} icon="magnifier" name="Research" status={c.research} />
+      <SectionRow href={url('articles/')} icon="newspaper" name="Articles" status={articleCount} />
+      <SectionRow icon="megaphone" name="Advocate" status="Coming soon" />
     </SectionRows>
-    <p>All Edictai data is open under CC BY 4.0 and can be downloaded as SQLite, CSV or JSON.</p>
+    <p>Edictai is updated weekly. All its data is open under CC BY 4.0 and can be downloaded as SQLite, CSV or JSON.</p>
   </Card>
   <ShapeField />
 </Base>
 
 <style is:global>
 @media (min-width:641px){ html,body{overflow:hidden} }
+.card.fit{font:400 16px/24px var(--serif)}
 </style>

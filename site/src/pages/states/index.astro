@@ -39,6 +39,9 @@ const byFips = new Map(cards.filter((c) => c.fips).map((c) => [c.fips!, c]));
 const map = usMap();
 const shapes = map.states.filter((s) => byFips.has(s.fips)).map((s) => ({ ...s, card: byFips.get(s.fips)! }));
 const withRecords = states().filter((s) => (cards.find((c) => c.id === s.id)?.total ?? 0) > 0).length;
+const coverage = withRecords === states().length
+  ? 'Every state and DC has at least one record.'
+  : `${withRecords} of 51, the 50 states and DC, have at least one record.`;
 const federal = cards.find((c) => c.id === 'us')!;
 const dc = cards.find((c) => c.id === 'us-dc')!;
 const data = cards.map(({ fips, ...c }) => c);
@@ -50,7 +53,7 @@ const bold = Object.fromEntries(shapes.filter((s) => s.card.total).map((s) => {
   return [s.card.id, { g: b.size, t: b.tiles.flat(), ob: s.outline }];
 }));
 ---
-<Base title="States · Edictai" description={`${withRecords} of 50 states and DC have at least one record.`} bodyClass="sp si">
+<Base title="States · Edictai" description={coverage} bodyClass="sp si">
   <div class="wrap">
     <SiteHeader current="states" />
 
@@ -58,7 +61,7 @@ const bold = Object.fromEntries(shapes.filter((s) => s.card.total).map((s) => {
       <aside class="st-side">
         <div>
           <h1>States</h1>
-          <p class="lede">{withRecords} of 50 states and DC have at least one record. Select a state to open its page.</p>
+          <p class="lede">{coverage} Select a state to open its page.</p>
         </div>
         <div class="scard" id="scard" aria-live="polite">
           <div class="sc-empty" id="sc-empty">

@@ -1,23 +1,26 @@
 ---
 /**
- * One home row: scene icon, "Name, to verb", and a count or state on the right.
+ * One home row: scene icon, the name (optionally "Name, to verb"), and a count or state on the right.
  * Render inside <SectionRows>.
  */
 import { sceneIcons, type SceneIcon } from './scene-icons';
 
 interface Props {
-  href: string;
+  /** Leave out for a section that is still to come. */
+  href?: string;
   icon: SceneIcon;
   name: string;
-  verb: string;
+  verb?: string;
   status: string | number;
 }
 const { href, icon, name, verb, status } = Astro.props;
 ---
-<li><a href={href}><svg viewBox="0 0 24 24" aria-hidden="true" set:html={sceneIcons[icon]} /><span><span class="n">{name}</span><span class="v">, {verb}</span></span><span></span><span class="s">{status}</span></a></li>
+<li>{href
+  ? <a href={href}><svg viewBox="0 0 24 24" aria-hidden="true" set:html={sceneIcons[icon]} /><span><span class="n">{name}</span>{verb && <span class="v">, {verb}</span>}</span><span></span><span class="s">{status}</span></a>
+  : <div class="row"><svg viewBox="0 0 24 24" aria-hidden="true" set:html={sceneIcons[icon]} /><span><span class="n">{name}</span>{verb && <span class="v">, {verb}</span>}</span><span></span><span class="s">{status}</span></div>}</li>
 
 <style>
-a{display:grid;grid-template-columns:24px auto 1fr auto;align-items:center;gap:9px;height:32px;text-decoration:none}
+a,.row{display:grid;grid-template-columns:24px auto 1fr auto;align-items:center;gap:9px;height:32px;text-decoration:none}
 a:hover .n{text-decoration:underline;text-underline-offset:3px}
 svg{width:24px;height:24px;display:block;overflow:visible;transform-origin:50% 60%}
 @media (prefers-reduced-motion:no-preference){a:hover svg,a:focus-visible svg{animation:wig .5s ease}@keyframes wig{0%,100%{transform:rotate(0)}25%{transform:rotate(-12deg)}50%{transform:rotate(9deg)}75%{transform:rotate(-5deg)}}}
