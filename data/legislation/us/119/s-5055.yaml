@@ -1,0 +1,73 @@
+id: us-119-s-5055
+jurisdiction: us
+session: "119"
+identifier: S. 5055
+title: National Workforce Transition Fund Act of 2026
+classification: bill
+education_levels:
+  - postsecondary
+topics:
+  - workforce
+  - funding
+  - task-force
+summary: Establishes a National Workforce Transition Board and Fund to support training, education, and
+  credential pathways for workers affected by AI and emerging technology. The definition of worker includes
+  students, and recent graduates are a priority population.
+provisions:
+  - type: ai-workforce-program
+    description: The Fund may pay for worker training accounts and credential pathways or programs funded
+      through education and training grants for workers displaced by AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5055/BILLS-119s5055is.htm
+      locator: Sec. 2, new Sec. 304(c)(1)
+      quote: credential pathways or programs funded through education and training grants as described
+        in paragraph (3)
+  - type: creates-task-force
+    description: The Board's report must assess workforce development programs, including programs of
+      institutions of higher education, in supporting workers affected by AI.
+    citation:
+      source_url: https://www.congress.gov/119/bills/s5055/BILLS-119s5055is.htm
+      locator: Sec. 2, new Sec. 303 report
+      quote: programs of institutions of higher education, and employer-led training initiatives, in supporting
+        workers most likely to experience change driven by artificial intelligence and emerging technology
+sponsors:
+  - name: Sen. Warner, Mark R. [D-VA]
+    primary: true
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-07-21"
+    description: Read twice and referred to the Committee on Finance.
+    actor: upper
+    classification:
+      - reading-2
+      - referral-committee
+  - date: "2026-07-21"
+    description: Introduced in Senate
+    actor: upper
+    classification:
+      - introduction
+versions:
+  - note: Introduced in Senate
+    date: "2026-07-21"
+    url: https://www.congress.gov/119/bills/s5055/BILLS-119s5055is.htm
+    media_type: text/html
+external_ids:
+  congress_gov: 119/s/5055
+sources:
+  - url: https://www.congress.gov/bill/119th-congress/senate-bill/5055
+    title: S. 5055 (119th Congress)
+    publisher: Congress.gov
+    kind: official
+    accessed: "2026-10-20"
+  - url: https://www.congress.gov/119/bills/s5055/BILLS-119s5055is.htm
+    title: S. 5055 text (Introduced in Senate)
+    publisher: Congress.gov
+    kind: official
+    accessed: "2026-10-20"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-20"
+  method: congress-gov-text+classifier
+  notes: Actions, sponsors, and versions from the Congress.gov API; scope, codes, summary, and provisions
+    by the classifier from the bill text.
