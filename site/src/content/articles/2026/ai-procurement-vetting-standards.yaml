@@ -1,0 +1,68 @@
+# Explainer. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: "How laws and guidance set standards for buying AI tools for schools"
+dek: "Six enacted laws set, assign or suspend standards for how schools and colleges buy or vet AI tools, and 20 more bills are pending. A Florida board rule and guidance from seven state education departments set or recommend vetting steps."
+type: "Explainer"
+published: "2026-10-20"
+data_release: "October 2026"
+caption: "States with laws, rules, guidance and bills setting standards for buying or vetting AI tools, as recorded by Edictai in October 2026."
+sketch_note: "vet the vendor first"
+drawing: "lock"
+brief:
+  - "Idaho's S 1227 sets privacy and vendor disclosure terms for AI tools schools buy, and Florida's HB 1361 sets requirements for AI platforms bought with grant funds."
+  - "Maryland and California laws have a state agency or a college working group write the standards, and a separate Maryland law exempts AI digital tools for three school years."
+  - "Florida's board rule requires district approval processes that make vendors disclose known limitations and any independent evaluations of a tool's effectiveness."
+  - "State education department guidance, frameworks and a model policy recommend vetting processes and contract terms, and two college accreditors set expectations for institutions."
+body:
+  - p: "Idaho's S 1227, signed on March 19, requires generative AI tools bought by school districts and public charter schools to comply with privacy laws [1]. Vendors must disclose whether their products use machine learning, predictive analytics or generative AI, and must give assurances on data protection, algorithmic transparency and responsible use [1]."
+  - p: "As of October 2026, Edictai's records show 52 records across 27 jurisdictions that set procurement or vetting standards for AI tools in schools and colleges. Six are enacted laws, 20 are bills still pending and 15 are bills that did not pass. The other 11 are current documents, including state guidance, a state board rule and accreditor policies."
+  - h: "Laws that set the terms directly"
+  - p: "Florida's HB 1361, approved on May 9, 2024, lets school districts receive grant funds for subscription fees and professional learning for an AI platform serving students in grades 6 through 12 [2]. Grant recipients must pick a platform that runs on large language models based on GPT-4, an equivalent or a successor, on a closed system [3]. The platform must also provide teacher professional learning, standards-aligned tutoring and lesson plans, and reporting for districts, schools and parents [3]."
+  - p: "North Carolina's S 382, enacted on December 11, 2024 when the legislature overrode a veto, directs grants to two districts for an AI school safety pilot [4]. The participating districts must contract with the same vendor, chosen by whichever district signs a contract first, and the law lists capabilities the system must have [5]."
+  - h: "Laws that delegate or set aside standards"
+  - p: "Maryland's SB 720, signed on May 26, directs the Maryland State Department of Education to develop and publish a rubric and evaluative tools [6]. Local school systems must use them when they review and select AI tools [6]."
+  - p: "California's AB 2392, signed on September 30, applies to public colleges. It has the state's three public higher education systems jointly convene a working group on generative AI training and procurement [7]. The group must present recommended procurement standards to system leaders by January 1, 2028 [8]. Until standards are adopted, the systems must report each systemwide generative AI contract to the Legislature, including the vendor, the intended use and who will have access [9]."
+  - p: "Maryland's HB 504, signed on May 6, 2025, works the other way. For the 2025-2026 through 2027-2028 school years, an existing section of the state's Education Article on digital tools does not apply to buying and using digital tools that use AI to support student learning [10]."
+  - h: "Florida's board rule on approving AI tools"
+  - p: "Florida's State Board of Education rule requires every district school board and charter school governing board to amend its internet safety policy to address AI instructional tools by July 1, 2027 [11]. Unlike guidance, the rule binds local boards."
+  - p: "Approval processes must require vendors to disclose known instructional limitations and any available independent evaluations of a tool's effectiveness, and districts must keep a public list of approved tools [12]. Approved tools may not sell, monetize, profile or commercially exploit student data to train commercial AI models [13]."
+  - h: "State guidance on vetting and vendor contracts"
+  - p: "Seven state education departments in Edictai's records address vetting or contracts through guidance, frameworks or a model policy rather than rules. Georgia's Department of Education recommends a formal process with a review committee, pilot tests, evaluation against ethical, educational and technical standards, and a list of district-approved tools [14]. Louisiana's guidance gives school systems a rubric to rate tools on data privacy, cybersecurity and instructional criteria [15]."
+  - p: "Oklahoma's guidance sorts tools into risk tiers by the student data they collect [16]. Tools that collect sensitive information, such as student demographics or personally identifiable information, fall in the high-risk tier and require administrative approval [16]. Maryland's framework calls for vendor vetting, contractual protections, documented risk assessments and ongoing monitoring [17]."
+  - p: "California's model policy, which districts may adapt but are not bound by, says AI vendor contracts should include enforceable student data protections [18]. It lists breach notification, audit rights, deletion of data when a contract ends and vendor accountability for unauthorized use of student data [18]."
+  - p: "Idaho's framework says a district, school or charter should always require a data privacy agreement with a vendor once a tool is selected [19]. Massachusetts guidance advises districts to approve only tools vetted through a data privacy agreement process, with contracts that address AI capabilities, data practices and compliance with privacy and accessibility laws [20]."
+  - h: "College accreditors"
+  - p: "Two accreditors set expectations for colleges. The Middle States Commission on Higher Education says institutions should align the governance, procurement and use of AI with its accreditation standards [21]. The Commission on Colleges and Universities, formerly SACSCOC, says institutions should submit accreditation materials only through private platforms that do not use transmitted data for model training [22]."
+  - h: "Pending bills"
+  - p: "Of the bills still pending, two from Pennsylvania were reported from the Education Committee on October 6 and laid on the table [23] [24]."
+  - p: "HB 2785 would require school entities that contract for AI technology to write specified terms into the contract [23]. Those terms would include a ban on collecting students' biometric information through the vendor's AI technology [25]. HB 2787 would bar AI suppliers from contracting with school entities to provide AI that delivers school mental health services [24]."
+  - p: "In Congress, H.R. 10515, introduced on September 21, would have federal resources address how educational agencies and institutions procure AI tools [26]. It remains in committee."
+  - h: "Deadlines ahead"
+  - p: "Florida's rule takes effect on October 29, and amended district policies are due by July 1, 2027 [11]. Maryland's exemption for AI digital tools runs through the 2027-2028 school year [10]. California's college working group must deliver its procurement recommendations by January 1, 2028, and contract reports to the Legislature continue until standards are adopted [8] [9]."
+notes:
+  - { record: us-id-2026-s-1227, provision: 5 }
+  - record: us-fl-2024-hb-1361
+  - { record: us-fl-2024-hb-1361, provision: 1 }
+  - record: us-nc-2023-2024-s-382
+  - { record: us-nc-2023-2024-s-382, provision: 1 }
+  - { record: us-md-2026-sb-720, provision: 2 }
+  - record: us-ca-2025-2026-ab-2392
+  - { record: us-ca-2025-2026-ab-2392, provision: 1 }
+  - { record: us-ca-2025-2026-ab-2392, provision: 3 }
+  - record: us-md-2025-hb-504
+  - record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools
+  - { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, provision: 6 }
+  - { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, provision: 7 }
+  - record: us-ga-gadoe-leveraging-ai-k12
+  - record: us-la-ldoe-ai-guidance
+  - { record: us-ok-osde-ai-guidance, provision: 1 }
+  - { record: us-md-msde-ai-framework, provision: 1 }
+  - { record: us-ca-cde-ai-model-policy, provision: 3 }
+  - { record: us-id-sde-genai-education-framework, provision: 1 }
+  - { record: us-ma-dese-ai-guidance, provision: 1 }
+  - record: us-msche-use-of-ai-policy
+  - record: us-sacscoc-ai-in-accreditation-guideline
+  - record: us-pa-2025-2026-hb-2785
+  - { record: us-pa-2025-2026-hb-2787, provision: 1 }
+  - { record: us-pa-2025-2026-hb-2785, provision: 1 }
+  - { record: us-119-hr-10515, provision: 3 }
