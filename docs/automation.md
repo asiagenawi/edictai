@@ -471,3 +471,82 @@ the environment or `.env`. `EDICTAI_LLM_BACKEND=claude-code` uses the Claude
 Code login on this machine (or `CLAUDE_CODE_OAUTH_TOKEN`) instead of the API. `classify run --scope state|federal` limits the run
 to one working directory, `--limit N` to N new items per stage, and
 `--no-fetch` skips text requests.
+
+# Watched pages
+
+`.github/workflows/watch.yml` runs every day at 11:17 UTC and on demand
+(Actions → Watch guidance pages → Run workflow). Every run checks the pages
+listed under `watch_urls` in the organization records and logs what changed.
+On Tuesdays, and on demand with **apply** ticked (the default), it also has
+Claude review every change logged since the last review and brings the records
+up to date: it opens a pull request, merges it into `master` once every check
+has passed, and starts the site deploy, as the weekly update does.
+
+## Checking (`watch`)
+
+Each page is fetched politely (robots.txt, one request per second per host,
+conditional requests), reduced to its main text, and hashed. A changed hash is
+logged with a trimmed diff and any new links that look like AI policy
+documents. The text a page had when the records were last reviewed is kept
+beside its current text, so a page that changes several times in a week is
+reviewed once, against that earlier text. State lives in `.cache/watch`,
+carried between runs in the Actions cache; nothing under `data/` is written.
+
+## Reviewing (`watch-apply`)
+
+A page is reviewed when the watcher logged a change for it and its current
+hash is not the one last reviewed. For each such page, one Claude call gets:
+
+- the diff between the text last reviewed and the current text (or, the first
+  time, the diffs logged for each change), and the current text in full;
+- the document records that cite the page, in full, and a list of the issuer's
+  other documents (id, title, status, sources);
+- the text of up to `watch.max_linked` new AI links on the page, and of up to
+  as many other sources of the records that cite it.
+
+It replies with a verdict (`noise` or `update`), a sentence on what changed,
+updates to the records it was given (summary, status, `superseded_by`,
+`published`, `updated`, `version`, title, topics, new provisions), new document
+records for in-scope documents the dataset lacks, and anything a person should
+look at. Every update and new record carries quotes; each quote, including
+each provision's, must be found in the text of the URL it cites, or the change
+is dropped. A new document whose source is already a source of a record, or
+whose id is taken, is dropped.
+
+An updated record gets a `revisions[]` entry (date observed, page URL, text
+hash, and the note), `accessed` set to the run date on each source fetched,
+and `verification` set to `machine-verified` with method `change-watcher`. A
+new record cites its document and the watched page. The data is then
+validated, and a record that fails is put back as it was and listed as
+dropped.
+
+A reviewed page's hash and text become its new base. A page whose request was
+not answered (the call cap reached, an error) stays pending for the next run.
+
+## Settings
+
+The `watch` section of `pipeline/automation.yaml`: `model` (Opus),
+`effort`, `max_tokens`, `claude_code_calls` (the run's cap on Claude Code
+calls), `spend_cap_usd` (the cap with the API backend), `max_text_chars` (the
+characters of each text the model sees; quotes are checked against the whole
+text), and `max_linked`. The workflow runs Claude Code on the
+`CLAUDE_CODE_OAUTH_TOKEN` subscription (`EDICTAI_LLM_BACKEND=claude-code`).
+
+## What needs a person
+
+Changes Claude flagged for review, changes dropped (a quote not found, a
+record not given, a failed check), pages not reviewed, and failed runs are
+posted to the open issue labeled `guidance-watch`, which is opened when none
+is. Close it once read; the next report opens a new one.
+
+## Running it locally
+
+```sh
+uv sync --extra classify
+uv run edictai watch
+EDICTAI_LLM_BACKEND=claude-code uv run edictai watch-apply --dry-run
+```
+
+`watch-apply --dry-run` asks Claude and prints what it would change, writing
+neither records nor `.cache/watch`. `--url URL` limits it to one page,
+`--limit N` to N pages, and `--model` overrides the model.

@@ -180,7 +180,9 @@ reviewable and recorded in the git history.
 
 - **Automated discovery** checks legislative data sources for new and updated bills and
   monitors the pages listed under `watch_urls` in each organization record for new or
-  revised documents. Proposed additions and changes are opened as pull requests.
+  revised documents. Changes to watched pages are reviewed by Claude, and each record
+  change it proposes must be backed by quotes found in the source text. Additions and
+  changes are opened as pull requests.
 - **Validation** runs on every pull request: each record is checked against its JSON Schema,
   the controlled vocabularies, ID and path conventions, and cross-references between records.
 - **Review.** A maintainer reviews each proposed change against its sources before merging.

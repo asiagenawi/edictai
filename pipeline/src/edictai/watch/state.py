@@ -1,9 +1,11 @@
 """Watcher state kept under .cache/watch/ (never committed).
 
 state.json holds, per URL: the latest hash, conditional-request validators,
-a history of observed hashes, and a log of change entries. The last
-normalized text and link list for each URL are stored beside it so the next
-change can be diffed.
+a history of observed hashes, a log of change entries, and, per URL, the hash
+`watch-apply` last brought the records up to date with. The last normalized
+text and link list for each URL are stored beside it so the next change can be
+diffed, and so is the text as it stood when the records were last brought up
+to date (the base), so `watch-apply` sees every change since then at once.
 """
 
 from __future__ import annotations
@@ -30,6 +32,8 @@ class WatchState:
     # Per host: last page fetch (epoch seconds) and robots.txt Crawl-delay, so
     # the delay holds across runs as well as within one.
     hosts: dict[str, dict[str, float]] = field(default_factory=dict)
+    # Per URL: the hash, date, and verdict of the last `watch-apply` review.
+    applied: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     @property
     def path(self) -> Path:
@@ -47,6 +51,7 @@ class WatchState:
             state.urls = data.get("urls", {})
             state.changes = data.get("changes", [])
             state.hosts = data.get("hosts", {})
+            state.applied = data.get("applied", {})
         return state
 
     def save(self) -> None:
@@ -57,6 +62,7 @@ class WatchState:
             "urls": self.urls,
             "changes": self.changes,
             "hosts": self.hosts,
+            "applied": self.applied,
         }
         tmp.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
         os.replace(tmp, self.path)
@@ -72,6 +78,22 @@ class WatchState:
     def read_links(self, url: str) -> list[dict[str, str]] | None:
         p = self.pages / f"{url_key(url)}.links.json"
         return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+
+    # Text as of the last `watch-apply` review --------------------------------
+    def read_base(self, url: str) -> str | None:
+        p = self.pages / f"{url_key(url)}.base.txt"
+        return p.read_text(encoding="utf-8") if p.exists() else None
+
+    def has_base(self, url: str) -> bool:
+        return (self.pages / f"{url_key(url)}.base.txt").exists()
+
+    def write_base(self, url: str, text: str | None) -> None:
+        self.pages.mkdir(parents=True, exist_ok=True)
+        p = self.pages / f"{url_key(url)}.base.txt"
+        if text is None:
+            p.unlink(missing_ok=True)
+        else:
+            p.write_text(text, encoding="utf-8")
 
     def write_snapshot(self, url: str, text: str | None, links: list[dict[str, str]]) -> None:
         self.pages.mkdir(parents=True, exist_ok=True)

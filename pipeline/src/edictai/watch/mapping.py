@@ -15,9 +15,10 @@ from ..records import Record
 
 
 def normalize_url(url: str) -> str:
-    """A comparison key: https, lower-case host without default port, no fragment or trailing slash."""
+    """A comparison key: https, lower-case host without `www.` or default port, no fragment
+    or trailing slash."""
     parts = urllib.parse.urlsplit(url.strip())
-    host = (parts.hostname or "").lower()
+    host = (parts.hostname or "").lower().removeprefix("www.")
     if parts.port and parts.port not in (80, 443):
         host = f"{host}:{parts.port}"
     path = parts.path or "/"

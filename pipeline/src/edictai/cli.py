@@ -1,5 +1,5 @@
-"""Command-line entry point: `edictai validate | build | docs | ingest | watch | classify |
-articles`."""
+"""Command-line entry point: `edictai validate | build | docs | ingest | watch | watch-apply |
+classify | articles`."""
 
 from __future__ import annotations
 
@@ -283,6 +283,54 @@ def cmd_watch(args: argparse.Namespace) -> int:
     return 1 if report.has_changes else 0
 
 
+def cmd_watch_apply(args: argparse.Namespace) -> int:
+    """Exits 0 when every page was reviewed or left for the next run; 2 when the
+    settings cannot be read or Claude Code cannot run."""
+    import json
+
+    from dotenv import load_dotenv
+
+    from .classify.llm import ClaudeCodeError, spend_line
+    from .classify.settings import SettingsError, load_settings
+    from .watch.apply import apply_changes, load_apply_settings, render_markdown, render_review
+
+    paths = _paths(args)
+    load_dotenv(paths.root / ".env")
+    try:
+        settings = load_settings(paths)
+        asettings = load_apply_settings(paths)
+    except SettingsError as exc:
+        print(exc, file=sys.stderr)
+        return 2
+    if args.model:
+        asettings = type(asettings)(**{**asettings.__dict__, "model": args.model})
+    try:
+        result = apply_changes(
+            paths,
+            settings,
+            asettings,
+            urls=args.url or None,
+            limit=args.limit,
+            save=not args.dry_run,
+            log=lambda m: print(m, file=sys.stderr, flush=True),
+        )
+    except (SettingsError, ClaudeCodeError) as exc:
+        print(exc, file=sys.stderr)
+        return 2
+    if args.json:
+        Path(args.json).write_text(json.dumps(result.to_dict(), indent=1) + "\n")
+    md = render_markdown(result)
+    if args.markdown:
+        Path(args.markdown).write_text(md)
+    else:
+        print(md)
+    if args.review:
+        Path(args.review).write_text(render_review(result))
+    if result.spend:
+        print(spend_line(result.spend), file=sys.stderr)
+    return 0
+
+
 def parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="edictai", description=__doc__)
     p.add_argument("--root", help="repository root (default: nearest directory with data/schema)")
@@ -392,6 +440,23 @@ def parser() -> argparse.ArgumentParser:
     w.add_argument("--markdown", help="write the PR body to this path (default: stdout)")
     w.add_argument("--no-save", action="store_true", help="do not update .cache/watch state")
     w.set_defaults(func=cmd_watch)
+
+    wa = sub.add_parser(
+        "watch-apply",
+        help="review the changes the watcher logged with Claude and update the records",
+    )
+    wa.add_argument("--url", action="append", help="limit to a URL (repeatable)")
+    wa.add_argument("--limit", type=int, help="review at most this many pages")
+    wa.add_argument("--model", help="model id (default: watch.model in pipeline/automation.yaml)")
+    wa.add_argument("--json", help="write the result as JSON to this path")
+    wa.add_argument("--markdown", help="write the PR body to this path (default: stdout)")
+    wa.add_argument("--review", help="write what needs a person to this path (empty if nothing)")
+    wa.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="ask Claude but write neither records nor .cache/watch state",
+    )
+    wa.set_defaults(func=cmd_watch_apply)
 
     from .classify.commands import register as register_classify
 

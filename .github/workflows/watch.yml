@@ -1,12 +1,27 @@
 name: Watch guidance pages
 
+# Checks the pages listed in organization records' watch_urls every day and logs
+# what changed. On Tuesdays, and when started by hand with "apply", Claude reviews
+# every change logged since the last review, through Claude Code on the repository
+# owner's subscription (CLAUDE_CODE_OAUTH_TOKEN); the records are brought up to
+# date, and a pull request is opened and merged when every check passes. Anything
+# that needs a person goes to the open guidance-watch issue. docs/automation.md
+# describes each step.
+
 on:
   schedule:
     - cron: "17 11 * * *"
   workflow_dispatch:
+    inputs:
+      apply:
+        description: "Also review the logged changes with Claude and update the records"
+        type: boolean
+        default: true
 
 permissions:
-  contents: read
+  actions: write
+  contents: write
+  pull-requests: write
   issues: write
 
 concurrency:
@@ -17,7 +32,9 @@ jobs:
   watch:
     name: Check watched pages
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
+    env:
+      OUT: watch
     steps:
       - uses: actions/checkout@v7
 
@@ -25,47 +42,148 @@ jobs:
         with:
           enable-cache: true
 
+      # pypdf (the classify extra) reads the text of watched and linked PDFs.
       - name: Install
-        run: uv sync --frozen --no-dev
+        run: |
+          uv sync --frozen --extra classify
+          mkdir -p "$OUT"
 
-      # Page hashes, ETags, and per-host crawl timing live in .cache/watch.
-      # Each run saves a new cache entry; the next run restores the latest one.
+      - name: Review this run?
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            apply="${{ inputs.apply }}"
+          elif [ "$(date -u +%u)" = "2" ]; then
+            apply=true
+          else
+            apply=false
+          fi
+          echo "apply=$apply" >> "$GITHUB_OUTPUT"
+
+      # Page hashes, ETags, per-host crawl timing, the text last reviewed, and the
+      # review ledger live in .cache/watch. A new cache entry is saved when the job
+      # succeeds; the next run restores the latest one, so a run that fails before
+      # its changes are merged leaves them to be reviewed again.
       - uses: actions/cache@v6.1.0
         with:
           path: .cache/watch
           key: watch-state-${{ github.run_id }}
           restore-keys: watch-state-
 
-      # The report lists every change logged in the last week, so a change
-      # stays visible until someone updates the records it affects.
       - name: Check pages
         run: |
           set +e
-          uv run --no-sync edictai watch \
-            --since "$(date -u -d '7 days ago' +%F)" \
-            --json watch-report.json --markdown watch-report.md
+          uv run --no-sync edictai watch --json "$OUT/watch-report.json" --markdown "$OUT/watch-report.md"
           code=$?
           set -e
-          if [ ! -f watch-report.json ]; then
+          if [ ! -f "$OUT/watch-report.json" ]; then
             echo "::error::watch did not produce a report (exit $code)"
             exit 1
           fi
+          echo "$(jq '.changes | length' "$OUT/watch-report.json") page(s) changed today"
 
-      # One open issue collects the reports; each run with changes adds a comment.
-      - name: Open or update the issue
+      # Claude Code, for the claude-code backend (pipeline/automation.yaml, claude_code).
+      - name: Install Claude Code
+        if: steps.mode.outputs.apply == 'true'
+        run: |
+          npm install --prefix "$RUNNER_TEMP/claude-code" --no-fund --no-audit \
+            @anthropic-ai/claude-code@2.1.303
+          echo "$RUNNER_TEMP/claude-code/node_modules/.bin" >> "$GITHUB_PATH"
+          "$RUNNER_TEMP/claude-code/node_modules/.bin/claude" --version
+
+      - name: Review changes and update records
+        id: apply
+        if: steps.mode.outputs.apply == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          EDICTAI_LLM_BACKEND: claude-code
+        run: |
+          uv run --no-sync edictai watch-apply \
+            --json "$OUT/apply.json" --markdown "$OUT/apply.md" --review "$OUT/review.md"
+          echo "changed=$(jq -r '.changed' "$OUT/apply.json")" >> "$GITHUB_OUTPUT"
+          cat "$OUT/apply.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate records
+        if: steps.apply.outputs.changed == 'true'
+        run: uv run --no-sync edictai validate --strict --format github
+
+      - name: Pipeline tests
+        if: steps.apply.outputs.changed == 'true'
+        run: uv run --no-sync pytest
+
+      - name: Build
+        if: steps.apply.outputs.changed == 'true'
+        run: uv run --no-sync edictai build --no-parquet
+
+      - name: API tests
+        if: steps.apply.outputs.changed == 'true'
+        run: |
+          python3 -m venv "$RUNNER_TEMP/api-venv"
+          "$RUNNER_TEMP/api-venv/bin/pip" install --quiet -r api/requirements-dev.txt
+          "$RUNNER_TEMP/api-venv/bin/python" -m pytest api/tests -q
+
+      - name: Open the pull request
+        id: pr
+        if: steps.apply.outputs.changed == 'true' && github.ref == 'refs/heads/master'
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          branch: automation/watch-update
+          base: master
+          add-paths: data/
+          commit-message: "Watched pages: bring records up to date"
+          title: "Watched pages update, ${{ github.run_started_at }}"
+          body-path: ${{ env.OUT }}/apply.md
+          delete-branch: true
+
+      # Every check above has passed, so the update publishes itself. Merges made
+      # with the workflow token start no other workflow, so the site deploy is
+      # started here; Render redeploys the API from master on its own.
+      - name: Merge the pull request and deploy the site
+        if: steps.pr.outputs.pull-request-number != ''
         env:
           GH_TOKEN: ${{ github.token }}
+          PR: ${{ steps.pr.outputs.pull-request-number }}
         run: |
-          if [ "$(jq '.changes | length' watch-report.json)" = "0" ]; then
-            echo "No changes."
+          gh pr merge "$PR" --squash --delete-branch
+          gh workflow run deploy-frontend.yml --ref master
+
+      # One open issue collects what needs a person: changes Claude was unsure of,
+      # changes dropped for a quote not found or a failed check, pages not
+      # reviewed, and failed runs.
+      - name: Report what needs a person
+        if: always() && steps.mode.outputs.apply == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          body="$OUT/issue.md"
+          : > "$body"
+          if [ "$JOB_STATUS" != "success" ]; then
+            printf 'The watched-pages review failed; nothing was merged. Run: %s\n\n' "$RUN_URL" >> "$body"
+          fi
+          if [ -s "$OUT/review.md" ]; then
+            cat "$OUT/review.md" >> "$body"
+            printf '\nRun: %s\n' "$RUN_URL" >> "$body"
+          fi
+          if [ ! -s "$body" ]; then
+            echo "Nothing needs a person."
             exit 0
           fi
           gh label create guidance-watch --color c4493e \
-            --description "A watched guidance page changed" --force
+            --description "A watched guidance page needs a person" --force
           num=$(gh issue list --label guidance-watch --state open --json number --jq '.[0].number // empty')
           if [ -n "$num" ]; then
-            gh issue comment "$num" --body-file watch-report.md
+            gh issue comment "$num" --body-file "$body"
           else
-            gh issue create --title "Watched guidance pages changed" \
-              --label guidance-watch --body-file watch-report.md
+            gh issue create --title "Watched guidance pages: needs a person" \
+              --label guidance-watch --body-file "$body"
           fi
+
+      - name: Upload the run's files
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: watch
+          path: ${{ env.OUT }}/
+          retention-days: 30

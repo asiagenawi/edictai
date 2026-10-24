@@ -1,6 +1,6 @@
-# Settings for `edictai classify run`, `classify eval-gate`, `articles write`, and the
-# weekly workflow (.github/workflows/weekly.yml). docs/automation.md describes how they
-# are used.
+# Settings for `edictai classify run`, `classify eval-gate`, `articles write`,
+# `watch-apply`, and the weekly and watch workflows (.github/workflows/).
+# docs/automation.md describes how they are used.
 
 classify:
   model: claude-sonnet-5-5
@@ -109,6 +109,21 @@ articles:
     broad: [appropriates-funding, creates-task-force]
     broad_factor: 0.2
     broad_changed: 3
+
+watch:
+  # `watch-apply`: one call per changed page, reviewing the change and saying how the
+  # records should change. Run weekly by .github/workflows/watch.yml.
+  model: claude-opus-5-5
+  effort: high
+  max_tokens: 16000
+  # Claude Code calls one run may use (a reply asked once more counts twice), and
+  # dollars with the API backend. A page left unanswered is reviewed next run.
+  claude_code_calls: 60
+  spend_cap_usd: 10
+  # Characters of each page or document text given to the model.
+  max_text_chars: 60000
+  # Per page: new AI links fetched, and other sources of the records that cite it.
+  max_linked: 4
 
 eval:
   # The run fails when the classifier scores below either floor on

@@ -158,6 +158,10 @@ def run(
 
         entry["sha256"] = extracted.sha256
         entry["history"].append({"observed": run_date, "sha256": extracted.sha256})
+        # The first change since the last `watch-apply` review keeps the text it
+        # replaced, so the review diffs against what the records were checked with.
+        if old_hash is not None and old_text is not None and not state.has_base(url):
+            state.write_base(url, old_text)
         state.write_snapshot(url, extracted.text, links)
 
         if old_hash is None:

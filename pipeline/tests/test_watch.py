@@ -152,6 +152,9 @@ def test_ai_link_detection():
 
 def test_normalize_url():
     assert normalize_url("http://Example.gov/ai/#top") == normalize_url("https://example.gov/ai")
+    assert normalize_url("https://www.example.gov/a.pdf") == normalize_url(
+        "https://example.gov/a.pdf"
+    )
 
 
 def test_diff_excerpt_names_section():
