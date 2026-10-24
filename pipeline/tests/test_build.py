@@ -5,10 +5,10 @@ import sqlite3
 
 import pytest
 
-from statescope.build import BuildError, build
-from statescope.paths import Paths
-from statescope.sqldoc import parse_schema
-from statescope.vocab import Vocab
+from edictai.build import BuildError, build
+from edictai.paths import Paths
+from edictai.sqldoc import parse_schema
+from edictai.vocab import Vocab
 
 from .conftest import FIXTURES, REPO, TODAY, make_tree
 

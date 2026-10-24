@@ -48,7 +48,7 @@ record back to its official source.
 - Parquet files with the same tables, for analytical tools such as DuckDB, pandas, or R.
 
 Built files are also attached to the repository's
-[GitHub releases](https://github.com/asiagenawi/statescope/releases).
+[GitHub releases](https://github.com/asiagenawi/edictai/releases).
 
 **From the source.** The YAML files in `data/` are the canonical form of the dataset and can
 be read directly with any YAML library.
@@ -89,8 +89,8 @@ Requirements: Python 3.11 or later, [uv](https://docs.astral.sh/uv/), and Node.j
 site.
 
 ```bash
-git clone https://github.com/asiagenawi/statescope.git
-cd statescope
+git clone https://github.com/asiagenawi/edictai.git
+cd edictai
 uv sync
 
 make validate   # check every record against its schema and vocabularies
@@ -102,8 +102,8 @@ make docs       # regenerate the data dictionary
 The same commands are available through the command-line tool:
 
 ```bash
-uv run statescope validate
-uv run statescope build
+uv run edictai validate
+uv run edictai build
 ```
 
 To run the site locally:
@@ -117,8 +117,8 @@ npm run dev
 ## Contributing
 
 Corrections and additions are welcome. The quickest route is to open an issue using the
-[correction](https://github.com/asiagenawi/statescope/issues/new?template=correction.yml) or
-[missing policy](https://github.com/asiagenawi/statescope/issues/new?template=missing-policy.yml)
+[correction](https://github.com/asiagenawi/edictai/issues/new?template=correction.yml) or
+[missing policy](https://github.com/asiagenawi/edictai/issues/new?template=missing-policy.yml)
 form. To edit records directly, see [CONTRIBUTING.md](CONTRIBUTING.md). Participation is
 governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
 
@@ -128,7 +128,7 @@ If you use the data, please cite it. GitHub's "Cite this repository" button uses
 [CITATION.cff](CITATION.cff). A suggested form:
 
 > Genawi, A. *Edictai: AI in Education Policy in the United States* [Data set].
-> https://github.com/asiagenawi/statescope
+> https://github.com/asiagenawi/edictai
 
 Please include the date you accessed the data or the release you used, since records change
 as policies move.

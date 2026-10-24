@@ -1,4 +1,4 @@
-"""Command-line entry point: `statescope validate | build | docs | ingest | watch | classify |
+"""Command-line entry point: `edictai validate | build | docs | ingest | watch | classify |
 articles`."""
 
 from __future__ import annotations
@@ -45,9 +45,9 @@ def cmd_build(args: argparse.Namespace) -> int:
         print(f"build failed: {exc}", file=sys.stderr)
         return 1
     if result.report and result.report.issues:
-        print(f"{result.report.summary()} (details: statescope validate)", file=sys.stderr)
+        print(f"{result.report.summary()} (details: edictai validate)", file=sys.stderr)
     rel = os.path.relpath(result.out_dir)
-    print(f"Wrote {rel}/statescope.db, csv/, datapackage.json")
+    print(f"Wrote {rel}/edictai.db, csv/, datapackage.json")
     for table in (
         "jurisdictions",
         "organizations",
@@ -66,7 +66,7 @@ def cmd_docs(args: argparse.Namespace) -> int:
         if docs.write(paths, check=True):
             return 0
         print(
-            f"{os.path.relpath(paths.dictionary)} is out of date; run `statescope docs`",
+            f"{os.path.relpath(paths.dictionary)} is out of date; run `edictai docs`",
             file=sys.stderr,
         )
         return 1
@@ -284,7 +284,7 @@ def cmd_watch(args: argparse.Namespace) -> int:
 
 
 def parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(prog="statescope", description=__doc__)
+    p = argparse.ArgumentParser(prog="edictai", description=__doc__)
     p.add_argument("--root", help="repository root (default: nearest directory with data/schema)")
     sub = p.add_subparsers(dest="command", required=True)
 

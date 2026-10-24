@@ -1,6 +1,6 @@
 """Federal candidates in the classification stages.
 
-Rows come from `statescope federal` (Congress.gov bills and Federal Register
+Rows come from `edictai federal` (Congress.gov bills and Federal Register
 documents) and go through the same triage and full stages as state bills,
 with their own batch lines:
 

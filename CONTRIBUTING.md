@@ -9,7 +9,7 @@ By participating you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Report a correction
 
 If a record is wrong, out of date, or misleading, open a
-[correction issue](https://github.com/asiagenawi/statescope/issues/new?template=correction.yml).
+[correction issue](https://github.com/asiagenawi/edictai/issues/new?template=correction.yml).
 Include:
 
 - the record ID or a link to the record on the site;
@@ -23,7 +23,7 @@ Corrections backed by an official source are prioritized. See
 
 If a bill, guidance document, executive order, system policy, or accreditor statement is
 in scope but not in the dataset, open a
-[missing policy issue](https://github.com/asiagenawi/statescope/issues/new?template=missing-policy.yml)
+[missing policy issue](https://github.com/asiagenawi/edictai/issues/new?template=missing-policy.yml)
 with the jurisdiction, the issuing body, and a link to the official text.
 [docs/methodology.md](docs/methodology.md#scope) defines what is in scope.
 
@@ -84,7 +84,7 @@ estimating one from file metadata or archive captures.
 
 ```bash
 uv sync
-make validate        # or: uv run statescope validate
+make validate        # or: uv run edictai validate
 ```
 
 Validation checks every file against its schema, vocabularies, ID and path conventions, and

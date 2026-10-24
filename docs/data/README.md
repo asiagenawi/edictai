@@ -25,7 +25,7 @@ A record's `id` matches its path: `data/legislation/us-tx/2025/hb-1481.yaml` has
 
 ## Built files
 
-`make build` (or `uv run statescope build`) validates the records and writes them out as:
+`make build` (or `uv run edictai build`) validates the records and writes them out as:
 
 - **SQLite**: one database containing every table below, with derived fields such as
   legislative status already computed;
@@ -33,7 +33,7 @@ A record's `id` matches its path: `data/legislation/us-tx/2025/hb-1481.yaml` has
 - **Parquet**: one file per table, with the same columns and typed values.
 
 The same files are attached to the repository's
-[GitHub releases](https://github.com/asiagenawi/statescope/releases). The SQL table
+[GitHub releases](https://github.com/asiagenawi/edictai/releases). The SQL table
 definitions are in [db/schema.sql](../../db/schema.sql).
 
 ### Tables

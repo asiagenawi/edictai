@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 Please report security issues privately through GitHub's
-[security advisory form](https://github.com/asiagenawi/statescope/security/advisories/new)
+[security advisory form](https://github.com/asiagenawi/edictai/security/advisories/new)
 rather than in a public issue or pull request.
 
 Include a description of the issue, steps to reproduce it, and the affected component or
@@ -19,7 +19,7 @@ This policy covers:
 - the Edictai site and the service behind its question-answering feature.
 
 Inaccurate or outdated policy data is not a security issue. Please report it with the
-[correction form](https://github.com/asiagenawi/statescope/issues/new?template=correction.yml).
+[correction form](https://github.com/asiagenawi/edictai/issues/new?template=correction.yml).
 
 Vulnerabilities in third-party dependencies should be reported to their maintainers; if
 one affects Edictai directly, a report here is still welcome.

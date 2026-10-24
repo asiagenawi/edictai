@@ -278,7 +278,7 @@ def write_article(
 
     # 2. Subject and data.
     try:
-        ds: Dataset = load_dataset(paths.root / "build" / "statescope.db")
+        ds: Dataset = load_dataset(paths.root / "build" / "edictai.db")
     except FileNotFoundError as exc:
         return skip(str(exc))
     articles = load_articles(content)

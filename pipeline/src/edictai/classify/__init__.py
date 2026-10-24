@@ -20,7 +20,7 @@ evaluation set (`evalgate`), `refresh` appends new actions to recorded bills
 (`refresh`), and `summary` writes the weekly run's report (`summary`).
 docs/automation.md describes the weekly workflow that runs them.
 
-Federal candidates (`statescope federal` output: Congress.gov bills and
+Federal candidates (`edictai federal` output: Congress.gov bills and
 Federal Register documents) go through the same stages with `--federal` or a
 federal `--candidates` file. They keep their own batches and judgments under
 `.cache/classify/federal/` and texts under `.cache/texts/federal/`, take their

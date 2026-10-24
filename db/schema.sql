@@ -1,6 +1,6 @@
--- StateScope database schema.
+-- Edictai database schema.
 --
--- Built from the YAML records in data/ by `statescope build`; the database is a
+-- Built from the YAML records in data/ by `edictai build`; the database is a
 -- derived artifact, so corrections belong in the YAML, not here. Column names
 -- follow the YAML field names, so docs/data/dictionary.md describes both.
 -- Lists in the YAML become child tables keyed by the parent id and a 0-based

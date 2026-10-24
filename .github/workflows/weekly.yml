@@ -83,17 +83,17 @@ jobs:
       # are classified.
       - name: Baseline
         id: baseline
-        run: uv run --no-sync statescope classify baseline --if-new
+        run: uv run --no-sync edictai classify baseline --if-new
 
       - name: LegiScan datasets
         id: legiscan
         env:
           LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
-        run: uv run --no-sync statescope ingest legiscan
+        run: uv run --no-sync edictai ingest legiscan
 
       - name: State candidates
         id: candidates
-        run: uv run --no-sync statescope ingest candidates
+        run: uv run --no-sync edictai ingest candidates
 
       - name: Federal candidates
         id: federal
@@ -102,16 +102,16 @@ jobs:
         # Titles are cached per bill until it changes, so after the first runs only
         # updated bills need a request. The cap keeps a cold cache inside the job's
         # time limit (Congress.gov allows about 5,000 requests an hour).
-        run: uv run --no-sync statescope ingest federal --titles --title-requests 4000
+        run: uv run --no-sync edictai ingest federal --titles --title-requests 4000
 
       # Research discovery (OpenAlex, ERIC) stays off until its sources are approved.
       - name: Research discovery (disabled)
         if: ${{ false }}
-        run: uv run --no-sync statescope ingest research
+        run: uv run --no-sync edictai ingest research
 
       - name: Status of recorded bills
         id: refresh
-        run: uv run --no-sync statescope classify refresh --json "$OUT/refresh.json"
+        run: uv run --no-sync edictai classify refresh --json "$OUT/refresh.json"
 
       # Runs the evaluation only when the instructions, model, or effort changed; fails
       # below the precision and recall floors in pipeline/automation.yaml. Bill texts the
@@ -124,7 +124,7 @@ jobs:
           LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         run: |
-          uv run --no-sync statescope classify eval-gate \
+          uv run --no-sync edictai classify eval-gate \
             --spend-file "$OUT/spend.json" --json "$OUT/eval-gate.json"
 
       - name: Classify new candidates
@@ -135,7 +135,7 @@ jobs:
           LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         run: |
-          uv run --no-sync statescope classify run \
+          uv run --no-sync edictai classify run \
             --spend-file "$OUT/spend.json" --result "$OUT/run.json"
 
       # Every full-stage output `classify run` has written is imported, so a record
@@ -147,16 +147,16 @@ jobs:
         run: |
           mapfile -t state < <(jq -r '.state.import_files // [] | .[]' "$OUT/run.json")
           if [ "${#state[@]}" -gt 0 ]; then
-            uv run --no-sync statescope classify import --strict-quotes "${state[@]}"
+            uv run --no-sync edictai classify import --strict-quotes "${state[@]}"
           fi
           mapfile -t federal < <(jq -r '.federal.import_files // [] | .[]' "$OUT/run.json")
           if [ "${#federal[@]}" -gt 0 ]; then
-            uv run --no-sync statescope classify --federal import --strict-quotes "${federal[@]}"
+            uv run --no-sync edictai classify --federal import --strict-quotes "${federal[@]}"
           fi
 
       - name: Validate records
         id: validate
-        run: uv run --no-sync statescope validate --strict --format github
+        run: uv run --no-sync edictai validate --strict --format github
 
       - name: Pipeline tests
         id: pipeline_tests
@@ -164,7 +164,7 @@ jobs:
 
       - name: Build
         id: build
-        run: uv run --no-sync statescope build --no-parquet
+        run: uv run --no-sync edictai build --no-parquet
 
       # After the build, so the API's tests of the built database run on this week's data.
       - name: API tests
@@ -197,13 +197,13 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          uv run --no-sync statescope articles write \
+          uv run --no-sync edictai articles write \
             --spend-file "$OUT/spend.json" --result "$OUT/article.json"
 
       - name: Summary
         id: summary
         run: |
-          uv run --no-sync statescope classify summary \
+          uv run --no-sync edictai classify summary \
             --run "$OUT/run.json" --refresh "$OUT/refresh.json" --gate "$OUT/eval-gate.json" \
             --article "$OUT/article.json" \
             --markdown "$OUT/summary.md" --json "$OUT/weekly-result.json"
@@ -282,7 +282,7 @@ jobs:
             || steps.pr.outcome == 'failure' && 'Open or update the pull request'
             || 'another step' }}
         run: |
-          uv run --no-sync statescope classify summary --status failure \
+          uv run --no-sync edictai classify summary --status failure \
             --failed-step "$FAILED_STEP" \
             --run "$OUT/run.json" --refresh "$OUT/refresh.json" --gate "$OUT/eval-gate.json" \
             --markdown "$OUT/failure.md" --json "$OUT/weekly-result.json" \

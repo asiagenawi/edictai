@@ -4,8 +4,8 @@ from datetime import date
 
 import pytest
 
-from statescope.ingest.bill_numbers import match_key
-from statescope.ingest.candidates import (
+from edictai.ingest.bill_numbers import match_key
+from edictai.ingest.candidates import (
     aligned_sessions,
     find_candidates,
     is_title_cased,

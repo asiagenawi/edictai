@@ -4,9 +4,9 @@ from pathlib import Path
 import pytest
 import yaml
 
-from statescope.paths import Paths
-from statescope.records import load_records
-from statescope.watch import (
+from edictai.paths import Paths
+from edictai.records import load_records
+from edictai.watch import (
     USER_AGENT,
     Fetcher,
     Response,
@@ -17,7 +17,7 @@ from statescope.watch import (
     propose_revisions,
     run,
 )
-from statescope.watch.diff import diff_excerpt
+from edictai.watch.diff import diff_excerpt
 
 ORG_URL = "https://example.gov/ai/"
 DOC_PDF = "https://example.gov/files/ai-guidance.pdf"
@@ -180,7 +180,7 @@ def test_user_agent_and_rate_limit():
     fetcher.get("https://a.gov/1")
     fetcher.get("https://a.gov/2")
     assert all(h["User-Agent"] == USER_AGENT for _, h in web.requests)
-    assert "github.com/asiagenawi/statescope" in USER_AGENT
+    assert "github.com/asiagenawi/edictai" in USER_AGENT
     # robots.txt, /1, /2 on one host: two waits of a full second each
     assert sleeps == [1.0, 1.0]
 

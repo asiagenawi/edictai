@@ -252,7 +252,7 @@ mark `in` or `needs_text`, so a wrong `out` loses the bill for good while a wron
 - `reason`: at most {TRIAGE_REASON_WORDS} words, saying what in the metadata decided it.
 - The full schema is in `.cache/classify/triage.schema.json`.
 - Before finishing, run
-  `uv run statescope classify check --stage triage .cache/classify/triage/out/batch-NNN.jsonl`
+  `uv run edictai classify check --stage triage .cache/classify/triage/out/batch-NNN.jsonl`
   and fix every error it reports.
 
 ## How to decide
@@ -309,7 +309,7 @@ must be supported by the text you were given.
   input line, in the same order, every key exactly once, nothing else in the file.
 - The schema is in `.cache/classify/full.schema.json`.
 - Before finishing, run
-  `uv run statescope classify check --stage full .cache/classify/full/out/batch-NNN.jsonl`
+  `uv run edictai classify check --stage full .cache/classify/full/out/batch-NNN.jsonl`
   and fix every error it reports. Quotes that are not found in the stored text are
   errors.
 

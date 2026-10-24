@@ -19,13 +19,13 @@ test-api:
 	uv run --no-project --with-requirements api/requirements-dev.txt python -m pytest api/tests -q
 
 validate:
-	uv run statescope validate --strict
+	uv run edictai validate --strict
 
 build:
-	uv run statescope build
+	uv run edictai build
 
 docs:
-	uv run statescope docs
+	uv run edictai docs
 
 site: build
 	cd site && npm run build

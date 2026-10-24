@@ -13,7 +13,7 @@ import urllib.parse
 import urllib.request
 from collections.abc import Callable, Mapping
 
-USER_AGENT = "statescope-pipeline/0.1 (+https://github.com/asiagenawi/statescope)"
+USER_AGENT = "edictai-pipeline/0.1 (+https://github.com/asiagenawi/edictai)"
 
 # (url, params, headers) -> response body
 Transport = Callable[[str, Mapping[str, str], Mapping[str, str]], bytes]

@@ -191,7 +191,7 @@ reviewable and recorded in the git history.
 ## Corrections policy
 
 Corrections are welcome from anyone. Report them with the
-[correction form](https://github.com/asiagenawi/statescope/issues/new?template=correction.yml)
+[correction form](https://github.com/asiagenawi/edictai/issues/new?template=correction.yml)
 or by pull request (see [CONTRIBUTING.md](../CONTRIBUTING.md)).
 
 - A correction is accepted when it is supported by an official source.

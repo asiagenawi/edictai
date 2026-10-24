@@ -9,10 +9,10 @@ from types import SimpleNamespace
 import pytest
 import yaml
 
-from statescope.articles.check import check_article, from_reply
-from statescope.articles.context import build_context
-from statescope.articles.data import Article, load_articles, load_dataset
-from statescope.articles.subjects import (
+from edictai.articles.check import check_article, from_reply
+from edictai.articles.context import build_context
+from edictai.articles.data import Article, load_articles, load_dataset
+from edictai.articles.subjects import (
     Limits,
     Subject,
     candidates,
@@ -22,12 +22,12 @@ from statescope.articles.subjects import (
     rotation,
     write_ledger_entry,
 )
-from statescope.articles.write import ArticleSettings, write_article
-from statescope.build import build
-from statescope.classify.llm import Budget, CappedBudget
-from statescope.classify.settings import Settings
-from statescope.classify.summary import build_summary, markdown
-from statescope.yamlio import load_yaml
+from edictai.articles.write import ArticleSettings, write_article
+from edictai.build import build
+from edictai.classify.llm import Budget, CappedBudget
+from edictai.classify.settings import Settings
+from edictai.classify.summary import build_summary, markdown
+from edictai.yamlio import load_yaml
 
 from .conftest import REPO, make_tree
 
@@ -175,7 +175,7 @@ def write_existing(repo, notes, type="State brief", slug="old", published="2026-
 
 
 def test_subjects_skip_what_existing_articles_cover(repo):
-    ds = load_dataset(repo.root / "build" / "statescope.db")
+    ds = load_dataset(repo.root / "build" / "edictai.db")
     content = repo.root / "site" / "src" / "content" / "articles"
     before = {
         s.key for s in candidates(ds, coverage(ds, [], []), set(), run_date=RUN, limits=LIMITS)
@@ -188,7 +188,7 @@ def test_subjects_skip_what_existing_articles_cover(repo):
 
 
 def test_subjects_skip_the_ledger_and_rotate_types(repo):
-    ds = load_dataset(repo.root / "build" / "statescope.db")
+    ds = load_dataset(repo.root / "build" / "edictai.db")
     ledger = [
         {
             "run_date": "2026-10-12",
@@ -208,7 +208,7 @@ def test_subjects_skip_the_ledger_and_rotate_types(repo):
 
 
 def test_subjects_prefer_this_weeks_changes(repo):
-    ds = load_dataset(repo.root / "build" / "statescope.db")
+    ds = load_dataset(repo.root / "build" / "edictai.db")
     cover = coverage(ds, [], [])
     changed = {"us-tx-2025-hb-1481"}
     pick = choose(candidates(ds, cover, changed, run_date=RUN, limits=LIMITS), cover)
@@ -219,7 +219,7 @@ def test_subjects_prefer_this_weeks_changes(repo):
 
 
 def context(repo):
-    ds = load_dataset(repo.root / "build" / "statescope.db")
+    ds = load_dataset(repo.root / "build" / "edictai.db")
     ids = ["us-tx-2025-hb-1481", "us-tx-tea-ai-guidance", "us-tx-eo-ga-99"]
     return build_context(
         ds, Subject(TX, "State brief", "Texas", ids), set(), [], run_date=RUN, max_records=60
@@ -295,7 +295,7 @@ def test_style_and_length_rules(repo):
 
 
 def test_checks_pass_on_the_published_articles():
-    db = REPO / "build" / "statescope.db"
+    db = REPO / "build" / "edictai.db"
     content = REPO / "site" / "src" / "content" / "articles"
     if not db.exists() or not any(content.glob("**/*.yaml")):
         pytest.skip("needs a build of the repository's data")
@@ -467,9 +467,9 @@ def test_existing_articles_load_their_notes(tmp_path):
 
 
 def test_the_drawing_fits_the_subject_and_varies(repo):
-    from statescope.articles.subjects import choose_drawing
+    from edictai.articles.subjects import choose_drawing
 
-    ds = load_dataset(repo.root / "build" / "statescope.db")
+    ds = load_dataset(repo.root / "build" / "edictai.db")
     state = Subject(TX, "State brief", "Texas", ["us-tx-2025-hb-1481"])
     assert choose_drawing(ds, state, []) == "gavel"
     recent = [
@@ -497,7 +497,7 @@ def test_the_written_article_names_its_drawing_and_sketch_note(repo):
 
 
 def _rec(rid, juris, status, code, *, day="2024-03-01", kind="legislation"):
-    from statescope.articles.data import Provision, Record
+    from edictai.articles.data import Provision, Record
 
     dates = {"legislation": {"enacted_date": day} if status == "enacted" else {}}
     dates = dates.get(kind) or ({"published": day} if kind == "document" else {})
@@ -519,7 +519,7 @@ def _rec(rid, juris, status, code, *, day="2024-03-01", kind="legislation"):
 
 
 def _dataset(records):
-    from statescope.articles.data import Dataset
+    from edictai.articles.data import Dataset
 
     return Dataset({r.id: r for r in records}, {}, {}, {}, {}, {})
 
@@ -614,7 +614,7 @@ def test_rotation_adds_to_the_score_and_shows_in_why():
 
 
 def test_scoring_settings_load_and_reject_unknown_keys():
-    from statescope.articles.subjects import Scoring
+    from edictai.articles.subjects import Scoring
 
     sc = Scoring.from_mapping({"changed": 2, "broad": ["creates-task-force"], "count_cap": "4"})
     assert sc.changed == 2.0 and sc.broad == ("creates-task-force",) and sc.count_cap == 4
@@ -627,7 +627,7 @@ def test_scoring_settings_load_and_reject_unknown_keys():
 
 
 def test_statistics_skip_years_dates_identifiers_and_grade_spans():
-    from statescope.articles.check import statistics_in
+    from edictai.articles.check import statistics_in
 
     text = (
         "AB 1159, signed on September 10, 2026, covers K-12 and the 2024-25 school year; "
@@ -658,7 +658,7 @@ def test_a_closing_tally_is_rejected(repo):
 
 
 def test_advisories_flag_length_near_the_ceiling_and_a_self_describing_opening():
-    from statescope.articles.check import advisories
+    from edictai.articles.check import advisories
 
     long = {"body": [{"p": "This explainer covers " + "word " * 1100}]}
     notes = advisories(long, max_words=1200, target_words=850)

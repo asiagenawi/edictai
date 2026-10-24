@@ -2,7 +2,7 @@ from datetime import date
 
 import pytest
 
-from statescope.status import derive_status
+from edictai.status import derive_status
 
 TODAY = date(2026, 10, 17)
 

@@ -33,7 +33,7 @@ jobs:
         run: uv sync --frozen --no-dev
 
       - name: Build data
-        run: uv run --no-sync statescope validate --format github && uv run --no-sync statescope build --no-parquet
+        run: uv run --no-sync edictai validate --format github && uv run --no-sync edictai build --no-parquet
 
       - uses: actions/setup-node@v7
         with:

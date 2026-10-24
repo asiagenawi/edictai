@@ -5,8 +5,8 @@ from pathlib import Path
 
 import pytest
 
-from statescope.federal.actions import RULES, actor, classify, normalize_action
-from statescope.federal.congress import (
+from edictai.federal.actions import RULES, actor, classify, normalize_action
+from edictai.federal.congress import (
     CongressClient,
     CongressError,
     congress_gov_url,
@@ -14,16 +14,16 @@ from statescope.federal.congress import (
     ordinal,
     strip_html,
 )
-from statescope.federal.existing import build_index, fr_document_number
-from statescope.federal.federal_register import (
+from edictai.federal.existing import build_index, fr_document_number
+from edictai.federal.federal_register import (
     FederalRegisterClient,
     agency_documents,
     executive_orders,
     normalize_document,
     presidential_memoranda,
 )
-from statescope.federal.run import find_federal_candidates
-from statescope.ingest.http import HTTPError, RateLimiter
+from edictai.federal.run import find_federal_candidates
+from edictai.ingest.http import HTTPError, RateLimiter
 
 KEY = "test-key-not-real"
 NOW = datetime(2026, 10, 17, 12, tzinfo=UTC)
@@ -781,7 +781,7 @@ def test_find_federal_candidates_one_source(tmp_path, data_dir):
 
 
 def test_titles_channel_matches_and_caches(tmp_path, data_dir):
-    from statescope.federal.run import FederalResult, discover_bills
+    from edictai.federal.run import FederalResult, discover_bills
 
     def titles(*names):
         return {
@@ -837,7 +837,7 @@ def test_titles_channel_matches_and_caches(tmp_path, data_dir):
 
 
 def test_title_requests_cap_defers_the_rest_to_a_later_run(tmp_path, data_dir):
-    from statescope.federal.run import FederalResult, discover_bills
+    from edictai.federal.run import FederalResult, discover_bills
 
     listing = {119: [list_bill(119, "hr", n, "Farm Bill") for n in (1, 2, 3)]}
     routes = {
@@ -862,7 +862,7 @@ def test_title_requests_cap_defers_the_rest_to_a_later_run(tmp_path, data_dir):
 
 
 def test_titles_channel_off_by_default(tmp_path, data_dir):
-    from statescope.federal.run import FederalResult, discover_bills
+    from edictai.federal.run import FederalResult, discover_bills
 
     fake = FakeCongress({119: [list_bill(119, "hr", 11, "Farm Bill")]}, {}, {})
     client = congress_client(tmp_path, fake)

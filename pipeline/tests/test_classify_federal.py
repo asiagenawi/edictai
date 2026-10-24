@@ -7,32 +7,32 @@ from pathlib import Path
 
 import pytest
 
-from statescope.classify.common import (
+from edictai.classify.common import (
     ClassifyPaths,
     candidate_key,
     is_federal_file,
     load_candidates,
     read_jsonl,
 )
-from statescope.classify.federal import (
+from edictai.classify.federal import (
     actions,
     order_versions,
     refresh_existing,
     triage_item,
     version_id,
 )
-from statescope.classify.federal_import import eo_status, import_federal
-from statescope.classify.federal_texts import Fetcher, fetch_federal_texts
-from statescope.classify.instructions import triage_md, write_instructions
-from statescope.classify.judgments import check_full
-from statescope.classify.prep import prep_full, prep_triage
-from statescope.classify.texts import TextStore
-from statescope.federal.congress import CongressClient
-from statescope.ingest.http import RateLimiter
-from statescope.paths import Paths
-from statescope.validate import validate
-from statescope.vocab import Vocab
-from statescope.yamlio import load_yaml
+from edictai.classify.federal_import import eo_status, import_federal
+from edictai.classify.federal_texts import Fetcher, fetch_federal_texts
+from edictai.classify.instructions import triage_md, write_instructions
+from edictai.classify.judgments import check_full
+from edictai.classify.prep import prep_full, prep_triage
+from edictai.classify.texts import TextStore
+from edictai.federal.congress import CongressClient
+from edictai.ingest.http import RateLimiter
+from edictai.paths import Paths
+from edictai.validate import validate
+from edictai.vocab import Vocab
+from edictai.yamlio import load_yaml
 
 from .conftest import REPO, make_tree
 
@@ -557,7 +557,7 @@ def test_eo_status_from_federal_register_notes():
 
 
 def test_long_summary_is_cut_with_ai_passages():
-    from statescope.classify.federal import SUMMARY_FULL_MAX, summary_view
+    from edictai.classify.federal import SUMMARY_FULL_MAX, summary_view
 
     filler = "This title funds ships and aircraft for the Navy. " * 200
     summary = filler + "Sec. 9 requires a pilot on artificial intelligence training. " + filler

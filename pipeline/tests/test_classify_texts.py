@@ -2,9 +2,9 @@ import base64
 
 import pytest
 
-from statescope.classify.common import ClassifyPaths
-from statescope.classify.texts import TextStore, earlier_versions, fetch_texts, mentions_ai
-from statescope.paths import Paths
+from edictai.classify.common import ClassifyPaths
+from edictai.classify.texts import TextStore, earlier_versions, fetch_texts, mentions_ai
+from edictai.paths import Paths
 
 LATEST = (
     "<html><body><p>AN ACT relating to community college faculty.</p>"

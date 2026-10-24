@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://edictai.org/schema/common.schema.json",
   "title": "Shared definitions",
-  "description": "Types reused across StateScope record schemas. Properties annotated with x-vocab must take a value from the named vocabulary in data/vocab/; the validator enforces this so vocabularies have a single source of truth.",
+  "description": "Types reused across Edictai record schemas. Properties annotated with x-vocab must take a value from the named vocabulary in data/vocab/; the validator enforces this so vocabularies have a single source of truth.",
   "$defs": {
     "date": {
       "type": "string",

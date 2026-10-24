@@ -2,15 +2,15 @@ from pathlib import Path
 
 import pytest
 
-from statescope.classify.judgments import check_full, check_triage, sentences
-from statescope.classify.texts import TextStore
-from statescope.classify.textutil import (
+from edictai.classify.judgments import check_full, check_triage, sentences
+from edictai.classify.texts import TextStore
+from edictai.classify.textutil import (
     html_to_text,
     quote_in_text,
     strip_line_numbers,
     strip_running_headers,
 )
-from statescope.vocab import Vocab
+from edictai.vocab import Vocab
 
 REPO = Path(__file__).resolve().parents[2]
 TEXT = (

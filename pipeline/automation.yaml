@@ -1,4 +1,4 @@
-# Settings for `statescope classify run`, `classify eval-gate`, `articles write`, and the
+# Settings for `edictai classify run`, `classify eval-gate`, `articles write`, and the
 # weekly workflow (.github/workflows/weekly.yml). docs/automation.md describes how they
 # are used.
 

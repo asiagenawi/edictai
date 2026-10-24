@@ -13,8 +13,8 @@ def _int_env(name, default):
         return default
 
 
-# Built from data/ by `statescope build`; the API only ever reads it.
-DATABASE_PATH = os.getenv('STATESCOPE_DB') or os.path.join(API_DIR, '..', 'build', 'statescope.db')
+# Built from data/ by `edictai build`; the API only ever reads it.
+DATABASE_PATH = os.getenv('EDICTAI_DB') or os.path.join(API_DIR, '..', 'build', 'edictai.db')
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')
 
 # --- Ask -------------------------------------------------------------------
@@ -50,5 +50,5 @@ ASK_LEADS_FILE = os.getenv('ASK_LEADS_FILE') or os.path.join(API_DIR, 'leads.jso
 
 # Where a visitor can report a policy the dataset is missing.
 ASK_SUGGEST_URL = os.getenv(
-    'ASK_SUGGEST_URL', 'https://github.com/asiagenawi/statescope/issues/new'
+    'ASK_SUGGEST_URL', 'https://github.com/asiagenawi/edictai/issues/new'
 )

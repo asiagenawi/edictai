@@ -11,7 +11,7 @@ abstract: >-
 authors:
   - family-names: Genawi
     given-names: Asia
-repository-code: "https://github.com/asiagenawi/statescope"
+repository-code: "https://github.com/asiagenawi/edictai"
 url: "https://edictai.org/"
 license: CC-BY-4.0
 keywords:
@@ -27,5 +27,5 @@ references:
     authors:
       - family-names: Genawi
         given-names: Asia
-    repository-code: "https://github.com/asiagenawi/statescope"
+    repository-code: "https://github.com/asiagenawi/edictai"
     license: MIT

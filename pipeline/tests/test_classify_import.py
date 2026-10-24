@@ -2,9 +2,9 @@ from datetime import date
 
 import pytest
 
-from statescope.classify.actions import classify_text, map_history
-from statescope.classify.common import ClassifyPaths
-from statescope.classify.importer import (
+from edictai.classify.actions import classify_text, map_history
+from edictai.classify.common import ClassifyPaths
+from edictai.classify.importer import (
     append_session,
     build_record,
     import_judgments,
@@ -12,13 +12,13 @@ from statescope.classify.importer import (
     map_versions,
     session_entry,
 )
-from statescope.classify.judgments import check_full
-from statescope.classify.texts import TextStore
-from statescope.paths import Paths
-from statescope.status import derive_status
-from statescope.validate import validate
-from statescope.vocab import Vocab
-from statescope.yamlio import load_yaml
+from edictai.classify.judgments import check_full
+from edictai.classify.texts import TextStore
+from edictai.paths import Paths
+from edictai.status import derive_status
+from edictai.validate import validate
+from edictai.vocab import Vocab
+from edictai.yamlio import load_yaml
 
 from .conftest import make_tree
 

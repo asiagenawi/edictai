@@ -4,16 +4,16 @@ from datetime import date
 import pytest
 import yaml
 
-from statescope.ingest.http import HTTPError, RateLimiter
-from statescope.ingest.sessions import (
+from edictai.ingest.http import HTTPError, RateLimiter
+from edictai.ingest.sessions import (
     OpenStatesClient,
     edit_session_yaml,
     jurisdiction_url,
     match_session,
     update_sessions,
 )
-from statescope.validate import validate
-from statescope.yamlio import load_yaml
+from edictai.validate import validate
+from edictai.yamlio import load_yaml
 
 from .conftest import TODAY
 

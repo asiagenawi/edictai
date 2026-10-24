@@ -1,5 +1,5 @@
-from statescope import docs
-from statescope.paths import Paths
+from edictai import docs
+from edictai.paths import Paths
 
 from .conftest import REPO
 
@@ -21,4 +21,4 @@ def test_dictionary_renders_every_record_type(tree):
 
 
 def test_committed_dictionary_is_current():
-    assert docs.write(Paths(REPO), check=True), "run `statescope docs`"
+    assert docs.write(Paths(REPO), check=True), "run `edictai docs`"

@@ -17,23 +17,23 @@ fails, nothing is merged; it opens or comments on one issue instead.
 |---|---|---|
 | Install Claude Code | `npm install @anthropic-ai/claude-code@2.1.303` | Into `$RUNNER_TEMP/claude-code`, added to `PATH`, for the claude-code backend. |
 | Restore the cache | `actions/cache/restore` | Restores `.cache/` (LegiScan, Congress.gov, Federal Register, candidates, classify, texts, articles) from the last run. |
-| Baseline | `statescope classify baseline --if-new` | Only when the cache holds no judgments and no baseline: records the candidates already listed so they are not classified (see [Baseline](#baseline)). |
-| LegiScan datasets | `statescope ingest legiscan` | Downloads datasets whose `dataset_hash` changed. |
-| State candidates | `statescope ingest candidates` | Writes `.cache/candidates/YYYY-MM-DD.jsonl`. |
-| Federal candidates | `statescope ingest federal --titles --title-requests 4000` | Writes `.cache/candidates/federal-YYYY-MM-DD.jsonl`, with every recorded federal bill's actions. Titles are cached per bill, so at most 4,000 uncached title requests go out per run and the rest wait for the next. |
-| Research discovery | `statescope ingest research` | Disabled (`if: false`); the command fetches nothing. |
-| Status of recorded bills | `statescope classify refresh` | Appends new actions and versions to existing bill records. |
-| Evaluation gate | `statescope classify eval-gate` | Fails the run when the classifier scores below the floors. |
-| Classify new candidates | `statescope classify run` | Triage, text fetching, and full judgments for state and federal candidates. |
-| Import | `statescope classify import --strict-quotes` | Turns the in-scope judgments into records. |
-| Validate records | `statescope validate --strict` | |
+| Baseline | `edictai classify baseline --if-new` | Only when the cache holds no judgments and no baseline: records the candidates already listed so they are not classified (see [Baseline](#baseline)). |
+| LegiScan datasets | `edictai ingest legiscan` | Downloads datasets whose `dataset_hash` changed. |
+| State candidates | `edictai ingest candidates` | Writes `.cache/candidates/YYYY-MM-DD.jsonl`. |
+| Federal candidates | `edictai ingest federal --titles --title-requests 4000` | Writes `.cache/candidates/federal-YYYY-MM-DD.jsonl`, with every recorded federal bill's actions. Titles are cached per bill, so at most 4,000 uncached title requests go out per run and the rest wait for the next. |
+| Research discovery | `edictai ingest research` | Disabled (`if: false`); the command fetches nothing. |
+| Status of recorded bills | `edictai classify refresh` | Appends new actions and versions to existing bill records. |
+| Evaluation gate | `edictai classify eval-gate` | Fails the run when the classifier scores below the floors. |
+| Classify new candidates | `edictai classify run` | Triage, text fetching, and full judgments for state and federal candidates. |
+| Import | `edictai classify import --strict-quotes` | Turns the in-scope judgments into records. |
+| Validate records | `edictai validate --strict` | |
 | Pipeline tests | `pytest` | |
-| Build | `statescope build --no-parquet` | |
+| Build | `edictai build --no-parquet` | |
 | API tests | `pytest api/tests` | In a separate virtual environment from `api/requirements-dev.txt`, after the build so the built-database tests read this week's data. |
 | Node | `actions/setup-node` | Node 22, for the site build that gates the article. Allowed to fail. |
 | Site dependencies | `npm ci` in `site/` | Allowed to fail. |
-| Article | `statescope articles write` | Writes at most one article into `site/src/content/articles/` (see [Article](#article-articles-write)). Allowed to fail: when it does, or skips, the data changes go ahead without an article. |
-| Summary | `statescope classify summary` | Writes `weekly/summary.md` and `weekly/weekly-result.json`. |
+| Article | `edictai articles write` | Writes at most one article into `site/src/content/articles/` (see [Article](#article-articles-write)). Allowed to fail: when it does, or skips, the data changes go ahead without an article. |
+| Summary | `edictai classify summary` | Writes `weekly/summary.md` and `weekly/weekly-result.json`. |
 | Open or update the pull request | `peter-evans/create-pull-request` | Only when `data/` changed or an article was written, every step above passed, and the run is on `master`. Branch `automation/weekly-update`, base `master`, changes under `data/` and `site/src/content/articles/` only, body from `weekly/summary.md`. |
 | Merge the pull request and deploy the site | `gh pr merge`, `gh workflow run` | Merges the pull request (squash) when it was opened, then runs `gh workflow run deploy-frontend.yml`. |
 | Upload the run's files | `actions/upload-artifact` | The `weekly/` folder (run result, refresh, evaluation, spending, article result, summary), kept 30 days. Always runs. |
@@ -246,7 +246,7 @@ recall is below its floor or the evaluation did not finish within the cap.
 ## Article (`articles write`)
 
 Each run writes at most one article, after the data is built, so it reads this
-week's data from `build/statescope.db` (the build the site reads). Byline
+week's data from `build/edictai.db` (the build the site reads). Byline
 Edictai (no `author`), `published` the run date, `data_release` the run's month
 and year ("October 2026"). Opinion is never written: it is for outside
 contributors.
@@ -452,12 +452,12 @@ why there is none this week), spending, and the evaluation result.
 
 ```sh
 uv sync --extra classify
-uv run statescope classify refresh --dry-run
-uv run statescope classify eval-gate --spend-file weekly/spend.json --json weekly/eval-gate.json
-uv run statescope classify run --spend-file weekly/spend.json --result weekly/run.json
-uv run statescope build --no-parquet
-uv run statescope articles write --spend-file weekly/spend.json --result weekly/article.json
-uv run statescope classify summary --run weekly/run.json --article weekly/article.json \
+uv run edictai classify refresh --dry-run
+uv run edictai classify eval-gate --spend-file weekly/spend.json --json weekly/eval-gate.json
+uv run edictai classify run --spend-file weekly/spend.json --result weekly/run.json
+uv run edictai build --no-parquet
+uv run edictai articles write --spend-file weekly/spend.json --result weekly/article.json
+uv run edictai classify summary --run weekly/run.json --article weekly/article.json \
   --markdown weekly/summary.md
 ```
 

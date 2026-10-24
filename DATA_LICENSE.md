@@ -24,7 +24,7 @@ which governs.
 
 Please use the following attribution, or an equivalent that includes the same elements:
 
-> Data from Edictai (https://github.com/asiagenawi/statescope), licensed under CC BY 4.0.
+> Data from Edictai (https://github.com/asiagenawi/edictai), licensed under CC BY 4.0.
 
 If you have modified the data, say so, for example: "Adapted from Edictai ...".
 

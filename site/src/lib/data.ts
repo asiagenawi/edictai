@@ -1,7 +1,7 @@
 /**
  * Build-time access to the Edictai dataset.
  *
- * Reads the CSV tables that `statescope build` writes to build/csv/ (one file
+ * Reads the CSV tables that `edictai build` writes to build/csv/ (one file
  * per table in db/schema.sql). Set EDICTAI_BUILD_DIR to read a build directory
  * somewhere other than ../build relative to this site.
  */
@@ -47,7 +47,7 @@ function table(name: string): Row[] {
   if (!rows) {
     const file = join(CSV_DIR, `${name}.csv`);
     if (!existsSync(file)) {
-      throw new Error(`Missing ${file}. Run \`uv run statescope build\` in the repository root first.`);
+      throw new Error(`Missing ${file}. Run \`uv run edictai build\` in the repository root first.`);
     }
     rows = parseCsv(readFileSync(file, 'utf8'));
     cache.set(name, rows);

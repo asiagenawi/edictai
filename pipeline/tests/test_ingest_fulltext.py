@@ -1,7 +1,7 @@
 import json
 import zipfile
 
-from statescope.ingest.fulltext import dataset_bill_index, run_searches
+from edictai.ingest.fulltext import dataset_bill_index, run_searches
 
 from .test_ingest_legiscan import SearchAPI, client
 

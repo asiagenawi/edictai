@@ -14,7 +14,7 @@ from pathlib import Path
 
 def find_root(start: Path | None = None) -> Path:
     """The nearest ancestor of `start` (default: cwd) that holds data/schema."""
-    env = os.environ.get("STATESCOPE_ROOT")
+    env = os.environ.get("EDICTAI_ROOT")
     if env:
         return Path(env).resolve()
     here = (start or Path.cwd()).resolve()

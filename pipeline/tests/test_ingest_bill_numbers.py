@@ -1,6 +1,6 @@
 import pytest
 
-from statescope.ingest.bill_numbers import legiscan_key, match_key, normalize
+from edictai.ingest.bill_numbers import legiscan_key, match_key, normalize
 
 
 @pytest.mark.parametrize(

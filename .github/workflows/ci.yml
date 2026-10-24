@@ -37,13 +37,13 @@ jobs:
       # --strict: every issuer must have an organization record, so a record
       # can't reference a body the dataset doesn't describe.
       - name: Validate records
-        run: uv run --no-sync statescope validate --strict --format github
+        run: uv run --no-sync edictai validate --strict --format github
 
       - name: Check data dictionary is current
-        run: uv run --no-sync statescope docs --check
+        run: uv run --no-sync edictai docs --check
 
       - name: Build
-        run: uv run --no-sync statescope build --parquet
+        run: uv run --no-sync edictai build --parquet
 
       # After the build, so the API's tests of the built database run on this data.
       - name: API tests
@@ -54,9 +54,9 @@ jobs:
 
       - uses: actions/upload-artifact@v7
         with:
-          name: statescope-build
+          name: edictai-build
           path: |
-            build/statescope.db
+            build/edictai.db
             build/csv/
             build/parquet/
             build/datapackage.json
@@ -77,7 +77,7 @@ jobs:
       - name: Build data
         run: |
           uv sync --frozen --no-dev
-          uv run --no-sync statescope build --no-parquet --skip-invalid
+          uv run --no-sync edictai build --no-parquet --skip-invalid
 
       - uses: actions/setup-node@v7
         with:

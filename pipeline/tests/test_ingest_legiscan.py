@@ -6,8 +6,8 @@ from datetime import UTC, date, datetime, timedelta
 
 import pytest
 
-from statescope.ingest.http import RateLimiter
-from statescope.ingest.legiscan import (
+from edictai.ingest.http import RateLimiter
+from edictai.ingest.legiscan import (
     LegiScanClient,
     LegiScanError,
     QuotaExceeded,

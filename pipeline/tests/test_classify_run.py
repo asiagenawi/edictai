@@ -11,21 +11,21 @@ import anthropic
 import httpx2
 import pytest
 
-from statescope.classify.commands import cmd_check
-from statescope.classify.common import ClassifyPaths, read_json, read_jsonl, write_jsonl
-from statescope.classify.evalgate import eval_gate, gate_path
-from statescope.classify.judgments import check_full
-from statescope.classify.llm import Budget, Judge, Request, api_schema, cost_of
-from statescope.classify.refresh import append_to_list, new_actions, refresh
-from statescope.classify.run import run_workdir
-from statescope.classify.settings import Settings, load_settings
-from statescope.classify.summary import build_summary, markdown
-from statescope.classify.texts import TextStore
-from statescope.cli import parser
-from statescope.paths import Paths
-from statescope.validate import validate
-from statescope.vocab import Vocab
-from statescope.yamlio import load_yaml
+from edictai.classify.commands import cmd_check
+from edictai.classify.common import ClassifyPaths, read_json, read_jsonl, write_jsonl
+from edictai.classify.evalgate import eval_gate, gate_path
+from edictai.classify.judgments import check_full
+from edictai.classify.llm import Budget, Judge, Request, api_schema, cost_of
+from edictai.classify.refresh import append_to_list, new_actions, refresh
+from edictai.classify.run import run_workdir
+from edictai.classify.settings import Settings, load_settings
+from edictai.classify.summary import build_summary, markdown
+from edictai.classify.texts import TextStore
+from edictai.cli import parser
+from edictai.paths import Paths
+from edictai.validate import validate
+from edictai.vocab import Vocab
+from edictai.yamlio import load_yaml
 
 from .conftest import REPO, make_tree
 
@@ -255,7 +255,7 @@ def judge(client, **over):
 
 
 def test_api_schema_strips_what_the_grammar_does_not_take(repo):
-    from statescope.classify.instructions import full_schema
+    from edictai.classify.instructions import full_schema
 
     schema = api_schema(full_schema(Vocab.load(repo.vocab)))
     line = schema["properties"]["judgments"]["items"]
@@ -377,13 +377,13 @@ def test_batch_results_missing_are_sent_directly():
 
 
 def _user(items):
-    from statescope.classify.run import PROMPT
+    from edictai.classify.run import PROMPT
 
     return PROMPT.format(count=len(items), items="\n".join(json.dumps(i) for i in items))
 
 
 def test_budget_stops_before_the_cap(repo):
-    from statescope.classify.instructions import write_instructions
+    from edictai.classify.instructions import write_instructions
 
     write_candidates(repo, [candidate(n) for n in range(1, 7)])
     store_texts(repo, range(1, 7))
@@ -449,11 +449,11 @@ def test_retry_once_then_drop(repo):
 
 
 def test_baseline_keys_are_skipped(repo):
-    from statescope.classify.run import unjudged, write_baseline
+    from edictai.classify.run import unjudged, write_baseline
 
     write_candidates(repo, [candidate(1), candidate(2)])
     cp = ClassifyPaths(repo)
-    from statescope.classify.common import load_candidates
+    from edictai.classify.common import load_candidates
 
     write_baseline(cp, [key(1)])
     assert unjudged(cp, load_candidates(repo.cache / "candidates" / "2026-10-17.jsonl")) == [key(2)]
@@ -538,8 +538,8 @@ def test_eval_gate_fails_when_the_classifier_misses(repo):
 
 
 def test_eval_gate_fetches_texts_the_cache_lacks(repo, monkeypatch):
-    from statescope.classify import evalgate
-    from statescope.classify.run import TextsResult
+    from edictai.classify import evalgate
+    from edictai.classify.run import TextsResult
 
     (repo.root / "pipeline" / "eval").mkdir(parents=True)
     entries = [
@@ -621,7 +621,7 @@ def test_refresh_appends_new_legiscan_actions_in_place(repo):
 def load_yaml_text(text):
     import yaml
 
-    from statescope.yamlio import RecordLoader
+    from edictai.yamlio import RecordLoader
 
     return yaml.load(text, Loader=RecordLoader)
 

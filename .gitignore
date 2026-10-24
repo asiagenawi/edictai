@@ -15,7 +15,7 @@ node_modules/
 .env*
 !.env.example
 
-# Build outputs (statescope build)
+# Build outputs (edictai build)
 build/
 
 # SQLite
@@ -29,7 +29,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Downloaded API responses (statescope ingest)
+# Downloaded API responses (edictai ingest)
 .cache/
 
 # Ask API local state (daily budget counter, anonymous leads)

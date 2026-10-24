@@ -266,7 +266,7 @@ def find_candidates(
     existing = existing or {}
     index_path = legiscan_cache / "sessions.json"
     if not index_path.exists():
-        raise FileNotFoundError(f"{index_path} not found; run `statescope ingest legiscan` first")
+        raise FileNotFoundError(f"{index_path} not found; run `edictai ingest legiscan` first")
     sessions = aligned_sessions(json.loads(index_path.read_text(encoding="utf-8")), listed or {})
     hits = _fulltext_hits(legiscan_cache)
     out_dir.mkdir(parents=True, exist_ok=True)

@@ -4,9 +4,9 @@ from pathlib import Path
 import pytest
 import yaml
 
-from statescope.records import load_records
-from statescope.validate import bill_slug, validate
-from statescope.vocab import Vocab
+from edictai.records import load_records
+from edictai.validate import bill_slug, validate
+from edictai.vocab import Vocab
 
 from .conftest import FIXTURES, REPO, TODAY, make_tree
 

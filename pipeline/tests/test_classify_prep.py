@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from statescope.classify.common import (
+from edictai.classify.common import (
     ClassifyPaths,
     bill_key,
     latest_text,
@@ -12,11 +12,11 @@ from statescope.classify.common import (
     slug_for,
     write_jsonl,
 )
-from statescope.classify.instructions import full_md, scope_section, triage_md, write_instructions
-from statescope.classify.prep import excerpts, full_item, prep_full, prep_triage, triage_item
-from statescope.classify.texts import TextStore
-from statescope.paths import Paths
-from statescope.vocab import Vocab
+from edictai.classify.instructions import full_md, scope_section, triage_md, write_instructions
+from edictai.classify.prep import excerpts, full_item, prep_full, prep_triage, triage_item
+from edictai.classify.texts import TextStore
+from edictai.paths import Paths
+from edictai.vocab import Vocab
 
 REPO = Path(__file__).resolve().parents[2]
 

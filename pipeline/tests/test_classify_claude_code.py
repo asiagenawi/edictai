@@ -7,8 +7,8 @@ from types import SimpleNamespace
 
 import pytest
 
-from statescope.classify.common import ClassifyPaths
-from statescope.classify.llm import (
+from edictai.classify.common import ClassifyPaths
+from edictai.classify.llm import (
     Budget,
     CappedBudget,
     ClaudeCodeError,
@@ -17,9 +17,9 @@ from statescope.classify.llm import (
     make_budget,
     spend_line,
 )
-from statescope.classify.run import run_workdir
-from statescope.classify.settings import Settings, SettingsError, load_settings, resolve_backend
-from statescope.paths import Paths
+from edictai.classify.run import run_workdir
+from edictai.classify.settings import Settings, SettingsError, load_settings, resolve_backend
+from edictai.paths import Paths
 
 from .conftest import REPO
 from .test_classify_run import (  # noqa: F401  (repo is a fixture)
@@ -291,7 +291,7 @@ def test_call_ledger_is_shared_and_kept_apart_from_dollars(tmp_path):
 
 
 def test_summary_reports_calls(repo, tmp_path):  # noqa: F811
-    from statescope.classify.summary import build_summary, markdown
+    from edictai.classify.summary import build_summary, markdown
 
     run = tmp_path / "run.json"
     spend = {"unit": "calls", "calls": 12, "cap_calls": 400, "usd_equivalent": 3.5,

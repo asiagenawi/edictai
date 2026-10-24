@@ -32,7 +32,7 @@ const ORG_TYPES: Record<string, string> = {
 };
 const total = page.rows.length;
 const dataPath = url(`states/${state.code}/records`);
-const repo = 'https://github.com/asiagenawi/statescope';
+const repo = 'https://github.com/asiagenawi/edictai';
 const citation = `Edictai (${asOf.slice(0, 4)}). ${state.name} [${state.id}]. AI policy in American education dataset, data as of ${asOf}. CC BY 4.0.`;
 const facetLabel = { type: (v: string) => v, level: (v: string) => LEVELS[v] ?? v, status: (v: string) => v, year: (v: string) => v };
 const facetValue = (key: keyof typeof page.facets, r: (typeof page.rows)[number]) =>

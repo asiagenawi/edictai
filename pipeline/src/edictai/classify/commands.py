@@ -1,4 +1,4 @@
-"""`statescope classify ...` subcommands."""
+"""`edictai classify ...` subcommands."""
 
 from __future__ import annotations
 

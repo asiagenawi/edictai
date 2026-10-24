@@ -1,6 +1,6 @@
 """The records, research, and existing articles an article is written from.
 
-Records and studies are read from the built database (build/statescope.db), the same
+Records and studies are read from the built database (build/edictai.db), the same
 build the site reads, so a note that resolves here resolves in the site build. A
 provision or finding is addressed by its position in the record's list, as the site
 addresses it.
@@ -101,7 +101,7 @@ def _rows(db: sqlite3.Connection, sql: str) -> list[sqlite3.Row]:
 
 def load_dataset(db_path: Path) -> Dataset:
     if not db_path.exists():
-        raise FileNotFoundError(f"{db_path} not found; run `statescope build` first")
+        raise FileNotFoundError(f"{db_path} not found; run `edictai build` first")
     db = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
     db.row_factory = sqlite3.Row
     try:

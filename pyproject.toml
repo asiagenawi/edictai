@@ -1,7 +1,7 @@
 [project]
-name = "statescope"
+name = "edictai"
 version = "0.1.0"
-description = "Validation and build pipeline for the StateScope AI-in-education policy dataset."
+description = "Validation and build pipeline for the Edictai AI-in-education policy dataset."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"
@@ -19,7 +19,7 @@ parquet = ["pyarrow>=18"]
 classify = ["anthropic>=1.6", "pypdf>=5"]
 
 [project.scripts]
-statescope = "statescope.cli:main"
+edictai = "edictai.cli:main"
 
 [dependency-groups]
 dev = [
@@ -33,7 +33,7 @@ requires = ["hatchling>=1.26"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["pipeline/src/statescope"]
+packages = ["pipeline/src/edictai"]
 
 [tool.hatch.build.targets.sdist]
 include = ["pipeline/src", "db/schema.sql"]
@@ -58,4 +58,4 @@ select = ["E", "F", "W", "I", "UP", "B", "SIM", "RUF"]
 ignore = ["E501"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["statescope"]
+known-first-party = ["edictai"]

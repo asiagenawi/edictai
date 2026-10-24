@@ -41,7 +41,7 @@ jobs:
       - name: Check pages
         run: |
           set +e
-          uv run --no-sync statescope watch \
+          uv run --no-sync edictai watch \
             --since "$(date -u -d '7 days ago' +%F)" \
             --json watch-report.json --markdown watch-report.md
           code=$?

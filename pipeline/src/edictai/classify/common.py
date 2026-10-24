@@ -185,7 +185,7 @@ def latest_candidates(cp: ClassifyPaths) -> Path:
     files = sorted(p for p in cp.candidates.glob("*.jsonl") if re.fullmatch(stem, p.stem))
     if not files:
         raise FileNotFoundError(
-            f"no candidate files in {cp.candidates}; run `statescope ingest candidates` first"
+            f"no candidate files in {cp.candidates}; run `edictai ingest candidates` first"
         )
     return files[-1]
 

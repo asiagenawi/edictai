@@ -1,6 +1,6 @@
 import pytest
 
-from statescope.ingest.session_ids import assign_identifiers, congress_number, special_ordinal
+from edictai.ingest.session_ids import assign_identifiers, congress_number, special_ordinal
 
 
 @pytest.mark.parametrize(

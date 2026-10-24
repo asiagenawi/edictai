@@ -9,7 +9,7 @@ body:
         Edictai covers AI policy for K-12 and higher education issued by state legislatures,
         Congress, governors, the President, state and federal agencies, public university and
         college systems, and accreditors. Policies of individual campuses or districts are out of
-        scope. See [the methodology](https://github.com/asiagenawi/statescope/blob/master/docs/methodology.md#scope).
+        scope. See [the methodology](https://github.com/asiagenawi/edictai/blob/master/docs/methodology.md#scope).
   - type: dropdown
     id: type
     attributes:

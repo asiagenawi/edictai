@@ -19,7 +19,7 @@ from dataclasses import dataclass, field
 ROBOTS_TOKEN = "EdictaiWatch"
 USER_AGENT = (
     f"{ROBOTS_TOKEN}/0.1 (Edictai, formerly StateScope, policy-page change watcher; "
-    "+https://github.com/asiagenawi/statescope)"
+    "+https://github.com/asiagenawi/edictai)"
 )
 MAX_BYTES = 20 * 1024 * 1024
 BLOCK_STATUSES = frozenset({401, 403, 429})

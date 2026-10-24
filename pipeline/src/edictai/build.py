@@ -561,7 +561,7 @@ def build(
     selected = _select(records, report, skip_invalid, log)
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    db_path = out_dir / "statescope.db"
+    db_path = out_dir / "edictai.db"
     vocab = Vocab.load(paths.vocab)
     try:
         notes = build_database(db_path, paths.db_schema, vocab, selected, today=today)
@@ -598,7 +598,7 @@ def _select(
         return list(records)
     if not skip_invalid:
         raise BuildError(
-            f"validation failed ({len(report.errors)} errors); run `statescope validate` "
+            f"validation failed ({len(report.errors)} errors); run `edictai validate` "
             "or pass --skip-invalid to build from the valid records only"
         )
     kept = [r for r in records if f"data/{r.rel}" not in report.invalid_files]

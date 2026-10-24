@@ -2,7 +2,7 @@
 
 Static [Astro](https://astro.build) site for Edictai, served from GitHub Pages at [edictai.org](https://edictai.org).
 
-Pages are generated at build time from the dataset tables that `statescope build`
+Pages are generated at build time from the dataset tables that `edictai build`
 writes to `../build/csv/`. Set `EDICTAI_BUILD_DIR` to use a build directory elsewhere.
 
 ## Build
@@ -11,7 +11,7 @@ Requires Node 22.22 or later and the Python pipeline (`uv`).
 
 ```sh
 # from the repository root: build the dataset
-uv run statescope build
+uv run edictai build
 
 # then the site
 cd site

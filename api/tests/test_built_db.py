@@ -1,6 +1,6 @@
-"""The tools against the database `statescope build` makes from data/.
+"""The tools against the database `edictai build` makes from data/.
 
-Skipped when build/statescope.db has not been built (run `statescope build`).
+Skipped when build/edictai.db has not been built (run `edictai build`).
 """
 
 import json
@@ -10,8 +10,8 @@ import pytest
 
 from conftest import REPO_DIR
 
-BUILT_DB = os.path.join(REPO_DIR, 'build', 'statescope.db')
-pytestmark = pytest.mark.skipif(not os.path.exists(BUILT_DB), reason='build/statescope.db not built')
+BUILT_DB = os.path.join(REPO_DIR, 'build', 'edictai.db')
+pytestmark = pytest.mark.skipif(not os.path.exists(BUILT_DB), reason='build/edictai.db not built')
 
 
 @pytest.fixture

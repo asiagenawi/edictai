@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from statescope.classify.score import Counts, format_report, load_eval, match, predicted_in, score
+from edictai.classify.score import Counts, format_report, load_eval, match, predicted_in, score
 
 REPO = Path(__file__).resolve().parents[2]
 

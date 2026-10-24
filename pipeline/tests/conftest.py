@@ -13,7 +13,7 @@ from pathlib import Path
 
 import pytest
 
-from statescope.paths import Paths
+from edictai.paths import Paths
 
 REPO = Path(__file__).resolve().parents[2]
 FIXTURES = Path(__file__).parent / "fixtures"
