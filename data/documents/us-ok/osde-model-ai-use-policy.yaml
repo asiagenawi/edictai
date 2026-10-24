@@ -11,12 +11,38 @@ topics:
   - instructional-use
   - student-privacy
   - procurement
+  - assessment
 summary: >-
   A template board policy from the Oklahoma State Department of Education, updated October 2026,
   that districts can adapt to meet the Oklahoma Responsible Technology in Schools Act. It covers
   definitions, roles, educator oversight, data privacy, parent opt-out, annual review, and an
   implementation deadline of the start of the 2027-2028 school year.
 updated: 2026-10
+provisions:
+  - type: requires-local-ai-policy
+    description: Sets the template's deadline for districts that adopt it, full compliance with the policy no later than the start of the 2027-28 school year, as the Act requires.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Model%20Policy%20AI%20Use%20in%20Schools%20Update%20October%202026.pdf
+      locator: Sec. XI (Implementation Timeline)
+      quote: full compliance required no later than the start of the 2027–2028 school year
+  - type: regulates-ai-assessment
+    description: Prohibits educators from using AI as the primary basis for grades, discipline, placement, or other major decisions.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Model%20Policy%20AI%20Use%20in%20Schools%20Update%20October%202026.pdf
+      locator: Sec. VI(A) (Educator Prohibited Uses of AI)
+      quote: Using AI as the primary basis for grades, discipline, placement, or major decisions.
+  - type: requires-disclosure
+    description: Requires annual notification to parents of the AI tools, vendors, student data collected and its use, and the purpose of each tool, notice within 30 days of new data-collecting tools, and the right to opt students out of any student-facing AI tool without penalty.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Model%20Policy%20AI%20Use%20in%20Schools%20Update%20October%202026.pdf
+      locator: Secs. VIII-IX (Transparency and Parent Notification; Parent/Guardian Opt-Out Rights)
+      quote: Parents/guardians may opt their student out of any student-facing AI tool at any time without penalty.
 authorized_by: us-ok-2025-2026-sb-1734
 related:
   - us-ok-osde-ai-guidance
@@ -25,7 +51,7 @@ sources:
     title: Model Policy Artificial Intelligence (Updated October 2026)
     publisher: Oklahoma State Department of Education
     kind: official
-    accessed: '2026-10-17'
+    accessed: '2026-10-24'
     archived_url: https://web.archive.org/web/20261011135054/https://www.oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Model%20Policy%20AI%20Use%20in%20Schools%20Update%20October%202026.pdf
   - url: https://oklahoma.gov/education/services/standards-learning/artificial-intelligence--ai--and-digital-learning1.html
     title: Artificial Intelligence (AI) and Digital Learning
@@ -35,6 +61,6 @@ sources:
     archived_url: https://web.archive.org/web/20261011135229/https://oklahoma.gov/education/services/standards-learning/artificial-intelligence--ai--and-digital-learning1.html
 verification:
   status: machine-verified
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-24'
   method: manual-source-fetch
-  notes: Model policy PDF fetched; date taken from the document's file name and the OSDE page link text ("Updated October 2026").
+  notes: Model policy PDF fetched again 2026-10-24 to add provisions from Secs. VI, VIII, IX, and XI. Model policy PDF fetched; date taken from the document's file name and the OSDE page link text ("Updated October 2026").

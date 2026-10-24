@@ -14,6 +14,7 @@ topics:
   - academic-integrity
   - ai-literacy
   - equity-access
+  - assessment
 summary: >-
   Oklahoma State Department of Education guidance for PK-12 schools, revised as Version 3.0 in
   July 2026 to incorporate the Oklahoma Responsible Technology in Schools Act (70 O.S. § 11-120).
@@ -40,6 +41,30 @@ provisions:
       source_url: https://www.oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Guidance%20for%20Using%20AI%20in%20Oklahoma%20Schools%20v.3.pdf
       locator: Part I, Sec. 3 and Sec. 5
       quote: 'High Risk (Red) All tools collecting sensitive information like student demographics or PII Use With Extreme Caution: Robust security measures and strict adherence to user consent. Requires administrative approval.'
+  - type: requires-local-ai-policy
+    description: States that every district must adopt a written AI policy before the 2027-28 school year and lists what it must address, including permitted and prohibited uses, data protection, family notification and opt-out, educator oversight, incident handling, and periodic review.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Guidance%20for%20Using%20AI%20in%20Oklahoma%20Schools%20v.3.pdf
+      locator: Part 1, District Policy & Compliance Checklist, p. 9
+      quote: Before the start of the 2027-28 school year, every district must have a written AI policy.
+  - type: regulates-ai-assessment
+    description: Bars AI from serving as the primary basis for grading, discipline, promotion or retention, placement, special education evaluations, or other decisions with material impact on a student's record.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Guidance%20for%20Using%20AI%20in%20Oklahoma%20Schools%20v.3.pdf
+      locator: Part 1, Sec. 3 (Prohibition on High-Stakes AI Decisions), p. 8
+      quote: AI may NOT serve as the primary basis for
+  - type: requires-disclosure
+    description: Requires districts to notify parents annually of the AI tools in use and to let parents opt students out of student-facing AI tools without academic penalty, with non-AI alternatives.
+    education_levels:
+      - k12
+    citation:
+      source_url: https://www.oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Guidance%20for%20Using%20AI%20in%20Oklahoma%20Schools%20v.3.pdf
+      locator: Part 1, Sec. 5 (Parent/Guardian Opt-Out Rights), p. 9
+      quote: Parents and guardians retain the right to opt their student out of student-facing AI tools without academic penalty.
 authorized_by: us-ok-2025-2026-sb-1734
 related:
   - us-ok-osde-model-ai-use-policy
@@ -48,7 +73,7 @@ sources:
     title: Guidance and Considerations for Using Artificial Intelligence in Oklahoma K-12 Schools, Version 3.0 (July 2026)
     publisher: Oklahoma State Department of Education
     kind: official
-    accessed: '2026-10-17'
+    accessed: '2026-10-24'
     archived_url: https://web.archive.org/web/20261011135054/https://www.oklahoma.gov/content/dam/ok/en/osde/ai-and-digital-learning/Guidance%20for%20Using%20AI%20in%20Oklahoma%20Schools%20v.3.pdf
   - url: https://oklahoma.gov/education/services/standards-learning/artificial-intelligence--ai--and-digital-learning1.html
     title: Artificial Intelligence (AI) and Digital Learning
@@ -58,10 +83,12 @@ sources:
     archived_url: https://web.archive.org/web/20261011135229/https://oklahoma.gov/education/services/standards-learning/artificial-intelligence--ai--and-digital-learning1.html
 verification:
   status: machine-verified
-  last_verified: '2026-10-17'
+  last_verified: '2026-10-24'
   method: manual-source-fetch
   notes: >-
-    Version 3.0 PDF fetched; cover states "Version 3.0 July 2026". Legacy record ("AI Guidance
+    Version 3.0 PDF fetched again 2026-10-24 to add the district policy, high-stakes decision,
+    and parent notification and opt-out provisions (Part 1, pp. 8-9). Version 3.0 PDF fetched;
+    cover states "Version 3.0 July 2026". Legacy record ("AI Guidance
     for Education", dated 2024-01-01, pointing at sde.ok.gov) described the earlier Version 1.0
     (last updated April 30, 2024 per search snippet; legacy PDF URL no longer resolves). Record
     now tracks the current version; the page says the document "is currently undergoing
