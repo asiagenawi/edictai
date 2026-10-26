@@ -1,0 +1,77 @@
+# Analysis. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: "Which states require schools to disclose their use of AI"
+dek: "Edictai records show six enacted laws in six states and a Florida board rule that require some disclosure of AI use. In Oklahoma, Utah and Florida, schools must tell parents about AI tools. Bills on automated decisions and school surveillance remain pending."
+type: "Analysis"
+published: "2026-10-26"
+data_release: "October 2026"
+caption: "States with laws, rules, guidance and bills on disclosing AI use to students and families, as recorded by Edictai in October 2026."
+sketch_note: "tell the parents"
+drawing: "map"
+brief:
+  - "Oklahoma requires districts to tell parents each year which AI tools they use, and lets parents opt students out without academic penalty."
+  - "Florida's State Board rule requires a parent to opt a child in before the student uses an AI instructional tool directly, with a non-AI alternative offered."
+  - "Colorado's automated decision law covers education enrollment, and deployers subject to FERPA can give its notices through FERPA processes and channels."
+  - "Bills in New York and New Jersey on high-risk AI, school surveillance and school devices have passed one chamber or remain in committee."
+body:
+  - p: "Oklahoma's SB 1734, signed May 12, requires every school district to give parents a written disclosure of its AI tools at least once a year and lets parents opt students out of student-facing AI tools without academic penalty [1]. Utah's H.B. 273 directs the state's model AI policy to require written notice to parents when a school or educator uses generative AI for instruction [2]. A Florida State Board of Education rule requires that parents be notified when an AI instructional tool is approved [3]."
+  - p: "As of October 2026, Edictai's records show 41 records across 17 jurisdictions with a provision requiring disclosure of AI use to students or families. Six are enacted laws, each in a different state, and three are current state documents. Of the remaining bills, three have passed one chamber, 17 remain in committee and 12 did not pass."
+  - p: "Not every enacted law points disclosure at families. Some direct it to teachers, to people affected by automated decisions or to a state legislature."
+  - table:
+      title: "Enacted laws and the Florida rule with disclosure provisions"
+      source: "Edictai records, October 2026."
+      columns: ["Measure", "State", "Who must be told", "Signed or published"]
+      rows:
+        - [{ record: us-ok-2025-2026-sb-1734 }, "Oklahoma", "Parents, at least annually", "12 May 2026"]
+        - [{ record: us-ut-2026-hb-273 }, "Utah", "Parents, through the model policy", "18 Mar 2026"]
+        - [{ record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, text: "State Board rule 6A-1.0957" }, "Florida", "Parents, when a tool is approved", "16 Sep 2026"]
+        - [{ record: us-il-2025-2026-sb-2909 }, "Illinois", "Teacher being evaluated", "10 Jul 2026"]
+        - [{ record: us-co-2026-sb-189 }, "Colorado", "Parents or eligible students, via FERPA channels", "14 May 2026"]
+        - [{ record: us-ca-2025-2026-ab-2392 }, "California", "The Legislature", "30 Sep 2026"]
+        - [{ record: us-fl-2024-hb-1361 }, "Florida", "Parents, access to AI interactions", "9 May 2024"]
+  - h: "Annual notice and opt-out in Oklahoma"
+  - p: "Under SB 1734, the annual disclosure must list the AI tools in use, their vendors, the data they collect and share, and each tool's purpose [1]. Each district board must also adopt an AI policy before the 2027-2028 school year, and transparency is one of the subjects it must cover [4]."
+  - p: "The State Department of Education's guidance, updated in July 2026, describes the annual notice and the opt-out and pairs the opt-out with non-AI alternatives [5]. The guidance is not binding. The department's model policy, updated in October 2026, adds a notice to parents within 30 days of any new tool that collects student data [6]. Districts that adopt the template must reach full compliance no later than the start of the 2027-28 school year [7]."
+  - h: "Notice and consent in Florida, Utah and South Carolina"
+  - p: "Florida's rule works through local internet safety policies, which every district and charter school board must amend to address AI instructional tools by July 1, 2027 [8]. Those policies must notify parents when a tool is approved [3]. A student may use a tool directly only if a parent opts the child in, and parents must be told of a comparable non-AI alternative [3]."
+  - p: "Utah's law works through the state board, which must publish a model AI use policy before December 1, 2026 [9]. That model must require written notice to parents when a school or educator uses generative AI for instruction, assessment or classroom activities [2]. Each local education agency must adopt a policy based on the model, and the model applies by default to any agency that does not adopt one [10]."
+  - p: "South Carolina's H. 5253 would require written, opt-in parental consent before a student uses AI in instruction, along with an annual written disclosure of AI tools, vendors and student data practices [11]. The bill has been in committee since it was introduced on February 24 [11]."
+  - h: "Other enacted disclosure duties"
+  - p: "Illinois's SB 2909, approved July 10, requires an evaluator who uses an AI tool to disclose the tool's name and specific purpose to the teacher being evaluated. The law takes effect January 1, 2027 [12]."
+  - p: "Florida's HB 1361, enacted in 2024, lets districts receive grant funds for AI platforms that support students in grades 6 through 12 [13]. A platform bought with those grants must give parents access to students' AI interactions [14]."
+  - p: "Under California's AB 2392, approved September 30, the state's public postsecondary systems must report to the Legislature on each systemwide generative AI contract until procurement standards are adopted [15]. Each report names the vendor, the intended use and the students, faculty or staff who will have access [15]."
+  - h: "Automated decision laws and bills that reach education"
+  - p: "Colorado's SB 189, signed May 14, regulates automated decision-making technology used in consequential decisions, and education enrollment or an education opportunity is a covered domain [16]. A deployer subject to FERPA meets the law's notice and disclosure duties for education decisions through FERPA processes, including notice to parents or eligible students [17]."
+  - p: "California's AB 1018, which has passed one chamber, would apply to consequential decisions on assessment and placement, admissions, discipline and financial aid [18]. It would take the same FERPA approach as Colorado [19]."
+  - p: "New York's S 1169, which passed the Senate on June 3, would require a covered deployer to tell a person, at the immediate onset of an engagement, that a high-risk AI system is used to make a consequential decision [20]. A 8884, an Assembly bill with the same notice provision, remains in committee [21]."
+  - h: "Pending bills on school surveillance and devices"
+  - p: "New Jersey's A 1323, which passed the Assembly 78-1 on February 24, would require boards that use surveillance systems with AI capabilities to post signs saying so and to give their policy on the system to parents and guardians [22]. The bill was referred to the Senate Education Committee on March 2, and S 3883, a Senate bill with the same provisions, is in that committee [22] [23]."
+  - p: "New York's FOCUS act, filed as A 11669 and S 10685, would require each school's written policy to include findings the department provides on educational technology, AI companions, generative AI and conversational AI, and to publish the policy on the school's website [24] [25]. Both bills remain in committee [24] [25]."
+  - h: "Deadlines ahead"
+  - p: "Florida's rule takes effect October 29, and district and charter school policies are due by July 1, 2027 [8]. Utah's model policy is due before December 1, Illinois's evaluation disclosure takes effect January 1, 2027, and Oklahoma districts must adopt their policies before the 2027-2028 school year [9] [12] [4]."
+notes:
+  - { record: us-ok-2025-2026-sb-1734, provision: 3 }
+  - { record: us-ut-2026-hb-273, provision: 4 }
+  - { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, provision: 1 }
+  - { record: us-ok-2025-2026-sb-1734, provision: 5 }
+  - { record: us-ok-osde-ai-guidance, provision: 4 }
+  - { record: us-ok-osde-model-ai-use-policy, provision: 2 }
+  - record: us-ok-osde-model-ai-use-policy
+  - record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools
+  - record: us-ut-2026-hb-273
+  - { record: us-ut-2026-hb-273, provision: 1 }
+  - record: us-sc-2025-2026-h-5253
+  - record: us-il-2025-2026-sb-2909
+  - record: us-fl-2024-hb-1361
+  - { record: us-fl-2024-hb-1361, provision: 2 }
+  - { record: us-ca-2025-2026-ab-2392, provision: 3 }
+  - record: us-co-2026-sb-189
+  - { record: us-co-2026-sb-189, provision: 1 }
+  - record: us-ca-2025-2026-ab-1018
+  - { record: us-ca-2025-2026-ab-1018, provision: 1 }
+  - { record: us-ny-2025-2026-s-1169, provision: 1 }
+  - { record: us-ny-2025-2026-a-8884, provision: 1 }
+  - { record: us-nj-2026-2027-a-1323, provision: 1 }
+  - { record: us-nj-2026-2027-s-3883, provision: 1 }
+  - { record: us-ny-2025-2026-a-11669, provision: 1 }
+  - { record: us-ny-2025-2026-s-10685, provision: 1 }
