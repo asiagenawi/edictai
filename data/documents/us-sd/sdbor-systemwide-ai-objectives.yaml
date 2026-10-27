@@ -11,22 +11,47 @@ topics:
   - ai-literacy
   - curriculum-standards
   - research
-summary: 'The South Dakota Board of Regents announced systemwide objectives for adopting AI at the state''s public universities. The work is organized into five components: governance and infrastructure, curricular and program impacts, agentic AI in operations, research, and AI literacy for students, faculty, and staff.'
-published: '2026-05-20'
+  - task-force
+summary: 'The South Dakota Board of Regents announced systemwide objectives for adopting AI at the state''s
+  public universities. The work is organized into five components: governance and infrastructure, curricular
+  and program impacts, agentic AI in operations, research, and AI literacy for students, faculty, and
+  staff. A systemwide AI Advisory Committee, with members from the System Office and each university and
+  supported by focused workgroups, coordinates and governs these initiatives.'
+published: "2026-05-20"
+provisions:
+  - type: creates-task-force
+    description: Establishes a systemwide AI Advisory Committee with members from the System Office and
+      each university. The committee coordinates and governs systemwide AI initiatives and is supported
+      by workgroups on governance, policy, and risk; academic innovation and student success; communications;
+      research; faculty practice; and operations.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://sdbor.edu/ai-ready/
+      locator: AI Advisory and Governance Model
+      quote: SDBOR has established a systemwide AI Advisory Committee with representatives from the System
+        Office and each university. The committee coordinates and governs systemwide AI initiatives, while
+        focused workgroups led by committee members provide additional support.
+revisions:
+  - observed: "2026-10-27"
+    url: https://sdbor.edu/ai-ready/
+    sha256: 13182615ebab8ffbc5fffefd600095db523e2879b7a8b25d101026597e36a297
+    note: Page now describes a systemwide AI Advisory and Governance Committee with supporting workgroups,
+      and moves the AI platform and training program targets from late September 2026 to Spring 2027.
 sources:
   - url: https://sdbor.edu/news/bor-systemwide-objectives-for-ai-integration-5-20-26/
     title: BOR Systemwide Objectives for AI Integration
     publisher: South Dakota Board of Regents
     kind: official
-    accessed: '2026-10-17'
+    accessed: "2026-10-27"
     archived_url: https://web.archive.org/web/20260611095951/https://sdbor.edu/news/bor-systemwide-objectives-for-ai-integration-5-20-26/
   - url: https://sdbor.edu/ai-ready/
     title: AI at South Dakota's Public Universities
     publisher: South Dakota Board of Regents
     kind: official
-    accessed: '2026-10-17'
+    accessed: "2026-10-27"
     archived_url: https://web.archive.org/web/20260918122336/https://sdbor.edu/ai-ready/
 verification:
   status: machine-verified
-  last_verified: '2026-10-17'
-  method: manual-fetch
+  last_verified: "2026-10-27"
+  method: change-watcher
