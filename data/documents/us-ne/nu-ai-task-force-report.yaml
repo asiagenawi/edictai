@@ -1,0 +1,85 @@
+id: us-ne-nu-ai-task-force-report
+jurisdiction: us-ne
+issuer: us-ne-nu
+title: University of Nebraska AI Task Force Report and Recommendations
+classification: report
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - task-force
+  - ai-literacy
+  - curriculum-standards
+  - workforce
+  - educator-training
+  - research
+  - instructional-use
+  - institutional-operations
+summary: Report of the University of Nebraska System AI Task Force recommending a system-wide NU AI Institute
+  with campus-specific Centers of Excellence, NU-wide undergraduate AI literacy competencies, AI degree,
+  certificate and micro-credential programs, strategic cluster hiring, and enterprise-wide AI tools. It
+  also recommends system-wide policies and professional development on responsible AI use, and sorts first
+  steps into those that need additional investment and those that do not.
+provisions:
+  - type: creates-task-force
+    description: The NU System set up an AI Task Force to recommend a system-wide strategy for AI research,
+      education, innovation and workforce development.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://nebraska.edu/offices/provosts-office/academic-affairs/nu-ai-taskforce
+      locator: Report and Recommendations (introduction)
+      quote: the University of Nebraska System established an AI Task Force to recommend a comprehensive,
+        forward-looking strategy for integrating AI research, education, innovation and workforce development
+        across the NU System
+  - type: requires-ai-literacy-instruction
+    description: Recommends NU-wide core undergraduate AI competencies covering technical, evaluative,
+      practical and ethical AI literacy.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://nebraska.edu/offices/provosts-office/academic-affairs/nu-ai-taskforce
+      locator: Build AI Competencies Across NU — Core Undergraduate AI Competencies
+      quote: Develop NU-wide AI technology competencies in technical, evaluative, practical, and ethical
+        AI literacy.
+  - type: ai-workforce-program
+    description: Recommends interdisciplinary AI certificate programs and minors open to students in all
+      disciplines, plus pilot micro-credential programs.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://nebraska.edu/offices/provosts-office/academic-affairs/nu-ai-taskforce
+      locator: Build AI Competencies Across NU — Key Curricular Initiatives
+      quote: Develop interdisciplinary AI certificate programs and minors accessible to students across
+        all disciplines.
+  - type: educator-pd-requirement
+    description: Recommends funding AI training and support positions and giving financial support for
+      AI-focused training and workshops for faculty and staff.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://nebraska.edu/offices/provosts-office/academic-affairs/nu-ai-taskforce
+      locator: AI Tool Use and Professional Development
+      quote: Fund AI-dedicated training and support positions at system and campus levels.
+  - type: issues-model-policy
+    description: Lists developing and sharing policies and best practices on AI use for students, faculty
+      and staff as a first step that does not need significant new investment.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://nebraska.edu/offices/provosts-office/academic-affairs/nu-ai-taskforce
+      locator: Prioritized First Steps (Without Significant Additional Investments)
+      quote: Develop and disseminate policies and best practices on AI usage for students, faculty, and
+        staff.
+sources:
+  - url: https://nebraska.edu/offices/provosts-office/academic-affairs/nu-ai-taskforce
+    title: University of Nebraska AI Taskforce
+    publisher: University of Nebraska System
+    kind: official
+    accessed: "2026-10-27"
+verification:
+  status: machine-verified
+  last_verified: "2026-10-27"
+  method: change-watcher
+  notes: Found by the change watcher on https://nebraska.edu/offices/provosts-office/academic-affairs/nu-ai-taskforce
+    (observed 2026-10-27); fields checked against the source text by claude-opus-5-5.
