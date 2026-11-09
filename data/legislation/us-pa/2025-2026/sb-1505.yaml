@@ -1,0 +1,92 @@
+id: us-pa-2025-2026-sb-1505
+jurisdiction: us-pa
+session: 2025-2026
+identifier: SB 1505
+title: In school safety and security, providing for prohibition of artificial intelligence for school-based
+  mental health and counseling.
+classification: bill
+education_levels:
+  - k12
+topics:
+  - safety-wellbeing
+  - instructional-use
+  - procurement
+summary: Prohibits school entities from using AI, AI chatbots, or generative AI to provide services that
+  would constitute the practice of a school-based mental health professional. Also bars AI suppliers from
+  contracting with school entities to provide such systems.
+provisions:
+  - type: chatbot-minor-protections
+    description: School entities may not use AI or chatbots to provide services that would constitute
+      school-based mental health practice.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1505/PN2069
+      locator: Section 1323-B(a)
+      quote: a school entity may not utilize artificial intelligence, artificial intelligence chatbots
+        or generative artificial intelligence, including synthetic content, to provide a service or experience
+        to a student
+  - type: procurement-standards
+    description: AI suppliers may not contract with school entities to provide AI systems programmed to
+      deliver school-based mental health services.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1505/PN2069
+      locator: Section 1323-B(b)
+      quote: An artificial intelligence supplier shall not enter into a contract with a school entity
+        to provide an artificial intelligence system
+  - type: limits-ai-instructional-use
+    description: Bars school entities from using AI mental health systems to diagnose, counsel, treat,
+      or pose as school counselors.
+    citation:
+      source_url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1505/PN2069
+      locator: Section 1323-B(c)
+      quote: 'A school entity may not use or provide the use of an artificial intelligence mental health
+        system to:'
+sponsors:
+  - name: Nicholas Miller
+    primary: true
+    party: D
+    chamber: upper
+  - name: Jay Costa
+    primary: false
+    party: D
+    chamber: upper
+  - name: Christine Tartaglione
+    primary: false
+    party: D
+    chamber: upper
+  - name: Amanda Cappelletti
+    primary: false
+    party: D
+    chamber: upper
+  - name: Nick Pisciottano
+    primary: false
+    party: D
+    chamber: upper
+actions:
+  - date: "2026-10-26"
+    description: Referred to Education
+    actor: upper
+    classification:
+      - referral-committee
+      - introduction
+versions:
+  - note: Introduced
+    date: "2026-10-26"
+    url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1505/PN2069
+    media_type: application/pdf
+external_ids:
+  legiscan_bill_id: 2161270
+sources:
+  - url: https://www.palegis.us/legislation/bills/2025/sb1505
+    title: SB 1505 bill page
+    kind: official
+    accessed: "2026-11-09"
+  - url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1505/PN2069
+    title: SB 1505 text (Introduced)
+    kind: official
+    accessed: "2026-11-09"
+verification:
+  status: machine-verified
+  last_verified: "2026-11-09"
+  method: legiscan-text+classifier
+  notes: Actions, sponsors, and versions from the LegiScan API (https://legiscan.com), CC BY 4.0; scope,
+    codes, summary, and provisions by the classifier from the bill text.
