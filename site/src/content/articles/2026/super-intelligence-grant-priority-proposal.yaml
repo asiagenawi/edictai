@@ -1,0 +1,59 @@
+# Explainer. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: "What the Education Department's proposed 'Super Intelligence' grant priority would change"
+dek: "The Education Department proposed on November 5 to rename its AI grant priority \"Super Intelligence\" and add AI literacy and educator training activities. Related federal bills in Edictai's records include 30 in committee, 17 that failed and one that passed a chamber; none is enacted."
+type: "Explainer"
+published: "2026-11-09"
+data_release: "November 2026"
+caption: "Federal records on AI grant priorities in education, as recorded by Edictai in November 2026."
+sketch_note: "ai becomes si"
+drawing: "capitol"
+brief:
+  - "On November 5, the Education Department proposed replacing \"Artificial Intelligence\" with \"Super Intelligence\", with limited exceptions, in its supplemental grant priority on AI in education."
+  - "The proposal would add AI literacy efforts aligned with a February 2026 Department of Labor framework, plus training for educators on age-appropriate teaching methods."
+  - "The priority it would amend took effect on May 13, 2026, and favors grant projects on AI courses, certifications and educator professional development."
+  - "None of the related federal bills in Edictai's records has been enacted: 30 remain in committee, 17 did not pass and one has passed one chamber."
+body:
+  - p: "The U.S. Department of Education proposed on November 5 to rename its supplemental grant priority on Advancing Artificial Intelligence in Education, replacing \"Artificial Intelligence\" with \"Super Intelligence\" and \"AI\" with \"SI\" in the priority and its definitions [1]. The notice, which covers K-12 and postsecondary education, would also add activities that Department grant competitions could give priority to, including AI literacy work aligned with a Department of Labor framework and training for educators [2] [3]."
+  - p: "The notice is a proposal, not a final rule. As of November 9, 2026, Edictai's records show 65 federal records that share its provision types, including Department grant notices, an executive order and bills in Congress."
+  - h: "What the proposal would change"
+  - p: "With limited exceptions that the notice describes, the new term would replace the old one every time it appears [1]. The notice would also rename and revise the priority's definitions [1]."
+  - p: "One new activity appears under a proposed priority on career pathways and workforce readiness. It is promoting literacy efforts aligned with the five content areas and seven delivery principles of the Department of Labor's Artificial Intelligence Literacy Framework, dated February 13, 2026 [2]. Another new activity is support and training for educators on age-appropriate methods for teaching the subject [3]."
+  - h: "The priority it would amend"
+  - p: "The priority that would be renamed took effect on May 13, 2026, under a final rule published on April 13 [4]. It makes several kinds of projects eligible for priority in the Department's discretionary grant competitions. One kind is professional development that helps educators bring AI fundamentals into their subject areas [4]. Projects that create AI courses and in-demand certification programs for high school students also qualify [5]."
+  - h: "The executive order on AI education"
+  - p: "Executive Order 14277, signed on April 23, 2025, directs the Secretary of Education to give priority to AI in discretionary teacher-training grant programs, including professional development so that all educators can integrate AI fundamentals into all subject areas [6]. It also directs the Secretary to issue guidance on using formula and discretionary grant funds to improve education outcomes with AI [7]."
+  - p: "The order directs the Secretary of Labor to expand Registered Apprenticeships in AI-related occupations and to support AI courses and certification programs for high school students [8]."
+  - h: "Department grant notices and priorities that include AI"
+  - p: "The notice for Fund for the Improvement of Postsecondary Education Special Projects grants, published on November 12, 2025, dedicates two of its seven absolute priorities to AI in postsecondary education [9]. One of them funds partnerships with state and local education agencies on dual-enrollment AI coursework that leads to postsecondary and industry-recognized credentials for high school students [10]."
+  - p: "Three grant notices published on July 14, 2025, for the Native American-Serving Nontribal Institutions, Alaska Native and Native Hawaiian-Serving Institutions, and Asian American and Native American Pacific Islander-Serving Institutions programs include an invitational priority on AI. It covers projects that bring AI tools into teaching or student support services, or that expand students' understanding of AI [11] [12] [13]."
+  - p: "Other documents add AI to existing programs. A final priority on meaningful learning opportunities, effective March 16, 2026, covers high-impact tutoring programs whose delivery models may include AI [14]. Final priorities for the Rehabilitation Long-Term Training program require funded programs to train scholars to understand how assistive technology and AI tools are integrated into vocational rehabilitation services [15]. In an Institute of Education Sciences notice, the Department estimated $8,000,000 to $10,000,000 in total for a research and development center on using generative AI to improve instruction in postsecondary education [16]."
+  - h: "Bills in Congress, none enacted"
+  - p: "None of the related bills in Edictai's records has been enacted: 30 remain in committee, 17 did not pass and one has passed one chamber."
+  - p: "H.R. 10530 was introduced on September 24 and referred to the House Committee on Education and Workforce. It would direct the Department's Office of Educational Technology to build the capacity of local educational agencies and educator preparation programs to support digital literacy skills, including skills related to AI [17]."
+  - p: "H.R. 5466, the GUARD Act, remains in the House Committee on Armed Services. It would require each National Security and Defense AI Institute hosted at a senior military college to support workforce development in AI-related fields [18]. H.R. 1000 has passed one chamber. It would provide full-tuition scholarships for two-year programs in cyber-relevant fields, which the bill defines to include AI [19] [20]."
+  - h: "What happens next"
+  - p: "The November 5 notice remains a proposal. The Department's tutoring priority went through both steps in Edictai's records: a proposed version was published on September 25, 2025, and a final version on February 12, 2026 [21] [14]."
+  - p: "Until the Department publishes final priorities, the AI priority in force in Edictai's records is the one that took effect on May 13, with its current AI terms and activities [4]."
+notes:
+  - record: us-fr-2026-22615
+  - { record: us-fr-2026-22615, provision: 1 }
+  - { record: us-fr-2026-22615, provision: 2 }
+  - record: us-ed-ai-supplemental-priority-final
+  - { record: us-ed-ai-supplemental-priority-final, provision: 1 }
+  - { record: us-eo-14277, provision: 2 }
+  - { record: us-eo-14277, provision: 1 }
+  - { record: us-eo-14277, provision: 3 }
+  - record: us-fr-2025-19843
+  - { record: us-fr-2025-19843, provision: 3 }
+  - record: us-fr-2025-13151
+  - record: us-fr-2025-13153
+  - record: us-fr-2025-13154
+  - record: us-fr-2026-02854
+  - { record: us-fr-2025-11117, provision: 1 }
+  - record: us-fr-2024-30435
+  - record: us-119-hr-10530
+  - record: us-119-hr-5466
+  - { record: us-119-hr-1000, provision: 1 }
+  - record: us-119-hr-1000
+  - record: us-fr-2025-18640

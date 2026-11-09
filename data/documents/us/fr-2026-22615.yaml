@@ -1,0 +1,58 @@
+id: us-fr-2026-22615
+jurisdiction: us
+issuer: us-ed
+title: Proposed Priorities and Definitions-Secretary's Supplemental Priorities and Definitions
+classification: program
+status: current
+education_levels:
+  - k12
+  - postsecondary
+topics:
+  - ai-literacy
+  - curriculum-standards
+  - funding
+  - educator-training
+summary: Proposes amendments to the Education Department's supplemental grant priorities, including renaming
+  the priority on Advancing Artificial Intelligence in Education and its AI and AI literacy definitions
+  to 'Super Intelligence' and revising the literacy definition. Also proposes adding AI-related activities
+  such as courses, educator training, and reference to a Department of Labor AI literacy framework.
+published: "2026-11-05"
+provisions:
+  - type: appropriates-funding
+    description: Proposes renaming and revising the AI in Education grant priority and its definitions,
+      replacing 'Artificial Intelligence' with 'Super Intelligence'.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions
+      locator: Current Priorities and Definitions / Proposed Priorities and Definitions, 91 FR 69736
+      quote: We propose, with limited exceptions described in the next paragraph, to use the term ``Super
+        Intelligence'' to replace ``Artificial Intelligence'' and use ``SI'' to replace ``AI'' in every
+        use of the terms.
+  - type: requires-ai-literacy-instruction
+    description: Priority activities include promoting AI literacy aligned with the Department of Labor's
+      AI Literacy Framework.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions
+      locator: Proposed priority on Career Pathways and Workforce Readiness, paragraph (ix)
+      quote: Promoting SI literacy efforts aligned with the five content areas and seven delivery principles
+        outlined within the Department of Labor's February 13, 2026 Artificial Intelligence Literacy Framework
+        (Notice 07-25).
+  - type: educator-pd-requirement
+    description: Priority activity supports training for educators on age-appropriate AI education methods.
+    citation:
+      source_url: https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions
+      locator: Proposed priority, paragraph (xiii)
+      quote: Providing support and training to educators on age- appropriate SI education methodologies
+        that emphasize foundational
+sources:
+  - url: https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions
+    title: Proposed Priorities and Definitions-Secretary's Supplemental Priorities and Definitions (91
+      FR 69736), FR Doc. 2026-22615
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-11-09"
+verification:
+  status: machine-verified
+  last_verified: "2026-11-09"
+  method: federal-register-text+classifier
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.
