@@ -1,0 +1,39 @@
+id: us-wi-dpi-ai-student-services-guidance
+jurisdiction: us-wi
+issuer: us-wi-k12-agency
+title: AI and Student Services
+classification: guidance
+status: current
+education_levels:
+  - k12
+topics:
+  - instructional-use
+  - ai-literacy
+  - safety-wellbeing
+  - student-privacy
+  - equity-access
+  - institutional-operations
+summary: Wisconsin Department of Public Instruction web guidance for school counselors, social workers,
+  nurses, and psychologists on using AI in student services. It lists example uses for communication,
+  prevention and intervention, administrative tasks, data analysis, and accessibility. It also covers
+  AI literacy, student well-being, and social emotional learning, and summarizes profession-specific ethical
+  guidelines on confidentiality, bias, data privacy, and using AI as a support tool rather than a replacement
+  for professional judgment.
+related:
+  - us-wi-dpi-ai-guidance-k12-library-education
+sources:
+  - url: https://dpi.wi.gov/imt/ai-guidance/academic-support-faculty
+    title: AI and Student Services
+    publisher: Wisconsin Department of Public Instruction
+    kind: official
+    accessed: "2026-11-10"
+  - url: https://dpi.wi.gov/imt/ai-guidance/wisconsins-dpi-ai-guidance-hub
+    publisher: Wisconsin Department of Public Instruction
+    kind: official
+    accessed: "2026-11-10"
+verification:
+  status: machine-verified
+  last_verified: "2026-11-10"
+  method: change-watcher
+  notes: Found by the change watcher on https://dpi.wi.gov/imt/ai-guidance/wisconsins-dpi-ai-guidance-hub
+    (observed 2026-11-07); fields checked against the source text by claude-opus-5-5.
