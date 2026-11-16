@@ -1,0 +1,65 @@
+# State brief. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: "What Oklahoma's AI laws and guidance require of schools"
+dek: "Oklahoma enacted two laws in 2026 touching AI in K-12 schools, one setting statewide rules and a district policy deadline. Of 10 other bills, seven failed, one was vetoed and two remain in committee. None of the three that reach colleges is enacted."
+type: "State brief"
+published: "2026-11-16"
+data_release: "November 2026"
+caption: "Oklahoma, whose AI-in-education laws, guidance and bills are recorded by Edictai as of November 2026."
+sketch_note: "a teacher checks first"
+drawing: "gavel"
+brief:
+  - "SB 1734, approved May 12, requires educator review of AI outputs and bars AI as the primary basis for grading, discipline or placement."
+  - "Oklahoma districts must disclose AI tools to parents yearly, allow opt-outs without academic penalty, and adopt an AI policy before the 2027-2028 school year."
+  - "The State Department of Education updated its non-binding K-12 guidance in July and a model board policy in October to help districts meet the law."
+  - "Bills to add AI to computer science standards and to fund AI education did not become law, and two 2024 bills remain in committee."
+body:
+  - p: "SB 1734, the Oklahoma Responsible Technology in Schools Act, requires public school districts to keep artificial intelligence tools under educator direction [1]. An educator or authorized school employee must review AI outputs before they are used in instruction, feedback, assessment or decision-making [1]."
+  - p: "As of November 16, 2026, Edictai's records show 14 Oklahoma records on AI in education: 12 bills and two current documents from the Oklahoma State Department of Education. All 14 apply to K-12 schools. Three bills also reach colleges, and none of the three is enacted."
+  - h: "The Responsible Technology in Schools Act"
+  - p: "SB 1734, approved by the governor on May 12, bars AI from being the primary basis for student grading, discipline, placement, promotion, retention or other high-stakes educational decisions [2]."
+  - p: "The law also ties AI tools to student privacy law. Tools must comply with privacy laws including FERPA, and districts must take reasonable steps to minimize the student data they share with AI tools [3]."
+  - p: "Districts must give parents a written disclosure at least once a year listing the AI tools in use, the vendors, the data collected and shared, and each tool's purpose [4]. Parents may opt their children out of student-facing AI tools without academic penalty [4]."
+  - p: "Each district board of education must adopt a policy on AI and emerging technologies before the 2027-2028 school year [5]. The policy must cover oversight roles, permitted and prohibited uses, data protection, transparency and periodic review [5]. The law directs the State Department of Education to develop guidance for districts on responsible use of AI and emerging technologies [6]."
+  - h: "A graduation waiver for work done without AI"
+  - p: "HB 3021, enacted in May, lets a school district waive Oklahoma history graduation requirements for a student who completes a project or paper without the assistance of AI, subject to district approval [7]. It is the second enacted law among Oklahoma's records."
+  - h: "State guidance and model policy"
+  - p: "The State Department of Education's K-12 AI guidance, updated in July, states that every district must have a written AI policy before the 2027-28 school year [8]. It lists what the policy must address, including family notification and opt-out, educator oversight and incident handling [8]."
+  - p: "The guidance also covers purchasing and instruction. It offers a risk-tiered framework for vetting AI tools by the student data they collect, with administrative approval required for high-risk tools [9]. It sets out academic integrity guidelines, including an AI acceptable use rating scale for assignments [10]. The guidance itself is not binding."
+  - p: "In October, the department updated a model board policy that districts can adapt to meet the act [11]. Like the guidance, it is not binding. A district that adopts it commits to full compliance no later than the start of the 2027-28 school year [11]."
+  - p: "The model policy bars educators from using AI as the primary basis for grades, discipline, placement or other major decisions [12]. It also provides for notice to parents within 30 days of any new data-collecting tool, and for opting students out of any student-facing AI tool without penalty [13]."
+  - h: "Bills that failed or were vetoed"
+  - p: "Seven Oklahoma bills in Edictai's records failed and one was vetoed. Three of them, as introduced, would have written AI into the state's computer science standards."
+  - p: "SB 410 and HB 1304, both introduced in 2025, would have required rules so that all grades of the Oklahoma Academic Standards for Computer Science include instruction on AI, including what it is and how it works [14] [15]. Neither passed. HB 1521 carried similar language as introduced, but the AI provisions were removed by amendment, and the governor vetoed the bill on May 28, 2025 [16]."
+  - p: "HB 1782 would have created the Oklahoma AI Education Innovation Act and a revolving fund that agencies could use for AI tools, educator training, curriculum and student AI literacy programs [17]. It would also have created an Oklahoma AI Education Advisory Council including K-12 and higher education officials and educators [18]. Its enacting clause was stricken on April 16 [17]."
+  - p: "Two other failed bills dealt with student data and media literacy. HB 3547 would have let parents opt their children out of predictive analytics models and AI training datasets [19]. HB 1983 would have required a middle school media literacy and cybersecurity course that covered identifying deepfakes and AI [20]."
+  - h: "Bills still in committee"
+  - p: "Two 2024 bills remain in committee. HB 3827 would direct the State Department of Education to offer teachers a professional development program on AI tools and methods [21]. It would also have the department provide age-appropriate AI education modules covering ethics, bias and responsible use [22]. The bill would create the Oklahoma Artificial Intelligence Education Revolving Fund for teacher and district assistance and AI resource purchases [23]."
+  - p: "HB 3835, the proposed Ethical Artificial Intelligence Act, would bring automated decision tools used for education decisions, including assessment and the detection of student cheating or plagiarism, under its impact assessment and anti-discrimination rules [24]. Its last recorded action was a referral to the Rules committee on February 6, 2024 [24]."
+  - h: "The district policy deadline"
+  - p: "The next fixed date in Oklahoma's records falls on districts. Each district board must adopt its AI policy before the 2027-2028 school year begins [5]. The department's model policy sets the same point, the start of 2027-28, for full compliance by districts that adopt it [11]."
+notes:
+  - record: us-ok-2025-2026-sb-1734
+  - { record: us-ok-2025-2026-sb-1734, provision: 1 }
+  - { record: us-ok-2025-2026-sb-1734, provision: 2 }
+  - { record: us-ok-2025-2026-sb-1734, provision: 3 }
+  - { record: us-ok-2025-2026-sb-1734, provision: 5 }
+  - { record: us-ok-2025-2026-sb-1734, provision: 4 }
+  - record: us-ok-2025-2026-hb-3021
+  - { record: us-ok-osde-ai-guidance, provision: 2 }
+  - { record: us-ok-osde-ai-guidance, provision: 1 }
+  - record: us-ok-osde-ai-guidance
+  - record: us-ok-osde-model-ai-use-policy
+  - { record: us-ok-osde-model-ai-use-policy, provision: 1 }
+  - { record: us-ok-osde-model-ai-use-policy, provision: 2 }
+  - record: us-ok-2025-2026-sb-410
+  - record: us-ok-2025-2026-hb-1304
+  - record: us-ok-2025-2026-hb-1521
+  - record: us-ok-2025-2026-hb-1782
+  - { record: us-ok-2025-2026-hb-1782, provision: 1 }
+  - record: us-ok-2025-2026-hb-3547
+  - record: us-ok-2025-2026-hb-1983
+  - record: us-ok-2024-hb-3827
+  - { record: us-ok-2024-hb-3827, provision: 1 }
+  - { record: us-ok-2024-hb-3827, provision: 2 }
+  - record: us-ok-2024-hb-3835

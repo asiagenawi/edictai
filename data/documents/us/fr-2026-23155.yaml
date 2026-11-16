@@ -1,0 +1,26 @@
+id: us-fr-2026-23155
+jurisdiction: us
+issuer: us-ed
+title: Request for Information
+classification: statement
+status: current
+education_levels:
+  - k12
+topics:
+  - data-governance
+  - research
+summary: Requests public input from the Department of Education's NCEE on key questions for future evaluations
+  of IDEA implementation. One question asks how data collection and dissemination could be optimized for
+  future AI applications and uses.
+published: "2026-11-13"
+sources:
+  - url: https://www.federalregister.gov/documents/2026/11/13/2026-23155/request-for-information
+    title: Request for Information (91 FR 73218), FR Doc. 2026-23155
+    publisher: Federal Register
+    kind: official
+    accessed: "2026-11-16"
+verification:
+  status: unverified
+  notes: Dates and identifiers from the Federal Register API; scope, codes, summary, and provisions by
+    the classifier from the document text. Status not checked against later Federal Register documents.
+    No quoted provisions.
