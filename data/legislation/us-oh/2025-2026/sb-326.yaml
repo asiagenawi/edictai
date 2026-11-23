@@ -123,6 +123,11 @@ actions:
     actor: lower
     classification:
       - introduction
+  - date: "2026-11-10"
+    description: 'Referred to committee: Education'
+    actor: lower
+    classification:
+      - referral-committee
 versions:
   - note: Introduced
     url: https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/00_IN/pdf/

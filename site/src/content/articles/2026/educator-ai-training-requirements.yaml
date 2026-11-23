@@ -1,0 +1,80 @@
+# Analysis. Each [n] in the text is a note below; notes name a record by its id, and the
+# jurisdiction, identifier, title, status, quote and link are read from the data at build time.
+title: "Which states require or fund AI training for teachers"
+dek: "Of 15 enacted measures on educator AI training in Edictai's records, only Tennessee's set a completion deadline for teachers. Another 31 bills remain in committee, one has passed a chamber and 22 did not pass."
+type: "Analysis"
+published: "2026-11-23"
+data_release: "November 2026"
+caption: "States with enacted laws on AI training for educators, as recorded by Edictai in November 2026."
+sketch_note: "teachers take the course"
+drawing: "classroom"
+brief:
+  - "Tennessee requires teachers in grades six through 12 to finish a state-approved AI course by August 1, 2028, or within two years of licensure."
+  - "Maryland, Idaho and Connecticut direct a state agency or a state AI academy to provide AI training, courses or plans for educators."
+  - "Michigan, North Carolina and Virginia tie educator AI training to budget funds or to a pilot program that runs subject to appropriation."
+  - "A federal grant priority covers educator AI training projects, and a November 5 proposal would add training on age-appropriate methods."
+body:
+  - p: "Tennessee requires teachers in grades six through 12 to complete a state-approved course on artificial intelligence by August 1, 2028, or within two years of becoming licensed, whichever is later [1]. Its Department of Education must provide at least one asynchronous professional development course on classroom AI use [2]. The same provisions appear in HB 545, the companion to SB 677 [3]."
+  - p: "As of November 2026, Edictai's records show 76 records in 27 jurisdictions that require or fund AI professional development for educators. Of the bills in that group, 15 were enacted in 10 states, 31 remain in committee, one has passed a chamber and 22 did not pass. Ten of the 15 enacted measures became law in 2026. One of them, Connecticut's 2024 SB 5, included AI training funds only as introduced, and its AI provisions were removed by amendment [4]."
+  - table:
+      title: "Selected enacted laws on educator AI training"
+      source: "Edictai records, November 2026."
+      columns: ["Law", "State", "Who is trained", "What it does", "Enacted"]
+      rows:
+        - [{ record: us-tn-2025-2026-sb-677 }, "Tennessee", "Teachers, grades 6-12", "Must complete approved course", "22 May 2026"]
+        - [{ record: us-md-2026-sb-720 }, "Maryland", "Educators and school leaders", "State must provide training", "26 May 2026"]
+        - [{ record: us-id-2026-s-1227 }, "Idaho", "Educators", "State develops training plan", "19 Mar 2026"]
+        - [{ record: us-ct-2026-sb-5 }, "Connecticut", "K-12 teachers and administrators", "AI Academy courses and videos", "11 May 2026"]
+        - [{ record: us-nc-2025-2026-s-257 }, "North Carolina", "Educators", "Sets training module content", "7 Jul 2026"]
+        - [{ record: us-va-2026-hb-1186 }, "Virginia", "Educators in pilot divisions", "Pilot must include training", "13 Apr 2026"]
+        - [{ record: us-ca-2025-2026-ab-2392 }, "California", "Public college students, faculty, staff", "Systems must provide training", "30 Sep 2026"]
+        - [{ record: us-mi-2025-2026-hb-4706 }, "Michigan", "Educators", "Funds professional learning modules", "8 Oct 2025"]
+        - [{ record: us-ar-2025-hb-1958 }, "Arkansas", "Employees of districts and colleges", "Training on local AI policy", "17 Apr 2025"]
+        - [{ record: us-tx-2025-2026-hb-3512 }, "Texas", "School district employees", "Training as district determines", "20 Jun 2025"]
+  - h: "Training that staff must complete"
+  - p: "Tennessee's law is the only enacted measure in Edictai's records that sets a statewide completion deadline for classroom teachers. Other measures require training but leave the details to local policy or to districts."
+  - p: "Florida's State Board of Education rule, effective October 29, requires every district school board and charter school governing board to amend its internet safety policy to address AI instructional tools by July 1, 2027 [5]. Those policies must require teacher and administrator training on AI risks, limitations, safety and compliance with the rule [6]."
+  - p: "Arkansas HB 1958, enacted April 17, 2025, requires each public entity, including school districts and institutions of higher education, to create a policy defining authorized use of AI and automated decision tools [7]. Each must also train employees on appropriate use of those tools when deciding an outcome at work [8]."
+  - p: "Under Texas HB 3512, school district employees required to take the AI training complete it as the district determines, in consultation with the district's cybersecurity coordinator [9]."
+  - h: "Courses and plans built by the state"
+  - p: "Maryland's SB 720, signed May 26, requires the Maryland State Department of Education to provide AI professional development to educators and school leaders. It covers AI concepts, classroom uses, privacy, security and academic integrity, and is offered during the workday or for licensure renewal credit [10]."
+  - p: "Idaho's S 1227 requires the State Department of Education to develop and recommend a professional development plan for educators on generative AI [11]. Connecticut's 2026 SB 5 creates a Connecticut AI Academy, which must develop courses and videos for K-12 teachers and administrators on appropriate classroom AI use [12]. The Board of Regents for Higher Education must develop certificates and badges for people who complete academy courses [13]."
+  - h: "Training tied to budgets and pilot programs"
+  - p: "North Carolina's 2026 Appropriations Act, S 257, sets out the content of educator AI training modules, including responsible instructional use such as lesson planning, differentiated instruction and student feedback [14]. A budget corrections act, H 268, lets the Friday Institute carry forward nonrecurring funds for AI professional development modules [15]."
+  - p: "Michigan's 2025-2026 budget, HB 4706, directs the Department of Education to use media literacy training funds to design, implement and evaluate professional learning and optional curriculum modules on teaching AI and media literacy [16]."
+  - p: "Virginia's HB 1186 and SB 394, identical laws signed April 13, establish an AI pilot program subject to appropriation, with pilot provisions that expire July 1, 2030 [17]. Pilot divisions must include professional development for educators on AI literacy and responsible use [18] [19]."
+  - h: "Colleges and universities"
+  - p: "California's AB 2392, signed September 30, requires the state's public college systems to provide generative AI training to students, faculty or staff [20]. Their joint working group must present training and procurement recommendations to system leaders by January 1, 2028 [21]. Arkansas HB 1958 also covers institutions of higher education [7]."
+  - h: "Federal grant priorities and a DC model policy"
+  - p: "EO 14277, signed April 23, 2025, directs the Secretary of Education to prioritize AI in discretionary teacher-training grants, including professional development so all educators can integrate AI fundamentals into all subject areas [22]. The Education Department's final supplemental priority, effective May 13, makes projects that provide such professional development eligible for priority in its discretionary grant competitions [23]."
+  - p: "On November 5, the department proposed renaming and revising that priority [24]. The proposal lists support and training for educators on age-appropriate education methods among priority activities [25]."
+  - p: "In the District of Columbia, the Office of the State Superintendent of Education published a model policy for staff use of AI in the 2026-27 school year. Local education agencies may adopt it but are not required to. Under it, staff who use AI tools for work complete approved training, show AI literacy before use and renew the training each year [26]."
+  - h: "Deadlines ahead"
+  - p: "Florida districts and charter boards have until July 1, 2027, to adopt policies that include the training requirement [5]. California's working group must present its training recommendations by January 1, 2028 [21], and Tennessee teachers must complete their course by August 1, 2028 [1]. The Education Department's revised grant priority remains a proposal and is not yet final [24]."
+notes:
+  - { record: us-tn-2025-2026-sb-677, provision: 1 }
+  - record: us-tn-2025-2026-sb-677
+  - { record: us-tn-2025-2026-hb-545, provision: 1 }
+  - record: us-ct-2024-sb-5
+  - record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools
+  - { record: us-fl-sbe-rule-6a-1-0957-ai-instructional-tools, provision: 5 }
+  - record: us-ar-2025-hb-1958
+  - { record: us-ar-2025-hb-1958, provision: 2 }
+  - record: us-tx-2025-2026-hb-3512
+  - { record: us-md-2026-sb-720, provision: 4 }
+  - { record: us-id-2026-s-1227, provision: 4 }
+  - record: us-ct-2026-sb-5
+  - { record: us-ct-2026-sb-5, provision: 2 }
+  - { record: us-nc-2025-2026-s-257, provision: 3 }
+  - { record: us-nc-2025-2026-h-268, provision: 1 }
+  - record: us-mi-2025-2026-hb-4706
+  - { record: us-va-2026-hb-1186, provision: 3 }
+  - { record: us-va-2026-hb-1186, provision: 4 }
+  - { record: us-va-2026-sb-394, provision: 4 }
+  - { record: us-ca-2025-2026-ab-2392, provision: 2 }
+  - { record: us-ca-2025-2026-ab-2392, provision: 1 }
+  - { record: us-eo-14277, provision: 2 }
+  - record: us-ed-ai-supplemental-priority-final
+  - record: us-fr-2026-22615
+  - { record: us-fr-2026-22615, provision: 2 }
+  - record: us-dc-osse-ai-model-policy-staff-use
