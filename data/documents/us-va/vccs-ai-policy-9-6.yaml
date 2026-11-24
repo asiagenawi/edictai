@@ -1,0 +1,94 @@
+id: us-va-vccs-ai-policy-9-6
+jurisdiction: us-va
+issuer: us-va-higher-ed-agency-2
+title: VCCS AI Policy 9.6 and AI Standards
+classification: policy
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - student-privacy
+  - data-governance
+  - procurement
+  - admissions
+  - equity-access
+  - institutional-operations
+  - employment-evaluation
+  - instructional-use
+summary: 'The Virginia Community College System''s AI Policy 9.6 sets seven guiding principles for AI
+  use by faculty, staff, and students across the system. Three documents are issued under it: an AI Security
+  Standard, an Enterprise AI Solution Baseline, and a Use Case & Risk-Tier Guide. Together they bar sensitive
+  data such as FERPA-protected records from public AI tools, require human review of AI output, list approved
+  enterprise tools, and sort AI uses into four risk tiers, with AI decisions affecting student outcomes
+  such as admissions placed in the highest tier.'
+provisions:
+  - type: restricts-student-data-use
+    description: Bars entering personal information or FERPA-protected student education records into
+      public AI tools; sensitive data may be used only in approved enterprise tools.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.vccs.edu/ai/strategy-governance-policy/
+      locator: AI Security Standard §5.1, §5.3 (FAQ summary)
+      quote: You may never enter personal information, student education records protected by FERPA, or
+        financial data into a public AI tool.
+  - type: restricts-student-data-use
+    description: Enterprise tool agreements limit vendor data retention and restrict vendors from training
+      models on user inputs.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.vccs.edu/ai/strategy-governance-policy/
+      locator: Enterprise AI Solution Baseline §3, §4 (FAQ summary)
+      quote: Signing in with your VCCS account gives you the contractual protections VCCS has negotiated
+        for the approved enterprise tools, including limits on data retention and restrictions on using
+        your inputs to train the vendor's models.
+  - type: procurement-standards
+    description: The System Office CIO maintains an AI standard that guides how AI systems are procured,
+      deployed and operated; colleges must follow it for locally controlled AI systems.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.vccs.edu/ai/strategy-governance-policy/
+      locator: AI Policy 9.6 §9.6.4 (FAQ summary)
+      quote: Informed by the Chancellor and the Information Technology Executive Council, that office
+        develops, publishes and maintains the VCCS AI standard, which gives specific guidance on procuring,
+        deploying and operating AI systems.
+  - type: ai-in-admissions
+    description: Puts AI-driven decisions affecting student outcomes, including admissions, hiring and
+      discipline, in the highest risk tier, which requires governance and legal review and approval from
+      the CIO and executive leadership.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.vccs.edu/ai/strategy-governance-policy/
+      locator: Use Case & Risk-Tier Guide §5.4 (FAQ summary)
+      quote: AI-driven decision-making that affects student outcomes, such as admissions, hiring, or disciplinary
+        decisions, requires highly restricted, explicitly approved solutions, a full governance and legal
+        review, and approval from the CIO plus executive leadership.
+  - type: bias-or-equity-requirement
+    description: Requires research, mitigation and documentation of bias wherever AI is used in decisions
+      that significantly affect individuals.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.vccs.edu/ai/strategy-governance-policy/
+      locator: AI Policy 9.6 §9.6.3 (FAQ summary)
+      quote: And bias mitigation in decision-making, which requires research, mitigation and documentation
+        wherever AI is used in decisions that significantly affect individuals.
+sources:
+  - url: https://www.vccs.edu/ai/strategy-governance-policy/
+    title: Policies, Standards & Guidelines
+    publisher: Virginia Community College System
+    kind: official
+    accessed: "2026-11-24"
+  - url: https://www.vccs.edu/ai/
+    publisher: Virginia Community College System
+    kind: official
+    accessed: "2026-11-24"
+verification:
+  status: machine-verified
+  last_verified: "2026-11-24"
+  method: change-watcher
+  notes: Found by the change watcher on https://www.vccs.edu/ai/ (observed 2026-11-18); fields checked
+    against the source text by claude-opus-5-5.

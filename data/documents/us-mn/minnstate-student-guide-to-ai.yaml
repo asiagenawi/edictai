@@ -1,0 +1,69 @@
+id: us-mn-minnstate-student-guide-to-ai
+jurisdiction: us-mn
+issuer: us-mn-minnstate
+title: Student Guide to AI at Minnesota State
+classification: guidance
+status: current
+education_levels:
+  - postsecondary
+topics:
+  - ai-literacy
+  - instructional-use
+  - academic-integrity
+  - student-privacy
+  - equity-access
+  - synthetic-media
+  - workforce
+summary: Minnesota State's systemwide guide for students on generative AI. It covers what AI can and cannot
+  do, checking each instructor's course rules, ethical use and citation, data privacy with system-approved
+  tools such as Microsoft Copilot and Zoom AI Companion, checking accuracy and bias, equity and accessibility,
+  and career skills. A November 2026 revision removed a statement that uploading others' work to Copilot
+  does not violate copyright or privacy, and added a note that uploading copyrighted content without permission
+  may violate copyright law.
+published: "2026"
+updated: "2026-11-20"
+provisions:
+  - type: academic-integrity-rules
+    description: Tells students that using AI in ways their instructor does not allow can be academic
+      dishonesty, and that submitting AI-generated work without citing it is plagiarism.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.minnstate.edu/system/asa/innovations/student-guide-to-ai.html
+      locator: Section 3, Know Your Course Rules
+      quote: If you’re unsure, ask early. Using AI in ways your instructor doesn’t allow can be considered
+        academic dishonesty.
+  - type: limits-ai-instructional-use
+    description: Tells students to use system-approved AI tools when AI is allowed, and states that some
+      tools, such as read.ai, are not allowed.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.minnstate.edu/system/asa/innovations/student-guide-to-ai.html
+      locator: Section 5, Your approved AI tools
+      quote: Some tools, like read.ai, are not allowed because they can record or store private information
+        without consent.
+  - type: addresses-deepfakes
+    description: Warns students that making deepfakes or using AI to impersonate someone may violate the
+      student code of conduct.
+    education_levels:
+      - postsecondary
+    citation:
+      source_url: https://www.minnstate.edu/system/asa/innovations/student-guide-to-ai.html
+      locator: Section 4, Using AI Ethically
+      quote: Making deepfakes or using AI to impersonate someone. This is unethical and it may violate
+        the student code of conduct.
+related:
+  - us-mn-minnstate-generative-ai-guidance
+sources:
+  - url: https://www.minnstate.edu/system/asa/innovations/student-guide-to-ai.html
+    title: Student Guide to AI at Minnesota State
+    publisher: Minnesota State Colleges and Universities
+    kind: official
+    accessed: "2026-11-24"
+verification:
+  status: machine-verified
+  last_verified: "2026-11-24"
+  method: change-watcher
+  notes: Found by the change watcher on https://www.minnstate.edu/system/asa/innovations/student-guide-to-ai.html
+    (observed 2026-11-21); fields checked against the source text by claude-opus-5-5.
